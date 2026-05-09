@@ -14,27 +14,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           sparse-checkout: |
-            data
+            public/data
             .github
           sparse-checkout-cone-mode: false
-
-      - name: Fetch GitHub Trending
-        id: fetch
-        run: |
-          # Fetch GitHub Trending page (all languages combined)
-          echo "Fetching GitHub Trending..."
-          
-          # Use curl with browser user-agent
-          TRENDING_HTML=$(curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
-            "https://github.com/trending" \
-            -H "Accept: text/html")
-          
-          if [ -z "$TRENDING_HTML" ]; then
-            echo "ERROR: Failed to fetch GitHub Trending"
-            exit 1
-          fi
-          
-          echo "Fetched $(echo "$TRENDING_HTML" | wc -c) bytes"
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -58,8 +40,6 @@ jobs:
                   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
               }
-              
-              # Try multiple times
               for attempt in range(3):
                   try:
                       response = requests.get('https://github.com/trending', headers=headers, timeout=30)
@@ -68,46 +48,31 @@ jobs:
                       print(f"Attempt {attempt+1} failed with status {response.status_code}")
                   except Exception as e:
                       print(f"Attempt {attempt+1} failed: {e}")
-              
               return None
 
           def parse_trending(html):
               if not html:
                   return []
-              
               soup = BeautifulSoup(html, 'html.parser')
               articles = soup.select('article.Box-row')
-              
               projects = []
               for i, article in enumerate(articles[:10], 1):
-                  # Get repo name
                   repo_link = article.select_one('h2 a')
                   if not repo_link:
                       continue
-                  
                   full_name = repo_link.get('href', '').strip('/')
                   if '/' not in full_name:
                       continue
-                  
                   owner, repo = full_name.split('/', 1)
-                  
-                  # Get description
                   desc_elem = article.select_one('p')
                   description = desc_elem.get_text(strip=True) if desc_elem else ''
-                  
-                  # Get language
                   lang_elem = article.select_one('span[itemprop="programmingLanguage"]')
                   language = lang_elem.get_text(strip=True) if lang_elem else ''
-                  
-                  # Get stars (formatted number)
                   stars_elem = article.select_one('a[href$="/stargazers"]')
                   stars_text = stars_elem.get_text(strip=True) if stars_elem else '0'
-                  # Parse "1.2k" to 1200
                   stars = stars_text.replace(',', '')
                   if 'k' in stars.lower():
                       stars = str(int(float(stars.lower().replace('k','')) * 1000))
-                  
-                  # Get today's stars (if available)
                   today_stars = 0
                   today_elem = article.select_one('span.float-sm-right')
                   if today_elem:
@@ -119,7 +84,6 @@ jobs:
                               today_stars = int(float(today_val) * 1000)
                           else:
                               today_stars = int(today_val)
-                  
                   projects.append({
                       'rank': i,
                       'name': f'{owner}/{repo}',
@@ -130,45 +94,33 @@ jobs:
                       'growth': str(today_stars),
                       'growthValue': today_stars
                   })
-              
               return projects
 
-          # Fetch and parse
           html = fetch_github_trending()
           projects = parse_trending(html)
-          
           if not projects:
-              print("WARNING: No projects parsed, keeping existing data")
+              print("WARNING: No projects parsed")
               exit(1)
-          
-          # Load existing data
+
           existing_data = {}
           try:
-              with open('data/trending.json', 'r') as f:
+              with open('public/data/trending.json', 'r') as f:
                   existing_data = json.load(f)
           except:
               pass
-          
-          # Update weekly data (today's trending = daily stars as proxy for growth)
-          weekly = projects
-          
-          # Update monthly data (keep existing monthly if available, or use weekly)
-          monthly = existing_data.get('monthly', projects)
-          
-          # Save
+
           trending_data = {
-              'weekly': weekly,
-              'monthly': monthly,
+              'weekly': projects,
+              'monthly': existing_data.get('monthly', projects),
               'lastUpdated': datetime.now().strftime('%Y-%m-%d %H:%M'),
               'generatedAt': datetime.now().isoformat()
           }
-          
-          with open('data/trending.json', 'w') as f:
+
+          with open('public/data/trending.json', 'w') as f:
               json.dump(trending_data, f, ensure_ascii=False, indent=2)
-          
-          print(f"Saved {len(weekly)} weekly + {len(monthly)} monthly projects")
-          print(f"Updated at: {trending_data['lastUpdated']}")
-          print(f"Top project: {weekly[0]['name']} ({weekly[0]['totalStars']} stars, +{weekly[0]['growth']} today)")
+
+          print(f"Saved {len(trending_data['weekly'])} weekly + {len(trending_data['monthly'])} monthly")
+          print(f"Top: {projects[0]['name']} ({projects[0]['totalStars']} stars, +{projects[0]['growth']} today)")
 
           EOF
 
@@ -176,6 +128,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions"
-          git add data/trending.json
+          git add public/data/trending.json
           git diff --staged --quiet || git commit -m "chore: auto-update trending data $(date +'%Y-%m-%d')"
           git push 2>&1 || echo "Push failed (may be no changes)"
