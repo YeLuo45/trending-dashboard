@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+@theme {
+  --color-github-dark: #0d1117;
+  --color-github-card: #161b22;
+  --color-github-border: #30363d;
+  --color-github-text: #e6edf3;
+  --color-github-muted: #8b949e;
+  --color-github-green: #3fb950;
+  --color-github-purple: #a371f7;
+  --color-github-orange: #f0883e;
+}
