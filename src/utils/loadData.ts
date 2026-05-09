@@ -1,9 +1,12 @@
 import type { TrendingData, TrendingProject } from '../types';
 
+// Use Vite's BASE_URL for GitHub Pages subdirectory deployment
+const BASE_PATH = import.meta.env.BASE_URL;
+
 // Load data from JSON file in public folder
 export async function loadTrendingFromFiles(): Promise<TrendingData> {
   try {
-    const response = await fetch('/data/trending.json');
+    const response = await fetch(`${BASE_PATH}data/trending.json`);
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
