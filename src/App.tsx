@@ -2,11 +2,13 @@ import { useState, useEffect } from 'react';
 import { Header, TabButton, ProjectList } from './components';
 import { loadTrendingFromFiles, loadSampleData } from './utils/loadData';
 import type { TrendingData } from './types';
+import type { GhUser } from './types';
 
 function App() {
   const [activeTab, setActiveTab] = useState<'weekly' | 'monthly'>('weekly');
   const [data, setData] = useState<TrendingData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [ghUser, setGhUser] = useState<GhUser | null>(null);
 
   useEffect(() => {
     async function fetchData() {
@@ -42,8 +44,8 @@ function App() {
   return (
     <div className="min-h-screen bg-github-dark">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <Header lastUpdated={data.lastUpdated} />
-        
+        <Header lastUpdated={data.lastUpdated} ghUser={ghUser} onGhUserChange={setGhUser} />
+
         {/* Tabs */}
         <div className="flex border-b border-github-border mb-8">
           <TabButton
@@ -57,7 +59,7 @@ function App() {
             onClick={() => setActiveTab('monthly')}
           />
         </div>
-        
+
         {/* Content */}
         <ProjectList
           projects={activeTab === 'weekly' ? data.weekly : data.monthly}

@@ -14,3 +14,9 @@ export interface TrendingData {
   monthly: TrendingProject[];
   lastUpdated: string;
 }
+
+export interface GhUser {
+  login: string;
+  avatar_url: string;
+  name: string;
+}
