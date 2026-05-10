@@ -26,7 +26,6 @@ function getForkHistory(): ForkHistoryItem[] {
 
 function addToForkHistory(item: Omit<ForkHistoryItem, 'forkedAt'>): void {
   const history = getForkHistory();
-  // Avoid duplicates
   if (!history.some(h => h.name === item.name)) {
     history.unshift({ ...item, forkedAt: new Date().toLocaleString() });
     localStorage.setItem(FORK_HISTORY_KEY, JSON.stringify(history.slice(0, 50)));
@@ -43,12 +42,12 @@ function App() {
   const [batchResults, setBatchResults] = useState<{ name: string; success: boolean; url?: string; error?: string }[]>([]);
   const [forkHistory, setForkHistory] = useState<ForkHistoryItem[]>([]);
   const [showHistory, setShowHistory] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     async function fetchData() {
       try {
         const trendingData = await loadTrendingFromFiles();
-        // Translate descriptions to Chinese
         const translatedWeekly = await translateDescriptions(trendingData.weekly);
         const translatedMonthly = await translateDescriptions(trendingData.monthly);
         setData({
@@ -148,14 +147,26 @@ function App() {
     );
   }
 
-  const projects = activeTab === 'weekly' ? data.weekly : data.monthly;
+  const allProjects = activeTab === 'weekly' ? data.weekly : data.monthly;
+
+  // Filter projects by search query
+  const filteredProjects = searchQuery.trim()
+    ? allProjects.filter(p => {
+        const q = searchQuery.toLowerCase();
+        return (
+          p.name.toLowerCase().includes(q) ||
+          p.description.toLowerCase().includes(q) ||
+          p.keywords.some(k => k.toLowerCase().includes(q))
+        );
+      })
+    : allProjects;
 
   return (
     <div className="min-h-screen bg-github-dark">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <Header 
-          lastUpdated={data.lastUpdated} 
-          ghUser={ghUser} 
+        <Header
+          lastUpdated={data.lastUpdated}
+          ghUser={ghUser}
           onGhUserChange={setGhUser}
           forkHistoryCount={forkHistory.length}
           onShowHistory={() => setShowHistory(true)}
@@ -175,6 +186,23 @@ function App() {
           />
         </div>
 
+        {/* Search Bar */}
+        <div className="mb-4">
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+            placeholder="搜索项目名称、描述或标签..."
+            className="w-full px-4 py-2 bg-github-card border border-github-border rounded text-github-text text-sm placeholder-github-muted focus:outline-none focus:border-github-purple transition-colors"
+          />
+          {searchQuery && (
+            <p className="text-github-muted text-xs mt-2">
+              找到 <span className="text-github-purple">{filteredProjects.length}</span> 个结果
+              <button onClick={() => setSearchQuery('')} className="ml-3 text-github-purple hover:underline">清除</button>
+            </p>
+          )}
+        </div>
+
         {/* Batch Fork Bar */}
         <div className="mb-6 p-4 bg-github-card border border-github-border rounded-lg">
           <div className="flex items-center justify-between">
@@ -183,7 +211,7 @@ function App() {
                 onClick={handleSelectAll}
                 className="text-sm text-github-purple hover:underline"
               >
-                {selectedProjects.size === projects.length ? '取消全选' : '全选'}
+                {selectedProjects.size === filteredProjects.length ? '取消全选' : '全选'}
               </button>
               <span className="text-github-muted text-sm">
                 已选择 <span className="text-github-purple font-medium">{selectedProjects.size}</span> 个项目
@@ -218,7 +246,7 @@ function App() {
 
         {/* Content */}
         <ProjectList
-          projects={projects}
+          projects={filteredProjects}
           type={activeTab}
           selectedProjects={selectedProjects}
           onToggleSelect={handleToggleSelect}
