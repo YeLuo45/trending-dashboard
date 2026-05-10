@@ -77,3 +77,25 @@ export function parseRepoInfo(link: string): { owner: string; repo: string } | n
   if (!match) return null;
   return { owner: match[1], repo: match[2] };
 }
+
+export interface RepoStats {
+  stars: number;
+  forks: number;
+}
+
+export async function fetchRepoStats(owner: string, repo: string, token?: string): Promise<RepoStats | null> {
+  try {
+    const headers: Record<string, string> = {
+      Accept: 'application/vnd.github.v3+json',
+    };
+    if (token) {
+      headers['Authorization'] = `Bearer ${token}`;
+    }
+    const res = await fetch(`https://api.github.com/repos/${owner}/${repo}`, { headers });
+    if (!res.ok) return null;
+    const data = await res.json();
+    return { stars: data.stargazers_count || 0, forks: data.forks_count || 0 };
+  } catch {
+    return null;
+  }
+}

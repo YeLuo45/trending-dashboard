@@ -7,6 +7,7 @@ export interface TrendingProject {
   totalStars: string;
   growth: string;
   growthValue: number;
+  forks?: string;
 }
 
 export interface TrendingData {

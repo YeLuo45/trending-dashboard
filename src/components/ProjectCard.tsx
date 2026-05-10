@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import type { TrendingProject } from '../types';
-import { getGhToken, forkRepo, parseRepoInfo } from '../utils/github';
+import { getGhToken, forkRepo, parseRepoInfo, fetchRepoStats } from '../utils/github';
 
 interface ProjectCardProps {
   project: TrendingProject;
@@ -11,12 +11,22 @@ interface ProjectCardProps {
 export function ProjectCard({ project, selected, onSelect }: ProjectCardProps) {
   const [forking, setForking] = useState(false);
   const [forkResult, setForkResult] = useState<{ success: boolean; url?: string; error?: string } | null>(null);
+  const [repoStats, setRepoStats] = useState<{ stars: number; forks: number } | null>(null);
   const token = getGhToken();
 
   const repoInfo = parseRepoInfo(project.link);
   const owner = repoInfo?.owner || project.name.split('/')[0];
   const repo = repoInfo?.repo || project.name.split('/')[1];
   const language = project.keywords[0] || 'Unknown';
+
+  // Fetch real repo stats
+  useEffect(() => {
+    if (repoInfo) {
+      fetchRepoStats(repoInfo.owner, repoInfo.repo, token || undefined).then(stats => {
+        if (stats) setRepoStats(stats);
+      });
+    }
+  }, [project.name]);
 
   const languageColors: Record<string, string> = {
     Python: 'bg-yellow-400',
@@ -71,6 +81,10 @@ export function ProjectCard({ project, selected, onSelect }: ProjectCardProps) {
     return 'text-gray-500';
   };
 
+  // Use real stats if available, otherwise fall back to cached data
+  const displayStars = repoStats?.stars ?? parseInt(project.totalStars.replace(/,/g, ''));
+  const displayForks = repoStats?.forks ?? parseInt(project.forks?.replace(/,/g, '') || '0');
+
   return (
     <div className={`bg-github-card border rounded-lg p-4 transition-all duration-200 hover:shadow-lg hover:shadow-github-purple/10 ${
       selected ? 'border-github-purple border-2' : 'border-github-border hover:border-github-purple/50'
@@ -122,11 +136,15 @@ export function ProjectCard({ project, selected, onSelect }: ProjectCardProps) {
           <div className="flex items-center gap-4 text-sm">
             <div className="flex items-center gap-1">
               <span className="text-github-orange">★</span>
-              <span className="text-github-muted">{parseInt(project.totalStars).toLocaleString()}</span>
+              <span className="text-github-muted">{displayStars.toLocaleString()}</span>
+            </div>
+            <div className="flex items-center gap-1">
+              <span className="text-github-blue">⑂</span>
+              <span className="text-github-muted">{displayForks.toLocaleString()}</span>
             </div>
             <div className="flex items-center gap-1">
               <span className="text-github-green">⬆</span>
-              <span className="text-github-green font-medium">+{parseInt(project.growth).toLocaleString()}</span>
+              <span className="text-github-green font-medium">+{parseInt(project.growth.replace(/,/g, '')).toLocaleString()}</span>
             </div>
 
             {/* Fork Button */}
