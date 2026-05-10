@@ -22,7 +22,7 @@ export function ProjectCard({ project, selected, onSelect }: ProjectCardProps) {
     Python: 'bg-yellow-400',
     TypeScript: 'bg-blue-400',
     JavaScript: 'bg-yellow-300',
-    Go: 'bg/cyan-400',
+    Go: 'bg-cyan-400',
     Rust: 'bg-orange-500',
     Java: 'bg-red-500',
     'Jupyter Notebook': 'bg-orange-400',
@@ -91,13 +91,21 @@ export function ProjectCard({ project, selected, onSelect }: ProjectCardProps) {
 
         {/* Content */}
         <div className="flex-1 min-w-0">
-          {/* Project Name + Owner */}
+          {/* Project Name + Owner - clickable link */}
           <div className="flex items-center gap-2 mb-1">
-            <h3 className="text-lg font-semibold text-github-purple truncate">
-              {repo}
-            </h3>
-            <span className="text-github-muted text-sm">/</span>
-            <span className="text-github-muted text-sm">{owner}</span>
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:underline"
+              onClick={e => e.stopPropagation()}
+            >
+              <h3 className="text-lg font-semibold text-github-purple truncate">
+                {repo}
+              </h3>
+              <span className="text-github-muted text-sm">/</span>
+              <span className="text-github-muted text-sm">{owner}</span>
+            </a>
             {/* Language Badge */}
             <span className="flex items-center gap-1 px-2 py-0.5 text-xs rounded-full bg-github-dark">
               <span className={`w-2 h-2 rounded-full ${langColor}`}></span>
@@ -109,18 +117,6 @@ export function ProjectCard({ project, selected, onSelect }: ProjectCardProps) {
           <p className="text-github-muted text-sm mb-3 line-clamp-2">
             {project.description}
           </p>
-
-          {/* Keywords */}
-          <div className="flex flex-wrap gap-2 mb-3">
-            {project.keywords.slice(1).map((keyword, i) => (
-              <span
-                key={i}
-                className="px-2 py-0.5 text-xs rounded-full bg-github-purple/20 text-github-purple"
-              >
-                {keyword}
-              </span>
-            ))}
-          </div>
 
           {/* Stats */}
           <div className="flex items-center gap-4 text-sm">

@@ -4,6 +4,34 @@ import { loadTrendingFromFiles, loadSampleData } from './utils/loadData';
 import type { TrendingData } from './types';
 import type { GhUser } from './types';
 import { getGhToken, forkRepo, parseRepoInfo } from './utils/github';
+import { translateDescriptions } from './utils/translation';
+
+const FORK_HISTORY_KEY = 'fork_history';
+
+export interface ForkHistoryItem {
+  name: string;
+  link: string;
+  description: string;
+  forkedAt: string;
+  url: string;
+}
+
+function getForkHistory(): ForkHistoryItem[] {
+  try {
+    return JSON.parse(localStorage.getItem(FORK_HISTORY_KEY) || '[]');
+  } catch {
+    return [];
+  }
+}
+
+function addToForkHistory(item: Omit<ForkHistoryItem, 'forkedAt'>): void {
+  const history = getForkHistory();
+  // Avoid duplicates
+  if (!history.some(h => h.name === item.name)) {
+    history.unshift({ ...item, forkedAt: new Date().toLocaleString() });
+    localStorage.setItem(FORK_HISTORY_KEY, JSON.stringify(history.slice(0, 50)));
+  }
+}
 
 function App() {
   const [activeTab, setActiveTab] = useState<'weekly' | 'monthly'>('weekly');
@@ -13,20 +41,37 @@ function App() {
   const [selectedProjects, setSelectedProjects] = useState<Set<string>>(new Set());
   const [batchForking, setBatchForking] = useState(false);
   const [batchResults, setBatchResults] = useState<{ name: string; success: boolean; url?: string; error?: string }[]>([]);
+  const [forkHistory, setForkHistory] = useState<ForkHistoryItem[]>([]);
+  const [showHistory, setShowHistory] = useState(false);
 
   useEffect(() => {
     async function fetchData() {
       try {
         const trendingData = await loadTrendingFromFiles();
-        setData(trendingData);
+        // Translate descriptions to Chinese
+        const translatedWeekly = await translateDescriptions(trendingData.weekly);
+        const translatedMonthly = await translateDescriptions(trendingData.monthly);
+        setData({
+          ...trendingData,
+          weekly: translatedWeekly,
+          monthly: translatedMonthly,
+        });
       } catch (error) {
         console.error('Failed to load data:', error);
-        setData(loadSampleData());
+        const sample = loadSampleData();
+        const translatedWeekly = await translateDescriptions(sample.weekly);
+        const translatedMonthly = await translateDescriptions(sample.monthly);
+        setData({
+          ...sample,
+          weekly: translatedWeekly,
+          monthly: translatedMonthly,
+        });
       } finally {
         setLoading(false);
       }
     }
     fetchData();
+    setForkHistory(getForkHistory());
   }, []);
 
   const handleToggleSelect = (name: string) => {
@@ -75,6 +120,7 @@ function App() {
       const result = await forkRepo(info.owner, info.repo, token);
       results.push({ name: project.name, ...result });
       if (result.success && result.url) {
+        addToForkHistory({ name: project.name, link: project.link, description: project.description, url: result.url });
         window.open(result.url, '_blank');
       }
       await new Promise(r => setTimeout(r, 500));
@@ -83,12 +129,13 @@ function App() {
     setBatchForking(false);
     setBatchResults(results);
     setSelectedProjects(new Set());
+    setForkHistory(getForkHistory());
   };
 
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-github-dark">
-        <div className="text-github-purple text-lg">加载中...</div>
+        <div className="text-github-purple text-lg">翻译中...</div>
       </div>
     );
   }
@@ -106,7 +153,13 @@ function App() {
   return (
     <div className="min-h-screen bg-github-dark">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <Header lastUpdated={data.lastUpdated} ghUser={ghUser} onGhUserChange={setGhUser} />
+        <Header 
+          lastUpdated={data.lastUpdated} 
+          ghUser={ghUser} 
+          onGhUserChange={setGhUser}
+          forkHistoryCount={forkHistory.length}
+          onShowHistory={() => setShowHistory(true)}
+        />
 
         {/* Tabs */}
         <div className="flex border-b border-github-border mb-4">
@@ -171,6 +224,39 @@ function App() {
           onToggleSelect={handleToggleSelect}
         />
       </div>
+
+      {/* Fork History Modal */}
+      {showHistory && (
+        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50" onClick={() => setShowHistory(false)}>
+          <div className="bg-github-card border border-github-border rounded-lg p-6 w-[600px] max-w-[90vw] max-h-[80vh] overflow-auto" onClick={e => e.stopPropagation()}>
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-xl font-semibold text-github-text">📋 Fork 历史</h2>
+              <button onClick={() => setShowHistory(false)} className="text-github-muted hover:text-github-text text-2xl leading-none">&times;</button>
+            </div>
+            {forkHistory.length === 0 ? (
+              <p className="text-github-muted text-center py-8">暂无 Fork 记录</p>
+            ) : (
+              <div className="space-y-3">
+                {forkHistory.map((item, i) => (
+                  <a
+                    key={i}
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block p-3 bg-github-dark rounded hover:bg-github-dark/80 transition-colors"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-github-purple font-medium">{item.name}</span>
+                      <span className="text-github-muted text-xs">{item.forkedAt}</span>
+                    </div>
+                    <p className="text-github-muted text-sm mt-1 line-clamp-1">{item.description}</p>
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

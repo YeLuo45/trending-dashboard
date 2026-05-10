@@ -7,9 +7,11 @@ interface HeaderProps {
   lastUpdated: string;
   ghUser: GhUser | null;
   onGhUserChange: (user: GhUser | null) => void;
+  forkHistoryCount?: number;
+  onShowHistory?: () => void;
 }
 
-export function Header({ lastUpdated, ghUser, onGhUserChange }: HeaderProps) {
+export function Header({ lastUpdated, ghUser, onGhUserChange, forkHistoryCount = 0, onShowHistory }: HeaderProps) {
   const [showSettings, setShowSettings] = useState(false);
 
   useEffect(() => {
@@ -40,6 +42,22 @@ export function Header({ lastUpdated, ghUser, onGhUserChange }: HeaderProps) {
                 <p className="text-github-muted text-xs">最后更新</p>
                 <p className="text-github-purple text-sm font-medium">{lastUpdated}</p>
               </div>
+            )}
+
+            {/* Fork History Button */}
+            {onShowHistory && (
+              <button
+                onClick={onShowHistory}
+                className="flex items-center gap-2 px-3 py-2 bg-github-card border border-github-border rounded hover:border-github-purple/50 transition-colors"
+              >
+                <span>📋</span>
+                <span className="text-github-muted text-xs">历史</span>
+                {forkHistoryCount > 0 && (
+                  <span className="px-1.5 py-0.5 text-xs rounded-full bg-github-purple text-white">
+                    {forkHistoryCount}
+                  </span>
+                )}
+              </button>
             )}
 
             {/* Settings Button */}
