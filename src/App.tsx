@@ -3,18 +3,12 @@ import { Header, TabButton, ProjectList } from './components';
 import { loadTrendingFromFiles, loadSampleData } from './utils/loadData';
 import type { TrendingData } from './types';
 import type { GhUser } from './types';
-import { getGhToken, forkRepo, parseRepoInfo } from './utils/github';
+import { getGhToken, forkRepo, parseRepoInfo, syncForkHistory, type ForkHistoryRecord } from './utils/github';
 import { translateDescriptions } from './utils/translation';
 
 const FORK_HISTORY_KEY = 'fork_history';
 
-export interface ForkHistoryItem {
-  name: string;
-  link: string;
-  description: string;
-  forkedAt: string;
-  url: string;
-}
+export interface ForkHistoryItem extends ForkHistoryRecord {}
 
 function getForkHistory(): ForkHistoryItem[] {
   try {
@@ -74,7 +68,25 @@ function App() {
       }
     }
     fetchData();
-    setForkHistory(getForkHistory());
+    const token = getGhToken();
+    if (token) {
+      // Load remote fork history and merge with local
+      syncForkHistory(getForkHistory(), token).then(result => {
+        if (result.updated) {
+          setForkHistory(result.records);
+          localStorage.setItem(FORK_HISTORY_KEY, JSON.stringify(result.records.slice(0, 50)));
+        } else if (result.error) {
+          console.warn('Fork history sync failed:', result.error);
+          setForkHistory(getForkHistory());
+        } else {
+          setForkHistory(result.records);
+        }
+      }).catch(() => {
+        setForkHistory(getForkHistory());
+      });
+    } else {
+      setForkHistory(getForkHistory());
+    }
   }, []);
 
   const handleToggleSelect = (name: string) => {
@@ -131,7 +143,16 @@ function App() {
 
     setBatchForking(false);
     setBatchResults(results);
-    setSelectedProjects(new Set());
+
+    // Sync to remote after batch fork
+    if (token) {
+      syncForkHistory(getForkHistory(), token).then(result => {
+        if (result.updated) {
+          setForkHistory(result.records);
+          localStorage.setItem(FORK_HISTORY_KEY, JSON.stringify(result.records.slice(0, 50)));
+        }
+      });
+    }
     setForkHistory(getForkHistory());
   };
 
