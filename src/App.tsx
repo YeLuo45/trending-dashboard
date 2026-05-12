@@ -33,7 +33,7 @@ function addToForkHistory(item: Omit<ForkHistoryItem, 'forkedAt'>): void {
 }
 
 function App() {
-  const [activeTab, setActiveTab] = useState<'weekly' | 'monthly'>('weekly');
+  const [activeTab, setActiveTab] = useState<'weekly' | 'monthly' | 'daily'>('weekly');
   const [data, setData] = useState<TrendingData | null>(null);
   const [loading, setLoading] = useState(true);
   const [ghUser, setGhUser] = useState<GhUser | null>(null);
@@ -50,20 +50,24 @@ function App() {
         const trendingData = await loadTrendingFromFiles();
         const translatedWeekly = await translateDescriptions(trendingData.weekly);
         const translatedMonthly = await translateDescriptions(trendingData.monthly);
+        const translatedDaily = trendingData.daily ? await translateDescriptions(trendingData.daily) : [];
         setData({
           ...trendingData,
           weekly: translatedWeekly,
           monthly: translatedMonthly,
+          daily: translatedDaily,
         });
       } catch (error) {
         console.error('Failed to load data:', error);
         const sample = loadSampleData();
         const translatedWeekly = await translateDescriptions(sample.weekly);
         const translatedMonthly = await translateDescriptions(sample.monthly);
+        const translatedDaily = sample.daily ? await translateDescriptions(sample.daily) : [];
         setData({
           ...sample,
           weekly: translatedWeekly,
           monthly: translatedMonthly,
+          daily: translatedDaily,
         });
       } finally {
         setLoading(false);
@@ -87,7 +91,7 @@ function App() {
 
   const handleSelectAll = () => {
     if (!data) return;
-    const projects = activeTab === 'weekly' ? data.weekly : data.monthly;
+    const projects = activeTab === 'weekly' ? data.weekly : activeTab === 'monthly' ? data.monthly : (data.daily || []);
     if (selectedProjects.size === projects.length) {
       setSelectedProjects(new Set());
     } else {
@@ -103,7 +107,7 @@ function App() {
     }
     if (selectedProjects.size === 0) return;
 
-    const projects = activeTab === 'weekly' ? data!.weekly : data!.monthly;
+    const projects = activeTab === 'weekly' ? data!.weekly : activeTab === 'monthly' ? data!.monthly : (data!.daily || []);
     const selected = projects.filter(p => selectedProjects.has(p.name));
 
     setBatchForking(true);
@@ -147,7 +151,7 @@ function App() {
     );
   }
 
-  const allProjects = activeTab === 'weekly' ? data.weekly : data.monthly;
+  const allProjects = activeTab === 'weekly' ? data.weekly : activeTab === 'monthly' ? data.monthly : (data.daily || []);
 
   // Filter projects by search query
   const filteredProjects = searchQuery.trim()
@@ -183,6 +187,11 @@ function App() {
             active={activeTab === 'monthly'}
             label="🔥 本月最热"
             onClick={() => setActiveTab('monthly')}
+          />
+          <TabButton
+            active={activeTab === 'daily'}
+            label="⚡ 今日趋势"
+            onClick={() => setActiveTab('daily')}
           />
         </div>
 
