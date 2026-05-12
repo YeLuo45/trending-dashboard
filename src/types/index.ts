@@ -15,6 +15,8 @@ export interface TrendingData {
   monthly: TrendingProject[];
   daily?: TrendingProject[];
   lastUpdated: string;
+  stars_history?: Record<string, Record<string, number>>;
+  forks_history?: Record<string, Record<string, number>>;
 }
 
 export interface GhUser {
