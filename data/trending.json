@@ -1,28 +1,280 @@
 {
   "weekly": [
-    {"rank": 1, "name": "anthropics/financial-services", "link": "https://github.com/anthropics/financial-services", "description": "Anthropic's financial services reference implementation", "keywords": ["Finance", "Python"], "totalStars": "16687", "growth": "5848", "growthValue": 5848},
-    {"rank": 2, "name": "ruvnet/ruflo", "link": "https://github.com/ruvnet/ruflo", "description": "The leading agent orchestration platform for Claude", "keywords": ["AI Agent", "Claude", "TypeScript"], "totalStars": "47379", "growth": "12226", "growthValue": 12226},
-    {"rank": 3, "name": "TauricResearch/TradingAgents", "link": "https://github.com/TauricResearch/TradingAgents", "description": "TradingAgents: Multi-Agents LLM Financial Trading", "keywords": ["AI Agent", "Trading", "Finance", "Python"], "totalStars": "72239", "growth": "12981", "growthValue": 12981},
-    {"rank": 4, "name": "docusealco/docuseal", "link": "https://github.com/docusealco/docuseal", "description": "Open source DocuSign alternative", "keywords": ["Ruby"], "totalStars": "15995", "growth": "4069", "growthValue": 4069},
-    {"rank": 5, "name": "virattt/dexter", "link": "https://github.com/virattt/dexter", "description": "An autonomous agent for deep financial research", "keywords": ["AI Agent", "Finance", "TypeScript"], "totalStars": "24979", "growth": "3278", "growthValue": 3278},
-    {"rank": 6, "name": "soxoj/maigret", "link": "https://github.com/soxoj/maigret", "description": "Collect a dossier on a person by username", "keywords": ["Python"], "totalStars": "26861", "growth": "5398", "growthValue": 5398},
-    {"rank": 7, "name": "1jehuang/jcode", "link": "https://github.com/1jehuang/jcode", "description": "Coding Agent Harness", "keywords": ["AI Agent", "Rust"], "totalStars": "5239", "growth": "2925", "growthValue": 2925},
-    {"rank": 8, "name": "cocoindex-io/cocoindex", "link": "https://github.com/cocoindex-io/cocoindex", "description": "Incremental engine for long horizon agents", "keywords": ["AI Agent", "Python"], "totalStars": "9248", "growth": "1909", "growthValue": 1909},
-    {"rank": 9, "name": "AIDC-AI/Pixelle-Video", "link": "https://github.com/AIDC-AI/Pixelle-Video", "description": "AI全自动短视频引擎", "keywords": ["AI", "Python"], "totalStars": "14042", "growth": "5136", "growthValue": 5136},
-    {"rank": 10, "name": "mattpocock/skills", "link": "https://github.com/mattpocock/skills", "description": "Skills for Real Engineers", "keywords": ["Claude", "Shell"], "totalStars": "67500", "growth": "14928", "growthValue": 14928}
+    {
+      "name": "anthropics/financial-services",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "owner": "anthropics",
+      "repo": "financial-services"
+    },
+    {
+      "name": "Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "stars": 0,
+      "language": "Rust",
+      "owner": "Hmbown",
+      "repo": "DeepSeek-TUI"
+    },
+    {
+      "name": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "stars": 0,
+      "language": "TypeScript",
+      "owner": "bytedance",
+      "repo": "UI-TARS-desktop"
+    },
+    {
+      "name": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "stars": 0,
+      "language": "Python",
+      "owner": "CloakHQ",
+      "repo": "CloakBrowser"
+    },
+    {
+      "name": "decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, ",
+      "stars": 0,
+      "language": "JavaScript",
+      "owner": "decolua",
+      "repo": "9router"
+    },
+    {
+      "name": "sponsors/LearningCircuit",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed,",
+      "stars": 0,
+      "language": "Python",
+      "owner": "sponsors",
+      "repo": "LearningCircuit"
+    },
+    {
+      "name": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversationa",
+      "stars": 0,
+      "language": "TypeScript",
+      "owner": "ruvnet",
+      "repo": "ruflo"
+    },
+    {
+      "name": "sponsors/VectifyAI",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "stars": 0,
+      "language": "Python",
+      "owner": "sponsors",
+      "repo": "VectifyAI"
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars": 0,
+      "language": "Shell",
+      "owner": "addyosmani",
+      "repo": "agent-skills"
+    },
+    {
+      "name": "docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "stars": 0,
+      "language": "Ruby",
+      "owner": "docusealco",
+      "repo": "docuseal"
+    },
+    {
+      "name": "yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "stars": 0,
+      "language": "TypeScript",
+      "owner": "yikart",
+      "repo": "AiToEarn"
+    },
+    {
+      "name": "sponsors/rohitg00",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "stars": 0,
+      "language": "TypeScript",
+      "owner": "sponsors",
+      "repo": "rohitg00"
+    },
+    {
+      "name": "AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "stars": 0,
+      "language": "Python",
+      "owner": "AIDC-AI",
+      "repo": "Pixelle-Video"
+    },
+    {
+      "name": "playcanvas/supersplat",
+      "description": "3D Gaussian Splat Editor",
+      "stars": 0,
+      "language": "TypeScript",
+      "owner": "playcanvas",
+      "repo": "supersplat"
+    },
+    {
+      "name": "HKUDS/AI-Trader",
+      "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+      "stars": 0,
+      "language": "Python",
+      "owner": "HKUDS",
+      "repo": "AI-Trader"
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "stars": 0,
+      "language": "Python",
+      "owner": "TauricResearch",
+      "repo": "TradingAgents"
+    },
+    {
+      "name": "sponsors/InsForge",
+      "description": "The all-in-one, open-source backend platform for agentic coding. InsForge gives your coding agent database, auth, storage, compute, hosting, and AI ga",
+      "stars": 0,
+      "language": "TypeScript",
+      "owner": "sponsors",
+      "repo": "InsForge"
+    }
   ],
   "monthly": [
-    {"rank": 1, "name": "forrestchang/andrej-karpathy-skills", "link": "https://github.com/forrestchang/andrej-karpathy-skills", "description": "A single CLAUDE.md file to improve Claude", "keywords": ["Claude"], "totalStars": "121750", "growth": "112013", "growthValue": 112013},
-    {"rank": 2, "name": "mattpocock/skills", "link": "https://github.com/mattpocock/skills", "description": "Skills for Real Engineers", "keywords": ["Claude", "Shell"], "totalStars": "67502", "growth": "53203", "growthValue": 53203},
-    {"rank": 3, "name": "NousResearch/hermes-agent", "link": "https://github.com/NousResearch/hermes-agent", "description": "The agent that grows with you", "keywords": ["AI Agent", "Python"], "totalStars": "140284", "growth": "104052", "growthValue": 104052},
-    {"rank": 4, "name": "Alishahryar1/free-claude-code", "link": "https://github.com/Alishahryar1/free-claude-code", "description": "Use claude-code for free in the terminal", "keywords": ["Claude", "Python"], "totalStars": "23083", "growth": "20993", "growthValue": 20993},
-    {"rank": 5, "name": "multica-ai/multica", "link": "https://github.com/multica-ai/multica", "description": "The open-source managed agents platform", "keywords": ["AI Agent", "TypeScript"], "totalStars": "26485", "growth": "23942", "growthValue": 23942},
-    {"rank": 6, "name": "addyosmani/agent-skills", "link": "https://github.com/addyosmani/agent-skills", "description": "Production-grade engineering skills for AI coding", "keywords": ["AI Agent", "Shell"], "totalStars": "36879", "growth": "25346", "growthValue": 25346},
-    {"rank": 7, "name": "AIDC-AI/Pixelle-Video", "link": "https://github.com/AIDC-AI/Pixelle-Video", "description": "AI全自动短视频引擎", "keywords": ["AI", "Python"], "totalStars": "14042", "growth": "10269", "growthValue": 10269},
-    {"rank": 8, "name": "lsdefine/GenericAgent", "link": "https://github.com/lsdefine/GenericAgent", "description": "Self-evolving agent: grows skill tree", "keywords": ["AI Agent", "Python"], "totalStars": "10221", "growth": "8855", "growthValue": 8855},
-    {"rank": 9, "name": "shiyu-coder/Kronos", "link": "https://github.com/shiyu-coder/Kronos", "description": "Kronos: A Foundation Model for Finance", "keywords": ["Finance", "Python"], "totalStars": "23747", "growth": "12092", "growthValue": 12092},
-    {"rank": 10, "name": "ComposioHQ/awesome-codex-skills", "link": "https://github.com/ComposioHQ/awesome-codex-skills", "description": "A curated list of practical Codex skills", "keywords": ["Python"], "totalStars": "7754", "growth": "6940", "growthValue": 6940}
+    {
+      "name": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "stars": 0,
+      "language": null,
+      "owner": "forrestchang",
+      "repo": "andrej-karpathy-skills"
+    },
+    {
+      "name": "sponsors/mattpocock",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "stars": 0,
+      "language": "Shell",
+      "owner": "sponsors",
+      "repo": "mattpocock"
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "stars": 0,
+      "language": "Python",
+      "owner": "Alishahryar1",
+      "repo": "free-claude-code"
+    },
+    {
+      "name": "lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "stars": 0,
+      "language": "Python",
+      "owner": "lsdefine",
+      "repo": "GenericAgent"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "stars": 0,
+      "language": "Python",
+      "owner": "NousResearch",
+      "repo": "hermes-agent"
+    },
+    {
+      "name": "AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "stars": 0,
+      "language": "Python",
+      "owner": "AIDC-AI",
+      "repo": "Pixelle-Video"
+    },
+    {
+      "name": "Tracer-Cloud/opensre",
+      "description": "Build your own AI SRE agents. The open source toolkit for the AI era.",
+      "stars": 0,
+      "language": "Python",
+      "owner": "Tracer-Cloud",
+      "repo": "opensre"
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars": 0,
+      "language": "Shell",
+      "owner": "addyosmani",
+      "repo": "agent-skills"
+    },
+    {
+      "name": "ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "stars": 0,
+      "language": "Python",
+      "owner": "ComposioHQ",
+      "repo": "awesome-codex-skills"
+    },
+    {
+      "name": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "stars": 0,
+      "language": "Python",
+      "owner": "Z4nzu",
+      "repo": "hackingtool"
+    },
+    {
+      "name": "sponsors/soxoj",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "stars": 0,
+      "language": "Python",
+      "owner": "sponsors",
+      "repo": "soxoj"
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "stars": 0,
+      "language": "Python",
+      "owner": "TauricResearch",
+      "repo": "TradingAgents"
+    },
+    {
+      "name": "multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "stars": 0,
+      "language": "TypeScript",
+      "owner": "multica-ai",
+      "repo": "multica"
+    },
+    {
+      "name": "anthropics/financial-services",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "owner": "anthropics",
+      "repo": "financial-services"
+    },
+    {
+      "name": "Anil-matcha/Open-Generative-AI",
+      "description": "Unrestricted, open-source alternative to AI video platforms — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjou",
+      "stars": 0,
+      "language": "JavaScript",
+      "owner": "Anil-matcha",
+      "repo": "Open-Generative-AI"
+    },
+    {
+      "name": "hugohe3/ppt-master",
+      "description": "AI generates natively editable PPTX from any document — real PowerPoint shapes with native animations, not images · by Hugo He",
+      "stars": 0,
+      "language": "Python",
+      "owner": "hugohe3",
+      "repo": "ppt-master"
+    },
+    {
+      "name": "z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "stars": 0,
+      "language": "Python",
+      "owner": "z-lab",
+      "repo": "dflash"
+    }
   ],
-  "lastUpdated": "2026-05-09 21:02",
-  "generatedAt": "2026-05-09T21:02:00"
+  "lastUpdated": "2026-05-12 14:26",
+  "generatedAt": "2026-05-12T14:26:50"
 }
