@@ -36,8 +36,8 @@ jobs:
           import json
           from datetime import datetime, timezone
           import re
-
-          GH_TOKEN = ${{ secrets.GITHUB_TOKEN }}
+          import os
+          GH_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 
           def fetch_github_trending():
               headers = {
