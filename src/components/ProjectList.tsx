@@ -3,19 +3,25 @@ import { ProjectCard } from './ProjectCard';
 
 interface ProjectListProps {
   projects: TrendingProject[];
-  type: 'weekly' | 'monthly';
+  type: 'weekly' | 'monthly' | 'daily';
   selectedProjects: Set<string>;
   onToggleSelect: (name: string) => void;
 }
 
+const TYPE_META = {
+  weekly: { emoji: '📈', title: '本周增长最快 Top 10' },
+  monthly: { emoji: '🔥', title: '本月最热 Top 10' },
+  daily: { emoji: '⚡', title: '今日趋势 Top 10' },
+};
+
 export function ProjectList({ projects, type, selectedProjects, onToggleSelect }: ProjectListProps) {
-  const title = type === 'weekly' ? '本周增长最快 Top 10' : '本月最热 Top 10';
+  const meta = TYPE_META[type];
 
   return (
     <section>
       <h2 className="text-xl font-semibold text-github-text mb-4 flex items-center gap-2">
-        <span className="text-github-purple">{type === 'weekly' ? '📈' : '🔥'}</span>
-        {title}
+        <span className="text-github-purple">{meta.emoji}</span>
+        {meta.title}
       </h2>
       <div className="grid gap-4">
         {projects.map((project, index) => (
