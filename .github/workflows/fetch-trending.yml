@@ -31,166 +31,167 @@ jobs:
       - name: Parse and save trending data
         run: |
           python3 << "PYEOF"
-          import requests
-          from bs4 import BeautifulSoup
-          import json
-          from datetime import datetime, timezone
-          import re
-          import os
-          GH_TOKEN = os.environ.get('GITHUB_TOKEN', '')
+import requests
+from bs4 import BeautifulSoup
+import json
+from datetime import datetime, timezone
+import re
+import os
 
-          def fetch_github_trending():
-              headers = {
-                  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-              }
-              for attempt in range(3):
-                  try:
-                      response = requests.get('https://github.com/trending', headers=headers, timeout=30)
-                      if response.status_code == 200:
-                          return response.text
-                      print(f"Attempt {attempt+1} failed with status {response.status_code}")
-                  except Exception as e:
-                      print(f"Attempt {attempt+1} failed: {e}")
-              return None
+GH_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 
-          def fetch_repo_stats(owner, repo):
-              """Fetch real-time stars and forks from GitHub API"""
-              if not GH_TOKEN:
-                  return None, None
-              try:
-                  headers = {
-                      'Authorization': f'token {GH_TOKEN}',
-                      'Accept': 'application/vnd.github.v3+json',
-                  }
-                  resp = requests.get(f'https://api.github.com/repos/{owner}/{repo}', headers=headers, timeout=10)
-                  if resp.status_code == 200:
-                      data = resp.json()
-                      return data.get('stargazers_count', 0), data.get('forks_count', 0)
-              except Exception as e:
-                  print(f"Stats fetch failed for {owner}/{repo}: {e}")
-              return None, None
+def fetch_github_trending():
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    }
+    for attempt in range(3):
+        try:
+            response = requests.get('https://github.com/trending', headers=headers, timeout=30)
+            if response.status_code == 200:
+                return response.text
+            print(f"Attempt {attempt+1} failed with status {response.status_code}")
+        except Exception as e:
+            print(f"Attempt {attempt+1} failed: {e}")
+    return None
 
-          def parse_trending(html, existing_data):
-              if not html:
-                  return [], {}
-              soup = BeautifulSoup(html, 'html.parser')
-              articles = soup.select('article.Box-row')
-              projects = []
-              stars_history = existing_data.get('stars_history', {})
-              forks_history = existing_data.get('forks_history', {})
+def fetch_repo_stats(owner, repo):
+    """Fetch real-time stars and forks from GitHub API"""
+    if not GH_TOKEN:
+        return None, None
+    try:
+        headers = {
+            'Authorization': f'token {GH_TOKEN}',
+            'Accept': 'application/vnd.github.v3+json',
+        }
+        resp = requests.get(f'https://api.github.com/repos/{owner}/{repo}', headers=headers, timeout=10)
+        if resp.status_code == 200:
+            data = resp.json()
+            return data.get('stargazers_count', 0), data.get('forks_count', 0)
+    except Exception as e:
+        print(f"Stats fetch failed for {owner}/{repo}: {e}")
+    return None, None
 
-              for i, article in enumerate(articles[:20], 1):
-                  repo_link = article.select_one('h2 a')
-                  if not repo_link:
-                      continue
-                  full_name = repo_link.get('href', '').strip('/')
-                  if '/' not in full_name:
-                      continue
-                  owner, repo = full_name.split('/', 1)
+def parse_trending(html, existing_data):
+    if not html:
+        return [], {}
+    soup = BeautifulSoup(html, 'html.parser')
+    articles = soup.select('article.Box-row')
+    projects = []
+    stars_history = existing_data.get('stars_history', {})
+    forks_history = existing_data.get('forks_history', {})
 
-                  desc_elem = article.select_one('p')
-                  description = desc_elem.get_text(strip=True) if desc_elem else ''
+    for i, article in enumerate(articles[:20], 1):
+        repo_link = article.select_one('h2 a')
+        if not repo_link:
+            continue
+        full_name = repo_link.get('href', '').strip('/')
+        if '/' not in full_name:
+            continue
+        owner, repo = full_name.split('/', 1)
 
-                  lang_elem = article.select_one('span[itemprop="programmingLanguage"]')
-                  language = lang_elem.get_text(strip=True) if lang_elem else ''
+        desc_elem = article.select_one('p')
+        description = desc_elem.get_text(strip=True) if desc_elem else ''
 
-                  stars_elem = article.select_one('a[href$="/stargazers"]')
-                  stars_text = stars_elem.get_text(strip=True) if stars_elem else '0'
-                  stars = stars_text.replace(',', '')
-                  if 'k' in stars.lower():
-                      stars = str(int(float(stars.lower().replace('k','')) * 1000))
+        lang_elem = article.select_one('span[itemprop="programmingLanguage"]')
+        language = lang_elem.get_text(strip=True) if lang_elem else ''
 
-                  today_stars = 0
-                  today_elem = article.select_one('span.float-sm-right')
-                  if today_elem:
-                      today_text = today_elem.get_text(strip=True)
-                      today_match = re.search(r'[\d,.]+', today_text)
-                      if today_match:
-                          today_val = today_match.group().replace(',', '')
-                          if 'k' in today_text.lower():
-                              today_stars = int(float(today_val) * 1000)
-                          else:
-                              today_stars = int(today_val)
+        stars_elem = article.select_one('a[href$="/stargazers"]')
+        stars_text = stars_elem.get_text(strip=True) if stars_elem else '0'
+        stars = stars_text.replace(',', '')
+        if 'k' in stars.lower():
+            stars = str(int(float(stars.lower().replace('k','')) * 1000))
 
-                  # Try to get real-time stats from GitHub API
-                  api_stars, api_forks = fetch_repo_stats(owner, repo)
-                  if api_stars is not None:
-                      stars = str(api_stars)
+        today_stars = 0
+        today_elem = article.select_one('span.float-sm-right')
+        if today_elem:
+            today_text = today_elem.get_text(strip=True)
+            today_match = re.search(r'[\d,.]+', today_text)
+            if today_match:
+                today_val = today_match.group().replace(',', '')
+                if 'k' in today_text.lower():
+                    today_stars = int(float(today_val) * 1000)
+                else:
+                    today_stars = int(today_val)
 
-                  today_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-                  repo_key = f'{owner}/{repo}'
+        # Try to get real-time stats from GitHub API
+        api_stars, api_forks = fetch_repo_stats(owner, repo)
+        if api_stars is not None:
+            stars = str(api_stars)
 
-                  # Update stars history
-                  if repo_key not in stars_history:
-                      stars_history[repo_key] = {}
-                  if api_stars is not None:
-                      stars_history[repo_key][today_str] = api_stars
+        today_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+        repo_key = f'{owner}/{repo}'
 
-                  # Update forks history
-                  if repo_key not in forks_history:
-                      forks_history[repo_key] = {}
-                  if api_forks is not None:
-                      forks_history[repo_key][today_str] = api_forks
+        # Update stars history
+        if repo_key not in stars_history:
+            stars_history[repo_key] = {}
+        if api_stars is not None:
+            stars_history[repo_key][today_str] = api_stars
 
-                  projects.append({
-                      'rank': i,
-                      'name': repo_key,
-                      'link': f'https://github.com/{owner}/{repo}',
-                      'description': description[:100] if description else '',
-                      'keywords': [language] if language else [],
-                      'totalStars': stars,
-                      'growth': str(today_stars),
-                      'growthValue': today_stars
-                  })
-              return projects, {'stars_history': stars_history, 'forks_history': forks_history}
+        # Update forks history
+        if repo_key not in forks_history:
+            forks_history[repo_key] = {}
+        if api_forks is not None:
+            forks_history[repo_key][today_str] = api_forks
 
-          html = fetch_github_trending()
-          existing_data = {}
-          try:
-              with open('public/data/trending.json', 'r') as f:
-                  existing_data = json.load(f)
-          except:
-              pass
+        projects.append({
+            'rank': i,
+            'name': repo_key,
+            'link': f'https://github.com/{owner}/{repo}',
+            'description': description[:100] if description else '',
+            'keywords': [language] if language else [],
+            'totalStars': stars,
+            'growth': str(today_stars),
+            'growthValue': today_stars
+        })
+    return projects, {'stars_history': stars_history, 'forks_history': forks_history}
 
-          projects, history = parse_trending(html, existing_data)
-          if not projects:
-              print("WARNING: No projects parsed")
-              exit(1)
+html = fetch_github_trending()
+existing_data = {}
+try:
+    with open('public/data/trending.json', 'r') as f:
+        existing_data = json.load(f)
+except:
+    pass
 
-          # Merge weekly: keep all unique projects across history
-          existing_weekly = existing_data.get('weekly', [])
-          existing_monthly = existing_data.get('monthly', [])
+projects, history = parse_trending(html, existing_data)
+if not projects:
+    print("WARNING: No projects parsed")
+    exit(1)
 
-          weekly_map = {}
-          for p in existing_weekly:
-              weekly_map[p['name']] = p
-          for p in projects:
-              weekly_map[p['name']] = p
+# Merge weekly: keep all unique projects across history
+existing_weekly = existing_data.get('weekly', [])
+existing_monthly = existing_data.get('monthly', [])
 
-          monthly_map = {}
-          for p in existing_monthly:
-              monthly_map[p['name']] = p
-          for p in projects:
-              monthly_map[p['name']] = p
+weekly_map = {}
+for p in existing_weekly:
+    weekly_map[p['name']] = p
+for p in projects:
+    weekly_map[p['name']] = p
 
-          trending_data = {
-              'daily': projects,
-              'weekly': list(weekly_map.values())[:20],
-              'monthly': list(monthly_map.values())[:20],
-              'stars_history': history.get('stars_history', {}),
-              'forks_history': history.get('forks_history', {}),
-              'lastUpdated': datetime.now().strftime('%Y-%m-%d %H:%M'),
-              'generatedAt': datetime.now(timezone.utc).isoformat()
-          }
+monthly_map = {}
+for p in existing_monthly:
+    monthly_map[p['name']] = p
+for p in projects:
+    monthly_map[p['name']] = p
 
-          with open('public/data/trending.json', 'w') as f:
-              json.dump(trending_data, f, ensure_ascii=False, indent=2)
+trending_data = {
+    'daily': projects,
+    'weekly': list(weekly_map.values())[:20],
+    'monthly': list(monthly_map.values())[:20],
+    'stars_history': history.get('stars_history', {}),
+    'forks_history': history.get('forks_history', {}),
+    'lastUpdated': datetime.now().strftime('%Y-%m-%d %H:%M'),
+    'generatedAt': datetime.now(timezone.utc).isoformat()
+}
 
-          print(f"Saved daily={len(trending_data['daily'])}, weekly={len(trending_data['weekly'])}, monthly={len(trending_data['monthly'])}")
-          print(f"Top: {projects[0]['name']} ({projects[0]['totalStars']} stars, +{projects[0]['growth']} today)")
+with open('public/data/trending.json', 'w') as f:
+    json.dump(trending_data, f, ensure_ascii=False, indent=2)
 
-          EOF
+print(f"Saved daily={len(trending_data['daily'])}, weekly={len(trending_data['weekly'])}, monthly={len(trending_data['monthly'])}")
+print(f"Top: {projects[0]['name']} ({projects[0]['totalStars']} stars, +{projects[0]['growth']} today)")
+
+PYEOF
 
       - name: Commit and push
         run: |
@@ -227,9 +228,8 @@ jobs:
           ---
           *Auto-generated notification*"
 
-          # Only create issue if not already an issue from recent failure
           gh issue create \
             --title "[Auto] Trending data fetch failed - $(date +'%Y-%m-%d')" \
             --body "$BODY" \
             --repo ${{ github.repository }} \
-            2>/dev/null || echo "Issue creation skipped (may already exist)"
+            2>/dev/null || echo "Issue creation skipped"
