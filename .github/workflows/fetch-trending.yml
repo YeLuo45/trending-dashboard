@@ -2,9 +2,11 @@ name: Fetch GitHub Trending Data
 
 on:
   schedule:
-    # Run at 21:00 UTC daily (5am Beijing time)
-    - cron: '0 21 * * *'
+    # Run every 6 hours: 5am, 11am, 5pm, 11pm Beijing time
+    - cron: '0 21,3,9,15 * * *'
   workflow_dispatch:
+  repository_dispatch:
+    types: [refresh-data]
 
 jobs:
   fetch:
@@ -28,12 +30,14 @@ jobs:
 
       - name: Parse and save trending data
         run: |
-          python3 << 'EOF'
+          python3 << "PYEOF"
           import requests
           from bs4 import BeautifulSoup
           import json
-          from datetime import datetime
+          from datetime import datetime, timezone
           import re
+
+          GH_TOKEN = ${{ secrets.GITHUB_TOKEN }}
 
           def fetch_github_trending():
               headers = {
@@ -50,13 +54,33 @@ jobs:
                       print(f"Attempt {attempt+1} failed: {e}")
               return None
 
-          def parse_trending(html):
+          def fetch_repo_stats(owner, repo):
+              """Fetch real-time stars and forks from GitHub API"""
+              if not GH_TOKEN:
+                  return None, None
+              try:
+                  headers = {
+                      'Authorization': f'token {GH_TOKEN}',
+                      'Accept': 'application/vnd.github.v3+json',
+                  }
+                  resp = requests.get(f'https://api.github.com/repos/{owner}/{repo}', headers=headers, timeout=10)
+                  if resp.status_code == 200:
+                      data = resp.json()
+                      return data.get('stargazers_count', 0), data.get('forks_count', 0)
+              except Exception as e:
+                  print(f"Stats fetch failed for {owner}/{repo}: {e}")
+              return None, None
+
+          def parse_trending(html, existing_data):
               if not html:
-                  return []
+                  return [], {}
               soup = BeautifulSoup(html, 'html.parser')
               articles = soup.select('article.Box-row')
               projects = []
-              for i, article in enumerate(articles[:10], 1):
+              stars_history = existing_data.get('stars_history', {})
+              forks_history = existing_data.get('forks_history', {})
+
+              for i, article in enumerate(articles[:20], 1):
                   repo_link = article.select_one('h2 a')
                   if not repo_link:
                       continue
@@ -64,15 +88,19 @@ jobs:
                   if '/' not in full_name:
                       continue
                   owner, repo = full_name.split('/', 1)
+
                   desc_elem = article.select_one('p')
                   description = desc_elem.get_text(strip=True) if desc_elem else ''
+
                   lang_elem = article.select_one('span[itemprop="programmingLanguage"]')
                   language = lang_elem.get_text(strip=True) if lang_elem else ''
+
                   stars_elem = article.select_one('a[href$="/stargazers"]')
                   stars_text = stars_elem.get_text(strip=True) if stars_elem else '0'
                   stars = stars_text.replace(',', '')
                   if 'k' in stars.lower():
                       stars = str(int(float(stars.lower().replace('k','')) * 1000))
+
                   today_stars = 0
                   today_elem = article.select_one('span.float-sm-right')
                   if today_elem:
@@ -84,9 +112,30 @@ jobs:
                               today_stars = int(float(today_val) * 1000)
                           else:
                               today_stars = int(today_val)
+
+                  # Try to get real-time stats from GitHub API
+                  api_stars, api_forks = fetch_repo_stats(owner, repo)
+                  if api_stars is not None:
+                      stars = str(api_stars)
+
+                  today_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+                  repo_key = f'{owner}/{repo}'
+
+                  # Update stars history
+                  if repo_key not in stars_history:
+                      stars_history[repo_key] = {}
+                  if api_stars is not None:
+                      stars_history[repo_key][today_str] = api_stars
+
+                  # Update forks history
+                  if repo_key not in forks_history:
+                      forks_history[repo_key] = {}
+                  if api_forks is not None:
+                      forks_history[repo_key][today_str] = api_forks
+
                   projects.append({
                       'rank': i,
-                      'name': f'{owner}/{repo}',
+                      'name': repo_key,
                       'link': f'https://github.com/{owner}/{repo}',
                       'description': description[:100] if description else '',
                       'keywords': [language] if language else [],
@@ -94,14 +143,9 @@ jobs:
                       'growth': str(today_stars),
                       'growthValue': today_stars
                   })
-              return projects
+              return projects, {'stars_history': stars_history, 'forks_history': forks_history}
 
           html = fetch_github_trending()
-          projects = parse_trending(html)
-          if not projects:
-              print("WARNING: No projects parsed")
-              exit(1)
-
           existing_data = {}
           try:
               with open('public/data/trending.json', 'r') as f:
@@ -109,18 +153,41 @@ jobs:
           except:
               pass
 
+          projects, history = parse_trending(html, existing_data)
+          if not projects:
+              print("WARNING: No projects parsed")
+              exit(1)
+
+          # Merge weekly: keep all unique projects across history
+          existing_weekly = existing_data.get('weekly', [])
+          existing_monthly = existing_data.get('monthly', [])
+
+          weekly_map = {}
+          for p in existing_weekly:
+              weekly_map[p['name']] = p
+          for p in projects:
+              weekly_map[p['name']] = p
+
+          monthly_map = {}
+          for p in existing_monthly:
+              monthly_map[p['name']] = p
+          for p in projects:
+              monthly_map[p['name']] = p
+
           trending_data = {
               'daily': projects,
-              'weekly': projects,
-              'monthly': existing_data.get('monthly', projects),
+              'weekly': list(weekly_map.values())[:20],
+              'monthly': list(monthly_map.values())[:20],
+              'stars_history': history.get('stars_history', {}),
+              'forks_history': history.get('forks_history', {}),
               'lastUpdated': datetime.now().strftime('%Y-%m-%d %H:%M'),
-              'generatedAt': datetime.now().isoformat()
+              'generatedAt': datetime.now(timezone.utc).isoformat()
           }
 
           with open('public/data/trending.json', 'w') as f:
               json.dump(trending_data, f, ensure_ascii=False, indent=2)
 
-          print(f"Saved {len(trending_data['weekly'])} weekly + {len(trending_data['monthly'])} monthly")
+          print(f"Saved daily={len(trending_data['daily'])}, weekly={len(trending_data['weekly'])}, monthly={len(trending_data['monthly'])}")
           print(f"Top: {projects[0]['name']} ({projects[0]['totalStars']} stars, +{projects[0]['growth']} today)")
 
           EOF
@@ -134,7 +201,7 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "chore: auto-update trending data $(date +'%Y-%m-%d')"
+          git commit -m "chore: auto-update trending data $(date +'%Y-%m-%d %H:%M')"
           if ! git push; then
             echo "ERROR: Git push failed. Trending data update was NOT published."
             echo "Please check:"
@@ -144,3 +211,25 @@ jobs:
             exit 1
           fi
           echo "Successfully pushed trending data update"
+
+      - name: Failure notification
+        if: failure()
+        run: |
+          echo "Workflow failed. Creating issue notification..."
+          BODY="## GitHub Trending Data Fetch Failed
+
+          Date: $(date -u +'%Y-%m-%d %H:%M UTC')
+
+          The automated trending data fetch workflow has failed. Please check the workflow run logs.
+
+          [View Workflow Runs](https://github.com/${{ github.repository }}/actions/workflows/fetch-trending.yml)
+
+          ---
+          *Auto-generated notification*"
+
+          # Only create issue if not already an issue from recent failure
+          gh issue create \
+            --title "[Auto] Trending data fetch failed - $(date +'%Y-%m-%d')" \
+            --body "$BODY" \
+            --repo ${{ github.repository }} \
+            2>/dev/null || echo "Issue creation skipped (may already exist)"
