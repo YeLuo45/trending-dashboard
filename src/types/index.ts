@@ -13,6 +13,7 @@ export interface TrendingProject {
 export interface TrendingData {
   weekly: TrendingProject[];
   monthly: TrendingProject[];
+  daily?: TrendingProject[];
   lastUpdated: string;
 }
 
