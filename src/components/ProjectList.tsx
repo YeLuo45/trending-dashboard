@@ -6,6 +6,7 @@ interface ProjectListProps {
   type: 'weekly' | 'monthly' | 'daily';
   selectedProjects: Set<string>;
   onToggleSelect: (name: string) => void;
+  onFavoritesChange?: () => void;
 }
 
 const TYPE_META = {
@@ -14,7 +15,7 @@ const TYPE_META = {
   daily: { emoji: '⚡', title: '今日趋势 Top 10' },
 };
 
-export function ProjectList({ projects, type, selectedProjects, onToggleSelect }: ProjectListProps) {
+export function ProjectList({ projects, type, selectedProjects, onToggleSelect, onFavoritesChange }: ProjectListProps) {
   const meta = TYPE_META[type];
 
   return (
@@ -30,6 +31,7 @@ export function ProjectList({ projects, type, selectedProjects, onToggleSelect }
             project={project}
             selected={selectedProjects.has(project.name)}
             onSelect={onToggleSelect}
+            onFavoritesChange={onFavoritesChange}
           />
         ))}
       </div>

@@ -1,23 +1,33 @@
 import { useState, useEffect } from 'react';
 import type { TrendingProject } from '../types';
 import { getGhToken, forkRepo, parseRepoInfo, fetchRepoStats } from '../utils/github';
+import { addFavorite, removeFavorite, isFavorited, followAuthor, unfollowAuthor, isFollowing } from '../utils/social';
 
 interface ProjectCardProps {
   project: TrendingProject;
   selected: boolean;
   onSelect: (name: string) => void;
+  onFavoritesChange?: () => void;
 }
 
-export function ProjectCard({ project, selected, onSelect }: ProjectCardProps) {
+export function ProjectCard({ project, selected, onSelect, onFavoritesChange }: ProjectCardProps) {
   const [forking, setForking] = useState(false);
   const [forkResult, setForkResult] = useState<{ success: boolean; url?: string; error?: string } | null>(null);
   const [repoStats, setRepoStats] = useState<{ stars: number; forks: number } | null>(null);
+  const [favorited, setFavorited] = useState(false);
+  const [following, setFollowing] = useState(false);
   const token = getGhToken();
 
   const repoInfo = parseRepoInfo(project.link);
   const owner = repoInfo?.owner || project.name.split('/')[0];
   const repo = repoInfo?.repo || project.name.split('/')[1];
   const language = project.keywords[0] || 'Unknown';
+
+  // Initialize social states
+  useEffect(() => {
+    setFavorited(isFavorited(project.name));
+    setFollowing(isFollowing(owner));
+  }, [project.name, owner]);
 
   // Fetch real repo stats
   useEffect(() => {
@@ -74,6 +84,45 @@ export function ProjectCard({ project, selected, onSelect }: ProjectCardProps) {
     }
   };
 
+  const handleToggleFavorite = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    if (favorited) {
+      removeFavorite(project.name);
+      setFavorited(false);
+    } else {
+      const success = addFavorite({
+        name: project.name,
+        link: project.link,
+        description: project.description,
+      });
+      if (success) {
+        setFavorited(true);
+      } else {
+        alert('收藏数量已达上限（500条）');
+      }
+    }
+    onFavoritesChange?.();
+  };
+
+  const handleToggleFollow = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    if (following) {
+      unfollowAuthor(owner);
+      setFollowing(false);
+    } else {
+      const success = followAuthor(owner);
+      if (success) {
+        setFollowing(true);
+      } else {
+        alert('关注数量已达上限（20个）');
+      }
+    }
+  };
+
   const getRankColor = (rank: number) => {
     if (rank === 1) return 'text-yellow-400';
     if (rank === 2) return 'text-gray-300';
@@ -86,9 +135,18 @@ export function ProjectCard({ project, selected, onSelect }: ProjectCardProps) {
   const displayForks = repoStats?.forks ?? parseInt(project.forks?.replace(/,/g, '') || '0');
 
   return (
-    <div className={`bg-github-card border rounded-lg p-4 transition-all duration-200 hover:shadow-lg hover:shadow-github-purple/10 ${
-      selected ? 'border-github-purple border-2' : 'border-github-border hover:border-github-purple/50'
-    }`}>
+    <div className={`relative bg-github-card border rounded-lg p-4 transition-all duration-200 hover:shadow-lg hover:shadow-github-purple/10 ${selected ? 'border-github-purple border-2' : 'border-github-border hover:border-github-purple/50'}`}>
+      {/* Favorite Button - Top Right */}
+      <button
+        onClick={handleToggleFavorite}
+        className={`absolute top-3 right-3 text-xl transition-colors ${
+          favorited ? 'text-yellow-400' : 'text-github-muted hover:text-yellow-400'
+        }`}
+        title={favorited ? '取消收藏' : '收藏'}
+      >
+        {favorited ? '★' : '☆'}
+      </button>
+
       <div className="flex items-start gap-4">
         {/* Selection Checkbox */}
         <input
@@ -125,6 +183,18 @@ export function ProjectCard({ project, selected, onSelect }: ProjectCardProps) {
               <span className={`w-2 h-2 rounded-full ${langColor}`}></span>
               <span className="text-github-muted">{language}</span>
             </span>
+            {/* Follow Author Button */}
+            <button
+              onClick={handleToggleFollow}
+              className={`flex items-center gap-1 px-2 py-0.5 text-xs rounded transition-colors ${
+                following 
+                  ? 'bg-github-purple/20 text-github-purple' 
+                  : 'bg-github-dark text-github-muted hover:text-github-purple'
+              }`}
+              title={following ? '取消关注' : '关注作者'}
+            >
+              {following ? '✓' : '👁'} {following ? '已关注' : '关注'}
+            </button>
           </div>
 
           {/* Description */}
