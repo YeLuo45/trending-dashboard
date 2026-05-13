@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Header, TabButton, ProjectList, FavoritesPanel, SharedListView, FollowedAuthorsPanel, RecommendationsPanel, TopicTrackingPanel, ReportsPanel } from './components';
+import { Header, TabButton, ProjectList, FavoritesPanel, SharedListView, FollowedAuthorsPanel, RecommendationsPanel, TopicTrackingPanel, ReportsPanel, CommentsPanel, SharePoster, NotificationCenter } from './components';
 import { loadTrendingFromFiles, loadSampleData } from './utils/loadData';
-import type { TrendingData } from './types';
+import type { TrendingData, FavoriteItem } from './types';
 import type { GhUser } from './types';
 import { getGhToken, forkRepo, parseRepoInfo, syncForkHistory, type ForkHistoryRecord } from './utils/github';
 import { translateDescriptions } from './utils/translation';
@@ -47,6 +47,9 @@ function App() {
   const [showReports, setShowReports] = useState(false);
   const [shareModal, setShareModal] = useState<{ id: string; url: string } | null>(null);
   const [newProjectsMap, setNewProjectsMap] = useState<Map<string, { name: string; link: string }[]>>(new Map());
+  const [commentsProject, setCommentsProject] = useState<string | null>(null);
+  const [sharePosterProjects, setSharePosterProjects] = useState<FavoriteItem[] | null>(null);
+  const [showNotificationCenter, setShowNotificationCenter] = useState(false);
 
   // Check for share URL parameter on mount
   const shareId = new URLSearchParams(window.location.search).get('share');
@@ -284,6 +287,7 @@ function App() {
           onShowRecommendations={() => setShowRecommendations(true)}
           onShowTopicTracking={() => setShowTopicTracking(true)}
           onShowReports={() => setShowReports(true)}
+          onShowNotificationCenter={() => setShowNotificationCenter(true)}
         />
 
         {/* Tabs */}
@@ -344,6 +348,32 @@ function App() {
               >
                 🔗 生成分享
               </button>
+              {selectedProjects.size > 0 && (
+                <button
+                  onClick={() => {
+                    const allProjects = [
+                      ...(data?.weekly || []),
+                      ...(data?.monthly || []),
+                      ...(data?.daily || []),
+                    ];
+                    const selected = allProjects.filter(p => selectedProjects.has(p.name));
+                    const favorites = getFavorites();
+                    const posterProjects = selected.map(p => {
+                      const existing = favorites.find(f => f.name === p.name);
+                      return {
+                        name: p.name,
+                        link: p.link,
+                        description: p.description,
+                        starredAt: existing?.starredAt || new Date().toLocaleString(),
+                      };
+                    });
+                    setSharePosterProjects(posterProjects);
+                  }}
+                  className="px-4 py-2 text-sm rounded bg-github-card border border-github-border text-github-text hover:border-github-purple/50 transition-colors"
+                >
+                  🖼️ 生成海报
+                </button>
+              )}
               <button
                 onClick={handleBatchFork}
                 disabled={selectedProjects.size === 0 || batchForking}
@@ -377,6 +407,7 @@ function App() {
           selectedProjects={selectedProjects}
           onToggleSelect={handleToggleSelect}
           onFavoritesChange={handleFavoritesChange}
+          onShowComments={(projectName) => setCommentsProject(projectName)}
         />
       </div>
 
@@ -423,6 +454,27 @@ function App() {
           dailyProjects={data.daily || []}
           onClose={() => setShowReports(false)}
         />
+      )}
+
+      {/* Comments Panel */}
+      {commentsProject && (
+        <CommentsPanel
+          projectName={commentsProject}
+          onClose={() => setCommentsProject(null)}
+        />
+      )}
+
+      {/* Share Poster Modal */}
+      {sharePosterProjects && (
+        <SharePoster
+          projects={sharePosterProjects}
+          onClose={() => setSharePosterProjects(null)}
+        />
+      )}
+
+      {/* Notification Center */}
+      {showNotificationCenter && (
+        <NotificationCenter onClose={() => setShowNotificationCenter(false)} />
       )}
 
       {/* Share Modal */}

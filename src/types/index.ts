@@ -53,6 +53,35 @@ export interface FollowedAuthor {
   followedAt: string;
 }
 
+// ============ Comments ============
+export interface Comment {
+  id: string;           // unique ID
+  projectName: string;   // "owner/repo"
+  author: string;        // display name (anonymous or GitHub login)
+  content: string;       // comment text (max 500 chars)
+  createdAt: string;     // ISO timestamp
+  avatar?: string;       // optional avatar URL
+}
+
+export interface ProjectComments {
+  projectName: string;
+  comments: Comment[];
+}
+
+// ============ Notifications ============
+export type NotificationType = 'comment' | 'follow' | 'fork' | 'mention' | 'system';
+
+export interface AppNotification {
+  id: string;
+  type: NotificationType;
+  title: string;
+  message: string;
+  link?: string;         // optional URL to navigate to
+  read: boolean;
+  createdAt: string;     // ISO timestamp
+  avatar?: string;        // optional avatar for user actions
+}
+
 // ============ Topic Tracking ============
 export interface TrackedTopic {
   id: string;              // lowercase tag name

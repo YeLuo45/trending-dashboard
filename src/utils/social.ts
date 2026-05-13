@@ -1,10 +1,14 @@
-import type { FavoriteItem, SharedList, FollowedAuthor } from '../types';
+import type { FavoriteItem, SharedList, FollowedAuthor, Comment, AppNotification } from '../types';
 
 const FAVORITES_KEY = 'favorites';
 const SHARED_LISTS_KEY = 'shared_lists';
 const FOLLOWED_AUTHORS_KEY = 'followed_authors';
+const COMMENTS_KEY = 'comments';
+const NOTIFICATIONS_KEY = 'notifications';
 const MAX_FAVORITES = 500;
 const MAX_FOLLOWED_AUTHORS = 20;
+const MAX_COMMENTS_PER_PROJECT = 100;
+const MAX_NOTIFICATIONS = 200;
 
 // ============ Favorites ============
 export function getFavorites(): FavoriteItem[] {
@@ -127,9 +131,9 @@ export function getNewProjectsFromFollowedAuthors(
 ): { username: string; projects: { name: string; link: string }[] }[] {
   const followed = getFollowedUsernames();
   const result: { username: string; projects: { name: string; link: string }[] }[] = [];
-  
+
   const authorProjects = new Map<string, { name: string; link: string }[]>();
-  
+
   for (const project of projects) {
     const parts = project.name.split('/');
     if (parts.length >= 2) {
@@ -142,10 +146,122 @@ export function getNewProjectsFromFollowedAuthors(
       }
     }
   }
-  
+
   authorProjects.forEach((projects, username) => {
     result.push({ username, projects });
   });
-  
+
   return result;
+}
+
+// ============ Comments ============
+function getAllComments(): Record<string, Comment[]> {
+  try {
+    return JSON.parse(localStorage.getItem(COMMENTS_KEY) || '{}');
+  } catch {
+    return {};
+  }
+}
+
+export function getComments(projectName: string): Comment[] {
+  const all = getAllComments();
+  return all[projectName] || [];
+}
+
+export function addComment(projectName: string, author: string, content: string, avatar?: string): Comment {
+  const all = getAllComments();
+  if (!all[projectName]) all[projectName] = [];
+
+  const comment: Comment = {
+    id: generateId() + generateId(),
+    projectName,
+    author,
+    content: content.slice(0, 500),
+    createdAt: new Date().toISOString(),
+    avatar,
+  };
+
+  all[projectName].unshift(comment);
+
+  // Limit per project
+  if (all[projectName].length > MAX_COMMENTS_PER_PROJECT) {
+    all[projectName] = all[projectName].slice(0, MAX_COMMENTS_PER_PROJECT);
+  }
+
+  localStorage.setItem(COMMENTS_KEY, JSON.stringify(all));
+
+  // Also create a notification for the project owner about the new comment
+  const parts = projectName.split('/');
+  if (parts.length >= 2) {
+    addNotification({
+      type: 'comment',
+      title: '💬 新评论',
+      message: `${author} 在 ${projectName} 发表了评论: ${content.slice(0, 50)}${content.length > 50 ? '...' : ''}`,
+      link: `/?q=${encodeURIComponent(projectName)}`,
+      avatar,
+    });
+  }
+
+  return comment;
+}
+
+export function deleteComment(projectName: string, commentId: string): void {
+  const all = getAllComments();
+  if (!all[projectName]) return;
+  all[projectName] = all[projectName].filter(c => c.id !== commentId);
+  localStorage.setItem(COMMENTS_KEY, JSON.stringify(all));
+}
+
+// ============ Notifications ============
+export function getNotifications(): AppNotification[] {
+  try {
+    return JSON.parse(localStorage.getItem(NOTIFICATIONS_KEY) || '[]');
+  } catch {
+    return [];
+  }
+}
+
+export function addNotification(notification: Omit<AppNotification, 'id' | 'read' | 'createdAt'>): AppNotification {
+  const notifications = getNotifications();
+  const newNotif: AppNotification = {
+    ...notification,
+    id: generateId() + generateId(),
+    read: false,
+    createdAt: new Date().toISOString(),
+  };
+
+  notifications.unshift(newNotif);
+
+  // Limit total notifications
+  if (notifications.length > MAX_NOTIFICATIONS) {
+    notifications.splice(MAX_NOTIFICATIONS);
+  }
+
+  localStorage.setItem(NOTIFICATIONS_KEY, JSON.stringify(notifications));
+  return newNotif;
+}
+
+export function markNotificationRead(id: string): void {
+  const notifications = getNotifications().map(n =>
+    n.id === id ? { ...n, read: true } : n
+  );
+  localStorage.setItem(NOTIFICATIONS_KEY, JSON.stringify(notifications));
+}
+
+export function markAllNotificationsRead(): void {
+  const notifications = getNotifications().map(n => ({ ...n, read: true }));
+  localStorage.setItem(NOTIFICATIONS_KEY, JSON.stringify(notifications));
+}
+
+export function deleteNotification(id: string): void {
+  const notifications = getNotifications().filter(n => n.id !== id);
+  localStorage.setItem(NOTIFICATIONS_KEY, JSON.stringify(notifications));
+}
+
+export function clearAllNotifications(): void {
+  localStorage.setItem(NOTIFICATIONS_KEY, JSON.stringify([]));
+}
+
+export function getUnreadNotificationCount(): number {
+  return getNotifications().filter(n => !n.read).length;
 }

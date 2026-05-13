@@ -10,6 +10,7 @@ interface ProjectListProps {
   selectedProjects: Set<string>;
   onToggleSelect: (name: string) => void;
   onFavoritesChange?: () => void;
+  onShowComments?: (projectName: string) => void;
 }
 
 const TYPE_META = {
@@ -32,7 +33,7 @@ function sortProjects(projects: TrendingProject[], key: SortKey, dir: SortDirect
   return dir === 'asc' ? sorted.reverse() : sorted;
 }
 
-export function ProjectList({ projects, type, selectedProjects, onToggleSelect, onFavoritesChange }: ProjectListProps) {
+export function ProjectList({ projects, type, selectedProjects, onToggleSelect, onFavoritesChange, onShowComments }: ProjectListProps) {
   const meta = TYPE_META[type];
   const [sortKey, setSortKey] = useState<SortKey>('rank');
   const [sortDir, setSortDir] = useState<SortDirection>('desc');
@@ -62,6 +63,7 @@ export function ProjectList({ projects, type, selectedProjects, onToggleSelect, 
               selected={selectedProjects.has(project.name)}
               onSelect={onToggleSelect}
               onFavoritesChange={onFavoritesChange}
+              onShowComments={onShowComments}
             />
           </div>
         ))}

@@ -9,3 +9,6 @@ export { FollowedAuthorsPanel } from './FollowedAuthorsPanel';
 export { RecommendationsPanel } from './RecommendationsPanel';
 export { TopicTrackingPanel } from './TopicTrackingPanel';
 export { ReportsPanel } from './ReportsPanel';
+export { CommentsPanel } from './CommentsPanel';
+export { SharePoster } from './SharePoster';
+export { NotificationCenter } from './NotificationCenter';

@@ -9,9 +9,10 @@ interface ProjectCardProps {
   selected: boolean;
   onSelect: (name: string) => void;
   onFavoritesChange?: () => void;
+  onShowComments?: (projectName: string) => void;
 }
 
-export function ProjectCard({ project, selected, onSelect, onFavoritesChange }: ProjectCardProps) {
+export function ProjectCard({ project, selected, onSelect, onFavoritesChange, onShowComments }: ProjectCardProps) {
   const [forking, setForking] = useState(false);
   const [forkResult, setForkResult] = useState<{ success: boolean; url?: string; error?: string } | null>(null);
   const [repoStats, setRepoStats] = useState<{ stars: number; forks: number } | null>(null);
@@ -22,7 +23,7 @@ export function ProjectCard({ project, selected, onSelect, onFavoritesChange }: 
   const repoInfo = parseRepoInfo(project.link);
   const owner = repoInfo?.owner || project.name.split('/')[0];
   const repo = repoInfo?.repo || project.name.split('/')[1];
-  const language = project.keywords?.[0] || project.language || 'Unknown';
+  const language = project.keywords?.[0] || 'Unknown';
 
   // Initialize social states
   useEffect(() => {
@@ -220,7 +221,19 @@ export function ProjectCard({ project, selected, onSelect, onFavoritesChange }: 
             </div>
 
             {/* Fork Button */}
-            <div className="ml-auto">
+            <div className="ml-auto flex items-center gap-2">
+              {onShowComments && (
+                <button
+                  onClick={e => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    onShowComments(project.name);
+                  }}
+                  className="px-3 py-1 text-xs rounded bg-github-card border border-github-border text-github-muted hover:text-github-purple hover:border-github-purple/50 transition-colors"
+                >
+                  💬 评论
+                </button>
+              )}
               <button
                 onClick={handleFork}
                 disabled={forking}
