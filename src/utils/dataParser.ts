@@ -47,7 +47,7 @@ export function parseMarkdownTable(markdown: string): TrendingProject[] {
           keywords,
           totalStars,
           growth,
-          growthValue
+          growthValue,
         });
       }
     }

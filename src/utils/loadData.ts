@@ -19,16 +19,16 @@ export async function loadTrendingFromFiles(): Promise<TrendingData> {
 
 // Fallback sample data (embedded)
 const SAMPLE_WEEKLY: TrendingProject[] = [
-  { rank: 1, name: 'anthropics/financial-services', link: 'https://github.com/anthropics/financial-services', description: 'Anthropic\'s financial services reference implementation', keywords: ['Finance', 'Python'], totalStars: '16,687', growth: '5,848', growthValue: 5848 },
-  { rank: 2, name: 'ruvnet/ruflo', link: 'https://github.com/ruvnet/ruflo', description: 'The leading agent orchestration platform for Claude', keywords: ['AI Agent', 'Claude', 'TypeScript'], totalStars: '47,379', growth: '12,226', growthValue: 12226 },
-  { rank: 3, name: 'TauricResearch/TradingAgents', link: 'https://github.com/TauricResearch/TradingAgents', description: 'TradingAgents: Multi-Agents LLM Financial Trading', keywords: ['AI Agent', 'Trading', 'Finance', 'Python'], totalStars: '72,239', growth: '12,981', growthValue: 12981 },
+  { rank: 1, name: 'anthropics/financial-services', link: 'https://github.com/anthropics/financial-services', description: 'Anthropic\'s financial services reference implementation', keywords: ['Finance', 'Python'], totalStars: '16,687', growth: '5,848', growthValue: 5848, starsHistory: [11000, 12500, 13800, 15100, 15800, 16687], risingPrediction: true },
+  { rank: 2, name: 'ruvnet/ruflo', link: 'https://github.com/ruvnet/ruflo', description: 'The leading agent orchestration platform for Claude', keywords: ['AI Agent', 'Claude', 'TypeScript'], totalStars: '47,379', growth: '12,226', growthValue: 12226, starsHistory: [35000, 38000, 41000, 43500, 46000, 47379], risingPrediction: true },
+  { rank: 3, name: 'TauricResearch/TradingAgents', link: 'https://github.com/TauricResearch/TradingAgents', description: 'TradingAgents: Multi-Agents LLM Financial Trading', keywords: ['AI Agent', 'Trading', 'Finance', 'Python'], totalStars: '72,239', growth: '12,981', growthValue: 12981, starsHistory: [59000, 61000, 63500, 66000, 69000, 72239] },
   { rank: 4, name: 'docusealco/docuseal', link: 'https://github.com/docusealco/docuseal', description: 'Open source DocuSign alternative', keywords: ['Ruby'], totalStars: '15,995', growth: '4,069', growthValue: 4069 },
   { rank: 5, name: 'virattt/dexter', link: 'https://github.com/virattt/dexter', description: 'An autonomous agent for deep financial research', keywords: ['AI Agent', 'Finance', 'TypeScript'], totalStars: '24,979', growth: '3,278', growthValue: 3278 },
   { rank: 6, name: 'soxoj/maigret', link: 'https://github.com/soxoj/maigret', description: 'Collect a dossier on a person by username', keywords: ['Python'], totalStars: '26,861', growth: '5,398', growthValue: 5398 },
   { rank: 7, name: '1jehuang/jcode', link: 'https://github.com/1jehuang/jcode', description: 'Coding Agent Harness', keywords: ['AI Agent', 'Rust'], totalStars: '5,239', growth: '2,925', growthValue: 2925 },
   { rank: 8, name: 'cocoindex-io/cocoindex', link: 'https://github.com/cocoindex-io/cocoindex', description: 'Incremental engine for long horizon agents', keywords: ['AI Agent', 'Python'], totalStars: '9,248', growth: '1,909', growthValue: 1909 },
-  { rank: 9, name: 'AIDC-AI/Pixelle-Video', link: 'https://github.com/AIDC-AI/Pixelle-Video', description: 'AI全自动短视频引擎', keywords: ['AI', 'Python'], totalStars: '14,042', growth: '5,136', growthValue: 5136 },
-  { rank: 10, name: 'mattpocock/skills', link: 'https://github.com/mattpocock/skills', description: 'Skills for Real Engineers', keywords: ['Claude', 'Shell'], totalStars: '67,500', growth: '14,928', growthValue: 14928 },
+  { rank: 9, name: 'AIDC-AI/Pixelle-Video', link: 'https://github.com/AIDC-AI/Pixelle-Video', description: 'AI全自动短视频引擎', keywords: ['AI', 'Python'], totalStars: '14,042', growth: '5,136', growthValue: 5136, risingPrediction: true },
+  { rank: 10, name: 'mattpocock/skills', link: 'https://github.com/mattpocock/skills', description: 'Skills for Real Engineers', keywords: ['Claude', 'Shell'], totalStars: '67,500', growth: '14,928', growthValue: 14928, starsHistory: [52000, 56000, 60000, 64000, 66000, 67500] },
 ];
 
 const SAMPLE_MONTHLY: TrendingProject[] = [

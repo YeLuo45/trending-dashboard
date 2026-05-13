@@ -83,6 +83,31 @@ export interface RepoStats {
   forks: number;
 }
 
+export async function fetchReadme(owner: string, repo: string, token?: string): Promise<string | null> {
+  try {
+    const headers: Record<string, string> = {
+      Accept: 'application/vnd.github.v3+json',
+    };
+    if (token) {
+      headers['Authorization'] = `Bearer ${token}`;
+    }
+    const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, { headers });
+    if (!res.ok) return null;
+    const data = await res.json();
+    // GitHub returns README content base64 encoded
+    const content = atob(data.content);
+    // Convert markdown-like content to HTML (basic sanitization)
+    return content
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/\n/g, '<br/>')
+      .substring(0, 2000);
+  } catch {
+    return null;
+  }
+}
+
 export async function fetchRepoStats(owner: string, repo: string, token?: string): Promise<RepoStats | null> {
   try {
     const headers: Record<string, string> = {

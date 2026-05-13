@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import type { TrendingProject } from '../types';
 import { getGhToken, forkRepo, parseRepoInfo, fetchRepoStats } from '../utils/github';
 import { addFavorite, removeFavorite, isFavorited, followAuthor, unfollowAuthor, isFollowing } from '../utils/social';
+import { RisingBadge } from './RisingBadge';
 
 interface ProjectCardProps {
   project: TrendingProject;
@@ -175,6 +176,7 @@ export function ProjectCard({ project, selected, onSelect, onFavoritesChange }: 
               <h3 className="text-lg font-semibold text-github-purple truncate">
                 {repo}
               </h3>
+              <RisingBadge project={project} />
               <span className="text-github-muted text-sm">/</span>
               <span className="text-github-muted text-sm">{owner}</span>
             </a>

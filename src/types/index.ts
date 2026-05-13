@@ -8,6 +8,10 @@ export interface TrendingProject {
   growth: string;
   growthValue: number;
   forks?: string;
+  forksValue?: number;
+  activity?: number;
+  starsHistory?: number[];
+  risingPrediction?: boolean;
 }
 
 export interface TrendingData {
@@ -18,6 +22,9 @@ export interface TrendingData {
   stars_history?: Record<string, Record<string, number>>;
   forks_history?: Record<string, Record<string, number>>;
 }
+
+export type SortKey = 'rank' | 'growth' | 'forks' | 'activity' | 'stars';
+export type SortDirection = 'asc' | 'desc';
 
 export interface GhUser {
   login: string;
