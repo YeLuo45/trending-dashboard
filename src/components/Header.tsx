@@ -14,9 +14,18 @@ interface HeaderProps {
   projects?: TrendingProject[];
   onShowFavorites?: () => void;
   onShowFollowedAuthors?: () => void;
+  onShowRecommendations?: () => void;
+  onShowTopicTracking?: () => void;
+  onShowReports?: () => void;
 }
 
-export function Header({ lastUpdated, ghUser, onGhUserChange, forkHistoryCount = 0, onShowHistory, projects = [], onShowFavorites, onShowFollowedAuthors }: HeaderProps) {
+export function Header({
+  lastUpdated, ghUser, onGhUserChange,
+  forkHistoryCount = 0, onShowHistory,
+  projects = [],
+  onShowFavorites, onShowFollowedAuthors,
+  onShowRecommendations, onShowTopicTracking, onShowReports,
+}: HeaderProps) {
   const [showSettings, setShowSettings] = useState(false);
   const [favoritesCount, setFavoritesCount] = useState(0);
   const [followedCount, setFollowedCount] = useState(0);
@@ -119,6 +128,39 @@ export function Header({ lastUpdated, ghUser, onGhUserChange, forkHistoryCount =
                     {forkHistoryCount}
                   </span>
                 )}
+              </button>
+            )}
+
+            {/* Topic Tracking Button */}
+            {onShowTopicTracking && (
+              <button
+                onClick={onShowTopicTracking}
+                className="flex items-center gap-2 px-3 py-2 bg-github-card border border-github-border rounded hover:border-github-purple/50 transition-colors"
+              >
+                <span>🏷</span>
+                <span className="text-github-muted text-xs">话题</span>
+              </button>
+            )}
+
+            {/* Reports Button */}
+            {onShowReports && (
+              <button
+                onClick={onShowReports}
+                className="flex items-center gap-2 px-3 py-2 bg-github-card border border-github-border rounded hover:border-github-purple/50 transition-colors"
+              >
+                <span>📊</span>
+                <span className="text-github-muted text-xs">报告</span>
+              </button>
+            )}
+
+            {/* Recommendations Button */}
+            {onShowRecommendations && (
+              <button
+                onClick={onShowRecommendations}
+                className="flex items-center gap-2 px-3 py-2 bg-github-card border border-github-border rounded hover:border-github-purple/50 transition-colors"
+              >
+                <span>🎯</span>
+                <span className="text-github-muted text-xs">推荐</span>
               </button>
             )}
 

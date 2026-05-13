@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Header, TabButton, ProjectList, FavoritesPanel, SharedListView, FollowedAuthorsPanel } from './components';
+import { Header, TabButton, ProjectList, FavoritesPanel, SharedListView, FollowedAuthorsPanel, RecommendationsPanel, TopicTrackingPanel, ReportsPanel } from './components';
 import { loadTrendingFromFiles, loadSampleData } from './utils/loadData';
 import type { TrendingData } from './types';
 import type { GhUser } from './types';
@@ -42,6 +42,9 @@ function App() {
   // Social features state
   const [showFavorites, setShowFavorites] = useState(false);
   const [showFollowedAuthors, setShowFollowedAuthors] = useState(false);
+  const [showRecommendations, setShowRecommendations] = useState(false);
+  const [showTopicTracking, setShowTopicTracking] = useState(false);
+  const [showReports, setShowReports] = useState(false);
   const [shareModal, setShareModal] = useState<{ id: string; url: string } | null>(null);
   const [newProjectsMap, setNewProjectsMap] = useState<Map<string, { name: string; link: string }[]>>(new Map());
 
@@ -278,6 +281,9 @@ function App() {
           projects={[...data.weekly, ...data.monthly, ...(data.daily || [])]}
           onShowFavorites={() => setShowFavorites(true)}
           onShowFollowedAuthors={() => setShowFollowedAuthors(true)}
+          onShowRecommendations={() => setShowRecommendations(true)}
+          onShowTopicTracking={() => setShowTopicTracking(true)}
+          onShowReports={() => setShowReports(true)}
         />
 
         {/* Tabs */}
@@ -387,6 +393,35 @@ function App() {
         <FollowedAuthorsPanel
           onClose={() => setShowFollowedAuthors(false)}
           newProjectsMap={newProjectsMap}
+        />
+      )}
+
+      {/* Recommendations Panel */}
+      {showRecommendations && (
+        <RecommendationsPanel
+          allProjects={[...data.weekly, ...data.monthly, ...(data.daily || [])]}
+          onClose={() => setShowRecommendations(false)}
+        />
+      )}
+
+      {/* Topic Tracking Panel */}
+      {showTopicTracking && (
+        <TopicTrackingPanel
+          allProjects={[...data.weekly, ...data.monthly, ...(data.daily || [])]}
+          onClose={() => setShowTopicTracking(false)}
+          onShowRecommendations={() => {
+            setShowTopicTracking(false);
+            setShowRecommendations(true);
+          }}
+        />
+      )}
+
+      {/* Reports Panel */}
+      {showReports && (
+        <ReportsPanel
+          weeklyProjects={data.weekly}
+          dailyProjects={data.daily || []}
+          onClose={() => setShowReports(false)}
         />
       )}
 

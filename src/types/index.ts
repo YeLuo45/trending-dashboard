@@ -52,3 +52,42 @@ export interface FollowedAuthor {
   username: string;
   followedAt: string;
 }
+
+// ============ Topic Tracking ============
+export interface TrackedTopic {
+  id: string;              // lowercase tag name
+  name: string;            // display name (original case)
+  addedAt: string;
+  color?: string;          // optional custom color
+}
+
+// ============ Smart Recommendations ===========
+export interface Recommendation {
+  project: TrendingProject;
+  reason: 'favorite_match' | 'author_match' | 'topic_match' | 'trend_match';
+  reasonLabel: string;    // e.g. "匹配你的收藏偏好: AI/机器学习"
+  score: number;          // 0-100, higher = more relevant
+}
+
+// ============ Reports ===========
+export interface Report {
+  id: string;
+  type: 'daily' | 'weekly';
+  title: string;
+  createdAt: string;
+  periodStart: string;
+  periodEnd: string;
+  summary: string;         // brief summary text
+  topProjects: TrendingProject[];
+  newInTrend: TrendingProject[];
+  risingProjects: TrendingProject[];
+  topicSummaries: { topic: string; count: number }[];
+}
+
+// ============ User Preferences ===========
+export interface UserPreferences {
+  trackedTopics: TrackedTopic[];
+  reportHistory: Report[];
+  lastReportGenerated?: string;
+  recommendationsLastUpdated?: string;
+}

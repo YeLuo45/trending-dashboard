@@ -6,3 +6,6 @@ export { Settings } from './Settings';
 export { FavoritesPanel } from './FavoritesPanel';
 export { SharedListView } from './SharedListView';
 export { FollowedAuthorsPanel } from './FollowedAuthorsPanel';
+export { RecommendationsPanel } from './RecommendationsPanel';
+export { TopicTrackingPanel } from './TopicTrackingPanel';
+export { ReportsPanel } from './ReportsPanel';
