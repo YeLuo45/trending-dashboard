@@ -63,7 +63,7 @@ jobs:
           
           def parse_trending_html(html):
               soup = BeautifulSoup(html, 'html.parser')
-              articles = soup.select('article.box-border')
+              articles = soup.select('article.Box-row')
               projects = []
               for art in articles:
                   h2 = art.select_one('h2')
