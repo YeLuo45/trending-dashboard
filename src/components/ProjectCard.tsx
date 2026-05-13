@@ -22,7 +22,7 @@ export function ProjectCard({ project, selected, onSelect, onFavoritesChange }: 
   const repoInfo = parseRepoInfo(project.link);
   const owner = repoInfo?.owner || project.name.split('/')[0];
   const repo = repoInfo?.repo || project.name.split('/')[1];
-  const language = project.keywords[0] || 'Unknown';
+  const language = project.keywords?.[0] || project.language || 'Unknown';
 
   // Initialize social states
   useEffect(() => {
