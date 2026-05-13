@@ -32,10 +32,12 @@ jobs:
           python3 << 'PYEOF'
 import requests
 import json
-from datetime import datetime, timezone
 import os
+from datetime import datetime, timezone, timedelta
 
 GH_TOKEN = os.environ.get('GITHUB_TOKEN', '')
+HISTORY_DIR = 'public/data/history'
+MAX_HISTORY_DAYS = 30
 
 def fetch_trending_graphql():
     query = '{ search(query: "created:>2026-05-01", type: REPOSITORY, first: 100) { nodes { ... on Repository { nameWithOwner description primaryLanguage { name } stargazerCount forkCount url createdAt } } } }'
@@ -134,10 +136,22 @@ monthly = list(seen_m.values())[:20]
 
 trending_data = {'daily': daily_projects, 'weekly': weekly, 'monthly': monthly, 'stars_history': stars_history, 'forks_history': forks_history, 'lastUpdated': datetime.now().strftime('%Y-%m-%d %H:%M'), 'generatedAt': datetime.now(timezone.utc).isoformat()}
 
+os.makedirs(HISTORY_DIR, exist_ok=True)
+history_file = os.path.join(HISTORY_DIR, today_str + '.json')
+with open(history_file, 'w') as f:
+    json.dump({'daily': daily_projects, 'generatedAt': datetime.now(timezone.utc).isoformat()}, f, ensure_ascii=False, indent=2)
+
+existing_files = sorted([f for f in os.listdir(HISTORY_DIR) if f.endswith('.json')])
+cutoff = (datetime.now(timezone.utc) - timedelta(days=MAX_HISTORY_DAYS)).strftime('%Y-%m-%d')
+for f in existing_files:
+    if f < cutoff:
+        os.remove(os.path.join(HISTORY_DIR, f))
+
 with open('public/data/trending.json', 'w') as f:
     json.dump(trending_data, f, ensure_ascii=False, indent=2)
 
 print('Saved daily=' + str(len(daily_projects)) + ', weekly=' + str(len(weekly)) + ', monthly=' + str(len(monthly)))
+print('History snapshot: ' + history_file)
 print('Top: ' + daily_projects[0]['name'] + ' (' + daily_projects[0]['totalStars'] + ' stars)')
 
 PYEOF
@@ -146,7 +160,7 @@ PYEOF
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions"
-          git add public/data/trending.json
+          git add public/data/trending.json public/data/history/
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
