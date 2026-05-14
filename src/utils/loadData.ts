@@ -10,7 +10,23 @@ export async function loadTrendingFromFiles(): Promise<TrendingData> {
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
-    return await response.json();
+    const data = await response.json() as TrendingData;
+    // Normalize: convert legacy `language` field to `keywords` array
+    const normalize = (projects: TrendingProject[]): TrendingProject[] =>
+      projects.map(p => {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const raw = p as any;
+        return {
+          ...p,
+          keywords: p.keywords ?? (raw.language ? [raw.language] : []),
+        };
+      });
+    return {
+      ...data,
+      weekly: normalize(data.weekly),
+      monthly: normalize(data.monthly),
+      daily: data.daily ? normalize(data.daily) : [],
+    };
   } catch (error) {
     console.warn('Failed to load trending.json, using fallback:', error);
     return loadSampleData();
