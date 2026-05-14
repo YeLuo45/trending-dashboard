@@ -63,7 +63,7 @@ jobs:
           
           def parse_trending_html(html):
               soup = BeautifulSoup(html, 'html.parser')
-              articles = soup.select('article.box-border')
+              articles = soup.select('article.Box-row')
               projects = []
               for art in articles:
                   h2 = art.select_one('h2')
@@ -74,10 +74,18 @@ jobs:
                       continue
                   name = link.get_text(strip=True)
                   repo_link = 'https://github.com/' + name
-                  p = art.select_one('p')
-                  description = p.get_text(strip=True) if p else ''
-                  lang_span = art.select_one('[class*="d-inline-block"]')
-                  language = lang_span.get_text(strip=True) if lang_span else ''
+                  desc_el = art.select_one('p')
+                  description = desc_el.get_text(strip=True) if desc_el else ''
+                  # Language: find the span that looks like a programming language (not 'Built by', not owner/repo)
+                  # New GitHub structure: language is a plain text span inside the article
+                  language = ''
+                  for span in art.select('span'):
+                      t = span.get_text(strip=True)
+                      if t and t not in ('Star',) and len(t) > 0 and len(t) < 20 and not t.startswith('/') and not t[0].isdigit():
+                          # Avoid the repo name spans (contain '/') and numeric spans (stars count)
+                          if '/' not in t and not t[0].isdigit():
+                              language = t
+                              break
                   star_span = art.select_one('a[href$="/stargazers"]')
                   stars_text = star_span.get_text(strip=True).replace(',', '') if star_span else '0'
                   fork_span = art.select_one('a[href$="/forks"]')
@@ -141,7 +149,7 @@ jobs:
               for p in projects:
                   try:
                       path = p['link'].replace('https://github.com/', '')
-                      resp = requests.get(path, headers={'Authorization': 'Bearer ' + GH_TOKEN, 'Accept': 'application/vnd.github.v3+json'}, timeout=10)
+                      resp = requests.get('https://api.github.com/repos/' + path, headers={'Authorization': 'Bearer ' + GH_TOKEN, 'Accept': 'application/vnd.github.v3+json'}, timeout=10)
                       if resp.status_code == 200:
                           d = resp.json()
                           p['totalStars'] = str(d.get('stargazers_count', p['totalStars']))
