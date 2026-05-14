@@ -12,3 +12,5 @@ export { ReportsPanel } from './ReportsPanel';
 export { CommentsPanel } from './CommentsPanel';
 export { SharePoster } from './SharePoster';
 export { NotificationCenter } from './NotificationCenter';
+export { AdvancedFilterBar, applyFilters } from './AdvancedFilterBar';
+export { TopicTrendingView } from './TopicTrendingView';

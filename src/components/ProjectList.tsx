@@ -11,6 +11,8 @@ interface ProjectListProps {
   onToggleSelect: (name: string) => void;
   onFavoritesChange?: () => void;
   onShowComments?: (projectName: string) => void;
+  /** Keyword to highlight in project names, descriptions, and tags */
+  highlightKeyword?: string;
 }
 
 const TYPE_META = {
@@ -33,7 +35,7 @@ function sortProjects(projects: TrendingProject[], key: SortKey, dir: SortDirect
   return dir === 'asc' ? sorted.reverse() : sorted;
 }
 
-export function ProjectList({ projects, type, selectedProjects, onToggleSelect, onFavoritesChange, onShowComments }: ProjectListProps) {
+export function ProjectList({ projects, type, selectedProjects, onToggleSelect, onFavoritesChange, onShowComments, highlightKeyword }: ProjectListProps) {
   const meta = TYPE_META[type];
   const [sortKey, setSortKey] = useState<SortKey>('rank');
   const [sortDir, setSortDir] = useState<SortDirection>('desc');
@@ -64,6 +66,7 @@ export function ProjectList({ projects, type, selectedProjects, onToggleSelect, 
               onSelect={onToggleSelect}
               onFavoritesChange={onFavoritesChange}
               onShowComments={onShowComments}
+              highlightKeyword={highlightKeyword}
             />
           </div>
         ))}

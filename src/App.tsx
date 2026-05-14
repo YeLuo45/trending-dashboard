@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Header, TabButton, ProjectList, FavoritesPanel, SharedListView, FollowedAuthorsPanel, RecommendationsPanel, TopicTrackingPanel, ReportsPanel, CommentsPanel, SharePoster, NotificationCenter } from './components';
+import { Header, TabButton, ProjectList, FavoritesPanel, SharedListView, FollowedAuthorsPanel, RecommendationsPanel, TopicTrackingPanel, ReportsPanel, CommentsPanel, SharePoster, NotificationCenter, AdvancedFilterBar, applyFilters, TopicTrendingView } from './components';
+import type { FilterState } from './components/AdvancedFilterBar';
 import { loadTrendingFromFiles, loadSampleData } from './utils/loadData';
 import type { TrendingData, FavoriteItem } from './types';
 import type { GhUser } from './types';
@@ -37,7 +38,6 @@ function App() {
   const [batchResults, setBatchResults] = useState<{ name: string; success: boolean; url?: string; error?: string }[]>([]);
   const [forkHistory, setForkHistory] = useState<ForkHistoryItem[]>([]);
   const [showHistory, setShowHistory] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
 
   // Social features state
   const [showFavorites, setShowFavorites] = useState(false);
@@ -50,6 +50,16 @@ function App() {
   const [commentsProject, setCommentsProject] = useState<string | null>(null);
   const [sharePosterProjects, setSharePosterProjects] = useState<FavoriteItem[] | null>(null);
   const [showNotificationCenter, setShowNotificationCenter] = useState(false);
+
+  // Advanced filtering & view modes
+  const [viewMode, setViewMode] = useState<'list' | 'topic'>('list');
+  const [filters, setFilters] = useState<FilterState>({
+    language: '',
+    minStars: 0,
+    minGrowth: 0,
+    timeRange: 'all',
+    keyword: '',
+  });
 
   // Check for share URL parameter on mount
   const shareId = new URLSearchParams(window.location.search).get('share');
@@ -260,17 +270,8 @@ function App() {
 
   const allProjects = activeTab === 'weekly' ? data.weekly : activeTab === 'monthly' ? data.monthly : (data.daily || []);
 
-  // Filter projects by search query
-  const filteredProjects = searchQuery.trim()
-    ? allProjects.filter(p => {
-        const q = searchQuery.toLowerCase();
-        return (
-          p.name.toLowerCase().includes(q) ||
-          p.description.toLowerCase().includes(q) ||
-          p.keywords.some(k => k.toLowerCase().includes(q))
-        );
-      })
-    : allProjects;
+  // Apply advanced filters to projects
+  const filteredProjects = applyFilters(allProjects, filters);
 
   return (
     <div className="min-h-screen bg-github-dark">
@@ -291,40 +292,54 @@ function App() {
         />
 
         {/* Tabs */}
-        <div className="flex border-b border-github-border mb-4">
-          <TabButton
-            active={activeTab === 'weekly'}
-            label="📈 本周增长"
-            onClick={() => setActiveTab('weekly')}
-          />
-          <TabButton
-            active={activeTab === 'monthly'}
-            label="🔥 本月最热"
-            onClick={() => setActiveTab('monthly')}
-          />
-          <TabButton
-            active={activeTab === 'daily'}
-            label="⚡ 今日趋势"
-            onClick={() => setActiveTab('daily')}
-          />
+        <div className="flex items-center justify-between border-b border-github-border mb-4">
+          <div className="flex">
+            <TabButton
+              active={activeTab === 'weekly'}
+              label="📈 本周增长"
+              onClick={() => setActiveTab('weekly')}
+            />
+            <TabButton
+              active={activeTab === 'monthly'}
+              label="🔥 本月最热"
+              onClick={() => setActiveTab('monthly')}
+            />
+            <TabButton
+              active={activeTab === 'daily'}
+              label="⚡ 今日趋势"
+              onClick={() => setActiveTab('daily')}
+            />
+          </div>
+          <div className="flex items-center gap-2 pb-2">
+            <button
+              onClick={() => setViewMode('list')}
+              className={`px-3 py-1 text-xs rounded transition-colors ${
+                viewMode === 'list'
+                  ? 'bg-github-purple/20 text-github-purple border border-github-purple/50'
+                  : 'text-github-muted hover:text-github-text'
+              }`}
+            >
+              📋 列表
+            </button>
+            <button
+              onClick={() => setViewMode('topic')}
+              className={`px-3 py-1 text-xs rounded transition-colors ${
+                viewMode === 'topic'
+                  ? 'bg-github-purple/20 text-github-purple border border-github-purple/50'
+                  : 'text-github-muted hover:text-github-text'
+              }`}
+            >
+              🏷 话题趋势
+            </button>
+          </div>
         </div>
 
-        {/* Search Bar */}
-        <div className="mb-4">
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={e => setSearchQuery(e.target.value)}
-            placeholder="搜索项目名称、描述或标签..."
-            className="w-full px-4 py-2 bg-github-card border border-github-border rounded text-github-text text-sm placeholder-github-muted focus:outline-none focus:border-github-purple transition-colors"
-          />
-          {searchQuery && (
-            <p className="text-github-muted text-xs mt-2">
-              找到 <span className="text-github-purple">{filteredProjects.length}</span> 个结果
-              <button onClick={() => setSearchQuery('')} className="ml-3 text-github-purple hover:underline">清除</button>
-            </p>
-          )}
-        </div>
+        {/* Advanced Filter Bar */}
+        <AdvancedFilterBar
+          projects={allProjects}
+          filters={filters}
+          onFiltersChange={setFilters}
+        />
 
         {/* Batch Fork Bar */}
         <div className="mb-6 p-4 bg-github-card border border-github-border rounded-lg">
@@ -401,14 +416,25 @@ function App() {
         </div>
 
         {/* Content */}
-        <ProjectList
-          projects={filteredProjects}
-          type={activeTab}
-          selectedProjects={selectedProjects}
-          onToggleSelect={handleToggleSelect}
-          onFavoritesChange={handleFavoritesChange}
-          onShowComments={(projectName) => setCommentsProject(projectName)}
-        />
+        {viewMode === 'list' ? (
+          <ProjectList
+            projects={filteredProjects}
+            type={activeTab}
+            selectedProjects={selectedProjects}
+            onToggleSelect={handleToggleSelect}
+            onFavoritesChange={handleFavoritesChange}
+            onShowComments={(projectName) => setCommentsProject(projectName)}
+            highlightKeyword={filters.keyword}
+          />
+        ) : (
+          <TopicTrendingView
+            projects={filteredProjects}
+            selectedProjects={selectedProjects}
+            onToggleSelect={handleToggleSelect}
+            onFavoritesChange={handleFavoritesChange}
+            onShowComments={(projectName) => setCommentsProject(projectName)}
+          />
+        )}
       </div>
 
       {/* Favorites Panel */}

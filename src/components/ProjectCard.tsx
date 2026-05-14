@@ -10,9 +10,29 @@ interface ProjectCardProps {
   onSelect: (name: string) => void;
   onFavoritesChange?: () => void;
   onShowComments?: (projectName: string) => void;
+  /** Keyword to highlight in name, description, and tags */
+  highlightKeyword?: string;
 }
 
-export function ProjectCard({ project, selected, onSelect, onFavoritesChange, onShowComments }: ProjectCardProps) {
+/** Highlight occurrences of `keyword` in `text` with a yellow background mark */
+function HighlightedText({ text, keyword }: { text: string; keyword: string }) {
+  if (!keyword.trim()) return <>{text}</>;
+  const regex = new RegExp(`(${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+  const parts = text.split(regex);
+  return (
+    <>
+      {parts.map((part, i) =>
+        regex.test(part) ? (
+          <mark key={i} className="bg-yellow-500/30 text-yellow-300 rounded px-0.5">{part}</mark>
+        ) : (
+          <span key={i}>{part}</span>
+        )
+      )}
+    </>
+  );
+}
+
+export function ProjectCard({ project, selected, onSelect, onFavoritesChange, onShowComments, highlightKeyword }: ProjectCardProps) {
   const [forking, setForking] = useState(false);
   const [forkResult, setForkResult] = useState<{ success: boolean; url?: string; error?: string } | null>(null);
   const [repoStats, setRepoStats] = useState<{ stars: number; forks: number } | null>(null);
@@ -175,7 +195,7 @@ export function ProjectCard({ project, selected, onSelect, onFavoritesChange, on
               onClick={e => e.stopPropagation()}
             >
               <h3 className="text-lg font-semibold text-github-purple truncate">
-                {repo}
+                <HighlightedText text={repo} keyword={highlightKeyword || ''} />
               </h3>
               <RisingBadge project={project} />
               <span className="text-github-muted text-sm">/</span>
@@ -202,8 +222,24 @@ export function ProjectCard({ project, selected, onSelect, onFavoritesChange, on
 
           {/* Description */}
           <p className="text-github-muted text-sm mb-3 line-clamp-2">
-            {project.description}
+            <HighlightedText text={project.description} keyword={highlightKeyword || ''} />
           </p>
+
+          {/* Tags / Keywords */}
+          <div className="flex flex-wrap gap-1.5 mb-3">
+            {project.keywords.map((kw, i) => (
+              <span
+                key={i}
+                className={`px-2 py-0.5 text-xs rounded ${
+                  highlightKeyword && kw.toLowerCase().includes(highlightKeyword.toLowerCase())
+                    ? 'bg-yellow-500/20 text-yellow-300 border border-yellow-500/40'
+                    : 'bg-github-dark text-github-muted'
+                }`}
+              >
+                <HighlightedText text={kw} keyword={highlightKeyword || ''} />
+              </span>
+            ))}
+          </div>
 
           {/* Stats */}
           <div className="flex items-center gap-4 text-sm">
