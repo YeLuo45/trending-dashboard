@@ -12,6 +12,7 @@ interface HeaderProps {
   ghUser: GhUser | null;
   onGhUserChange: (user: GhUser | null) => void;
   forkHistoryCount?: number;
+  onForkHistorySync?: (records: import('../utils/github').ForkHistoryRecord[]) => void;
   onShowHistory?: () => void;
   projects?: TrendingProject[];
   onShowFavorites?: () => void;
@@ -26,7 +27,8 @@ interface HeaderProps {
 
 export function Header({
   lastUpdated, ghUser, onGhUserChange,
-  forkHistoryCount = 0, onShowHistory,
+  forkHistoryCount = 0, onForkHistorySync,
+  onShowHistory,
   projects = [],
   onShowFavorites, onShowFollowedAuthors,
   onShowRecommendations, onShowTopicTracking, onShowReports,
@@ -234,7 +236,12 @@ export function Header({
       </header>
 
       {showSettings && (
-        <Settings onClose={() => setShowSettings(false)} onUserChange={onGhUserChange} />
+        <Settings
+          onClose={() => setShowSettings(false)}
+          onUserChange={onGhUserChange}
+          forkHistoryCount={forkHistoryCount}
+          onForkHistorySync={onForkHistorySync}
+        />
       )}
     </>
   );

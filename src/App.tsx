@@ -296,6 +296,7 @@ function App() {
           ghUser={ghUser}
           onGhUserChange={setGhUser}
           forkHistoryCount={forkHistory.length}
+          onForkHistorySync={setForkHistory}
           onShowHistory={() => setShowHistory(true)}
           projects={[...data.weekly, ...data.monthly, ...(data.daily || [])]}
           onShowFavorites={() => setShowFavorites(true)}

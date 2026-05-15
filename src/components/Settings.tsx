@@ -1,16 +1,30 @@
 import { useState, useEffect } from 'react';
-import { getGhToken, setGhToken, clearGhToken, fetchGhUser, type GhUser } from '../utils/github';
+import { getGhToken, setGhToken, clearGhToken, fetchGhUser, syncForkHistory, type GhUser, type ForkHistoryRecord } from '../utils/github';
+
+const FORK_HISTORY_KEY = 'fork_history';
+
+function getLocalForkHistory(): ForkHistoryRecord[] {
+  try {
+    return JSON.parse(localStorage.getItem(FORK_HISTORY_KEY) || '[]');
+  } catch {
+    return [];
+  }
+}
 
 interface SettingsProps {
   onClose: () => void;
   onUserChange: (user: GhUser | null) => void;
+  forkHistoryCount?: number;
+  onForkHistorySync?: (records: ForkHistoryRecord[]) => void;
 }
 
-export function Settings({ onClose, onUserChange }: SettingsProps) {
+export function Settings({ onClose, onUserChange, forkHistoryCount = 0, onForkHistorySync }: SettingsProps) {
   const [token, setToken] = useState(getGhToken());
   const [ghUser, setGhUser] = useState<GhUser | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [syncing, setSyncing] = useState(false);
+  const [lastSynced, setLastSynced] = useState<string | null>(null);
 
   useEffect(() => {
     if (token) {
@@ -50,6 +64,23 @@ export function Settings({ onClose, onUserChange }: SettingsProps) {
     setGhUser(null);
     onUserChange(null);
     setError('');
+    setLastSynced(null);
+  };
+
+  const handleSyncForkHistory = async () => {
+    const t = getGhToken();
+    if (!t) return;
+    setSyncing(true);
+    try {
+      const result = await syncForkHistory(getLocalForkHistory(), t);
+      if (result.updated) {
+        setLastSynced(new Date().toLocaleTimeString('zh-CN'));
+        onForkHistorySync?.(result.records);
+        localStorage.setItem(FORK_HISTORY_KEY, JSON.stringify(result.records.slice(0, 50)));
+      }
+    } finally {
+      setSyncing(false);
+    }
   };
 
   return (
@@ -105,6 +136,28 @@ export function Settings({ onClose, onUserChange }: SettingsProps) {
                 <p className="text-github-muted text-xs mt-0.5">通过 GitHub Gist 自动同步，换设备不丢失</p>
               </div>
               <span className="text-green-400 text-xs">✓ 已启用</span>
+            </div>
+          </div>
+        )}
+
+        {/* Fork History Sync */}
+        {ghUser && (
+          <div className="mb-4 p-3 bg-github-dark rounded">
+            <div className="flex items-center justify-between mb-2">
+              <div>
+                <p className="text-github-text text-sm font-medium">📋 Fork 历史同步</p>
+                <p className="text-github-muted text-xs mt-0.5">
+                  已同步 {forkHistoryCount} 条记录到云端
+                  {lastSynced ? ` · 上次同步 ${lastSynced}` : ''}
+                </p>
+              </div>
+              <button
+                onClick={handleSyncForkHistory}
+                disabled={syncing}
+                className="px-3 py-1 text-xs border border-github-purple text-github-purple rounded hover:bg-github-purple/10 disabled:opacity-50 transition-colors"
+              >
+                {syncing ? '同步中...' : '立即同步'}
+              </button>
             </div>
           </div>
         )}
