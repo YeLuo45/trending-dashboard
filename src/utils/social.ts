@@ -163,12 +163,24 @@ function getAllComments(): Record<string, Comment[]> {
   }
 }
 
+async function persistComments(comments: Record<string, Comment[]>): Promise<void> {
+  localStorage.setItem(COMMENTS_KEY, JSON.stringify(comments));
+  // Async Gist backup (fire-and-forget, don't block UI)
+  import('./gistApi').then(m => m.syncCommentsToRemote(comments)).catch(() => {});
+}
+
+export async function loadCommentsWithRemote(): Promise<Record<string, Comment[]>> {
+  const local = getAllComments();
+  const { loadCommentsWithRemote: loadRemote } = await import('./gistApi');
+  return loadRemote(local);
+}
+
 export function getComments(projectName: string): Comment[] {
   const all = getAllComments();
   return all[projectName] || [];
 }
 
-export function addComment(projectName: string, author: string, content: string, avatar?: string): Comment {
+export async function addComment(projectName: string, author: string, content: string, avatar?: string): Promise<Comment> {
   const all = getAllComments();
   if (!all[projectName]) all[projectName] = [];
 
@@ -188,7 +200,7 @@ export function addComment(projectName: string, author: string, content: string,
     all[projectName] = all[projectName].slice(0, MAX_COMMENTS_PER_PROJECT);
   }
 
-  localStorage.setItem(COMMENTS_KEY, JSON.stringify(all));
+  await persistComments(all);
 
   // Also create a notification for the project owner about the new comment
   const parts = projectName.split('/');
@@ -205,11 +217,11 @@ export function addComment(projectName: string, author: string, content: string,
   return comment;
 }
 
-export function deleteComment(projectName: string, commentId: string): void {
+export async function deleteComment(projectName: string, commentId: string): Promise<void> {
   const all = getAllComments();
   if (!all[projectName]) return;
   all[projectName] = all[projectName].filter(c => c.id !== commentId);
-  localStorage.setItem(COMMENTS_KEY, JSON.stringify(all));
+  await persistComments(all);
 }
 
 // ============ Notifications ============

@@ -96,6 +96,19 @@ export function Settings({ onClose, onUserChange }: SettingsProps) {
           <p className="text-red-400 text-sm mb-4">{error}</p>
         )}
 
+        {/* Gist Backup Status */}
+        {ghUser && (
+          <div className="mb-4 p-3 bg-github-dark rounded">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-github-text text-sm font-medium">💬 评论云端备份</p>
+                <p className="text-github-muted text-xs mt-0.5">通过 GitHub Gist 自动同步，换设备不丢失</p>
+              </div>
+              <span className="text-green-400 text-xs">✓ 已启用</span>
+            </div>
+          </div>
+        )}
+
         {/* Actions */}
         <div className="flex gap-2">
           <button

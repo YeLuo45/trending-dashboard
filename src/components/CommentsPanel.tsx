@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { Comment } from '../types';
-import { getComments, addComment, deleteComment } from '../utils/social';
+import { getComments, addComment, deleteComment, loadCommentsWithRemote } from '../utils/social';
 
 interface CommentsPanelProps {
   projectName: string;
@@ -13,25 +13,42 @@ export function CommentsPanel({ projectName, onClose }: CommentsPanelProps) {
   const [commentText, setCommentText] = useState('');
   const [submitting, setSubmitting] = useState(false);
   const [confirmDelete, setConfirmDelete] = useState<string | null>(null);
+  const [loadingRemote, setLoadingRemote] = useState(false);
 
   useEffect(() => {
-    setComments(getComments(projectName));
+    async function load() {
+      setLoadingRemote(true);
+      try {
+        const merged = await loadCommentsWithRemote();
+        setComments(merged[projectName] || []);
+      } catch {
+        setComments(getComments(projectName));
+      } finally {
+        setLoadingRemote(false);
+      }
+    }
+    load();
   }, [projectName]);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!authorName.trim() || !commentText.trim()) return;
 
     setSubmitting(true);
-    addComment(projectName, authorName.trim(), commentText.trim());
-    setComments(getComments(projectName));
-    setCommentText('');
-    setSubmitting(false);
+    try {
+      await addComment(projectName, authorName.trim(), commentText.trim());
+      const merged = await loadCommentsWithRemote();
+      setComments(merged[projectName] || []);
+      setCommentText('');
+    } finally {
+      setSubmitting(false);
+    }
   };
 
-  const handleDelete = (commentId: string) => {
-    deleteComment(projectName, commentId);
-    setComments(getComments(projectName));
+  const handleDelete = async (commentId: string) => {
+    await deleteComment(projectName, commentId);
+    const merged = await loadCommentsWithRemote();
+    setComments(merged[projectName] || []);
     setConfirmDelete(null);
   };
 
@@ -174,10 +191,13 @@ export function CommentsPanel({ projectName, onClose }: CommentsPanelProps) {
         </div>
 
         {/* Footer */}
-        <div className="p-3 border-t border-github-border text-center">
+        <div className="p-3 border-t border-github-border flex items-center justify-between">
           <span className="text-github-muted text-xs">
             共 {comments.length} 条评论
           </span>
+          {loadingRemote && (
+            <span className="text-github-muted text-xs animate-pulse">同步中...</span>
+          )}
         </div>
       </div>
     </div>
