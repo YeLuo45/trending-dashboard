@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Header, TabButton, ProjectList, FavoritesPanel, SharedListView, FollowedAuthorsPanel, RecommendationsPanel, TopicTrackingPanel, ReportsPanel, CommentsPanel, SharePoster, NotificationCenter, AdvancedFilterBar, applyFilters, TopicTrendingView, MobileDrawerNav, ExportPanel } from './components';
+import { Header, TabButton, ProjectList, FavoritesPanel, SharedListView, FollowedAuthorsPanel, RecommendationsPanel, TopicTrackingPanel, ReportsPanel, CommentsPanel, SharePoster, NotificationCenter, AdvancedFilterBar, applyFilters, TopicTrendingView, MobileDrawerNav, ExportPanel, ErrorBoundary, FullPageSkeleton } from './components';
 import type { FilterState } from './components/AdvancedFilterBar';
 import { loadTrendingFromFiles, loadSampleData } from './utils/loadData';
 import type { TrendingData, FavoriteItem } from './types';
@@ -289,25 +289,30 @@ function App() {
   const filteredProjects = applyFilters(allProjects, filters);
 
   return (
-    <div className="min-h-screen bg-github-dark">
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        <Header
-          lastUpdated={data.lastUpdated}
-          ghUser={ghUser}
-          onGhUserChange={setGhUser}
-          forkHistoryCount={forkHistory.length}
-          onForkHistorySync={setForkHistory}
-          onShowHistory={() => setShowHistory(true)}
-          projects={[...data.weekly, ...data.monthly, ...(data.daily || [])]}
-          onShowFavorites={() => setShowFavorites(true)}
-          onShowFollowedAuthors={() => setShowFollowedAuthors(true)}
-          onShowRecommendations={() => setShowRecommendations(true)}
-          onShowTopicTracking={() => setShowTopicTracking(true)}
-          onShowReports={() => setShowReports(true)}
-          onShowNotificationCenter={() => setShowNotificationCenter(true)}
-          onShowMobileNav={() => setShowMobileNav(true)}
-          onShowExport={() => setShowExport(true)}
-        />
+    <>
+      {loading ? (
+        <FullPageSkeleton />
+      ) : (
+        <ErrorBoundary>
+          <div className="min-h-screen bg-github-dark">
+            <div className="max-w-4xl mx-auto px-4 py-8">
+              <Header
+                lastUpdated={data.lastUpdated}
+                ghUser={ghUser}
+                onGhUserChange={setGhUser}
+                forkHistoryCount={forkHistory.length}
+                onForkHistorySync={setForkHistory}
+                onShowHistory={() => setShowHistory(true)}
+                projects={[...data.weekly, ...data.monthly, ...(data.daily || [])]}
+                onShowFavorites={() => setShowFavorites(true)}
+                onShowFollowedAuthors={() => setShowFollowedAuthors(true)}
+                onShowRecommendations={() => setShowRecommendations(true)}
+                onShowTopicTracking={() => setShowTopicTracking(true)}
+                onShowReports={() => setShowReports(true)}
+                onShowNotificationCenter={() => setShowNotificationCenter(true)}
+                onShowMobileNav={() => setShowMobileNav(true)}
+                onShowExport={() => setShowExport(true)}
+              />
 
         {/* Tabs */}
         <div className="flex items-center justify-between border-b border-github-border mb-4">
@@ -613,7 +618,11 @@ function App() {
           onClose={() => setShowExport(false)}
         />
       )}
-    </div>
+            </div>
+          </div>
+        </ErrorBoundary>
+      )}
+    </>
   );
 }
 
