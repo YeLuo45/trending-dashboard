@@ -16,27 +16,66 @@ function normalize(projects: TrendingProject[]): TrendingProject[] {
   });
 }
 
-// Load data from JSON file in public folder
-export async function loadTrendingFromFiles(): Promise<TrendingData> {
-  let normalized: TrendingData | null = null;
+interface TabData {
+  projects: TrendingProject[];
+  lastUpdated: string;
+}
 
+interface RawTabData {
+  projects: TrendingProject[];
+  lastUpdated: string;
+}
+
+// Load a single tab data file
+async function fetchTab(tab: 'daily' | 'weekly' | 'monthly'): Promise<TabData | null> {
   try {
-    const response = await fetch(`${BASE_PATH}data/trending.json`);
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
-    const data = await response.json() as TrendingData;
-    normalized = {
+    const resp = await fetch(`${BASE_PATH}data/${tab}.json`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const raw = await resp.json() as RawTabData;
+    return {
+      projects: normalize(raw.projects || []),
+      lastUpdated: raw.lastUpdated || '',
+    };
+  } catch {
+    return null;
+  }
+}
+
+// Load all trending tab data in parallel, fallback to trending.json legacy format
+export async function loadTrendingFromFiles(): Promise<TrendingData> {
+  const [daily, weekly, monthly] = await Promise.all([
+    fetchTab('daily'),
+    fetchTab('weekly'),
+    fetchTab('monthly'),
+  ]);
+
+  const hasAllTabs = daily && weekly && monthly;
+  if (hasAllTabs) {
+    const data: TrendingData = {
+      weekly: weekly!.projects,
+      monthly: monthly!.projects,
+      daily: daily!.projects,
+      lastUpdated: weekly!.lastUpdated || new Date().toLocaleString(),
+    };
+    saveTrendingCache(data);
+    return data;
+  }
+
+  // Fallback: try legacy combined trending.json
+  try {
+    const resp = await fetch(`${BASE_PATH}data/trending.json`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json() as TrendingData;
+    const normalized: TrendingData = {
       ...data,
       weekly: normalize(data.weekly),
       monthly: normalize(data.monthly),
       daily: data.daily ? normalize(data.daily) : [],
     };
-    // Cache successful load
     saveTrendingCache(normalized);
+    return normalized;
   } catch (error) {
-    console.warn('Failed to load trending.json, trying cache:', error);
-    // Try cache before falling back to sample data
+    console.warn('Failed to load trending data, trying cache:', error);
     const cached = loadTrendingCache();
     if (cached) {
       console.info('Using cached trending data');
@@ -45,8 +84,20 @@ export async function loadTrendingFromFiles(): Promise<TrendingData> {
     console.warn('No cache available, using sample data');
     return loadSampleData();
   }
+}
 
-  return normalized!;
+// Per-tab on-demand load+translate (used when user switches tab)
+import { translateDescriptions } from './translation';
+
+export async function loadAndTranslateTab(
+  tab: 'daily' | 'weekly' | 'monthly',
+  currentProjects: TrendingProject[]
+): Promise<TrendingProject[]> {
+  // If already has data, skip
+  if (currentProjects.length > 0) return currentProjects;
+  const data = await fetchTab(tab);
+  if (!data) return currentProjects;
+  return translateDescriptions(data.projects);
 }
 
 // Fallback sample data (embedded)

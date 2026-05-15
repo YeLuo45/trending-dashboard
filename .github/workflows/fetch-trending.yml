@@ -200,6 +200,26 @@ jobs:
                   stars_history[name] = {}
               stars_history[name][today_str] = int(p['totalStars'])
           
+          trending_data_weekly = {
+              'projects': weekly_ranked,
+              'lastUpdated': datetime.now().strftime('%Y-%m-%d %H:%M'),
+          }
+          trending_data_monthly = {
+              'projects': monthly_ranked,
+              'lastUpdated': datetime.now().strftime('%Y-%m-%d %H:%M'),
+          }
+          trending_data_daily = {
+              'projects': daily_ranked,
+              'lastUpdated': datetime.now().strftime('%Y-%m-%d %H:%M'),
+          }
+
+          with open('public/data/weekly.json', 'w') as f:
+              json.dump(trending_data_weekly, f, ensure_ascii=False, indent=2)
+          with open('public/data/monthly.json', 'w') as f:
+              json.dump(trending_data_monthly, f, ensure_ascii=False, indent=2)
+          with open('public/data/daily.json', 'w') as f:
+              json.dump(trending_data_daily, f, ensure_ascii=False, indent=2)
+
           trending_data = {
               'daily': daily_ranked,
               'weekly': weekly_ranked,
@@ -208,14 +228,10 @@ jobs:
               'lastUpdated': datetime.now().strftime('%Y-%m-%d %H:%M'),
               'generatedAt': datetime.now(timezone.utc).isoformat(),
           }
-          
-          history_file = save_daily_snapshot(trending_data, HISTORY_DIR)
-          
           with open('public/data/trending.json', 'w') as f:
               json.dump(trending_data, f, ensure_ascii=False, indent=2)
-          
+
           print('Saved daily=' + str(len(daily_ranked)) + ' weekly=' + str(len(weekly_ranked)) + ' monthly=' + str(len(monthly_ranked)))
-          print('History snapshot: ' + history_file)
           if daily_ranked:
               top = daily_ranked[0]
               print('Top daily: ' + top['name'] + ' stars=' + top['totalStars'] + ' growth=' + top['growth'])
