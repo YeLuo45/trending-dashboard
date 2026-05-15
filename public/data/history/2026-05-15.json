@@ -1,91 +1,91 @@
 {
   "daily": [
     {
+      "name": "anthropics /skills",
+      "link": "https://github.com/anthropics /skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "totalStars": "134610",
+      "totalForks": "15888",
+      "growth": "+134610",
+      "growthValue": 134610,
+      "rank": 1
+    },
+    {
+      "name": "oven-sh /bun",
+      "link": "https://github.com/oven-sh /bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "totalStars": "90429",
+      "totalForks": "4496",
+      "growth": "+90429",
+      "growthValue": 90429,
+      "rank": 2
+    },
+    {
+      "name": "czlonkowski /n8n-mcp",
+      "link": "https://github.com/czlonkowski /n8n-mcp",
+      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "language": "Sponsor",
+      "totalStars": "20750",
+      "totalForks": "3389",
+      "growth": "+20750",
+      "growthValue": 20750,
+      "rank": 3
+    },
+    {
+      "name": "joeseesun /qiaomu-anything-to-notebooklm",
+      "link": "https://github.com/joeseesun /qiaomu-anything-to-notebooklm",
+      "description": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
+      "language": "Python",
+      "totalStars": "2376",
+      "totalForks": "253",
+      "growth": "+2376",
+      "growthValue": 2376,
+      "rank": 4
+    },
+    {
       "name": "mattpocock /skills",
       "link": "https://github.com/mattpocock /skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Sponsor",
-      "totalStars": "83111",
-      "totalForks": "7191",
-      "growth": "+913",
-      "growthValue": 913,
-      "rank": 1
-    },
-    {
-      "name": "ruvnet /RuView",
-      "link": "https://github.com/ruvnet /RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "language": "Rust",
-      "totalStars": "56464",
-      "totalForks": "7451",
-      "growth": "+521",
-      "growthValue": 521,
-      "rank": 2
+      "totalStars": "83817",
+      "totalForks": "7254",
+      "growth": "+1619",
+      "growthValue": 1619,
+      "rank": 5
     },
     {
       "name": "obra /superpowers",
       "link": "https://github.com/obra /superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Sponsor",
-      "totalStars": "191644",
-      "totalForks": "17047",
-      "growth": "+495",
-      "growthValue": 495,
-      "rank": 3
+      "totalStars": "192122",
+      "totalForks": "17086",
+      "growth": "+973",
+      "growthValue": 973,
+      "rank": 6
     },
     {
-      "name": "CloakHQ /CloakBrowser",
-      "link": "https://github.com/CloakHQ /CloakBrowser",
-      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
-      "language": "Python",
-      "totalStars": "11230",
-      "totalForks": "841",
-      "growth": "+393",
-      "growthValue": 393,
-      "rank": 4
+      "name": "ruvnet /RuView",
+      "link": "https://github.com/ruvnet /RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "totalStars": "56848",
+      "totalForks": "7480",
+      "growth": "+905",
+      "growthValue": 905,
+      "rank": 7
     },
     {
       "name": "tinyhumansai /openhuman",
       "link": "https://github.com/tinyhumansai /openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "totalStars": "8087",
-      "totalForks": "654",
-      "growth": "+357",
-      "growthValue": 357,
-      "rank": 5
-    },
-    {
-      "name": "garrytan /gstack",
-      "link": "https://github.com/garrytan /gstack",
-      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-      "language": "TypeScript",
-      "totalStars": "97048",
-      "totalForks": "14428",
-      "growth": "+329",
-      "growthValue": 329,
-      "rank": 6
-    },
-    {
-      "name": "github /spec-kit",
-      "link": "https://github.com/github /spec-kit",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-      "language": "Python",
-      "totalStars": "99729",
-      "totalForks": "8690",
-      "growth": "+265",
-      "growthValue": 265,
-      "rank": 7
-    },
-    {
-      "name": "rohitg00 /agentmemory",
-      "link": "https://github.com/rohitg00 /agentmemory",
-      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-      "language": "Sponsor",
-      "totalStars": "9199",
-      "totalForks": "762",
-      "growth": "+247",
-      "growthValue": 247,
+      "totalStars": "8374",
+      "totalForks": "682",
+      "growth": "+644",
+      "growthValue": 644,
       "rank": 8
     },
     {
@@ -93,10 +93,10 @@
       "link": "https://github.com/K-Dense-AI /scientific-agent-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "totalStars": "21962",
-      "totalForks": "2389",
-      "growth": "+196",
-      "growthValue": 196,
+      "totalStars": "22097",
+      "totalForks": "2400",
+      "growth": "+331",
+      "growthValue": 331,
       "rank": 9
     },
     {
@@ -104,12 +104,12 @@
       "link": "https://github.com/supertone-inc /supertonic",
       "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
       "language": "Swift",
-      "totalStars": "5499",
-      "totalForks": "546",
-      "growth": "+193",
-      "growthValue": 193,
+      "totalStars": "5630",
+      "totalForks": "559",
+      "growth": "+324",
+      "growthValue": 324,
       "rank": 10
     }
   ],
-  "generatedAt": "2026-05-15T06:36:44.192189+00:00"
+  "generatedAt": "2026-05-15T11:24:04.375160+00:00"
 }
