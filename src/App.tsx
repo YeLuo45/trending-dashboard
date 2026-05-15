@@ -1,12 +1,22 @@
-import { useState, useEffect } from 'react';
-import { Header, TabButton, ProjectList, FavoritesPanel, SharedListView, FollowedAuthorsPanel, RecommendationsPanel, TopicTrackingPanel, ReportsPanel, CommentsPanel, SharePoster, NotificationCenter, AdvancedFilterBar, applyFilters, TopicTrendingView, MobileDrawerNav, ExportPanel, ErrorBoundary, FullPageSkeleton } from './components';
+import { useState, useEffect, lazy, Suspense } from 'react';
+import { Header, TabButton, ProjectList, AdvancedFilterBar, applyFilters, TopicTrendingView, MobileDrawerNav, ExportPanel, ErrorBoundary, FullPageSkeleton, SharePoster, NotificationCenter } from './components';
 import type { FilterState } from './components/AdvancedFilterBar';
-import { loadTrendingFromFiles, loadSampleData } from './utils/loadData';
+import { loadTrendingFromFiles } from './utils/loadData';
 import type { TrendingData, FavoriteItem } from './types';
 import type { GhUser } from './types';
 import { getGhToken, forkRepo, parseRepoInfo, syncForkHistory, type ForkHistoryRecord } from './utils/github';
 import { translateDescriptions } from './utils/translation';
 import { getFavorites, createSharedList, getNewProjectsFromFollowedAuthors } from './utils/social';
+
+// Lazy-loaded heavy panels (code-split)
+const FavoritesPanel = lazy(() => import('./components/FavoritesPanel'));
+const SharedListView = lazy(() => import('./components/SharedListView'));
+const FollowedAuthorsPanel = lazy(() => import('./components/FollowedAuthorsPanel'));
+const RecommendationsPanel = lazy(() => import('./components/RecommendationsPanel'));
+const TopicTrackingPanel = lazy(() => import('./components/TopicTrackingPanel'));
+const ReportsPanel = lazy(() => import('./components/ReportsPanel'));
+const CommentsPanel = lazy(() => import('./components/CommentsPanel'));
+const Settings = lazy(() => import('./components/Settings'));
 
 const FORK_HISTORY_KEY = 'fork_history';
 
@@ -264,7 +274,11 @@ function App() {
 
   // Render share view if URL has share parameter
   if (shareId) {
-    return <SharedListView shareId={shareId} />;
+    return (
+      <Suspense fallback={<div className="min-h-screen bg-github-dark flex items-center justify-center"><div className="text-github-text">加载中...</div></div>}>
+        <SharedListView shareId={shareId} />
+      </Suspense>
+    );
   }
 
   const allProjects = activeTab === 'weekly' ? data.weekly : activeTab === 'monthly' ? data.monthly : (data.daily || []);
@@ -446,55 +460,67 @@ function App() {
 
       {/* Favorites Panel */}
       {showFavorites && (
-        <FavoritesPanel
-          onClose={() => setShowFavorites(false)}
-          onSelectProjects={handleShareFromFavorites}
-        />
+        <Suspense fallback={<div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50"><div className="text-github-text">加载中...</div></div>}>
+          <FavoritesPanel
+            onClose={() => setShowFavorites(false)}
+            onSelectProjects={handleShareFromFavorites}
+          />
+        </Suspense>
       )}
 
       {/* Followed Authors Panel */}
       {showFollowedAuthors && (
-        <FollowedAuthorsPanel
-          onClose={() => setShowFollowedAuthors(false)}
-          newProjectsMap={newProjectsMap}
-        />
+        <Suspense fallback={<div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50"><div className="text-github-text">加载中...</div></div>}>
+          <FollowedAuthorsPanel
+            onClose={() => setShowFollowedAuthors(false)}
+            newProjectsMap={newProjectsMap}
+          />
+        </Suspense>
       )}
 
       {/* Recommendations Panel */}
       {showRecommendations && (
-        <RecommendationsPanel
-          allProjects={[...data.weekly, ...data.monthly, ...(data.daily || [])]}
-          onClose={() => setShowRecommendations(false)}
-        />
+        <Suspense fallback={<div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50"><div className="text-github-text">加载中...</div></div>}>
+          <RecommendationsPanel
+            allProjects={[...data.weekly, ...data.monthly, ...(data.daily || [])]}
+            onClose={() => setShowRecommendations(false)}
+          />
+        </Suspense>
       )}
 
       {/* Topic Tracking Panel */}
       {showTopicTracking && (
-        <TopicTrackingPanel
-          allProjects={[...data.weekly, ...data.monthly, ...(data.daily || [])]}
-          onClose={() => setShowTopicTracking(false)}
-          onShowRecommendations={() => {
-            setShowTopicTracking(false);
-            setShowRecommendations(true);
-          }}
-        />
+        <Suspense fallback={<div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50"><div className="text-github-text">加载中...</div></div>}>
+          <TopicTrackingPanel
+            allProjects={[...data.weekly, ...data.monthly, ...(data.daily || [])]}
+            onClose={() => setShowTopicTracking(false)}
+            onShowRecommendations={() => {
+              setShowTopicTracking(false);
+              setShowRecommendations(true);
+            }}
+          />
+        </Suspense>
       )}
 
       {/* Reports Panel */}
       {showReports && (
-        <ReportsPanel
-          weeklyProjects={data.weekly}
-          dailyProjects={data.daily || []}
-          onClose={() => setShowReports(false)}
-        />
+        <Suspense fallback={<div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50"><div className="text-github-text">加载中...</div></div>}>
+          <ReportsPanel
+            weeklyProjects={data.weekly}
+            dailyProjects={data.daily || []}
+            onClose={() => setShowReports(false)}
+          />
+        </Suspense>
       )}
 
       {/* Comments Panel */}
       {commentsProject && (
-        <CommentsPanel
-          projectName={commentsProject}
-          onClose={() => setCommentsProject(null)}
-        />
+        <Suspense fallback={<div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50"><div className="text-github-text">加载中...</div></div>}>
+          <CommentsPanel
+            projectName={commentsProject}
+            onClose={() => setCommentsProject(null)}
+          />
+        </Suspense>
       )}
 
       {/* Share Poster Modal */}
@@ -602,7 +628,7 @@ function App() {
           onClose={() => setShowExport(false)}
         />
       )}
-        </div>
+      </div>
       </ErrorBoundary>
       )}
     </>
