@@ -1,36 +1,52 @@
 import type { TrendingData, TrendingProject } from '../types';
+import { loadTrendingCache, saveTrendingCache } from './cache';
 
 // Use Vite's BASE_URL for GitHub Pages subdirectory deployment
 const BASE_PATH = import.meta.env.BASE_URL;
 
+// Normalize: convert legacy `language` field to `keywords` array
+function normalize(projects: TrendingProject[]): TrendingProject[] {
+  return projects.map(p => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const raw = p as any;
+    return {
+      ...p,
+      keywords: p.keywords ?? (raw.language ? [raw.language] : []),
+    };
+  });
+}
+
 // Load data from JSON file in public folder
 export async function loadTrendingFromFiles(): Promise<TrendingData> {
+  let normalized: TrendingData | null = null;
+
   try {
     const response = await fetch(`${BASE_PATH}data/trending.json`);
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
     const data = await response.json() as TrendingData;
-    // Normalize: convert legacy `language` field to `keywords` array
-    const normalize = (projects: TrendingProject[]): TrendingProject[] =>
-      projects.map(p => {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const raw = p as any;
-        return {
-          ...p,
-          keywords: p.keywords ?? (raw.language ? [raw.language] : []),
-        };
-      });
-    return {
+    normalized = {
       ...data,
       weekly: normalize(data.weekly),
       monthly: normalize(data.monthly),
       daily: data.daily ? normalize(data.daily) : [],
     };
+    // Cache successful load
+    saveTrendingCache(normalized);
   } catch (error) {
-    console.warn('Failed to load trending.json, using fallback:', error);
+    console.warn('Failed to load trending.json, trying cache:', error);
+    // Try cache before falling back to sample data
+    const cached = loadTrendingCache();
+    if (cached) {
+      console.info('Using cached trending data');
+      return cached;
+    }
+    console.warn('No cache available, using sample data');
     return loadSampleData();
   }
+
+  return normalized!;
 }
 
 // Fallback sample data (embedded)
