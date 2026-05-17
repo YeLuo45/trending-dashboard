@@ -93,8 +93,8 @@ function App() {
     async function fetchData() {
       try {
         const trendingData = await loadTrendingFromFiles();
-        const translatedWeekly = await translateDescriptions(trendingData.weekly);
-        const translatedMonthly = await translateDescriptions(trendingData.monthly);
+        const translatedWeekly = await translateDescriptions(trendingData.weekly ?? []);
+        const translatedMonthly = await translateDescriptions(trendingData.monthly ?? []);
         const translatedDaily = trendingData.daily ? await translateDescriptions(trendingData.daily) : [];
         setData({
           ...trendingData,
@@ -105,8 +105,8 @@ function App() {
       } catch (error) {
         console.error('Failed to load data:', error);
         const sample = loadSampleData();
-        const translatedWeekly = await translateDescriptions(sample.weekly);
-        const translatedMonthly = await translateDescriptions(sample.monthly);
+        const translatedWeekly = await translateDescriptions(sample.weekly ?? []);
+        const translatedMonthly = await translateDescriptions(sample.monthly ?? []);
         const translatedDaily = sample.daily ? await translateDescriptions(sample.daily) : [];
         setData({
           ...sample,
