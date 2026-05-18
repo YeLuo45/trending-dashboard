@@ -4,13 +4,16 @@ import { loadTrendingCache, saveTrendingCache } from './cache';
 // Use Vite's BASE_URL for GitHub Pages subdirectory deployment
 const BASE_PATH = import.meta.env.BASE_URL;
 
-// Normalize: convert legacy `language` field to `keywords` array
+// Normalize: convert legacy `language` field to `keywords` array, fix owner/repo spacing
 function normalize(projects: TrendingProject[]): TrendingProject[] {
   return projects.map(p => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const raw = p as any;
     return {
       ...p,
+      // Fix "owner /repo" -> "owner/repo" in name and link
+      name: p.name.replace(/ \//g, '/'),
+      link: p.link?.replace(/ \//g, '/'),
       keywords: p.keywords ?? (raw.language ? [raw.language] : []),
     };
   });
