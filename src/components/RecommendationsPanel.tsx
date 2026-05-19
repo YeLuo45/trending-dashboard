@@ -16,6 +16,10 @@ const REASON_ICONS: Record<Recommendation['reason'], string> = {
 };
 
 export function RecommendationsPanel({ allProjects, onClose }: RecommendationsPanelProps) {
+  return <RecommendationsPanelInner allProjects={allProjects} onClose={onClose} />;
+}
+
+function RecommendationsPanelInner({ allProjects, onClose }: RecommendationsPanelProps) {
   const [recommendations, setRecommendations] = useState<Recommendation[]>([]);
   const [favorited, setFavorited] = useState<Set<string>>(new Set());
 
@@ -158,3 +162,5 @@ export function RecommendationsPanel({ allProjects, onClose }: RecommendationsPa
     </div>
   );
 }
+
+export default RecommendationsPanel;

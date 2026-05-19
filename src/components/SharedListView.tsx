@@ -129,3 +129,5 @@ export function SharedListView({ shareId }: SharedListViewProps) {
     </div>
   );
 }
+
+export default SharedListView;

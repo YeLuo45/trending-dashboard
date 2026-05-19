@@ -184,3 +184,5 @@ export function Settings({ onClose, onUserChange, forkHistoryCount = 0, onForkHi
     </div>
   );
 }
+
+export default Settings;

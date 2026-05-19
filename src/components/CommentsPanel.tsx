@@ -203,3 +203,5 @@ export function CommentsPanel({ projectName, onClose }: CommentsPanelProps) {
     </div>
   );
 }
+
+export default CommentsPanel;

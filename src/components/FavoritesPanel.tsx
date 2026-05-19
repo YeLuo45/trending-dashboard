@@ -10,6 +10,10 @@ interface FavoritesPanelProps {
 const CATEGORIES = ['全部', '学习', '工作', '调研'];
 
 export function FavoritesPanel({ onClose, onSelectProjects }: FavoritesPanelProps) {
+  return <FavoritesPanelInner onClose={onClose} onSelectProjects={onSelectProjects} />;
+}
+
+function FavoritesPanelInner({ onClose, onSelectProjects }: FavoritesPanelProps) {
   const [favorites, setFavorites] = useState<FavoriteItem[]>([]);
   const [filter, setFilter] = useState('全部');
   const [selectedForShare, setSelectedForShare] = useState<Set<string>>(new Set());
@@ -200,3 +204,5 @@ export function FavoritesPanel({ onClose, onSelectProjects }: FavoritesPanelProp
     </div>
   );
 }
+
+export default FavoritesPanel;

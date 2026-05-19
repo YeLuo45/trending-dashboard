@@ -8,6 +8,10 @@ interface FollowedAuthorsPanelProps {
 }
 
 export function FollowedAuthorsPanel({ onClose, newProjectsMap }: FollowedAuthorsPanelProps) {
+  return <FollowedAuthorsPanelInner onClose={onClose} newProjectsMap={newProjectsMap} />;
+}
+
+function FollowedAuthorsPanelInner({ onClose, newProjectsMap }: FollowedAuthorsPanelProps) {
   const [authors, setAuthors] = useState<FollowedAuthor[]>([]);
   const [confirmDelete, setConfirmDelete] = useState<string | null>(null);
 
@@ -23,7 +27,7 @@ export function FollowedAuthorsPanel({ onClose, newProjectsMap }: FollowedAuthor
 
   return (
     <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50" onClick={onClose}>
-      <div 
+      <div
         className="bg-github-card border border-github-border rounded-lg w-[500px] max-w-[90vw] max-h-[80vh] overflow-hidden flex flex-col"
         onClick={e => e.stopPropagation()}
       >
@@ -146,3 +150,5 @@ export function FollowedAuthorsPanel({ onClose, newProjectsMap }: FollowedAuthor
     </div>
   );
 }
+
+export default FollowedAuthorsPanel;

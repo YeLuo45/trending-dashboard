@@ -15,6 +15,10 @@ interface TopicTrackingPanelProps {
 }
 
 export function TopicTrackingPanel({ allProjects, onClose, onShowRecommendations }: TopicTrackingPanelProps) {
+  return <TopicTrackingPanelInner allProjects={allProjects} onClose={onClose} onShowRecommendations={onShowRecommendations} />;
+}
+
+function TopicTrackingPanelInner({ allProjects, onClose, onShowRecommendations }: TopicTrackingPanelProps) {
   const [trackedTopics, setTrackedTopics] = useState<TrackedTopic[]>([]);
   const [newTopicInput, setNewTopicInput] = useState('');
   const [suggestedTags, setSuggestedTags] = useState<{ tag: string; count: number }[]>([]);
@@ -164,6 +168,8 @@ export function TopicTrackingPanel({ allProjects, onClose, onShowRecommendations
     </div>
   );
 }
+
+export default TopicTrackingPanel;
 
 // Inline TopicTags bar - shown below search bar when topics are tracked
 interface TopicTagsBarProps {

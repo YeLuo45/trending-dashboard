@@ -257,3 +257,5 @@ function ReportDetail({ report, onDelete }: ReportDetailProps) {
     </div>
   );
 }
+
+export default ReportsPanel;
