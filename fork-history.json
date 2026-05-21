@@ -1,6 +1,20 @@
 {
   "records": [
     {
+      "name": "anthropics/skills",
+      "link": "https://github.com/anthropics/skills",
+      "description": "座席技能的公共存储库",
+      "url": "https://github.com/YeLuo45/skills-claude",
+      "forkedAt": "2026/5/21 11:00:29"
+    },
+    {
+      "name": "colbymchenry/codegraph",
+      "link": "https://github.com/colbymchenry/codegraph",
+      "description": "Claude Code、Codex、Cursor和OpenCode的预索引代码知识图—更少的代币、更少的工具调用、100%本地",
+      "url": "https://github.com/YeLuo45/codegraph",
+      "forkedAt": "2026/5/21 11:00:15"
+    },
+    {
       "name": "facebook/pyrefly",
       "link": "https://github.com/facebook/pyrefly",
       "description": "Python的快速类型检查器和语言服务器",
@@ -274,5 +288,5 @@
       "forkedAt": "2026/5/11 07:49:58"
     }
   ],
-  "syncedAt": "2026-05-21T02:58:05.360Z"
+  "syncedAt": "2026-05-21T03:00:32.252Z"
 }
