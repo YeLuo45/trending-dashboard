@@ -255,16 +255,18 @@ function mergeForkRecords(remote: ForkHistoryRecord[], local: ForkHistoryRecord[
 
 // ============ Fetch User Forks ============
 export interface ForkedRepo {
-  name: string;
-  full_name: string;
+  name: string;           // "owner/repo"
+  full_name: string;      // "owner/repo"
+  owner: string;          // the user who owns this fork
   description: string | null;
-  html_url: string;
-  source_url: string;
-  source_full_name: string;
+  html_url: string;       // fork's GitHub URL
+  source_url: string;     // upstream repo URL (from parent)
+  source_full_name: string; // upstream full_name
   fork_time: string;
   stargazers_count: number;
   forks_count: number;
   language: string | null;
+  default_branch: string; // for sync
 }
 
 export async function fetchUserForks(
@@ -292,6 +294,7 @@ export async function fetchUserForks(
   const repos: ForkedRepo[] = data.map((r: any) => ({
     name: r.full_name,
     full_name: r.full_name,
+    owner: r.owner?.login || username,
     description: r.description,
     html_url: r.html_url,
     source_url: r.parent?.html_url || '',
@@ -300,7 +303,44 @@ export async function fetchUserForks(
     stargazers_count: r.stargazers_count,
     forks_count: r.forks_count,
     language: r.language,
+    default_branch: r.default_branch || 'main',
   }));
 
   return { repos, hasMore: data.length === 100 };
+}
+
+// ============ Sync Fork Upstream ============
+export async function syncForkUpstream(
+  owner: string,
+  repo: string,
+  branch: string,
+  token: string
+): Promise<{ success: boolean; error?: string }> {
+  const res = await fetch(
+    `https://api.github.com/repos/${owner}/${repo}/merge-upstream`,
+    {
+      method: 'PUT',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ branch }),
+    }
+  );
+
+  if (res.status === 200) {
+    return { success: true };
+  }
+  if (res.status === 409) {
+    return { success: false, error: '同步失败：存在冲突，请手动解决' };
+  }
+  if (res.status === 403) {
+    return { success: false, error: '无权同步该仓库' };
+  }
+  if (res.status === 404) {
+    return { success: false, error: '分支不存在' };
+  }
+  const err = await res.json().catch(() => ({}));
+  return { success: false, error: err.message || `错误 (${res.status})` };
 }

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import type { ForkedRepo } from '../types';
-import { fetchUserForks, getGhToken, forkRepo } from '../utils/github';
+import type { ForkedRepo } from '../utils/github';
+import { fetchUserForks, getGhToken, forkRepo, syncForkUpstream } from '../utils/github';
 import { ProjectCardSkeleton } from './Skeleton';
 import { addFavorite, removeFavorite, isFavorited } from '../utils/social';
 import { addNotification } from '../utils/social';
@@ -24,6 +24,8 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
   const [forkingMap, setForkingMap] = useState<Record<string, boolean>>({});
   const [forkedSet, setForkedSet] = useState<Set<string>>(new Set());
+  const [syncingMap, setSyncingMap] = useState<Record<string, boolean>>({});
+  const [syncedSet, setSyncedSet] = useState<Set<string>>(new Set());
 
   const observerRef = useRef<HTMLDivElement>(null);
   const loadingRef = useRef(false);
@@ -213,6 +215,37 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
     }
   };
 
+  const handleSync = async (repo: ForkedRepo, e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    const token = getGhToken();
+    if (!token) {
+      addNotification({ type: 'system', title: '🔄 同步失败', message: '请先在设置中配置 GitHub Token' });
+      return;
+    }
+
+    setSyncingMap(prev => ({ ...prev, [repo.full_name]: true }));
+
+    try {
+      // repo.name is "owner/repo" format
+      const parts = repo.name.split('/');
+      if (parts.length !== 2) {
+        addNotification({ type: 'system', title: '🔄 同步失败', message: '无法解析仓库信息' });
+        return;
+      }
+      const result = await syncForkUpstream(parts[0], parts[1], repo.default_branch, token);
+      if (result.success) {
+        setSyncedSet(prev => new Set([...prev, repo.full_name]));
+        addNotification({ type: 'system', title: '🔄 已同步', message: `${repo.name} 已与上游同步` });
+      } else {
+        addNotification({ type: 'system', title: '🔄 同步失败', message: result.error || '未知错误' });
+      }
+    } finally {
+      setSyncingMap(prev => ({ ...prev, [repo.full_name]: false }));
+    }
+  };
+
   const handleToggleFavorite = (repo: ForkedRepo, e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
@@ -353,10 +386,8 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
                         rel="noopener noreferrer"
                         className="text-lg font-semibold text-github-purple hover:underline"
                       >
-                        {repo.source_full_name.split('/')[1]}
+                        {repo.name}
                       </a>
-                      <span className="text-github-muted">/</span>
-                      <span className="text-github-muted text-sm">{repo.source_full_name.split('/')[0]}</span>
                       {forkedSet.has(repo.full_name) && (
                         <span className="px-2 py-0.5 text-xs bg-green-500/20 text-green-400 rounded">
                           已 Fork
@@ -427,6 +458,19 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
                             className="px-3 py-1 text-xs rounded bg-github-purple/20 text-github-purple hover:bg-github-purple/30 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
                           >
                             {forkingMap[repo.full_name] ? 'Forking...' : '⎈ Fork'}
+                          </button>
+                        )}
+                        {ghUser && repo.owner === ghUser.login && (
+                          <button
+                            onClick={(e) => handleSync(repo, e)}
+                            disabled={syncingMap[repo.full_name] || syncedSet.has(repo.full_name)}
+                            className={`px-3 py-1 text-xs rounded transition-colors ${
+                              syncedSet.has(repo.full_name)
+                                ? 'bg-green-500/20 text-green-400 border border-green-500/50 cursor-default'
+                                : 'bg-blue-500/20 text-blue-400 border border-blue-500/50 hover:bg-blue-500/30 disabled:opacity-50 disabled:cursor-not-allowed'
+                            }`}
+                          >
+                            {syncingMap[repo.full_name] ? '🔄 同步中...' : syncedSet.has(repo.full_name) ? '✅ 已同步' : '🔄 Sync Fork'}
                           </button>
                         )}
                       </div>
