@@ -1,7 +1,7 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { Header, TabButton, ProjectList, AdvancedFilterBar, applyFilters, TopicTrendingView, MobileDrawerNav, ExportPanel, ErrorBoundary, FullPageSkeleton, SharePoster, NotificationCenter } from './components';
 import type { FilterState } from './components/AdvancedFilterBar';
-import { loadTrendingFromFiles } from './utils/loadData';
+import { loadTrendingFromFiles, loadSampleData } from './utils/loadData';
 import type { TrendingData, FavoriteItem } from './types';
 import type { GhUser } from './types';
 import { getGhToken, forkRepo, parseRepoInfo, syncForkHistory, type ForkHistoryRecord } from './utils/github';
@@ -16,7 +16,7 @@ const RecommendationsPanel = lazy(() => import('./components/RecommendationsPane
 const TopicTrackingPanel = lazy(() => import('./components/TopicTrackingPanel'));
 const ReportsPanel = lazy(() => import('./components/ReportsPanel'));
 const CommentsPanel = lazy(() => import('./components/CommentsPanel'));
-const Settings = lazy(() => import('./components/Settings'));
+const ForkedProjectsPanel = lazy(() => import('./components/ForkedProjectsPanel'));
 
 const FORK_HISTORY_KEY = 'fork_history';
 
@@ -39,7 +39,7 @@ function addToForkHistory(item: Omit<ForkHistoryItem, 'forkedAt'>): void {
 }
 
 function App() {
-  const [activeTab, setActiveTab] = useState<'weekly' | 'monthly' | 'daily'>('weekly');
+  const [activeTab, setActiveTab] = useState<'weekly' | 'monthly' | 'daily' | 'forked'>('weekly');
   const [data, setData] = useState<TrendingData | null>(null);
   const [loading, setLoading] = useState(true);
   const [ghUser, setGhUser] = useState<GhUser | null>(null);
@@ -88,6 +88,22 @@ function App() {
 
   // Check for share URL parameter on mount
   const shareId = new URLSearchParams(window.location.search).get('share');
+
+  useEffect(() => {
+    // Check for tab and forked URL params
+    const params = new URLSearchParams(window.location.search);
+    const tabParam = params.get('tab');
+    const forkedParam = params.get('forked');
+    if (tabParam === 'forked') {
+      setActiveTab('forked');
+    }
+    if (forkedParam) {
+      // Will be used by ForkedProjectsPanel via initialUsername
+      setForkedUsername(forkedParam);
+    }
+  }, []);
+
+  const [forkedUsername, setForkedUsername] = useState<string | undefined>(undefined);
 
   useEffect(() => {
     async function fetchData() {
@@ -335,6 +351,11 @@ function App() {
               label="⚡ 今日趋势"
               onClick={() => setActiveTab('daily')}
             />
+            <TabButton
+              active={activeTab === 'forked'}
+              label="🍴 Forked"
+              onClick={() => setActiveTab('forked')}
+            />
           </div>
           <div className="flex items-center gap-2 pb-2">
             <button
@@ -442,7 +463,11 @@ function App() {
         </div>
 
         {/* Content */}
-        {viewMode === 'list' ? (
+        {activeTab === 'forked' ? (
+          <Suspense fallback={<div className="text-github-text text-center py-12">加载中...</div>}>
+            <ForkedProjectsPanel ghUser={ghUser} initialUsername={forkedUsername} />
+          </Suspense>
+        ) : viewMode === 'list' ? (
           <ProjectList
             projects={filteredProjects}
             type={activeTab}

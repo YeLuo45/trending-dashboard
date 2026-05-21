@@ -12,3 +12,4 @@ export { MobileDrawer, MobileDrawerNav } from './MobileDrawer';
 export { ExportPanel } from './ExportPanel';
 export { ErrorBoundary } from './ErrorBoundary';
 export { FullPageSkeleton, ProjectCardSkeleton, ProjectListSkeleton } from './Skeleton';
+export { default as ForkedProjectsPanel } from './ForkedProjectsPanel';

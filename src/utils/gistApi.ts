@@ -57,7 +57,6 @@ export async function saveGistComments(
 ): Promise<boolean> {
   const content = JSON.stringify(data, null, 2);
   const gistId = localStorage.getItem(GIST_ID_KEY);
-  const encoded = btoa(unescape(encodeURIComponent(content)));
 
   const payload: GistPayload = {
     description: GIST_DESC,

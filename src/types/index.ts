@@ -113,10 +113,24 @@ export interface Report {
   topicSummaries: { topic: string; count: number }[];
 }
 
-// ============ User Preferences ===========
+// ============ User Preferences ============
 export interface UserPreferences {
   trackedTopics: TrackedTopic[];
   reportHistory: Report[];
   lastReportGenerated?: string;
   recommendationsLastUpdated?: string;
+}
+
+// ============ Forked Projects ============
+export interface ForkedRepo {
+  name: string;           // "owner/repo"
+  full_name: string;       // "owner/repo"
+  description: string | null;
+  html_url: string;        // fork 的 URL
+  source_url: string;      // 上游仓库 URL (来自 parent)
+  source_full_name: string; // 上游仓库 full_name
+  fork_time: string;       // ISO 时间
+  stargazers_count: number;
+  forks_count: number;
+  language: string | null;
 }

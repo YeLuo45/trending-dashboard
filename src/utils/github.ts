@@ -252,3 +252,55 @@ function mergeForkRecords(remote: ForkHistoryRecord[], local: ForkHistoryRecord[
   }
   return Array.from(map.values()).sort((a, b) => new Date(b.forkedAt).getTime() - new Date(a.forkedAt).getTime());
 }
+
+// ============ Fetch User Forks ============
+export interface ForkedRepo {
+  name: string;
+  full_name: string;
+  description: string | null;
+  html_url: string;
+  source_url: string;
+  source_full_name: string;
+  fork_time: string;
+  stargazers_count: number;
+  forks_count: number;
+  language: string | null;
+}
+
+export async function fetchUserForks(
+  username: string,
+  page: number = 1,
+  token?: string
+): Promise<{ repos: ForkedRepo[]; hasMore: boolean }> {
+  const headers: Record<string, string> = {
+    Accept: 'application/vnd.github.v3+json',
+  };
+  if (token) headers['Authorization'] = `Bearer ${token}`;
+
+  const res = await fetch(
+    `https://api.github.com/users/${username}/repos?type=fork&per_page=100&page=${page}&sort=updated`,
+    { headers }
+  );
+
+  if (!res.ok) {
+    if (res.status === 404) throw new Error('用户不存在');
+    if (res.status === 403) throw new Error('请求过于频繁，请稍后重试');
+    throw new Error(`请求失败 (${res.status})`);
+  }
+
+  const data = await res.json();
+  const repos: ForkedRepo[] = data.map((r: any) => ({
+    name: r.full_name,
+    full_name: r.full_name,
+    description: r.description,
+    html_url: r.html_url,
+    source_url: r.parent?.html_url || '',
+    source_full_name: r.parent?.full_name || '',
+    fork_time: r.created_at,
+    stargazers_count: r.stargazers_count,
+    forks_count: r.forks_count,
+    language: r.language,
+  }));
+
+  return { repos, hasMore: data.length === 100 };
+}
