@@ -319,7 +319,7 @@ export async function syncForkUpstream(
   const res = await fetch(
     `https://api.github.com/repos/${owner}/${repo}/merge-upstream`,
     {
-      method: 'PUT',
+      method: 'POST',
       headers: {
         Authorization: `Bearer ${token}`,
         Accept: 'application/vnd.github.v3+json',
