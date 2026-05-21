@@ -267,6 +267,7 @@ export interface ForkedRepo {
   forks_count: number;
   language: string | null;
   default_branch: string; // for sync
+  fork: boolean;          // true if this repo is a fork
 }
 
 export async function fetchUserForks(
@@ -304,6 +305,49 @@ export async function fetchUserForks(
     forks_count: r.forks_count,
     language: r.language,
     default_branch: r.default_branch || 'main',
+    fork: r.fork || false,
+  }));
+
+  return { repos, hasMore: data.length === 100 };
+}
+
+// ============ Fetch User All Repos ============
+export async function fetchUserRepos(
+  username: string,
+  page: number = 1,
+  token?: string
+): Promise<{ repos: ForkedRepo[]; hasMore: boolean }> {
+  const headers: Record<string, string> = {
+    Accept: 'application/vnd.github.v3+json',
+  };
+  if (token) headers['Authorization'] = `Bearer ${token}`;
+
+  const res = await fetch(
+    `https://api.github.com/users/${username}/repos?per_page=100&page=${page}&sort=updated&direction=desc`,
+    { headers }
+  );
+
+  if (!res.ok) {
+    if (res.status === 404) throw new Error('用户不存在');
+    if (res.status === 403) throw new Error('请求过于频繁，请稍后重试');
+    throw new Error(`请求失败 (${res.status})`);
+  }
+
+  const data = await res.json();
+  const repos: ForkedRepo[] = data.map((r: any) => ({
+    name: r.full_name,
+    full_name: r.full_name,
+    owner: r.owner?.login || username,
+    description: r.description,
+    html_url: r.html_url,
+    source_url: r.parent?.html_url || '',
+    source_full_name: r.parent?.full_name || '',
+    fork_time: r.created_at,
+    stargazers_count: r.stargazers_count,
+    forks_count: r.forks_count,
+    language: r.language,
+    default_branch: r.default_branch || 'main',
+    fork: r.fork || false,
   }));
 
   return { repos, hasMore: data.length === 100 };

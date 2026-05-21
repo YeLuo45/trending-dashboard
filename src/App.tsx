@@ -93,13 +93,13 @@ function App() {
     // Check for tab and forked URL params
     const params = new URLSearchParams(window.location.search);
     const tabParam = params.get('tab');
-    const forkedParam = params.get('forked');
-    if (tabParam === 'forked') {
+    const reposParam = params.get('repos');
+    if (tabParam === 'repos') {
       setActiveTab('forked');
     }
-    if (forkedParam) {
+    if (reposParam) {
       // Will be used by ForkedProjectsPanel via initialUsername
-      setForkedUsername(forkedParam);
+      setForkedUsername(reposParam);
     }
   }, []);
 
@@ -353,7 +353,7 @@ function App() {
             />
             <TabButton
               active={activeTab === 'forked'}
-              label="🍴 Forked"
+              label="📦 Repositories"
               onClick={() => setActiveTab('forked')}
             />
           </div>
