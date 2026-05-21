@@ -1,280 +1,168 @@
 {
   "weekly": [
     {
-      "name": "anthropics/financial-services",
-      "description": "",
-      "stars": 0,
-      "language": "Python",
-      "owner": "anthropics",
-      "repo": "financial-services"
-    },
-    {
-      "name": "Hmbown/DeepSeek-TUI",
-      "description": "Coding agent for DeepSeek models that runs in your terminal",
-      "stars": 0,
-      "language": "Rust",
-      "owner": "Hmbown",
-      "repo": "DeepSeek-TUI"
-    },
-    {
-      "name": "bytedance/UI-TARS-desktop",
-      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
-      "stars": 0,
+      "name": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "stars": 445198,
       "language": "TypeScript",
-      "owner": "bytedance",
-      "repo": "UI-TARS-desktop"
+      "owner": "freeCodeCamp",
+      "repo": "freeCodeCamp"
     },
     {
-      "name": "CloakHQ/CloakBrowser",
-      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
-      "stars": 0,
+      "name": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "stars": 436166,
       "language": "Python",
-      "owner": "CloakHQ",
-      "repo": "CloakBrowser"
+      "owner": "public-apis",
+      "repo": "public-apis"
     },
     {
-      "name": "decolua/9router",
-      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, ",
-      "stars": 0,
+      "name": "EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "stars": 388646,
+      "language": "Python",
+      "owner": "EbookFoundation",
+      "repo": "free-programming-books"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "stars": 373580,
+      "language": "TypeScript",
+      "owner": "openclaw",
+      "repo": "openclaw"
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "stars": 355149,
+      "language": "TypeScript",
+      "owner": "nilbuild",
+      "repo": "developer-roadmap"
+    },
+    {
+      "name": "vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "stars": 298737,
+      "language": "Python",
+      "owner": "vinta",
+      "repo": "awesome-python"
+    },
+    {
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "stars": 294131,
+      "language": null,
+      "owner": "awesome-selfhosted",
+      "repo": "awesome-selfhosted"
+    },
+    {
+      "name": "facebook/react",
+      "description": "The library for web and native user interfaces.",
+      "stars": 245151,
       "language": "JavaScript",
-      "owner": "decolua",
-      "repo": "9router"
+      "owner": "facebook",
+      "repo": "react"
     },
     {
-      "name": "sponsors/LearningCircuit",
-      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed,",
-      "stars": 0,
+      "name": "torvalds/linux",
+      "description": "Linux kernel source tree",
+      "stars": 233877,
+      "language": "C",
+      "owner": "torvalds",
+      "repo": "linux"
+    },
+    {
+      "name": "TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "stars": 221257,
       "language": "Python",
-      "owner": "sponsors",
-      "repo": "LearningCircuit"
-    },
-    {
-      "name": "ruvnet/ruflo",
-      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversationa",
-      "stars": 0,
-      "language": "TypeScript",
-      "owner": "ruvnet",
-      "repo": "ruflo"
-    },
-    {
-      "name": "sponsors/VectifyAI",
-      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-      "stars": 0,
-      "language": "Python",
-      "owner": "sponsors",
-      "repo": "VectifyAI"
-    },
-    {
-      "name": "addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "stars": 0,
-      "language": "Shell",
-      "owner": "addyosmani",
-      "repo": "agent-skills"
-    },
-    {
-      "name": "docusealco/docuseal",
-      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
-      "stars": 0,
-      "language": "Ruby",
-      "owner": "docusealco",
-      "repo": "docuseal"
-    },
-    {
-      "name": "yikart/AiToEarn",
-      "description": "Let's use AI to Earn!",
-      "stars": 0,
-      "language": "TypeScript",
-      "owner": "yikart",
-      "repo": "AiToEarn"
-    },
-    {
-      "name": "sponsors/rohitg00",
-      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-      "stars": 0,
-      "language": "TypeScript",
-      "owner": "sponsors",
-      "repo": "rohitg00"
-    },
-    {
-      "name": "AIDC-AI/Pixelle-Video",
-      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
-      "stars": 0,
-      "language": "Python",
-      "owner": "AIDC-AI",
-      "repo": "Pixelle-Video"
-    },
-    {
-      "name": "playcanvas/supersplat",
-      "description": "3D Gaussian Splat Editor",
-      "stars": 0,
-      "language": "TypeScript",
-      "owner": "playcanvas",
-      "repo": "supersplat"
-    },
-    {
-      "name": "HKUDS/AI-Trader",
-      "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
-      "stars": 0,
-      "language": "Python",
-      "owner": "HKUDS",
-      "repo": "AI-Trader"
-    },
-    {
-      "name": "TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "stars": 0,
-      "language": "Python",
-      "owner": "TauricResearch",
-      "repo": "TradingAgents"
-    },
-    {
-      "name": "sponsors/InsForge",
-      "description": "The all-in-one, open-source backend platform for agentic coding. InsForge gives your coding agent database, auth, storage, compute, hosting, and AI ga",
-      "stars": 0,
-      "language": "TypeScript",
-      "owner": "sponsors",
-      "repo": "InsForge"
+      "owner": "TheAlgorithms",
+      "repo": "Python"
     }
   ],
   "monthly": [
     {
-      "name": "forrestchang/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "stars": 0,
+      "name": "sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "stars": 468480,
       "language": null,
-      "owner": "forrestchang",
-      "repo": "andrej-karpathy-skills"
+      "owner": "sindresorhus",
+      "repo": "awesome"
     },
     {
-      "name": "sponsors/mattpocock",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "stars": 0,
-      "language": "Shell",
-      "owner": "sponsors",
-      "repo": "mattpocock"
-    },
-    {
-      "name": "Alishahryar1/free-claude-code",
-      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
-      "stars": 0,
-      "language": "Python",
-      "owner": "Alishahryar1",
-      "repo": "free-claude-code"
-    },
-    {
-      "name": "lsdefine/GenericAgent",
-      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
-      "stars": 0,
-      "language": "Python",
-      "owner": "lsdefine",
-      "repo": "GenericAgent"
-    },
-    {
-      "name": "NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "stars": 0,
-      "language": "Python",
-      "owner": "NousResearch",
-      "repo": "hermes-agent"
-    },
-    {
-      "name": "AIDC-AI/Pixelle-Video",
-      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
-      "stars": 0,
-      "language": "Python",
-      "owner": "AIDC-AI",
-      "repo": "Pixelle-Video"
-    },
-    {
-      "name": "Tracer-Cloud/opensre",
-      "description": "Build your own AI SRE agents. The open source toolkit for the AI era.",
-      "stars": 0,
-      "language": "Python",
-      "owner": "Tracer-Cloud",
-      "repo": "opensre"
-    },
-    {
-      "name": "addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "stars": 0,
-      "language": "Shell",
-      "owner": "addyosmani",
-      "repo": "agent-skills"
-    },
-    {
-      "name": "ComposioHQ/awesome-codex-skills",
-      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
-      "stars": 0,
-      "language": "Python",
-      "owner": "ComposioHQ",
-      "repo": "awesome-codex-skills"
-    },
-    {
-      "name": "Z4nzu/hackingtool",
-      "description": "ALL IN ONE Hacking Tool For Hackers",
-      "stars": 0,
-      "language": "Python",
-      "owner": "Z4nzu",
-      "repo": "hackingtool"
-    },
-    {
-      "name": "sponsors/soxoj",
-      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
-      "stars": 0,
-      "language": "Python",
-      "owner": "sponsors",
-      "repo": "soxoj"
-    },
-    {
-      "name": "TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "stars": 0,
-      "language": "Python",
-      "owner": "TauricResearch",
-      "repo": "TradingAgents"
-    },
-    {
-      "name": "multica-ai/multica",
-      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-      "stars": 0,
+      "name": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "stars": 445198,
       "language": "TypeScript",
-      "owner": "multica-ai",
-      "repo": "multica"
+      "owner": "freeCodeCamp",
+      "repo": "freeCodeCamp"
     },
     {
-      "name": "anthropics/financial-services",
-      "description": "",
-      "stars": 0,
+      "name": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "stars": 436166,
       "language": "Python",
-      "owner": "anthropics",
-      "repo": "financial-services"
+      "owner": "public-apis",
+      "repo": "public-apis"
     },
     {
-      "name": "Anil-matcha/Open-Generative-AI",
-      "description": "Unrestricted, open-source alternative to AI video platforms — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjou",
-      "stars": 0,
+      "name": "EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "stars": 388646,
+      "language": "Python",
+      "owner": "EbookFoundation",
+      "repo": "free-programming-books"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "stars": 373580,
+      "language": "TypeScript",
+      "owner": "openclaw",
+      "repo": "openclaw"
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "stars": 355149,
+      "language": "TypeScript",
+      "owner": "nilbuild",
+      "repo": "developer-roadmap"
+    },
+    {
+      "name": "vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "stars": 298737,
+      "language": "Python",
+      "owner": "vinta",
+      "repo": "awesome-python"
+    },
+    {
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "stars": 294131,
+      "language": null,
+      "owner": "awesome-selfhosted",
+      "repo": "awesome-selfhosted"
+    },
+    {
+      "name": "facebook/react",
+      "description": "The library for web and native user interfaces.",
+      "stars": 245151,
       "language": "JavaScript",
-      "owner": "Anil-matcha",
-      "repo": "Open-Generative-AI"
+      "owner": "facebook",
+      "repo": "react"
     },
     {
-      "name": "hugohe3/ppt-master",
-      "description": "AI generates natively editable PPTX from any document — real PowerPoint shapes with native animations, not images · by Hugo He",
-      "stars": 0,
-      "language": "Python",
-      "owner": "hugohe3",
-      "repo": "ppt-master"
-    },
-    {
-      "name": "z-lab/dflash",
-      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
-      "stars": 0,
-      "language": "Python",
-      "owner": "z-lab",
-      "repo": "dflash"
+      "name": "torvalds/linux",
+      "description": "Linux kernel source tree",
+      "stars": 233877,
+      "language": "C",
+      "owner": "torvalds",
+      "repo": "linux"
     }
   ],
-  "lastUpdated": "2026-05-12 14:26",
-  "generatedAt": "2026-05-12T14:26:50"
+  "lastUpdated": "2026-05-21T02:10:47",
+  "generatedAt": "2026-05-21T02:10:47"
 }
