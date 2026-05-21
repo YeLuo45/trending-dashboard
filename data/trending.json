@@ -1,168 +1,185 @@
 {
-  "weekly": [
+  "updatedAt": "2026-05-21T14:02:51.640593Z",
+  "repos": [
     {
-      "name": "freeCodeCamp/freeCodeCamp",
-      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "stars": 445198,
-      "language": "TypeScript",
-      "owner": "freeCodeCamp",
-      "repo": "freeCodeCamp"
-    },
-    {
-      "name": "public-apis/public-apis",
-      "description": "A collective list of free APIs",
-      "stars": 436166,
-      "language": "Python",
-      "owner": "public-apis",
-      "repo": "public-apis"
-    },
-    {
-      "name": "EbookFoundation/free-programming-books",
-      "description": ":books: Freely available programming books",
-      "stars": 388646,
-      "language": "Python",
-      "owner": "EbookFoundation",
-      "repo": "free-programming-books"
-    },
-    {
-      "name": "openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 373580,
-      "language": "TypeScript",
-      "owner": "openclaw",
-      "repo": "openclaw"
-    },
-    {
-      "name": "nilbuild/developer-roadmap",
-      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "stars": 355149,
-      "language": "TypeScript",
-      "owner": "nilbuild",
-      "repo": "developer-roadmap"
-    },
-    {
-      "name": "vinta/awesome-python",
-      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
-      "stars": 298737,
-      "language": "Python",
-      "owner": "vinta",
-      "repo": "awesome-python"
-    },
-    {
-      "name": "awesome-selfhosted/awesome-selfhosted",
-      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-      "stars": 294131,
-      "language": null,
-      "owner": "awesome-selfhosted",
-      "repo": "awesome-selfhosted"
-    },
-    {
-      "name": "facebook/react",
-      "description": "The library for web and native user interfaces.",
-      "stars": 245151,
-      "language": "JavaScript",
-      "owner": "facebook",
-      "repo": "react"
-    },
-    {
-      "name": "torvalds/linux",
-      "description": "Linux kernel source tree",
-      "stars": 233877,
-      "language": "C",
-      "owner": "torvalds",
-      "repo": "linux"
-    },
-    {
-      "name": "TheAlgorithms/Python",
-      "description": "All Algorithms implemented in Python",
-      "stars": 221257,
-      "language": "Python",
-      "owner": "TheAlgorithms",
-      "repo": "Python"
-    }
-  ],
-  "monthly": [
-    {
-      "name": "sindresorhus/awesome",
+      "repo": "sindresorhus/awesome",
       "description": "😎 Awesome lists about all kinds of interesting topics",
-      "stars": 468480,
+      "stars": 468671,
+      "forks": 35100,
       "language": null,
-      "owner": "sindresorhus",
-      "repo": "awesome"
+      "url": "https://github.com/sindresorhus/awesome",
+      "updatedAt": "2026-05-21T13:58:08Z"
     },
     {
-      "name": "freeCodeCamp/freeCodeCamp",
+      "repo": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "stars": 445198,
+      "stars": 445235,
+      "forks": 44654,
       "language": "TypeScript",
-      "owner": "freeCodeCamp",
-      "repo": "freeCodeCamp"
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "updatedAt": "2026-05-21T13:50:37Z"
     },
     {
-      "name": "public-apis/public-apis",
+      "repo": "public-apis/public-apis",
       "description": "A collective list of free APIs",
-      "stars": 436166,
+      "stars": 436253,
+      "forks": 47820,
       "language": "Python",
-      "owner": "public-apis",
-      "repo": "public-apis"
+      "url": "https://github.com/public-apis/public-apis",
+      "updatedAt": "2026-05-21T14:00:36Z"
     },
     {
-      "name": "EbookFoundation/free-programming-books",
+      "repo": "EbookFoundation/free-programming-books",
       "description": ":books: Freely available programming books",
-      "stars": 388646,
+      "stars": 388679,
+      "forks": 66333,
       "language": "Python",
-      "owner": "EbookFoundation",
-      "repo": "free-programming-books"
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "updatedAt": "2026-05-21T14:01:52Z"
     },
     {
-      "name": "openclaw/openclaw",
+      "repo": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 373580,
+      "stars": 373705,
+      "forks": 77617,
       "language": "TypeScript",
-      "owner": "openclaw",
-      "repo": "openclaw"
+      "url": "https://github.com/openclaw/openclaw",
+      "updatedAt": "2026-05-21T14:02:44Z"
     },
     {
-      "name": "nilbuild/developer-roadmap",
+      "repo": "nilbuild/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "stars": 355149,
+      "stars": 355175,
+      "forks": 44090,
       "language": "TypeScript",
-      "owner": "nilbuild",
-      "repo": "developer-roadmap"
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "updatedAt": "2026-05-21T14:02:17Z"
     },
     {
-      "name": "vinta/awesome-python",
+      "repo": "vinta/awesome-python",
       "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
-      "stars": 298737,
+      "stars": 298833,
+      "forks": 27942,
       "language": "Python",
-      "owner": "vinta",
-      "repo": "awesome-python"
+      "url": "https://github.com/vinta/awesome-python",
+      "updatedAt": "2026-05-21T13:56:22Z"
     },
     {
-      "name": "awesome-selfhosted/awesome-selfhosted",
+      "repo": "awesome-selfhosted/awesome-selfhosted",
       "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-      "stars": 294131,
+      "stars": 294268,
+      "forks": 13658,
       "language": null,
-      "owner": "awesome-selfhosted",
-      "repo": "awesome-selfhosted"
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "updatedAt": "2026-05-21T14:00:50Z"
     },
     {
-      "name": "facebook/react",
+      "repo": "facebook/react",
       "description": "The library for web and native user interfaces.",
-      "stars": 245151,
+      "stars": 245160,
+      "forks": 51092,
       "language": "JavaScript",
-      "owner": "facebook",
-      "repo": "react"
+      "url": "https://github.com/facebook/react",
+      "updatedAt": "2026-05-21T13:53:40Z"
     },
     {
-      "name": "torvalds/linux",
+      "repo": "torvalds/linux",
       "description": "Linux kernel source tree",
-      "stars": 233877,
+      "stars": 233948,
+      "forks": 62418,
       "language": "C",
-      "owner": "torvalds",
-      "repo": "linux"
+      "url": "https://github.com/torvalds/linux",
+      "updatedAt": "2026-05-21T13:46:47Z"
+    },
+    {
+      "repo": "TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "stars": 221277,
+      "forks": 50661,
+      "language": "Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "updatedAt": "2026-05-21T13:05:34Z"
+    },
+    {
+      "repo": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars": 201082,
+      "forks": 17914,
+      "language": "Shell",
+      "url": "https://github.com/obra/superpowers",
+      "updatedAt": "2026-05-21T14:02:02Z"
+    },
+    {
+      "repo": "trekhleb/javascript-algorithms",
+      "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "stars": 195982,
+      "forks": 31064,
+      "language": "JavaScript",
+      "url": "https://github.com/trekhleb/javascript-algorithms",
+      "updatedAt": "2026-05-21T14:01:22Z"
+    },
+    {
+      "repo": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "stars": 195214,
+      "forks": 75314,
+      "language": "C++",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "updatedAt": "2026-05-21T09:41:26Z"
+    },
+    {
+      "repo": "ultraworkers/claw-code",
+      "description": "The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.",
+      "stars": 192151,
+      "forks": 109956,
+      "language": "Rust",
+      "url": "https://github.com/ultraworkers/claw-code",
+      "updatedAt": "2026-05-21T13:46:51Z"
+    },
+    {
+      "repo": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stars": 189007,
+      "forks": 57870,
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "updatedAt": "2026-05-21T14:01:07Z"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars": 188033,
+      "forks": 29102,
+      "language": "JavaScript",
+      "url": "https://github.com/affaan-m/ECC",
+      "updatedAt": "2026-05-21T14:02:02Z"
+    },
+    {
+      "repo": "ohmyzsh/ohmyzsh",
+      "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+      "stars": 187166,
+      "forks": 26373,
+      "language": "Shell",
+      "url": "https://github.com/ohmyzsh/ohmyzsh",
+      "updatedAt": "2026-05-21T13:53:54Z"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 185173,
+      "forks": 40028,
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/vscode",
+      "updatedAt": "2026-05-21T13:49:11Z"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "stars": 184441,
+      "forks": 46226,
+      "language": "Python",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "updatedAt": "2026-05-21T13:59:52Z"
     }
-  ],
-  "lastUpdated": "2026-05-21T02:10:47",
-  "generatedAt": "2026-05-21T02:10:47"
+  ]
 }
