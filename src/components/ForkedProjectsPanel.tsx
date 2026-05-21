@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import type { ForkedRepo } from '../utils/github';
-import { fetchUserForks, getGhToken, forkRepo, syncForkUpstream } from '../utils/github';
+import { fetchUserRepos, getGhToken, forkRepo, syncForkUpstream } from '../utils/github';
 import { ProjectCardSkeleton } from './Skeleton';
 import { addFavorite, removeFavorite, isFavorited } from '../utils/social';
 import { addNotification } from '../utils/social';
@@ -11,6 +11,9 @@ interface ForkedProjectsPanelProps {
 }
 
 type SortKey = 'stargazers_count' | 'forks_count' | 'fork_time';
+type FilterType = 'all' | 'fork' | 'original';
+
+const SYNCED_SET_KEY = 'trending_dashboard_synced_forks';
 
 export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedProjectsPanelProps) {
   const [username, setUsername] = useState(initialUsername || ghUser?.login || '');
@@ -22,21 +25,39 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
   const [hasMore, setHasMore] = useState(false);
   const [sortKey, setSortKey] = useState<SortKey>('fork_time');
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
+  const [filterType, setFilterType] = useState<FilterType>('all');
   const [forkingMap, setForkingMap] = useState<Record<string, boolean>>({});
   const [forkedSet, setForkedSet] = useState<Set<string>>(new Set());
   const [syncingMap, setSyncingMap] = useState<Record<string, boolean>>({});
   const [syncedSet, setSyncedSet] = useState<Set<string>>(new Set());
+  const [batchSyncing, setBatchSyncing] = useState(false);
 
   const observerRef = useRef<HTMLDivElement>(null);
   const loadingRef = useRef(false);
 
-  // Check if current user's forked repos
   const currentUserLogin = ghUser?.login;
+
+  // Load synced set from localStorage
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(SYNCED_SET_KEY);
+      if (saved) {
+        setSyncedSet(new Set(JSON.parse(saved)));
+      }
+    } catch {}
+  }, []);
+
+  // Persist synced set to localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem(SYNCED_SET_KEY, JSON.stringify([...syncedSet]));
+    } catch {}
+  }, [syncedSet]);
 
   // Load initial username from URL params
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const urlUsername = params.get('forked');
+    const urlUsername = params.get('repos');
     if (urlUsername) {
       setUsername(urlUsername);
       setInputValue(urlUsername);
@@ -47,14 +68,14 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
   useEffect(() => {
     if (username) {
       const params = new URLSearchParams(window.location.search);
-      params.set('tab', 'forked');
-      params.set('forked', username);
+      params.set('tab', 'repos');
+      params.set('repos', username);
       const newUrl = `${window.location.pathname}?${params.toString()}`;
       window.history.replaceState({}, '', newUrl);
     }
   }, [username]);
 
-  const fetchForks = useCallback(async (user: string, pageNum: number, append: boolean) => {
+  const fetchRepos = useCallback(async (user: string, pageNum: number, append: boolean) => {
     if (!user.trim()) {
       setError('请输入 GitHub 用户名');
       return;
@@ -65,7 +86,7 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
 
     try {
       const token = getGhToken();
-      const result = await fetchUserForks(user, pageNum, token || undefined);
+      const result = await fetchUserRepos(user, pageNum, token || undefined);
 
       if (append) {
         setRepos(prev => [...prev, ...result.repos]);
@@ -75,9 +96,7 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
       setHasMore(result.hasMore);
       setPage(pageNum);
 
-      // Check which repos are already forked by current user
       if (currentUserLogin && token) {
-        // We'll check each repo's fork status by checking if current user has forked it
         checkForkedRepos(result.repos, user, token);
       }
     } catch (err) {
@@ -89,12 +108,9 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
   }, [currentUserLogin]);
 
   const checkForkedRepos = async (repoList: ForkedRepo[], _targetUser: string, token: string) => {
-    // For each repo, check if the current user has forked the parent
-    // This is a simplified check - we just mark repos as "forked by this user" if they appear in their fork list
-    // Since we're fetching the target user's forks, we can check if current user also has a fork of the same parent
     const forked = new Set<string>();
     for (const repo of repoList) {
-      // Check if the current user has already forked this repo
+      if (!repo.source_full_name) continue;
       try {
         const res = await fetch(
           `https://api.github.com/repos/${currentUserLogin}/${repo.source_full_name.split('/')[1]}`,
@@ -106,9 +122,7 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
             forked.add(repo.full_name);
           }
         }
-      } catch {
-        // Ignore errors in checking
-      }
+      } catch {}
     }
     setForkedSet(forked);
   };
@@ -118,7 +132,8 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
       setUsername(inputValue.trim());
       setRepos([]);
       setPage(1);
-      fetchForks(inputValue.trim(), 1, false);
+      setSyncedSet(new Set());
+      fetchRepos(inputValue.trim(), 1, false);
     }
   };
 
@@ -136,7 +151,7 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
       (entries) => {
         if (entries[0].isIntersecting && !loadingRef.current) {
           loadingRef.current = true;
-          fetchForks(username, page + 1, true).finally(() => {
+          fetchRepos(username, page + 1, true).finally(() => {
             loadingRef.current = false;
           });
         }
@@ -149,10 +164,15 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
     }
 
     return () => observer.disconnect();
-  }, [hasMore, loading, username, page, fetchForks]);
+  }, [hasMore, loading, username, page, fetchRepos]);
 
-  // Sort repos
-  const sortedRepos = [...repos].sort((a, b) => {
+  const filteredRepos = repos.filter(repo => {
+    if (filterType === 'fork') return repo.fork;
+    if (filterType === 'original') return !repo.fork;
+    return true;
+  });
+
+  const sortedRepos = [...filteredRepos].sort((a, b) => {
     let aVal: number | string;
     let bVal: number | string;
 
@@ -192,7 +212,6 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
       return;
     }
 
-    // Fork from source repo
     const sourceInfo = repo.source_full_name.split('/');
     if (sourceInfo.length !== 2) {
       addNotification({ type: 'fork', title: '⎈ Fork 失败', message: '无法解析上游仓库信息' });
@@ -215,9 +234,9 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
     }
   };
 
-  const handleSync = async (repo: ForkedRepo, e: React.MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
+  const handleSync = async (repo: ForkedRepo, e?: React.MouseEvent) => {
+    e?.preventDefault();
+    e?.stopPropagation();
 
     const token = getGhToken();
     if (!token) {
@@ -225,15 +244,15 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
       return;
     }
 
+    const parts = repo.name.split('/');
+    if (parts.length !== 2) {
+      addNotification({ type: 'system', title: '🔄 同步失败', message: '无法解析仓库信息' });
+      return;
+    }
+
     setSyncingMap(prev => ({ ...prev, [repo.full_name]: true }));
 
     try {
-      // repo.name is "owner/repo" format
-      const parts = repo.name.split('/');
-      if (parts.length !== 2) {
-        addNotification({ type: 'system', title: '🔄 同步失败', message: '无法解析仓库信息' });
-        return;
-      }
       const result = await syncForkUpstream(parts[0], parts[1], repo.default_branch, token);
       if (result.success) {
         setSyncedSet(prev => new Set([...prev, repo.full_name]));
@@ -243,6 +262,51 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
       }
     } finally {
       setSyncingMap(prev => ({ ...prev, [repo.full_name]: false }));
+    }
+  };
+
+  const handleBatchSync = async () => {
+    const token = getGhToken();
+    if (!token) {
+      addNotification({ type: 'system', title: '🔄 批量同步失败', message: '请先在设置中配置 GitHub Token' });
+      return;
+    }
+
+    const forkRepos = repos.filter(repo => repo.fork && repo.owner === currentUserLogin && !syncedSet.has(repo.full_name));
+    if (forkRepos.length === 0) {
+      addNotification({ type: 'system', title: '🔄 批量同步', message: '没有需要同步的 Fork 仓库' });
+      return;
+    }
+
+    setBatchSyncing(true);
+    let successCount = 0;
+    let failCount = 0;
+
+    for (const repo of forkRepos) {
+      setSyncingMap(prev => ({ ...prev, [repo.full_name]: true }));
+      try {
+        const parts = repo.name.split('/');
+        const result = await syncForkUpstream(parts[0], parts[1], repo.default_branch, token);
+        if (result.success) {
+          setSyncedSet(prev => new Set([...prev, repo.full_name]));
+          successCount++;
+        } else {
+          failCount++;
+        }
+      } catch {
+        failCount++;
+      } finally {
+        setSyncingMap(prev => ({ ...prev, [repo.full_name]: false }));
+      }
+      // Rate limit protection: 1 request per second
+      await new Promise(resolve => setTimeout(resolve, 1000));
+    }
+
+    setBatchSyncing(false);
+    if (successCount > 0) {
+      addNotification({ type: 'system', title: '🔄 批量同步完成', message: `成功 ${successCount} 个${failCount > 0 ? `，失败 ${failCount} 个` : ''}` });
+    } else {
+      addNotification({ type: 'system', title: '🔄 批量同步完成', message: `失败 ${failCount} 个` });
     }
   };
 
@@ -289,6 +353,11 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
   };
   const langColor = (lang: string | null) => languageColors[lang || ''] || 'bg-gray-400';
 
+  const forkCount = repos.filter(r => r.fork).length;
+  const originalCount = repos.filter(r => !r.fork).length;
+  const myForkRepos = repos.filter(r => r.fork && r.owner === currentUserLogin);
+  const unsyncedForkCount = myForkRepos.filter(r => !syncedSet.has(r.full_name)).length;
+
   return (
     <div className="space-y-4">
       {/* Search Bar */}
@@ -309,7 +378,8 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
                 setUsername(ghUser.login);
                 setRepos([]);
                 setPage(1);
-                fetchForks(ghUser.login, 1, false);
+                setSyncedSet(new Set());
+                fetchRepos(ghUser.login, 1, false);
               }}
               className="px-3 py-2 text-sm bg-github-purple/20 text-github-purple border border-github-purple/50 rounded-lg hover:bg-github-purple/30 transition-colors"
             >
@@ -345,11 +415,34 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
       {/* Results */}
       {!loading && repos.length > 0 && (
         <>
-          {/* Sort Controls */}
-          <div className="flex items-center gap-2 text-sm">
+          {/* Controls: Filter + Sort + Batch Sync */}
+          <div className="flex items-center gap-2 text-sm flex-wrap">
+            {/* Filter Buttons */}
+            <span className="text-github-muted">筛选：</span>
+            {[
+              { key: 'all' as FilterType, label: `全部 (${repos.length})` },
+              { key: 'fork' as FilterType, label: `🍴 Fork (${forkCount})` },
+              { key: 'original' as FilterType, label: `📦 原创 (${originalCount})` },
+            ].map(item => (
+              <button
+                key={item.key}
+                onClick={() => setFilterType(item.key)}
+                className={`px-3 py-1 rounded transition-colors ${
+                  filterType === item.key
+                    ? 'bg-github-purple/20 text-github-purple border border-github-purple/50'
+                    : 'bg-github-card border border-github-border text-github-muted hover:text-github-text'
+                }`}
+              >
+                {item.label}
+              </button>
+            ))}
+
+            <span className="text-github-muted mx-2">|</span>
+
+            {/* Sort Controls */}
             <span className="text-github-muted">排序：</span>
             {[
-              { key: 'fork_time' as SortKey, label: 'Fork 时间' },
+              { key: 'fork_time' as SortKey, label: '更新时间' },
               { key: 'stargazers_count' as SortKey, label: 'Stars' },
               { key: 'forks_count' as SortKey, label: 'Forks' },
             ].map(item => (
@@ -365,7 +458,20 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
                 {item.label} {sortKey === item.key && (sortDirection === 'desc' ? '↓' : '↑')}
               </button>
             ))}
-            <span className="text-github-muted ml-2">共 {repos.length} 个</span>
+
+            {/* Batch Sync Button */}
+            {currentUserLogin && unsyncedForkCount > 0 && (
+              <>
+                <span className="text-github-muted mx-2">|</span>
+                <button
+                  onClick={handleBatchSync}
+                  disabled={batchSyncing}
+                  className="px-3 py-1 text-xs rounded bg-blue-500/20 text-blue-400 border border-blue-500/50 hover:bg-blue-500/30 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                >
+                  {batchSyncing ? '🔄 批量同步中...' : `🔄 批量同步 Fork (${unsyncedForkCount})`}
+                </button>
+              </>
+            )}
           </div>
 
           {/* Repo List */}
@@ -388,6 +494,12 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
                       >
                         {repo.name}
                       </a>
+                      {/* Fork Badge */}
+                      {repo.fork && (
+                        <span className="px-2 py-0.5 text-xs bg-orange-500/20 text-orange-400 rounded">
+                          🍴 Fork
+                        </span>
+                      )}
                       {forkedSet.has(repo.full_name) && (
                         <span className="px-2 py-0.5 text-xs bg-green-500/20 text-green-400 rounded">
                           已 Fork
@@ -451,7 +563,7 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
                         >
                           {isFavorited(repo.full_name) ? '★ 已收藏' : '☆ 收藏'}
                         </button>
-                        {!forkedSet.has(repo.full_name) && (
+                        {!repo.fork && !forkedSet.has(repo.full_name) && (
                           <button
                             onClick={(e) => handleFork(repo, e)}
                             disabled={forkingMap[repo.full_name]}
@@ -460,7 +572,7 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
                             {forkingMap[repo.full_name] ? 'Forking...' : '⎈ Fork'}
                           </button>
                         )}
-                        {ghUser && repo.owner === ghUser.login && (
+                        {repo.fork && ghUser && repo.owner === ghUser.login && (
                           <button
                             onClick={(e) => handleSync(repo, e)}
                             disabled={syncingMap[repo.full_name] || syncedSet.has(repo.full_name)}
@@ -493,14 +605,14 @@ export default function ForkedProjectsPanel({ ghUser, initialUsername }: ForkedP
       {/* Empty State */}
       {!loading && repos.length === 0 && !error && username && (
         <div className="text-center py-12 text-github-muted">
-          该用户没有公开的 Fork 项目
+          该用户没有公开的仓库
         </div>
       )}
 
       {/* Initial State */}
       {!loading && repos.length === 0 && !error && !username && (
         <div className="text-center py-12 text-github-muted">
-          输入 GitHub 用户名查看其 Fork 的项目列表
+          输入 GitHub 用户名查看其所有仓库
         </div>
       )}
     </div>
