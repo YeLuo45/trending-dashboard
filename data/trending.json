@@ -1,168 +1,181 @@
 {
-  "weekly": [
+  "updatedAt": "2026-05-25T02:03:05.354032+00:00",
+  "projects": [
     {
-      "name": "freeCodeCamp/freeCodeCamp",
-      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "stars": 445198,
-      "language": "TypeScript",
-      "owner": "freeCodeCamp",
-      "repo": "freeCodeCamp"
+      "name": "Understand-Anything",
+      "fullName": "Lum1104/Understand-Anything",
+      "description": "Graphs that teach &gt; graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "Lum1104",
+      "avatar": "https://avatars.githubusercontent.com/u/87774050?s=40&amp;v=4"
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "A collective list of free APIs",
-      "stars": 436166,
-      "language": "Python",
-      "owner": "public-apis",
-      "repo": "public-apis"
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "stars": 0,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "rohitg00",
+      "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4"
     },
     {
-      "name": "EbookFoundation/free-programming-books",
-      "description": ":books: Freely available programming books",
-      "stars": 388646,
-      "language": "Python",
-      "owner": "EbookFoundation",
-      "repo": "free-programming-books"
+      "name": "claude-plugins-official",
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "anthropics",
+      "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&amp;v=4"
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 373580,
-      "language": "TypeScript",
-      "owner": "openclaw",
-      "repo": "openclaw"
+      "name": "knowledge-work-plugins",
+      "fullName": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "anthropics",
+      "avatar": "https://avatars.githubusercontent.com/u/227474486?s=40&amp;v=4"
     },
     {
-      "name": "nilbuild/developer-roadmap",
-      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "stars": 355149,
-      "language": "TypeScript",
-      "owner": "nilbuild",
-      "repo": "developer-roadmap"
+      "name": "andrej-karpathy-skills",
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "multica-ai",
+      "avatar": "https://avatars.githubusercontent.com/u/7857126?s=40&amp;v=4"
     },
     {
-      "name": "vinta/awesome-python",
-      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
-      "stars": 298737,
-      "language": "Python",
-      "owner": "vinta",
-      "repo": "awesome-python"
+      "name": "pi",
+      "fullName": "earendil-works/pi",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI &amp; web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/earendil-works/pi",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "earendil-works",
+      "avatar": "https://avatars.githubusercontent.com/u/514052?s=40&amp;v=4"
     },
     {
-      "name": "awesome-selfhosted/awesome-selfhosted",
-      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-      "stars": 294131,
-      "language": null,
-      "owner": "awesome-selfhosted",
-      "repo": "awesome-selfhosted"
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "Alishahryar1",
+      "avatar": "https://avatars.githubusercontent.com/u/20476625?s=40&amp;v=4"
     },
     {
-      "name": "facebook/react",
-      "description": "The library for web and native user interfaces.",
-      "stars": 245151,
-      "language": "JavaScript",
-      "owner": "facebook",
-      "repo": "react"
+      "name": "codegraph",
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "colbymchenry",
+      "avatar": "https://avatars.githubusercontent.com/u/18431132?s=40&amp;v=4"
     },
     {
-      "name": "torvalds/linux",
-      "description": "Linux kernel source tree",
-      "stars": 233877,
-      "language": "C",
-      "owner": "torvalds",
-      "repo": "linux"
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "url": "https://github.com/multica-ai/multica",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "multica-ai",
+      "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4"
     },
     {
-      "name": "TheAlgorithms/Python",
-      "description": "All Algorithms implemented in Python",
-      "stars": 221257,
-      "language": "Python",
-      "owner": "TheAlgorithms",
-      "repo": "Python"
+      "name": "Kronos",
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "shiyu-coder",
+      "avatar": "https://avatars.githubusercontent.com/u/65760973?s=40&amp;v=4"
+    },
+    {
+      "name": "cmux",
+      "fullName": "manaflow-ai/cmux",
+      "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "manaflow-ai",
+      "avatar": "https://avatars.githubusercontent.com/u/54008264?s=40&amp;v=4"
+    },
+    {
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "url": "https://github.com/666ghj/MiroFish",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "666ghj",
+      "avatar": "https://avatars.githubusercontent.com/u/110395318?s=40&amp;v=4"
+    },
+    {
+      "name": "build-your-own-x",
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "codecrafters-io",
+      "avatar": "https://avatars.githubusercontent.com/u/1736595?s=40&amp;v=4"
+    },
+    {
+      "name": "skills",
+      "fullName": "dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "url": "https://github.com/dotnet/skills",
+      "stars": 2,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "dotnet",
+      "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4"
+    },
+    {
+      "name": "frigate",
+      "fullName": "blakeblackshear/frigate",
+      "description": "NVR with realtime local object detection for IP cameras",
+      "url": "https://github.com/blakeblackshear/frigate",
+      "stars": 337401,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "blakeblackshear",
+      "avatar": "https://avatars.githubusercontent.com/u/14866235?s=40&amp;v=4"
+    },
+    {
+      "name": "Anthropic-Cybersecurity-Skills",
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND &amp; NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 26 security domains · Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 975,
+      "forks": 0,
+      "language": "Unknown",
+      "author": "mukul975",
+      "avatar": "https://avatars.githubusercontent.com/u/42860185?s=40&amp;v=4"
     }
-  ],
-  "monthly": [
-    {
-      "name": "sindresorhus/awesome",
-      "description": "😎 Awesome lists about all kinds of interesting topics",
-      "stars": 468480,
-      "language": null,
-      "owner": "sindresorhus",
-      "repo": "awesome"
-    },
-    {
-      "name": "freeCodeCamp/freeCodeCamp",
-      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "stars": 445198,
-      "language": "TypeScript",
-      "owner": "freeCodeCamp",
-      "repo": "freeCodeCamp"
-    },
-    {
-      "name": "public-apis/public-apis",
-      "description": "A collective list of free APIs",
-      "stars": 436166,
-      "language": "Python",
-      "owner": "public-apis",
-      "repo": "public-apis"
-    },
-    {
-      "name": "EbookFoundation/free-programming-books",
-      "description": ":books: Freely available programming books",
-      "stars": 388646,
-      "language": "Python",
-      "owner": "EbookFoundation",
-      "repo": "free-programming-books"
-    },
-    {
-      "name": "openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 373580,
-      "language": "TypeScript",
-      "owner": "openclaw",
-      "repo": "openclaw"
-    },
-    {
-      "name": "nilbuild/developer-roadmap",
-      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "stars": 355149,
-      "language": "TypeScript",
-      "owner": "nilbuild",
-      "repo": "developer-roadmap"
-    },
-    {
-      "name": "vinta/awesome-python",
-      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
-      "stars": 298737,
-      "language": "Python",
-      "owner": "vinta",
-      "repo": "awesome-python"
-    },
-    {
-      "name": "awesome-selfhosted/awesome-selfhosted",
-      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-      "stars": 294131,
-      "language": null,
-      "owner": "awesome-selfhosted",
-      "repo": "awesome-selfhosted"
-    },
-    {
-      "name": "facebook/react",
-      "description": "The library for web and native user interfaces.",
-      "stars": 245151,
-      "language": "JavaScript",
-      "owner": "facebook",
-      "repo": "react"
-    },
-    {
-      "name": "torvalds/linux",
-      "description": "Linux kernel source tree",
-      "stars": 233877,
-      "language": "C",
-      "owner": "torvalds",
-      "repo": "linux"
-    }
-  ],
-  "lastUpdated": "2026-05-21T02:10:47",
-  "generatedAt": "2026-05-21T02:10:47"
+  ]
 }
