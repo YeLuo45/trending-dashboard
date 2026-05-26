@@ -1,5 +1,6 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { Header, TabButton, ProjectList, AdvancedFilterBar, applyFilters, TopicTrendingView, MobileDrawerNav, ExportPanel, ErrorBoundary, FullPageSkeleton, SharePoster, NotificationCenter } from './components';
+import { MemoryProvider } from './memory';
 import type { FilterState } from './components/AdvancedFilterBar';
 import { loadTrendingFromFiles, loadSampleData } from './utils/loadData';
 import type { TrendingData, FavoriteItem } from './types';
@@ -308,6 +309,7 @@ function App() {
   const filteredProjects = applyFilters(allProjects, filters);
 
   return (
+    <MemoryProvider>
     <>
       {loading ? (
         <FullPageSkeleton />
@@ -662,6 +664,7 @@ function App() {
       </ErrorBoundary>
       )}
     </>
+    </MemoryProvider>
   );
 }
 
