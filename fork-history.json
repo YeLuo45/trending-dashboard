@@ -1,75 +1,82 @@
 {
   "records": [
     {
+      "name": "warpdotdev/warp",
+      "link": "https://github.com/warpdotdev/warp",
+      "description": "WARP是一个代理开发环境，诞生于终端之外。",
+      "url": "https://github.com/YeLuo45/warp",
+      "forkedAt": "2026/5/28 11:21:42"
+    },
+    {
       "name": "dograh-hq/dograh",
       "link": "https://github.com/dograh-hq/dograh",
-      "description": "开源语音AI平台。Vapi和Retell的自托管替代品。在PREM上， BYOK跨语音到语音或LLM/STT/TTS ，具有可视化工作流程构建器、MCP本机和电话支持。",
+      "description": "å¼æºè¯­é³AIå¹³å°ãVapiåRetellçèªæç®¡æ¿ä»£åãå¨PREMä¸ï¼ BYOKè·¨è¯­é³å°è¯­é³æLLM/STT/TTS ï¼å·æå¯è§åå·¥ä½æµç¨æå»ºå¨ãMCPæ¬æºåçµè¯æ¯æã",
       "url": "https://github.com/YeLuo45/dograh",
       "forkedAt": "2026/5/28 11:21:21"
     },
     {
       "name": "humanlayer/12-factor-agents",
       "link": "https://github.com/humanlayer/12-factor-agents",
-      "description": "我们可以使用哪些原则来构建基于LLM的软件，这些软件实际上足以交付给生产客户？",
+      "description": "æä»¬å¯ä»¥ä½¿ç¨åªäºååæ¥æå»ºåºäºLLMçè½¯ä»¶ï¼è¿äºè½¯ä»¶å®éä¸è¶³ä»¥äº¤ä»ç»çäº§å®¢æ·ï¼",
       "url": "https://github.com/YeLuo45/12-factor-agents",
       "forkedAt": "2026/5/28 11:21:18"
     },
     {
       "name": "supertone-inc/supertonic",
       "link": "https://github.com/supertone-inc/supertonic",
-      "description": "闪电般的快速、设备上、多语言TTS —通过ONNX本地运行。",
+      "description": "éªçµè¬çå¿«éãè®¾å¤ä¸ãå¤è¯­è¨TTS âéè¿ONNXæ¬å°è¿è¡ã",
       "url": "https://github.com/YeLuo45/supertonic",
       "forkedAt": "2026/5/28 11:21:16"
     },
     {
       "name": "HKUDS/ViMax",
       "link": "https://github.com/HKUDS/ViMax",
-      "description": "\"ViMax ： Agentic Video Generation （导演、编剧、制片人和视频生成器一体机）\"",
+      "description": "\"ViMax ï¼ Agentic Video Generation ï¼å¯¼æ¼ãç¼å§ãå¶çäººåè§é¢çæå¨ä¸ä½æºï¼\"",
       "url": "https://github.com/YeLuo45/ViMax",
       "forkedAt": "2026/5/28 11:21:14"
     },
     {
       "name": "rmyndharis/OpenWA",
       "link": "https://github.com/rmyndharis/OpenWA",
-      "description": "免费、开源、自托管的WhatsApp API网关",
+      "description": "åè´¹ãå¼æºãèªæç®¡çWhatsApp APIç½å³",
       "url": "https://github.com/YeLuo45/OpenWA",
       "forkedAt": "2026/5/28 11:21:12"
     },
     {
       "name": "anthropics/knowledge-work-plugins",
       "link": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
+      "description": "ä¸»è¦ä¾ç¥è¯å·¥ä½èå¨Claude Coworkä¸­ä½¿ç¨çæä»¶çå¼æºå­å¨åº",
       "url": "https://github.com/YeLuo45/knowledge-work-plugins",
       "forkedAt": "2026/5/28 11:21:10"
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "学习它，构建它。为其他人运送。",
+      "description": "å­¦ä¹ å®ï¼æå»ºå®ãä¸ºå¶ä»äººè¿éã",
       "url": "https://github.com/YeLuo45/ai-engineering-from-scratch",
       "forkedAt": "2026/5/28 11:21:08"
     },
     {
       "name": "aiming-lab/AutoResearchClaw",
       "link": "https://github.com/aiming-lab/AutoResearchClaw",
-      "description": "从创意到论文的完全自主和自我发展的研究。聊天创意。获取论文。 🦞",
+      "description": "ä»åæå°è®ºæçå®å¨èªä¸»åèªæåå±çç ç©¶ãèå¤©åæãè·åè®ºæã ð¦",
       "url": "https://github.com/YeLuo45/AutoResearchClaw",
       "forkedAt": "2026/5/28 11:21:05"
     },
     {
       "name": "colbymchenry/codegraph",
       "link": "https://github.com/colbymchenry/codegraph",
-      "description": "Claude Code、Codex、Gemini、Cursor、OpenCode、AntiGravity、Kiro和Hermes Agent的预索引代码知识图—代币更少，工具调用更少， 100%本地化",
+      "description": "Claude CodeãCodexãGeminiãCursorãOpenCodeãAntiGravityãKiroåHermes Agentçé¢ç´¢å¼ä»£ç ç¥è¯å¾âä»£å¸æ´å°ï¼å·¥å·è°ç¨æ´å°ï¼ 100%æ¬å°å",
       "url": "https://github.com/YeLuo45/codegraph",
       "forkedAt": "2026/5/28 11:21:02"
     },
     {
       "name": "Lum1104/Understand-Anything",
       "link": "https://github.com/Lum1104/Understand-Anything",
-      "description": "教学图表>令人印象深刻的图表。将任何代码转换为交互式知识图表，您可以对其进行探索、搜索和提出问题。适用于Claude Code、Codex、Cursor、Copilot、Gemini CLI等。",
+      "description": "æå­¦å¾è¡¨>ä»¤äººå°è±¡æ·±å»çå¾è¡¨ãå°ä»»ä½ä»£ç è½¬æ¢ä¸ºäº¤äºå¼ç¥è¯å¾è¡¨ï¼æ¨å¯ä»¥å¯¹å¶è¿è¡æ¢ç´¢ãæç´¢åæåºé®é¢ãéç¨äºClaude CodeãCodexãCursorãCopilotãGemini CLIç­ã",
       "url": "https://github.com/YeLuo45/Understand-Anything",
       "forkedAt": "2026/5/28 11:21:00"
     }
   ],
-  "syncedAt": "2026-05-28T03:21:21.932Z"
+  "syncedAt": "2026-05-28T03:21:48.316Z"
 }
