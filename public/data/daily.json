@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "github /spec-kit",
+      "link": "https://github.com/github /spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "totalStars": "108255",
+      "totalForks": "9579",
+      "growth": "+108255",
+      "growthValue": 108255,
+      "rank": 1
+    },
+    {
+      "name": "PaddlePaddle /PaddleOCR",
+      "link": "https://github.com/PaddlePaddle /PaddleOCR",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "language": "Python",
+      "totalStars": "79564",
+      "totalForks": "10584",
+      "growth": "+79564",
+      "growthValue": 79564,
+      "rank": 2
+    },
+    {
+      "name": "mvanhorn /last30days-skill",
+      "link": "https://github.com/mvanhorn /last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "totalStars": "27258",
+      "totalForks": "2331",
+      "growth": "+27258",
+      "growthValue": 27258,
+      "rank": 3
+    },
+    {
+      "name": "lfnovo /open-notebook",
+      "link": "https://github.com/lfnovo /open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "language": "TypeScript",
+      "totalStars": "24411",
+      "totalForks": "2857",
+      "growth": "+24411",
+      "growthValue": 24411,
+      "rank": 4
+    },
+    {
+      "name": "github /copilot-sdk",
+      "link": "https://github.com/github /copilot-sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "language": "Java",
+      "totalStars": "8814",
+      "totalForks": "1201",
+      "growth": "+8814",
+      "growthValue": 8814,
+      "rank": 5
+    },
+    {
+      "name": "NVIDIA /cosmos",
+      "link": "https://github.com/NVIDIA /cosmos",
+      "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "language": "Jupyter Notebook",
+      "totalStars": "8767",
+      "totalForks": "569",
+      "growth": "+8767",
+      "growthValue": 8767,
+      "rank": 6
+    },
+    {
       "name": "chopratejas /headroom",
       "link": "https://github.com/chopratejas /headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Sponsor",
-      "totalStars": "10738",
-      "totalForks": "703",
-      "growth": "+1197",
-      "growthValue": 1197,
-      "rank": 1
+      "totalStars": "11376",
+      "totalForks": "739",
+      "growth": "+1835",
+      "growthValue": 1835,
+      "rank": 7
+    },
+    {
+      "name": "openclaw /openclaw-windows-node",
+      "link": "https://github.com/openclaw /openclaw-windows-node",
+      "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
+      "language": "Sponsor",
+      "totalStars": "1155",
+      "totalForks": "156",
+      "growth": "+1155",
+      "growthValue": 1155,
+      "rank": 8
     },
     {
       "name": "NousResearch /hermes-agent",
       "link": "https://github.com/NousResearch /hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "totalStars": "179734",
-      "totalForks": "30803",
-      "growth": "+712",
-      "growthValue": 712,
-      "rank": 2
+      "totalStars": "180138",
+      "totalForks": "30879",
+      "growth": "+1116",
+      "growthValue": 1116,
+      "rank": 9
     },
     {
       "name": "affaan-m /ECC",
       "link": "https://github.com/affaan-m /ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "Sponsor",
-      "totalStars": "206216",
-      "totalForks": "31658",
-      "growth": "+567",
-      "growthValue": 567,
-      "rank": 3
-    },
-    {
-      "name": "microsoft /markitdown",
-      "link": "https://github.com/microsoft /markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
-      "language": "Python",
-      "totalStars": "143320",
-      "totalForks": "9793",
-      "growth": "+522",
-      "growthValue": 522,
-      "rank": 4
-    },
-    {
-      "name": "HKUDS /Vibe-Trading",
-      "link": "https://github.com/HKUDS /Vibe-Trading",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "language": "Python",
-      "totalStars": "10293",
-      "totalForks": "2043",
-      "growth": "+431",
-      "growthValue": 431,
-      "rank": 5
-    },
-    {
-      "name": "D4Vinci /Scrapling",
-      "link": "https://github.com/D4Vinci /Scrapling",
-      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-      "language": "Sponsor",
-      "totalStars": "60586",
-      "totalForks": "5841",
-      "growth": "+408",
-      "growthValue": 408,
-      "rank": 6
-    },
-    {
-      "name": "jwasham /coding-interview-university",
-      "link": "https://github.com/jwasham /coding-interview-university",
-      "description": "A complete computer science study plan to become a software engineer.",
-      "language": "Built by",
-      "totalStars": "349261",
-      "totalForks": "83186",
-      "growth": "+292",
-      "growthValue": 292,
-      "rank": 7
-    },
-    {
-      "name": "opendataloader-project /opendataloader-pdf",
-      "link": "https://github.com/opendataloader-project /opendataloader-pdf",
-      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
-      "language": "Java",
-      "totalStars": "23494",
-      "totalForks": "2198",
-      "growth": "+268",
-      "growthValue": 268,
-      "rank": 8
-    },
-    {
-      "name": "Open-LLM-VTuber /Open-LLM-VTuber",
-      "link": "https://github.com/Open-LLM-VTuber /Open-LLM-VTuber",
-      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
-      "language": "Python",
-      "totalStars": "9163",
-      "totalForks": "1122",
-      "growth": "+247",
-      "growthValue": 247,
-      "rank": 9
-    },
-    {
-      "name": "lyogavin /airllm",
-      "link": "https://github.com/lyogavin /airllm",
-      "description": "AirLLM 70B inference with single 4GB GPU",
-      "language": "Sponsor",
-      "totalStars": "19084",
-      "totalForks": "2087",
-      "growth": "+227",
-      "growthValue": 227,
+      "totalStars": "206556",
+      "totalForks": "31711",
+      "growth": "+907",
+      "growthValue": 907,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-04 07:27"
+  "lastUpdated": "2026-06-04 11:59"
 }
