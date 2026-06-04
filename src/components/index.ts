@@ -1,5 +1,10 @@
 export { ProjectCard } from './ProjectCard';
 export { ProjectList } from './ProjectList';
+export { ProjectDetailPanel } from './ProjectDetailPanel';
+// NOTE: ReadmePreview is NOT statically exported here so React.lazy in
+// ProjectDetailPanel can keep it in a separate chunk and the heavy
+// markdown/highlight.js payload stays out of the initial bundle.
+export { Pagination } from './Pagination';
 export { TabButton } from './TabButton';
 export { Header } from './Header';
 export { SharePoster } from './SharePoster';

@@ -1,6 +1,7 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import type { TrendingProject } from '../types';
 import { ProjectCard } from './ProjectCard';
+import { Pagination } from './Pagination';
 
 interface TopicTrendingViewProps {
   projects: TrendingProject[];
@@ -11,6 +12,8 @@ interface TopicTrendingViewProps {
 }
 
 const LANGUAGE_TABS_LIMIT = 12;
+const DEFAULT_PAGE_SIZE = 10;
+const PAGE_SIZE_OPTIONS = [10, 20, 50];
 
 export function TopicTrendingView({
   projects,
@@ -31,6 +34,8 @@ export function TopicTrendingView({
 
   const [activeLangTab, setActiveLangTab] = useState<string>('全部');
   const [activeTopic, setActiveTopic] = useState<string | null>(null);
+  const [page, setPage] = useState(1);
+  const [pageSize, setPageSize] = useState(DEFAULT_PAGE_SIZE);
 
   // Filter languages for tabs (most common ones)
   const langTabs = useMemo(() => {
@@ -72,6 +77,17 @@ export function TopicTrendingView({
     // Show top projects across all topics
     return [...filteredByLang].sort((a, b) => b.growthValue - a.growthValue);
   }, [filteredByLang, activeTopic]);
+
+  // Reset to page 1 when filter context changes
+  useEffect(() => {
+    setPage(1);
+  }, [activeLangTab, activeTopic, pageSize]);
+
+  // Pagination slice
+  const totalPages = Math.max(1, Math.ceil(displayProjects.length / pageSize));
+  const safePage = Math.min(Math.max(1, page), totalPages);
+  const startIndex = (safePage - 1) * pageSize;
+  const pageDisplayProjects = displayProjects.slice(startIndex, startIndex + pageSize);
 
   // Topic color
   const TOPIC_COLORS = [
@@ -160,13 +176,13 @@ export function TopicTrendingView({
 
       {/* Project Grid */}
       <div className="grid gap-4">
-        {displayProjects.length === 0 ? (
+        {pageDisplayProjects.length === 0 ? (
           <div className="text-center py-12 text-github-muted">
             <div className="text-4xl mb-3">📭</div>
             <p>该分类下暂无项目</p>
           </div>
         ) : (
-          displayProjects.map((project, index) => (
+          pageDisplayProjects.map((project, index) => (
             <ProjectCard
               key={`${project.name}-${index}`}
               project={project}
@@ -178,6 +194,20 @@ export function TopicTrendingView({
           ))
         )}
       </div>
+
+      {displayProjects.length > 0 && (
+        <Pagination
+          total={displayProjects.length}
+          currentPage={safePage}
+          pageSize={pageSize}
+          onPageChange={setPage}
+          onPageSizeChange={(size) => {
+            setPageSize(size);
+            setPage(1);
+          }}
+          pageSizeOptions={PAGE_SIZE_OPTIONS}
+        />
+      )}
     </div>
   );
 }

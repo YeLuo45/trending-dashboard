@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import type { TrendingProject, SortKey, SortDirection } from '../types';
 import { ProjectCard } from './ProjectCard';
 import { SortControls } from './SortControls';
 import { ProjectDetailPanel } from './ProjectDetailPanel';
+import { Pagination } from './Pagination';
 
 interface ProjectListProps {
   projects: TrendingProject[];
@@ -16,10 +17,13 @@ interface ProjectListProps {
 }
 
 const TYPE_META = {
-  weekly: { emoji: '📈', title: '本周增长最快 Top 10' },
-  monthly: { emoji: '🔥', title: '本月最热 Top 10' },
-  daily: { emoji: '⚡', title: '今日趋势 Top 10' },
+  weekly: { emoji: '📈', title: '本周增长最快' },
+  monthly: { emoji: '🔥', title: '本月最热' },
+  daily: { emoji: '⚡', title: '今日趋势' },
 };
+
+const DEFAULT_PAGE_SIZE = 10;
+const PAGE_SIZE_OPTIONS = [10, 20, 50];
 
 function sortProjects(projects: TrendingProject[], key: SortKey, dir: SortDirection): TrendingProject[] {
   const sorted = [...projects].sort((a, b) => {
@@ -40,8 +44,26 @@ export function ProjectList({ projects, type, selectedProjects, onToggleSelect, 
   const [sortKey, setSortKey] = useState<SortKey>('rank');
   const [sortDir, setSortDir] = useState<SortDirection>('desc');
   const [detailProject, setDetailProject] = useState<TrendingProject | null>(null);
+  const [page, setPage] = useState(1);
+  const [pageSize, setPageSize] = useState(DEFAULT_PAGE_SIZE);
 
-  const sortedProjects = sortKey === 'rank' && sortDir === 'desc' ? projects : sortProjects(projects, sortKey, sortDir);
+  const sortedProjects = useMemo(
+    () => (sortKey === 'rank' && sortDir === 'desc' ? projects : sortProjects(projects, sortKey, sortDir)),
+    [projects, sortKey, sortDir]
+  );
+
+  // Reset to page 1 when the underlying project list changes
+  // (e.g. tab change, filter applied, sort changed) so we never strand
+  // the user on an empty page.
+  useEffect(() => {
+    setPage(1);
+  }, [type, pageSize, projects.length]);
+
+  // Clamp page if data shrank between renders (defensive)
+  const totalPages = Math.max(1, Math.ceil(sortedProjects.length / pageSize));
+  const safePage = Math.min(Math.max(1, page), totalPages);
+  const startIndex = (safePage - 1) * pageSize;
+  const pageProjects = sortedProjects.slice(startIndex, startIndex + pageSize);
 
   return (
     <section>
@@ -57,20 +79,42 @@ export function ProjectList({ projects, type, selectedProjects, onToggleSelect, 
           onDirChange={setSortDir}
         />
       </div>
-      <div className="grid gap-4">
-        {sortedProjects.map((project, index) => (
-          <div key={`${project.name}-${index}`} onClick={() => setDetailProject(project)} className="cursor-pointer">
-            <ProjectCard
-              project={project}
-              selected={selectedProjects.has(project.name)}
-              onSelect={onToggleSelect}
-              onFavoritesChange={onFavoritesChange}
-              onShowComments={onShowComments}
-              highlightKeyword={highlightKeyword}
-            />
+
+      {sortedProjects.length === 0 ? (
+        <div className="text-center py-12 text-github-muted">
+          <div className="text-4xl mb-3">📭</div>
+          <p>该分类下暂无项目</p>
+        </div>
+      ) : (
+        <>
+          <div className="grid gap-4">
+            {pageProjects.map((project, index) => (
+              <div key={`${project.name}-${index}`} onClick={() => setDetailProject(project)} className="cursor-pointer">
+                <ProjectCard
+                  project={project}
+                  selected={selectedProjects.has(project.name)}
+                  onSelect={onToggleSelect}
+                  onFavoritesChange={onFavoritesChange}
+                  onShowComments={onShowComments}
+                  highlightKeyword={highlightKeyword}
+                />
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+
+          <Pagination
+            total={sortedProjects.length}
+            currentPage={safePage}
+            pageSize={pageSize}
+            onPageChange={setPage}
+            onPageSizeChange={(size) => {
+              setPageSize(size);
+              setPage(1);
+            }}
+            pageSizeOptions={PAGE_SIZE_OPTIONS}
+          />
+        </>
+      )}
 
       {detailProject && (
         <ProjectDetailPanel
