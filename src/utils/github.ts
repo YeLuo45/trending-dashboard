@@ -83,7 +83,14 @@ export interface RepoStats {
   forks: number;
 }
 
-export async function fetchReadme(owner: string, repo: string, token?: string): Promise<string | null> {
+export interface ReadmePayload {
+  /** Raw markdown text (decoded from base64, NOT escaped) */
+  raw: string;
+  /** Default branch of the repo (e.g. "main" / "master") for resolving relative URLs */
+  defaultBranch: string;
+}
+
+export async function fetchReadme(owner: string, repo: string, token?: string): Promise<ReadmePayload | null> {
   try {
     const headers: Record<string, string> = {
       Accept: 'application/vnd.github.v3+json',
@@ -96,13 +103,9 @@ export async function fetchReadme(owner: string, repo: string, token?: string): 
     const data = await res.json();
     // GitHub returns README content base64 encoded
     const content = atob(data.content);
-    // Convert markdown-like content to HTML (basic sanitization)
-    return content
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/\n/g, '<br/>')
-      .substring(0, 2000);
+    // Limit raw markdown to a reasonable preview size (50KB) to avoid huge payloads
+    const raw = content.length > 50_000 ? content.slice(0, 50_000) : content;
+    return { raw, defaultBranch: 'main' };
   } catch {
     return null;
   }

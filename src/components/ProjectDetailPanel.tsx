@@ -1,6 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import type { TrendingProject } from '../types';
-import { getGhToken, fetchReadme, fetchRepoStats } from '../utils/github';
+import { getGhToken, fetchReadme, fetchRepoStats, type ReadmePayload } from '../utils/github';
+
+// Lazy-load the heavy markdown renderer so the modal payload
+// (react-markdown + remark/rehype + highlight.js) doesn't bloat the initial bundle.
+// ReadmePreview is a named export, so wrap in a { default: ... } adapter for React.lazy.
+const ReadmePreview = lazy(() => import('./ReadmePreview').then(m => ({ default: m.ReadmePreview })));
 
 interface ProjectDetailPanelProps {
   project: TrendingProject;
@@ -8,7 +13,7 @@ interface ProjectDetailPanelProps {
 }
 
 export function ProjectDetailPanel({ project, onClose }: ProjectDetailPanelProps) {
-  const [readme, setReadme] = useState<string | null>(null);
+  const [readme, setReadme] = useState<ReadmePayload | null>(null);
   const [readmeLoading, setReadmeLoading] = useState(false);
   const [stats, setStats] = useState<{ stars: number; forks: number } | null>(null);
   const repoInfo = project.link.replace('https://github.com/', '').split('/');
@@ -18,8 +23,8 @@ export function ProjectDetailPanel({ project, onClose }: ProjectDetailPanelProps
   useEffect(() => {
     const token = getGhToken();
     setReadmeLoading(true);
-    fetchReadme(owner, repo, token || undefined).then(content => {
-      setReadme(content);
+    fetchReadme(owner, repo, token || undefined).then(payload => {
+      setReadme(payload);
       setReadmeLoading(false);
     });
     fetchRepoStats(owner, repo, token || undefined).then(s => s && setStats(s));
@@ -121,14 +126,30 @@ export function ProjectDetailPanel({ project, onClose }: ProjectDetailPanelProps
 
         {/* README Preview */}
         <div className="flex-1 overflow-auto p-4">
-          <h4 className="text-github-muted text-xs mb-2">README 预览</h4>
+          <div className="flex items-center justify-between mb-2">
+            <h4 className="text-github-muted text-xs">README 预览</h4>
+            {readme && (
+              <a
+                href={`https://github.com/${owner}/${repo}#readme`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[10px] text-github-muted hover:text-github-purple"
+              >
+                在 GitHub 上查看完整 README ↗
+              </a>
+            )}
+          </div>
           {readmeLoading ? (
             <div className="text-github-muted text-sm">加载中...</div>
           ) : readme ? (
-            <div
-              className="text-github-text text-sm prose prose-sm prose-invert max-w-none prose-headings:text-github-purple prose-code:text-github-purple prose-a:text-github-purple"
-              dangerouslySetInnerHTML={{ __html: readme }}
-            />
+            <Suspense fallback={<div className="text-github-muted text-sm">渲染器加载中...</div>}>
+              <ReadmePreview
+                markdown={readme.raw}
+                owner={owner}
+                repo={repo}
+                defaultBranch={readme.defaultBranch}
+              />
+            </Suspense>
           ) : (
             <div className="text-github-muted text-sm">暂无 README 内容</div>
           )}

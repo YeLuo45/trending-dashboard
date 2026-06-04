@@ -134,3 +134,212 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* ============ README Markdown Styles ============ */
+/* Style markdown-rendered README content to match the dark/light theme. */
+.readme-body {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.readme-body h1,
+.readme-body h2,
+.readme-body h3,
+.readme-body h4,
+.readme-body h5,
+.readme-body h6 {
+  color: var(--color-github-purple);
+  font-weight: 700;
+  margin-top: 1.4em;
+  margin-bottom: 0.6em;
+  line-height: 1.3;
+}
+.readme-body h1 { font-size: 1.6em; border-bottom: 1px solid var(--color-github-border); padding-bottom: 0.3em; }
+.readme-body h2 { font-size: 1.35em; border-bottom: 1px solid var(--color-github-border); padding-bottom: 0.3em; }
+.readme-body h3 { font-size: 1.15em; }
+.readme-body h4 { font-size: 1em; }
+.readme-body h5 { font-size: 0.95em; }
+.readme-body h6 { font-size: 0.9em; color: var(--color-github-muted); }
+.readme-body h1:first-child,
+.readme-body h2:first-child,
+.readme-body h3:first-child {
+  margin-top: 0;
+}
+.readme-body p {
+  margin: 0.75em 0;
+  line-height: 1.65;
+}
+.readme-body a {
+  color: var(--color-github-purple);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: rgba(99, 102, 241, 0.4);
+}
+.readme-body a:hover {
+  text-decoration-color: var(--color-github-purple);
+}
+.readme-body strong {
+  color: var(--color-github-text);
+  font-weight: 700;
+}
+.readme-body em {
+  font-style: italic;
+}
+.readme-body del {
+  color: var(--color-github-muted);
+}
+.readme-body ul,
+.readme-body ol {
+  margin: 0.75em 0;
+  padding-left: 1.75em;
+}
+.readme-body ul {
+  list-style: disc;
+}
+.readme-body ol {
+  list-style: decimal;
+}
+.readme-body li {
+  margin: 0.3em 0;
+}
+.readme-body li > p {
+  margin: 0.3em 0;
+}
+.readme-body li::marker {
+  color: var(--color-github-muted);
+}
+/* Nested list markers */
+.readme-body ul ul { list-style: circle; }
+.readme-body ul ul ul { list-style: square; }
+.readme-body blockquote {
+  margin: 1em 0;
+  padding: 0.4em 1em;
+  border-left: 3px solid var(--color-github-purple);
+  background: rgba(99, 102, 241, 0.05);
+  color: var(--color-github-muted);
+  border-radius: 0 4px 4px 0;
+}
+.readme-body blockquote > p {
+  margin: 0.4em 0;
+}
+.readme-body code {
+  background: rgba(99, 102, 241, 0.12);
+  color: var(--color-github-purple);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.9em;
+}
+.readme-body pre {
+  background: rgba(9, 9, 11, 0.6);
+  border: 1px solid var(--color-github-border);
+  border-radius: 6px;
+  padding: 0.9em 1.1em;
+  margin: 1em 0;
+  overflow-x: auto;
+  font-size: 0.88em;
+  line-height: 1.5;
+}
+.light .readme-body pre {
+  background: rgba(249, 249, 251, 0.9);
+}
+.readme-body pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  font-size: inherit;
+}
+.readme-body table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+  font-size: 0.9em;
+  display: block;
+  overflow-x: auto;
+}
+.readme-body th,
+.readme-body td {
+  border: 1px solid var(--color-github-border);
+  padding: 0.5em 0.8em;
+  text-align: left;
+}
+.readme-body th {
+  background: rgba(99, 102, 241, 0.08);
+  color: var(--color-github-text);
+  font-weight: 600;
+}
+.readme-body tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.02);
+}
+.light .readme-body tr:nth-child(even) td {
+  background: rgba(0, 0, 0, 0.02);
+}
+.readme-body hr {
+  border: 0;
+  border-top: 1px solid var(--color-github-border);
+  margin: 1.5em 0;
+}
+.readme-body kbd {
+  background: var(--color-github-card);
+  border: 1px solid var(--color-github-border);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85em;
+  color: var(--color-github-text);
+}
+.readme-body details {
+  border: 1px solid var(--color-github-border);
+  border-radius: 6px;
+  padding: 0.5em 0.9em;
+  margin: 1em 0;
+  background: rgba(255, 255, 255, 0.02);
+}
+.readme-body summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-github-text);
+  padding: 0.2em 0;
+}
+.readme-body mark {
+  background: rgba(245, 158, 11, 0.2);
+  color: var(--color-github-orange);
+  padding: 0.05em 0.3em;
+  border-radius: 3px;
+}
+
+/* highlight.js token colors (dark theme) - GitHub Dark inspired */
+.readme-body .hljs { color: #c9d1d9; background: transparent; }
+.readme-body .hljs-comment, .readme-body .hljs-quote { color: #8b949e; font-style: italic; }
+.readme-body .hljs-keyword, .readme-body .hljs-selector-tag, .readme-body .hljs-literal,
+.readme-body .hljs-section, .readme-body .hljs-link { color: #ff7b72; }
+.readme-body .hljs-function .hljs-keyword { color: #ff7b72; }
+.readme-body .hljs-subst { color: #c9d1d9; }
+.readme-body .hljs-string, .readme-body .hljs-attr { color: #a5d6ff; }
+.readme-body .hljs-symbol, .readme-body .hljs-bullet, .readme-body .hljs-meta { color: #79c0ff; }
+.readme-body .hljs-number { color: #79c0ff; }
+.readme-body .hljs-built_in, .readme-body .hljs-builtin-name { color: #ffa657; }
+.readme-body .hljs-title, .readme-body .hljs-class .hljs-title { color: #d2a8ff; }
+.readme-body .hljs-tag, .readme-body .hljs-name, .readme-body .hljs-attribute { color: #7ee787; }
+.readme-body .hljs-variable, .readme-body .hljs-template-variable, .readme-body .hljs-type { color: #ffa657; }
+.readme-body .hljs-regexp, .readme-body .hljs-deletion { color: #ffa198; }
+.readme-body .hljs-addition { color: #aff5b4; }
+.readme-body .hljs-emphasis { font-style: italic; }
+.readme-body .hljs-strong { font-weight: 700; }
+.readme-body .hljs-doctag { color: #d2a8ff; }
+.readme-body .hljs-meta-keyword { color: #79c0ff; }
+.readme-body .hljs-meta-string { color: #a5d6ff; }
+
+/* highlight.js token colors (light theme) - GitHub Light inspired */
+.light .readme-body .hljs { color: #24292f; background: transparent; }
+.light .readme-body .hljs-comment, .light .readme-body .hljs-quote { color: #6e7781; font-style: italic; }
+.light .readme-body .hljs-keyword, .light .readme-body .hljs-selector-tag, .light .readme-body .hljs-literal,
+.light .readme-body .hljs-section, .light .readme-body .hljs-link { color: #cf222e; }
+.light .readme-body .hljs-string, .light .readme-body .hljs-attr { color: #0a3069; }
+.light .readme-body .hljs-symbol, .light .readme-body .hljs-bullet, .light .readme-body .hljs-meta { color: #0550ae; }
+.light .readme-body .hljs-number { color: #0550ae; }
+.light .readme-body .hljs-built_in, .light .readme-body .hljs-builtin-name { color: #953800; }
+.light .readme-body .hljs-title, .light .readme-body .hljs-class .hljs-title { color: #8250df; }
+.light .readme-body .hljs-tag, .light .readme-body .hljs-name, .light .readme-body .hljs-attribute { color: #116329; }
+.light .readme-body .hljs-variable, .light .readme-body .hljs-template-variable, .light .readme-body .hljs-type { color: #953800; }
