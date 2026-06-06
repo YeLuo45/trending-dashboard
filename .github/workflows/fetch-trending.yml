@@ -80,13 +80,9 @@ jobs:
                   repo_link = 'https://github.com/' + name
                   desc_el = art.select_one('p')
                   description = desc_el.get_text(strip=True) if desc_el else ''
-                  language = ''
-                  for span in art.select('span'):
-                      t = span.get_text(strip=True)
-                      if t and t not in ('Star',) and len(t) > 0 and len(t) < 20 and not t.startswith('/') and not t[0].isdigit():
-                          if '/' not in t and not t[0].isdigit():
-                              language = t
-                              break
+                  # ✅ 精确选择 itemprop="programmingLanguage" 的 span
+                  lang_el = art.select_one('[itemprop="programmingLanguage"]')
+                  language = lang_el.get_text(strip=True) if lang_el else ''
                   star_span = art.select_one('a[href$="/stargazers"]')
                   stars_text = star_span.get_text(strip=True).replace(',', '') if star_span else '0'
                   fork_span = art.select_one('a[href$="/forks"]')
@@ -331,14 +327,6 @@ jobs:
             });
 
             console.log('Pushed data update: ' + newCommit.sha);
-
-            // Trigger deploy workflow
-            await github.rest.actions.createWorkflowDispatch({
-              owner, repo,
-              workflow_id: 'deploy.yml',
-              ref: branch,
-            });
-            console.log('Triggered deploy workflow');
 
       - name: Failure notification
         if: failure()
