@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "ggml-org /llama.cpp",
+      "link": "https://github.com/ggml-org /llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "totalStars": "115182",
+      "totalForks": "19280",
+      "growth": "+115182",
+      "growthValue": 115182,
+      "rank": 1
+    },
+    {
+      "name": "opencv /opencv",
+      "link": "https://github.com/opencv /opencv",
+      "description": "Open Source Computer Vision Library",
+      "language": "C++",
+      "totalStars": "87956",
+      "totalForks": "56593",
+      "growth": "+87956",
+      "growthValue": 87956,
+      "rank": 2
+    },
+    {
+      "name": "TapXWorld /ChinaTextbook",
+      "link": "https://github.com/TapXWorld /ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "totalStars": "72374",
+      "totalForks": "16228",
+      "growth": "+72374",
+      "growthValue": 72374,
+      "rank": 3
+    },
+    {
+      "name": "aaif-goose /goose",
+      "link": "https://github.com/aaif-goose /goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "totalStars": "47267",
+      "totalForks": "4981",
+      "growth": "+47267",
+      "growthValue": 47267,
+      "rank": 4
+    },
+    {
+      "name": "Crosstalk-Solutions /project-nomad",
+      "link": "https://github.com/Crosstalk-Solutions /project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "totalStars": "29538",
+      "totalForks": "2928",
+      "growth": "+29538",
+      "growthValue": 29538,
+      "rank": 5
+    },
+    {
+      "name": "HunxByts /GhostTrack",
+      "link": "https://github.com/HunxByts /GhostTrack",
+      "description": "Useful tool to track location or mobile number",
+      "language": "Python",
+      "totalStars": "13628",
+      "totalForks": "1827",
+      "growth": "+13628",
+      "growthValue": 13628,
+      "rank": 6
+    },
+    {
+      "name": "refactoringhq /tolaria",
+      "link": "https://github.com/refactoringhq /tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "language": "TypeScript",
+      "totalStars": "12704",
+      "totalForks": "900",
+      "growth": "+12704",
+      "growthValue": 12704,
+      "rank": 7
+    },
+    {
+      "name": "RyanCodrai /turbovec",
+      "link": "https://github.com/RyanCodrai /turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Python",
+      "totalStars": "6606",
+      "totalForks": "652",
+      "growth": "+6606",
+      "growthValue": 6606,
+      "rank": 8
+    },
+    {
+      "name": "microsoft /pg_durable",
+      "link": "https://github.com/microsoft /pg_durable",
+      "description": "PostgreSQL in-database durable execution",
+      "language": "Rust",
+      "totalStars": "1344",
+      "totalForks": "27",
+      "growth": "+1344",
+      "growthValue": 1344,
+      "rank": 9
+    },
+    {
       "name": "mvanhorn /last30days-skill",
       "link": "https://github.com/mvanhorn /last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "totalStars": "29438",
-      "totalForks": "2496",
-      "growth": "+708",
-      "growthValue": 708,
-      "rank": 1
-    },
-    {
-      "name": "Panniantong /Agent-Reach",
-      "link": "https://github.com/Panniantong /Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "totalStars": "22862",
-      "totalForks": "1938",
-      "growth": "+605",
-      "growthValue": 605,
-      "rank": 2
-    },
-    {
-      "name": "santifer /career-ops",
-      "link": "https://github.com/santifer /career-ops",
-      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-      "language": "JavaScript",
-      "totalStars": "49686",
-      "totalForks": "10242",
-      "growth": "+421",
-      "growthValue": 421,
-      "rank": 3
-    },
-    {
-      "name": "obra /superpowers",
-      "link": "https://github.com/obra /superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "220028",
-      "totalForks": "19575",
-      "growth": "+420",
-      "growthValue": 420,
-      "rank": 4
-    },
-    {
-      "name": "CopilotKit /CopilotKit",
-      "link": "https://github.com/CopilotKit /CopilotKit",
-      "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
-      "language": "TypeScript",
-      "totalStars": "33513",
-      "totalForks": "4263",
-      "growth": "+347",
-      "growthValue": 347,
-      "rank": 5
-    },
-    {
-      "name": "lfnovo /open-notebook",
-      "link": "https://github.com/lfnovo /open-notebook",
-      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
-      "language": "TypeScript",
-      "totalStars": "26855",
-      "totalForks": "3057",
-      "growth": "+289",
-      "growthValue": 289,
-      "rank": 6
-    },
-    {
-      "name": "MemPalace /mempalace",
-      "link": "https://github.com/MemPalace /mempalace",
-      "description": "The best-benchmarked open-source AI memory system. And it's free.",
-      "language": "Python",
-      "totalStars": "54523",
-      "totalForks": "7127",
-      "growth": "+282",
-      "growthValue": 282,
-      "rank": 7
-    },
-    {
-      "name": "PaddlePaddle /PaddleOCR",
-      "link": "https://github.com/PaddlePaddle /PaddleOCR",
-      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-      "language": "Python",
-      "totalStars": "81159",
-      "totalForks": "10671",
-      "growth": "+228",
-      "growthValue": 228,
-      "rank": 8
-    },
-    {
-      "name": "danielmiessler /Personal_AI_Infrastructure",
-      "link": "https://github.com/danielmiessler /Personal_AI_Infrastructure",
-      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
-      "language": "TypeScript",
-      "totalStars": "15146",
-      "totalForks": "2135",
-      "growth": "+220",
-      "growthValue": 220,
-      "rank": 9
-    },
-    {
-      "name": "openai /whisper",
-      "link": "https://github.com/openai /whisper",
-      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
-      "language": "Python",
-      "totalStars": "101997",
-      "totalForks": "12450",
-      "growth": "+174",
-      "growthValue": 174,
+      "totalStars": "30073",
+      "totalForks": "2528",
+      "growth": "+1343",
+      "growthValue": 1343,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-07 11:11"
+  "lastUpdated": "2026-06-07 16:20"
 }
