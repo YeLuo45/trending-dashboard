@@ -1,25 +1,25 @@
 {
   "projects": [
     {
+      "name": "Egonex-AI /Understand-Anything",
+      "link": "https://github.com/Egonex-AI /Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "totalStars": "55099",
+      "totalForks": "4551",
+      "growth": "+55099",
+      "growthValue": 55099,
+      "rank": 1
+    },
+    {
       "name": "colbymchenry /codegraph",
       "link": "https://github.com/colbymchenry /codegraph",
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "totalStars": "44605",
-      "totalForks": "2746",
-      "growth": "+39824",
-      "growthValue": 39824,
-      "rank": 1
-    },
-    {
-      "name": "Lum1104 /Understand-Anything",
-      "link": "https://github.com/Lum1104 /Understand-Anything",
-      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "language": "TypeScript",
-      "totalStars": "54953",
-      "totalForks": "4534",
-      "growth": "+38423",
-      "growthValue": 38423,
+      "totalStars": "44740",
+      "totalForks": "2755",
+      "growth": "+39959",
+      "growthValue": 39959,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/mattpocock /skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "totalStars": "121127",
-      "totalForks": "10618",
-      "growth": "+29425",
-      "growthValue": 29425,
+      "totalStars": "121415",
+      "totalForks": "10637",
+      "growth": "+29713",
+      "growthValue": 29713,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/rohitg00 /ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "totalStars": "30171",
-      "totalForks": "4922",
-      "growth": "+20706",
-      "growthValue": 20706,
+      "totalStars": "30279",
+      "totalForks": "4938",
+      "growth": "+20814",
+      "growthValue": 20814,
       "rank": 4
     },
     {
@@ -49,10 +49,10 @@
       "link": "https://github.com/microsoft /markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "totalStars": "148057",
-      "totalForks": "10156",
-      "growth": "+20418",
-      "growthValue": 20418,
+      "totalStars": "148250",
+      "totalForks": "10172",
+      "growth": "+20611",
+      "growthValue": 20611,
       "rank": 5
     },
     {
@@ -60,10 +60,10 @@
       "link": "https://github.com/harry0703 /MoneyPrinterTurbo",
       "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "totalStars": "81782",
-      "totalForks": "11647",
-      "growth": "+20024",
-      "growthValue": 20024,
+      "totalStars": "81966",
+      "totalForks": "11681",
+      "growth": "+20208",
+      "growthValue": 20208,
       "rank": 6
     },
     {
@@ -71,32 +71,32 @@
       "link": "https://github.com/Imbad0202 /academic-research-skills",
       "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "language": "Python",
-      "totalStars": "28847",
+      "totalStars": "28944",
       "totalForks": "2395",
-      "growth": "+17304",
-      "growthValue": 17304,
+      "growth": "+17401",
+      "growthValue": 17401,
       "rank": 7
-    },
-    {
-      "name": "ruvnet /RuView",
-      "link": "https://github.com/ruvnet /RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "language": "Rust",
-      "totalStars": "71861",
-      "totalForks": "9579",
-      "growth": "+12019",
-      "growthValue": 12019,
-      "rank": 8
     },
     {
       "name": "chopratejas /headroom",
       "link": "https://github.com/chopratejas /headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "totalStars": "17732",
-      "totalForks": "1133",
-      "growth": "+11487",
-      "growthValue": 11487,
+      "totalStars": "18393",
+      "totalForks": "1170",
+      "growth": "+12148",
+      "growthValue": 12148,
+      "rank": 8
+    },
+    {
+      "name": "ruvnet /RuView",
+      "link": "https://github.com/ruvnet /RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "totalStars": "71956",
+      "totalForks": "9600",
+      "growth": "+12114",
+      "growthValue": 12114,
       "rank": 9
     },
     {
@@ -104,10 +104,10 @@
       "link": "https://github.com/CloakHQ /CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "totalStars": "24847",
-      "totalForks": "1979",
-      "growth": "+9747",
-      "growthValue": 9747,
+      "totalStars": "24891",
+      "totalForks": "1983",
+      "growth": "+9791",
+      "growthValue": 9791,
       "rank": 10
     },
     {
@@ -115,10 +115,10 @@
       "link": "https://github.com/rohitg00 /agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "totalStars": "21852",
-      "totalForks": "1798",
-      "growth": "+9133",
-      "growthValue": 9133,
+      "totalStars": "21897",
+      "totalForks": "1803",
+      "growth": "+9178",
+      "growthValue": 9178,
       "rank": 11
     },
     {
@@ -126,10 +126,10 @@
       "link": "https://github.com/can1357 /oh-my-pi",
       "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
       "language": "TypeScript",
-      "totalStars": "11198",
-      "totalForks": "949",
-      "growth": "+5829",
-      "growthValue": 5829,
+      "totalStars": "11252",
+      "totalForks": "951",
+      "growth": "+5883",
+      "growthValue": 5883,
       "rank": 12
     },
     {
@@ -137,10 +137,10 @@
       "link": "https://github.com/anthropics /financial-services",
       "description": "",
       "language": "Python",
-      "totalStars": "30483",
-      "totalForks": "4305",
-      "growth": "+5178",
-      "growthValue": 5178,
+      "totalStars": "30505",
+      "totalForks": "4308",
+      "growth": "+5200",
+      "growthValue": 5200,
       "rank": 13
     },
     {
@@ -148,10 +148,10 @@
       "link": "https://github.com/yikart /AiToEarn",
       "description": "Let's use AI to Earn!",
       "language": "TypeScript",
-      "totalStars": "19287",
-      "totalForks": "2963",
-      "growth": "+4110",
-      "growthValue": 4110,
+      "totalStars": "19387",
+      "totalForks": "2978",
+      "growth": "+4210",
+      "growthValue": 4210,
       "rank": 14
     },
     {
@@ -159,10 +159,10 @@
       "link": "https://github.com/HKUDS /ViMax",
       "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
       "language": "Python",
-      "totalStars": "9083",
-      "totalForks": "1375",
-      "growth": "+3714",
-      "growthValue": 3714,
+      "totalStars": "9101",
+      "totalForks": "1376",
+      "growth": "+3732",
+      "growthValue": 3732,
       "rank": 15
     },
     {
@@ -170,10 +170,10 @@
       "link": "https://github.com/millionco /react-doctor",
       "description": "Your agent writes bad React. This catches it",
       "language": "TypeScript",
-      "totalStars": "12404",
+      "totalStars": "12419",
       "totalForks": "396",
-      "growth": "+2245",
-      "growthValue": 2245,
+      "growth": "+2260",
+      "growthValue": 2260,
       "rank": 16
     },
     {
@@ -181,10 +181,10 @@
       "link": "https://github.com/fathah /hermes-desktop",
       "description": "Desktop Companion for Hermes Agent",
       "language": "TypeScript",
-      "totalStars": "11131",
-      "totalForks": "1287",
-      "growth": "+1733",
-      "growthValue": 1733,
+      "totalStars": "11190",
+      "totalForks": "1291",
+      "growth": "+1792",
+      "growthValue": 1792,
       "rank": 17
     },
     {
@@ -192,12 +192,12 @@
       "link": "https://github.com/oven-sh /bun",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "language": "Rust",
-      "totalStars": "92938",
-      "totalForks": "4707",
-      "growth": "+1010",
-      "growthValue": 1010,
+      "totalStars": "92950",
+      "totalForks": "4708",
+      "growth": "+1022",
+      "growthValue": 1022,
       "rank": 18
     }
   ],
-  "lastUpdated": "2026-06-08 13:10"
+  "lastUpdated": "2026-06-08 17:57"
 }
