@@ -1,102 +1,102 @@
 {
   "projects": [
     {
+      "name": "x1xhlol /system-prompts-and-models-of-ai-tools",
+      "link": "https://github.com/x1xhlol /system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "language": "",
+      "totalStars": "139003",
+      "totalForks": "34544",
+      "growth": "+139003",
+      "growthValue": 139003,
+      "rank": 1
+    },
+    {
+      "name": "addyosmani /agent-skills",
+      "link": "https://github.com/addyosmani /agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "totalStars": "49498",
+      "totalForks": "5528",
+      "growth": "+49498",
+      "growthValue": 49498,
+      "rank": 2
+    },
+    {
+      "name": "francescopace /espectre",
+      "link": "https://github.com/francescopace /espectre",
+      "description": "🛜 ESPectre 👻 - Motion detection system based on Wi-Fi spectre analysis (CSI), with Home Assistant integration.",
+      "language": "Python",
+      "totalStars": "7994",
+      "totalForks": "624",
+      "growth": "+7994",
+      "growthValue": 7994,
+      "rank": 3
+    },
+    {
       "name": "mvanhorn /last30days-skill",
       "link": "https://github.com/mvanhorn /last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "totalStars": "35387",
-      "totalForks": "2890",
-      "growth": "+1020",
-      "growthValue": 1020,
-      "rank": 1
+      "totalStars": "36125",
+      "totalForks": "2944",
+      "growth": "+1758",
+      "growthValue": 1758,
+      "rank": 4
     },
     {
-      "name": "Panniantong /Agent-Reach",
-      "link": "https://github.com/Panniantong /Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "name": "maziyarpanahi /openmed",
+      "link": "https://github.com/maziyarpanahi /openmed",
+      "description": "open-source healthcare ai",
       "language": "Python",
-      "totalStars": "24675",
-      "totalForks": "2057",
-      "growth": "+647",
-      "growthValue": 647,
-      "rank": 2
+      "totalStars": "1572",
+      "totalForks": "195",
+      "growth": "+1572",
+      "growthValue": 1572,
+      "rank": 5
     },
     {
       "name": "RyanCodrai /turbovec",
       "link": "https://github.com/RyanCodrai /turbovec",
       "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
       "language": "Python",
-      "totalStars": "9338",
-      "totalForks": "829",
-      "growth": "+586",
-      "growthValue": 586,
-      "rank": 3
+      "totalStars": "9736",
+      "totalForks": "841",
+      "growth": "+984",
+      "growthValue": 984,
+      "rank": 6
     },
     {
       "name": "santifer /career-ops",
       "link": "https://github.com/santifer /career-ops",
       "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
       "language": "JavaScript",
-      "totalStars": "50824",
-      "totalForks": "10357",
-      "growth": "+373",
-      "growthValue": 373,
-      "rank": 4
+      "totalStars": "51087",
+      "totalForks": "10372",
+      "growth": "+636",
+      "growthValue": 636,
+      "rank": 7
     },
     {
       "name": "phuryn /pm-skills",
       "link": "https://github.com/phuryn /pm-skills",
       "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "language": "",
-      "totalStars": "12945",
-      "totalForks": "1507",
-      "growth": "+334",
-      "growthValue": 334,
-      "rank": 5
-    },
-    {
-      "name": "google /skills",
-      "link": "https://github.com/google /skills",
-      "description": "Agent Skills for Google products and technologies",
-      "language": "Python",
-      "totalStars": "12641",
-      "totalForks": "980",
-      "growth": "+290",
-      "growthValue": 290,
-      "rank": 6
+      "totalStars": "13151",
+      "totalForks": "1511",
+      "growth": "+540",
+      "growthValue": 540,
+      "rank": 8
     },
     {
       "name": "refactoringhq /tolaria",
       "link": "https://github.com/refactoringhq /tolaria",
       "description": "Desktop app to manage markdown knowledge bases",
       "language": "TypeScript",
-      "totalStars": "13807",
-      "totalForks": "969",
-      "growth": "+274",
-      "growthValue": 274,
-      "rank": 7
-    },
-    {
-      "name": "luongnv89 /claude-howto",
-      "link": "https://github.com/luongnv89 /claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "totalStars": "35975",
-      "totalForks": "4360",
-      "growth": "+241",
-      "growthValue": 241,
-      "rank": 8
-    },
-    {
-      "name": "Andyyyy64 /whichllm",
-      "link": "https://github.com/Andyyyy64 /whichllm",
-      "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
-      "language": "Python",
-      "totalStars": "3645",
-      "totalForks": "208",
-      "growth": "+231",
-      "growthValue": 231,
+      "totalStars": "14037",
+      "totalForks": "975",
+      "growth": "+504",
+      "growthValue": 504,
       "rank": 9
     },
     {
@@ -104,12 +104,12 @@
       "link": "https://github.com/TapXWorld /ChinaTextbook",
       "description": "所有小初高、大学PDF教材。",
       "language": "Roff",
-      "totalStars": "73169",
-      "totalForks": "16380",
-      "growth": "+214",
-      "growthValue": 214,
+      "totalStars": "73345",
+      "totalForks": "16422",
+      "growth": "+390",
+      "growthValue": 390,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-09 06:52"
+  "lastUpdated": "2026-06-09 12:07"
 }
