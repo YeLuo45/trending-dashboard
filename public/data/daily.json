@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "obra /superpowers",
+      "link": "https://github.com/obra /superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "223089",
+      "totalForks": "19837",
+      "growth": "+223089",
+      "growthValue": 223089,
+      "rank": 1
+    },
+    {
+      "name": "soxoj /maigret",
+      "link": "https://github.com/soxoj /maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "totalStars": "31698",
+      "totalForks": "2309",
+      "growth": "+31698",
+      "growthValue": 31698,
+      "rank": 2
+    },
+    {
+      "name": "apple /container",
+      "link": "https://github.com/apple /container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "language": "Swift",
+      "totalStars": "28465",
+      "totalForks": "803",
+      "growth": "+28465",
+      "growthValue": 28465,
+      "rank": 3
+    },
+    {
+      "name": "masterking32 /MasterDnsVPN",
+      "link": "https://github.com/masterking32 /MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "totalStars": "4980",
+      "totalForks": "487",
+      "growth": "+4980",
+      "growthValue": 4980,
+      "rank": 4
+    },
+    {
+      "name": "FareedKhan-dev /train-llm-from-scratch",
+      "link": "https://github.com/FareedKhan-dev /train-llm-from-scratch",
+      "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+      "language": "Python",
+      "totalStars": "4969",
+      "totalForks": "688",
+      "growth": "+4969",
+      "growthValue": 4969,
+      "rank": 5
+    },
+    {
       "name": "mvanhorn /last30days-skill",
       "link": "https://github.com/mvanhorn /last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "totalStars": "38085",
-      "totalForks": "3074",
-      "growth": "+922",
-      "growthValue": 922,
-      "rank": 1
+      "totalStars": "38649",
+      "totalForks": "3118",
+      "growth": "+1486",
+      "growthValue": 1486,
+      "rank": 6
     },
     {
-      "name": "santifer /career-ops",
-      "link": "https://github.com/santifer /career-ops",
-      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-      "language": "JavaScript",
-      "totalStars": "52046",
-      "totalForks": "10459",
-      "growth": "+488",
-      "growthValue": 488,
-      "rank": 2
-    },
-    {
-      "name": "RyanCodrai /turbovec",
-      "link": "https://github.com/RyanCodrai /turbovec",
-      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "name": "harry0703 /MoneyPrinterTurbo",
+      "link": "https://github.com/harry0703 /MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "totalStars": "10451",
-      "totalForks": "896",
-      "growth": "+349",
-      "growthValue": 349,
-      "rank": 3
+      "totalStars": "84421",
+      "totalForks": "12049",
+      "growth": "+807",
+      "growthValue": 807,
+      "rank": 7
     },
     {
-      "name": "yikart /AiToEarn",
-      "link": "https://github.com/yikart /AiToEarn",
-      "description": "Let's use AI to Earn!",
+      "name": "activeloopai /hivemind",
+      "link": "https://github.com/activeloopai /hivemind",
+      "description": "One brain for all your agents",
       "language": "TypeScript",
-      "totalStars": "20201",
-      "totalForks": "3050",
-      "growth": "+327",
-      "growthValue": 327,
-      "rank": 4
+      "totalStars": "627",
+      "totalForks": "42",
+      "growth": "+627",
+      "growthValue": 627,
+      "rank": 8
     },
     {
       "name": "phuryn /pm-skills",
       "link": "https://github.com/phuryn /pm-skills",
       "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "language": "",
-      "totalStars": "13663",
-      "totalForks": "1563",
-      "growth": "+284",
-      "growthValue": 284,
-      "rank": 5
-    },
-    {
-      "name": "roboflow /supervision",
-      "link": "https://github.com/roboflow /supervision",
-      "description": "We write your reusable computer vision tools. 💜",
-      "language": "Python",
-      "totalStars": "43219",
-      "totalForks": "3851",
-      "growth": "+279",
-      "growthValue": 279,
-      "rank": 6
-    },
-    {
-      "name": "refactoringhq /tolaria",
-      "link": "https://github.com/refactoringhq /tolaria",
-      "description": "Desktop app to manage markdown knowledge bases",
-      "language": "TypeScript",
-      "totalStars": "14521",
-      "totalForks": "1006",
-      "growth": "+249",
-      "growthValue": 249,
-      "rank": 7
+      "totalStars": "13954",
+      "totalForks": "1579",
+      "growth": "+575",
+      "growthValue": 575,
+      "rank": 9
     },
     {
       "name": "addyosmani /agent-skills",
       "link": "https://github.com/addyosmani /agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "Shell",
-      "totalStars": "50018",
-      "totalForks": "5581",
-      "growth": "+238",
-      "growthValue": 238,
-      "rank": 8
-    },
-    {
-      "name": "TapXWorld /ChinaTextbook",
-      "link": "https://github.com/TapXWorld /ChinaTextbook",
-      "description": "所有小初高、大学PDF教材。",
-      "language": "Roff",
-      "totalStars": "73664",
-      "totalForks": "16490",
-      "growth": "+221",
-      "growthValue": 221,
-      "rank": 9
-    },
-    {
-      "name": "Andyyyy64 /whichllm",
-      "link": "https://github.com/Andyyyy64 /whichllm",
-      "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
-      "language": "Python",
-      "totalStars": "4249",
-      "totalForks": "236",
-      "growth": "+207",
-      "growthValue": 207,
+      "totalStars": "50305",
+      "totalForks": "5601",
+      "growth": "+525",
+      "growthValue": 525,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-10 07:12"
+  "lastUpdated": "2026-06-10 12:25"
 }
