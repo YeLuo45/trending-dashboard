@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "apple /container",
-      "link": "https://github.com/apple /container",
-      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
-      "language": "Swift",
-      "totalStars": "34992",
-      "totalForks": "974",
-      "growth": "+2746",
-      "growthValue": 2746,
-      "rank": 1
-    },
-    {
       "name": "addyosmani /agent-skills",
       "link": "https://github.com/addyosmani /agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "Shell",
-      "totalStars": "56701",
-      "totalForks": "6110",
-      "growth": "+2102",
-      "growthValue": 2102,
+      "totalStars": "57173",
+      "totalForks": "6174",
+      "growth": "+472",
+      "growthValue": 472,
+      "rank": 1
+    },
+    {
+      "name": "apple /container",
+      "link": "https://github.com/apple /container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "language": "Swift",
+      "totalStars": "35437",
+      "totalForks": "994",
+      "growth": "+445",
+      "growthValue": 445,
       "rank": 2
     },
     {
@@ -27,89 +27,89 @@
       "link": "https://github.com/obra /superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "225943",
-      "totalForks": "20080",
-      "growth": "+1185",
-      "growthValue": 1185,
+      "totalStars": "226247",
+      "totalForks": "20106",
+      "growth": "+304",
+      "growthValue": 304,
       "rank": 3
-    },
-    {
-      "name": "msitarzewski /agency-agents",
-      "link": "https://github.com/msitarzewski /agency-agents",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "language": "Shell",
-      "totalStars": "112347",
-      "totalForks": "18333",
-      "growth": "+863",
-      "growthValue": 863,
-      "rank": 4
     },
     {
       "name": "phuryn /pm-skills",
       "link": "https://github.com/phuryn /pm-skills",
       "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "language": "",
-      "totalStars": "16931",
-      "totalForks": "1736",
-      "growth": "+767",
-      "growthValue": 767,
-      "rank": 5
+      "totalStars": "17194",
+      "totalForks": "1763",
+      "growth": "+263",
+      "growthValue": 263,
+      "rank": 4
     },
     {
-      "name": "maziyarpanahi /openmed",
-      "link": "https://github.com/maziyarpanahi /openmed",
-      "description": "open-source healthcare ai",
-      "language": "Python",
-      "totalStars": "3172",
-      "totalForks": "303",
-      "growth": "+446",
-      "growthValue": 446,
-      "rank": 6
+      "name": "msitarzewski /agency-agents",
+      "link": "https://github.com/msitarzewski /agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "totalStars": "112575",
+      "totalForks": "18349",
+      "growth": "+228",
+      "growthValue": 228,
+      "rank": 5
     },
     {
       "name": "refactoringhq /tolaria",
       "link": "https://github.com/refactoringhq /tolaria",
       "description": "Desktop app to manage markdown knowledge bases",
       "language": "TypeScript",
-      "totalStars": "15729",
-      "totalForks": "1075",
-      "growth": "+363",
-      "growthValue": 363,
-      "rank": 7
-    },
-    {
-      "name": "mattermost /mattermost",
-      "link": "https://github.com/mattermost /mattermost",
-      "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
-      "language": "TypeScript",
-      "totalStars": "37608",
-      "totalForks": "8711",
-      "growth": "+323",
-      "growthValue": 323,
-      "rank": 8
-    },
-    {
-      "name": "masterking32 /MasterDnsVPN",
-      "link": "https://github.com/masterking32 /MasterDnsVPN",
-      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
-      "language": "Go",
-      "totalStars": "5983",
-      "totalForks": "538",
-      "growth": "+320",
-      "growthValue": 320,
-      "rank": 9
+      "totalStars": "15907",
+      "totalForks": "1084",
+      "growth": "+178",
+      "growthValue": 178,
+      "rank": 6
     },
     {
       "name": "iptv-org /iptv",
       "link": "https://github.com/iptv-org /iptv",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "language": "TypeScript",
-      "totalStars": "117998",
-      "totalForks": "6299",
-      "growth": "+102",
-      "growthValue": 102,
+      "totalStars": "118153",
+      "totalForks": "6311",
+      "growth": "+155",
+      "growthValue": 155,
+      "rank": 7
+    },
+    {
+      "name": "masterking32 /MasterDnsVPN",
+      "link": "https://github.com/masterking32 /MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "totalStars": "6092",
+      "totalForks": "545",
+      "growth": "+109",
+      "growthValue": 109,
+      "rank": 8
+    },
+    {
+      "name": "microsoft /PowerToys",
+      "link": "https://github.com/microsoft /PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C",
+      "totalStars": "134415",
+      "totalForks": "8064",
+      "growth": "+108",
+      "growthValue": 108,
+      "rank": 9
+    },
+    {
+      "name": "maziyarpanahi /openmed",
+      "link": "https://github.com/maziyarpanahi /openmed",
+      "description": "open-source healthcare ai",
+      "language": "Python",
+      "totalStars": "3264",
+      "totalForks": "310",
+      "growth": "+92",
+      "growthValue": 92,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-12 22:26"
+  "lastUpdated": "2026-06-13 07:01"
 }
