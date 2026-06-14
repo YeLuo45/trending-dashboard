@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "addyosmani /agent-skills",
-      "link": "https://github.com/addyosmani /agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "Shell",
-      "totalStars": "58753",
-      "totalForks": "6354",
-      "growth": "+506",
-      "growthValue": 506,
+      "name": "freeCodeCamp /freeCodeCamp",
+      "link": "https://github.com/freeCodeCamp /freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "totalStars": "446880",
+      "totalForks": "44934",
+      "growth": "+446880",
+      "growthValue": 446880,
       "rank": 1
+    },
+    {
+      "name": "puppeteer /puppeteer",
+      "link": "https://github.com/puppeteer /puppeteer",
+      "description": "JavaScript API for Chrome and Firefox",
+      "language": "TypeScript",
+      "totalStars": "94558",
+      "totalForks": "9434",
+      "growth": "+94558",
+      "growthValue": 94558,
+      "rank": 2
+    },
+    {
+      "name": "cypress-io /cypress",
+      "link": "https://github.com/cypress-io /cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "language": "TypeScript",
+      "totalStars": "49759",
+      "totalForks": "3411",
+      "growth": "+49759",
+      "growthValue": 49759,
+      "rank": 3
+    },
+    {
+      "name": "GorvGoyl /Clone-Wars",
+      "link": "https://github.com/GorvGoyl /Clone-Wars",
+      "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
+      "language": "",
+      "totalStars": "35059",
+      "totalForks": "3163",
+      "growth": "+35059",
+      "growthValue": 35059,
+      "rank": 4
+    },
+    {
+      "name": "shiyu-coder /Kronos",
+      "link": "https://github.com/shiyu-coder /Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "totalStars": "29709",
+      "totalForks": "5133",
+      "growth": "+29709",
+      "growthValue": 29709,
+      "rank": 5
+    },
+    {
+      "name": "Free-TV /IPTV",
+      "link": "https://github.com/Free-TV /IPTV",
+      "description": "M3U Playlist for free TV channels",
+      "language": "Python",
+      "totalStars": "16763",
+      "totalForks": "2535",
+      "growth": "+16763",
+      "growthValue": 16763,
+      "rank": 6
+    },
+    {
+      "name": "pytest-dev /pytest",
+      "link": "https://github.com/pytest-dev /pytest",
+      "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+      "language": "Python",
+      "totalStars": "13933",
+      "totalForks": "3172",
+      "growth": "+13933",
+      "growthValue": 13933,
+      "rank": 7
+    },
+    {
+      "name": "meshery /meshery",
+      "link": "https://github.com/meshery /meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "TypeScript",
+      "totalStars": "10284",
+      "totalForks": "3414",
+      "growth": "+10284",
+      "growthValue": 10284,
+      "rank": 8
+    },
+    {
+      "name": "Introduction-to-Autonomous-Robots /Introduction-to-Autonomous-Robots",
+      "link": "https://github.com/Introduction-to-Autonomous-Robots /Introduction-to-Autonomous-Robots",
+      "description": "Introduction to Autonomous Robots",
+      "language": "TeX",
+      "totalStars": "2440",
+      "totalForks": "578",
+      "growth": "+2440",
+      "growthValue": 2440,
+      "rank": 9
     },
     {
       "name": "iptv-org /iptv",
       "link": "https://github.com/iptv-org /iptv",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "language": "TypeScript",
-      "totalStars": "119474",
-      "totalForks": "6387",
-      "growth": "+499",
-      "growthValue": 499,
-      "rank": 2
-    },
-    {
-      "name": "obra /superpowers",
-      "link": "https://github.com/obra /superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "227206",
-      "totalForks": "20205",
-      "growth": "+337",
-      "growthValue": 337,
-      "rank": 3
-    },
-    {
-      "name": "apple /container",
-      "link": "https://github.com/apple /container",
-      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
-      "language": "Swift",
-      "totalStars": "36528",
-      "totalForks": "1043",
-      "growth": "+310",
-      "growthValue": 310,
-      "rank": 4
-    },
-    {
-      "name": "NVIDIA /SkillSpector",
-      "link": "https://github.com/NVIDIA /SkillSpector",
-      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-      "language": "Python",
-      "totalStars": "4657",
-      "totalForks": "352",
-      "growth": "+293",
-      "growthValue": 293,
-      "rank": 5
-    },
-    {
-      "name": "chatwoot /chatwoot",
-      "link": "https://github.com/chatwoot /chatwoot",
-      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
-      "language": "Ruby",
-      "totalStars": "30959",
-      "totalForks": "7560",
-      "growth": "+142",
-      "growthValue": 142,
-      "rank": 6
-    },
-    {
-      "name": "kenn-io /agentsview",
-      "link": "https://github.com/kenn-io /agentsview",
-      "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
-      "language": "Go",
-      "totalStars": "2461",
-      "totalForks": "221",
-      "growth": "+135",
-      "growthValue": 135,
-      "rank": 7
-    },
-    {
-      "name": "bannedbook /fanqiang",
-      "link": "https://github.com/bannedbook /fanqiang",
-      "description": "翻墙-科学上网",
-      "language": "Kotlin",
-      "totalStars": "47594",
-      "totalForks": "8092",
-      "growth": "+130",
-      "growthValue": 130,
-      "rank": 8
-    },
-    {
-      "name": "andrewyng /aisuite",
-      "link": "https://github.com/andrewyng /aisuite",
-      "description": "Simple, unified interface to multiple Generative AI providers",
-      "language": "Python",
-      "totalStars": "14203",
-      "totalForks": "1490",
-      "growth": "+124",
-      "growthValue": 124,
-      "rank": 9
-    },
-    {
-      "name": "LMCache /LMCache",
-      "link": "https://github.com/LMCache /LMCache",
-      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
-      "language": "Python",
-      "totalStars": "8972",
-      "totalForks": "1310",
-      "growth": "+112",
-      "growthValue": 112,
+      "totalStars": "119751",
+      "totalForks": "6403",
+      "growth": "+776",
+      "growthValue": 776,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-14 07:26"
+  "lastUpdated": "2026-06-14 11:33"
 }
