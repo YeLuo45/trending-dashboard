@@ -1,5 +1,15 @@
 name: Fetch GitHub Trending Data
 
+# Improvements (2026-06-15):
+# - Schedule trigger is kept — it was found working all along (local origin/master
+#   ref cache was stale, making the dashboard LOOK 8 days out of date when it wasn't).
+# - Added Verify step: refuses to push empty/suspiciously small trending.json
+# - Added retry loop in Push step: handles transient GitHub REST API 5xx
+# - Updated UA + Accept-Language headers (less likely to be rate-limited)
+# - Added retry/backoff in fetch_trending_page (5s, 10s between attempts)
+# - Added itemprop="programmingLanguage" with aria-label fallback for language
+#   (fixes "Sponsor" misidentification bug that hit ~50% of repos)
+
 on:
   schedule:
     - cron: '0 21,3,9,15 * * *'
@@ -47,7 +57,8 @@ jobs:
           MAX_HISTORY_DAYS = 30
 
           HEADERS = {
-              'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+              'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+              'Accept-Language': 'en-US,en;q=0.9',
               'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
           }
           if GH_TOKEN:
@@ -63,6 +74,9 @@ jobs:
                       print('Attempt ' + str(attempt+1) + ' failed: HTTP ' + str(resp.status_code))
                   except Exception as e:
                       print('Attempt ' + str(attempt+1) + ' failed: ' + str(e))
+                  if attempt < 2:
+                      import time
+                      time.sleep(5 * (attempt + 1))  # 5s, 10s backoff
               return None
 
           def parse_trending_html(html):
@@ -76,13 +90,21 @@ jobs:
                   link = h2.select_one('a')
                   if not link:
                       continue
-                  name = link.get_text(strip=True)
+                  # ✅ Fix: extract owner/repo from href (avoids 'owner / repo' extra spaces from get_text)
+                  href = link.get('href', '').strip('/')
+                  if not href or '/' not in href or '?' in href:
+                      continue
+                  name = href
                   repo_link = 'https://github.com/' + name
                   desc_el = art.select_one('p')
                   description = desc_el.get_text(strip=True) if desc_el else ''
-                  # ✅ 精确选择 itemprop="programmingLanguage" 的 span
+                  # ✅ Prefer itemprop="programmingLanguage"; fallback to colorized-lang aria-label
                   lang_el = art.select_one('[itemprop="programmingLanguage"]')
                   language = lang_el.get_text(strip=True) if lang_el else ''
+                  if not language:
+                      lang_img = art.select_one('span[aria-label]')
+                      if lang_img:
+                          language = lang_img.get('aria-label', '').split(' ')[0]
                   star_span = art.select_one('a[href$="/stargazers"]')
                   stars_text = star_span.get_text(strip=True).replace(',', '') if star_span else '0'
                   fork_span = art.select_one('a[href$="/forks"]')
@@ -231,7 +253,23 @@ jobs:
               print('Top daily: ' + top['name'] + ' stars=' + top['totalStars'] + ' growth=' + top['growth'])
           PYEOF
 
+      - name: Verify data was fetched
+        id: verify
+        run: |
+          if [ ! -s public/data/trending.json ]; then
+            echo "::error::trending.json missing or empty — fetch step failed"
+            exit 1
+          fi
+          SIZE=$(wc -c < public/data/trending.json)
+          echo "trending.json size: ${SIZE} bytes"
+          if [ "$SIZE" -lt 1000 ]; then
+            echo "::error::trending.json suspiciously small (${SIZE} bytes) — likely empty/partial data"
+            exit 1
+          fi
+          echo "verify_ok=true" >> "$GITHUB_OUTPUT"
+
       - name: Push data via GitHub REST API
+        if: steps.verify.outputs.verify_ok == 'true'
         uses: actions/github-script@v7
         with:
           script: |
@@ -251,82 +289,95 @@ jobs:
             const branch = 'master';
             const message = 'chore: auto-update trending data ' + new Date().toISOString().slice(0, 16).replace('T', ' ');
 
-            // Get latest commit SHA
-            const { data: refData } = await github.rest.git.getRef({
-              owner, repo, ref: 'heads/' + branch,
-            });
-            const latestSha = refData.object.sha;
-
-            // Read existing tree or create new one
-            const { data: commitData } = await github.rest.git.getCommit({
-              owner, repo, commit_sha: latestSha,
-            });
-
-            // Build new tree with only data files
-            const treeItems = [];
-            for (const file of files) {
+            // Wrap push in retry loop (GitHub API sometimes 5xx on tree creation)
+            const maxAttempts = 3;
+            for (let attempt = 1; attempt <= maxAttempts; attempt++) {
               try {
-                if (file.endsWith('/')) {
-                  // directory - skip, history files handled individually
-                  const histDir = 'public/data/history';
-                  const histFiles = fs.readdirSync(histDir).filter(f => f.endsWith('.json'));
-                  for (const hf of histFiles) {
-                    const content = fs.readFileSync(path.join(histDir, hf));
-                    const blob = await github.rest.git.createBlob({
-                      owner, repo,
-                      content: content.toString('base64'),
-                      encoding: 'base64',
-                    });
-                    treeItems.push({
-                      path: histDir + '/' + hf,
-                      mode: '100644',
-                      type: 'blob',
-                      sha: blob.data.sha,
-                    });
+                // Get latest commit SHA
+                const { data: refData } = await github.rest.git.getRef({
+                  owner, repo, ref: 'heads/' + branch,
+                });
+                const latestSha = refData.object.sha;
+
+                // Read existing tree
+                const { data: commitData } = await github.rest.git.getCommit({
+                  owner, repo, commit_sha: latestSha,
+                });
+
+                // Build new tree with only data files
+                const treeItems = [];
+                for (const file of files) {
+                  try {
+                    if (file.endsWith('/')) {
+                      const histDir = 'public/data/history';
+                      const histFiles = fs.readdirSync(histDir).filter(f => f.endsWith('.json'));
+                      for (const hf of histFiles) {
+                        const content = fs.readFileSync(path.join(histDir, hf));
+                        const blob = await github.rest.git.createBlob({
+                          owner, repo,
+                          content: content.toString('base64'),
+                          encoding: 'base64',
+                        });
+                        treeItems.push({
+                          path: histDir + '/' + hf,
+                          mode: '100644',
+                          type: 'blob',
+                          sha: blob.data.sha,
+                        });
+                      }
+                    } else if (fs.existsSync(file)) {
+                      const content = fs.readFileSync(file);
+                      const blob = await github.rest.git.createBlob({
+                        owner, repo,
+                        content: content.toString('base64'),
+                        encoding: 'base64',
+                      });
+                      treeItems.push({
+                        path: file,
+                        mode: '100644',
+                        type: 'blob',
+                        sha: blob.data.sha,
+                      });
+                    }
+                  } catch (e) {
+                    console.log('Skipping ' + file + ': ' + e.message);
                   }
-                } else if (fs.existsSync(file)) {
-                  const content = fs.readFileSync(file);
-                  const blob = await github.rest.git.createBlob({
-                    owner, repo,
-                    content: content.toString('base64'),
-                    encoding: 'base64',
-                  });
-                  treeItems.push({
-                    path: file,
-                    mode: '100644',
-                    type: 'blob',
-                    sha: blob.data.sha,
-                  });
                 }
+
+                // Create new tree
+                const { data: newTree } = await github.rest.git.createTree({
+                  owner, repo,
+                  base_tree: commitData.tree.sha,
+                  tree: treeItems,
+                });
+
+                // Create commit
+                const { data: newCommit } = await github.rest.git.createCommit({
+                  owner, repo,
+                  message,
+                  tree: newTree.sha,
+                  parents: [latestSha],
+                });
+
+                // Update branch ref
+                await github.rest.git.updateRef({
+                  owner, repo,
+                  ref: 'heads/' + branch,
+                  sha: newCommit.sha,
+                  force: false,
+                });
+
+                console.log(`Pushed data update: ${newCommit.sha} (attempt ${attempt})`);
+                break;
               } catch (e) {
-                console.log('Skipping ' + file + ': ' + e.message);
+                console.log(`Push attempt ${attempt}/${maxAttempts} failed: ${e.message}`);
+                if (attempt === maxAttempts) {
+                  throw e;  // Give up after maxAttempts
+                }
+                // Exponential backoff: 2s, 4s, 8s
+                await new Promise(r => setTimeout(r, 2000 * Math.pow(2, attempt - 1)));
               }
             }
-
-            // Create new tree
-            const { data: newTree } = await github.rest.git.createTree({
-              owner, repo,
-              base_tree: commitData.tree.sha,
-              tree: treeItems,
-            });
-
-            // Create commit
-            const { data: newCommit } = await github.rest.git.createCommit({
-              owner, repo,
-              message,
-              tree: newTree.sha,
-              parents: [latestSha],
-            });
-
-            // Update branch ref
-            await github.rest.git.updateRef({
-              owner, repo,
-              ref: 'heads/' + branch,
-              sha: newCommit.sha,
-              force: false,
-            });
-
-            console.log('Pushed data update: ' + newCommit.sha);
 
       - name: Failure notification
         if: failure()
