@@ -2,11 +2,25 @@
 # trending-dashboard data update + push to master
 # Cron script (no_agent=True) for hybrid pipeline.
 #
-# This replaces the GitHub Actions `fetch-trending.yml` schedule that died on 2026-06-06.
-# Primary path: this script fetches trending data and pushes master directly.
-# Fallback: the .github/workflows/fetch-trending.yml still exists for manual dispatch.
+# Primary path: GitHub Actions `fetch-trending.yml` schedule (every 6h UTC).
+# Fallback path: this script runs every 6h local time, with a 30-min offset.
+#
+# Staleness gate (added 2026-06-15):
+# - Step 0 checks if origin/master has a commit within HEALTHY_HOURS (= 6).
+# - If healthy → exit 0 immediately (don't fight the Actions pipeline).
+# - If stale → proceed to fetch + push, taking over as emergency fallback.
+#
+# This dual-cron pattern means:
+# - Normal: Actions cron does the work; local cron sleeps (no-op).
+# - Failure: Actions cron dies; local cron detects staleness and recovers.
+# - Manual: `bash scripts/update_and_push.sh --force` skips staleness gate.
 
 set -e
+
+FORCE=0
+if [ "${1:-}" = "--force" ]; then
+    FORCE=1
+fi
 
 PROJECT_DIR="/home/hermes/projects/trending-dashboard"
 DATA_DIR="${PROJECT_DIR}/public/data"
@@ -14,28 +28,52 @@ HISTORY_DIR="${DATA_DIR}/history"
 SCRIPT="${PROJECT_DIR}/scripts/fetch_trending_local.py"
 LOG_DIR="/home/hermes/.hermes/cron/output/trending-dashboard-push"
 LOG_FILE="${LOG_DIR}/$(date +%Y-%m-%d_%H%M%S).log"
+HEALTHY_HOURS=6  # origin/master last commit must be within this window
 
 mkdir -p "${LOG_DIR}"
 exec > >(tee -a "${LOG_FILE}") 2>&1
 
 echo "=== trending-dashboard-push started at $(date -Iseconds) ==="
 echo "Project: ${PROJECT_DIR}"
+echo "Force mode: ${FORCE}"
 
 cd "${PROJECT_DIR}"
 
-# 1. Pull latest master (avoid "behind remote" on push)
-echo "--- Step 1: git fetch + pull ---"
-if git fetch origin master 2>&1 | tail -5; then
-    BEHIND=$(git rev-list --count HEAD..origin/master 2>/dev/null || echo 0)
-    echo "Local is ${BEHIND} commits behind origin/master"
-    if [ "${BEHIND:-0}" -gt 0 ]; then
-        echo "Pulling latest master..."
-        git pull --rebase --autostash origin master 2>&1 | tail -10 || {
-            echo "::warn:: git pull failed (may be due to WSL network). Continuing with local state."
-        }
+# Step 0: Staleness gate (skip if Actions pipeline is healthy)
+echo "--- Step 0: staleness gate ---"
+if git fetch origin master 2>&1 | tail -3; then
+    LAST_COMMIT_TS=$(git log -1 --format=%ct origin/master 2>/dev/null || echo 0)
+    NOW_TS=$(date +%s)
+    if [ "${LAST_COMMIT_TS}" -gt 0 ]; then
+        HOURS_SINCE=$(( (NOW_TS - LAST_COMMIT_TS) / 3600 ))
+        LAST_SHA=$(git rev-parse --short origin/master)
+        LAST_MSG=$(git log -1 --format=%s origin/master)
+        echo "Latest origin/master: ${LAST_SHA} — \"${LAST_MSG}\" — ${HOURS_SINCE}h ago"
+
+        if [ "${FORCE}" -eq 0 ] && [ "${HOURS_SINCE}" -lt "${HEALTHY_HOURS}" ]; then
+            echo "✓ Pipeline healthy (<${HEALTHY_HOURS}h). Skipping (Actions cron is doing its job)."
+            echo "  (use --force to bypass this gate)"
+            exit 0
+        fi
+
+        if [ "${FORCE}" -eq 0 ]; then
+            echo "::warn:: Pipeline STALE (${HOURS_SINCE}h > ${HEALTHY_HOURS}h threshold). Taking over..."
+        fi
+    else
+        echo "::warn:: Could not read origin/master timestamp — proceeding with fetch"
     fi
 else
-    echo "::warn:: git fetch failed (network issue). Will push local state directly."
+    echo "::warn:: git fetch failed (network issue). Proceeding with local state."
+fi
+
+# 1. Sync local master with origin
+echo "--- Step 1: sync with origin/master ---"
+BEHIND=$(git rev-list --count HEAD..origin/master 2>/dev/null || echo 0)
+echo "Local is ${BEHIND} commits behind origin/master"
+if [ "${BEHIND:-0}" -gt 0 ]; then
+    git pull --rebase --autostash origin master 2>&1 | tail -10 || {
+        echo "::warn:: git pull failed. Continuing with local state."
+    }
 fi
 
 # 2. Run fetch script
