@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "mattpocock/skills",
+      "link": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "133190",
+      "totalForks": "11581",
+      "growth": "+2249",
+      "growthValue": 2249,
+      "rank": 1
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "link": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "totalStars": "32952",
+      "totalForks": "2656",
+      "growth": "+970",
+      "growthValue": 970,
+      "rank": 2
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "link": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "totalStars": "449049",
+      "totalForks": "45083",
+      "growth": "+538",
+      "growthValue": 538,
+      "rank": 3
+    },
+    {
+      "name": "DeusData/codebase-memory-mcp",
+      "link": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "totalStars": "4783",
+      "totalForks": "456",
+      "growth": "+534",
+      "growthValue": 534,
+      "rank": 4
+    },
+    {
+      "name": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+      "link": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+      "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+      "language": "Rust",
+      "totalStars": "7587",
+      "totalForks": "324",
+      "growth": "+320",
+      "growthValue": 320,
+      "rank": 5
+    },
+    {
+      "name": "n0-computer/iroh",
+      "link": "https://github.com/n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "language": "Rust",
+      "totalStars": "9564",
+      "totalForks": "446",
+      "growth": "+308",
+      "growthValue": 308,
+      "rank": 6
+    },
+    {
       "name": "obra/superpowers",
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "230538",
-      "totalForks": "20501",
-      "growth": "+230538",
-      "growthValue": 230538,
-      "rank": 1
-    },
-    {
-      "name": "makeplane/plane",
-      "link": "https://github.com/makeplane/plane",
-      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-      "language": "TypeScript",
-      "totalStars": "51011",
-      "totalForks": "4545",
-      "growth": "+51011",
-      "growthValue": 51011,
-      "rank": 2
-    },
-    {
-      "name": "penpot/penpot",
-      "link": "https://github.com/penpot/penpot",
-      "description": "Penpot: The open-source design tool for design and code collaboration",
-      "language": "Clojure",
-      "totalStars": "49912",
-      "totalForks": "3225",
-      "growth": "+49912",
-      "growthValue": 49912,
-      "rank": 3
-    },
-    {
-      "name": "RocketChat/Rocket.Chat",
-      "link": "https://github.com/RocketChat/Rocket.Chat",
-      "description": "The Secure CommsOS™ for mission-critical operations",
-      "language": "TypeScript",
-      "totalStars": "45503",
-      "totalForks": "13655",
-      "growth": "+45503",
-      "growthValue": 45503,
-      "rank": 4
-    },
-    {
-      "name": "bytedance/UI-TARS-desktop",
-      "link": "https://github.com/bytedance/UI-TARS-desktop",
-      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
-      "language": "TypeScript",
-      "totalStars": "36590",
-      "totalForks": "3695",
-      "growth": "+36590",
-      "growthValue": 36590,
-      "rank": 5
-    },
-    {
-      "name": "continuedev/continue",
-      "link": "https://github.com/continuedev/continue",
-      "description": "open-source coding agent",
-      "language": "TypeScript",
-      "totalStars": "33769",
-      "totalForks": "4682",
-      "growth": "+33769",
-      "growthValue": 33769,
-      "rank": 6
-    },
-    {
-      "name": "nautechsystems/nautilus_trader",
-      "link": "https://github.com/nautechsystems/nautilus_trader",
-      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-      "language": "Rust",
-      "totalStars": "23641",
-      "totalForks": "3001",
-      "growth": "+23641",
-      "growthValue": 23641,
+      "totalStars": "230809",
+      "totalForks": "20523",
+      "growth": "+271",
+      "growthValue": 271,
       "rank": 7
+    },
+    {
+      "name": "chatwoot/chatwoot",
+      "link": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "language": "Ruby",
+      "totalStars": "32282",
+      "totalForks": "7700",
+      "growth": "+245",
+      "growthValue": 245,
+      "rank": 8
+    },
+    {
+      "name": "krahets/hello-algo",
+      "link": "https://github.com/krahets/hello-algo",
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "language": "Java",
+      "totalStars": "127406",
+      "totalForks": "15175",
+      "growth": "+207",
+      "growthValue": 207,
+      "rank": 9
     },
     {
       "name": "google-research/timesfm",
       "link": "https://github.com/google-research/timesfm",
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "language": "Python",
-      "totalStars": "21521",
-      "totalForks": "2104",
-      "growth": "+21521",
-      "growthValue": 21521,
-      "rank": 8
-    },
-    {
-      "name": "yairm210/Unciv",
-      "link": "https://github.com/yairm210/Unciv",
-      "description": "Open-source Android/Desktop remake of Civ V",
-      "language": "Kotlin",
-      "totalStars": "10564",
-      "totalForks": "1839",
-      "growth": "+10564",
-      "growthValue": 10564,
-      "rank": 9
-    },
-    {
-      "name": "calesthio/OpenMontage",
-      "link": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "totalStars": "4952",
-      "totalForks": "984",
-      "growth": "+4952",
-      "growthValue": 4952,
+      "totalStars": "21702",
+      "totalForks": "2116",
+      "growth": "+181",
+      "growthValue": 181,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-17 12:53"
+  "lastUpdated": "2026-06-17 17:50"
 }
