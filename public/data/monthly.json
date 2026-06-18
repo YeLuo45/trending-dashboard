@@ -1,168 +1,168 @@
 {
   "projects": [
     {
-      "name": "colbymchenry/codegraph",
-      "link": "https://github.com/colbymchenry/codegraph",
-      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-      "language": "TypeScript",
-      "totalStars": "51008",
-      "totalForks": "3100",
-      "growth": "+47326",
-      "growthValue": 47326,
-      "rank": 1
-    },
-    {
-      "name": "Imbad0202/academic-research-skills",
-      "link": "https://github.com/Imbad0202/academic-research-skills",
-      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-      "language": "Python",
-      "totalStars": "32457",
-      "totalForks": "2664",
-      "growth": "+22663",
-      "growthValue": 22663,
-      "rank": 2
-    },
-    {
-      "name": "ruvnet/RuView",
-      "link": "https://github.com/ruvnet/RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "language": "Rust",
-      "totalStars": "74386",
-      "totalForks": "9921",
-      "growth": "+15006",
-      "growthValue": 15006,
-      "rank": 3
-    },
-    {
       "name": "chopratejas/headroom",
       "link": "https://github.com/chopratejas/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "totalStars": "31477",
-      "totalForks": "2128",
-      "growth": "+2689",
-      "growthValue": 2689,
-      "rank": 4
+      "totalStars": "32237",
+      "totalForks": "2174",
+      "growth": "+3449",
+      "growthValue": 3449,
+      "rank": 1
     },
     {
       "name": "Egonex-AI/Understand-Anything",
       "link": "https://github.com/Egonex-AI/Understand-Anything",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
-      "totalStars": "62739",
-      "totalForks": "5169",
-      "growth": "+2269",
-      "growthValue": 2269,
-      "rank": 5
+      "totalStars": "63126",
+      "totalForks": "5206",
+      "growth": "+2656",
+      "growthValue": 2656,
+      "rank": 2
     },
     {
       "name": "iptv-org/iptv",
       "link": "https://github.com/iptv-org/iptv",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "language": "TypeScript",
-      "totalStars": "124991",
-      "totalForks": "6790",
-      "growth": "+2191",
-      "growthValue": 2191,
-      "rank": 6
+      "totalStars": "125247",
+      "totalForks": "6813",
+      "growth": "+2447",
+      "growthValue": 2447,
+      "rank": 3
     },
     {
       "name": "Leonxlnx/taste-skill",
       "link": "https://github.com/Leonxlnx/taste-skill",
       "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "language": "JavaScript",
-      "totalStars": "45935",
-      "totalForks": "3197",
-      "growth": "+1448",
-      "growthValue": 1448,
-      "rank": 7
+      "totalStars": "46231",
+      "totalForks": "3221",
+      "growth": "+1744",
+      "growthValue": 1744,
+      "rank": 4
+    },
+    {
+      "name": "colbymchenry/codegraph",
+      "link": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "totalStars": "51321",
+      "totalForks": "3120",
+      "growth": "+1677",
+      "growthValue": 1677,
+      "rank": 5
     },
     {
       "name": "mvanhorn/last30days-skill",
       "link": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "totalStars": "43957",
-      "totalForks": "3616",
-      "growth": "+1128",
-      "growthValue": 1128,
-      "rank": 8
+      "totalStars": "44149",
+      "totalForks": "3624",
+      "growth": "+1320",
+      "growthValue": 1320,
+      "rank": 6
     },
     {
       "name": "microsoft/markitdown",
       "link": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "totalStars": "155175",
-      "totalForks": "10763",
-      "growth": "+1106",
-      "growthValue": 1106,
-      "rank": 9
+      "totalStars": "155359",
+      "totalForks": "10782",
+      "growth": "+1290",
+      "growthValue": 1290,
+      "rank": 7
     },
     {
       "name": "harry0703/MoneyPrinterTurbo",
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "totalStars": "89339",
-      "totalForks": "12843",
-      "growth": "+1072",
-      "growthValue": 1072,
-      "rank": 10
+      "totalStars": "89511",
+      "totalForks": "12865",
+      "growth": "+1244",
+      "growthValue": 1244,
+      "rank": 8
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "totalStars": "34074",
-      "totalForks": "5548",
-      "growth": "+1033",
-      "growthValue": 1033,
-      "rank": 11
+      "totalStars": "34204",
+      "totalForks": "5565",
+      "growth": "+1163",
+      "growthValue": 1163,
+      "rank": 9
     },
     {
       "name": "apple/container",
       "link": "https://github.com/apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
       "language": "Swift",
-      "totalStars": "38199",
-      "totalForks": "1101",
-      "growth": "+764",
-      "growthValue": 764,
-      "rank": 12
+      "totalStars": "38370",
+      "totalForks": "1104",
+      "growth": "+935",
+      "growthValue": 935,
+      "rank": 10
+    },
+    {
+      "name": "Imbad0202/academic-research-skills",
+      "link": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "totalStars": "32567",
+      "totalForks": "2670",
+      "growth": "+838",
+      "growthValue": 838,
+      "rank": 11
     },
     {
       "name": "can1357/oh-my-pi",
       "link": "https://github.com/can1357/oh-my-pi",
       "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
       "language": "TypeScript",
-      "totalStars": "13152",
-      "totalForks": "1117",
-      "growth": "+517",
-      "growthValue": 517,
-      "rank": 13
+      "totalStars": "13253",
+      "totalForks": "1148",
+      "growth": "+618",
+      "growthValue": 618,
+      "rank": 12
     },
     {
-      "name": "ogulcancelik/herdr",
-      "link": "https://github.com/ogulcancelik/herdr",
-      "description": "agent multiplexer that lives in your terminal.",
+      "name": "ruvnet/RuView",
+      "link": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
-      "totalStars": "6130",
-      "totalForks": "364",
-      "growth": "+341",
-      "growthValue": 341,
-      "rank": 14
+      "totalStars": "74458",
+      "totalForks": "9930",
+      "growth": "+432",
+      "growthValue": 432,
+      "rank": 13
     },
     {
       "name": "hardikpandya/stop-slop",
       "link": "https://github.com/hardikpandya/stop-slop",
       "description": "A skill file for removing AI tells from prose",
       "language": "",
-      "totalStars": "11140",
-      "totalForks": "784",
-      "growth": "+339",
-      "growthValue": 339,
+      "totalStars": "11211",
+      "totalForks": "788",
+      "growth": "+410",
+      "growthValue": 410,
+      "rank": 14
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "link": "https://github.com/ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "totalStars": "6168",
+      "totalForks": "367",
+      "growth": "+379",
+      "growthValue": 379,
       "rank": 15
     },
     {
@@ -170,10 +170,10 @@
       "link": "https://github.com/rmyndharis/OpenWA",
       "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
       "language": "TypeScript",
-      "totalStars": "9323",
-      "totalForks": "2036",
-      "growth": "+267",
-      "growthValue": 267,
+      "totalStars": "9364",
+      "totalForks": "2038",
+      "growth": "+308",
+      "growthValue": 308,
       "rank": 16
     },
     {
@@ -181,10 +181,10 @@
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "21033",
-      "totalForks": "2478",
-      "growth": "+251",
-      "growthValue": 251,
+      "totalStars": "21089",
+      "totalForks": "2483",
+      "growth": "+307",
+      "growthValue": 307,
       "rank": 17
     },
     {
@@ -192,10 +192,10 @@
       "link": "https://github.com/HKUDS/ViMax",
       "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
       "language": "Python",
-      "totalStars": "10334",
-      "totalForks": "1509",
-      "growth": "+200",
-      "growthValue": 200,
+      "totalStars": "10378",
+      "totalForks": "1512",
+      "growth": "+244",
+      "growthValue": 244,
       "rank": 18
     },
     {
@@ -203,12 +203,12 @@
       "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
       "language": "Python",
-      "totalStars": "16155",
-      "totalForks": "1967",
-      "growth": "+57",
-      "growthValue": 57,
+      "totalStars": "16291",
+      "totalForks": "1977",
+      "growth": "+136",
+      "growthValue": 136,
       "rank": 19
     }
   ],
-  "lastUpdated": "2026-06-17 22:46"
+  "lastUpdated": "2026-06-18 08:11"
 }
