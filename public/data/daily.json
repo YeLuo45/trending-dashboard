@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "Kong/insomnia",
+      "link": "https://github.com/Kong/insomnia",
+      "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "language": "TypeScript",
+      "totalStars": "38519",
+      "totalForks": "2284",
+      "growth": "+38519",
+      "growthValue": 38519,
+      "rank": 1
+    },
+    {
+      "name": "dotnet/aspnetcore",
+      "link": "https://github.com/dotnet/aspnetcore",
+      "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+      "language": "C#",
+      "totalStars": "38063",
+      "totalForks": "10707",
+      "growth": "+38063",
+      "growthValue": 38063,
+      "rank": 2
+    },
+    {
+      "name": "Kilo-Org/kilocode",
+      "link": "https://github.com/Kilo-Org/kilocode",
+      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+      "language": "TypeScript",
+      "totalStars": "21430",
+      "totalForks": "2684",
+      "growth": "+21430",
+      "growthValue": 21430,
+      "rank": 3
+    },
+    {
+      "name": "LibreTranslate/LibreTranslate",
+      "link": "https://github.com/LibreTranslate/LibreTranslate",
+      "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
+      "language": "Python",
+      "totalStars": "14802",
+      "totalForks": "1525",
+      "growth": "+14802",
+      "growthValue": 14802,
+      "rank": 4
+    },
+    {
+      "name": "owainlewis/awesome-artificial-intelligence",
+      "link": "https://github.com/owainlewis/awesome-artificial-intelligence",
+      "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+      "language": "",
+      "totalStars": "14151",
+      "totalForks": "2325",
+      "growth": "+14151",
+      "growthValue": 14151,
+      "rank": 5
+    },
+    {
+      "name": "Lightricks/LTX-2",
+      "link": "https://github.com/Lightricks/LTX-2",
+      "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "language": "Python",
+      "totalStars": "7380",
+      "totalForks": "1196",
+      "growth": "+7380",
+      "growthValue": 7380,
+      "rank": 6
+    },
+    {
+      "name": "withastro/flue",
+      "link": "https://github.com/withastro/flue",
+      "description": "The sandbox agent framework.",
+      "language": "TypeScript",
+      "totalStars": "5338",
+      "totalForks": "289",
+      "growth": "+5338",
+      "growthValue": 5338,
+      "rank": 7
+    },
+    {
+      "name": "zai-org/GLM-5",
+      "link": "https://github.com/zai-org/GLM-5",
+      "description": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "language": "",
+      "totalStars": "3876",
+      "totalForks": "422",
+      "growth": "+3876",
+      "growthValue": 3876,
+      "rank": 8
+    },
+    {
       "name": "DeusData/codebase-memory-mcp",
       "link": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "totalStars": "6068",
-      "totalForks": "512",
-      "growth": "+925",
-      "growthValue": 925,
-      "rank": 1
-    },
-    {
-      "name": "mattpocock/skills",
-      "link": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "totalStars": "134328",
-      "totalForks": "11656",
-      "growth": "+888",
-      "growthValue": 888,
-      "rank": 2
-    },
-    {
-      "name": "Panniantong/Agent-Reach",
-      "link": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "totalStars": "33734",
-      "totalForks": "2702",
-      "growth": "+631",
-      "growthValue": 631,
-      "rank": 3
+      "totalStars": "6498",
+      "totalForks": "530",
+      "growth": "+1355",
+      "growthValue": 1355,
+      "rank": 9
     },
     {
       "name": "obra/superpowers",
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "231585",
-      "totalForks": "20585",
-      "growth": "+588",
-      "growthValue": 588,
-      "rank": 4
-    },
-    {
-      "name": "calesthio/OpenMontage",
-      "link": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "totalStars": "5622",
-      "totalForks": "1022",
-      "growth": "+368",
-      "growthValue": 368,
-      "rank": 5
-    },
-    {
-      "name": "google-research/timesfm",
-      "link": "https://github.com/google-research/timesfm",
-      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "language": "Python",
-      "totalStars": "22144",
-      "totalForks": "2151",
-      "growth": "+303",
-      "growthValue": 303,
-      "rank": 6
-    },
-    {
-      "name": "makeplane/plane",
-      "link": "https://github.com/makeplane/plane",
-      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-      "language": "TypeScript",
-      "totalStars": "51492",
-      "totalForks": "4579",
-      "growth": "+256",
-      "growthValue": 256,
-      "rank": 7
-    },
-    {
-      "name": "krahets/hello-algo",
-      "link": "https://github.com/krahets/hello-algo",
-      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
-      "language": "Java",
-      "totalStars": "127601",
-      "totalForks": "15182",
-      "growth": "+177",
-      "growthValue": 177,
-      "rank": 8
-    },
-    {
-      "name": "penpot/penpot",
-      "link": "https://github.com/penpot/penpot",
-      "description": "Penpot: The open-source design tool for design and code collaboration",
-      "language": "Clojure",
-      "totalStars": "50227",
-      "totalForks": "3239",
-      "growth": "+171",
-      "growthValue": 171,
-      "rank": 9
-    },
-    {
-      "name": "n0-computer/iroh",
-      "link": "https://github.com/n0-computer/iroh",
-      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
-      "language": "Rust",
-      "totalStars": "9765",
-      "totalForks": "456",
-      "growth": "+143",
-      "growthValue": 143,
+      "totalStars": "231878",
+      "totalForks": "20599",
+      "growth": "+881",
+      "growthValue": 881,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-18 08:11"
+  "lastUpdated": "2026-06-18 12:28"
 }
