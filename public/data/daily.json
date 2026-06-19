@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "koala73/worldmonitor",
+      "link": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "totalStars": "56883",
+      "totalForks": "9113",
+      "growth": "+56883",
+      "growthValue": 56883,
+      "rank": 1
+    },
+    {
+      "name": "aishwaryanr/awesome-generative-ai-guide",
+      "link": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+      "description": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
+      "language": "HTML",
+      "totalStars": "27442",
+      "totalForks": "5733",
+      "growth": "+27442",
+      "growthValue": 27442,
+      "rank": 2
+    },
+    {
+      "name": "chopratejas/headroom",
+      "link": "https://github.com/chopratejas/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "totalStars": "36718",
+      "totalForks": "2494",
+      "growth": "+2384",
+      "growthValue": 2384,
+      "rank": 3
+    },
+    {
+      "name": "palmier-io/palmier-pro",
+      "link": "https://github.com/palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "language": "Swift",
+      "totalStars": "1430",
+      "totalForks": "161",
+      "growth": "+1430",
+      "growthValue": 1430,
+      "rank": 4
+    },
+    {
+      "name": "BuilderIO/agent-native",
+      "link": "https://github.com/BuilderIO/agent-native",
+      "description": "A framework for building agent-native applications.",
+      "language": "TypeScript",
+      "totalStars": "826",
+      "totalForks": "101",
+      "growth": "+826",
+      "growthValue": 826,
+      "rank": 5
+    },
+    {
       "name": "google-research/timesfm",
       "link": "https://github.com/google-research/timesfm",
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "language": "Python",
-      "totalStars": "23682",
-      "totalForks": "2243",
-      "growth": "+604",
-      "growthValue": 604,
-      "rank": 1
-    },
-    {
-      "name": "Kilo-Org/kilocode",
-      "link": "https://github.com/Kilo-Org/kilocode",
-      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
-      "language": "TypeScript",
-      "totalStars": "22502",
-      "totalForks": "2717",
-      "growth": "+436",
-      "growthValue": 436,
-      "rank": 2
+      "totalStars": "23855",
+      "totalForks": "2253",
+      "growth": "+777",
+      "growthValue": 777,
+      "rank": 6
     },
     {
       "name": "DeusData/codebase-memory-mcp",
       "link": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "totalStars": "7398",
-      "totalForks": "581",
-      "growth": "+431",
-      "growthValue": 431,
-      "rank": 3
+      "totalStars": "7574",
+      "totalForks": "591",
+      "growth": "+607",
+      "growthValue": 607,
+      "rank": 7
     },
     {
       "name": "obra/superpowers",
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "232788",
-      "totalForks": "20671",
-      "growth": "+426",
-      "growthValue": 426,
-      "rank": 4
+      "totalStars": "232933",
+      "totalForks": "20682",
+      "growth": "+571",
+      "growthValue": 571,
+      "rank": 8
+    },
+    {
+      "name": "calesthio/OpenMontage",
+      "link": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "totalStars": "5923",
+      "totalForks": "1059",
+      "growth": "+301",
+      "growthValue": 301,
+      "rank": 9
     },
     {
       "name": "zai-org/GLM-5",
       "link": "https://github.com/zai-org/GLM-5",
       "description": "GLM-5: From Vibe Coding to Agentic Engineering",
       "language": "",
-      "totalStars": "4309",
-      "totalForks": "440",
-      "growth": "+212",
-      "growthValue": 212,
-      "rank": 5
-    },
-    {
-      "name": "alibaba/zvec",
-      "link": "https://github.com/alibaba/zvec",
-      "description": "A lightweight, lightning-fast, in-process vector database",
-      "language": "C++",
-      "totalStars": "11397",
-      "totalForks": "662",
-      "growth": "+200",
-      "growthValue": 200,
-      "rank": 6
-    },
-    {
-      "name": "owainlewis/awesome-artificial-intelligence",
-      "link": "https://github.com/owainlewis/awesome-artificial-intelligence",
-      "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
-      "language": "",
-      "totalStars": "14540",
-      "totalForks": "2345",
-      "growth": "+178",
-      "growthValue": 178,
-      "rank": 7
-    },
-    {
-      "name": "freeCodeCamp/freeCodeCamp",
-      "link": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "language": "TypeScript",
-      "totalStars": "449697",
-      "totalForks": "45149",
-      "growth": "+174",
-      "growthValue": 174,
-      "rank": 8
-    },
-    {
-      "name": "makeplane/plane",
-      "link": "https://github.com/makeplane/plane",
-      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-      "language": "TypeScript",
-      "totalStars": "51968",
-      "totalForks": "4612",
-      "growth": "+161",
-      "growthValue": 161,
-      "rank": 9
-    },
-    {
-      "name": "withastro/flue",
-      "link": "https://github.com/withastro/flue",
-      "description": "The sandbox agent framework.",
-      "language": "TypeScript",
-      "totalStars": "5605",
-      "totalForks": "309",
-      "growth": "+127",
-      "growthValue": 127,
+      "totalStars": "4361",
+      "totalForks": "445",
+      "growth": "+264",
+      "growthValue": 264,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-19 17:31"
+  "lastUpdated": "2026-06-19 12:50"
 }
