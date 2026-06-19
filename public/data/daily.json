@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "koala73/worldmonitor",
-      "link": "https://github.com/koala73/worldmonitor",
-      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "language": "TypeScript",
-      "totalStars": "56883",
-      "totalForks": "9113",
-      "growth": "+56883",
-      "growthValue": 56883,
-      "rank": 1
-    },
-    {
-      "name": "aishwaryanr/awesome-generative-ai-guide",
-      "link": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
-      "description": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
-      "language": "HTML",
-      "totalStars": "27442",
-      "totalForks": "5733",
-      "growth": "+27442",
-      "growthValue": 27442,
-      "rank": 2
-    },
-    {
       "name": "chopratejas/headroom",
       "link": "https://github.com/chopratejas/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "totalStars": "36718",
-      "totalForks": "2494",
-      "growth": "+2384",
-      "growthValue": 2384,
-      "rank": 3
-    },
-    {
-      "name": "palmier-io/palmier-pro",
-      "link": "https://github.com/palmier-io/palmier-pro",
-      "description": "macOS video editor built for AI",
-      "language": "Swift",
-      "totalStars": "1430",
-      "totalForks": "161",
-      "growth": "+1430",
-      "growthValue": 1430,
-      "rank": 4
-    },
-    {
-      "name": "BuilderIO/agent-native",
-      "link": "https://github.com/BuilderIO/agent-native",
-      "description": "A framework for building agent-native applications.",
-      "language": "TypeScript",
-      "totalStars": "826",
-      "totalForks": "101",
-      "growth": "+826",
-      "growthValue": 826,
-      "rank": 5
-    },
-    {
-      "name": "google-research/timesfm",
-      "link": "https://github.com/google-research/timesfm",
-      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "language": "Python",
-      "totalStars": "23855",
-      "totalForks": "2253",
-      "growth": "+777",
-      "growthValue": 777,
-      "rank": 6
+      "totalStars": "37672",
+      "totalForks": "2567",
+      "growth": "+3338",
+      "growthValue": 3338,
+      "rank": 1
     },
     {
       "name": "DeusData/codebase-memory-mcp",
       "link": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "totalStars": "7574",
-      "totalForks": "591",
-      "growth": "+607",
-      "growthValue": 607,
-      "rank": 7
+      "totalStars": "7901",
+      "totalForks": "607",
+      "growth": "+934",
+      "growthValue": 934,
+      "rank": 2
+    },
+    {
+      "name": "google-research/timesfm",
+      "link": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "totalStars": "23977",
+      "totalForks": "2265",
+      "growth": "+899",
+      "growthValue": 899,
+      "rank": 3
     },
     {
       "name": "obra/superpowers",
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "232933",
-      "totalForks": "20682",
-      "growth": "+571",
-      "growthValue": 571,
-      "rank": 8
+      "totalStars": "233141",
+      "totalForks": "20711",
+      "growth": "+779",
+      "growthValue": 779,
+      "rank": 4
     },
     {
       "name": "calesthio/OpenMontage",
       "link": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "totalStars": "5923",
-      "totalForks": "1059",
-      "growth": "+301",
-      "growthValue": 301,
-      "rank": 9
+      "totalStars": "6082",
+      "totalForks": "1068",
+      "growth": "+460",
+      "growthValue": 460,
+      "rank": 5
     },
     {
       "name": "zai-org/GLM-5",
       "link": "https://github.com/zai-org/GLM-5",
       "description": "GLM-5: From Vibe Coding to Agentic Engineering",
       "language": "",
-      "totalStars": "4361",
-      "totalForks": "445",
-      "growth": "+264",
-      "growthValue": 264,
+      "totalStars": "4444",
+      "totalForks": "453",
+      "growth": "+347",
+      "growthValue": 347,
+      "rank": 6
+    },
+    {
+      "name": "withastro/flue",
+      "link": "https://github.com/withastro/flue",
+      "description": "The sandbox agent framework.",
+      "language": "TypeScript",
+      "totalStars": "5750",
+      "totalForks": "316",
+      "growth": "+272",
+      "growthValue": 272,
+      "rank": 7
+    },
+    {
+      "name": "penpot/penpot",
+      "link": "https://github.com/penpot/penpot",
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "language": "Clojure",
+      "totalStars": "50475",
+      "totalForks": "3262",
+      "growth": "+248",
+      "growthValue": 248,
+      "rank": 8
+    },
+    {
+      "name": "Kong/insomnia",
+      "link": "https://github.com/Kong/insomnia",
+      "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "language": "TypeScript",
+      "totalStars": "38884",
+      "totalForks": "2297",
+      "growth": "+227",
+      "growthValue": 227,
+      "rank": 9
+    },
+    {
+      "name": "n0-computer/iroh",
+      "link": "https://github.com/n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "language": "Rust",
+      "totalStars": "10199",
+      "totalForks": "466",
+      "growth": "+205",
+      "growthValue": 205,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-19 12:50"
+  "lastUpdated": "2026-06-19 17:21"
 }
