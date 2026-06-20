@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "mattpocock/skills",
+      "link": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "137440",
+      "totalForks": "11924",
+      "growth": "+137440",
+      "growthValue": 137440,
+      "rank": 1
+    },
+    {
+      "name": "tw93/Pake",
+      "link": "https://github.com/tw93/Pake",
+      "description": "🤱🏻 Turn any webpage into a desktop app with one command.",
+      "language": "Rust",
+      "totalStars": "52989",
+      "totalForks": "10661",
+      "growth": "+52989",
+      "growthValue": 52989,
+      "rank": 2
+    },
+    {
+      "name": "twentyhq/twenty",
+      "link": "https://github.com/twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript",
+      "totalStars": "50658",
+      "totalForks": "7392",
+      "growth": "+50658",
+      "growthValue": 50658,
+      "rank": 3
+    },
+    {
+      "name": "jamiepine/voicebox",
+      "link": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "totalStars": "30739",
+      "totalForks": "3811",
+      "growth": "+30739",
+      "growthValue": 30739,
+      "rank": 4
+    },
+    {
+      "name": "pppscn/SmsForwarder",
+      "link": "https://github.com/pppscn/SmsForwarder",
+      "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
+      "language": "Kotlin",
+      "totalStars": "26393",
+      "totalForks": "3270",
+      "growth": "+26393",
+      "growthValue": 26393,
+      "rank": 5
+    },
+    {
+      "name": "tursodatabase/turso",
+      "link": "https://github.com/tursodatabase/turso",
+      "description": "Turso is an in-process SQL database, compatible with SQLite.",
+      "language": "Rust",
+      "totalStars": "19990",
+      "totalForks": "1033",
+      "growth": "+19990",
+      "growthValue": 19990,
+      "rank": 6
+    },
+    {
+      "name": "1jehuang/jcode",
+      "link": "https://github.com/1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "totalStars": "7280",
+      "totalForks": "821",
+      "growth": "+7280",
+      "growthValue": 7280,
+      "rank": 7
+    },
+    {
       "name": "chopratejas/headroom",
       "link": "https://github.com/chopratejas/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "totalStars": "39518",
-      "totalForks": "2708",
-      "growth": "+1111",
-      "growthValue": 1111,
-      "rank": 1
+      "totalStars": "40153",
+      "totalForks": "2746",
+      "growth": "+1746",
+      "growthValue": 1746,
+      "rank": 8
     },
     {
       "name": "DeusData/codebase-memory-mcp",
       "link": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "totalStars": "8545",
-      "totalForks": "652",
-      "growth": "+424",
-      "growthValue": 424,
-      "rank": 2
-    },
-    {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "233593",
-      "totalForks": "20742",
-      "growth": "+310",
-      "growthValue": 310,
-      "rank": 3
-    },
-    {
-      "name": "palmier-io/palmier-pro",
-      "link": "https://github.com/palmier-io/palmier-pro",
-      "description": "macOS video editor built for AI",
-      "language": "Swift",
-      "totalStars": "2107",
-      "totalForks": "202",
-      "growth": "+309",
-      "growthValue": 309,
-      "rank": 4
-    },
-    {
-      "name": "koala73/worldmonitor",
-      "link": "https://github.com/koala73/worldmonitor",
-      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "language": "TypeScript",
-      "totalStars": "57435",
-      "totalForks": "9151",
-      "growth": "+253",
-      "growthValue": 253,
-      "rank": 5
-    },
-    {
-      "name": "calesthio/OpenMontage",
-      "link": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "totalStars": "6452",
-      "totalForks": "1097",
-      "growth": "+231",
-      "growthValue": 231,
-      "rank": 6
-    },
-    {
-      "name": "penpot/penpot",
-      "link": "https://github.com/penpot/penpot",
-      "description": "Penpot: The open-source design tool for design and code collaboration",
-      "language": "Clojure",
-      "totalStars": "50694",
-      "totalForks": "3273",
-      "growth": "+136",
-      "growthValue": 136,
-      "rank": 7
-    },
-    {
-      "name": "google-research/timesfm",
-      "link": "https://github.com/google-research/timesfm",
-      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "language": "Python",
-      "totalStars": "24177",
-      "totalForks": "2281",
-      "growth": "+134",
-      "growthValue": 134,
-      "rank": 8
-    },
-    {
-      "name": "aishwaryanr/awesome-generative-ai-guide",
-      "link": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
-      "description": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
-      "language": "HTML",
-      "totalStars": "27713",
-      "totalForks": "5743",
-      "growth": "+127",
-      "growthValue": 127,
+      "totalStars": "8758",
+      "totalForks": "669",
+      "growth": "+637",
+      "growthValue": 637,
       "rank": 9
     },
     {
-      "name": "zai-org/GLM-5",
-      "link": "https://github.com/zai-org/GLM-5",
-      "description": "GLM-5: From Vibe Coding to Agentic Engineering",
-      "language": "",
-      "totalStars": "4661",
-      "totalForks": "468",
-      "growth": "+127",
-      "growthValue": 127,
+      "name": "Kilo-Org/kilocode",
+      "link": "https://github.com/Kilo-Org/kilocode",
+      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+      "language": "TypeScript",
+      "totalStars": "23068",
+      "totalForks": "2729",
+      "growth": "+566",
+      "growthValue": 566,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-20 07:03"
+  "lastUpdated": "2026-06-20 11:21"
 }
