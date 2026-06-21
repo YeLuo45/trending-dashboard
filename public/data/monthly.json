@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "esengine/DeepSeek-Reasonix",
-      "link": "https://github.com/esengine/DeepSeek-Reasonix",
-      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "language": "Go",
-      "totalStars": "23458",
-      "totalForks": "1416",
-      "growth": "+23458",
-      "growthValue": 23458,
-      "rank": 1
-    },
-    {
       "name": "chopratejas/headroom",
       "link": "https://github.com/chopratejas/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "totalStars": "42841",
-      "totalForks": "2957",
-      "growth": "+14053",
-      "growthValue": 14053,
+      "totalStars": "43552",
+      "totalForks": "3024",
+      "growth": "+14764",
+      "growthValue": 14764,
+      "rank": 1
+    },
+    {
+      "name": "tashfeenahmed/freellmapi",
+      "link": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "totalStars": "11277",
+      "totalForks": "1793",
+      "growth": "+11277",
+      "growthValue": 11277,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "totalStars": "36393",
-      "totalForks": "2890",
-      "growth": "+6353",
-      "growthValue": 6353,
+      "totalStars": "36647",
+      "totalForks": "2913",
+      "growth": "+6607",
+      "growthValue": 6607,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "totalStars": "9794",
-      "totalForks": "743",
-      "growth": "+4651",
-      "growthValue": 4651,
+      "totalStars": "10018",
+      "totalForks": "758",
+      "growth": "+4875",
+      "growthValue": 4875,
       "rank": 4
     },
     {
@@ -49,10 +49,10 @@
       "link": "https://github.com/Egonex-AI/Understand-Anything",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
-      "totalStars": "64950",
-      "totalForks": "5389",
-      "growth": "+4480",
-      "growthValue": 4480,
+      "totalStars": "65168",
+      "totalForks": "5409",
+      "growth": "+4698",
+      "growthValue": 4698,
       "rank": 5
     },
     {
@@ -60,10 +60,10 @@
       "link": "https://github.com/iptv-org/iptv",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "language": "TypeScript",
-      "totalStars": "126874",
-      "totalForks": "6951",
-      "growth": "+4074",
-      "growthValue": 4074,
+      "totalStars": "127011",
+      "totalForks": "6966",
+      "growth": "+4211",
+      "growthValue": 4211,
       "rank": 6
     },
     {
@@ -71,32 +71,32 @@
       "link": "https://github.com/Leonxlnx/taste-skill",
       "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "language": "JavaScript",
-      "totalStars": "48087",
-      "totalForks": "3349",
-      "growth": "+3600",
-      "growthValue": 3600,
+      "totalStars": "48254",
+      "totalForks": "3358",
+      "growth": "+3767",
+      "growthValue": 3767,
       "rank": 7
-    },
-    {
-      "name": "colbymchenry/codegraph",
-      "link": "https://github.com/colbymchenry/codegraph",
-      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-      "language": "TypeScript",
-      "totalStars": "52466",
-      "totalForks": "3194",
-      "growth": "+2822",
-      "growthValue": 2822,
-      "rank": 8
     },
     {
       "name": "microsoft/markitdown",
       "link": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "totalStars": "156825",
-      "totalForks": "10928",
-      "growth": "+2756",
-      "growthValue": 2756,
+      "totalStars": "156987",
+      "totalForks": "10942",
+      "growth": "+2918",
+      "growthValue": 2918,
+      "rank": 8
+    },
+    {
+      "name": "colbymchenry/codegraph",
+      "link": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "totalStars": "52542",
+      "totalForks": "3201",
+      "growth": "+2898",
+      "growthValue": 2898,
       "rank": 9
     },
     {
@@ -104,10 +104,10 @@
       "link": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "totalStars": "45221",
-      "totalForks": "3742",
-      "growth": "+2392",
-      "growthValue": 2392,
+      "totalStars": "45290",
+      "totalForks": "3752",
+      "growth": "+2461",
+      "growthValue": 2461,
       "rank": 10
     },
     {
@@ -115,10 +115,10 @@
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "totalStars": "90558",
-      "totalForks": "13025",
-      "growth": "+2291",
-      "growthValue": 2291,
+      "totalStars": "90700",
+      "totalForks": "13052",
+      "growth": "+2433",
+      "growthValue": 2433,
       "rank": 11
     },
     {
@@ -126,10 +126,10 @@
       "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "totalStars": "35188",
-      "totalForks": "5748",
-      "growth": "+2147",
-      "growthValue": 2147,
+      "totalStars": "35271",
+      "totalForks": "5754",
+      "growth": "+2230",
+      "growthValue": 2230,
       "rank": 12
     },
     {
@@ -137,10 +137,10 @@
       "link": "https://github.com/apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
       "language": "Swift",
-      "totalStars": "39189",
-      "totalForks": "1129",
-      "growth": "+1754",
-      "growthValue": 1754,
+      "totalStars": "39233",
+      "totalForks": "1133",
+      "growth": "+1798",
+      "growthValue": 1798,
       "rank": 13
     },
     {
@@ -148,43 +148,43 @@
       "link": "https://github.com/phuryn/pm-skills",
       "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "language": "",
-      "totalStars": "20216",
-      "totalForks": "2053",
-      "growth": "+1639",
-      "growthValue": 1639,
+      "totalStars": "20260",
+      "totalForks": "2064",
+      "growth": "+1683",
+      "growthValue": 1683,
       "rank": 14
-    },
-    {
-      "name": "can1357/oh-my-pi",
-      "link": "https://github.com/can1357/oh-my-pi",
-      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-      "language": "TypeScript",
-      "totalStars": "13757",
-      "totalForks": "1218",
-      "growth": "+1122",
-      "growthValue": 1122,
-      "rank": 15
-    },
-    {
-      "name": "lfnovo/open-notebook",
-      "link": "https://github.com/lfnovo/open-notebook",
-      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
-      "language": "TypeScript",
-      "totalStars": "32183",
-      "totalForks": "3645",
-      "growth": "+1078",
-      "growthValue": 1078,
-      "rank": 16
     },
     {
       "name": "mukul975/Anthropic-Cybersecurity-Skills",
       "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
       "language": "Python",
-      "totalStars": "17231",
-      "totalForks": "2097",
-      "growth": "+1076",
-      "growthValue": 1076,
+      "totalStars": "17428",
+      "totalForks": "2108",
+      "growth": "+1273",
+      "growthValue": 1273,
+      "rank": 15
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "link": "https://github.com/can1357/oh-my-pi",
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "language": "TypeScript",
+      "totalStars": "13813",
+      "totalForks": "1223",
+      "growth": "+1178",
+      "growthValue": 1178,
+      "rank": 16
+    },
+    {
+      "name": "lfnovo/open-notebook",
+      "link": "https://github.com/lfnovo/open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "language": "TypeScript",
+      "totalStars": "32262",
+      "totalForks": "3650",
+      "growth": "+1157",
+      "growthValue": 1157,
       "rank": 17
     },
     {
@@ -192,10 +192,10 @@
       "link": "https://github.com/hardikpandya/stop-slop",
       "description": "A skill file for removing AI tells from prose",
       "language": "",
-      "totalStars": "11636",
-      "totalForks": "815",
-      "growth": "+835",
-      "growthValue": 835,
+      "totalStars": "11674",
+      "totalForks": "816",
+      "growth": "+873",
+      "growthValue": 873,
       "rank": 18
     },
     {
@@ -203,10 +203,10 @@
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "21577",
-      "totalForks": "2521",
-      "growth": "+795",
-      "growthValue": 795,
+      "totalStars": "21611",
+      "totalForks": "2525",
+      "growth": "+829",
+      "growthValue": 829,
       "rank": 19
     },
     {
@@ -214,12 +214,12 @@
       "link": "https://github.com/ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
-      "totalStars": "6557",
-      "totalForks": "401",
-      "growth": "+768",
-      "growthValue": 768,
+      "totalStars": "6608",
+      "totalForks": "408",
+      "growth": "+819",
+      "growthValue": 819,
       "rank": 20
     }
   ],
-  "lastUpdated": "2026-06-21 11:47"
+  "lastUpdated": "2026-06-21 16:47"
 }

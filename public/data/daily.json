@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "bytedance/deer-flow",
-      "link": "https://github.com/bytedance/deer-flow",
-      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "language": "Python",
-      "totalStars": "72223",
-      "totalForks": "9794",
-      "growth": "+72223",
-      "growthValue": 72223,
-      "rank": 1
-    },
-    {
-      "name": "byoungd/English-level-up-tips",
-      "link": "https://github.com/byoungd/English-level-up-tips",
-      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
-      "language": "",
-      "totalStars": "53870",
-      "totalForks": "5548",
-      "growth": "+53870",
-      "growthValue": 53870,
-      "rank": 2
-    },
-    {
-      "name": "ZhuLinsen/daily_stock_analysis",
-      "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "language": "Python",
-      "totalStars": "43864",
-      "totalForks": "41228",
-      "growth": "+43864",
-      "growthValue": 43864,
-      "rank": 3
-    },
-    {
-      "name": "smicallef/spiderfoot",
-      "link": "https://github.com/smicallef/spiderfoot",
-      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
-      "language": "Python",
-      "totalStars": "18560",
-      "totalForks": "3090",
-      "growth": "+18560",
-      "growthValue": 18560,
-      "rank": 4
-    },
-    {
-      "name": "topoteretes/cognee",
-      "link": "https://github.com/topoteretes/cognee",
-      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-      "language": "Python",
-      "totalStars": "18395",
-      "totalForks": "1956",
-      "growth": "+18395",
-      "growthValue": 18395,
-      "rank": 5
-    },
-    {
-      "name": "mikumifa/biliTickerBuy",
-      "link": "https://github.com/mikumifa/biliTickerBuy",
-      "description": "b站会员购购票辅助工具",
-      "language": "Python",
-      "totalStars": "3678",
-      "totalForks": "459",
-      "growth": "+3678",
-      "growthValue": 3678,
-      "rank": 6
-    },
-    {
       "name": "chopratejas/headroom",
       "link": "https://github.com/chopratejas/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "totalStars": "42841",
-      "totalForks": "2957",
-      "growth": "+1166",
-      "growthValue": 1166,
-      "rank": 7
+      "totalStars": "43551",
+      "totalForks": "3024",
+      "growth": "+1876",
+      "growthValue": 1876,
+      "rank": 1
     },
     {
       "name": "palmier-io/palmier-pro",
       "link": "https://github.com/palmier-io/palmier-pro",
       "description": "macOS video editor built for AI",
       "language": "Swift",
-      "totalStars": "4102",
-      "totalForks": "324",
-      "growth": "+882",
-      "growthValue": 882,
-      "rank": 8
+      "totalStars": "4571",
+      "totalForks": "355",
+      "growth": "+1351",
+      "growthValue": 1351,
+      "rank": 2
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "totalStars": "138887",
-      "totalForks": "12047",
-      "growth": "+773",
-      "growthValue": 773,
-      "rank": 9
+      "totalStars": "139288",
+      "totalForks": "12084",
+      "growth": "+1174",
+      "growthValue": 1174,
+      "rank": 3
+    },
+    {
+      "name": "calesthio/OpenMontage",
+      "link": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "totalStars": "8072",
+      "totalForks": "1251",
+      "growth": "+1091",
+      "growthValue": 1091,
+      "rank": 4
+    },
+    {
+      "name": "DeusData/codebase-memory-mcp",
+      "link": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "totalStars": "10018",
+      "totalForks": "758",
+      "growth": "+761",
+      "growthValue": 761,
+      "rank": 5
     },
     {
       "name": "penpot/penpot",
       "link": "https://github.com/penpot/penpot",
       "description": "Penpot: The open-source design tool for design and code collaboration",
       "language": "Clojure",
-      "totalStars": "51890",
-      "totalForks": "3320",
-      "growth": "+549",
-      "growthValue": 549,
+      "totalStars": "52046",
+      "totalForks": "3327",
+      "growth": "+705",
+      "growthValue": 705,
+      "rank": 6
+    },
+    {
+      "name": "koala73/worldmonitor",
+      "link": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "totalStars": "57874",
+      "totalForks": "9190",
+      "growth": "+439",
+      "growthValue": 439,
+      "rank": 7
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "language": "Python",
+      "totalStars": "17428",
+      "totalForks": "2108",
+      "growth": "+386",
+      "growthValue": 386,
+      "rank": 8
+    },
+    {
+      "name": "tursodatabase/turso",
+      "link": "https://github.com/tursodatabase/turso",
+      "description": "Turso is an in-process SQL database, compatible with SQLite.",
+      "language": "Rust",
+      "totalStars": "20657",
+      "totalForks": "1057",
+      "growth": "+379",
+      "growthValue": 379,
+      "rank": 9
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "totalStars": "44217",
+      "totalForks": "41382",
+      "growth": "+353",
+      "growthValue": 353,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-21 11:47"
+  "lastUpdated": "2026-06-21 16:47"
 }
