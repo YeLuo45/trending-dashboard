@@ -1,192 +1,203 @@
 {
   "projects": [
     {
+      "name": "OpenCut-app/OpenCut",
+      "link": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "totalStars": "58831",
+      "totalForks": "6418",
+      "growth": "+58831",
+      "growthValue": 58831,
+      "rank": 1
+    },
+    {
       "name": "Panniantong/Agent-Reach",
       "link": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "totalStars": "37716",
-      "totalForks": "2993",
-      "growth": "+7676",
-      "growthValue": 7676,
-      "rank": 1
+      "totalStars": "37767",
+      "totalForks": "2999",
+      "growth": "+7727",
+      "growthValue": 7727,
+      "rank": 2
     },
     {
       "name": "calesthio/OpenMontage",
       "link": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "totalStars": "11461",
-      "totalForks": "1509",
-      "growth": "+6207",
-      "growthValue": 6207,
-      "rank": 2
+      "totalStars": "11835",
+      "totalForks": "1536",
+      "growth": "+6581",
+      "growthValue": 6581,
+      "rank": 3
     },
     {
       "name": "DeusData/codebase-memory-mcp",
       "link": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "totalStars": "11308",
-      "totalForks": "839",
-      "growth": "+6165",
-      "growthValue": 6165,
-      "rank": 3
+      "totalStars": "11457",
+      "totalForks": "846",
+      "growth": "+6314",
+      "growthValue": 6314,
+      "rank": 4
     },
     {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "Shell",
-      "totalStars": "65309",
-      "totalForks": "7052",
-      "growth": "+5035",
-      "growthValue": 5035,
-      "rank": 4
+      "totalStars": "65368",
+      "totalForks": "7059",
+      "growth": "+5094",
+      "growthValue": 5094,
+      "rank": 5
     },
     {
       "name": "iptv-org/iptv",
       "link": "https://github.com/iptv-org/iptv",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "language": "TypeScript",
-      "totalStars": "127453",
-      "totalForks": "6997",
-      "growth": "+4653",
-      "growthValue": 4653,
-      "rank": 5
+      "totalStars": "127498",
+      "totalForks": "7002",
+      "growth": "+4698",
+      "growthValue": 4698,
+      "rank": 6
     },
     {
       "name": "google-research/timesfm",
       "link": "https://github.com/google-research/timesfm",
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "language": "Python",
-      "totalStars": "25098",
-      "totalForks": "2390",
-      "growth": "+3257",
-      "growthValue": 3257,
-      "rank": 6
+      "totalStars": "25130",
+      "totalForks": "2394",
+      "growth": "+3289",
+      "growthValue": 3289,
+      "rank": 7
     },
     {
       "name": "NVIDIA/SkillSpector",
       "link": "https://github.com/NVIDIA/SkillSpector",
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
       "language": "Python",
-      "totalStars": "9338",
-      "totalForks": "729",
-      "growth": "+3051",
-      "growthValue": 3051,
-      "rank": 7
+      "totalStars": "9384",
+      "totalForks": "734",
+      "growth": "+3097",
+      "growthValue": 3097,
+      "rank": 8
     },
     {
       "name": "penpot/penpot",
       "link": "https://github.com/penpot/penpot",
       "description": "Penpot: The open-source design tool for design and code collaboration",
       "language": "Clojure",
-      "totalStars": "52756",
-      "totalForks": "3375",
-      "growth": "+2700",
-      "growthValue": 2700,
-      "rank": 8
+      "totalStars": "52828",
+      "totalForks": "3383",
+      "growth": "+2772",
+      "growthValue": 2772,
+      "rank": 9
     },
     {
       "name": "asgeirtj/system_prompts_leaks",
       "link": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
       "language": "JavaScript",
-      "totalStars": "44942",
-      "totalForks": "7401",
-      "growth": "+2505",
-      "growthValue": 2505,
-      "rank": 9
+      "totalStars": "45001",
+      "totalForks": "7411",
+      "growth": "+2564",
+      "growthValue": 2564,
+      "rank": 10
     },
     {
       "name": "freeCodeCamp/freeCodeCamp",
       "link": "https://github.com/freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
-      "totalStars": "450196",
-      "totalForks": "45211",
-      "growth": "+2344",
-      "growthValue": 2344,
-      "rank": 10
+      "totalStars": "450209",
+      "totalForks": "45210",
+      "growth": "+2357",
+      "growthValue": 2357,
+      "rank": 11
     },
     {
       "name": "koala73/worldmonitor",
       "link": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "totalStars": "58560",
-      "totalForks": "9252",
-      "growth": "+1378",
-      "growthValue": 1378,
-      "rank": 11
+      "totalStars": "58586",
+      "totalForks": "9253",
+      "growth": "+1404",
+      "growthValue": 1404,
+      "rank": 12
     },
     {
       "name": "makeplane/plane",
       "link": "https://github.com/makeplane/plane",
       "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
       "language": "TypeScript",
-      "totalStars": "52524",
-      "totalForks": "4675",
-      "growth": "+1288",
-      "growthValue": 1288,
-      "rank": 12
+      "totalStars": "52555",
+      "totalForks": "4678",
+      "growth": "+1319",
+      "growthValue": 1319,
+      "rank": 13
     },
     {
       "name": "n0-computer/iroh",
       "link": "https://github.com/n0-computer/iroh",
       "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
       "language": "Rust",
-      "totalStars": "10525",
+      "totalStars": "10533",
       "totalForks": "479",
-      "growth": "+1269",
-      "growthValue": 1269,
-      "rank": 13
+      "growth": "+1277",
+      "growthValue": 1277,
+      "rank": 14
     },
     {
       "name": "withastro/flue",
       "link": "https://github.com/withastro/flue",
       "description": "The sandbox agent framework.",
       "language": "TypeScript",
-      "totalStars": "6404",
+      "totalStars": "6422",
       "totalForks": "361",
-      "growth": "+926",
-      "growthValue": 926,
-      "rank": 14
+      "growth": "+944",
+      "growthValue": 944,
+      "rank": 15
     },
     {
       "name": "Kong/insomnia",
       "link": "https://github.com/Kong/insomnia",
       "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
       "language": "TypeScript",
-      "totalStars": "39545",
-      "totalForks": "2342",
-      "growth": "+888",
-      "growthValue": 888,
-      "rank": 15
+      "totalStars": "39549",
+      "totalForks": "2343",
+      "growth": "+892",
+      "growthValue": 892,
+      "rank": 16
     },
     {
       "name": "LMCache/LMCache",
       "link": "https://github.com/LMCache/LMCache",
       "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
       "language": "Python",
-      "totalStars": "9606",
-      "totalForks": "1377",
-      "growth": "+424",
-      "growthValue": 424,
-      "rank": 16
+      "totalStars": "9619",
+      "totalForks": "1380",
+      "growth": "+437",
+      "growthValue": 437,
+      "rank": 17
     },
     {
       "name": "teslamate-org/teslamate",
       "link": "https://github.com/teslamate-org/teslamate",
       "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
       "language": "Elixir",
-      "totalStars": "8563",
+      "totalStars": "8567",
       "totalForks": "966",
-      "growth": "+346",
-      "growthValue": 346,
-      "rank": 17
+      "growth": "+350",
+      "growthValue": 350,
+      "rank": 18
     }
   ],
-  "lastUpdated": "2026-06-22 18:49"
+  "lastUpdated": "2026-06-22 22:49"
 }
