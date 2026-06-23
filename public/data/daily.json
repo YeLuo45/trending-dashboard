@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "affaan-m/ECC",
+      "link": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "totalStars": "220184",
+      "totalForks": "33737",
+      "growth": "+220184",
+      "growthValue": 220184,
+      "rank": 1
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "totalStars": "200434",
+      "totalForks": "35724",
+      "growth": "+200434",
+      "growthValue": 200434,
+      "rank": 2
+    },
+    {
+      "name": "shanraisshan/claude-code-best-practice",
+      "link": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "language": "HTML",
+      "totalStars": "59056",
+      "totalForks": "5963",
+      "growth": "+59056",
+      "growthValue": 59056,
+      "rank": 3
+    },
+    {
+      "name": "anthropics/claude-plugins-official",
+      "link": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "totalStars": "30682",
+      "totalForks": "3354",
+      "growth": "+30682",
+      "growthValue": 30682,
+      "rank": 4
+    },
+    {
+      "name": "revfactory/harness",
+      "link": "https://github.com/revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "totalStars": "7311",
+      "totalForks": "1035",
+      "growth": "+7311",
+      "growthValue": 7311,
+      "rank": 5
+    },
+    {
       "name": "calesthio/OpenMontage",
       "link": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "totalStars": "13082",
-      "totalForks": "1621",
-      "growth": "+1247",
-      "growthValue": 1247,
-      "rank": 1
-    },
-    {
-      "name": "mattpocock/skills",
-      "link": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "totalStars": "142259",
-      "totalForks": "12298",
-      "growth": "+709",
-      "growthValue": 709,
-      "rank": 2
+      "totalStars": "14038",
+      "totalForks": "1710",
+      "growth": "+2203",
+      "growthValue": 2203,
+      "rank": 6
     },
     {
       "name": "palmier-io/palmier-pro",
       "link": "https://github.com/palmier-io/palmier-pro",
       "description": "macOS video editor built for AI",
       "language": "Swift",
-      "totalStars": "7813",
-      "totalForks": "524",
-      "growth": "+559",
-      "growthValue": 559,
-      "rank": 3
+      "totalStars": "8178",
+      "totalForks": "535",
+      "growth": "+924",
+      "growthValue": 924,
+      "rank": 7
     },
     {
       "name": "DeusData/codebase-memory-mcp",
       "link": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "totalStars": "11974",
-      "totalForks": "881",
-      "growth": "+517",
-      "growthValue": 517,
-      "rank": 4
-    },
-    {
-      "name": "firecrawl/firecrawl",
-      "link": "https://github.com/firecrawl/firecrawl",
-      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "language": "TypeScript",
-      "totalStars": "137643",
-      "totalForks": "7970",
-      "growth": "+451",
-      "growthValue": 451,
-      "rank": 5
+      "totalStars": "12281",
+      "totalForks": "900",
+      "growth": "+824",
+      "growthValue": 824,
+      "rank": 8
     },
     {
       "name": "ZhuLinsen/daily_stock_analysis",
       "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "totalStars": "46192",
-      "totalForks": "42066",
-      "growth": "+435",
-      "growthValue": 435,
-      "rank": 6
-    },
-    {
-      "name": "Stirling-Tools/Stirling-PDF",
-      "link": "https://github.com/Stirling-Tools/Stirling-PDF",
-      "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
-      "language": "TypeScript",
-      "totalStars": "83267",
-      "totalForks": "7253",
-      "growth": "+429",
-      "growthValue": 429,
-      "rank": 7
+      "totalStars": "46526",
+      "totalForks": "42201",
+      "growth": "+769",
+      "growthValue": 769,
+      "rank": 9
     },
     {
       "name": "jamiepine/voicebox",
       "link": "https://github.com/jamiepine/voicebox",
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "language": "TypeScript",
-      "totalStars": "32581",
-      "totalForks": "3954",
-      "growth": "+416",
-      "growthValue": 416,
-      "rank": 8
-    },
-    {
-      "name": "mukul975/Anthropic-Cybersecurity-Skills",
-      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-      "language": "Python",
-      "totalStars": "18988",
-      "totalForks": "2233",
-      "growth": "+362",
-      "growthValue": 362,
-      "rank": 9
-    },
-    {
-      "name": "garrytan/gstack",
-      "link": "https://github.com/garrytan/gstack",
-      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-      "language": "TypeScript",
-      "totalStars": "113429",
-      "totalForks": "16824",
-      "growth": "+342",
-      "growthValue": 342,
+      "totalStars": "32856",
+      "totalForks": "3969",
+      "growth": "+691",
+      "growthValue": 691,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-23 06:54"
+  "lastUpdated": "2026-06-23 12:09"
 }
