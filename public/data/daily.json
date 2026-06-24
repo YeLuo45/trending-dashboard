@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "flutter/flutter",
+      "link": "https://github.com/flutter/flutter",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "language": "Dart",
+      "totalStars": "177105",
+      "totalForks": "30541",
+      "growth": "+177105",
+      "growthValue": 177105,
+      "rank": 1
+    },
+    {
+      "name": "Flowseal/zapret-discord-youtube",
+      "link": "https://github.com/Flowseal/zapret-discord-youtube",
+      "description": "",
+      "language": "Batchfile",
+      "totalStars": "29965",
+      "totalForks": "2338",
+      "growth": "+29965",
+      "growthValue": 29965,
+      "rank": 2
+    },
+    {
+      "name": "google-labs-code/design.md",
+      "link": "https://github.com/google-labs-code/design.md",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "totalStars": "16668",
+      "totalForks": "1542",
+      "growth": "+16668",
+      "growthValue": 16668,
+      "rank": 3
+    },
+    {
       "name": "calesthio/OpenMontage",
       "link": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "totalStars": "16700",
-      "totalForks": "1970",
-      "growth": "+1271",
-      "growthValue": 1271,
-      "rank": 1
+      "totalStars": "17641",
+      "totalForks": "2041",
+      "growth": "+2212",
+      "growthValue": 2212,
+      "rank": 4
     },
     {
-      "name": "DeusData/codebase-memory-mcp",
-      "link": "https://github.com/DeusData/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "language": "C",
-      "totalStars": "13410",
-      "totalForks": "984",
-      "growth": "+615",
-      "growthValue": 615,
-      "rank": 2
+      "name": "interviewstreet/hiring-agent",
+      "link": "https://github.com/interviewstreet/hiring-agent",
+      "description": "AI agent to evaluate and score resumes.",
+      "language": "Python",
+      "totalStars": "1829",
+      "totalForks": "565",
+      "growth": "+1829",
+      "growthValue": 1829,
+      "rank": 5
+    },
+    {
+      "name": "kunchenguid/no-mistakes",
+      "link": "https://github.com/kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "totalStars": "1743",
+      "totalForks": "126",
+      "growth": "+1743",
+      "growthValue": 1743,
+      "rank": 6
+    },
+    {
+      "name": "andreknieriem/headunit-revived",
+      "link": "https://github.com/andreknieriem/headunit-revived",
+      "description": "Headunit App for displaying Android Auto",
+      "language": "Kotlin",
+      "totalStars": "1352",
+      "totalForks": "111",
+      "growth": "+1352",
+      "growthValue": 1352,
+      "rank": 7
     },
     {
       "name": "ZhuLinsen/daily_stock_analysis",
       "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "totalStars": "47559",
-      "totalForks": "42592",
-      "growth": "+595",
-      "growthValue": 595,
-      "rank": 3
+      "totalStars": "47941",
+      "totalForks": "42778",
+      "growth": "+977",
+      "growthValue": 977,
+      "rank": 8
     },
     {
-      "name": "mukul975/Anthropic-Cybersecurity-Skills",
-      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-      "language": "Python",
-      "totalStars": "20038",
-      "totalForks": "2330",
-      "growth": "+434",
-      "growthValue": 434,
-      "rank": 4
+      "name": "apple/container",
+      "link": "https://github.com/apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "language": "Swift",
+      "totalStars": "41417",
+      "totalForks": "1209",
+      "growth": "+752",
+      "growthValue": 752,
+      "rank": 9
     },
     {
       "name": "NousResearch/hermes-agent",
       "link": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "totalStars": "201265",
-      "totalForks": "35921",
-      "growth": "+402",
-      "growthValue": 402,
-      "rank": 5
-    },
-    {
-      "name": "garrytan/gstack",
-      "link": "https://github.com/garrytan/gstack",
-      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-      "language": "TypeScript",
-      "totalStars": "114398",
-      "totalForks": "16919",
-      "growth": "+391",
-      "growthValue": 391,
-      "rank": 6
-    },
-    {
-      "name": "shanraisshan/claude-code-best-practice",
-      "link": "https://github.com/shanraisshan/claude-code-best-practice",
-      "description": "from vibe coding to agentic engineering - practice makes claude perfect",
-      "language": "HTML",
-      "totalStars": "59730",
-      "totalForks": "6004",
-      "growth": "+359",
-      "growthValue": 359,
-      "rank": 7
-    },
-    {
-      "name": "jamiepine/voicebox",
-      "link": "https://github.com/jamiepine/voicebox",
-      "description": "The open-source AI voice studio. Clone, dictate, create.",
-      "language": "TypeScript",
-      "totalStars": "33424",
-      "totalForks": "4030",
-      "growth": "+341",
-      "growthValue": 341,
-      "rank": 8
-    },
-    {
-      "name": "affaan-m/ECC",
-      "link": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "totalStars": "220750",
-      "totalForks": "33799",
-      "growth": "+282",
-      "growthValue": 282,
-      "rank": 9
-    },
-    {
-      "name": "bytedance/deer-flow",
-      "link": "https://github.com/bytedance/deer-flow",
-      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "language": "Python",
-      "totalStars": "74139",
-      "totalForks": "9993",
-      "growth": "+277",
-      "growthValue": 277,
+      "totalStars": "201548",
+      "totalForks": "35986",
+      "growth": "+685",
+      "growthValue": 685,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-24 06:51"
+  "lastUpdated": "2026-06-24 11:47"
 }
