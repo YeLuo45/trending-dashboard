@@ -1,225 +1,225 @@
 {
   "projects": [
     {
-      "name": "supermemoryai/supermemory",
-      "link": "https://github.com/supermemoryai/supermemory",
-      "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-      "language": "TypeScript",
-      "totalStars": "27369",
-      "totalForks": "2381",
-      "growth": "+27369",
-      "growthValue": 27369,
-      "rank": 1
-    },
-    {
       "name": "calesthio/OpenMontage",
       "link": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "totalStars": "17642",
-      "totalForks": "2041",
-      "growth": "+12388",
-      "growthValue": 12388,
-      "rank": 2
+      "totalStars": "18557",
+      "totalForks": "2129",
+      "growth": "+13303",
+      "growthValue": 13303,
+      "rank": 1
     },
     {
       "name": "Panniantong/Agent-Reach",
       "link": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "totalStars": "39272",
-      "totalForks": "3109",
-      "growth": "+9232",
-      "growthValue": 9232,
-      "rank": 3
+      "totalStars": "39446",
+      "totalForks": "3121",
+      "growth": "+9406",
+      "growthValue": 9406,
+      "rank": 2
     },
     {
       "name": "DeusData/codebase-memory-mcp",
       "link": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "totalStars": "13736",
-      "totalForks": "1010",
-      "growth": "+8593",
-      "growthValue": 8593,
-      "rank": 4
+      "totalStars": "13952",
+      "totalForks": "1029",
+      "growth": "+8809",
+      "growthValue": 8809,
+      "rank": 3
     },
     {
       "name": "Egonex-AI/Understand-Anything",
       "link": "https://github.com/Egonex-AI/Understand-Anything",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
-      "totalStars": "67201",
-      "totalForks": "5573",
-      "growth": "+6731",
-      "growthValue": 6731,
-      "rank": 5
-    },
-    {
-      "name": "microsoft/Webwright",
-      "link": "https://github.com/microsoft/Webwright",
-      "description": "A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks.",
-      "language": "Python",
-      "totalStars": "5554",
-      "totalForks": "353",
-      "growth": "+5554",
-      "growthValue": 5554,
-      "rank": 6
+      "totalStars": "67338",
+      "totalForks": "5582",
+      "growth": "+6868",
+      "growthValue": 6868,
+      "rank": 4
     },
     {
       "name": "Leonxlnx/taste-skill",
       "link": "https://github.com/Leonxlnx/taste-skill",
       "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "language": "JavaScript",
-      "totalStars": "50006",
-      "totalForks": "3460",
-      "growth": "+5519",
-      "growthValue": 5519,
-      "rank": 7
+      "totalStars": "50174",
+      "totalForks": "3468",
+      "growth": "+5687",
+      "growthValue": 5687,
+      "rank": 5
     },
     {
       "name": "iptv-org/iptv",
       "link": "https://github.com/iptv-org/iptv",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "language": "TypeScript",
-      "totalStars": "128148",
-      "totalForks": "7056",
-      "growth": "+5348",
-      "growthValue": 5348,
-      "rank": 8
+      "totalStars": "128232",
+      "totalForks": "7061",
+      "growth": "+5432",
+      "growthValue": 5432,
+      "rank": 6
     },
     {
       "name": "microsoft/markitdown",
       "link": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "totalStars": "158493",
-      "totalForks": "11074",
-      "growth": "+4424",
-      "growthValue": 4424,
-      "rank": 9
+      "totalStars": "158646",
+      "totalForks": "11088",
+      "growth": "+4577",
+      "growthValue": 4577,
+      "rank": 7
     },
     {
       "name": "colbymchenry/codegraph",
       "link": "https://github.com/colbymchenry/codegraph",
       "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "totalStars": "54015",
-      "totalForks": "3304",
-      "growth": "+4371",
-      "growthValue": 4371,
-      "rank": 10
-    },
-    {
-      "name": "mukul975/Anthropic-Cybersecurity-Skills",
-      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-      "language": "Python",
-      "totalStars": "20270",
-      "totalForks": "2352",
-      "growth": "+4115",
-      "growthValue": 4115,
-      "rank": 11
+      "totalStars": "54118",
+      "totalForks": "3313",
+      "growth": "+4474",
+      "growthValue": 4474,
+      "rank": 8
     },
     {
       "name": "apple/container",
       "link": "https://github.com/apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
       "language": "Swift",
-      "totalStars": "41417",
-      "totalForks": "1209",
-      "growth": "+3982",
-      "growthValue": 3982,
-      "rank": 12
+      "totalStars": "41806",
+      "totalForks": "1220",
+      "growth": "+4371",
+      "growthValue": 4371,
+      "rank": 9
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "language": "Python",
+      "totalStars": "20430",
+      "totalForks": "2375",
+      "growth": "+4275",
+      "growthValue": 4275,
+      "rank": 10
     },
     {
       "name": "harry0703/MoneyPrinterTurbo",
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "totalStars": "92064",
-      "totalForks": "13284",
-      "growth": "+3797",
-      "growthValue": 3797,
-      "rank": 13
+      "totalStars": "92153",
+      "totalForks": "13296",
+      "growth": "+3886",
+      "growthValue": 3886,
+      "rank": 11
     },
     {
       "name": "mvanhorn/last30days-skill",
       "link": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "totalStars": "46250",
-      "totalForks": "3838",
-      "growth": "+3421",
-      "growthValue": 3421,
-      "rank": 14
+      "totalStars": "46338",
+      "totalForks": "3842",
+      "growth": "+3509",
+      "growthValue": 3509,
+      "rank": 12
     },
     {
       "name": "phuryn/pm-skills",
       "link": "https://github.com/phuryn/pm-skills",
       "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "language": "",
-      "totalStars": "20842",
-      "totalForks": "2117",
-      "growth": "+2265",
-      "growthValue": 2265,
-      "rank": 15
+      "totalStars": "20880",
+      "totalForks": "2121",
+      "growth": "+2303",
+      "growthValue": 2303,
+      "rank": 13
     },
     {
       "name": "lfnovo/open-notebook",
       "link": "https://github.com/lfnovo/open-notebook",
       "description": "An Open Source implementation of Notebook LM with more flexibility and features",
       "language": "TypeScript",
-      "totalStars": "33013",
-      "totalForks": "3721",
-      "growth": "+1908",
-      "growthValue": 1908,
-      "rank": 16
+      "totalStars": "33075",
+      "totalForks": "3727",
+      "growth": "+1970",
+      "growthValue": 1970,
+      "rank": 14
     },
     {
       "name": "can1357/oh-my-pi",
       "link": "https://github.com/can1357/oh-my-pi",
       "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
       "language": "TypeScript",
-      "totalStars": "14436",
-      "totalForks": "1258",
-      "growth": "+1801",
-      "growthValue": 1801,
-      "rank": 17
+      "totalStars": "14464",
+      "totalForks": "1259",
+      "growth": "+1829",
+      "growthValue": 1829,
+      "rank": 15
     },
     {
       "name": "hardikpandya/stop-slop",
       "link": "https://github.com/hardikpandya/stop-slop",
       "description": "A skill file for removing AI tells from prose",
       "language": "",
-      "totalStars": "12092",
-      "totalForks": "843",
-      "growth": "+1291",
-      "growthValue": 1291,
-      "rank": 18
+      "totalStars": "12144",
+      "totalForks": "845",
+      "growth": "+1343",
+      "growthValue": 1343,
+      "rank": 16
     },
     {
       "name": "ogulcancelik/herdr",
       "link": "https://github.com/ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
-      "totalStars": "7026",
-      "totalForks": "431",
-      "growth": "+1237",
-      "growthValue": 1237,
-      "rank": 19
+      "totalStars": "7080",
+      "totalForks": "432",
+      "growth": "+1291",
+      "growthValue": 1291,
+      "rank": 17
     },
     {
       "name": "esengine/DeepSeek-Reasonix",
       "link": "https://github.com/esengine/DeepSeek-Reasonix",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "language": "Go",
-      "totalStars": "24313",
-      "totalForks": "1477",
-      "growth": "+761",
-      "growthValue": 761,
+      "totalStars": "24381",
+      "totalForks": "1481",
+      "growth": "+829",
+      "growthValue": 829,
+      "rank": 18
+    },
+    {
+      "name": "tashfeenahmed/freellmapi",
+      "link": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "totalStars": "12039",
+      "totalForks": "1865",
+      "growth": "+713",
+      "growthValue": 713,
+      "rank": 19
+    },
+    {
+      "name": "openai/plugins",
+      "link": "https://github.com/openai/plugins",
+      "description": "OpenAI Plugins",
+      "language": "JavaScript",
+      "totalStars": "3478",
+      "totalForks": "412",
+      "growth": "+395",
+      "growthValue": 395,
       "rank": 20
     }
   ],
-  "lastUpdated": "2026-06-24 11:47"
+  "lastUpdated": "2026-06-24 17:07"
 }

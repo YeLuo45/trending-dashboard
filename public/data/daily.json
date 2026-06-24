@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "flutter/flutter",
-      "link": "https://github.com/flutter/flutter",
-      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-      "language": "Dart",
-      "totalStars": "177105",
-      "totalForks": "30541",
-      "growth": "+177105",
-      "growthValue": 177105,
-      "rank": 1
-    },
-    {
-      "name": "Flowseal/zapret-discord-youtube",
-      "link": "https://github.com/Flowseal/zapret-discord-youtube",
-      "description": "",
-      "language": "Batchfile",
-      "totalStars": "29965",
-      "totalForks": "2338",
-      "growth": "+29965",
-      "growthValue": 29965,
-      "rank": 2
-    },
-    {
-      "name": "google-labs-code/design.md",
-      "link": "https://github.com/google-labs-code/design.md",
-      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-      "language": "TypeScript",
-      "totalStars": "16668",
-      "totalForks": "1542",
-      "growth": "+16668",
-      "growthValue": 16668,
-      "rank": 3
-    },
-    {
       "name": "calesthio/OpenMontage",
       "link": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "totalStars": "17641",
-      "totalForks": "2041",
-      "growth": "+2212",
-      "growthValue": 2212,
-      "rank": 4
-    },
-    {
-      "name": "interviewstreet/hiring-agent",
-      "link": "https://github.com/interviewstreet/hiring-agent",
-      "description": "AI agent to evaluate and score resumes.",
-      "language": "Python",
-      "totalStars": "1829",
-      "totalForks": "565",
-      "growth": "+1829",
-      "growthValue": 1829,
-      "rank": 5
-    },
-    {
-      "name": "kunchenguid/no-mistakes",
-      "link": "https://github.com/kunchenguid/no-mistakes",
-      "description": "git push no-mistakes",
-      "language": "Go",
-      "totalStars": "1743",
-      "totalForks": "126",
-      "growth": "+1743",
-      "growthValue": 1743,
-      "rank": 6
-    },
-    {
-      "name": "andreknieriem/headunit-revived",
-      "link": "https://github.com/andreknieriem/headunit-revived",
-      "description": "Headunit App for displaying Android Auto",
-      "language": "Kotlin",
-      "totalStars": "1352",
-      "totalForks": "111",
-      "growth": "+1352",
-      "growthValue": 1352,
-      "rank": 7
+      "totalStars": "18557",
+      "totalForks": "2129",
+      "growth": "+3128",
+      "growthValue": 3128,
+      "rank": 1
     },
     {
       "name": "ZhuLinsen/daily_stock_analysis",
       "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "totalStars": "47941",
-      "totalForks": "42778",
-      "growth": "+977",
-      "growthValue": 977,
-      "rank": 8
+      "totalStars": "48278",
+      "totalForks": "42920",
+      "growth": "+1314",
+      "growthValue": 1314,
+      "rank": 2
     },
     {
       "name": "apple/container",
       "link": "https://github.com/apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
       "language": "Swift",
-      "totalStars": "41417",
-      "totalForks": "1209",
-      "growth": "+752",
-      "growthValue": 752,
-      "rank": 9
+      "totalStars": "41806",
+      "totalForks": "1220",
+      "growth": "+1141",
+      "growthValue": 1141,
+      "rank": 3
     },
     {
       "name": "NousResearch/hermes-agent",
       "link": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "totalStars": "201548",
-      "totalForks": "35986",
-      "growth": "+685",
-      "growthValue": 685,
+      "totalStars": "201817",
+      "totalForks": "36059",
+      "growth": "+954",
+      "growthValue": 954,
+      "rank": 4
+    },
+    {
+      "name": "JCodesMore/ai-website-cloner-template",
+      "link": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents",
+      "language": "TypeScript",
+      "totalStars": "19120",
+      "totalForks": "2864",
+      "growth": "+634",
+      "growthValue": 634,
+      "rank": 5
+    },
+    {
+      "name": "google-labs-code/design.md",
+      "link": "https://github.com/google-labs-code/design.md",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "totalStars": "17041",
+      "totalForks": "1557",
+      "growth": "+373",
+      "growthValue": 373,
+      "rank": 6
+    },
+    {
+      "name": "stablyai/orca",
+      "link": "https://github.com/stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "language": "TypeScript",
+      "totalStars": "6619",
+      "totalForks": "480",
+      "growth": "+322",
+      "growthValue": 322,
+      "rank": 7
+    },
+    {
+      "name": "revfactory/harness",
+      "link": "https://github.com/revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "totalStars": "7654",
+      "totalForks": "1051",
+      "growth": "+233",
+      "growthValue": 233,
+      "rank": 8
+    },
+    {
+      "name": "interviewstreet/hiring-agent",
+      "link": "https://github.com/interviewstreet/hiring-agent",
+      "description": "AI agent to evaluate and score resumes.",
+      "language": "Python",
+      "totalStars": "2001",
+      "totalForks": "579",
+      "growth": "+172",
+      "growthValue": 172,
+      "rank": 9
+    },
+    {
+      "name": "kunchenguid/no-mistakes",
+      "link": "https://github.com/kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "totalStars": "1868",
+      "totalForks": "130",
+      "growth": "+125",
+      "growthValue": 125,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-24 11:47"
+  "lastUpdated": "2026-06-24 17:07"
 }
