@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "ripienaar/free-for-dev",
-      "link": "https://github.com/ripienaar/free-for-dev",
-      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-      "language": "HTML",
-      "totalStars": "123494",
-      "totalForks": "13039",
-      "growth": "+123494",
-      "growthValue": 123494,
-      "rank": 1
-    },
-    {
-      "name": "grafana/grafana",
-      "link": "https://github.com/grafana/grafana",
-      "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
-      "language": "TypeScript",
-      "totalStars": "74710",
-      "totalForks": "14116",
-      "growth": "+74710",
-      "growthValue": 74710,
-      "rank": 2
-    },
-    {
-      "name": "commaai/openpilot",
-      "link": "https://github.com/commaai/openpilot",
-      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
-      "language": "Python",
-      "totalStars": "61616",
-      "totalForks": "11035",
-      "growth": "+61616",
-      "growthValue": 61616,
-      "rank": 3
-    },
-    {
-      "name": "simplex-chat/simplex-chat",
-      "link": "https://github.com/simplex-chat/simplex-chat",
-      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
-      "language": "Haskell",
-      "totalStars": "11730",
-      "totalForks": "671",
-      "growth": "+11730",
-      "growthValue": 11730,
-      "rank": 4
-    },
-    {
-      "name": "alchaincyf/zhangxuefeng-skill",
-      "link": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
-      "language": "",
-      "totalStars": "9143",
-      "totalForks": "2551",
-      "growth": "+9143",
-      "growthValue": 9143,
-      "rank": 5
-    },
-    {
       "name": "google-labs-code/design.md",
       "link": "https://github.com/google-labs-code/design.md",
       "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
       "language": "TypeScript",
-      "totalStars": "20404",
-      "totalForks": "1687",
-      "growth": "+1372",
-      "growthValue": 1372,
-      "rank": 6
+      "totalStars": "20820",
+      "totalForks": "1700",
+      "growth": "+1788",
+      "growthValue": 1788,
+      "rank": 1
     },
     {
       "name": "calesthio/OpenMontage",
       "link": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "totalStars": "22978",
-      "totalForks": "2556",
-      "growth": "+1023",
-      "growthValue": 1023,
-      "rank": 7
+      "totalStars": "23279",
+      "totalForks": "2586",
+      "growth": "+1324",
+      "growthValue": 1324,
+      "rank": 2
     },
     {
       "name": "xbtlin/ai-berkshire",
       "link": "https://github.com/xbtlin/ai-berkshire",
       "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
       "language": "Python",
-      "totalStars": "2782",
-      "totalForks": "403",
-      "growth": "+986",
-      "growthValue": 986,
-      "rank": 8
+      "totalStars": "2997",
+      "totalForks": "439",
+      "growth": "+1201",
+      "growthValue": 1201,
+      "rank": 3
     },
     {
       "name": "Panniantong/Agent-Reach",
       "link": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "totalStars": "41823",
-      "totalForks": "3324",
-      "growth": "+694",
-      "growthValue": 694,
-      "rank": 9
+      "totalStars": "42110",
+      "totalForks": "3341",
+      "growth": "+981",
+      "growthValue": 981,
+      "rank": 4
+    },
+    {
+      "name": "mauriceboe/TREK",
+      "link": "https://github.com/mauriceboe/TREK",
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "language": "TypeScript",
+      "totalStars": "7426",
+      "totalForks": "640",
+      "growth": "+848",
+      "growthValue": 848,
+      "rank": 5
+    },
+    {
+      "name": "JCodesMore/ai-website-cloner-template",
+      "link": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents",
+      "language": "TypeScript",
+      "totalStars": "21172",
+      "totalForks": "3077",
+      "growth": "+822",
+      "growthValue": 822,
+      "rank": 6
     },
     {
       "name": "kunchenguid/no-mistakes",
       "link": "https://github.com/kunchenguid/no-mistakes",
       "description": "git push no-mistakes",
       "language": "Go",
-      "totalStars": "3130",
-      "totalForks": "186",
-      "growth": "+647",
-      "growthValue": 647,
+      "totalStars": "3272",
+      "totalForks": "195",
+      "growth": "+789",
+      "growthValue": 789,
+      "rank": 7
+    },
+    {
+      "name": "opendatalab/MinerU",
+      "link": "https://github.com/opendatalab/MinerU",
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "language": "Python",
+      "totalStars": "70231",
+      "totalForks": "5930",
+      "growth": "+743",
+      "growthValue": 743,
+      "rank": 8
+    },
+    {
+      "name": "garrytan/gstack",
+      "link": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "totalStars": "116440",
+      "totalForks": "17263",
+      "growth": "+692",
+      "growthValue": 692,
+      "rank": 9
+    },
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "link": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "totalStars": "53294",
+      "totalForks": "10971",
+      "growth": "+570",
+      "growthValue": 570,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-26 11:46"
+  "lastUpdated": "2026-06-26 17:02"
 }
