@@ -1,47 +1,47 @@
 {
   "projects": [
     {
-      "name": "google-labs-code/design.md",
-      "link": "https://github.com/google-labs-code/design.md",
-      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-      "language": "TypeScript",
-      "totalStars": "21606",
-      "totalForks": "1742",
-      "growth": "+476",
-      "growthValue": 476,
-      "rank": 1
-    },
-    {
       "name": "calesthio/OpenMontage",
       "link": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "totalStars": "23980",
-      "totalForks": "2668",
-      "growth": "+457",
-      "growthValue": 457,
-      "rank": 2
+      "totalStars": "24360",
+      "totalForks": "2712",
+      "growth": "+837",
+      "growthValue": 837,
+      "rank": 1
     },
     {
-      "name": "simplex-chat/simplex-chat",
-      "link": "https://github.com/simplex-chat/simplex-chat",
-      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
-      "language": "Haskell",
-      "totalStars": "12851",
-      "totalForks": "734",
-      "growth": "+392",
-      "growthValue": 392,
-      "rank": 3
+      "name": "google-labs-code/design.md",
+      "link": "https://github.com/google-labs-code/design.md",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "totalStars": "21893",
+      "totalForks": "1756",
+      "growth": "+763",
+      "growthValue": 763,
+      "rank": 2
     },
     {
       "name": "Panniantong/Agent-Reach",
       "link": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "totalStars": "42653",
-      "totalForks": "3389",
-      "growth": "+381",
-      "growthValue": 381,
+      "totalStars": "42925",
+      "totalForks": "3415",
+      "growth": "+653",
+      "growthValue": 653,
+      "rank": 3
+    },
+    {
+      "name": "simplex-chat/simplex-chat",
+      "link": "https://github.com/simplex-chat/simplex-chat",
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "language": "Haskell",
+      "totalStars": "13106",
+      "totalForks": "755",
+      "growth": "+647",
+      "growthValue": 647,
       "rank": 4
     },
     {
@@ -49,67 +49,67 @@
       "link": "https://github.com/opendatalab/MinerU",
       "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
       "language": "Python",
-      "totalStars": "70598",
-      "totalForks": "5942",
-      "growth": "+234",
-      "growthValue": 234,
+      "totalStars": "70813",
+      "totalForks": "5961",
+      "growth": "+449",
+      "growthValue": 449,
       "rank": 5
-    },
-    {
-      "name": "xbtlin/ai-berkshire",
-      "link": "https://github.com/xbtlin/ai-berkshire",
-      "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
-      "language": "Python",
-      "totalStars": "3284",
-      "totalForks": "488",
-      "growth": "+215",
-      "growthValue": 215,
-      "rank": 6
-    },
-    {
-      "name": "mauriceboe/TREK",
-      "link": "https://github.com/mauriceboe/TREK",
-      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
-      "language": "TypeScript",
-      "totalStars": "7810",
-      "totalForks": "661",
-      "growth": "+209",
-      "growthValue": 209,
-      "rank": 7
     },
     {
       "name": "JCodesMore/ai-website-cloner-template",
       "link": "https://github.com/JCodesMore/ai-website-cloner-template",
       "description": "Clone any website with one command using AI coding agents",
       "language": "TypeScript",
-      "totalStars": "21509",
-      "totalForks": "3113",
-      "growth": "+203",
-      "growthValue": 203,
-      "rank": 8
+      "totalStars": "21683",
+      "totalForks": "3132",
+      "growth": "+377",
+      "growthValue": 377,
+      "rank": 6
     },
     {
-      "name": "kunchenguid/no-mistakes",
-      "link": "https://github.com/kunchenguid/no-mistakes",
-      "description": "git push no-mistakes",
-      "language": "Go",
-      "totalStars": "3567",
-      "totalForks": "210",
-      "growth": "+190",
-      "growthValue": 190,
-      "rank": 9
+      "name": "xbtlin/ai-berkshire",
+      "link": "https://github.com/xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "language": "Python",
+      "totalStars": "3413",
+      "totalForks": "511",
+      "growth": "+344",
+      "growthValue": 344,
+      "rank": 7
+    },
+    {
+      "name": "mauriceboe/TREK",
+      "link": "https://github.com/mauriceboe/TREK",
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "language": "TypeScript",
+      "totalStars": "7928",
+      "totalForks": "670",
+      "growth": "+327",
+      "growthValue": 327,
+      "rank": 8
     },
     {
       "name": "garrytan/gstack",
       "link": "https://github.com/garrytan/gstack",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
-      "totalStars": "116763",
-      "totalForks": "17326",
-      "growth": "+185",
-      "growthValue": 185,
+      "totalStars": "116873",
+      "totalForks": "17343",
+      "growth": "+295",
+      "growthValue": 295,
+      "rank": 9
+    },
+    {
+      "name": "kunchenguid/no-mistakes",
+      "link": "https://github.com/kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "totalStars": "3656",
+      "totalForks": "212",
+      "growth": "+279",
+      "growthValue": 279,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-27 06:32"
+  "lastUpdated": "2026-06-27 10:59"
 }
