@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "ByteByteGoHq/system-design-101",
-      "link": "https://github.com/ByteByteGoHq/system-design-101",
-      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
-      "language": "",
-      "totalStars": "84054",
-      "totalForks": "9318",
-      "growth": "+84054",
-      "growthValue": 84054,
-      "rank": 1
-    },
-    {
-      "name": "usestrix/strix",
-      "link": "https://github.com/usestrix/strix",
-      "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
-      "language": "Python",
-      "totalStars": "26342",
-      "totalForks": "2965",
-      "growth": "+26342",
-      "growthValue": 26342,
-      "rank": 2
-    },
-    {
-      "name": "cupy/cupy",
-      "link": "https://github.com/cupy/cupy",
-      "description": "NumPy & SciPy for GPU",
-      "language": "Python",
-      "totalStars": "11333",
-      "totalForks": "1061",
-      "growth": "+11333",
-      "growthValue": 11333,
-      "rank": 3
-    },
-    {
-      "name": "browser-use/video-use",
-      "link": "https://github.com/browser-use/video-use",
-      "description": "Edit videos with coding agents",
-      "language": "Python",
-      "totalStars": "10583",
-      "totalForks": "1502",
-      "growth": "+10583",
-      "growthValue": 10583,
-      "rank": 4
-    },
-    {
-      "name": "Robbyant/lingbot-map",
-      "link": "https://github.com/Robbyant/lingbot-map",
-      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-      "language": "Python",
-      "totalStars": "7956",
-      "totalForks": "786",
-      "growth": "+7956",
-      "growthValue": 7956,
-      "rank": 5
-    },
-    {
-      "name": "altic-dev/FluidVoice",
-      "link": "https://github.com/altic-dev/FluidVoice",
-      "description": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))",
-      "language": "Swift",
-      "totalStars": "3235",
-      "totalForks": "214",
-      "growth": "+3235",
-      "growthValue": 3235,
-      "rank": 6
-    },
-    {
       "name": "DeusData/codebase-memory-mcp",
       "link": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "totalStars": "18477",
-      "totalForks": "1343",
-      "growth": "+1009",
-      "growthValue": 1009,
-      "rank": 7
+      "totalStars": "18993",
+      "totalForks": "1388",
+      "growth": "+1525",
+      "growthValue": 1525,
+      "rank": 1
     },
     {
       "name": "xbtlin/ai-berkshire",
       "link": "https://github.com/xbtlin/ai-berkshire",
       "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
       "language": "Python",
-      "totalStars": "4893",
-      "totalForks": "674",
-      "growth": "+848",
-      "growthValue": 848,
-      "rank": 8
+      "totalStars": "5125",
+      "totalForks": "703",
+      "growth": "+1080",
+      "growthValue": 1080,
+      "rank": 2
     },
     {
       "name": "simplex-chat/simplex-chat",
       "link": "https://github.com/simplex-chat/simplex-chat",
       "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
       "language": "Haskell",
-      "totalStars": "14315",
-      "totalForks": "821",
-      "growth": "+554",
-      "growthValue": 554,
-      "rank": 9
+      "totalStars": "14627",
+      "totalForks": "844",
+      "growth": "+866",
+      "growthValue": 866,
+      "rank": 3
+    },
+    {
+      "name": "ripienaar/free-for-dev",
+      "link": "https://github.com/ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "totalStars": "124731",
+      "totalForks": "13124",
+      "growth": "+591",
+      "growthValue": 591,
+      "rank": 4
     },
     {
       "name": "opendatalab/MinerU",
       "link": "https://github.com/opendatalab/MinerU",
       "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
       "language": "Python",
-      "totalStars": "71181",
-      "totalForks": "5988",
-      "growth": "+368",
-      "growthValue": 368,
+      "totalStars": "71358",
+      "totalForks": "5996",
+      "growth": "+545",
+      "growthValue": 545,
+      "rank": 5
+    },
+    {
+      "name": "HKUDS/Vibe-Trading",
+      "link": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "totalStars": "14121",
+      "totalForks": "2613",
+      "growth": "+450",
+      "growthValue": 450,
+      "rank": 6
+    },
+    {
+      "name": "commaai/openpilot",
+      "link": "https://github.com/commaai/openpilot",
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "language": "Python",
+      "totalStars": "62267",
+      "totalForks": "11081",
+      "growth": "+216",
+      "growthValue": 216,
+      "rank": 7
+    },
+    {
+      "name": "altic-dev/FluidVoice",
+      "link": "https://github.com/altic-dev/FluidVoice",
+      "description": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))",
+      "language": "Swift",
+      "totalStars": "3434",
+      "totalForks": "225",
+      "growth": "+199",
+      "growthValue": 199,
+      "rank": 8
+    },
+    {
+      "name": "browser-use/video-use",
+      "link": "https://github.com/browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "totalStars": "10779",
+      "totalForks": "1510",
+      "growth": "+196",
+      "growthValue": 196,
+      "rank": 9
+    },
+    {
+      "name": "ByteByteGoHq/system-design-101",
+      "link": "https://github.com/ByteByteGoHq/system-design-101",
+      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "language": "",
+      "totalStars": "84223",
+      "totalForks": "9338",
+      "growth": "+169",
+      "growthValue": 169,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-28 11:10"
+  "lastUpdated": "2026-06-28 16:15"
 }
