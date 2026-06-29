@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "DeusData/codebase-memory-mcp",
-      "link": "https://github.com/DeusData/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "language": "C",
-      "totalStars": "20460",
-      "totalForks": "1466",
-      "growth": "+993",
-      "growthValue": 993,
+      "name": "msitarzewski/agency-agents",
+      "link": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "totalStars": "118326",
+      "totalForks": "19409",
+      "growth": "+118326",
+      "growthValue": 118326,
       "rank": 1
+    },
+    {
+      "name": "soxoj/maigret",
+      "link": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "totalStars": "34132",
+      "totalForks": "2588",
+      "growth": "+34132",
+      "growthValue": 34132,
+      "rank": 2
+    },
+    {
+      "name": "refactoringhq/tolaria",
+      "link": "https://github.com/refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "language": "TypeScript",
+      "totalStars": "17335",
+      "totalForks": "1198",
+      "growth": "+17335",
+      "growthValue": 17335,
+      "rank": 3
+    },
+    {
+      "name": "logto-io/logto",
+      "link": "https://github.com/logto-io/logto",
+      "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+      "language": "TypeScript",
+      "totalStars": "12370",
+      "totalForks": "847",
+      "growth": "+12370",
+      "growthValue": 12370,
+      "rank": 4
+    },
+    {
+      "name": "veracrypt/VeraCrypt",
+      "link": "https://github.com/veracrypt/VeraCrypt",
+      "description": "Disk encryption with strong security based on TrueCrypt",
+      "language": "C",
+      "totalStars": "10342",
+      "totalForks": "1226",
+      "growth": "+10342",
+      "growthValue": 10342,
+      "rank": 5
     },
     {
       "name": "ripienaar/free-for-dev",
       "link": "https://github.com/ripienaar/free-for-dev",
       "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
       "language": "HTML",
-      "totalStars": "126011",
-      "totalForks": "13207",
-      "growth": "+921",
-      "growthValue": 921,
-      "rank": 2
+      "totalStars": "126405",
+      "totalForks": "13238",
+      "growth": "+1315",
+      "growthValue": 1315,
+      "rank": 6
     },
     {
       "name": "xbtlin/ai-berkshire",
       "link": "https://github.com/xbtlin/ai-berkshire",
       "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
       "language": "Python",
-      "totalStars": "5991",
-      "totalForks": "791",
-      "growth": "+756",
-      "growthValue": 756,
-      "rank": 3
+      "totalStars": "6341",
+      "totalForks": "831",
+      "growth": "+1106",
+      "growthValue": 1106,
+      "rank": 7
     },
     {
       "name": "simplex-chat/simplex-chat",
       "link": "https://github.com/simplex-chat/simplex-chat",
       "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
       "language": "Haskell",
-      "totalStars": "15639",
-      "totalForks": "901",
-      "growth": "+737",
-      "growthValue": 737,
-      "rank": 4
+      "totalStars": "16001",
+      "totalForks": "924",
+      "growth": "+1099",
+      "growthValue": 1099,
+      "rank": 8
+    },
+    {
+      "name": "Unclecheng-li/VulnClaw",
+      "link": "https://github.com/Unclecheng-li/VulnClaw",
+      "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
+      "language": "Python",
+      "totalStars": "1006",
+      "totalForks": "159",
+      "growth": "+1006",
+      "growthValue": 1006,
+      "rank": 9
     },
     {
       "name": "browser-use/video-use",
       "link": "https://github.com/browser-use/video-use",
       "description": "Edit videos with coding agents",
       "language": "Python",
-      "totalStars": "11446",
-      "totalForks": "1539",
-      "growth": "+491",
-      "growthValue": 491,
-      "rank": 5
-    },
-    {
-      "name": "opendatalab/MinerU",
-      "link": "https://github.com/opendatalab/MinerU",
-      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
-      "language": "Python",
-      "totalStars": "71985",
-      "totalForks": "6038",
-      "growth": "+472",
-      "growthValue": 472,
-      "rank": 6
-    },
-    {
-      "name": "ByteByteGoHq/system-design-101",
-      "link": "https://github.com/ByteByteGoHq/system-design-101",
-      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
-      "language": "",
-      "totalStars": "84796",
-      "totalForks": "9373",
-      "growth": "+422",
-      "growthValue": 422,
-      "rank": 7
-    },
-    {
-      "name": "HKUDS/Vibe-Trading",
-      "link": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "language": "Python",
-      "totalStars": "14661",
-      "totalForks": "2656",
-      "growth": "+413",
-      "growthValue": 413,
-      "rank": 8
-    },
-    {
-      "name": "usestrix/strix",
-      "link": "https://github.com/usestrix/strix",
-      "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
-      "language": "Python",
-      "totalStars": "27014",
-      "totalForks": "3002",
-      "growth": "+363",
-      "growthValue": 363,
-      "rank": 9
-    },
-    {
-      "name": "altic-dev/FluidVoice",
-      "link": "https://github.com/altic-dev/FluidVoice",
-      "description": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))",
-      "language": "Swift",
-      "totalStars": "3974",
-      "totalForks": "247",
-      "growth": "+316",
-      "growthValue": 316,
+      "totalStars": "11612",
+      "totalForks": "1544",
+      "growth": "+657",
+      "growthValue": 657,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-06-29 08:18"
+  "lastUpdated": "2026-06-29 13:10"
 }
