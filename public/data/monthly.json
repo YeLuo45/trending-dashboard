@@ -5,10 +5,10 @@
       "link": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "totalStars": "31160",
-      "totalForks": "3537",
-      "growth": "+25906",
-      "growthValue": 25906,
+      "totalStars": "31353",
+      "totalForks": "3562",
+      "growth": "+26099",
+      "growthValue": 26099,
       "rank": 1
     },
     {
@@ -16,10 +16,10 @@
       "link": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "totalStars": "24057",
-      "totalForks": "1767",
-      "growth": "+18914",
-      "growthValue": 18914,
+      "totalStars": "24284",
+      "totalForks": "1780",
+      "growth": "+19141",
+      "growthValue": 19141,
       "rank": 2
     },
     {
@@ -27,43 +27,43 @@
       "link": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "totalStars": "48574",
-      "totalForks": "3870",
-      "growth": "+18534",
-      "growthValue": 18534,
+      "totalStars": "48776",
+      "totalForks": "3879",
+      "growth": "+18736",
+      "growthValue": 18736,
       "rank": 3
+    },
+    {
+      "name": "NVIDIA/cosmos",
+      "link": "https://github.com/NVIDIA/cosmos",
+      "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "language": "Jupyter Notebook",
+      "totalStars": "10777",
+      "totalForks": "732",
+      "growth": "+10777",
+      "growthValue": 10777,
+      "rank": 4
     },
     {
       "name": "Leonxlnx/taste-skill",
       "link": "https://github.com/Leonxlnx/taste-skill",
       "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "language": "JavaScript",
-      "totalStars": "54587",
-      "totalForks": "3749",
-      "growth": "+10100",
-      "growthValue": 10100,
-      "rank": 4
+      "totalStars": "54759",
+      "totalForks": "3759",
+      "growth": "+10272",
+      "growthValue": 10272,
+      "rank": 5
     },
     {
       "name": "apple/container",
       "link": "https://github.com/apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
       "language": "Swift",
-      "totalStars": "45725",
-      "totalForks": "1358",
-      "growth": "+8290",
-      "growthValue": 8290,
-      "rank": 5
-    },
-    {
-      "name": "mukul975/Anthropic-Cybersecurity-Skills",
-      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-      "language": "Python",
-      "totalStars": "23854",
-      "totalForks": "2707",
-      "growth": "+7699",
-      "growthValue": 7699,
+      "totalStars": "45796",
+      "totalForks": "1362",
+      "growth": "+8361",
+      "growthValue": 8361,
       "rank": 6
     },
     {
@@ -71,10 +71,10 @@
       "link": "https://github.com/iptv-org/iptv",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "language": "TypeScript",
-      "totalStars": "129863",
-      "totalForks": "7199",
-      "growth": "+7063",
-      "growthValue": 7063,
+      "totalStars": "129908",
+      "totalForks": "7202",
+      "growth": "+7108",
+      "growthValue": 7108,
       "rank": 7
     },
     {
@@ -82,10 +82,10 @@
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "totalStars": "95054",
-      "totalForks": "13808",
-      "growth": "+6787",
-      "growthValue": 6787,
+      "totalStars": "95133",
+      "totalForks": "13827",
+      "growth": "+6866",
+      "growthValue": 6866,
       "rank": 8
     },
     {
@@ -93,10 +93,10 @@
       "link": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "totalStars": "48325",
-      "totalForks": "3999",
-      "growth": "+5496",
-      "growthValue": 5496,
+      "totalStars": "48390",
+      "totalForks": "4003",
+      "growth": "+5561",
+      "growthValue": 5561,
       "rank": 9
     },
     {
@@ -104,10 +104,10 @@
       "link": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
       "language": "JavaScript",
-      "totalStars": "47726",
-      "totalForks": "7784",
-      "growth": "+5289",
-      "growthValue": 5289,
+      "totalStars": "47772",
+      "totalForks": "7786",
+      "growth": "+5335",
+      "growthValue": 5335,
       "rank": 10
     },
     {
@@ -115,10 +115,10 @@
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "language": "TypeScript",
-      "totalStars": "10505",
-      "totalForks": "702",
-      "growth": "+4208",
-      "growthValue": 4208,
+      "totalStars": "10694",
+      "totalForks": "713",
+      "growth": "+4397",
+      "growthValue": 4397,
       "rank": 11
     },
     {
@@ -126,10 +126,10 @@
       "link": "https://github.com/ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
-      "totalStars": "9791",
-      "totalForks": "572",
-      "growth": "+4002",
-      "growthValue": 4002,
+      "totalStars": "9903",
+      "totalForks": "584",
+      "growth": "+4114",
+      "growthValue": 4114,
       "rank": 12
     },
     {
@@ -137,43 +137,43 @@
       "link": "https://github.com/phuryn/pm-skills",
       "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "language": "",
-      "totalStars": "22097",
-      "totalForks": "2223",
-      "growth": "+3520",
-      "growthValue": 3520,
+      "totalStars": "22140",
+      "totalForks": "2226",
+      "growth": "+3563",
+      "growthValue": 3563,
       "rank": 13
-    },
-    {
-      "name": "tashfeenahmed/freellmapi",
-      "link": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "totalStars": "14667",
-      "totalForks": "2144",
-      "growth": "+3341",
-      "growthValue": 3341,
-      "rank": 14
     },
     {
       "name": "lfnovo/open-notebook",
       "link": "https://github.com/lfnovo/open-notebook",
       "description": "An Open Source implementation of Notebook LM with more flexibility and features",
       "language": "TypeScript",
-      "totalStars": "34394",
-      "totalForks": "3835",
-      "growth": "+3289",
-      "growthValue": 3289,
-      "rank": 15
+      "totalStars": "34432",
+      "totalForks": "3837",
+      "growth": "+3327",
+      "growthValue": 3327,
+      "rank": 14
     },
     {
       "name": "OpenCut-app/OpenCut",
       "link": "https://github.com/OpenCut-app/OpenCut",
       "description": "The open-source CapCut alternative",
       "language": "TypeScript",
-      "totalStars": "61193",
-      "totalForks": "6595",
-      "growth": "+2362",
-      "growthValue": 2362,
+      "totalStars": "61256",
+      "totalForks": "6600",
+      "growth": "+2425",
+      "growthValue": 2425,
+      "rank": 15
+    },
+    {
+      "name": "alibaba/zvec",
+      "link": "https://github.com/alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "totalStars": "12694",
+      "totalForks": "756",
+      "growth": "+2272",
+      "growthValue": 2272,
       "rank": 16
     },
     {
@@ -181,10 +181,10 @@
       "link": "https://github.com/roboflow/supervision",
       "description": "We write your reusable computer vision tools. 💜",
       "language": "Python",
-      "totalStars": "46197",
-      "totalForks": "4099",
-      "growth": "+1855",
-      "growthValue": 1855,
+      "totalStars": "46224",
+      "totalForks": "4103",
+      "growth": "+1882",
+      "growthValue": 1882,
       "rank": 17
     },
     {
@@ -192,10 +192,10 @@
       "link": "https://github.com/n0-computer/iroh",
       "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
       "language": "Rust",
-      "totalStars": "10989",
-      "totalForks": "508",
-      "growth": "+1733",
-      "growthValue": 1733,
+      "totalStars": "10994",
+      "totalForks": "509",
+      "growth": "+1738",
+      "growthValue": 1738,
       "rank": 18
     },
     {
@@ -203,10 +203,10 @@
       "link": "https://github.com/openai/plugins",
       "description": "OpenAI Plugins",
       "language": "JavaScript",
-      "totalStars": "3897",
-      "totalForks": "456",
-      "growth": "+814",
-      "growthValue": 814,
+      "totalStars": "3907",
+      "totalForks": "457",
+      "growth": "+824",
+      "growthValue": 824,
       "rank": 19
     },
     {
@@ -214,12 +214,12 @@
       "link": "https://github.com/t8y2/dbx",
       "description": "15MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.15MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
       "language": "Rust",
-      "totalStars": "8139",
-      "totalForks": "698",
-      "growth": "+92",
-      "growthValue": 92,
+      "totalStars": "8188",
+      "totalForks": "703",
+      "growth": "+141",
+      "growthValue": 141,
       "rank": 20
     }
   ],
-  "lastUpdated": "2026-07-02 06:44"
+  "lastUpdated": "2026-07-02 11:37"
 }
