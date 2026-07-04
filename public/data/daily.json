@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "mattpocock/skills",
+      "link": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "156005",
+      "totalForks": "13429",
+      "growth": "+156005",
+      "growthValue": 156005,
+      "rank": 1
+    },
+    {
+      "name": "immich-app/immich",
+      "link": "https://github.com/immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "totalStars": "105357",
+      "totalForks": "6013",
+      "growth": "+105357",
+      "growthValue": 105357,
+      "rank": 2
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "link": "https://github.com/alirezarezvani/claude-skills",
+      "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "language": "Python",
+      "totalStars": "19898",
+      "totalForks": "2733",
+      "growth": "+19898",
+      "growthValue": 19898,
+      "rank": 3
+    },
+    {
+      "name": "Zackriya-Solutions/meetily",
+      "link": "https://github.com/Zackriya-Solutions/meetily",
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai -https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
+      "language": "Rust",
+      "totalStars": "14380",
+      "totalForks": "1592",
+      "growth": "+14380",
+      "growthValue": 14380,
+      "rank": 4
+    },
+    {
+      "name": "CoplayDev/unity-mcp",
+      "link": "https://github.com/CoplayDev/unity-mcp",
+      "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
+      "language": "C#",
+      "totalStars": "11357",
+      "totalForks": "1246",
+      "growth": "+11357",
+      "growthValue": 11357,
+      "rank": 5
+    },
+    {
+      "name": "crynta/terax-ai",
+      "link": "https://github.com/crynta/terax-ai",
+      "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+      "language": "TypeScript",
+      "totalStars": "7894",
+      "totalForks": "856",
+      "growth": "+7894",
+      "growthValue": 7894,
+      "rank": 6
+    },
+    {
+      "name": "dotnet/skills",
+      "link": "https://github.com/dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "language": "C#",
+      "totalStars": "3660",
+      "totalForks": "278",
+      "growth": "+3660",
+      "growthValue": 3660,
+      "rank": 7
+    },
+    {
       "name": "usestrix/strix",
       "link": "https://github.com/usestrix/strix",
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "language": "Python",
-      "totalStars": "34976",
-      "totalForks": "3573",
-      "growth": "+490",
-      "growthValue": 490,
-      "rank": 1
+      "totalStars": "35414",
+      "totalForks": "3617",
+      "growth": "+928",
+      "growthValue": 928,
+      "rank": 8
     },
     {
-      "name": "facebook/astryx",
-      "link": "https://github.com/facebook/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
+      "name": "chthollyphile/folia-major",
+      "link": "https://github.com/chthollyphile/folia-major",
+      "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方网易云播放器",
       "language": "TypeScript",
-      "totalStars": "4857",
-      "totalForks": "284",
-      "growth": "+333",
-      "growthValue": 333,
-      "rank": 2
+      "totalStars": "911",
+      "totalForks": "58",
+      "growth": "+911",
+      "growthValue": 911,
+      "rank": 9
     },
     {
       "name": "JuliusBrussee/caveman",
       "link": "https://github.com/JuliusBrussee/caveman",
       "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "language": "JavaScript",
-      "totalStars": "83140",
-      "totalForks": "4639",
-      "growth": "+286",
-      "growthValue": 286,
-      "rank": 3
-    },
-    {
-      "name": "openai/codex-plugin-cc",
-      "link": "https://github.com/openai/codex-plugin-cc",
-      "description": "Use Codex from Claude Code to review code or delegate tasks.",
-      "language": "JavaScript",
-      "totalStars": "23390",
-      "totalForks": "1428",
-      "growth": "+231",
-      "growthValue": 231,
-      "rank": 4
-    },
-    {
-      "name": "ogulcancelik/herdr",
-      "link": "https://github.com/ogulcancelik/herdr",
-      "description": "agent multiplexer that lives in your terminal.",
-      "language": "Rust",
-      "totalStars": "10928",
-      "totalForks": "643",
-      "growth": "+220",
-      "growthValue": 220,
-      "rank": 5
-    },
-    {
-      "name": "msitarzewski/agency-agents",
-      "link": "https://github.com/msitarzewski/agency-agents",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "language": "Shell",
-      "totalStars": "126651",
-      "totalForks": "20550",
-      "growth": "+219",
-      "growthValue": 219,
-      "rank": 6
-    },
-    {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "245692",
-      "totalForks": "21783",
-      "growth": "+208",
-      "growthValue": 208,
-      "rank": 7
-    },
-    {
-      "name": "harvard-edge/cs249r_book",
-      "link": "https://github.com/harvard-edge/cs249r_book",
-      "description": "Machine Learning Systems",
-      "language": "Python",
-      "totalStars": "26280",
-      "totalForks": "3142",
-      "growth": "+155",
-      "growthValue": 155,
-      "rank": 8
-    },
-    {
-      "name": "supabase/supabase",
-      "link": "https://github.com/supabase/supabase",
-      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "language": "TypeScript",
-      "totalStars": "105574",
-      "totalForks": "12976",
-      "growth": "+150",
-      "growthValue": 150,
-      "rank": 9
-    },
-    {
-      "name": "anthropics/claude-code",
-      "link": "https://github.com/anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "Python",
-      "totalStars": "135925",
-      "totalForks": "21863",
-      "growth": "+120",
-      "growthValue": 120,
+      "totalStars": "83374",
+      "totalForks": "4655",
+      "growth": "+520",
+      "growthValue": 520,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-04 06:23"
+  "lastUpdated": "2026-07-04 10:55"
 }
