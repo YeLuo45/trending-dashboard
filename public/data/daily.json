@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "usestrix/strix",
-      "link": "https://github.com/usestrix/strix",
-      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-      "language": "Python",
-      "totalStars": "35937",
-      "totalForks": "3647",
-      "growth": "+1451",
-      "growthValue": 1451,
-      "rank": 1
-    },
-    {
       "name": "openai/codex-plugin-cc",
       "link": "https://github.com/openai/codex-plugin-cc",
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "language": "JavaScript",
-      "totalStars": "24270",
-      "totalForks": "1479",
-      "growth": "+1111",
-      "growthValue": 1111,
-      "rank": 2
-    },
-    {
-      "name": "JuliusBrussee/caveman",
-      "link": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-      "language": "JavaScript",
-      "totalStars": "83864",
-      "totalForks": "4674",
-      "growth": "+1010",
-      "growthValue": 1010,
-      "rank": 3
-    },
-    {
-      "name": "asgeirtj/system_prompts_leaks",
-      "link": "https://github.com/asgeirtj/system_prompts_leaks",
-      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-      "language": "JavaScript",
-      "totalStars": "48839",
-      "totalForks": "7965",
-      "growth": "+675",
-      "growthValue": 675,
-      "rank": 4
-    },
-    {
-      "name": "alibaba/page-agent",
-      "link": "https://github.com/alibaba/page-agent",
-      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-      "language": "TypeScript",
-      "totalStars": "23047",
-      "totalForks": "2003",
-      "growth": "+671",
-      "growthValue": 671,
-      "rank": 5
-    },
-    {
-      "name": "ogulcancelik/herdr",
-      "link": "https://github.com/ogulcancelik/herdr",
-      "description": "agent multiplexer that lives in your terminal.",
-      "language": "Rust",
-      "totalStars": "11372",
-      "totalForks": "668",
-      "growth": "+664",
-      "growthValue": 664,
-      "rank": 6
-    },
-    {
-      "name": "harvard-edge/cs249r_book",
-      "link": "https://github.com/harvard-edge/cs249r_book",
-      "description": "Machine Learning Systems",
-      "language": "Python",
-      "totalStars": "26529",
-      "totalForks": "3164",
-      "growth": "+404",
-      "growthValue": 404,
-      "rank": 7
-    },
-    {
-      "name": "rommapp/romm",
-      "link": "https://github.com/rommapp/romm",
-      "description": "A beautiful, powerful, self-hosted rom manager and player.",
-      "language": "Python",
-      "totalStars": "10167",
-      "totalForks": "493",
-      "growth": "+392",
-      "growthValue": 392,
-      "rank": 8
+      "totalStars": "24807",
+      "totalForks": "1502",
+      "growth": "+537",
+      "growthValue": 537,
+      "rank": 1
     },
     {
       "name": "Zackriya-Solutions/meetily",
       "link": "https://github.com/Zackriya-Solutions/meetily",
       "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai -https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
       "language": "Rust",
-      "totalStars": "15132",
-      "totalForks": "1657",
-      "growth": "+386",
-      "growthValue": 386,
+      "totalStars": "15523",
+      "totalForks": "1688",
+      "growth": "+391",
+      "growthValue": 391,
+      "rank": 2
+    },
+    {
+      "name": "usestrix/strix",
+      "link": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "totalStars": "36316",
+      "totalForks": "3680",
+      "growth": "+379",
+      "growthValue": 379,
+      "rank": 3
+    },
+    {
+      "name": "JuliusBrussee/caveman",
+      "link": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "JavaScript",
+      "totalStars": "84195",
+      "totalForks": "4698",
+      "growth": "+331",
+      "growthValue": 331,
+      "rank": 4
+    },
+    {
+      "name": "mattpocock/skills",
+      "link": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "156809",
+      "totalForks": "13489",
+      "growth": "+318",
+      "growthValue": 318,
+      "rank": 5
+    },
+    {
+      "name": "asgeirtj/system_prompts_leaks",
+      "link": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "language": "JavaScript",
+      "totalStars": "49115",
+      "totalForks": "8014",
+      "growth": "+276",
+      "growthValue": 276,
+      "rank": 6
+    },
+    {
+      "name": "alibaba/page-agent",
+      "link": "https://github.com/alibaba/page-agent",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "language": "TypeScript",
+      "totalStars": "23300",
+      "totalForks": "2015",
+      "growth": "+253",
+      "growthValue": 253,
+      "rank": 7
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "link": "https://github.com/ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "totalStars": "11589",
+      "totalForks": "680",
+      "growth": "+216",
+      "growthValue": 216,
+      "rank": 8
+    },
+    {
+      "name": "immich-app/immich",
+      "link": "https://github.com/immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "totalStars": "105737",
+      "totalForks": "6035",
+      "growth": "+152",
+      "growthValue": 152,
       "rank": 9
     },
     {
-      "name": "agentskills/agentskills",
-      "link": "https://github.com/agentskills/agentskills",
-      "description": "Specification and documentation for Agent Skills",
-      "language": "Python",
-      "totalStars": "22295",
-      "totalForks": "1409",
-      "growth": "+334",
-      "growthValue": 334,
+      "name": "CoplayDev/unity-mcp",
+      "link": "https://github.com/CoplayDev/unity-mcp",
+      "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
+      "language": "C#",
+      "totalStars": "11691",
+      "totalForks": "1268",
+      "growth": "+129",
+      "growthValue": 129,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-04 22:01"
+  "lastUpdated": "2026-07-05 06:44"
 }
