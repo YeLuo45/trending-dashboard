@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "sindresorhus/awesome",
-      "link": "https://github.com/sindresorhus/awesome",
-      "description": "😎 Awesome lists about all kinds of interesting topics",
-      "language": "",
-      "totalStars": "482009",
-      "totalForks": "35716",
-      "growth": "+482009",
-      "growthValue": 482009,
-      "rank": 1
-    },
-    {
-      "name": "firecrawl/firecrawl",
-      "link": "https://github.com/firecrawl/firecrawl",
-      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "language": "TypeScript",
-      "totalStars": "145658",
-      "totalForks": "8386",
-      "growth": "+145658",
-      "growthValue": 145658,
-      "rank": 2
-    },
-    {
-      "name": "addyosmani/agent-skills",
-      "link": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "Shell",
-      "totalStars": "70311",
-      "totalForks": "7618",
-      "growth": "+70311",
-      "growthValue": 70311,
-      "rank": 3
-    },
-    {
-      "name": "karakeep-app/karakeep",
-      "link": "https://github.com/karakeep-app/karakeep",
-      "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
-      "language": "TypeScript",
-      "totalStars": "26694",
-      "totalForks": "1311",
-      "growth": "+26694",
-      "growthValue": 26694,
-      "rank": 4
-    },
-    {
-      "name": "alibaba/zvec",
-      "link": "https://github.com/alibaba/zvec",
-      "description": "A lightweight, lightning-fast, in-process vector database",
-      "language": "C++",
-      "totalStars": "13180",
-      "totalForks": "794",
-      "growth": "+13180",
-      "growthValue": 13180,
-      "rank": 5
-    },
-    {
-      "name": "bradautomates/claude-video",
-      "link": "https://github.com/bradautomates/claude-video",
-      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-      "language": "Python",
-      "totalStars": "3809",
-      "totalForks": "570",
-      "growth": "+3809",
-      "growthValue": 3809,
-      "rank": 6
-    },
-    {
       "name": "Zackriya-Solutions/meetily",
       "link": "https://github.com/Zackriya-Solutions/meetily",
       "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai -https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
       "language": "Rust",
-      "totalStars": "18363",
-      "totalForks": "1880",
-      "growth": "+1590",
-      "growthValue": 1590,
-      "rank": 7
-    },
-    {
-      "name": "Leonxlnx/taste-skill",
-      "link": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "language": "JavaScript",
-      "totalStars": "58346",
-      "totalForks": "3982",
-      "growth": "+976",
-      "growthValue": 976,
-      "rank": 8
+      "totalStars": "18926",
+      "totalForks": "1920",
+      "growth": "+2153",
+      "growthValue": 2153,
+      "rank": 1
     },
     {
       "name": "asgeirtj/system_prompts_leaks",
       "link": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
       "language": "JavaScript",
-      "totalStars": "50782",
-      "totalForks": "8285",
-      "growth": "+945",
-      "growthValue": 945,
-      "rank": 9
+      "totalStars": "51135",
+      "totalForks": "8337",
+      "growth": "+1298",
+      "growthValue": 1298,
+      "rank": 2
+    },
+    {
+      "name": "Leonxlnx/taste-skill",
+      "link": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "JavaScript",
+      "totalStars": "58661",
+      "totalForks": "3999",
+      "growth": "+1291",
+      "growthValue": 1291,
+      "rank": 3
     },
     {
       "name": "openai/codex-plugin-cc",
       "link": "https://github.com/openai/codex-plugin-cc",
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "language": "JavaScript",
-      "totalStars": "26022",
-      "totalForks": "1559",
-      "growth": "+635",
-      "growthValue": 635,
+      "totalStars": "26168",
+      "totalForks": "1569",
+      "growth": "+781",
+      "growthValue": 781,
+      "rank": 4
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "link": "https://github.com/ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "totalStars": "12704",
+      "totalForks": "739",
+      "growth": "+703",
+      "growthValue": 703,
+      "rank": 5
+    },
+    {
+      "name": "ruvnet/RuView",
+      "link": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "totalStars": "77274",
+      "totalForks": "10375",
+      "growth": "+590",
+      "growthValue": 590,
+      "rank": 6
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "link": "https://github.com/alirezarezvani/claude-skills",
+      "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "language": "Python",
+      "totalStars": "21037",
+      "totalForks": "2830",
+      "growth": "+544",
+      "growthValue": 544,
+      "rank": 7
+    },
+    {
+      "name": "steipete/CodexBar",
+      "link": "https://github.com/steipete/CodexBar",
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "language": "Swift",
+      "totalStars": "16656",
+      "totalForks": "1371",
+      "growth": "+526",
+      "growthValue": 526,
+      "rank": 8
+    },
+    {
+      "name": "mvanhorn/last30days-skill",
+      "link": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "totalStars": "49615",
+      "totalForks": "4130",
+      "growth": "+483",
+      "growthValue": 483,
+      "rank": 9
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "link": "https://github.com/firecrawl/firecrawl",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "language": "TypeScript",
+      "totalStars": "145955",
+      "totalForks": "8398",
+      "growth": "+297",
+      "growthValue": 297,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-06 12:52"
+  "lastUpdated": "2026-07-06 17:46"
 }
