@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "iOfficeAI/OfficeCLI",
+      "link": "https://github.com/iOfficeAI/OfficeCLI",
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "language": "C#",
+      "totalStars": "9234",
+      "totalForks": "651",
+      "growth": "+9234",
+      "growthValue": 9234,
+      "rank": 1
+    },
+    {
+      "name": "MadsLorentzen/ai-job-search",
+      "link": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+      "language": "TypeScript",
+      "totalStars": "8290",
+      "totalForks": "3084",
+      "growth": "+8290",
+      "growthValue": 8290,
+      "rank": 2
+    },
+    {
+      "name": "TencentCloud/CubeSandbox",
+      "link": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Rust",
+      "totalStars": "8151",
+      "totalForks": "679",
+      "growth": "+8151",
+      "growthValue": 8151,
+      "rank": 3
+    },
+    {
+      "name": "kyutai-labs/pocket-tts",
+      "link": "https://github.com/kyutai-labs/pocket-tts",
+      "description": "A TTS that fits in your CPU (and pocket)",
+      "language": "Python",
+      "totalStars": "5694",
+      "totalForks": "609",
+      "growth": "+5694",
+      "growthValue": 5694,
+      "rank": 4
+    },
+    {
+      "name": "AhmadIbrahiim/Website-downloader",
+      "link": "https://github.com/AhmadIbrahiim/Website-downloader",
+      "description": "💡 Download the complete source code of any website (including all assets). [ Javascripts, Stylesheets, Images ] using Node.js",
+      "language": "HTML",
+      "totalStars": "3591",
+      "totalForks": "961",
+      "growth": "+3591",
+      "growthValue": 3591,
+      "rank": 5
+    },
+    {
       "name": "asgeirtj/system_prompts_leaks",
       "link": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
       "language": "JavaScript",
-      "totalStars": "52010",
-      "totalForks": "8476",
-      "growth": "+616",
-      "growthValue": 616,
-      "rank": 1
-    },
-    {
-      "name": "Leonxlnx/taste-skill",
-      "link": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "language": "JavaScript",
-      "totalStars": "59395",
-      "totalForks": "4035",
-      "growth": "+556",
-      "growthValue": 556,
-      "rank": 2
+      "totalStars": "52395",
+      "totalForks": "8530",
+      "growth": "+1001",
+      "growthValue": 1001,
+      "rank": 6
     },
     {
       "name": "Zackriya-Solutions/meetily",
       "link": "https://github.com/Zackriya-Solutions/meetily",
       "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai -https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
       "language": "Rust",
-      "totalStars": "19767",
-      "totalForks": "1992",
-      "growth": "+531",
-      "growthValue": 531,
-      "rank": 3
-    },
-    {
-      "name": "firecrawl/firecrawl",
-      "link": "https://github.com/firecrawl/firecrawl",
-      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "language": "TypeScript",
-      "totalStars": "146622",
-      "totalForks": "8435",
-      "growth": "+473",
-      "growthValue": 473,
-      "rank": 4
+      "totalStars": "20056",
+      "totalForks": "2012",
+      "growth": "+820",
+      "growthValue": 820,
+      "rank": 7
     },
     {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "71179",
-      "totalForks": "7709",
-      "growth": "+458",
-      "growthValue": 458,
-      "rank": 5
+      "totalStars": "71538",
+      "totalForks": "7743",
+      "growth": "+817",
+      "growthValue": 817,
+      "rank": 8
     },
     {
       "name": "ruvnet/RuView",
       "link": "https://github.com/ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
-      "totalStars": "77818",
-      "totalForks": "10457",
-      "growth": "+366",
-      "growthValue": 366,
-      "rank": 6
+      "totalStars": "78053",
+      "totalForks": "10504",
+      "growth": "+601",
+      "growthValue": 601,
+      "rank": 9
     },
     {
       "name": "bradautomates/claude-video",
       "link": "https://github.com/bradautomates/claude-video",
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
       "language": "Python",
-      "totalStars": "4506",
-      "totalForks": "622",
-      "growth": "+346",
-      "growthValue": 346,
-      "rank": 7
-    },
-    {
-      "name": "mvanhorn/last30days-skill",
-      "link": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "language": "Python",
-      "totalStars": "49974",
-      "totalForks": "4163",
-      "growth": "+286",
-      "growthValue": 286,
-      "rank": 8
-    },
-    {
-      "name": "sindresorhus/awesome",
-      "link": "https://github.com/sindresorhus/awesome",
-      "description": "😎 Awesome lists about all kinds of interesting topics",
-      "language": "",
-      "totalStars": "482492",
-      "totalForks": "35744",
-      "growth": "+260",
-      "growthValue": 260,
-      "rank": 9
-    },
-    {
-      "name": "ogulcancelik/herdr",
-      "link": "https://github.com/ogulcancelik/herdr",
-      "description": "agent multiplexer that lives in your terminal.",
-      "language": "Rust",
-      "totalStars": "13040",
-      "totalForks": "756",
-      "growth": "+227",
-      "growthValue": 227,
+      "totalStars": "4732",
+      "totalForks": "633",
+      "growth": "+572",
+      "growthValue": 572,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-07 06:50"
+  "lastUpdated": "2026-07-07 11:54"
 }
