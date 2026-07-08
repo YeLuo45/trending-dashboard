@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "249350",
-      "totalForks": "22131",
-      "growth": "+249350",
-      "growthValue": 249350,
-      "rank": 1
-    },
-    {
-      "name": "prisma/prisma",
-      "link": "https://github.com/prisma/prisma",
-      "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
-      "language": "TypeScript",
-      "totalStars": "46369",
-      "totalForks": "2270",
-      "growth": "+46369",
-      "growthValue": 46369,
-      "rank": 2
-    },
-    {
-      "name": "argoproj/argo-cd",
-      "link": "https://github.com/argoproj/argo-cd",
-      "description": "Declarative Continuous Deployment for Kubernetes",
-      "language": "Go",
-      "totalStars": "23352",
-      "totalForks": "7422",
-      "growth": "+23352",
-      "growthValue": 23352,
-      "rank": 3
-    },
-    {
-      "name": "Diolinux/PhotoGIMP",
-      "link": "https://github.com/Diolinux/PhotoGIMP",
-      "description": "A Patch for GIMP 3+ for Photoshop Users",
-      "language": "CSS",
-      "totalStars": "14559",
-      "totalForks": "567",
-      "growth": "+14559",
-      "growthValue": 14559,
-      "rank": 4
-    },
-    {
-      "name": "TencentCloud/TencentDB-Agent-Memory",
-      "link": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
-      "language": "TypeScript",
-      "totalStars": "7300",
-      "totalForks": "685",
-      "growth": "+7300",
-      "growthValue": 7300,
-      "rank": 5
-    },
-    {
-      "name": "wonderwhy-er/DesktopCommanderMCP",
-      "link": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-      "language": "TypeScript",
-      "totalStars": "6276",
-      "totalForks": "742",
-      "growth": "+6276",
-      "growthValue": 6276,
-      "rank": 6
-    },
-    {
       "name": "MadsLorentzen/ai-job-search",
       "link": "https://github.com/MadsLorentzen/ai-job-search",
       "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
       "language": "TypeScript",
-      "totalStars": "13195",
-      "totalForks": "4157",
-      "growth": "+2678",
-      "growthValue": 2678,
-      "rank": 7
+      "totalStars": "14451",
+      "totalForks": "4437",
+      "growth": "+3934",
+      "growthValue": 3934,
+      "rank": 1
+    },
+    {
+      "name": "huxingyi/autoremesher",
+      "link": "https://github.com/huxingyi/autoremesher",
+      "description": "Automatic quad remeshing tool",
+      "language": "C++",
+      "totalStars": "1888",
+      "totalForks": "144",
+      "growth": "+1888",
+      "growthValue": 1888,
+      "rank": 2
     },
     {
       "name": "iOfficeAI/OfficeCLI",
       "link": "https://github.com/iOfficeAI/OfficeCLI",
       "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
       "language": "C#",
-      "totalStars": "10895",
-      "totalForks": "729",
-      "growth": "+1067",
-      "growthValue": 1067,
-      "rank": 8
+      "totalStars": "11389",
+      "totalForks": "767",
+      "growth": "+1561",
+      "growthValue": 1561,
+      "rank": 3
     },
     {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "72728",
-      "totalForks": "7869",
-      "growth": "+681",
-      "growthValue": 681,
-      "rank": 9
+      "totalStars": "73380",
+      "totalForks": "7930",
+      "growth": "+1333",
+      "growthValue": 1333,
+      "rank": 4
     },
     {
       "name": "asgeirtj/system_prompts_leaks",
       "link": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
       "language": "JavaScript",
-      "totalStars": "53557",
-      "totalForks": "8728",
-      "growth": "+672",
-      "growthValue": 672,
+      "totalStars": "53853",
+      "totalForks": "8776",
+      "growth": "+968",
+      "growthValue": 968,
+      "rank": 5
+    },
+    {
+      "name": "bradautomates/claude-video",
+      "link": "https://github.com/bradautomates/claude-video",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "totalStars": "5855",
+      "totalForks": "700",
+      "growth": "+764",
+      "growthValue": 764,
+      "rank": 6
+    },
+    {
+      "name": "ruvnet/RuView",
+      "link": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "totalStars": "78956",
+      "totalForks": "10622",
+      "growth": "+507",
+      "growthValue": 507,
+      "rank": 7
+    },
+    {
+      "name": "TencentCloud/CubeSandbox",
+      "link": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Rust",
+      "totalStars": "8818",
+      "totalForks": "732",
+      "growth": "+400",
+      "growthValue": 400,
+      "rank": 8
+    },
+    {
+      "name": "Diolinux/PhotoGIMP",
+      "link": "https://github.com/Diolinux/PhotoGIMP",
+      "description": "A Patch for GIMP 3+ for Photoshop Users",
+      "language": "CSS",
+      "totalStars": "14868",
+      "totalForks": "589",
+      "growth": "+309",
+      "growthValue": 309,
+      "rank": 9
+    },
+    {
+      "name": "alibaba/zvec",
+      "link": "https://github.com/alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "totalStars": "14297",
+      "totalForks": "881",
+      "growth": "+300",
+      "growthValue": 300,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-08 11:08"
+  "lastUpdated": "2026-07-08 16:42"
 }
