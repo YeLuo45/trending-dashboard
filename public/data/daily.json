@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "VoltAgent/awesome-design-md",
+      "link": "https://github.com/VoltAgent/awesome-design-md",
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "language": "",
+      "totalStars": "99027",
+      "totalForks": "11531",
+      "growth": "+99027",
+      "growthValue": 99027,
+      "rank": 1
+    },
+    {
+      "name": "unclecode/crawl4ai",
+      "link": "https://github.com/unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here:https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "totalStars": "71608",
+      "totalForks": "7361",
+      "growth": "+71608",
+      "growthValue": 71608,
+      "rank": 2
+    },
+    {
+      "name": "anthropics/claude-cookbooks",
+      "link": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "totalStars": "46839",
+      "totalForks": "5543",
+      "growth": "+46839",
+      "growthValue": 46839,
+      "rank": 3
+    },
+    {
+      "name": "imthenachoman/How-To-Secure-A-Linux-Server",
+      "link": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server",
+      "description": "An evolving how-to guide for securing a Linux server.",
+      "language": "",
+      "totalStars": "28825",
+      "totalForks": "1927",
+      "growth": "+28825",
+      "growthValue": 28825,
+      "rank": 4
+    },
+    {
+      "name": "vxcontrol/pentagi",
+      "link": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "totalStars": "19061",
+      "totalForks": "2600",
+      "growth": "+19061",
+      "growthValue": 19061,
+      "rank": 5
+    },
+    {
+      "name": "MadsLorentzen/ai-job-search",
+      "link": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+      "language": "TypeScript",
+      "totalStars": "17091",
+      "totalForks": "5062",
+      "growth": "+2640",
+      "growthValue": 2640,
+      "rank": 6
+    },
+    {
+      "name": "SmartlyDressedGames/U3-SDK",
+      "link": "https://github.com/SmartlyDressedGames/U3-SDK",
+      "description": "Source code for Unturned, a free open-world zombie survival sandbox game.",
+      "language": "C#",
+      "totalStars": "1749",
+      "totalForks": "224",
+      "growth": "+1749",
+      "growthValue": 1749,
+      "rank": 7
+    },
+    {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "74811",
-      "totalForks": "8063",
-      "growth": "+945",
-      "growthValue": 945,
-      "rank": 1
+      "totalStars": "75372",
+      "totalForks": "8109",
+      "growth": "+1506",
+      "growthValue": 1506,
+      "rank": 8
     },
     {
       "name": "iOfficeAI/OfficeCLI",
       "link": "https://github.com/iOfficeAI/OfficeCLI",
       "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
       "language": "C#",
-      "totalStars": "12439",
-      "totalForks": "838",
-      "growth": "+773",
-      "growthValue": 773,
-      "rank": 2
-    },
-    {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "250164",
-      "totalForks": "22199",
-      "growth": "+405",
-      "growthValue": 405,
-      "rank": 3
+      "totalStars": "12871",
+      "totalForks": "868",
+      "growth": "+1205",
+      "growthValue": 1205,
+      "rank": 9
     },
     {
       "name": "asgeirtj/system_prompts_leaks",
       "link": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
       "language": "JavaScript",
-      "totalStars": "54496",
-      "totalForks": "8868",
-      "growth": "+404",
-      "growthValue": 404,
-      "rank": 4
-    },
-    {
-      "name": "mvanhorn/last30days-skill",
-      "link": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "language": "Python",
-      "totalStars": "50952",
-      "totalForks": "4253",
-      "growth": "+256",
-      "growthValue": 256,
-      "rank": 5
-    },
-    {
-      "name": "ruvnet/RuView",
-      "link": "https://github.com/ruvnet/RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "language": "Rust",
-      "totalStars": "79344",
-      "totalForks": "10667",
-      "growth": "+253",
-      "growthValue": 253,
-      "rank": 6
-    },
-    {
-      "name": "TencentCloud/TencentDB-Agent-Memory",
-      "link": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
-      "language": "TypeScript",
-      "totalStars": "7829",
-      "totalForks": "722",
-      "growth": "+242",
-      "growthValue": 242,
-      "rank": 7
-    },
-    {
-      "name": "bradautomates/claude-video",
-      "link": "https://github.com/bradautomates/claude-video",
-      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-      "language": "Python",
-      "totalStars": "6232",
-      "totalForks": "735",
-      "growth": "+235",
-      "growthValue": 235,
-      "rank": 8
-    },
-    {
-      "name": "Diolinux/PhotoGIMP",
-      "link": "https://github.com/Diolinux/PhotoGIMP",
-      "description": "A Patch for GIMP 3+ for Photoshop Users",
-      "language": "CSS",
-      "totalStars": "15176",
-      "totalForks": "605",
-      "growth": "+189",
-      "growthValue": 189,
-      "rank": 9
-    },
-    {
-      "name": "TencentCloud/CubeSandbox",
-      "link": "https://github.com/TencentCloud/CubeSandbox",
-      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
-      "language": "Rust",
-      "totalStars": "9073",
-      "totalForks": "747",
-      "growth": "+181",
-      "growthValue": 181,
+      "totalStars": "54712",
+      "totalForks": "8908",
+      "growth": "+620",
+      "growthValue": 620,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-09 06:48"
+  "lastUpdated": "2026-07-09 12:09"
 }
