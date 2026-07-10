@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "obra/superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "251614",
+      "totalForks": "22449",
+      "growth": "+1450",
+      "growthValue": 1450,
+      "rank": 1
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "link": "https://github.com/iOfficeAI/OfficeCLI",
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "language": "C#",
+      "totalStars": "14258",
+      "totalForks": "964",
+      "growth": "+919",
+      "growthValue": 919,
+      "rank": 2
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "totalStars": "76619",
+      "totalForks": "8226",
+      "growth": "+824",
+      "growthValue": 824,
+      "rank": 3
+    },
+    {
+      "name": "wonderwhy-er/DesktopCommanderMCP",
+      "link": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "language": "TypeScript",
+      "totalStars": "7036",
+      "totalForks": "898",
+      "growth": "+476",
+      "growthValue": 476,
+      "rank": 4
+    },
+    {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "totalStars": "163932",
-      "totalForks": "14109",
-      "growth": "+163932",
-      "growthValue": 163932,
-      "rank": 1
+      "totalStars": "164312",
+      "totalForks": "14137",
+      "growth": "+380",
+      "growthValue": 380,
+      "rank": 5
     },
     {
-      "name": "vercel/next.js",
-      "link": "https://github.com/vercel/next.js",
-      "description": "The React Framework",
-      "language": "JavaScript",
-      "totalStars": "140575",
-      "totalForks": "31512",
-      "growth": "+140575",
-      "growthValue": 140575,
-      "rank": 2
-    },
-    {
-      "name": "microsoft/TypeScript",
-      "link": "https://github.com/microsoft/TypeScript",
-      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "name": "TencentCloud/TencentDB-Agent-Memory",
+      "link": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
       "language": "TypeScript",
-      "totalStars": "109716",
-      "totalForks": "13625",
-      "growth": "+109716",
-      "growthValue": 109716,
-      "rank": 3
+      "totalStars": "8141",
+      "totalForks": "749",
+      "growth": "+312",
+      "growthValue": 312,
+      "rank": 6
     },
     {
       "name": "oven-sh/bun",
       "link": "https://github.com/oven-sh/bun",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "language": "Rust",
-      "totalStars": "93878",
-      "totalForks": "4916",
-      "growth": "+93878",
-      "growthValue": 93878,
-      "rank": 4
-    },
-    {
-      "name": "hashicorp/terraform",
-      "link": "https://github.com/hashicorp/terraform",
-      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
-      "language": "Go",
-      "totalStars": "49045",
-      "totalForks": "10658",
-      "growth": "+49045",
-      "growthValue": 49045,
-      "rank": 5
-    },
-    {
-      "name": "grpc/grpc",
-      "link": "https://github.com/grpc/grpc",
-      "description": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
-      "language": "C++",
-      "totalStars": "45067",
-      "totalForks": "11314",
-      "growth": "+45067",
-      "growthValue": 45067,
-      "rank": 6
+      "totalStars": "94061",
+      "totalForks": "4928",
+      "growth": "+183",
+      "growthValue": 183,
+      "rank": 7
     },
     {
       "name": "tailscale/tailscale",
       "link": "https://github.com/tailscale/tailscale",
       "description": "The easiest, most secure way to use WireGuard and 2FA.",
       "language": "Go",
-      "totalStars": "33451",
-      "totalForks": "2899",
-      "growth": "+33451",
-      "growthValue": 33451,
-      "rank": 7
+      "totalStars": "33535",
+      "totalForks": "2905",
+      "growth": "+84",
+      "growthValue": 84,
+      "rank": 8
+    },
+    {
+      "name": "google-labs-code/stitch-skills",
+      "link": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "totalStars": "6633",
+      "totalForks": "918",
+      "growth": "+69",
+      "growthValue": 69,
+      "rank": 9
     },
     {
       "name": "davila7/claude-code-templates",
       "link": "https://github.com/davila7/claude-code-templates",
       "description": "CLI tool for configuring and monitoring Claude Code",
       "language": "Python",
-      "totalStars": "28640",
-      "totalForks": "3144",
-      "growth": "+28640",
-      "growthValue": 28640,
-      "rank": 8
-    },
-    {
-      "name": "catchorg/Catch2",
-      "link": "https://github.com/catchorg/Catch2",
-      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
-      "language": "C++",
-      "totalStars": "20568",
-      "totalForks": "3403",
-      "growth": "+20568",
-      "growthValue": 20568,
-      "rank": 9
-    },
-    {
-      "name": "abseil/abseil-cpp",
-      "link": "https://github.com/abseil/abseil-cpp",
-      "description": "Abseil Common Libraries (C++)",
-      "language": "C++",
-      "totalStars": "17467",
-      "totalForks": "3188",
-      "growth": "+17467",
-      "growthValue": 17467,
+      "totalStars": "28701",
+      "totalForks": "3149",
+      "growth": "+61",
+      "growthValue": 61,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-10 11:55"
+  "lastUpdated": "2026-07-10 16:59"
 }
