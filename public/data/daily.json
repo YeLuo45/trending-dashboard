@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "anthropics/claude-cookbooks",
-      "link": "https://github.com/anthropics/claude-cookbooks",
-      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-      "language": "Jupyter Notebook",
-      "totalStars": "48343",
-      "totalForks": "5723",
-      "growth": "+455",
-      "growthValue": 455,
-      "rank": 1
-    },
-    {
-      "name": "malisper/pgrust",
-      "link": "https://github.com/malisper/pgrust",
-      "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-      "language": "Rust",
-      "totalStars": "2419",
-      "totalForks": "65",
-      "growth": "+417",
-      "growthValue": 417,
-      "rank": 2
-    },
-    {
-      "name": "home-assistant/core",
-      "link": "https://github.com/home-assistant/core",
-      "description": "🏡 Open source home automation that puts local control and privacy first.",
-      "language": "Python",
-      "totalStars": "89013",
-      "totalForks": "38078",
-      "growth": "+370",
-      "growthValue": 370,
-      "rank": 3
-    },
-    {
       "name": "Dicklesworthstone/destructive_command_guard",
       "link": "https://github.com/Dicklesworthstone/destructive_command_guard",
       "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
       "language": "Rust",
-      "totalStars": "2765",
-      "totalForks": "105",
-      "growth": "+231",
-      "growthValue": 231,
-      "rank": 4
+      "totalStars": "3250",
+      "totalForks": "121",
+      "growth": "+485",
+      "growthValue": 485,
+      "rank": 1
+    },
+    {
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "language": "Python",
+      "totalStars": "118845",
+      "totalForks": "17664",
+      "growth": "+390",
+      "growthValue": 390,
+      "rank": 2
     },
     {
       "name": "HKUDS/Vibe-Trading",
       "link": "https://github.com/HKUDS/Vibe-Trading",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "language": "Python",
-      "totalStars": "20469",
-      "totalForks": "3588",
-      "growth": "+220",
-      "growthValue": 220,
-      "rank": 5
-    },
-    {
-      "name": "davila7/claude-code-templates",
-      "link": "https://github.com/davila7/claude-code-templates",
-      "description": "CLI tool for configuring and monitoring Claude Code",
-      "language": "Python",
-      "totalStars": "29209",
-      "totalForks": "3202",
-      "growth": "+220",
-      "growthValue": 220,
-      "rank": 6
-    },
-    {
-      "name": "wonderwhy-er/DesktopCommanderMCP",
-      "link": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-      "language": "TypeScript",
-      "totalStars": "7961",
-      "totalForks": "985",
-      "growth": "+215",
-      "growthValue": 215,
-      "rank": 7
-    },
-    {
-      "name": "k1tbyte/Wand-Enhancer",
-      "link": "https://github.com/k1tbyte/Wand-Enhancer",
-      "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
-      "language": "C#",
-      "totalStars": "6900",
-      "totalForks": "19354",
-      "growth": "+200",
-      "growthValue": 200,
-      "rank": 8
+      "totalStars": "20855",
+      "totalForks": "3634",
+      "growth": "+386",
+      "growthValue": 386,
+      "rank": 3
     },
     {
       "name": "Nutlope/hallmark",
       "link": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "totalStars": "4198",
-      "totalForks": "251",
-      "growth": "+147",
-      "growthValue": 147,
-      "rank": 9
+      "totalStars": "4485",
+      "totalForks": "257",
+      "growth": "+287",
+      "growthValue": 287,
+      "rank": 4
+    },
+    {
+      "name": "anthropics/claude-cookbooks",
+      "link": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "totalStars": "48582",
+      "totalForks": "5744",
+      "growth": "+239",
+      "growthValue": 239,
+      "rank": 5
+    },
+    {
+      "name": "home-assistant/core",
+      "link": "https://github.com/home-assistant/core",
+      "description": "🏡 Open source home automation that puts local control and privacy first.",
+      "language": "Python",
+      "totalStars": "89197",
+      "totalForks": "38086",
+      "growth": "+184",
+      "growthValue": 184,
+      "rank": 6
+    },
+    {
+      "name": "malisper/pgrust",
+      "link": "https://github.com/malisper/pgrust",
+      "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "language": "Rust",
+      "totalStars": "2594",
+      "totalForks": "74",
+      "growth": "+175",
+      "growthValue": 175,
+      "rank": 7
     },
     {
       "name": "par274/sharpemu",
       "link": "https://github.com/par274/sharpemu",
       "description": "An experimental PlayStation 5 emulator project.",
       "language": "C#",
-      "totalStars": "1202",
-      "totalForks": "71",
-      "growth": "+128",
-      "growthValue": 128,
+      "totalStars": "1370",
+      "totalForks": "84",
+      "growth": "+168",
+      "growthValue": 168,
+      "rank": 8
+    },
+    {
+      "name": "Crosstalk-Solutions/project-nomad",
+      "link": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "totalStars": "33910",
+      "totalForks": "3400",
+      "growth": "+152",
+      "growthValue": 152,
+      "rank": 9
+    },
+    {
+      "name": "k1tbyte/Wand-Enhancer",
+      "link": "https://github.com/k1tbyte/Wand-Enhancer",
+      "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
+      "language": "C#",
+      "totalStars": "7052",
+      "totalForks": "19716",
+      "growth": "+152",
+      "growthValue": 152,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-12 21:55"
+  "lastUpdated": "2026-07-13 06:23"
 }
