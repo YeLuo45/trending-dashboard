@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "github/spec-kit",
-      "link": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-      "language": "Python",
-      "totalStars": "120250",
-      "totalForks": "10669",
-      "growth": "+120250",
-      "growthValue": 120250,
-      "rank": 1
-    },
-    {
-      "name": "Graphify-Labs/graphify",
-      "link": "https://github.com/Graphify-Labs/graphify",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-      "language": "Python",
-      "totalStars": "83790",
-      "totalForks": "8267",
-      "growth": "+83790",
-      "growthValue": 83790,
-      "rank": 2
-    },
-    {
       "name": "OpenCut-app/OpenCut",
       "link": "https://github.com/OpenCut-app/OpenCut",
       "description": "The open-source CapCut alternative",
       "language": "TypeScript",
-      "totalStars": "64285",
-      "totalForks": "6882",
-      "growth": "+64285",
-      "growthValue": 64285,
-      "rank": 3
-    },
-    {
-      "name": "Raphire/Win11Debloat",
-      "link": "https://github.com/Raphire/Win11Debloat",
-      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
-      "language": "PowerShell",
-      "totalStars": "50512",
-      "totalForks": "2038",
-      "growth": "+50512",
-      "growthValue": 50512,
-      "rank": 4
-    },
-    {
-      "name": "moeru-ai/airi",
-      "link": "https://github.com/moeru-ai/airi",
-      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "language": "TypeScript",
-      "totalStars": "41663",
-      "totalForks": "4183",
-      "growth": "+41663",
-      "growthValue": 41663,
-      "rank": 5
-    },
-    {
-      "name": "coreyhaines31/marketingskills",
-      "link": "https://github.com/coreyhaines31/marketingskills",
-      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "language": "JavaScript",
-      "totalStars": "38096",
-      "totalForks": "6132",
-      "growth": "+38096",
-      "growthValue": 38096,
-      "rank": 6
-    },
-    {
-      "name": "hasaneyldrm/exercises-dataset",
-      "link": "https://github.com/hasaneyldrm/exercises-dataset",
-      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
-      "language": "HTML",
-      "totalStars": "12230",
-      "totalForks": "1433",
-      "growth": "+12230",
-      "growthValue": 12230,
-      "rank": 7
-    },
-    {
-      "name": "Dicklesworthstone/destructive_command_guard",
-      "link": "https://github.com/Dicklesworthstone/destructive_command_guard",
-      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
-      "language": "Rust",
-      "totalStars": "3600",
-      "totalForks": "132",
-      "growth": "+835",
-      "growthValue": 835,
-      "rank": 8
-    },
-    {
-      "name": "Shubhamsaboo/awesome-llm-apps",
-      "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-      "language": "Python",
-      "totalStars": "119189",
-      "totalForks": "17705",
-      "growth": "+734",
-      "growthValue": 734,
-      "rank": 9
+      "totalStars": "65353",
+      "totalForks": "6935",
+      "growth": "+1068",
+      "growthValue": 1068,
+      "rank": 1
     },
     {
       "name": "HKUDS/Vibe-Trading",
       "link": "https://github.com/HKUDS/Vibe-Trading",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "language": "Python",
-      "totalStars": "21183",
-      "totalForks": "3685",
-      "growth": "+714",
-      "growthValue": 714,
+      "totalStars": "21488",
+      "totalForks": "3725",
+      "growth": "+1019",
+      "growthValue": 1019,
+      "rank": 2
+    },
+    {
+      "name": "Dicklesworthstone/destructive_command_guard",
+      "link": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "language": "Rust",
+      "totalStars": "3756",
+      "totalForks": "139",
+      "growth": "+991",
+      "growthValue": 991,
+      "rank": 3
+    },
+    {
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "language": "Python",
+      "totalStars": "119395",
+      "totalForks": "17731",
+      "growth": "+940",
+      "growthValue": 940,
+      "rank": 4
+    },
+    {
+      "name": "Nutlope/hallmark",
+      "link": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "totalStars": "4913",
+      "totalForks": "270",
+      "growth": "+715",
+      "growthValue": 715,
+      "rank": 5
+    },
+    {
+      "name": "Graphify-Labs/graphify",
+      "link": "https://github.com/Graphify-Labs/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "language": "Python",
+      "totalStars": "84252",
+      "totalForks": "8305",
+      "growth": "+462",
+      "growthValue": 462,
+      "rank": 6
+    },
+    {
+      "name": "coreyhaines31/marketingskills",
+      "link": "https://github.com/coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "totalStars": "38327",
+      "totalForks": "6144",
+      "growth": "+231",
+      "growthValue": 231,
+      "rank": 7
+    },
+    {
+      "name": "hasaneyldrm/exercises-dataset",
+      "link": "https://github.com/hasaneyldrm/exercises-dataset",
+      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+      "language": "HTML",
+      "totalStars": "12444",
+      "totalForks": "1466",
+      "growth": "+214",
+      "growthValue": 214,
+      "rank": 8
+    },
+    {
+      "name": "github/spec-kit",
+      "link": "https://github.com/github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "totalStars": "120434",
+      "totalForks": "10677",
+      "growth": "+184",
+      "growthValue": 184,
+      "rank": 9
+    },
+    {
+      "name": "Raphire/Win11Debloat",
+      "link": "https://github.com/Raphire/Win11Debloat",
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+      "language": "PowerShell",
+      "totalStars": "50676",
+      "totalForks": "2040",
+      "growth": "+164",
+      "growthValue": 164,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-13 12:09"
+  "lastUpdated": "2026-07-13 17:15"
 }
