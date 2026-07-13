@@ -1,225 +1,214 @@
 {
   "projects": [
     {
-      "name": "MadsLorentzen/ai-job-search",
-      "link": "https://github.com/MadsLorentzen/ai-job-search",
-      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "language": "TypeScript",
-      "totalStars": "21769",
-      "totalForks": "6588",
-      "growth": "+11252",
-      "growthValue": 11252,
-      "rank": 1
-    },
-    {
       "name": "iOfficeAI/OfficeCLI",
       "link": "https://github.com/iOfficeAI/OfficeCLI",
       "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
       "language": "C#",
-      "totalStars": "15987",
-      "totalForks": "1081",
-      "growth": "+6159",
-      "growthValue": 6159,
-      "rank": 2
+      "totalStars": "16065",
+      "totalForks": "1087",
+      "growth": "+6237",
+      "growthValue": 6237,
+      "rank": 1
     },
     {
       "name": "asgeirtj/system_prompts_leaks",
       "link": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
       "language": "JavaScript",
-      "totalStars": "57150",
-      "totalForks": "9447",
-      "growth": "+5756",
-      "growthValue": 5756,
-      "rank": 3
+      "totalStars": "57252",
+      "totalForks": "9471",
+      "growth": "+5858",
+      "growthValue": 5858,
+      "rank": 2
     },
     {
       "name": "stablyai/orca",
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "language": "TypeScript",
-      "totalStars": "18014",
-      "totalForks": "1417",
-      "growth": "+5176",
-      "growthValue": 5176,
-      "rank": 4
+      "totalStars": "18147",
+      "totalForks": "1435",
+      "growth": "+5309",
+      "growthValue": 5309,
+      "rank": 3
     },
     {
       "name": "Zackriya-Solutions/meetily",
       "link": "https://github.com/Zackriya-Solutions/meetily",
       "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai -https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
       "language": "Rust",
-      "totalStars": "24006",
-      "totalForks": "2515",
-      "growth": "+4770",
-      "growthValue": 4770,
-      "rank": 5
+      "totalStars": "24116",
+      "totalForks": "2526",
+      "growth": "+4880",
+      "growthValue": 4880,
+      "rank": 4
     },
     {
       "name": "diegosouzapw/OmniRoute",
       "link": "https://github.com/diegosouzapw/OmniRoute",
       "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
       "language": "TypeScript",
-      "totalStars": "16700",
-      "totalForks": "2532",
-      "growth": "+4174",
-      "growthValue": 4174,
-      "rank": 6
+      "totalStars": "16813",
+      "totalForks": "2549",
+      "growth": "+4287",
+      "growthValue": 4287,
+      "rank": 5
     },
     {
       "name": "bradautomates/claude-video",
       "link": "https://github.com/bradautomates/claude-video",
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
       "language": "Python",
-      "totalStars": "8038",
+      "totalStars": "8107",
       "totalForks": "895",
-      "growth": "+3878",
-      "growthValue": 3878,
-      "rank": 7
+      "growth": "+3947",
+      "growthValue": 3947,
+      "rank": 6
     },
     {
       "name": "ogulcancelik/herdr",
       "link": "https://github.com/ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
-      "totalStars": "16047",
-      "totalForks": "1082",
-      "growth": "+3234",
-      "growthValue": 3234,
-      "rank": 8
+      "totalStars": "16100",
+      "totalForks": "1090",
+      "growth": "+3287",
+      "growthValue": 3287,
+      "rank": 7
     },
     {
       "name": "usestrix/strix",
       "link": "https://github.com/usestrix/strix",
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "language": "Python",
-      "totalStars": "41129",
-      "totalForks": "4335",
-      "growth": "+3188",
-      "growthValue": 3188,
-      "rank": 9
+      "totalStars": "41188",
+      "totalForks": "4339",
+      "growth": "+3247",
+      "growthValue": 3247,
+      "rank": 8
     },
     {
       "name": "ruvnet/RuView",
       "link": "https://github.com/ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
-      "totalStars": "80413",
-      "totalForks": "10837",
-      "growth": "+2961",
-      "growthValue": 2961,
-      "rank": 10
+      "totalStars": "80455",
+      "totalForks": "10833",
+      "growth": "+3003",
+      "growthValue": 3003,
+      "rank": 9
     },
     {
       "name": "facebook/astryx",
       "link": "https://github.com/facebook/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "totalStars": "8581",
-      "totalForks": "716",
-      "growth": "+2474",
-      "growthValue": 2474,
-      "rank": 11
+      "totalStars": "8660",
+      "totalForks": "724",
+      "growth": "+2553",
+      "growthValue": 2553,
+      "rank": 10
     },
     {
       "name": "openai/codex-plugin-cc",
       "link": "https://github.com/openai/codex-plugin-cc",
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "language": "JavaScript",
-      "totalStars": "28333",
-      "totalForks": "1858",
-      "growth": "+2092",
-      "growthValue": 2092,
-      "rank": 12
+      "totalStars": "28373",
+      "totalForks": "1865",
+      "growth": "+2132",
+      "growthValue": 2132,
+      "rank": 11
     },
     {
       "name": "alibaba/page-agent",
       "link": "https://github.com/alibaba/page-agent",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "language": "TypeScript",
-      "totalStars": "26394",
-      "totalForks": "2422",
-      "growth": "+1815",
-      "growthValue": 1815,
-      "rank": 13
+      "totalStars": "26424",
+      "totalForks": "2424",
+      "growth": "+1845",
+      "growthValue": 1845,
+      "rank": 12
     },
     {
       "name": "wonderwhy-er/DesktopCommanderMCP",
       "link": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
       "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
       "language": "TypeScript",
-      "totalStars": "8160",
-      "totalForks": "995",
-      "growth": "+1802",
-      "growthValue": 1802,
-      "rank": 14
+      "totalStars": "8172",
+      "totalForks": "997",
+      "growth": "+1814",
+      "growthValue": 1814,
+      "rank": 13
     },
     {
       "name": "TencentCloud/CubeSandbox",
       "link": "https://github.com/TencentCloud/CubeSandbox",
       "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
       "language": "Rust",
-      "totalStars": "9937",
-      "totalForks": "976",
-      "growth": "+1519",
-      "growthValue": 1519,
-      "rank": 15
+      "totalStars": "9973",
+      "totalForks": "980",
+      "growth": "+1555",
+      "growthValue": 1555,
+      "rank": 14
     },
     {
       "name": "vxcontrol/pentagi",
       "link": "https://github.com/vxcontrol/pentagi",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
-      "totalStars": "20344",
-      "totalForks": "2700",
-      "growth": "+1007",
-      "growthValue": 1007,
-      "rank": 16
+      "totalStars": "20377",
+      "totalForks": "2704",
+      "growth": "+1040",
+      "growthValue": 1040,
+      "rank": 15
     },
     {
       "name": "tt-a1i/archify",
       "link": "https://github.com/tt-a1i/archify",
       "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
       "language": "JavaScript",
-      "totalStars": "4141",
-      "totalForks": "387",
-      "growth": "+715",
-      "growthValue": 715,
-      "rank": 17
+      "totalStars": "4187",
+      "totalForks": "388",
+      "growth": "+761",
+      "growthValue": 761,
+      "rank": 16
     },
     {
       "name": "abseil/abseil-cpp",
       "link": "https://github.com/abseil/abseil-cpp",
       "description": "Abseil Common Libraries (C++)",
       "language": "C++",
-      "totalStars": "17959",
+      "totalStars": "17963",
       "totalForks": "3217",
-      "growth": "+454",
-      "growthValue": 454,
-      "rank": 18
+      "growth": "+458",
+      "growthValue": 458,
+      "rank": 17
     },
     {
       "name": "pbakaus/impeccable",
       "link": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "JavaScript",
-      "totalStars": "46259",
-      "totalForks": "2801",
-      "growth": "+317",
-      "growthValue": 317,
-      "rank": 19
+      "totalStars": "46318",
+      "totalForks": "2803",
+      "growth": "+376",
+      "growthValue": 376,
+      "rank": 18
     },
     {
       "name": "argoproj/argo-cd",
       "link": "https://github.com/argoproj/argo-cd",
       "description": "Declarative Continuous Deployment for Kubernetes",
       "language": "Go",
-      "totalStars": "23663",
-      "totalForks": "7617",
-      "growth": "+248",
-      "growthValue": 248,
-      "rank": 20
+      "totalStars": "23672",
+      "totalForks": "7613",
+      "growth": "+257",
+      "growthValue": 257,
+      "rank": 19
     }
   ],
-  "lastUpdated": "2026-07-13 17:15"
+  "lastUpdated": "2026-07-13 22:00"
 }
