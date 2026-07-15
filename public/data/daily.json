@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "openinterpreter/openinterpreter",
+      "link": "https://github.com/openinterpreter/openinterpreter",
+      "description": "A coding agent for low-cost models",
+      "language": "Rust",
+      "totalStars": "65103",
+      "totalForks": "5639",
+      "growth": "+65103",
+      "growthValue": 65103,
+      "rank": 1
+    },
+    {
+      "name": "HKUDS/DeepTutor",
+      "link": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.",
+      "language": "Python",
+      "totalStars": "25997",
+      "totalForks": "3544",
+      "growth": "+25997",
+      "growthValue": 25997,
+      "rank": 2
+    },
+    {
       "name": "1c7/chinese-independent-developer",
       "link": "https://github.com/1c7/chinese-independent-developer",
       "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
       "language": "Python",
-      "totalStars": "54440",
-      "totalForks": "4761",
-      "growth": "+1460",
-      "growthValue": 1460,
-      "rank": 1
+      "totalStars": "55666",
+      "totalForks": "4834",
+      "growth": "+2686",
+      "growthValue": 2686,
+      "rank": 3
+    },
+    {
+      "name": "YimMenu/YimMenuV2",
+      "link": "https://github.com/YimMenu/YimMenuV2",
+      "description": "Experimental menu for GTA 5: Enhanced",
+      "language": "C++",
+      "totalStars": "1350",
+      "totalForks": "348",
+      "growth": "+1350",
+      "growthValue": 1350,
+      "rank": 4
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "totalStars": "170767",
-      "totalForks": "14694",
-      "growth": "+666",
-      "growthValue": 666,
-      "rank": 2
-    },
-    {
-      "name": "Graphify-Labs/graphify",
-      "link": "https://github.com/Graphify-Labs/graphify",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-      "language": "Python",
-      "totalStars": "86709",
-      "totalForks": "8525",
-      "growth": "+472",
-      "growthValue": 472,
-      "rank": 3
-    },
-    {
-      "name": "OpenCut-app/OpenCut",
-      "link": "https://github.com/OpenCut-app/OpenCut",
-      "description": "The open-source CapCut alternative",
-      "language": "TypeScript",
-      "totalStars": "69486",
-      "totalForks": "7224",
-      "growth": "+430",
-      "growthValue": 430,
-      "rank": 4
+      "totalStars": "171381",
+      "totalForks": "14724",
+      "growth": "+1280",
+      "growthValue": 1280,
+      "rank": 5
     },
     {
       "name": "Shubhamsaboo/awesome-llm-apps",
       "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
       "language": "Python",
-      "totalStars": "121119",
-      "totalForks": "17914",
-      "growth": "+426",
-      "growthValue": 426,
-      "rank": 5
+      "totalStars": "121477",
+      "totalForks": "17946",
+      "growth": "+784",
+      "growthValue": 784,
+      "rank": 6
+    },
+    {
+      "name": "OpenCut-app/OpenCut",
+      "link": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "totalStars": "69815",
+      "totalForks": "7247",
+      "growth": "+759",
+      "growthValue": 759,
+      "rank": 7
     },
     {
       "name": "hasaneyldrm/exercises-dataset",
       "link": "https://github.com/hasaneyldrm/exercises-dataset",
       "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
       "language": "HTML",
-      "totalStars": "13745",
-      "totalForks": "1645",
-      "growth": "+347",
-      "growthValue": 347,
-      "rank": 6
+      "totalStars": "13972",
+      "totalForks": "1668",
+      "growth": "+574",
+      "growthValue": 574,
+      "rank": 8
     },
     {
-      "name": "Raphire/Win11Debloat",
-      "link": "https://github.com/Raphire/Win11Debloat",
-      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
-      "language": "PowerShell",
-      "totalStars": "51892",
-      "totalForks": "2142",
-      "growth": "+340",
-      "growthValue": 340,
-      "rank": 7
+      "name": "coreyhaines31/marketingskills",
+      "link": "https://github.com/coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "totalStars": "39348",
+      "totalForks": "6281",
+      "growth": "+552",
+      "growthValue": 552,
+      "rank": 9
     },
     {
       "name": "HKUDS/Vibe-Trading",
       "link": "https://github.com/HKUDS/Vibe-Trading",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "language": "Python",
-      "totalStars": "23079",
-      "totalForks": "3956",
-      "growth": "+306",
-      "growthValue": 306,
-      "rank": 8
-    },
-    {
-      "name": "Nutlope/hallmark",
-      "link": "https://github.com/Nutlope/hallmark",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "language": "CSS",
-      "totalStars": "6342",
-      "totalForks": "358",
-      "growth": "+277",
-      "growthValue": 277,
-      "rank": 9
-    },
-    {
-      "name": "HenryNdubuaku/maths-cs-ai-compendium",
-      "link": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
-      "description": "Become a cracked AI/ML Research Engineer",
-      "language": "TypeScript",
-      "totalStars": "5404",
-      "totalForks": "713",
-      "growth": "+229",
-      "growthValue": 229,
+      "totalStars": "23287",
+      "totalForks": "3990",
+      "growth": "+514",
+      "growthValue": 514,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-15 05:36"
+  "lastUpdated": "2026-07-15 10:54"
 }
