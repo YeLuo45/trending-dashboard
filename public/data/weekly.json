@@ -1,36 +1,36 @@
 {
   "projects": [
     {
-      "name": "MadsLorentzen/ai-job-search",
-      "link": "https://github.com/MadsLorentzen/ai-job-search",
-      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "language": "TypeScript",
-      "totalStars": "22714",
-      "totalForks": "7068",
-      "growth": "+8263",
-      "growthValue": 8263,
-      "rank": 1
-    },
-    {
       "name": "iOfficeAI/OfficeCLI",
       "link": "https://github.com/iOfficeAI/OfficeCLI",
       "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
       "language": "C#",
-      "totalStars": "17281",
-      "totalForks": "1146",
-      "growth": "+5615",
-      "growthValue": 5615,
-      "rank": 2
+      "totalStars": "17549",
+      "totalForks": "1161",
+      "growth": "+5883",
+      "growthValue": 5883,
+      "rank": 1
     },
     {
       "name": "stablyai/orca",
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "language": "TypeScript",
-      "totalStars": "19546",
-      "totalForks": "1524",
-      "growth": "+5403",
-      "growthValue": 5403,
+      "totalStars": "19720",
+      "totalForks": "1541",
+      "growth": "+5577",
+      "growthValue": 5577,
+      "rank": 2
+    },
+    {
+      "name": "OpenCut-app/OpenCut",
+      "link": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "totalStars": "70790",
+      "totalForks": "7299",
+      "growth": "+4771",
+      "growthValue": 4771,
       "rank": 3
     },
     {
@@ -38,21 +38,21 @@
       "link": "https://github.com/diegosouzapw/OmniRoute",
       "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
       "language": "TypeScript",
-      "totalStars": "17526",
-      "totalForks": "2623",
-      "growth": "+3807",
-      "growthValue": 3807,
+      "totalStars": "17633",
+      "totalForks": "2636",
+      "growth": "+3914",
+      "growthValue": 3914,
       "rank": 4
     },
     {
-      "name": "OpenCut-app/OpenCut",
-      "link": "https://github.com/OpenCut-app/OpenCut",
-      "description": "The open-source CapCut alternative",
-      "language": "TypeScript",
-      "totalStars": "69815",
-      "totalForks": "7247",
-      "growth": "+3796",
-      "growthValue": 3796,
+      "name": "Nutlope/hallmark",
+      "link": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "totalStars": "7519",
+      "totalForks": "398",
+      "growth": "+3321",
+      "growthValue": 3321,
       "rank": 5
     },
     {
@@ -60,10 +60,10 @@
       "link": "https://github.com/Zackriya-Solutions/meetily",
       "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai -https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
       "language": "Rust",
-      "totalStars": "24810",
-      "totalForks": "2587",
-      "growth": "+3211",
-      "growthValue": 3211,
+      "totalStars": "24890",
+      "totalForks": "2602",
+      "growth": "+3291",
+      "growthValue": 3291,
       "rank": 6
     },
     {
@@ -71,10 +71,10 @@
       "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
       "language": "Python",
-      "totalStars": "121477",
-      "totalForks": "17946",
-      "growth": "+3022",
-      "growthValue": 3022,
+      "totalStars": "121693",
+      "totalForks": "17966",
+      "growth": "+3238",
+      "growthValue": 3238,
       "rank": 7
     },
     {
@@ -82,144 +82,144 @@
       "link": "https://github.com/HKUDS/Vibe-Trading",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "language": "Python",
-      "totalStars": "23287",
-      "totalForks": "3990",
-      "growth": "+2818",
-      "growthValue": 2818,
+      "totalStars": "23503",
+      "totalForks": "4016",
+      "growth": "+3034",
+      "growthValue": 3034,
       "rank": 8
-    },
-    {
-      "name": "Nutlope/hallmark",
-      "link": "https://github.com/Nutlope/hallmark",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "language": "CSS",
-      "totalStars": "6568",
-      "totalForks": "365",
-      "growth": "+2370",
-      "growthValue": 2370,
-      "rank": 9
     },
     {
       "name": "ogulcancelik/herdr",
       "link": "https://github.com/ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
-      "totalStars": "16638",
-      "totalForks": "1128",
-      "growth": "+2291",
-      "growthValue": 2291,
-      "rank": 10
+      "totalStars": "16721",
+      "totalForks": "1133",
+      "growth": "+2374",
+      "growthValue": 2374,
+      "rank": 9
     },
     {
       "name": "wonderwhy-er/DesktopCommanderMCP",
       "link": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
       "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
       "language": "TypeScript",
-      "totalStars": "8286",
-      "totalForks": "1005",
-      "growth": "+1928",
-      "growthValue": 1928,
-      "rank": 11
+      "totalStars": "8304",
+      "totalForks": "1006",
+      "growth": "+1946",
+      "growthValue": 1946,
+      "rank": 10
     },
     {
       "name": "openai/codex-plugin-cc",
       "link": "https://github.com/openai/codex-plugin-cc",
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "language": "JavaScript",
-      "totalStars": "28721",
-      "totalForks": "1890",
-      "growth": "+1830",
-      "growthValue": 1830,
-      "rank": 12
+      "totalStars": "28780",
+      "totalForks": "1893",
+      "growth": "+1889",
+      "growthValue": 1889,
+      "rank": 11
     },
     {
       "name": "anthropics/claude-cookbooks",
       "link": "https://github.com/anthropics/claude-cookbooks",
       "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
       "language": "Jupyter Notebook",
-      "totalStars": "48882",
-      "totalForks": "5790",
-      "growth": "+1773",
-      "growthValue": 1773,
-      "rank": 13
+      "totalStars": "48918",
+      "totalForks": "5793",
+      "growth": "+1809",
+      "growthValue": 1809,
+      "rank": 12
     },
     {
       "name": "tt-a1i/archify",
       "link": "https://github.com/tt-a1i/archify",
       "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
       "language": "JavaScript",
-      "totalStars": "4823",
-      "totalForks": "423",
-      "growth": "+1397",
-      "growthValue": 1397,
-      "rank": 14
+      "totalStars": "4992",
+      "totalForks": "431",
+      "growth": "+1566",
+      "growthValue": 1566,
+      "rank": 13
     },
     {
       "name": "TencentCloud/CubeSandbox",
       "link": "https://github.com/TencentCloud/CubeSandbox",
       "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
       "language": "Rust",
-      "totalStars": "10239",
-      "totalForks": "993",
-      "growth": "+1347",
-      "growthValue": 1347,
-      "rank": 15
+      "totalStars": "10270",
+      "totalForks": "995",
+      "growth": "+1378",
+      "growthValue": 1378,
+      "rank": 14
     },
     {
       "name": "pbakaus/impeccable",
       "link": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "JavaScript",
-      "totalStars": "46878",
-      "totalForks": "2819",
-      "growth": "+936",
-      "growthValue": 936,
-      "rank": 16
+      "totalStars": "46957",
+      "totalForks": "2823",
+      "growth": "+1015",
+      "growthValue": 1015,
+      "rank": 15
     },
     {
       "name": "davila7/claude-code-templates",
       "link": "https://github.com/davila7/claude-code-templates",
       "description": "CLI tool for configuring and monitoring Claude Code",
       "language": "Python",
-      "totalStars": "29518",
-      "totalForks": "3239",
-      "growth": "+772",
-      "growthValue": 772,
-      "rank": 17
+      "totalStars": "29540",
+      "totalForks": "3241",
+      "growth": "+794",
+      "growthValue": 794,
+      "rank": 16
     },
     {
       "name": "google-labs-code/stitch-skills",
       "link": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "totalStars": "7390",
+      "totalStars": "7409",
       "totalForks": "977",
-      "growth": "+685",
-      "growthValue": 685,
-      "rank": 18
+      "growth": "+704",
+      "growthValue": 704,
+      "rank": 17
     },
     {
       "name": "oven-sh/bun",
       "link": "https://github.com/oven-sh/bun",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "language": "Rust",
-      "totalStars": "94726",
-      "totalForks": "4974",
-      "growth": "+553",
-      "growthValue": 553,
-      "rank": 19
+      "totalStars": "94753",
+      "totalForks": "4976",
+      "growth": "+580",
+      "growthValue": 580,
+      "rank": 18
     },
     {
       "name": "abseil/abseil-cpp",
       "link": "https://github.com/abseil/abseil-cpp",
       "description": "Abseil Common Libraries (C++)",
       "language": "C++",
-      "totalStars": "17991",
+      "totalStars": "17993",
       "totalForks": "3224",
-      "growth": "+486",
-      "growthValue": 486,
+      "growth": "+488",
+      "growthValue": 488,
+      "rank": 19
+    },
+    {
+      "name": "chriskohlhoff/asio",
+      "link": "https://github.com/chriskohlhoff/asio",
+      "description": "Asio C++ Library",
+      "language": "C++",
+      "totalStars": "6172",
+      "totalForks": "1511",
+      "growth": "+108",
+      "growthValue": 108,
       "rank": 20
     }
   ],
-  "lastUpdated": "2026-07-15 10:54"
+  "lastUpdated": "2026-07-15 16:26"
 }
