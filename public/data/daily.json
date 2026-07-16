@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "OpenCut-app/OpenCut",
-      "link": "https://github.com/OpenCut-app/OpenCut",
-      "description": "The open-source CapCut alternative",
-      "language": "TypeScript",
-      "totalStars": "73692",
-      "totalForks": "7462",
-      "growth": "+2251",
-      "growthValue": 2251,
-      "rank": 1
-    },
-    {
       "name": "Nutlope/hallmark",
       "link": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "totalStars": "10424",
-      "totalForks": "519",
-      "growth": "+2171",
-      "growthValue": 2171,
+      "totalStars": "10749",
+      "totalForks": "530",
+      "growth": "+2496",
+      "growthValue": 2496,
+      "rank": 1
+    },
+    {
+      "name": "OpenCut-app/OpenCut",
+      "link": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "totalStars": "73899",
+      "totalForks": "7474",
+      "growth": "+2458",
+      "growthValue": 2458,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/Graphify-Labs/graphify",
       "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
       "language": "Python",
-      "totalStars": "88620",
-      "totalForks": "8673",
-      "growth": "+1911",
-      "growthValue": 1911,
+      "totalStars": "88915",
+      "totalForks": "8690",
+      "growth": "+2206",
+      "growthValue": 2206,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "totalStars": "173843",
-      "totalForks": "14908",
-      "growth": "+1690",
-      "growthValue": 1690,
+      "totalStars": "174125",
+      "totalForks": "14942",
+      "growth": "+1972",
+      "growthValue": 1972,
       "rank": 4
     },
     {
@@ -49,43 +49,43 @@
       "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
       "language": "Python",
-      "totalStars": "122600",
-      "totalForks": "18085",
-      "growth": "+761",
-      "growthValue": 761,
+      "totalStars": "122790",
+      "totalForks": "18107",
+      "growth": "+951",
+      "growthValue": 951,
       "rank": 5
-    },
-    {
-      "name": "HKUDS/DeepTutor",
-      "link": "https://github.com/HKUDS/DeepTutor",
-      "description": "DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.",
-      "language": "Python",
-      "totalStars": "26738",
-      "totalForks": "3604",
-      "growth": "+528",
-      "growthValue": 528,
-      "rank": 6
     },
     {
       "name": "hasaneyldrm/exercises-dataset",
       "link": "https://github.com/hasaneyldrm/exercises-dataset",
       "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
       "language": "HTML",
-      "totalStars": "14824",
-      "totalForks": "1782",
-      "growth": "+522",
-      "growthValue": 522,
+      "totalStars": "14982",
+      "totalForks": "1796",
+      "growth": "+680",
+      "growthValue": 680,
+      "rank": 6
+    },
+    {
+      "name": "HKUDS/DeepTutor",
+      "link": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.",
+      "language": "Python",
+      "totalStars": "26822",
+      "totalForks": "3608",
+      "growth": "+612",
+      "growthValue": 612,
       "rank": 7
     },
     {
       "name": "openinterpreter/openinterpreter",
       "link": "https://github.com/openinterpreter/openinterpreter",
-      "description": "A coding agent for low-cost models",
+      "description": "A Codex-compatible coding agent for open models like Kimi K3",
       "language": "Rust",
-      "totalStars": "65868",
-      "totalForks": "5668",
-      "growth": "+452",
-      "growthValue": 452,
+      "totalStars": "65942",
+      "totalForks": "5672",
+      "growth": "+526",
+      "growthValue": 526,
       "rank": 8
     },
     {
@@ -93,10 +93,10 @@
       "link": "https://github.com/codecrafters-io/build-your-own-x",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "language": "Markdown",
-      "totalStars": "526029",
-      "totalForks": "49772",
-      "growth": "+248",
-      "growthValue": 248,
+      "totalStars": "526239",
+      "totalForks": "49790",
+      "growth": "+210",
+      "growthValue": 210,
       "rank": 9
     },
     {
@@ -104,12 +104,12 @@
       "link": "https://github.com/ibelick/ui-skills",
       "description": "Skills for Design Engineers",
       "language": "TypeScript",
-      "totalStars": "4062",
-      "totalForks": "170",
-      "growth": "+179",
-      "growthValue": 179,
+      "totalStars": "4202",
+      "totalForks": "174",
+      "growth": "+140",
+      "growthValue": 140,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-16 16:19"
+  "lastUpdated": "2026-07-16 22:05"
 }
