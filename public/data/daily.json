@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "protocolbuffers/protobuf",
-      "link": "https://github.com/protocolbuffers/protobuf",
-      "description": "Protocol Buffers - Google's data interchange format",
-      "language": "C++",
-      "totalStars": "71521",
-      "totalForks": "16191",
-      "growth": "+71521",
-      "growthValue": 71521,
-      "rank": 1
-    },
-    {
-      "name": "tirth8205/code-review-graph",
-      "link": "https://github.com/tirth8205/code-review-graph",
-      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "language": "Python",
-      "totalStars": "19663",
-      "totalForks": "2103",
-      "growth": "+19663",
-      "growthValue": 19663,
-      "rank": 2
-    },
-    {
-      "name": "docusealco/docuseal",
-      "link": "https://github.com/docusealco/docuseal",
-      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
-      "language": "Ruby",
-      "totalStars": "17748",
-      "totalForks": "1764",
-      "growth": "+17748",
-      "growthValue": 17748,
-      "rank": 3
-    },
-    {
-      "name": "RyanCodrai/turbovec",
-      "link": "https://github.com/RyanCodrai/turbovec",
-      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-      "language": "Python",
-      "totalStars": "13212",
-      "totalForks": "1173",
-      "growth": "+13212",
-      "growthValue": 13212,
-      "rank": 4
-    },
-    {
-      "name": "anthropics/cwc-workshops",
-      "link": "https://github.com/anthropics/cwc-workshops",
-      "description": "",
-      "language": "TypeScript",
-      "totalStars": "1527",
-      "totalForks": "481",
-      "growth": "+1527",
-      "growthValue": 1527,
-      "rank": 5
-    },
-    {
       "name": "Nutlope/hallmark",
       "link": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "totalStars": "11760",
-      "totalForks": "586",
-      "growth": "+1011",
-      "growthValue": 1011,
-      "rank": 6
+      "totalStars": "11940",
+      "totalForks": "599",
+      "growth": "+1191",
+      "growthValue": 1191,
+      "rank": 1
     },
     {
       "name": "codecrafters-io/build-your-own-x",
       "link": "https://github.com/codecrafters-io/build-your-own-x",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "language": "Markdown",
-      "totalStars": "527050",
-      "totalForks": "49881",
-      "growth": "+811",
-      "growthValue": 811,
-      "rank": 7
+      "totalStars": "527246",
+      "totalForks": "49899",
+      "growth": "+1007",
+      "growthValue": 1007,
+      "rank": 2
     },
     {
       "name": "OpenCut-app/OpenCut",
       "link": "https://github.com/OpenCut-app/OpenCut",
       "description": "The open-source CapCut alternative",
       "language": "TypeScript",
-      "totalStars": "74652",
-      "totalForks": "7536",
-      "growth": "+753",
-      "growthValue": 753,
-      "rank": 8
+      "totalStars": "74779",
+      "totalForks": "7541",
+      "growth": "+880",
+      "growthValue": 880,
+      "rank": 3
     },
     {
       "name": "HenryNdubuaku/maths-cs-ai-compendium",
       "link": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
       "description": "Become a cracked AI/ML Research Engineer",
       "language": "TypeScript",
-      "totalStars": "6479",
-      "totalForks": "800",
-      "growth": "+451",
-      "growthValue": 451,
-      "rank": 9
+      "totalStars": "6575",
+      "totalForks": "807",
+      "growth": "+547",
+      "growthValue": 547,
+      "rank": 4
     },
     {
       "name": "HKUDS/DeepTutor",
       "link": "https://github.com/HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.",
       "language": "Python",
-      "totalStars": "27247",
-      "totalForks": "3640",
-      "growth": "+425",
-      "growthValue": 425,
+      "totalStars": "27311",
+      "totalForks": "3642",
+      "growth": "+489",
+      "growthValue": 489,
+      "rank": 5
+    },
+    {
+      "name": "openinterpreter/openinterpreter",
+      "link": "https://github.com/openinterpreter/openinterpreter",
+      "description": "A coding agent for open models like Kimi K3",
+      "language": "Rust",
+      "totalStars": "66313",
+      "totalForks": "5701",
+      "growth": "+371",
+      "growthValue": 371,
+      "rank": 6
+    },
+    {
+      "name": "PostHog/posthog",
+      "link": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "totalStars": "36165",
+      "totalForks": "3010",
+      "growth": "+365",
+      "growthValue": 365,
+      "rank": 7
+    },
+    {
+      "name": "PrismML-Eng/Bonsai-demo",
+      "link": "https://github.com/PrismML-Eng/Bonsai-demo",
+      "description": "Bonsai Demo",
+      "language": "Shell",
+      "totalStars": "1698",
+      "totalForks": "166",
+      "growth": "+212",
+      "growthValue": 212,
+      "rank": 8
+    },
+    {
+      "name": "github/copilot-sdk",
+      "link": "https://github.com/github/copilot-sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "language": "Java",
+      "totalStars": "9780",
+      "totalForks": "1327",
+      "growth": "+155",
+      "growthValue": 155,
+      "rank": 9
+    },
+    {
+      "name": "docusealco/docuseal",
+      "link": "https://github.com/docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "totalStars": "17801",
+      "totalForks": "1768",
+      "growth": "+53",
+      "growthValue": 53,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-17 16:32"
+  "lastUpdated": "2026-07-17 21:56"
 }
