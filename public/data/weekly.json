@@ -1,124 +1,124 @@
 {
   "projects": [
     {
+      "name": "openai/codex",
+      "link": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "totalStars": "99334",
+      "totalForks": "14870",
+      "growth": "+99334",
+      "growthValue": 99334,
+      "rank": 1
+    },
+    {
+      "name": "mattpocock/skills",
+      "link": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "totalStars": "176308",
+      "totalForks": "15103",
+      "growth": "+11159",
+      "growthValue": 11159,
+      "rank": 2
+    },
+    {
       "name": "OpenCut-app/OpenCut",
       "link": "https://github.com/OpenCut-app/OpenCut",
       "description": "The open-source CapCut alternative",
       "language": "TypeScript",
-      "totalStars": "75174",
-      "totalForks": "7567",
-      "growth": "+9155",
-      "growthValue": 9155,
-      "rank": 1
+      "totalStars": "75296",
+      "totalForks": "7578",
+      "growth": "+9277",
+      "growthValue": 9277,
+      "rank": 3
     },
     {
       "name": "Nutlope/hallmark",
       "link": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "totalStars": "12472",
-      "totalForks": "620",
-      "growth": "+8274",
-      "growthValue": 8274,
-      "rank": 2
+      "totalStars": "12669",
+      "totalForks": "630",
+      "growth": "+8471",
+      "growthValue": 8471,
+      "rank": 4
+    },
+    {
+      "name": "Graphify-Labs/graphify",
+      "link": "https://github.com/Graphify-Labs/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "language": "Python",
+      "totalStars": "90728",
+      "totalForks": "8857",
+      "growth": "+6174",
+      "growthValue": 6174,
+      "rank": 5
     },
     {
       "name": "Shubhamsaboo/awesome-llm-apps",
       "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
       "language": "Python",
-      "totalStars": "123777",
-      "totalForks": "18248",
-      "growth": "+5322",
-      "growthValue": 5322,
-      "rank": 3
+      "totalStars": "123888",
+      "totalForks": "18272",
+      "growth": "+5433",
+      "growthValue": 5433,
+      "rank": 6
     },
     {
       "name": "stablyai/orca",
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "language": "TypeScript",
-      "totalStars": "21416",
-      "totalForks": "1541",
-      "growth": "+5082",
-      "growthValue": 5082,
-      "rank": 4
+      "totalStars": "21625",
+      "totalForks": "1554",
+      "growth": "+5291",
+      "growthValue": 5291,
+      "rank": 7
     },
     {
       "name": "HKUDS/Vibe-Trading",
       "link": "https://github.com/HKUDS/Vibe-Trading",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "language": "Python",
-      "totalStars": "24806",
-      "totalForks": "4100",
-      "growth": "+4337",
-      "growthValue": 4337,
-      "rank": 5
+      "totalStars": "24896",
+      "totalForks": "4111",
+      "growth": "+4427",
+      "growthValue": 4427,
+      "rank": 8
     },
     {
       "name": "iOfficeAI/OfficeCLI",
       "link": "https://github.com/iOfficeAI/OfficeCLI",
       "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
       "language": "C#",
-      "totalStars": "19044",
-      "totalForks": "1279",
-      "growth": "+4006",
-      "growthValue": 4006,
-      "rank": 6
-    },
-    {
-      "name": "diegosouzapw/OmniRoute",
-      "link": "https://github.com/diegosouzapw/OmniRoute",
-      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-      "language": "TypeScript",
-      "totalStars": "18512",
-      "totalForks": "2651",
-      "growth": "+2842",
-      "growthValue": 2842,
-      "rank": 7
-    },
-    {
-      "name": "ogulcancelik/herdr",
-      "link": "https://github.com/ogulcancelik/herdr",
-      "description": "agent multiplexer that lives in your terminal.",
-      "language": "Rust",
-      "totalStars": "17794",
-      "totalForks": "1126",
-      "growth": "+2303",
-      "growthValue": 2303,
-      "rank": 8
-    },
-    {
-      "name": "pbakaus/impeccable",
-      "link": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "language": "JavaScript",
-      "totalStars": "47767",
-      "totalForks": "2765",
-      "growth": "+1825",
-      "growthValue": 1825,
+      "totalStars": "19177",
+      "totalForks": "1289",
+      "growth": "+4139",
+      "growthValue": 4139,
       "rank": 9
-    },
-    {
-      "name": "openai/codex-plugin-cc",
-      "link": "https://github.com/openai/codex-plugin-cc",
-      "description": "Use Codex from Claude Code to review code or delegate tasks.",
-      "language": "JavaScript",
-      "totalStars": "29174",
-      "totalForks": "1846",
-      "growth": "+1530",
-      "growthValue": 1530,
-      "rank": 10
     },
     {
       "name": "HKUDS/DeepTutor",
       "link": "https://github.com/HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.",
       "language": "Python",
-      "totalStars": "27547",
-      "totalForks": "3662",
-      "growth": "+1337",
-      "growthValue": 1337,
+      "totalStars": "27604",
+      "totalForks": "3669",
+      "growth": "+1394",
+      "growthValue": 1394,
+      "rank": 10
+    },
+    {
+      "name": "openinterpreter/openinterpreter",
+      "link": "https://github.com/openinterpreter/openinterpreter",
+      "description": "A coding agent for open models like Kimi K3",
+      "language": "Rust",
+      "totalStars": "66618",
+      "totalForks": "5718",
+      "growth": "+1202",
+      "growthValue": 1202,
       "rank": 11
     },
     {
@@ -126,89 +126,45 @@
       "link": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
       "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
       "language": "TypeScript",
-      "totalStars": "8471",
-      "totalForks": "937",
-      "growth": "+725",
-      "growthValue": 725,
+      "totalStars": "8489",
+      "totalForks": "940",
+      "growth": "+743",
+      "growthValue": 743,
       "rank": 12
     },
     {
-      "name": "davila7/claude-code-templates",
-      "link": "https://github.com/davila7/claude-code-templates",
-      "description": "CLI tool for configuring and monitoring Claude Code",
-      "language": "Python",
-      "totalStars": "29694",
-      "totalForks": "3159",
-      "growth": "+705",
-      "growthValue": 705,
-      "rank": 13
-    },
-    {
-      "name": "google-labs-code/stitch-skills",
-      "link": "https://github.com/google-labs-code/stitch-skills",
-      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "name": "ibelick/ui-skills",
+      "link": "https://github.com/ibelick/ui-skills",
+      "description": "Skills for Design Engineers",
       "language": "TypeScript",
-      "totalStars": "7652",
-      "totalForks": "893",
-      "growth": "+623",
-      "growthValue": 623,
-      "rank": 14
+      "totalStars": "4818",
+      "totalForks": "202",
+      "growth": "+616",
+      "growthValue": 616,
+      "rank": 13
     },
     {
       "name": "kangarooking/cangjie-skill",
       "link": "https://github.com/kangarooking/cangjie-skill",
       "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
       "language": "Python",
-      "totalStars": "3578",
-      "totalForks": "516",
-      "growth": "+300",
-      "growthValue": 300,
-      "rank": 15
-    },
-    {
-      "name": "oven-sh/bun",
-      "link": "https://github.com/oven-sh/bun",
-      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
-      "language": "Rust",
-      "totalStars": "94819",
-      "totalForks": "4887",
-      "growth": "+282",
-      "growthValue": 282,
-      "rank": 16
+      "totalStars": "3628",
+      "totalForks": "523",
+      "growth": "+350",
+      "growthValue": 350,
+      "rank": 14
     },
     {
       "name": "abseil/abseil-cpp",
       "link": "https://github.com/abseil/abseil-cpp",
       "description": "Abseil Common Libraries (C++)",
       "language": "C++",
-      "totalStars": "17966",
+      "totalStars": "17971",
       "totalForks": "3139",
-      "growth": "+195",
-      "growthValue": 195,
-      "rank": 17
-    },
-    {
-      "name": "vercel-labs/native",
-      "link": "https://github.com/vercel-labs/native",
-      "description": "Toolkit for building native desktop apps",
-      "language": "Zig",
-      "totalStars": "6560",
-      "totalForks": "266",
-      "growth": "+76",
-      "growthValue": 76,
-      "rank": 18
-    },
-    {
-      "name": "actions/checkout",
-      "link": "https://github.com/actions/checkout",
-      "description": "Action for checking out a repo",
-      "language": "TypeScript",
-      "totalStars": "8492",
-      "totalForks": "2601",
-      "growth": "+40",
-      "growthValue": 40,
-      "rank": 19
+      "growth": "+200",
+      "growthValue": 200,
+      "rank": 15
     }
   ],
-  "lastUpdated": "2026-07-18 10:21"
+  "lastUpdated": "2026-07-18 16:00"
 }
