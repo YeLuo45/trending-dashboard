@@ -1,36 +1,36 @@
 {
   "projects": [
     {
-      "name": "mattpocock/skills",
-      "link": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "totalStars": "176500",
-      "totalForks": "15125",
-      "growth": "+11351",
-      "growthValue": 11351,
-      "rank": 1
-    },
-    {
       "name": "OpenCut-app/OpenCut",
       "link": "https://github.com/OpenCut-app/OpenCut",
       "description": "The open-source CapCut alternative",
       "language": "TypeScript",
-      "totalStars": "75389",
-      "totalForks": "7591",
-      "growth": "+9370",
-      "growthValue": 9370,
-      "rank": 2
+      "totalStars": "75510",
+      "totalForks": "7599",
+      "growth": "+9491",
+      "growthValue": 9491,
+      "rank": 1
     },
     {
       "name": "Nutlope/hallmark",
       "link": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "totalStars": "12803",
-      "totalForks": "639",
-      "growth": "+8605",
-      "growthValue": 8605,
+      "totalStars": "12937",
+      "totalForks": "648",
+      "growth": "+8739",
+      "growthValue": 8739,
+      "rank": 2
+    },
+    {
+      "name": "mattpocock/skills",
+      "link": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "totalStars": "176754",
+      "totalForks": "15155",
+      "growth": "+6653",
+      "growthValue": 6653,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/Graphify-Labs/graphify",
       "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
       "language": "Python",
-      "totalStars": "90897",
-      "totalForks": "8863",
-      "growth": "+6343",
-      "growthValue": 6343,
+      "totalStars": "91097",
+      "totalForks": "8882",
+      "growth": "+6543",
+      "growthValue": 6543,
       "rank": 4
     },
     {
@@ -49,10 +49,10 @@
       "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
       "language": "Python",
-      "totalStars": "123972",
-      "totalForks": "18287",
-      "growth": "+5517",
-      "growthValue": 5517,
+      "totalStars": "124111",
+      "totalForks": "18318",
+      "growth": "+5656",
+      "growthValue": 5656,
       "rank": 5
     },
     {
@@ -60,10 +60,10 @@
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "language": "TypeScript",
-      "totalStars": "21753",
-      "totalForks": "1565",
-      "growth": "+5419",
-      "growthValue": 5419,
+      "totalStars": "21926",
+      "totalForks": "1578",
+      "growth": "+5095",
+      "growthValue": 5095,
       "rank": 6
     },
     {
@@ -71,10 +71,10 @@
       "link": "https://github.com/HKUDS/Vibe-Trading",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "language": "Python",
-      "totalStars": "24951",
-      "totalForks": "4117",
-      "growth": "+4482",
-      "growthValue": 4482,
+      "totalStars": "25037",
+      "totalForks": "4125",
+      "growth": "+4568",
+      "growthValue": 4568,
       "rank": 7
     },
     {
@@ -82,10 +82,10 @@
       "link": "https://github.com/iOfficeAI/OfficeCLI",
       "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
       "language": "C#",
-      "totalStars": "19272",
-      "totalForks": "1296",
-      "growth": "+4234",
-      "growthValue": 4234,
+      "totalStars": "19369",
+      "totalForks": "1303",
+      "growth": "+3975",
+      "growthValue": 3975,
       "rank": 8
     },
     {
@@ -93,10 +93,10 @@
       "link": "https://github.com/HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.",
       "language": "Python",
-      "totalStars": "27637",
-      "totalForks": "3670",
-      "growth": "+1427",
-      "growthValue": 1427,
+      "totalStars": "27708",
+      "totalForks": "3685",
+      "growth": "+1498",
+      "growthValue": 1498,
       "rank": 9
     },
     {
@@ -104,32 +104,32 @@
       "link": "https://github.com/openinterpreter/openinterpreter",
       "description": "A coding agent for open models like Kimi K3",
       "language": "Rust",
-      "totalStars": "66654",
-      "totalForks": "5725",
-      "growth": "+1238",
-      "growthValue": 1238,
+      "totalStars": "66707",
+      "totalForks": "5734",
+      "growth": "+1291",
+      "growthValue": 1291,
       "rank": 10
-    },
-    {
-      "name": "wonderwhy-er/DesktopCommanderMCP",
-      "link": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-      "language": "TypeScript",
-      "totalStars": "8506",
-      "totalForks": "940",
-      "growth": "+760",
-      "growthValue": 760,
-      "rank": 11
     },
     {
       "name": "ibelick/ui-skills",
       "link": "https://github.com/ibelick/ui-skills",
       "description": "Skills for Design Engineers",
       "language": "TypeScript",
-      "totalStars": "4958",
-      "totalForks": "208",
-      "growth": "+756",
-      "growthValue": 756,
+      "totalStars": "5150",
+      "totalForks": "222",
+      "growth": "+948",
+      "growthValue": 948,
+      "rank": 11
+    },
+    {
+      "name": "wonderwhy-er/DesktopCommanderMCP",
+      "link": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "language": "TypeScript",
+      "totalStars": "8523",
+      "totalForks": "941",
+      "growth": "+562",
+      "growthValue": 562,
       "rank": 12
     },
     {
@@ -137,34 +137,34 @@
       "link": "https://github.com/kangarooking/cangjie-skill",
       "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
       "language": "Python",
-      "totalStars": "3655",
-      "totalForks": "526",
-      "growth": "+377",
-      "growthValue": 377,
+      "totalStars": "3696",
+      "totalForks": "530",
+      "growth": "+418",
+      "growthValue": 418,
       "rank": 13
-    },
-    {
-      "name": "abseil/abseil-cpp",
-      "link": "https://github.com/abseil/abseil-cpp",
-      "description": "Abseil Common Libraries (C++)",
-      "language": "C++",
-      "totalStars": "17975",
-      "totalForks": "3140",
-      "growth": "+204",
-      "growthValue": 204,
-      "rank": 14
     },
     {
       "name": "openai/codex",
       "link": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "totalStars": "99390",
-      "totalForks": "14880",
-      "growth": "+56",
-      "growthValue": 56,
+      "totalStars": "99471",
+      "totalForks": "14889",
+      "growth": "+81",
+      "growthValue": 81,
+      "rank": 14
+    },
+    {
+      "name": "abseil/abseil-cpp",
+      "link": "https://github.com/abseil/abseil-cpp",
+      "description": "Abseil Common Libraries (C++)",
+      "language": "C++",
+      "totalStars": "17981",
+      "totalForks": "3141",
+      "growth": "+37",
+      "growthValue": 37,
       "rank": 15
     }
   ],
-  "lastUpdated": "2026-07-18 21:54"
+  "lastUpdated": "2026-07-19 05:57"
 }

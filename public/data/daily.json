@@ -1,25 +1,25 @@
 {
   "projects": [
     {
+      "name": "Robbyant/lingbot-map",
+      "link": "https://github.com/Robbyant/lingbot-map",
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "language": "Python",
+      "totalStars": "13104",
+      "totalForks": "1361",
+      "growth": "+250",
+      "growthValue": 250,
+      "rank": 1
+    },
+    {
       "name": "codecrafters-io/build-your-own-x",
       "link": "https://github.com/codecrafters-io/build-your-own-x",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "language": "Markdown",
-      "totalStars": "528190",
-      "totalForks": "49982",
-      "growth": "+944",
-      "growthValue": 944,
-      "rank": 1
-    },
-    {
-      "name": "tirth8205/code-review-graph",
-      "link": "https://github.com/tirth8205/code-review-graph",
-      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "language": "Python",
-      "totalStars": "20125",
-      "totalForks": "2123",
-      "growth": "+414",
-      "growthValue": 414,
+      "totalStars": "528410",
+      "totalForks": "49999",
+      "growth": "+220",
+      "growthValue": 220,
       "rank": 2
     },
     {
@@ -27,89 +27,89 @@
       "link": "https://github.com/ibelick/ui-skills",
       "description": "Skills for Design Engineers",
       "language": "TypeScript",
-      "totalStars": "4958",
-      "totalForks": "208",
-      "growth": "+393",
-      "growthValue": 393,
+      "totalStars": "5150",
+      "totalForks": "222",
+      "growth": "+192",
+      "growthValue": 192,
       "rank": 3
-    },
-    {
-      "name": "PostHog/posthog",
-      "link": "https://github.com/PostHog/posthog",
-      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-      "language": "Python",
-      "totalStars": "36554",
-      "totalForks": "3027",
-      "growth": "+389",
-      "growthValue": 389,
-      "rank": 4
-    },
-    {
-      "name": "Robbyant/lingbot-map",
-      "link": "https://github.com/Robbyant/lingbot-map",
-      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-      "language": "Python",
-      "totalStars": "12854",
-      "totalForks": "1338",
-      "growth": "+235",
-      "growthValue": 235,
-      "rank": 5
-    },
-    {
-      "name": "apache/ossie",
-      "link": "https://github.com/apache/ossie",
-      "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
-      "language": "Python",
-      "totalStars": "1255",
-      "totalForks": "153",
-      "growth": "+140",
-      "growthValue": 140,
-      "rank": 6
     },
     {
       "name": "KnockOutEZ/wigolo",
       "link": "https://github.com/KnockOutEZ/wigolo",
       "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
       "language": "TypeScript",
-      "totalStars": "1179",
-      "totalForks": "82",
-      "growth": "+126",
-      "growthValue": 126,
-      "rank": 7
+      "totalStars": "1348",
+      "totalForks": "89",
+      "growth": "+169",
+      "growthValue": 169,
+      "rank": 4
     },
     {
-      "name": "MoonshotAI/kimi-cli",
-      "link": "https://github.com/MoonshotAI/kimi-cli",
-      "description": "Kimi Code CLI is your next CLI agent.",
+      "name": "tirth8205/code-review-graph",
+      "link": "https://github.com/tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
       "language": "Python",
-      "totalStars": "9444",
-      "totalForks": "1164",
-      "growth": "+103",
-      "growthValue": 103,
-      "rank": 8
+      "totalStars": "20291",
+      "totalForks": "2131",
+      "growth": "+166",
+      "growthValue": 166,
+      "rank": 5
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "totalStars": "39062",
-      "totalForks": "6550",
-      "growth": "+98",
-      "growthValue": 98,
-      "rank": 9
+      "totalStars": "39210",
+      "totalForks": "6560",
+      "growth": "+148",
+      "growthValue": 148,
+      "rank": 6
+    },
+    {
+      "name": "MoonshotAI/kimi-cli",
+      "link": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "language": "Python",
+      "totalStars": "9566",
+      "totalForks": "1168",
+      "growth": "+122",
+      "growthValue": 122,
+      "rank": 7
+    },
+    {
+      "name": "PostHog/posthog",
+      "link": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "totalStars": "36660",
+      "totalForks": "3033",
+      "growth": "+106",
+      "growthValue": 106,
+      "rank": 8
     },
     {
       "name": "lyogavin/airllm",
       "link": "https://github.com/lyogavin/airllm",
       "description": "AirLLM 70B inference with single 4GB GPU",
       "language": "Jupyter Notebook",
-      "totalStars": "23301",
-      "totalForks": "2652",
-      "growth": "+85",
-      "growthValue": 85,
+      "totalStars": "23402",
+      "totalForks": "2660",
+      "growth": "+101",
+      "growthValue": 101,
+      "rank": 9
+    },
+    {
+      "name": "elder-plinius/G0DM0D3",
+      "link": "https://github.com/elder-plinius/G0DM0D3",
+      "description": "LIBERATED AI CHAT",
+      "language": "TypeScript",
+      "totalStars": "9567",
+      "totalForks": "2260",
+      "growth": "+87",
+      "growthValue": 87,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-18 21:54"
+  "lastUpdated": "2026-07-19 05:57"
 }
