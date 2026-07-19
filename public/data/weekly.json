@@ -1,47 +1,47 @@
 {
   "projects": [
     {
+      "name": "earendil-works/pi",
+      "link": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "totalStars": "72675",
+      "totalForks": "8976",
+      "growth": "+72675",
+      "growthValue": 72675,
+      "rank": 1
+    },
+    {
       "name": "OpenCut-app/OpenCut",
       "link": "https://github.com/OpenCut-app/OpenCut",
       "description": "The open-source CapCut alternative",
       "language": "TypeScript",
-      "totalStars": "75593",
-      "totalForks": "7604",
-      "growth": "+9574",
-      "growthValue": 9574,
-      "rank": 1
+      "totalStars": "75709",
+      "totalForks": "7615",
+      "growth": "+9690",
+      "growthValue": 9690,
+      "rank": 2
     },
     {
       "name": "Nutlope/hallmark",
       "link": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "totalStars": "13042",
-      "totalForks": "661",
-      "growth": "+8844",
-      "growthValue": 8844,
-      "rank": 2
+      "totalStars": "13182",
+      "totalForks": "667",
+      "growth": "+8984",
+      "growthValue": 8984,
+      "rank": 3
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "176972",
-      "totalForks": "15174",
-      "growth": "+6871",
-      "growthValue": 6871,
-      "rank": 3
-    },
-    {
-      "name": "Graphify-Labs/graphify",
-      "link": "https://github.com/Graphify-Labs/graphify",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-      "language": "Python",
-      "totalStars": "91245",
-      "totalForks": "8896",
-      "growth": "+6691",
-      "growthValue": 6691,
+      "totalStars": "177220",
+      "totalForks": "15194",
+      "growth": "+7119",
+      "growthValue": 7119,
       "rank": 4
     },
     {
@@ -49,122 +49,111 @@
       "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
       "language": "Python",
-      "totalStars": "124230",
-      "totalForks": "18340",
-      "growth": "+5775",
-      "growthValue": 5775,
+      "totalStars": "124379",
+      "totalForks": "18367",
+      "growth": "+5924",
+      "growthValue": 5924,
       "rank": 5
-    },
-    {
-      "name": "stablyai/orca",
-      "link": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
-      "language": "TypeScript",
-      "totalStars": "22047",
-      "totalForks": "1585",
-      "growth": "+5216",
-      "growthValue": 5216,
-      "rank": 6
     },
     {
       "name": "HKUDS/Vibe-Trading",
       "link": "https://github.com/HKUDS/Vibe-Trading",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "language": "Python",
-      "totalStars": "25116",
-      "totalForks": "4139",
-      "growth": "+4647",
-      "growthValue": 4647,
-      "rank": 7
+      "totalStars": "25204",
+      "totalForks": "4153",
+      "growth": "+4735",
+      "growthValue": 4735,
+      "rank": 6
     },
     {
       "name": "iOfficeAI/OfficeCLI",
       "link": "https://github.com/iOfficeAI/OfficeCLI",
       "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
       "language": "C#",
-      "totalStars": "19455",
-      "totalForks": "1311",
-      "growth": "+4061",
-      "growthValue": 4061,
-      "rank": 8
+      "totalStars": "19546",
+      "totalForks": "1315",
+      "growth": "+4152",
+      "growthValue": 4152,
+      "rank": 7
     },
     {
       "name": "HKUDS/DeepTutor",
       "link": "https://github.com/HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.",
       "language": "Python",
-      "totalStars": "27780",
-      "totalForks": "3691",
-      "growth": "+1570",
-      "growthValue": 1570,
-      "rank": 9
+      "totalStars": "27861",
+      "totalForks": "3699",
+      "growth": "+1651",
+      "growthValue": 1651,
+      "rank": 8
     },
     {
       "name": "openinterpreter/openinterpreter",
       "link": "https://github.com/openinterpreter/openinterpreter",
       "description": "A coding agent for open models like Kimi K3",
       "language": "Rust",
-      "totalStars": "66749",
-      "totalForks": "5736",
-      "growth": "+1333",
-      "growthValue": 1333,
-      "rank": 10
+      "totalStars": "66788",
+      "totalForks": "5739",
+      "growth": "+1372",
+      "growthValue": 1372,
+      "rank": 9
     },
     {
       "name": "ibelick/ui-skills",
       "link": "https://github.com/ibelick/ui-skills",
       "description": "Skills for Design Engineers",
       "language": "TypeScript",
-      "totalStars": "5290",
-      "totalForks": "226",
-      "growth": "+1088",
-      "growthValue": 1088,
-      "rank": 11
+      "totalStars": "5357",
+      "totalForks": "231",
+      "growth": "+1155",
+      "growthValue": 1155,
+      "rank": 10
     },
     {
-      "name": "wonderwhy-er/DesktopCommanderMCP",
-      "link": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-      "language": "TypeScript",
-      "totalStars": "8534",
-      "totalForks": "943",
-      "growth": "+573",
-      "growthValue": 573,
-      "rank": 12
+      "name": "tirth8205/code-review-graph",
+      "link": "https://github.com/tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "totalStars": "20807",
+      "totalForks": "2154",
+      "growth": "+1096",
+      "growthValue": 1096,
+      "rank": 11
     },
     {
       "name": "kangarooking/cangjie-skill",
       "link": "https://github.com/kangarooking/cangjie-skill",
       "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
       "language": "Python",
-      "totalStars": "3735",
-      "totalForks": "531",
-      "growth": "+457",
-      "growthValue": 457,
-      "rank": 13
+      "totalStars": "3797",
+      "totalForks": "535",
+      "growth": "+519",
+      "growthValue": 519,
+      "rank": 12
     },
     {
       "name": "openai/codex",
       "link": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "totalStars": "99532",
-      "totalForks": "14901",
-      "growth": "+142",
-      "growthValue": 142,
-      "rank": 14
+      "totalStars": "99609",
+      "totalForks": "14912",
+      "growth": "+219",
+      "growthValue": 219,
+      "rank": 13
     },
     {
-      "name": "abseil/abseil-cpp",
-      "link": "https://github.com/abseil/abseil-cpp",
-      "description": "Abseil Common Libraries (C++)",
-      "language": "C++",
-      "totalStars": "17984",
-      "totalForks": "3141",
-      "growth": "+40",
-      "growthValue": 40,
-      "rank": 15
+      "name": "anthropics/cwc-workshops",
+      "link": "https://github.com/anthropics/cwc-workshops",
+      "description": "",
+      "language": "TypeScript",
+      "totalStars": "1742",
+      "totalForks": "497",
+      "growth": "+180",
+      "growthValue": 180,
+      "rank": 14
     }
   ],
-  "lastUpdated": "2026-07-19 10:37"
+  "lastUpdated": "2026-07-19 16:00"
 }
