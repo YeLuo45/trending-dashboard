@@ -1,47 +1,47 @@
 {
   "projects": [
     {
+      "name": "bojieli/ai-agent-book",
+      "link": "https://github.com/bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "language": "Python",
+      "totalStars": "13118",
+      "totalForks": "1244",
+      "growth": "+13118",
+      "growthValue": 13118,
+      "rank": 1
+    },
+    {
       "name": "tirth8205/code-review-graph",
       "link": "https://github.com/tirth8205/code-review-graph",
       "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
       "language": "Python",
-      "totalStars": "23671",
-      "totalForks": "2297",
-      "growth": "+674",
-      "growthValue": 674,
-      "rank": 1
+      "totalStars": "24162",
+      "totalForks": "2326",
+      "growth": "+1165",
+      "growthValue": 1165,
+      "rank": 2
     },
     {
       "name": "diegosouzapw/OmniRoute",
       "link": "https://github.com/diegosouzapw/OmniRoute",
       "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.",
       "language": "TypeScript",
-      "totalStars": "22249",
-      "totalForks": "3003",
-      "growth": "+610",
-      "growthValue": 610,
-      "rank": 2
+      "totalStars": "22666",
+      "totalForks": "3043",
+      "growth": "+1027",
+      "growthValue": 1027,
+      "rank": 3
     },
     {
       "name": "oblien/openship",
       "link": "https://github.com/oblien/openship",
       "description": "Self-hosted deployment platform",
       "language": "TypeScript",
-      "totalStars": "5103",
-      "totalForks": "354",
-      "growth": "+429",
-      "growthValue": 429,
-      "rank": 3
-    },
-    {
-      "name": "rohitg00/ai-engineering-from-scratch",
-      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "totalStars": "40803",
-      "totalForks": "6765",
-      "growth": "+338",
-      "growthValue": 338,
+      "totalStars": "5432",
+      "totalForks": "379",
+      "growth": "+758",
+      "growthValue": 758,
       "rank": 4
     },
     {
@@ -49,21 +49,21 @@
       "link": "https://github.com/jamiepine/voicebox",
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "language": "TypeScript",
-      "totalStars": "44422",
-      "totalForks": "5405",
-      "growth": "+318",
-      "growthValue": 318,
+      "totalStars": "44819",
+      "totalForks": "5448",
+      "growth": "+715",
+      "growthValue": 715,
       "rank": 5
     },
     {
-      "name": "every-app/open-seo",
-      "link": "https://github.com/every-app/open-seo",
-      "description": "Open source alternative to Semrush and Ahrefs",
-      "language": "TypeScript",
-      "totalStars": "6056",
-      "totalForks": "665",
-      "growth": "+280",
-      "growthValue": 280,
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "totalStars": "41141",
+      "totalForks": "6817",
+      "growth": "+676",
+      "growthValue": 676,
       "rank": 6
     },
     {
@@ -71,10 +71,10 @@
       "link": "https://github.com/msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Shell",
-      "totalStars": "134921",
-      "totalForks": "21986",
-      "growth": "+273",
-      "growthValue": 273,
+      "totalStars": "135170",
+      "totalForks": "22018",
+      "growth": "+522",
+      "growthValue": 522,
       "rank": 7
     },
     {
@@ -82,34 +82,34 @@
       "link": "https://github.com/1jehuang/jcode",
       "description": "The most intelligent agent harness for code",
       "language": "Rust",
-      "totalStars": "9822",
-      "totalForks": "1092",
-      "growth": "+255",
-      "growthValue": 255,
+      "totalStars": "10022",
+      "totalForks": "1106",
+      "growth": "+455",
+      "growthValue": 455,
       "rank": 8
+    },
+    {
+      "name": "every-app/open-seo",
+      "link": "https://github.com/every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "totalStars": "6219",
+      "totalForks": "685",
+      "growth": "+443",
+      "growthValue": 443,
+      "rank": 9
     },
     {
       "name": "moonshine-ai/moonshine",
       "link": "https://github.com/moonshine-ai/moonshine",
       "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
       "language": "C++",
-      "totalStars": "10013",
-      "totalForks": "523",
-      "growth": "+246",
-      "growthValue": 246,
-      "rank": 9
-    },
-    {
-      "name": "KnockOutEZ/wigolo",
-      "link": "https://github.com/KnockOutEZ/wigolo",
-      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
-      "language": "TypeScript",
-      "totalStars": "2697",
-      "totalForks": "163",
-      "growth": "+225",
-      "growthValue": 225,
+      "totalStars": "10173",
+      "totalForks": "533",
+      "growth": "+406",
+      "growthValue": 406,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-21 05:54"
+  "lastUpdated": "2026-07-21 11:11"
 }
