@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "jellyfin/jellyfin",
+      "link": "https://github.com/jellyfin/jellyfin",
+      "description": "The Free Software Media System - Server Backend & API",
+      "language": "C#",
+      "totalStars": "54591",
+      "totalForks": "5159",
+      "growth": "+54591",
+      "growthValue": 54591,
+      "rank": 1
+    },
+    {
+      "name": "Automattic/harper",
+      "link": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "totalStars": "11787",
+      "totalForks": "437",
+      "growth": "+11787",
+      "growthValue": 11787,
+      "rank": 2
+    },
+    {
+      "name": "alibaba/open-code-review",
+      "link": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "totalStars": "11043",
+      "totalForks": "770",
+      "growth": "+11043",
+      "growthValue": 11043,
+      "rank": 3
+    },
+    {
+      "name": "block/buzz",
+      "link": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "totalStars": "4981",
+      "totalForks": "387",
+      "growth": "+4981",
+      "growthValue": 4981,
+      "rank": 4
+    },
+    {
       "name": "koala73/worldmonitor",
       "link": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "totalStars": "69675",
-      "totalForks": "10613",
-      "growth": "+925",
-      "growthValue": 925,
-      "rank": 1
+      "totalStars": "70469",
+      "totalForks": "10683",
+      "growth": "+1719",
+      "growthValue": 1719,
+      "rank": 5
+    },
+    {
+      "name": "citrolabs/ego-lite",
+      "link": "https://github.com/citrolabs/ego-lite",
+      "description": "The best browser for both you and your AI agents work in parallel.",
+      "language": "JavaScript",
+      "totalStars": "1211",
+      "totalForks": "73",
+      "growth": "+1211",
+      "growthValue": 1211,
+      "rank": 6
     },
     {
       "name": "diegosouzapw/OmniRoute",
       "link": "https://github.com/diegosouzapw/OmniRoute",
       "description": "Never stop coding. Free MIT AI gateway: one endpoint, 278+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
       "language": "TypeScript",
-      "totalStars": "25739",
-      "totalForks": "3393",
-      "growth": "+628",
-      "growthValue": 628,
-      "rank": 2
+      "totalStars": "26187",
+      "totalForks": "3437",
+      "growth": "+1076",
+      "growthValue": 1076,
+      "rank": 7
     },
     {
       "name": "ruvnet/RuView",
       "link": "https://github.com/ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
-      "totalStars": "84145",
-      "totalForks": "11259",
-      "growth": "+468",
-      "growthValue": 468,
-      "rank": 3
+      "totalStars": "84585",
+      "totalForks": "11292",
+      "growth": "+908",
+      "growthValue": 908,
+      "rank": 8
     },
     {
       "name": "ayghri/i-have-adhd",
       "link": "https://github.com/ayghri/i-have-adhd",
       "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
       "language": "Python",
-      "totalStars": "8568",
-      "totalForks": "390",
-      "growth": "+405",
-      "growthValue": 405,
-      "rank": 4
-    },
-    {
-      "name": "schollz/croc",
-      "link": "https://github.com/schollz/croc",
-      "description": "Easily and securely send things from one computer to another 🐊 📦",
-      "language": "Go",
-      "totalStars": "37828",
-      "totalForks": "1493",
-      "growth": "+315",
-      "growthValue": 315,
-      "rank": 5
-    },
-    {
-      "name": "rohitg00/ai-engineering-from-scratch",
-      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "totalStars": "42462",
-      "totalForks": "7074",
-      "growth": "+270",
-      "growthValue": 270,
-      "rank": 6
-    },
-    {
-      "name": "jamiepine/voicebox",
-      "link": "https://github.com/jamiepine/voicebox",
-      "description": "The open-source AI voice studio. Clone, dictate, create.",
-      "language": "TypeScript",
-      "totalStars": "45946",
-      "totalForks": "5605",
-      "growth": "+245",
-      "growthValue": 245,
-      "rank": 7
-    },
-    {
-      "name": "oblien/openship",
-      "link": "https://github.com/oblien/openship",
-      "description": "Self-hosted deployment platform",
-      "language": "TypeScript",
-      "totalStars": "7458",
-      "totalForks": "550",
-      "growth": "+236",
-      "growthValue": 236,
-      "rank": 8
-    },
-    {
-      "name": "tirth8205/code-review-graph",
-      "link": "https://github.com/tirth8205/code-review-graph",
-      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "language": "Python",
-      "totalStars": "25487",
-      "totalForks": "2403",
-      "growth": "+226",
-      "growthValue": 226,
+      "totalStars": "8885",
+      "totalForks": "410",
+      "growth": "+722",
+      "growthValue": 722,
       "rank": 9
     },
     {
-      "name": "ComposioHQ/awesome-claude-skills",
-      "link": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "language": "Python",
-      "totalStars": "68943",
-      "totalForks": "7819",
-      "growth": "+220",
-      "growthValue": 220,
+      "name": "earthtojake/text-to-cad",
+      "link": "https://github.com/earthtojake/text-to-cad",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "language": "JavaScript",
+      "totalStars": "9701",
+      "totalForks": "1076",
+      "growth": "+398",
+      "growthValue": 398,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-23 06:04"
+  "lastUpdated": "2026-07-23 11:13"
 }
