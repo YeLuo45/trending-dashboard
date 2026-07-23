@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "jellyfin/jellyfin",
-      "link": "https://github.com/jellyfin/jellyfin",
-      "description": "The Free Software Media System - Server Backend & API",
-      "language": "C#",
-      "totalStars": "54591",
-      "totalForks": "5159",
-      "growth": "+54591",
-      "growthValue": 54591,
-      "rank": 1
-    },
-    {
-      "name": "Automattic/harper",
-      "link": "https://github.com/Automattic/harper",
-      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
-      "language": "Rust",
-      "totalStars": "11787",
-      "totalForks": "437",
-      "growth": "+11787",
-      "growthValue": 11787,
-      "rank": 2
-    },
-    {
-      "name": "alibaba/open-code-review",
-      "link": "https://github.com/alibaba/open-code-review",
-      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "language": "Go",
-      "totalStars": "11043",
-      "totalForks": "770",
-      "growth": "+11043",
-      "growthValue": 11043,
-      "rank": 3
-    },
-    {
-      "name": "block/buzz",
-      "link": "https://github.com/block/buzz",
-      "description": "A hive mind communication platform",
-      "language": "Rust",
-      "totalStars": "4981",
-      "totalForks": "387",
-      "growth": "+4981",
-      "growthValue": 4981,
-      "rank": 4
-    },
-    {
       "name": "koala73/worldmonitor",
       "link": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "totalStars": "70469",
-      "totalForks": "10683",
-      "growth": "+1719",
-      "growthValue": 1719,
-      "rank": 5
-    },
-    {
-      "name": "citrolabs/ego-lite",
-      "link": "https://github.com/citrolabs/ego-lite",
-      "description": "The best browser for both you and your AI agents work in parallel.",
-      "language": "JavaScript",
-      "totalStars": "1211",
-      "totalForks": "73",
-      "growth": "+1211",
-      "growthValue": 1211,
-      "rank": 6
+      "totalStars": "71032",
+      "totalForks": "10751",
+      "growth": "+2282",
+      "growthValue": 2282,
+      "rank": 1
     },
     {
       "name": "diegosouzapw/OmniRoute",
       "link": "https://github.com/diegosouzapw/OmniRoute",
       "description": "Never stop coding. Free MIT AI gateway: one endpoint, 278+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
       "language": "TypeScript",
-      "totalStars": "26187",
-      "totalForks": "3437",
-      "growth": "+1076",
-      "growthValue": 1076,
-      "rank": 7
+      "totalStars": "26679",
+      "totalForks": "3499",
+      "growth": "+1568",
+      "growthValue": 1568,
+      "rank": 2
+    },
+    {
+      "name": "Julian-adv/OpenMMO",
+      "link": "https://github.com/Julian-adv/OpenMMO",
+      "description": "",
+      "language": "Rust",
+      "totalStars": "1273",
+      "totalForks": "163",
+      "growth": "+1273",
+      "growthValue": 1273,
+      "rank": 3
     },
     {
       "name": "ruvnet/RuView",
       "link": "https://github.com/ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
-      "totalStars": "84585",
-      "totalForks": "11292",
-      "growth": "+908",
-      "growthValue": 908,
-      "rank": 8
+      "totalStars": "84918",
+      "totalForks": "11342",
+      "growth": "+1241",
+      "growthValue": 1241,
+      "rank": 4
     },
     {
-      "name": "ayghri/i-have-adhd",
-      "link": "https://github.com/ayghri/i-have-adhd",
-      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "name": "block/buzz",
+      "link": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "totalStars": "5975",
+      "totalForks": "468",
+      "growth": "+994",
+      "growthValue": 994,
+      "rank": 5
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "link": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "language": "Python",
-      "totalStars": "8885",
-      "totalForks": "410",
-      "growth": "+722",
-      "growthValue": 722,
-      "rank": 9
+      "totalStars": "69253",
+      "totalForks": "7837",
+      "growth": "+530",
+      "growthValue": 530,
+      "rank": 6
     },
     {
       "name": "earthtojake/text-to-cad",
       "link": "https://github.com/earthtojake/text-to-cad",
       "description": "A collection of agent skills for CAD, robotics and hardware design",
       "language": "JavaScript",
-      "totalStars": "9701",
-      "totalForks": "1076",
-      "growth": "+398",
-      "growthValue": 398,
+      "totalStars": "9833",
+      "totalForks": "1088",
+      "growth": "+530",
+      "growthValue": 530,
+      "rank": 7
+    },
+    {
+      "name": "Pumpkin-MC/Pumpkin",
+      "link": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "totalStars": "8765",
+      "totalForks": "608",
+      "growth": "+405",
+      "growthValue": 405,
+      "rank": 8
+    },
+    {
+      "name": "chrislgarry/Apollo-11",
+      "link": "https://github.com/chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "totalStars": "70953",
+      "totalForks": "7911",
+      "growth": "+392",
+      "growthValue": 392,
+      "rank": 9
+    },
+    {
+      "name": "likec4/likec4",
+      "link": "https://github.com/likec4/likec4",
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "language": "TypeScript",
+      "totalStars": "4596",
+      "totalForks": "310",
+      "growth": "+356",
+      "growthValue": 356,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-23 11:13"
+  "lastUpdated": "2026-07-23 16:38"
 }
