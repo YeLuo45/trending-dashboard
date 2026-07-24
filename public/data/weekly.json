@@ -1,192 +1,225 @@
 {
   "projects": [
     {
+      "name": "bojieli/ai-agent-book",
+      "link": "https://github.com/bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "language": "Python",
+      "totalStars": "18797",
+      "totalForks": "1871",
+      "growth": "+13502",
+      "growthValue": 13502,
+      "rank": 1
+    },
+    {
+      "name": "mattpocock/skills",
+      "link": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "totalStars": "185796",
+      "totalForks": "15943",
+      "growth": "+10705",
+      "growthValue": 10705,
+      "rank": 2
+    },
+    {
       "name": "diegosouzapw/OmniRoute",
       "link": "https://github.com/diegosouzapw/OmniRoute",
       "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
       "language": "TypeScript",
-      "totalStars": "27580",
-      "totalForks": "3612",
-      "growth": "+9220",
-      "growthValue": 9220,
-      "rank": 1
+      "totalStars": "28008",
+      "totalForks": "3676",
+      "growth": "+9648",
+      "growthValue": 9648,
+      "rank": 3
     },
     {
       "name": "koala73/worldmonitor",
       "link": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "totalStars": "72042",
-      "totalForks": "10839",
-      "growth": "+6939",
-      "growthValue": 6939,
-      "rank": 2
+      "totalStars": "72632",
+      "totalForks": "10894",
+      "growth": "+7529",
+      "growthValue": 7529,
+      "rank": 4
     },
     {
       "name": "tirth8205/code-review-graph",
       "link": "https://github.com/tirth8205/code-review-graph",
       "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
       "language": "Python",
-      "totalStars": "25968",
-      "totalForks": "2436",
-      "growth": "+6257",
-      "growthValue": 6257,
-      "rank": 3
+      "totalStars": "26073",
+      "totalForks": "2443",
+      "growth": "+6362",
+      "growthValue": 6362,
+      "rank": 5
     },
     {
       "name": "Nutlope/hallmark",
       "link": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "totalStars": "16392",
-      "totalForks": "822",
-      "growth": "+4452",
-      "growthValue": 4452,
-      "rank": 4
+      "totalStars": "16521",
+      "totalForks": "830",
+      "growth": "+4581",
+      "growthValue": 4581,
+      "rank": 6
     },
     {
       "name": "earendil-works/pi",
       "link": "https://github.com/earendil-works/pi",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "language": "TypeScript",
-      "totalStars": "76525",
-      "totalForks": "9416",
-      "growth": "+3778",
-      "growthValue": 3778,
-      "rank": 5
-    },
-    {
-      "name": "codecrafters-io/build-your-own-x",
-      "link": "https://github.com/codecrafters-io/build-your-own-x",
-      "description": "Master programming by recreating your favorite technologies from scratch.",
-      "language": "Markdown",
-      "totalStars": "530962",
-      "totalForks": "50220",
-      "growth": "+3716",
-      "growthValue": 3716,
-      "rank": 6
-    },
-    {
-      "name": "Shubhamsaboo/awesome-llm-apps",
-      "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "language": "Python",
-      "totalStars": "127022",
-      "totalForks": "18727",
-      "growth": "+3452",
-      "growthValue": 3452,
+      "totalStars": "76785",
+      "totalForks": "9440",
+      "growth": "+4038",
+      "growthValue": 4038,
       "rank": 7
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "totalStars": "42981",
+      "totalForks": "7179",
+      "growth": "+3919",
+      "growthValue": 3919,
+      "rank": 8
     },
     {
       "name": "Robbyant/lingbot-map",
       "link": "https://github.com/Robbyant/lingbot-map",
       "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
       "language": "Python",
-      "totalStars": "15158",
-      "totalForks": "1569",
-      "growth": "+2304",
-      "growthValue": 2304,
-      "rank": 8
+      "totalStars": "15210",
+      "totalForks": "1574",
+      "growth": "+2356",
+      "growthValue": 2356,
+      "rank": 9
     },
     {
       "name": "1jehuang/jcode",
       "link": "https://github.com/1jehuang/jcode",
       "description": "The most intelligent agent harness for code",
       "language": "Rust",
-      "totalStars": "11058",
-      "totalForks": "1209",
-      "growth": "+2211",
-      "growthValue": 2211,
-      "rank": 9
+      "totalStars": "11099",
+      "totalForks": "1213",
+      "growth": "+2252",
+      "growthValue": 2252,
+      "rank": 10
     },
     {
       "name": "HKUDS/DeepTutor",
       "link": "https://github.com/HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.",
       "language": "Python",
-      "totalStars": "29436",
-      "totalForks": "3881",
-      "growth": "+2125",
-      "growthValue": 2125,
-      "rank": 10
+      "totalStars": "29495",
+      "totalForks": "3888",
+      "growth": "+2184",
+      "growthValue": 2184,
+      "rank": 11
+    },
+    {
+      "name": "ruvnet/RuView",
+      "link": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "totalStars": "85562",
+      "totalForks": "11413",
+      "growth": "+1885",
+      "growthValue": 1885,
+      "rank": 12
     },
     {
       "name": "ibelick/ui-skills",
       "link": "https://github.com/ibelick/ui-skills",
       "description": "Skills for Design Engineers",
       "language": "TypeScript",
-      "totalStars": "6202",
-      "totalForks": "269",
-      "growth": "+1637",
-      "growthValue": 1637,
-      "rank": 11
+      "totalStars": "6240",
+      "totalForks": "271",
+      "growth": "+1675",
+      "growthValue": 1675,
+      "rank": 13
+    },
+    {
+      "name": "schollz/croc",
+      "link": "https://github.com/schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "language": "Go",
+      "totalStars": "38180",
+      "totalForks": "1516",
+      "growth": "+1445",
+      "growthValue": 1445,
+      "rank": 14
     },
     {
       "name": "MoonshotAI/kimi-cli",
       "link": "https://github.com/MoonshotAI/kimi-cli",
       "description": "Kimi Code CLI is your next CLI agent.",
       "language": "Python",
-      "totalStars": "10717",
-      "totalForks": "1249",
-      "growth": "+1273",
-      "growthValue": 1273,
-      "rank": 12
+      "totalStars": "10740",
+      "totalForks": "1251",
+      "growth": "+1296",
+      "growthValue": 1296,
+      "rank": 15
     },
     {
       "name": "agegr/pi-web",
       "link": "https://github.com/agegr/pi-web",
       "description": "Web UI for the pi coding agent",
       "language": "TypeScript",
-      "totalStars": "2464",
-      "totalForks": "336",
-      "growth": "+767",
-      "growthValue": 767,
-      "rank": 13
+      "totalStars": "2541",
+      "totalForks": "338",
+      "growth": "+844",
+      "growthValue": 844,
+      "rank": 16
     },
     {
       "name": "kvcache-ai/ktransformers",
       "link": "https://github.com/kvcache-ai/ktransformers",
       "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
       "language": "Python",
-      "totalStars": "18965",
-      "totalForks": "1482",
-      "growth": "+652",
-      "growthValue": 652,
-      "rank": 14
+      "totalStars": "18977",
+      "totalForks": "1483",
+      "growth": "+664",
+      "growthValue": 664,
+      "rank": 17
     },
     {
       "name": "apache/ossie",
       "link": "https://github.com/apache/ossie",
       "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
       "language": "Python",
-      "totalStars": "1566",
-      "totalForks": "181",
-      "growth": "+451",
-      "growthValue": 451,
-      "rank": 15
+      "totalStars": "1581",
+      "totalForks": "182",
+      "growth": "+466",
+      "growthValue": 466,
+      "rank": 18
     },
     {
       "name": "PrismML-Eng/Bonsai-demo",
       "link": "https://github.com/PrismML-Eng/Bonsai-demo",
       "description": "Bonsai Demo",
       "language": "Shell",
-      "totalStars": "1989",
+      "totalStars": "2007",
       "totalForks": "198",
-      "growth": "+291",
-      "growthValue": 291,
-      "rank": 16
+      "growth": "+309",
+      "growthValue": 309,
+      "rank": 19
     },
     {
       "name": "MoonshotAI/kimi-code",
       "link": "https://github.com/MoonshotAI/kimi-code",
       "description": "Kimi Code CLI — The Starting Point for Next-Gen Agents",
       "language": "TypeScript",
-      "totalStars": "4831",
-      "totalForks": "709",
-      "growth": "+261",
-      "growthValue": 261,
-      "rank": 17
+      "totalStars": "4878",
+      "totalForks": "712",
+      "growth": "+308",
+      "growthValue": 308,
+      "rank": 20
     }
   ],
-  "lastUpdated": "2026-07-24 05:52"
+  "lastUpdated": "2026-07-24 11:05"
 }
