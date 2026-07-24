@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "block/buzz",
+      "link": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "totalStars": "7522",
+      "totalForks": "597",
+      "growth": "+861",
+      "growthValue": 861,
+      "rank": 1
+    },
+    {
       "name": "koala73/worldmonitor",
       "link": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "totalStars": "71434",
-      "totalForks": "10787",
-      "growth": "+2684",
-      "growthValue": 2684,
-      "rank": 1
+      "totalStars": "72042",
+      "totalForks": "10839",
+      "growth": "+608",
+      "growthValue": 608,
+      "rank": 2
     },
     {
       "name": "diegosouzapw/OmniRoute",
       "link": "https://github.com/diegosouzapw/OmniRoute",
       "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
       "language": "TypeScript",
-      "totalStars": "27029",
-      "totalForks": "3546",
-      "growth": "+1918",
-      "growthValue": 1918,
-      "rank": 2
+      "totalStars": "27580",
+      "totalForks": "3612",
+      "growth": "+551",
+      "growthValue": 551,
+      "rank": 3
+    },
+    {
+      "name": "alibaba/open-code-review",
+      "link": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "totalStars": "11792",
+      "totalForks": "813",
+      "growth": "+351",
+      "growthValue": 351,
+      "rank": 4
+    },
+    {
+      "name": "citrolabs/ego-lite",
+      "link": "https://github.com/citrolabs/ego-lite",
+      "description": "The best browser for both you and your AI agents work in parallel.",
+      "language": "JavaScript",
+      "totalStars": "1868",
+      "totalForks": "101",
+      "growth": "+297",
+      "growthValue": 297,
+      "rank": 5
+    },
+    {
+      "name": "Automattic/harper",
+      "link": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "totalStars": "12491",
+      "totalForks": "465",
+      "growth": "+289",
+      "growthValue": 289,
+      "rank": 6
     },
     {
       "name": "ruvnet/RuView",
       "link": "https://github.com/ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
-      "totalStars": "85142",
-      "totalForks": "11366",
-      "growth": "+1465",
-      "growthValue": 1465,
-      "rank": 3
-    },
-    {
-      "name": "block/buzz",
-      "link": "https://github.com/block/buzz",
-      "description": "A hive mind communication platform",
-      "language": "Rust",
-      "totalStars": "6661",
-      "totalForks": "540",
-      "growth": "+686",
-      "growthValue": 686,
-      "rank": 4
+      "totalStars": "85371",
+      "totalForks": "11391",
+      "growth": "+229",
+      "growthValue": 229,
+      "rank": 7
     },
     {
       "name": "ComposioHQ/awesome-claude-skills",
       "link": "https://github.com/ComposioHQ/awesome-claude-skills",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "language": "Python",
-      "totalStars": "69376",
-      "totalForks": "7849",
-      "growth": "+653",
-      "growthValue": 653,
-      "rank": 5
+      "totalStars": "69572",
+      "totalForks": "7863",
+      "growth": "+196",
+      "growthValue": 196,
+      "rank": 8
     },
     {
       "name": "earthtojake/text-to-cad",
       "link": "https://github.com/earthtojake/text-to-cad",
       "description": "A collection of agent skills for CAD, robotics and hardware design",
       "language": "JavaScript",
-      "totalStars": "9938",
-      "totalForks": "1095",
-      "growth": "+635",
-      "growthValue": 635,
-      "rank": 6
-    },
-    {
-      "name": "chrislgarry/Apollo-11",
-      "link": "https://github.com/chrislgarry/Apollo-11",
-      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
-      "language": "Assembly",
-      "totalStars": "71066",
-      "totalForks": "7915",
-      "growth": "+505",
-      "growthValue": 505,
-      "rank": 7
-    },
-    {
-      "name": "Pumpkin-MC/Pumpkin",
-      "link": "https://github.com/Pumpkin-MC/Pumpkin",
-      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
-      "language": "Rust",
-      "totalStars": "8864",
-      "totalForks": "612",
-      "growth": "+504",
-      "growthValue": 504,
-      "rank": 8
+      "totalStars": "10126",
+      "totalForks": "1110",
+      "growth": "+188",
+      "growthValue": 188,
+      "rank": 9
     },
     {
       "name": "shiyu-coder/Kronos",
       "link": "https://github.com/shiyu-coder/Kronos",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "language": "Python",
-      "totalStars": "33007",
-      "totalForks": "5644",
-      "growth": "+444",
-      "growthValue": 444,
-      "rank": 9
-    },
-    {
-      "name": "likec4/likec4",
-      "link": "https://github.com/likec4/likec4",
-      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
-      "language": "TypeScript",
-      "totalStars": "4665",
-      "totalForks": "317",
-      "growth": "+425",
-      "growthValue": 425,
+      "totalStars": "33194",
+      "totalForks": "5657",
+      "growth": "+187",
+      "growthValue": 187,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-23 22:07"
+  "lastUpdated": "2026-07-24 05:52"
 }
