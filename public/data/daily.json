@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "Lordog/dive-into-llms",
-      "link": "https://github.com/Lordog/dive-into-llms",
-      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
-      "language": "Jupyter Notebook",
-      "totalStars": "44826",
-      "totalForks": "5372",
-      "growth": "+44826",
-      "growthValue": 44826,
-      "rank": 1
-    },
-    {
-      "name": "OtterMind/Chat2DB",
-      "link": "https://github.com/OtterMind/Chat2DB",
-      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
-      "language": "Java",
-      "totalStars": "26115",
-      "totalForks": "2874",
-      "growth": "+26115",
-      "growthValue": 26115,
-      "rank": 2
-    },
-    {
-      "name": "yorukot/superfile",
-      "link": "https://github.com/yorukot/superfile",
-      "description": "Pretty fancy and modern terminal file manager",
-      "language": "Go",
-      "totalStars": "19093",
-      "totalForks": "587",
-      "growth": "+19093",
-      "growthValue": 19093,
-      "rank": 3
-    },
-    {
-      "name": "CoreBunch/Instatic",
-      "link": "https://github.com/CoreBunch/Instatic",
-      "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute",
-      "language": "TypeScript",
-      "totalStars": "4022",
-      "totalForks": "382",
-      "growth": "+4022",
-      "growthValue": 4022,
-      "rank": 4
-    },
-    {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "185796",
-      "totalForks": "15943",
-      "growth": "+2809",
-      "growthValue": 2809,
-      "rank": 5
+      "totalStars": "186319",
+      "totalForks": "15980",
+      "growth": "+3332",
+      "growthValue": 3332,
+      "rank": 1
     },
     {
       "name": "block/buzz",
       "link": "https://github.com/block/buzz",
       "description": "A hive mind communication platform",
       "language": "Rust",
-      "totalStars": "8267",
-      "totalForks": "644",
-      "growth": "+1606",
-      "growthValue": 1606,
-      "rank": 6
+      "totalStars": "9147",
+      "totalForks": "700",
+      "growth": "+2486",
+      "growthValue": 2486,
+      "rank": 2
     },
     {
       "name": "koala73/worldmonitor",
       "link": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "totalStars": "72632",
-      "totalForks": "10894",
-      "growth": "+1198",
-      "growthValue": 1198,
-      "rank": 7
+      "totalStars": "72977",
+      "totalForks": "10958",
+      "growth": "+1543",
+      "growthValue": 1543,
+      "rank": 3
     },
     {
       "name": "diegosouzapw/OmniRoute",
       "link": "https://github.com/diegosouzapw/OmniRoute",
       "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
       "language": "TypeScript",
-      "totalStars": "28008",
-      "totalForks": "3676",
-      "growth": "+979",
-      "growthValue": 979,
-      "rank": 8
+      "totalStars": "28403",
+      "totalForks": "3735",
+      "growth": "+1374",
+      "growthValue": 1374,
+      "rank": 4
     },
     {
       "name": "citrolabs/ego-lite",
       "link": "https://github.com/citrolabs/ego-lite",
-      "description": "The best browser for both you and your AI agents work in parallel.",
+      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
       "language": "JavaScript",
-      "totalStars": "2086",
-      "totalForks": "108",
-      "growth": "+515",
-      "growthValue": 515,
-      "rank": 9
+      "totalStars": "2309",
+      "totalForks": "112",
+      "growth": "+738",
+      "growthValue": 738,
+      "rank": 5
     },
     {
       "name": "Automattic/harper",
       "link": "https://github.com/Automattic/harper",
       "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
       "language": "Rust",
-      "totalStars": "12662",
-      "totalForks": "470",
-      "growth": "+460",
-      "growthValue": 460,
+      "totalStars": "12858",
+      "totalForks": "478",
+      "growth": "+656",
+      "growthValue": 656,
+      "rank": 6
+    },
+    {
+      "name": "ruvnet/RuView",
+      "link": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "totalStars": "85748",
+      "totalForks": "11428",
+      "growth": "+606",
+      "growthValue": 606,
+      "rank": 7
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "link": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "totalStars": "69899",
+      "totalForks": "7882",
+      "growth": "+523",
+      "growthValue": 523,
+      "rank": 8
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "link": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "totalStars": "33396",
+      "totalForks": "5675",
+      "growth": "+389",
+      "growthValue": 389,
+      "rank": 9
+    },
+    {
+      "name": "Pumpkin-MC/Pumpkin",
+      "link": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "totalStars": "9243",
+      "totalForks": "626",
+      "growth": "+379",
+      "growthValue": 379,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-24 11:05"
+  "lastUpdated": "2026-07-24 16:45"
 }
