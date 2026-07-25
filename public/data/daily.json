@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "obra/superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "260924",
+      "totalForks": "23279",
+      "growth": "+260924",
+      "growthValue": 260924,
+      "rank": 1
+    },
+    {
+      "name": "affaan-m/ECC",
+      "link": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "totalStars": "233144",
+      "totalForks": "35537",
+      "growth": "+233144",
+      "growthValue": 233144,
+      "rank": 2
+    },
+    {
+      "name": "anthropics/claude-cookbooks",
+      "link": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "totalStars": "49756",
+      "totalForks": "5891",
+      "growth": "+49756",
+      "growthValue": 49756,
+      "rank": 3
+    },
+    {
+      "name": "permissionlesstech/bitchat",
+      "link": "https://github.com/permissionlesstech/bitchat",
+      "description": "bluetooth mesh chat, IRC vibes",
+      "language": "Swift",
+      "totalStars": "28333",
+      "totalForks": "4104",
+      "growth": "+28333",
+      "growthValue": 28333,
+      "rank": 4
+    },
+    {
+      "name": "andrewyng/aisuite",
+      "link": "https://github.com/andrewyng/aisuite",
+      "description": "Simple, unified interface to multiple Generative AI providers",
+      "language": "Python",
+      "totalStars": "15160",
+      "totalForks": "1613",
+      "growth": "+15160",
+      "growthValue": 15160,
+      "rank": 5
+    },
+    {
+      "name": "RyanCodrai/turbovec",
+      "link": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Python",
+      "totalStars": "14195",
+      "totalForks": "1265",
+      "growth": "+14195",
+      "growthValue": 14195,
+      "rank": 6
+    },
+    {
+      "name": "palmier-io/palmier-pro",
+      "link": "https://github.com/palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "language": "Swift",
+      "totalStars": "12086",
+      "totalForks": "891",
+      "growth": "+12086",
+      "growthValue": 12086,
+      "rank": 7
+    },
+    {
       "name": "block/buzz",
       "link": "https://github.com/block/buzz",
       "description": "A hive mind communication platform",
       "language": "Rust",
-      "totalStars": "10775",
-      "totalForks": "841",
-      "growth": "+991",
-      "growthValue": 991,
-      "rank": 1
+      "totalStars": "11304",
+      "totalForks": "883",
+      "growth": "+1520",
+      "growthValue": 1520,
+      "rank": 8
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "187500",
-      "totalForks": "16096",
-      "growth": "+903",
-      "growthValue": 903,
-      "rank": 2
-    },
-    {
-      "name": "diegosouzapw/OmniRoute",
-      "link": "https://github.com/diegosouzapw/OmniRoute",
-      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
-      "language": "TypeScript",
-      "totalStars": "29430",
-      "totalForks": "3836",
-      "growth": "+708",
-      "growthValue": 708,
-      "rank": 3
-    },
-    {
-      "name": "koala73/worldmonitor",
-      "link": "https://github.com/koala73/worldmonitor",
-      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "language": "TypeScript",
-      "totalStars": "73778",
-      "totalForks": "11068",
-      "growth": "+598",
-      "growthValue": 598,
-      "rank": 4
-    },
-    {
-      "name": "citrolabs/ego-lite",
-      "link": "https://github.com/citrolabs/ego-lite",
-      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "language": "JavaScript",
-      "totalStars": "3052",
-      "totalForks": "147",
-      "growth": "+565",
-      "growthValue": 565,
-      "rank": 5
-    },
-    {
-      "name": "ComposioHQ/awesome-claude-skills",
-      "link": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "language": "Python",
-      "totalStars": "70307",
-      "totalForks": "7920",
-      "growth": "+301",
-      "growthValue": 301,
-      "rank": 6
-    },
-    {
-      "name": "yorukot/superfile",
-      "link": "https://github.com/yorukot/superfile",
-      "description": "Pretty fancy and modern terminal file manager",
-      "language": "Go",
-      "totalStars": "19801",
-      "totalForks": "608",
-      "growth": "+289",
-      "growthValue": 289,
-      "rank": 7
-    },
-    {
-      "name": "ruvnet/RuView",
-      "link": "https://github.com/ruvnet/RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "language": "Rust",
-      "totalStars": "86159",
-      "totalForks": "11462",
-      "growth": "+285",
-      "growthValue": 285,
-      "rank": 8
-    },
-    {
-      "name": "Lordog/dive-into-llms",
-      "link": "https://github.com/Lordog/dive-into-llms",
-      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
-      "language": "Jupyter Notebook",
-      "totalStars": "45216",
-      "totalForks": "5405",
-      "growth": "+245",
-      "growthValue": 245,
+      "totalStars": "187888",
+      "totalForks": "16141",
+      "growth": "+1291",
+      "growthValue": 1291,
       "rank": 9
     },
     {
-      "name": "CoreBunch/Instatic",
-      "link": "https://github.com/CoreBunch/Instatic",
-      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
-      "language": "TypeScript",
-      "totalStars": "4444",
-      "totalForks": "417",
-      "growth": "+213",
-      "growthValue": 213,
+      "name": "alibaba/open-code-review",
+      "link": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "totalStars": "12730",
+      "totalForks": "868",
+      "growth": "+938",
+      "growthValue": 938,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-25 10:36"
+  "lastUpdated": "2026-07-25 16:06"
 }
