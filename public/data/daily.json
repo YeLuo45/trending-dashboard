@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "nodejs/node",
-      "link": "https://github.com/nodejs/node",
-      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-      "language": "JavaScript",
-      "totalStars": "118413",
-      "totalForks": "36164",
-      "growth": "+118413",
-      "growthValue": 118413,
-      "rank": 1
-    },
-    {
-      "name": "pbakaus/impeccable",
-      "link": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "language": "JavaScript",
-      "totalStars": "50405",
-      "totalForks": "2973",
-      "growth": "+50405",
-      "growthValue": 50405,
-      "rank": 2
-    },
-    {
-      "name": "jenkinsci/jenkins",
-      "link": "https://github.com/jenkinsci/jenkins",
-      "description": "Jenkins automation server",
-      "language": "Java",
-      "totalStars": "25654",
-      "totalForks": "9653",
-      "growth": "+25654",
-      "growthValue": 25654,
-      "rank": 3
-    },
-    {
-      "name": "pingdotgg/t3code",
-      "link": "https://github.com/pingdotgg/t3code",
-      "description": "",
-      "language": "TypeScript",
-      "totalStars": "14961",
-      "totalForks": "3295",
-      "growth": "+14961",
-      "growthValue": 14961,
-      "rank": 4
-    },
-    {
-      "name": "amnezia-vpn/amnezia-client",
-      "link": "https://github.com/amnezia-vpn/amnezia-client",
-      "description": "Amnezia VPN Client (Desktop+Mobile)",
-      "language": "C++",
-      "totalStars": "13152",
-      "totalForks": "1001",
-      "growth": "+13152",
-      "growthValue": 13152,
-      "rank": 5
-    },
-    {
-      "name": "permissionlesstech/bitchat-android",
-      "link": "https://github.com/permissionlesstech/bitchat-android",
+      "name": "permissionlesstech/bitchat",
+      "link": "https://github.com/permissionlesstech/bitchat",
       "description": "bluetooth mesh chat, IRC vibes",
-      "language": "Kotlin",
-      "totalStars": "6496",
-      "totalForks": "1552",
-      "growth": "+6496",
-      "growthValue": 6496,
-      "rank": 6
+      "language": "Swift",
+      "totalStars": "30153",
+      "totalForks": "4692",
+      "growth": "+1524",
+      "growthValue": 1524,
+      "rank": 1
     },
     {
       "name": "block/buzz",
       "link": "https://github.com/block/buzz",
       "description": "A hive mind communication platform",
       "language": "Rust",
-      "totalStars": "12812",
-      "totalForks": "1031",
-      "growth": "+1045",
-      "growthValue": 1045,
-      "rank": 7
-    },
-    {
-      "name": "permissionlesstech/bitchat",
-      "link": "https://github.com/permissionlesstech/bitchat",
-      "description": "bluetooth mesh chat, IRC vibes",
-      "language": "Swift",
-      "totalStars": "29666",
-      "totalForks": "4593",
-      "growth": "+1037",
-      "growthValue": 1037,
-      "rank": 8
+      "totalStars": "13090",
+      "totalForks": "1066",
+      "growth": "+1323",
+      "growthValue": 1323,
+      "rank": 2
     },
     {
       "name": "citrolabs/ego-lite",
       "link": "https://github.com/citrolabs/ego-lite",
       "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
       "language": "JavaScript",
-      "totalStars": "4192",
-      "totalForks": "206",
-      "growth": "+699",
-      "growthValue": 699,
-      "rank": 9
+      "totalStars": "4390",
+      "totalForks": "219",
+      "growth": "+897",
+      "growthValue": 897,
+      "rank": 3
     },
     {
       "name": "alibaba/open-code-review",
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "13573",
-      "totalForks": "932",
-      "growth": "+685",
-      "growthValue": 685,
+      "totalStars": "13713",
+      "totalForks": "938",
+      "growth": "+825",
+      "growthValue": 825,
+      "rank": 4
+    },
+    {
+      "name": "CoreBunch/Instatic",
+      "link": "https://github.com/CoreBunch/Instatic",
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "language": "TypeScript",
+      "totalStars": "5605",
+      "totalForks": "519",
+      "growth": "+604",
+      "growthValue": 604,
+      "rank": 5
+    },
+    {
+      "name": "OtterMind/Chat2DB",
+      "link": "https://github.com/OtterMind/Chat2DB",
+      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "language": "Java",
+      "totalStars": "27067",
+      "totalForks": "2941",
+      "growth": "+443",
+      "growthValue": 443,
+      "rank": 6
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "link": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "totalStars": "34125",
+      "totalForks": "5749",
+      "growth": "+363",
+      "growthValue": 363,
+      "rank": 7
+    },
+    {
+      "name": "yorukot/superfile",
+      "link": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "totalStars": "20163",
+      "totalForks": "638",
+      "growth": "+362",
+      "growthValue": 362,
+      "rank": 8
+    },
+    {
+      "name": "anthropics/claude-cookbooks",
+      "link": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "totalStars": "50195",
+      "totalForks": "5918",
+      "growth": "+350",
+      "growthValue": 350,
+      "rank": 9
+    },
+    {
+      "name": "Pumpkin-MC/Pumpkin",
+      "link": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "totalStars": "9970",
+      "totalForks": "672",
+      "growth": "+293",
+      "growthValue": 293,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-26 16:03"
+  "lastUpdated": "2026-07-26 22:01"
 }
