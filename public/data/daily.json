@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "NanmiCoder/MediaCrawler",
+      "link": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "totalStars": "57946",
+      "totalForks": "11561",
+      "growth": "+57946",
+      "growthValue": 57946,
+      "rank": 1
+    },
+    {
+      "name": "mvanhorn/last30days-skill",
+      "link": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "totalStars": "53950",
+      "totalForks": "4686",
+      "growth": "+53950",
+      "growthValue": 53950,
+      "rank": 2
+    },
+    {
+      "name": "moeru-ai/airi",
+      "link": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "totalStars": "43715",
+      "totalForks": "4373",
+      "growth": "+43715",
+      "growthValue": 43715,
+      "rank": 3
+    },
+    {
+      "name": "apache/cassandra",
+      "link": "https://github.com/apache/cassandra",
+      "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.",
+      "language": "Java",
+      "totalStars": "9893",
+      "totalForks": "3988",
+      "growth": "+9893",
+      "growthValue": 9893,
+      "rank": 4
+    },
+    {
+      "name": "vudovn/ag-kit",
+      "link": "https://github.com/vudovn/ag-kit",
+      "description": "",
+      "language": "TypeScript",
+      "totalStars": "7849",
+      "totalForks": "1504",
+      "growth": "+7849",
+      "growthValue": 7849,
+      "rank": 5
+    },
+    {
       "name": "permissionlesstech/bitchat",
       "link": "https://github.com/permissionlesstech/bitchat",
       "description": "bluetooth mesh chat, IRC vibes",
       "language": "Swift",
-      "totalStars": "30894",
-      "totalForks": "4828",
-      "growth": "+741",
-      "growthValue": 741,
-      "rank": 1
-    },
-    {
-      "name": "block/buzz",
-      "link": "https://github.com/block/buzz",
-      "description": "A hive mind communication platform",
-      "language": "Rust",
-      "totalStars": "13691",
-      "totalForks": "1137",
-      "growth": "+601",
-      "growthValue": 601,
-      "rank": 2
-    },
-    {
-      "name": "citrolabs/ego-lite",
-      "link": "https://github.com/citrolabs/ego-lite",
-      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "language": "JavaScript",
-      "totalStars": "4979",
-      "totalForks": "236",
-      "growth": "+589",
-      "growthValue": 589,
-      "rank": 3
+      "totalStars": "31544",
+      "totalForks": "4961",
+      "growth": "+1391",
+      "growthValue": 1391,
+      "rank": 6
     },
     {
       "name": "alibaba/open-code-review",
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "14130",
-      "totalForks": "956",
-      "growth": "+417",
-      "growthValue": 417,
-      "rank": 4
+      "totalStars": "14391",
+      "totalForks": "971",
+      "growth": "+678",
+      "growthValue": 678,
+      "rank": 7
     },
     {
       "name": "pbakaus/impeccable",
       "link": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "JavaScript",
-      "totalStars": "50892",
-      "totalForks": "2997",
-      "growth": "+316",
-      "growthValue": 316,
-      "rank": 5
-    },
-    {
-      "name": "CoreBunch/Instatic",
-      "link": "https://github.com/CoreBunch/Instatic",
-      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
-      "language": "TypeScript",
-      "totalStars": "5853",
-      "totalForks": "525",
-      "growth": "+248",
-      "growthValue": 248,
-      "rank": 6
+      "totalStars": "51118",
+      "totalForks": "3009",
+      "growth": "+542",
+      "growthValue": 542,
+      "rank": 8
     },
     {
       "name": "yorukot/superfile",
       "link": "https://github.com/yorukot/superfile",
       "description": "Pretty fancy and modern terminal file manager",
       "language": "Go",
-      "totalStars": "20396",
-      "totalForks": "641",
-      "growth": "+233",
-      "growthValue": 233,
-      "rank": 7
-    },
-    {
-      "name": "OtterMind/Chat2DB",
-      "link": "https://github.com/OtterMind/Chat2DB",
-      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
-      "language": "Java",
-      "totalStars": "27270",
-      "totalForks": "2947",
-      "growth": "+203",
-      "growthValue": 203,
-      "rank": 8
+      "totalStars": "20549",
+      "totalForks": "651",
+      "growth": "+386",
+      "growthValue": 386,
+      "rank": 9
     },
     {
       "name": "amnezia-vpn/amnezia-client",
       "link": "https://github.com/amnezia-vpn/amnezia-client",
       "description": "Amnezia VPN Client (Desktop+Mobile)",
       "language": "C++",
-      "totalStars": "13442",
-      "totalForks": "1012",
-      "growth": "+174",
-      "growthValue": 174,
-      "rank": 9
-    },
-    {
-      "name": "permissionlesstech/bitchat-android",
-      "link": "https://github.com/permissionlesstech/bitchat-android",
-      "description": "bluetooth mesh chat, IRC vibes",
-      "language": "Kotlin",
-      "totalStars": "6824",
-      "totalForks": "1630",
-      "growth": "+165",
-      "growthValue": 165,
+      "totalStars": "13572",
+      "totalForks": "1017",
+      "growth": "+304",
+      "growthValue": 304,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-27 06:34"
+  "lastUpdated": "2026-07-27 12:27"
 }
