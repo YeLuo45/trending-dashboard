@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "opengeos/GeoLibre",
-      "link": "https://github.com/opengeos/GeoLibre",
-      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
-      "language": "TypeScript",
-      "totalStars": "2613",
-      "totalForks": "348",
-      "growth": "+2613",
-      "growthValue": 2613,
-      "rank": 1
-    },
-    {
       "name": "permissionlesstech/bitchat",
       "link": "https://github.com/permissionlesstech/bitchat",
       "description": "bluetooth mesh chat, IRC vibes",
       "language": "Swift",
-      "totalStars": "32165",
-      "totalForks": "5050",
-      "growth": "+2012",
-      "growthValue": 2012,
-      "rank": 2
+      "totalStars": "32548",
+      "totalForks": "5094",
+      "growth": "+383",
+      "growthValue": 383,
+      "rank": 1
     },
     {
       "name": "alibaba/open-code-review",
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "14722",
-      "totalForks": "995",
-      "growth": "+1009",
-      "growthValue": 1009,
+      "totalStars": "15092",
+      "totalForks": "1016",
+      "growth": "+370",
+      "growthValue": 370,
+      "rank": 2
+    },
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "link": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "totalStars": "58484",
+      "totalForks": "11619",
+      "growth": "+352",
+      "growthValue": 352,
       "rank": 3
-    },
-    {
-      "name": "pbakaus/impeccable",
-      "link": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "language": "JavaScript",
-      "totalStars": "51472",
-      "totalForks": "3038",
-      "growth": "+896",
-      "growthValue": 896,
-      "rank": 4
-    },
-    {
-      "name": "yorukot/superfile",
-      "link": "https://github.com/yorukot/superfile",
-      "description": "Pretty fancy and modern terminal file manager",
-      "language": "Go",
-      "totalStars": "20835",
-      "totalForks": "674",
-      "growth": "+672",
-      "growthValue": 672,
-      "rank": 5
     },
     {
       "name": "bradautomates/claude-video",
       "link": "https://github.com/bradautomates/claude-video",
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
       "language": "Python",
-      "totalStars": "11013",
-      "totalForks": "1138",
-      "growth": "+598",
-      "growthValue": 598,
+      "totalStars": "11331",
+      "totalForks": "1153",
+      "growth": "+318",
+      "growthValue": 318,
+      "rank": 4
+    },
+    {
+      "name": "pbakaus/impeccable",
+      "link": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "totalStars": "51766",
+      "totalForks": "3046",
+      "growth": "+294",
+      "growthValue": 294,
+      "rank": 5
+    },
+    {
+      "name": "opengeos/GeoLibre",
+      "link": "https://github.com/opengeos/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "language": "TypeScript",
+      "totalStars": "2880",
+      "totalForks": "365",
+      "growth": "+267",
+      "growthValue": 267,
       "rank": 6
-    },
-    {
-      "name": "amnezia-vpn/amnezia-client",
-      "link": "https://github.com/amnezia-vpn/amnezia-client",
-      "description": "Amnezia VPN Client (Desktop+Mobile)",
-      "language": "C++",
-      "totalStars": "13766",
-      "totalForks": "1028",
-      "growth": "+498",
-      "growthValue": 498,
-      "rank": 7
-    },
-    {
-      "name": "shiyu-coder/Kronos",
-      "link": "https://github.com/shiyu-coder/Kronos",
-      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-      "language": "Python",
-      "totalStars": "34538",
-      "totalForks": "5791",
-      "growth": "+413",
-      "growthValue": 413,
-      "rank": 8
-    },
-    {
-      "name": "jenkinsci/jenkins",
-      "link": "https://github.com/jenkinsci/jenkins",
-      "description": "Jenkins automation server",
-      "language": "Java",
-      "totalStars": "25868",
-      "totalForks": "9679",
-      "growth": "+180",
-      "growthValue": 180,
-      "rank": 9
     },
     {
       "name": "moeru-ai/airi",
       "link": "https://github.com/moeru-ai/airi",
       "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "language": "TypeScript",
-      "totalStars": "43979",
-      "totalForks": "4390",
-      "growth": "+105",
-      "growthValue": 105,
+      "totalStars": "44243",
+      "totalForks": "4413",
+      "growth": "+264",
+      "growthValue": 264,
+      "rank": 7
+    },
+    {
+      "name": "yorukot/superfile",
+      "link": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "totalStars": "21039",
+      "totalForks": "672",
+      "growth": "+204",
+      "growthValue": 204,
+      "rank": 8
+    },
+    {
+      "name": "amnezia-vpn/amnezia-client",
+      "link": "https://github.com/amnezia-vpn/amnezia-client",
+      "description": "Amnezia VPN Client (Desktop+Mobile)",
+      "language": "C++",
+      "totalStars": "13964",
+      "totalForks": "1039",
+      "growth": "+198",
+      "growthValue": 198,
+      "rank": 9
+    },
+    {
+      "name": "mvanhorn/last30days-skill",
+      "link": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "totalStars": "54317",
+      "totalForks": "4701",
+      "growth": "+186",
+      "growthValue": 186,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-27 22:10"
+  "lastUpdated": "2026-07-28 05:50"
 }
