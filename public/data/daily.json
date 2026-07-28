@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "affaan-m/ECC",
-      "link": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "totalStars": "234407",
-      "totalForks": "35731",
-      "growth": "+234407",
-      "growthValue": 234407,
-      "rank": 1
-    },
-    {
-      "name": "pascalorg/editor",
-      "link": "https://github.com/pascalorg/editor",
-      "description": "Create and share 3D architectural projects.",
-      "language": "TypeScript",
-      "totalStars": "18216",
-      "totalForks": "2494",
-      "growth": "+18216",
-      "growthValue": 18216,
-      "rank": 2
-    },
-    {
-      "name": "virgiliojr94/book-to-skill",
-      "link": "https://github.com/virgiliojr94/book-to-skill",
-      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-      "language": "Python",
-      "totalStars": "10696",
-      "totalForks": "1298",
-      "growth": "+10696",
-      "growthValue": 10696,
-      "rank": 3
-    },
-    {
-      "name": "paperswithbacktest/awesome-systematic-trading",
-      "link": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
-      "language": "Python",
-      "totalStars": "9128",
-      "totalForks": "1276",
-      "growth": "+9128",
-      "growthValue": 9128,
-      "rank": 4
-    },
-    {
-      "name": "huggingface/speech-to-speech",
-      "link": "https://github.com/huggingface/speech-to-speech",
-      "description": "Build local voice agents with open-source models",
-      "language": "Python",
-      "totalStars": "6747",
-      "totalForks": "922",
-      "growth": "+6747",
-      "growthValue": 6747,
-      "rank": 5
-    },
-    {
-      "name": "microsoft/agent-governance-toolkit",
-      "link": "https://github.com/microsoft/agent-governance-toolkit",
-      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
-      "language": "Python",
-      "totalStars": "4968",
-      "totalForks": "826",
-      "growth": "+4968",
-      "growthValue": 4968,
-      "rank": 6
-    },
-    {
       "name": "bradautomates/claude-video",
       "link": "https://github.com/bradautomates/claude-video",
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
       "language": "Python",
-      "totalStars": "11578",
-      "totalForks": "1172",
-      "growth": "+565",
-      "growthValue": 565,
-      "rank": 7
+      "totalStars": "11837",
+      "totalForks": "1194",
+      "growth": "+824",
+      "growthValue": 824,
+      "rank": 1
     },
     {
       "name": "moeru-ai/airi",
       "link": "https://github.com/moeru-ai/airi",
       "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "language": "TypeScript",
-      "totalStars": "44461",
-      "totalForks": "4424",
-      "growth": "+482",
-      "growthValue": 482,
-      "rank": 8
+      "totalStars": "44610",
+      "totalForks": "4437",
+      "growth": "+631",
+      "growthValue": 631,
+      "rank": 2
     },
     {
       "name": "opengeos/GeoLibre",
       "link": "https://github.com/opengeos/GeoLibre",
       "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
       "language": "TypeScript",
-      "totalStars": "3035",
-      "totalForks": "370",
-      "growth": "+422",
-      "growthValue": 422,
-      "rank": 9
+      "totalStars": "3193",
+      "totalForks": "380",
+      "growth": "+580",
+      "growthValue": 580,
+      "rank": 3
     },
     {
       "name": "yorukot/superfile",
       "link": "https://github.com/yorukot/superfile",
       "description": "Pretty fancy and modern terminal file manager",
       "language": "Go",
-      "totalStars": "21167",
-      "totalForks": "679",
-      "growth": "+332",
-      "growthValue": 332,
+      "totalStars": "21307",
+      "totalForks": "688",
+      "growth": "+472",
+      "growthValue": 472,
+      "rank": 4
+    },
+    {
+      "name": "virgiliojr94/book-to-skill",
+      "link": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "totalStars": "11003",
+      "totalForks": "1315",
+      "growth": "+307",
+      "growthValue": 307,
+      "rank": 5
+    },
+    {
+      "name": "paperswithbacktest/awesome-systematic-trading",
+      "link": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "totalStars": "9376",
+      "totalForks": "1286",
+      "growth": "+248",
+      "growthValue": 248,
+      "rank": 6
+    },
+    {
+      "name": "huggingface/speech-to-speech",
+      "link": "https://github.com/huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "totalStars": "6981",
+      "totalForks": "939",
+      "growth": "+234",
+      "growthValue": 234,
+      "rank": 7
+    },
+    {
+      "name": "pascalorg/editor",
+      "link": "https://github.com/pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "totalStars": "18447",
+      "totalForks": "2517",
+      "growth": "+231",
+      "growthValue": 231,
+      "rank": 8
+    },
+    {
+      "name": "affaan-m/ECC",
+      "link": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "totalStars": "234593",
+      "totalForks": "35751",
+      "growth": "+186",
+      "growthValue": 186,
+      "rank": 9
+    },
+    {
+      "name": "jenkinsci/jenkins",
+      "link": "https://github.com/jenkinsci/jenkins",
+      "description": "Jenkins automation server",
+      "language": "Java",
+      "totalStars": "26023",
+      "totalForks": "9683",
+      "growth": "+155",
+      "growthValue": 155,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-07-28 11:21"
+  "lastUpdated": "2026-07-28 16:42"
 }
