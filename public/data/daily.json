@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "codecrafters-io/build-your-own-x",
+      "link": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "totalStars": "534604",
+      "totalForks": "50534",
+      "growth": "+534604",
+      "growthValue": 534604,
+      "rank": 1
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "link": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "totalStars": "64461",
+      "totalForks": "5328",
+      "growth": "+64461",
+      "growthValue": 64461,
+      "rank": 2
+    },
+    {
+      "name": "esengine/DeepSeek-Reasonix",
+      "link": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "totalStars": "28881",
+      "totalForks": "1861",
+      "growth": "+28881",
+      "growthValue": 28881,
+      "rank": 3
+    },
+    {
+      "name": "lyogavin/airllm",
+      "link": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "totalStars": "25391",
+      "totalForks": "2854",
+      "growth": "+25391",
+      "growthValue": 25391,
+      "rank": 4
+    },
+    {
+      "name": "antirez/ds4",
+      "link": "https://github.com/antirez/ds4",
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "language": "C",
+      "totalStars": "19895",
+      "totalForks": "1767",
+      "growth": "+19895",
+      "growthValue": 19895,
+      "rank": 5
+    },
+    {
       "name": "microsoft/AI-For-Beginners",
       "link": "https://github.com/microsoft/AI-For-Beginners",
       "description": "12 Weeks, 24 Lessons, AI for All!",
       "language": "Jupyter Notebook",
-      "totalStars": "58320",
-      "totalForks": "11492",
-      "growth": "+1293",
-      "growthValue": 1293,
-      "rank": 1
+      "totalStars": "58690",
+      "totalForks": "11565",
+      "growth": "+1663",
+      "growthValue": 1663,
+      "rank": 6
     },
     {
       "name": "zhaoxuya520/reverse-skill",
       "link": "https://github.com/zhaoxuya520/reverse-skill",
       "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
       "language": "PowerShell",
-      "totalStars": "12384",
-      "totalForks": "1858",
-      "growth": "+581",
-      "growthValue": 581,
-      "rank": 2
+      "totalStars": "12859",
+      "totalForks": "1931",
+      "growth": "+1056",
+      "growthValue": 1056,
+      "rank": 7
     },
     {
       "name": "TencentCloud/TencentDB-Agent-Memory",
       "link": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
       "language": "TypeScript",
-      "totalStars": "10552",
-      "totalForks": "1003",
-      "growth": "+313",
-      "growthValue": 313,
-      "rank": 3
+      "totalStars": "10700",
+      "totalForks": "1017",
+      "growth": "+461",
+      "growthValue": 461,
+      "rank": 8
     },
     {
       "name": "microsoft/generative-ai-for-beginners",
       "link": "https://github.com/microsoft/generative-ai-for-beginners",
       "description": "21 Lessons, Get Started Building with Generative AI",
       "language": "Jupyter Notebook",
-      "totalStars": "114450",
-      "totalForks": "61251",
-      "growth": "+290",
-      "growthValue": 290,
-      "rank": 4
-    },
-    {
-      "name": "paperswithbacktest/awesome-systematic-trading",
-      "link": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
-      "language": "Python",
-      "totalStars": "12458",
-      "totalForks": "1524",
-      "growth": "+254",
-      "growthValue": 254,
-      "rank": 5
+      "totalStars": "114576",
+      "totalForks": "61264",
+      "growth": "+416",
+      "growthValue": 416,
+      "rank": 9
     },
     {
       "name": "usekaneo/kaneo",
       "link": "https://github.com/usekaneo/kaneo",
       "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
       "language": "TypeScript",
-      "totalStars": "5868",
-      "totalForks": "495",
-      "growth": "+229",
-      "growthValue": 229,
-      "rank": 6
-    },
-    {
-      "name": "abus-aikorea/voice-pro",
-      "link": "https://github.com/abus-aikorea/voice-pro",
-      "description": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation.",
-      "language": "Python",
-      "totalStars": "11934",
-      "totalForks": "1734",
-      "growth": "+224",
-      "growthValue": 224,
-      "rank": 7
-    },
-    {
-      "name": "bytedance/deer-flow",
-      "link": "https://github.com/bytedance/deer-flow",
-      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "language": "Python",
-      "totalStars": "78888",
-      "totalForks": "10764",
-      "growth": "+207",
-      "growthValue": 207,
-      "rank": 8
-    },
-    {
-      "name": "huggingface/speech-to-speech",
-      "link": "https://github.com/huggingface/speech-to-speech",
-      "description": "Build local voice agents with open-source models",
-      "language": "Python",
-      "totalStars": "10344",
-      "totalForks": "1262",
-      "growth": "+171",
-      "growthValue": 171,
-      "rank": 9
-    },
-    {
-      "name": "microsoft/TRELLIS.2",
-      "link": "https://github.com/microsoft/TRELLIS.2",
-      "description": "Native and Compact Structured Latents for 3D Generation",
-      "language": "Python",
-      "totalStars": "10058",
-      "totalForks": "1207",
-      "growth": "+171",
-      "growthValue": 171,
+      "totalStars": "5978",
+      "totalForks": "505",
+      "growth": "+339",
+      "growthValue": 339,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-02 10:43"
+  "lastUpdated": "2026-08-02 16:02"
 }
