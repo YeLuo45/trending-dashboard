@@ -1,58 +1,58 @@
 {
   "projects": [
     {
-      "name": "cloudflare/computer",
-      "link": "https://github.com/cloudflare/computer",
-      "description": "Give your agent a computer 👾",
-      "language": "TypeScript",
-      "totalStars": "2194",
-      "totalForks": "95",
-      "growth": "+2194",
-      "growthValue": 2194,
-      "rank": 1
-    },
-    {
       "name": "TencentCloud/TencentDB-Agent-Memory",
       "link": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
       "language": "TypeScript",
-      "totalStars": "14855",
-      "totalForks": "1346",
-      "growth": "+1396",
-      "growthValue": 1396,
-      "rank": 2
+      "totalStars": "14991",
+      "totalForks": "1365",
+      "growth": "+1532",
+      "growthValue": 1532,
+      "rank": 1
     },
     {
       "name": "firecrawl/pdf-inspector",
       "link": "https://github.com/firecrawl/pdf-inspector",
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "language": "Rust",
-      "totalStars": "11125",
-      "totalForks": "737",
-      "growth": "+1230",
-      "growthValue": 1230,
-      "rank": 3
+      "totalStars": "11352",
+      "totalForks": "754",
+      "growth": "+1457",
+      "growthValue": 1457,
+      "rank": 2
     },
     {
       "name": "obra/superpowers",
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "267118",
-      "totalForks": "23870",
-      "growth": "+697",
-      "growthValue": 697,
-      "rank": 4
+      "totalStars": "267251",
+      "totalForks": "23878",
+      "growth": "+830",
+      "growthValue": 830,
+      "rank": 3
     },
     {
       "name": "esengine/DeepSeek-Reasonix",
       "link": "https://github.com/esengine/DeepSeek-Reasonix",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "language": "Go",
-      "totalStars": "31413",
-      "totalForks": "2020",
-      "growth": "+675",
-      "growthValue": 675,
+      "totalStars": "31542",
+      "totalForks": "2026",
+      "growth": "+804",
+      "growthValue": 804,
+      "rank": 4
+    },
+    {
+      "name": "donnemartin/system-design-primer",
+      "link": "https://github.com/donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "totalStars": "361467",
+      "totalForks": "57644",
+      "growth": "+779",
+      "growthValue": 779,
       "rank": 5
     },
     {
@@ -60,21 +60,21 @@
       "link": "https://github.com/lyogavin/airllm",
       "description": "AirLLM 70B inference with single 4GB GPU",
       "language": "Jupyter Notebook",
-      "totalStars": "28931",
-      "totalForks": "3111",
-      "growth": "+642",
-      "growthValue": 642,
+      "totalStars": "29029",
+      "totalForks": "3119",
+      "growth": "+740",
+      "growthValue": 740,
       "rank": 6
     },
     {
-      "name": "donnemartin/system-design-primer",
-      "link": "https://github.com/donnemartin/system-design-primer",
-      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
-      "language": "Python",
-      "totalStars": "361329",
-      "totalForks": "57604",
-      "growth": "+641",
-      "growthValue": 641,
+      "name": "cloudflare/computer",
+      "link": "https://github.com/cloudflare/computer",
+      "description": "Give your agent a computer 👾",
+      "language": "TypeScript",
+      "totalStars": "2718",
+      "totalForks": "124",
+      "growth": "+524",
+      "growthValue": 524,
       "rank": 7
     },
     {
@@ -82,10 +82,10 @@
       "link": "https://github.com/tailwindlabs/tailwindcss",
       "description": "A utility-first CSS framework for rapid UI development.",
       "language": "TypeScript",
-      "totalStars": "96749",
-      "totalForks": "5544",
-      "growth": "+314",
-      "growthValue": 314,
+      "totalStars": "96824",
+      "totalForks": "5546",
+      "growth": "+389",
+      "growthValue": 389,
       "rank": 8
     },
     {
@@ -93,10 +93,10 @@
       "link": "https://github.com/uber/ADR",
       "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
       "language": "Python",
-      "totalStars": "944",
-      "totalForks": "83",
-      "growth": "+292",
-      "growthValue": 292,
+      "totalStars": "1012",
+      "totalForks": "85",
+      "growth": "+360",
+      "growthValue": 360,
       "rank": 9
     },
     {
@@ -104,12 +104,12 @@
       "link": "https://github.com/huangruiteng/loopx",
       "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
       "language": "Python",
-      "totalStars": "1923",
-      "totalForks": "148",
-      "growth": "+210",
-      "growthValue": 210,
+      "totalStars": "2054",
+      "totalForks": "160",
+      "growth": "+131",
+      "growthValue": 131,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-05 16:43"
+  "lastUpdated": "2026-08-05 22:14"
 }
