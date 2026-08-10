@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "firecrawl/firecrawl",
-      "link": "https://github.com/firecrawl/firecrawl",
-      "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
-      "language": "TypeScript",
-      "totalStars": "164779",
-      "totalForks": "9270",
-      "growth": "+164779",
-      "growthValue": 164779,
-      "rank": 1
-    },
-    {
-      "name": "ruvnet/RuView",
-      "link": "https://github.com/ruvnet/RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "language": "Rust",
-      "totalStars": "89237",
-      "totalForks": "11876",
-      "growth": "+89237",
-      "growthValue": 89237,
-      "rank": 2
-    },
-    {
-      "name": "paperclipai/paperclip",
-      "link": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "language": "TypeScript",
-      "totalStars": "76286",
-      "totalForks": "14186",
-      "growth": "+76286",
-      "growthValue": 76286,
-      "rank": 3
-    },
-    {
-      "name": "NanmiCoder/MediaCrawler",
-      "link": "https://github.com/NanmiCoder/MediaCrawler",
-      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
-      "language": "Python",
-      "totalStars": "60869",
-      "totalForks": "11978",
-      "growth": "+60869",
-      "growthValue": 60869,
-      "rank": 4
-    },
-    {
-      "name": "danielmiessler/LifeOS",
-      "link": "https://github.com/danielmiessler/LifeOS",
-      "description": "⛰️A General Hill-climbing AI harness that helps you move from Current State to Ideal State in both Life and Work.",
-      "language": "TypeScript",
-      "totalStars": "17744",
-      "totalForks": "2359",
-      "growth": "+17744",
-      "growthValue": 17744,
-      "rank": 5
-    },
-    {
-      "name": "opa334/Dopamine",
-      "link": "https://github.com/opa334/Dopamine",
-      "description": "Dopamine is a semi-untethered jailbreak for iOS 15 to 26(.0.1)",
-      "language": "C",
-      "totalStars": "5949",
-      "totalForks": "6188",
-      "growth": "+5949",
-      "growthValue": 5949,
-      "rank": 6
-    },
-    {
-      "name": "semantica-agi/semantica",
-      "link": "https://github.com/semantica-agi/semantica",
-      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-      "language": "Python",
-      "totalStars": "3871",
-      "totalForks": "452",
-      "growth": "+3871",
-      "growthValue": 3871,
-      "rank": 7
-    },
-    {
       "name": "PrimeIntellect-ai/prime-agent",
       "link": "https://github.com/PrimeIntellect-ai/prime-agent",
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "language": "TypeScript",
-      "totalStars": "12735",
-      "totalForks": "1286",
-      "growth": "+1882",
-      "growthValue": 1882,
-      "rank": 8
+      "totalStars": "12940",
+      "totalForks": "1312",
+      "growth": "+2087",
+      "growthValue": 2087,
+      "rank": 1
     },
     {
       "name": "msitarzewski/agency-agents",
       "link": "https://github.com/msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Shell",
-      "totalStars": "141562",
-      "totalForks": "23098",
-      "growth": "+988",
-      "growthValue": 988,
-      "rank": 9
+      "totalStars": "141743",
+      "totalForks": "23129",
+      "growth": "+1169",
+      "growthValue": 1169,
+      "rank": 2
     },
     {
       "name": "Comfy-Org/ComfyUI",
       "link": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
       "language": "Python",
-      "totalStars": "126117",
-      "totalForks": "14883",
-      "growth": "+701",
-      "growthValue": 701,
+      "totalStars": "126245",
+      "totalForks": "14895",
+      "growth": "+829",
+      "growthValue": 829,
+      "rank": 3
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "totalStars": "85702",
+      "totalForks": "9224",
+      "growth": "+639",
+      "growthValue": 639,
+      "rank": 4
+    },
+    {
+      "name": "vitali87/code-graph-rag",
+      "link": "https://github.com/vitali87/code-graph-rag",
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "language": "Python",
+      "totalStars": "3485",
+      "totalForks": "542",
+      "growth": "+548",
+      "growthValue": 548,
+      "rank": 5
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "link": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "totalStars": "97164",
+      "totalForks": "18731",
+      "growth": "+425",
+      "growthValue": 425,
+      "rank": 6
+    },
+    {
+      "name": "pingdotgg/t3code",
+      "link": "https://github.com/pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "totalStars": "17992",
+      "totalForks": "4070",
+      "growth": "+381",
+      "growthValue": 381,
+      "rank": 7
+    },
+    {
+      "name": "google-deepmind/weathernext",
+      "link": "https://github.com/google-deepmind/weathernext",
+      "description": "",
+      "language": "Python",
+      "totalStars": "7322",
+      "totalForks": "952",
+      "growth": "+279",
+      "growthValue": 279,
+      "rank": 8
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "link": "https://github.com/firecrawl/firecrawl",
+      "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+      "language": "TypeScript",
+      "totalStars": "164991",
+      "totalForks": "9281",
+      "growth": "+212",
+      "growthValue": 212,
+      "rank": 9
+    },
+    {
+      "name": "LadybirdBrowser/ladybird",
+      "link": "https://github.com/LadybirdBrowser/ladybird",
+      "description": "Truly independent web browser",
+      "language": "C++",
+      "totalStars": "65233",
+      "totalForks": "3117",
+      "growth": "+150",
+      "growthValue": 150,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-10 16:01"
+  "lastUpdated": "2026-08-10 21:45"
 }
