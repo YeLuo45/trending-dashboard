@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "firecrawl/firecrawl",
+      "link": "https://github.com/firecrawl/firecrawl",
+      "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+      "language": "TypeScript",
+      "totalStars": "164779",
+      "totalForks": "9270",
+      "growth": "+164779",
+      "growthValue": 164779,
+      "rank": 1
+    },
+    {
+      "name": "ruvnet/RuView",
+      "link": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "totalStars": "89237",
+      "totalForks": "11876",
+      "growth": "+89237",
+      "growthValue": 89237,
+      "rank": 2
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "link": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "totalStars": "76286",
+      "totalForks": "14186",
+      "growth": "+76286",
+      "growthValue": 76286,
+      "rank": 3
+    },
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "link": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "totalStars": "60869",
+      "totalForks": "11978",
+      "growth": "+60869",
+      "growthValue": 60869,
+      "rank": 4
+    },
+    {
+      "name": "danielmiessler/LifeOS",
+      "link": "https://github.com/danielmiessler/LifeOS",
+      "description": "⛰️A General Hill-climbing AI harness that helps you move from Current State to Ideal State in both Life and Work.",
+      "language": "TypeScript",
+      "totalStars": "17744",
+      "totalForks": "2359",
+      "growth": "+17744",
+      "growthValue": 17744,
+      "rank": 5
+    },
+    {
+      "name": "opa334/Dopamine",
+      "link": "https://github.com/opa334/Dopamine",
+      "description": "Dopamine is a semi-untethered jailbreak for iOS 15 to 26(.0.1)",
+      "language": "C",
+      "totalStars": "5949",
+      "totalForks": "6188",
+      "growth": "+5949",
+      "growthValue": 5949,
+      "rank": 6
+    },
+    {
+      "name": "semantica-agi/semantica",
+      "link": "https://github.com/semantica-agi/semantica",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "language": "Python",
+      "totalStars": "3871",
+      "totalForks": "452",
+      "growth": "+3871",
+      "growthValue": 3871,
+      "rank": 7
+    },
+    {
       "name": "PrimeIntellect-ai/prime-agent",
       "link": "https://github.com/PrimeIntellect-ai/prime-agent",
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "language": "TypeScript",
-      "totalStars": "12365",
-      "totalForks": "1249",
-      "growth": "+1512",
-      "growthValue": 1512,
-      "rank": 1
+      "totalStars": "12735",
+      "totalForks": "1286",
+      "growth": "+1882",
+      "growthValue": 1882,
+      "rank": 8
     },
     {
       "name": "msitarzewski/agency-agents",
       "link": "https://github.com/msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Shell",
-      "totalStars": "141311",
-      "totalForks": "23050",
-      "growth": "+737",
-      "growthValue": 737,
-      "rank": 2
-    },
-    {
-      "name": "pranshuparmar/witr",
-      "link": "https://github.com/pranshuparmar/witr",
-      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
-      "language": "Go",
-      "totalStars": "21126",
-      "totalForks": "738",
-      "growth": "+573",
-      "growthValue": 573,
-      "rank": 3
+      "totalStars": "141562",
+      "totalForks": "23098",
+      "growth": "+988",
+      "growthValue": 988,
+      "rank": 9
     },
     {
       "name": "Comfy-Org/ComfyUI",
       "link": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
       "language": "Python",
-      "totalStars": "125951",
-      "totalForks": "14876",
-      "growth": "+535",
-      "growthValue": 535,
-      "rank": 4
-    },
-    {
-      "name": "ZhuLinsen/daily_stock_analysis",
-      "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "language": "Python",
-      "totalStars": "61635",
-      "totalForks": "52150",
-      "growth": "+507",
-      "growthValue": 507,
-      "rank": 5
-    },
-    {
-      "name": "vitali87/code-graph-rag",
-      "link": "https://github.com/vitali87/code-graph-rag",
-      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-      "language": "Python",
-      "totalStars": "3316",
-      "totalForks": "538",
-      "growth": "+379",
-      "growthValue": 379,
-      "rank": 6
-    },
-    {
-      "name": "addyosmani/agent-skills",
-      "link": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "totalStars": "85426",
-      "totalForks": "9188",
-      "growth": "+363",
-      "growthValue": 363,
-      "rank": 7
-    },
-    {
-      "name": "google/skills",
-      "link": "https://github.com/google/skills",
-      "description": "Agent Skills for Google products and technologies",
-      "language": "Python",
-      "totalStars": "17486",
-      "totalForks": "1402",
-      "growth": "+304",
-      "growthValue": 304,
-      "rank": 8
-    },
-    {
-      "name": "pingdotgg/t3code",
-      "link": "https://github.com/pingdotgg/t3code",
-      "description": "",
-      "language": "TypeScript",
-      "totalStars": "17824",
-      "totalForks": "4029",
-      "growth": "+213",
-      "growthValue": 213,
-      "rank": 9
-    },
-    {
-      "name": "goauthentik/authentik",
-      "link": "https://github.com/goauthentik/authentik",
-      "description": "The authentication glue you need.",
-      "language": "Python",
-      "totalStars": "24434",
-      "totalForks": "1868",
-      "growth": "+205",
-      "growthValue": 205,
+      "totalStars": "126117",
+      "totalForks": "14883",
+      "growth": "+701",
+      "growthValue": 701,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-10 10:19"
+  "lastUpdated": "2026-08-10 16:01"
 }
