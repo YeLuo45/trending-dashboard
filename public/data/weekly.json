@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "TencentCloud/TencentDB-Agent-Memory",
-      "link": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "language": "TypeScript",
-      "totalStars": "19848",
-      "totalForks": "1790",
-      "growth": "+6389",
-      "growthValue": 6389,
-      "rank": 1
-    },
-    {
       "name": "zhaoxuya520/reverse-skill",
       "link": "https://github.com/zhaoxuya520/reverse-skill",
       "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
       "language": "PowerShell",
-      "totalStars": "23931",
-      "totalForks": "3256",
-      "growth": "+6166",
-      "growthValue": 6166,
+      "totalStars": "24052",
+      "totalForks": "3263",
+      "growth": "+5023",
+      "growthValue": 5023,
+      "rank": 1
+    },
+    {
+      "name": "TencentCloud/TencentDB-Agent-Memory",
+      "link": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "language": "TypeScript",
+      "totalStars": "20003",
+      "totalForks": "1809",
+      "growth": "+5013",
+      "growthValue": 5013,
       "rank": 2
     },
     {
@@ -27,98 +27,98 @@
       "link": "https://github.com/cloudflare/computer",
       "description": "Give your agent a computer 👾",
       "language": "TypeScript",
-      "totalStars": "7576",
-      "totalForks": "408",
-      "growth": "+4858",
-      "growthValue": 4858,
+      "totalStars": "7631",
+      "totalForks": "413",
+      "growth": "+4913",
+      "growthValue": 4913,
       "rank": 3
-    },
-    {
-      "name": "firecrawl/pdf-inspector",
-      "link": "https://github.com/firecrawl/pdf-inspector",
-      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-      "language": "Rust",
-      "totalStars": "14673",
-      "totalForks": "1005",
-      "growth": "+4778",
-      "growthValue": 4778,
-      "rank": 4
     },
     {
       "name": "virgiliojr94/book-to-skill",
       "link": "https://github.com/virgiliojr94/book-to-skill",
       "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
       "language": "Python",
-      "totalStars": "20470",
-      "totalForks": "2168",
-      "growth": "+4101",
-      "growthValue": 4101,
-      "rank": 5
+      "totalStars": "20599",
+      "totalForks": "2177",
+      "growth": "+3633",
+      "growthValue": 3633,
+      "rank": 4
     },
     {
-      "name": "esengine/DeepSeek-Reasonix",
-      "link": "https://github.com/esengine/DeepSeek-Reasonix",
-      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "language": "Go",
-      "totalStars": "33952",
-      "totalForks": "2214",
-      "growth": "+3214",
-      "growthValue": 3214,
-      "rank": 6
+      "name": "firecrawl/pdf-inspector",
+      "link": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "totalStars": "14770",
+      "totalForks": "1016",
+      "growth": "+3418",
+      "growthValue": 3418,
+      "rank": 5
     },
     {
       "name": "semantica-agi/semantica",
       "link": "https://github.com/semantica-agi/semantica",
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "language": "Python",
-      "totalStars": "4808",
-      "totalForks": "521",
-      "growth": "+2502",
-      "growthValue": 2502,
-      "rank": 7
+      "totalStars": "5063",
+      "totalForks": "548",
+      "growth": "+2757",
+      "growthValue": 2757,
+      "rank": 6
     },
     {
-      "name": "lyogavin/airllm",
-      "link": "https://github.com/lyogavin/airllm",
-      "description": "AirLLM 70B inference with single 4GB GPU",
-      "language": "Jupyter Notebook",
-      "totalStars": "30752",
-      "totalForks": "3269",
-      "growth": "+2463",
-      "growthValue": 2463,
-      "rank": 8
+      "name": "esengine/DeepSeek-Reasonix",
+      "link": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "totalStars": "34013",
+      "totalForks": "2223",
+      "growth": "+2471",
+      "growthValue": 2471,
+      "rank": 7
     },
     {
       "name": "huangruiteng/loopx",
       "link": "https://github.com/huangruiteng/loopx",
       "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
       "language": "Python",
-      "totalStars": "4148",
-      "totalForks": "344",
-      "growth": "+2094",
-      "growthValue": 2094,
-      "rank": 9
+      "totalStars": "4224",
+      "totalForks": "352",
+      "growth": "+2170",
+      "growthValue": 2170,
+      "rank": 8
     },
     {
       "name": "Comfy-Org/ComfyUI",
       "link": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
       "language": "Python",
-      "totalStars": "126801",
-      "totalForks": "14934",
-      "growth": "+1924",
-      "growthValue": 1924,
-      "rank": 10
+      "totalStars": "126875",
+      "totalForks": "14943",
+      "growth": "+1998",
+      "growthValue": 1998,
+      "rank": 9
     },
     {
       "name": "goauthentik/authentik",
       "link": "https://github.com/goauthentik/authentik",
       "description": "The authentication glue you need.",
       "language": "Python",
-      "totalStars": "24611",
+      "totalStars": "24635",
       "totalForks": "1888",
-      "growth": "+1820",
-      "growthValue": 1820,
+      "growth": "+1844",
+      "growthValue": 1844,
+      "rank": 10
+    },
+    {
+      "name": "lyogavin/airllm",
+      "link": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "totalStars": "30790",
+      "totalForks": "3275",
+      "growth": "+1761",
+      "growthValue": 1761,
       "rank": 11
     },
     {
@@ -126,10 +126,10 @@
       "link": "https://github.com/google/skills",
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
-      "totalStars": "17762",
-      "totalForks": "1416",
-      "growth": "+1570",
-      "growthValue": 1570,
+      "totalStars": "17813",
+      "totalForks": "1419",
+      "growth": "+1621",
+      "growthValue": 1621,
       "rank": 12
     },
     {
@@ -137,10 +137,10 @@
       "link": "https://github.com/vitali87/code-graph-rag",
       "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
       "language": "Python",
-      "totalStars": "3783",
-      "totalForks": "559",
-      "growth": "+846",
-      "growthValue": 846,
+      "totalStars": "3891",
+      "totalForks": "566",
+      "growth": "+954",
+      "growthValue": 954,
       "rank": 13
     },
     {
@@ -148,10 +148,10 @@
       "link": "https://github.com/LadybirdBrowser/ladybird",
       "description": "Truly independent web browser",
       "language": "C++",
-      "totalStars": "65395",
+      "totalStars": "65423",
       "totalForks": "3129",
-      "growth": "+434",
-      "growthValue": 434,
+      "growth": "+462",
+      "growthValue": 462,
       "rank": 14
     },
     {
@@ -159,23 +159,34 @@
       "link": "https://github.com/unclebob/swarm-forge",
       "description": "A simple tool for coordinating several AI agents.",
       "language": "Clojure",
-      "totalStars": "2166",
-      "totalForks": "229",
-      "growth": "+365",
-      "growthValue": 365,
+      "totalStars": "2182",
+      "totalForks": "231",
+      "growth": "+381",
+      "growthValue": 381,
       "rank": 15
+    },
+    {
+      "name": "uber/ADR",
+      "link": "https://github.com/uber/ADR",
+      "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
+      "language": "Python",
+      "totalStars": "1359",
+      "totalForks": "119",
+      "growth": "+347",
+      "growthValue": 347,
+      "rank": 16
     },
     {
       "name": "drawdb-io/drawdb",
       "link": "https://github.com/drawdb-io/drawdb",
       "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
       "language": "JavaScript",
-      "totalStars": "38848",
+      "totalStars": "38871",
       "totalForks": "3169",
-      "growth": "+245",
-      "growthValue": 245,
-      "rank": 16
+      "growth": "+268",
+      "growthValue": 268,
+      "rank": 17
     }
   ],
-  "lastUpdated": "2026-08-11 21:52"
+  "lastUpdated": "2026-08-12 04:49"
 }
