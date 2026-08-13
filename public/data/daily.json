@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "unslothai/unsloth",
-      "link": "https://github.com/unslothai/unsloth",
-      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-      "language": "Python",
-      "totalStars": "70888",
-      "totalForks": "6397",
-      "growth": "+70888",
-      "growthValue": 70888,
-      "rank": 1
-    },
-    {
-      "name": "kepano/obsidian-skills",
-      "link": "https://github.com/kepano/obsidian-skills",
-      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
-      "language": "",
-      "totalStars": "45478",
-      "totalForks": "3283",
-      "growth": "+45478",
-      "growthValue": 45478,
-      "rank": 2
-    },
-    {
-      "name": "megadose/holehe",
-      "link": "https://github.com/megadose/holehe",
-      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-      "language": "Python",
-      "totalStars": "12269",
-      "totalForks": "1654",
-      "growth": "+12269",
-      "growthValue": 12269,
-      "rank": 3
-    },
-    {
-      "name": "altic-dev/FluidVoice",
-      "link": "https://github.com/altic-dev/FluidVoice",
-      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
-      "language": "Swift",
-      "totalStars": "9742",
-      "totalForks": "655",
-      "growth": "+9742",
-      "growthValue": 9742,
-      "rank": 4
-    },
-    {
-      "name": "holaboss-ai/holaOS",
-      "link": "https://github.com/holaboss-ai/holaOS",
-      "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
-      "language": "TypeScript",
-      "totalStars": "6328",
-      "totalForks": "534",
-      "growth": "+6328",
-      "growthValue": 6328,
-      "rank": 5
-    },
-    {
-      "name": "lightningpixel/modly",
-      "link": "https://github.com/lightningpixel/modly",
-      "description": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU",
-      "language": "TypeScript",
-      "totalStars": "5246",
-      "totalForks": "568",
-      "growth": "+5246",
-      "growthValue": 5246,
-      "rank": 6
-    },
-    {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
       "language": "HTML",
-      "totalStars": "13439",
-      "totalForks": "809",
-      "growth": "+3463",
-      "growthValue": 3463,
-      "rank": 7
-    },
-    {
-      "name": "macro-inc/macro",
-      "link": "https://github.com/macro-inc/macro",
-      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-      "language": "Rust",
-      "totalStars": "2471",
-      "totalForks": "265",
-      "growth": "+796",
-      "growthValue": 796,
-      "rank": 8
+      "totalStars": "14150",
+      "totalForks": "851",
+      "growth": "+4174",
+      "growthValue": 4174,
+      "rank": 1
     },
     {
       "name": "semantica-agi/semantica",
       "link": "https://github.com/semantica-agi/semantica",
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "language": "Python",
-      "totalStars": "6280",
-      "totalForks": "669",
-      "growth": "+640",
-      "growthValue": 640,
-      "rank": 9
+      "totalStars": "6544",
+      "totalForks": "690",
+      "growth": "+904",
+      "growthValue": 904,
+      "rank": 2
+    },
+    {
+      "name": "macro-inc/macro",
+      "link": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "totalStars": "2560",
+      "totalForks": "272",
+      "growth": "+885",
+      "growthValue": 885,
+      "rank": 3
     },
     {
       "name": "cactus-compute/needle",
       "link": "https://github.com/cactus-compute/needle",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "language": "Python",
-      "totalStars": "4759",
-      "totalForks": "324",
-      "growth": "+602",
-      "growthValue": 602,
+      "totalStars": "4910",
+      "totalForks": "332",
+      "growth": "+753",
+      "growthValue": 753,
+      "rank": 4
+    },
+    {
+      "name": "msitarzewski/agency-agents",
+      "link": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "totalStars": "145153",
+      "totalForks": "23483",
+      "growth": "+645",
+      "growthValue": 645,
+      "rank": 5
+    },
+    {
+      "name": "anthropics/skills",
+      "link": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "totalStars": "168965",
+      "totalForks": "20128",
+      "growth": "+554",
+      "growthValue": 554,
+      "rank": 6
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "link": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "totalStars": "87977",
+      "totalForks": "10348",
+      "growth": "+470",
+      "growthValue": 470,
+      "rank": 7
+    },
+    {
+      "name": "NVIDIA-NeMo/Switchyard",
+      "link": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "language": "Rust",
+      "totalStars": "1179",
+      "totalForks": "104",
+      "growth": "+403",
+      "growthValue": 403,
+      "rank": 8
+    },
+    {
+      "name": "3b1b/manim",
+      "link": "https://github.com/3b1b/manim",
+      "description": "Animation engine for explanatory math videos",
+      "language": "Python",
+      "totalStars": "90824",
+      "totalForks": "7529",
+      "growth": "+363",
+      "growthValue": 363,
+      "rank": 9
+    },
+    {
+      "name": "smicallef/spiderfoot",
+      "link": "https://github.com/smicallef/spiderfoot",
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "language": "Python",
+      "totalStars": "20641",
+      "totalForks": "3313",
+      "growth": "+320",
+      "growthValue": 320,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-13 16:01"
+  "lastUpdated": "2026-08-13 21:50"
 }
