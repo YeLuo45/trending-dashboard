@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "unslothai/unsloth",
+      "link": "https://github.com/unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "language": "Python",
+      "totalStars": "70888",
+      "totalForks": "6397",
+      "growth": "+70888",
+      "growthValue": 70888,
+      "rank": 1
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "link": "https://github.com/kepano/obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "language": "",
+      "totalStars": "45478",
+      "totalForks": "3283",
+      "growth": "+45478",
+      "growthValue": 45478,
+      "rank": 2
+    },
+    {
+      "name": "megadose/holehe",
+      "link": "https://github.com/megadose/holehe",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "language": "Python",
+      "totalStars": "12269",
+      "totalForks": "1654",
+      "growth": "+12269",
+      "growthValue": 12269,
+      "rank": 3
+    },
+    {
+      "name": "altic-dev/FluidVoice",
+      "link": "https://github.com/altic-dev/FluidVoice",
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
+      "language": "Swift",
+      "totalStars": "9742",
+      "totalForks": "655",
+      "growth": "+9742",
+      "growthValue": 9742,
+      "rank": 4
+    },
+    {
+      "name": "holaboss-ai/holaOS",
+      "link": "https://github.com/holaboss-ai/holaOS",
+      "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+      "language": "TypeScript",
+      "totalStars": "6328",
+      "totalForks": "534",
+      "growth": "+6328",
+      "growthValue": 6328,
+      "rank": 5
+    },
+    {
+      "name": "lightningpixel/modly",
+      "link": "https://github.com/lightningpixel/modly",
+      "description": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU",
+      "language": "TypeScript",
+      "totalStars": "5246",
+      "totalForks": "568",
+      "growth": "+5246",
+      "growthValue": 5246,
+      "rank": 6
+    },
+    {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
       "language": "HTML",
-      "totalStars": "12411",
-      "totalForks": "762",
-      "growth": "+2435",
-      "growthValue": 2435,
-      "rank": 1
-    },
-    {
-      "name": "hugohe3/ppt-master",
-      "link": "https://github.com/hugohe3/ppt-master",
-      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-      "language": "Python",
-      "totalStars": "46267",
-      "totalForks": "3752",
-      "growth": "+758",
-      "growthValue": 758,
-      "rank": 2
-    },
-    {
-      "name": "stablyai/orca",
-      "link": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-      "language": "TypeScript",
-      "totalStars": "44470",
-      "totalForks": "3098",
-      "growth": "+707",
-      "growthValue": 707,
-      "rank": 3
+      "totalStars": "13439",
+      "totalForks": "809",
+      "growth": "+3463",
+      "growthValue": 3463,
+      "rank": 7
     },
     {
       "name": "macro-inc/macro",
       "link": "https://github.com/macro-inc/macro",
       "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "language": "Rust",
-      "totalStars": "2324",
-      "totalForks": "259",
-      "growth": "+649",
-      "growthValue": 649,
-      "rank": 4
-    },
-    {
-      "name": "msitarzewski/agency-agents",
-      "link": "https://github.com/msitarzewski/agency-agents",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "language": "Shell",
-      "totalStars": "144930",
-      "totalForks": "23451",
-      "growth": "+422",
-      "growthValue": 422,
-      "rank": 5
-    },
-    {
-      "name": "cactus-compute/needle",
-      "link": "https://github.com/cactus-compute/needle",
-      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-      "language": "Python",
-      "totalStars": "4564",
-      "totalForks": "318",
-      "growth": "+407",
-      "growthValue": 407,
-      "rank": 6
+      "totalStars": "2471",
+      "totalForks": "265",
+      "growth": "+796",
+      "growthValue": 796,
+      "rank": 8
     },
     {
       "name": "semantica-agi/semantica",
       "link": "https://github.com/semantica-agi/semantica",
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "language": "Python",
-      "totalStars": "6025",
-      "totalForks": "650",
-      "growth": "+385",
-      "growthValue": 385,
-      "rank": 7
-    },
-    {
-      "name": "localsend/localsend",
-      "link": "https://github.com/localsend/localsend",
-      "description": "An open-source cross-platform alternative to AirDrop",
-      "language": "Dart",
-      "totalStars": "88122",
-      "totalForks": "4889",
-      "growth": "+373",
-      "growthValue": 373,
-      "rank": 8
-    },
-    {
-      "name": "NanmiCoder/MediaCrawler",
-      "link": "https://github.com/NanmiCoder/MediaCrawler",
-      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
-      "language": "Python",
-      "totalStars": "62265",
-      "totalForks": "12160",
-      "growth": "+323",
-      "growthValue": 323,
+      "totalStars": "6280",
+      "totalForks": "669",
+      "growth": "+640",
+      "growthValue": 640,
       "rank": 9
     },
     {
-      "name": "ZuodaoTech/everyone-can-use-english",
-      "link": "https://github.com/ZuodaoTech/everyone-can-use-english",
-      "description": "人人都能用英语",
-      "language": "TypeScript",
-      "totalStars": "36367",
-      "totalForks": "5041",
-      "growth": "+323",
-      "growthValue": 323,
+      "name": "cactus-compute/needle",
+      "link": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "totalStars": "4759",
+      "totalForks": "324",
+      "growth": "+602",
+      "growthValue": 602,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-13 10:10"
+  "lastUpdated": "2026-08-13 16:01"
 }
