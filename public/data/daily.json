@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "github/spec-kit",
-      "link": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-      "language": "Python",
-      "totalStars": "128190",
-      "totalForks": "11456",
-      "growth": "+128190",
-      "growthValue": 128190,
-      "rank": 1
-    },
-    {
-      "name": "rustdesk/rustdesk",
-      "link": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "totalStars": "120493",
-      "totalForks": "18454",
-      "growth": "+120493",
-      "growthValue": 120493,
-      "rank": 2
-    },
-    {
-      "name": "OpenCut-app/OpenCut",
-      "link": "https://github.com/OpenCut-app/OpenCut",
-      "description": "The open-source CapCut alternative",
-      "language": "TypeScript",
-      "totalStars": "82970",
-      "totalForks": "8219",
-      "growth": "+82970",
-      "growthValue": 82970,
-      "rank": 3
-    },
-    {
-      "name": "ToolJet/ToolJet",
-      "link": "https://github.com/ToolJet/ToolJet",
-      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
-      "language": "JavaScript",
-      "totalStars": "38888",
-      "totalForks": "5247",
-      "growth": "+38888",
-      "growthValue": 38888,
-      "rank": 4
-    },
-    {
-      "name": "citrolabs/ego-lite",
-      "link": "https://github.com/citrolabs/ego-lite",
-      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "language": "JavaScript",
-      "totalStars": "10195",
-      "totalForks": "522",
-      "growth": "+10195",
-      "growthValue": 10195,
-      "rank": 5
-    },
-    {
-      "name": "deepseek-ai/awesome-deepseek-agent",
-      "link": "https://github.com/deepseek-ai/awesome-deepseek-agent",
-      "description": "",
-      "language": "",
-      "totalStars": "5597",
-      "totalForks": "686",
-      "growth": "+5597",
-      "growthValue": 5597,
-      "rank": 6
-    },
-    {
-      "name": "cursor/plugins",
-      "link": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "totalStars": "2751",
-      "totalForks": "222",
-      "growth": "+2751",
-      "growthValue": 2751,
-      "rank": 7
-    },
-    {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
       "language": "HTML",
-      "totalStars": "16747",
-      "totalForks": "1000",
-      "growth": "+2597",
-      "growthValue": 2597,
-      "rank": 8
+      "totalStars": "17092",
+      "totalForks": "1012",
+      "growth": "+2942",
+      "growthValue": 2942,
+      "rank": 1
     },
     {
       "name": "semantica-agi/semantica",
       "link": "https://github.com/semantica-agi/semantica",
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "language": "Python",
-      "totalStars": "7371",
-      "totalForks": "766",
-      "growth": "+827",
-      "growthValue": 827,
-      "rank": 9
+      "totalStars": "7483",
+      "totalForks": "775",
+      "growth": "+939",
+      "growthValue": 939,
+      "rank": 2
     },
     {
       "name": "holaboss-ai/holaOS",
       "link": "https://github.com/holaboss-ai/holaOS",
       "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
       "language": "TypeScript",
-      "totalStars": "7042",
-      "totalForks": "627",
-      "growth": "+517",
-      "growthValue": 517,
+      "totalStars": "7231",
+      "totalForks": "634",
+      "growth": "+706",
+      "growthValue": 706,
+      "rank": 3
+    },
+    {
+      "name": "cactus-compute/needle",
+      "link": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "totalStars": "5542",
+      "totalForks": "369",
+      "growth": "+632",
+      "growthValue": 632,
+      "rank": 4
+    },
+    {
+      "name": "lightningpixel/modly",
+      "link": "https://github.com/lightningpixel/modly",
+      "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
+      "language": "TypeScript",
+      "totalStars": "5884",
+      "totalForks": "598",
+      "growth": "+533",
+      "growthValue": 533,
+      "rank": 5
+    },
+    {
+      "name": "unslothai/unsloth",
+      "link": "https://github.com/unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "language": "Python",
+      "totalStars": "71456",
+      "totalForks": "6445",
+      "growth": "+444",
+      "growthValue": 444,
+      "rank": 6
+    },
+    {
+      "name": "macro-inc/macro",
+      "link": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "totalStars": "2986",
+      "totalForks": "303",
+      "growth": "+426",
+      "growthValue": 426,
+      "rank": 7
+    },
+    {
+      "name": "megadose/holehe",
+      "link": "https://github.com/megadose/holehe",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "language": "Python",
+      "totalStars": "12802",
+      "totalForks": "1715",
+      "growth": "+425",
+      "growthValue": 425,
+      "rank": 8
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "link": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "totalStars": "88377",
+      "totalForks": "10381",
+      "growth": "+400",
+      "growthValue": 400,
+      "rank": 9
+    },
+    {
+      "name": "smicallef/spiderfoot",
+      "link": "https://github.com/smicallef/spiderfoot",
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "language": "Python",
+      "totalStars": "20907",
+      "totalForks": "3339",
+      "growth": "+266",
+      "growthValue": 266,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-14 15:54"
+  "lastUpdated": "2026-08-14 21:27"
 }
