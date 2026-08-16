@@ -1,115 +1,93 @@
 {
   "projects": [
     {
+      "name": "basecamp/omarchy",
+      "link": "https://github.com/basecamp/omarchy",
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "language": "Shell",
+      "totalStars": "25180",
+      "totalForks": "2566",
+      "growth": "+25180",
+      "growthValue": 25180,
+      "rank": 1
+    },
+    {
+      "name": "akitaonrails/ai-memory",
+      "link": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "totalStars": "1637",
+      "totalForks": "168",
+      "growth": "+1637",
+      "growthValue": 1637,
+      "rank": 2
+    },
+    {
       "name": "public-apis/public-apis",
       "link": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "totalStars": "460667",
-      "totalForks": "50894",
-      "growth": "+608",
-      "growthValue": 608,
-      "rank": 1
-    },
-    {
-      "name": "cathrynlavery/diagram-design",
-      "link": "https://github.com/cathrynlavery/diagram-design",
-      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-      "language": "HTML",
-      "totalStars": "19037",
-      "totalForks": "1155",
-      "growth": "+520",
-      "growthValue": 520,
-      "rank": 2
+      "totalStars": "461101",
+      "totalForks": "50946",
+      "growth": "+1042",
+      "growthValue": 1042,
+      "rank": 3
     },
     {
       "name": "cordiverse/cordis",
       "link": "https://github.com/cordiverse/cordis",
       "description": "Meta-Framework of Spatiotemporal Composability",
       "language": "TypeScript",
-      "totalStars": "4353",
-      "totalForks": "215",
-      "growth": "+342",
-      "growthValue": 342,
-      "rank": 3
-    },
-    {
-      "name": "citrolabs/ego-lite",
-      "link": "https://github.com/citrolabs/ego-lite",
-      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "language": "JavaScript",
-      "totalStars": "11217",
-      "totalForks": "573",
-      "growth": "+321",
-      "growthValue": 321,
+      "totalStars": "4532",
+      "totalForks": "232",
+      "growth": "+521",
+      "growthValue": 521,
       "rank": 4
-    },
-    {
-      "name": "MakazhanAlpamys/Soup",
-      "link": "https://github.com/MakazhanAlpamys/Soup",
-      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
-      "language": "Python",
-      "totalStars": "1844",
-      "totalForks": "274",
-      "growth": "+240",
-      "growthValue": 240,
-      "rank": 5
-    },
-    {
-      "name": "github/spec-kit",
-      "link": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-      "language": "Python",
-      "totalStars": "129355",
-      "totalForks": "11567",
-      "growth": "+231",
-      "growthValue": 231,
-      "rank": 6
     },
     {
       "name": "unslothai/unsloth",
       "link": "https://github.com/unslothai/unsloth",
       "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
       "language": "Python",
-      "totalStars": "72219",
-      "totalForks": "6504",
-      "growth": "+227",
-      "growthValue": 227,
-      "rank": 7
-    },
-    {
-      "name": "HKUDS/CLI-Anything",
-      "link": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "language": "Python",
-      "totalStars": "47526",
-      "totalForks": "4401",
-      "growth": "+224",
-      "growthValue": 224,
-      "rank": 8
-    },
-    {
-      "name": "ToolJet/ToolJet",
-      "link": "https://github.com/ToolJet/ToolJet",
-      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
-      "language": "JavaScript",
-      "totalStars": "39693",
-      "totalForks": "5307",
-      "growth": "+216",
-      "growthValue": 216,
-      "rank": 9
+      "totalStars": "72346",
+      "totalForks": "6519",
+      "growth": "+354",
+      "growthValue": 354,
+      "rank": 5
     },
     {
       "name": "cactus-compute/needle",
       "link": "https://github.com/cactus-compute/needle",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "language": "Python",
-      "totalStars": "6215",
-      "totalForks": "415",
-      "growth": "+190",
-      "growthValue": 190,
-      "rank": 10
+      "totalStars": "6372",
+      "totalForks": "424",
+      "growth": "+347",
+      "growthValue": 347,
+      "rank": 6
+    },
+    {
+      "name": "ToolJet/ToolJet",
+      "link": "https://github.com/ToolJet/ToolJet",
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "language": "JavaScript",
+      "totalStars": "39823",
+      "totalForks": "5318",
+      "growth": "+346",
+      "growthValue": 346,
+      "rank": 7
+    },
+    {
+      "name": "OpenCut-app/OpenCut",
+      "link": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "totalStars": "83633",
+      "totalForks": "8269",
+      "growth": "+293",
+      "growthValue": 293,
+      "rank": 8
     }
   ],
-  "lastUpdated": "2026-08-16 09:30"
+  "lastUpdated": "2026-08-16 15:24"
 }
