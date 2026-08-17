@@ -1,82 +1,115 @@
 {
   "projects": [
     {
-      "name": "public-apis/public-apis",
-      "link": "https://github.com/public-apis/public-apis",
-      "description": "A collective list of free APIs",
-      "language": "Python",
-      "totalStars": "462592",
-      "totalForks": "51087",
-      "growth": "+1024",
-      "growthValue": 1024,
+      "name": "immich-app/immich",
+      "link": "https://github.com/immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "totalStars": "111081",
+      "totalForks": "6574",
+      "growth": "+111081",
+      "growthValue": 111081,
       "rank": 1
+    },
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "link": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "totalStars": "105838",
+      "totalForks": "16093",
+      "growth": "+105838",
+      "growthValue": 105838,
+      "rank": 2
+    },
+    {
+      "name": "santifer/career-ops",
+      "link": "https://github.com/santifer/career-ops",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "language": "JavaScript",
+      "totalStars": "64541",
+      "totalForks": "12648",
+      "growth": "+64541",
+      "growthValue": 64541,
+      "rank": 3
+    },
+    {
+      "name": "usestrix/strix",
+      "link": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "totalStars": "54039",
+      "totalForks": "5787",
+      "growth": "+54039",
+      "growthValue": 54039,
+      "rank": 4
+    },
+    {
+      "name": "agalwood/Motrix",
+      "link": "https://github.com/agalwood/Motrix",
+      "description": "A full-featured download manager.",
+      "language": "TypeScript",
+      "totalStars": "53007",
+      "totalForks": "4925",
+      "growth": "+53007",
+      "growthValue": 53007,
+      "rank": 5
+    },
+    {
+      "name": "AlexsJones/llmfit",
+      "link": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "totalStars": "32200",
+      "totalForks": "1996",
+      "growth": "+32200",
+      "growthValue": 32200,
+      "rank": 6
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "language": "Python",
+      "totalStars": "28343",
+      "totalForks": "3444",
+      "growth": "+28343",
+      "growthValue": 28343,
+      "rank": 7
+    },
+    {
+      "name": "nautechsystems/nautilus_trader",
+      "link": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "totalStars": "25854",
+      "totalForks": "3370",
+      "growth": "+25854",
+      "growthValue": 25854,
+      "rank": 8
+    },
+    {
+      "name": "jundot/omlx",
+      "link": "https://github.com/jundot/omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "totalStars": "18948",
+      "totalForks": "1644",
+      "growth": "+18948",
+      "growthValue": 18948,
+      "rank": 9
     },
     {
       "name": "cordiverse/cordis",
       "link": "https://github.com/cordiverse/cordis",
       "description": "Meta-Framework of Spatiotemporal Composability",
       "language": "TypeScript",
-      "totalStars": "5301",
-      "totalForks": "283",
-      "growth": "+633",
-      "growthValue": 633,
-      "rank": 2
-    },
-    {
-      "name": "unslothai/unsloth",
-      "link": "https://github.com/unslothai/unsloth",
-      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-      "language": "Python",
-      "totalStars": "72962",
-      "totalForks": "6574",
-      "growth": "+475",
-      "growthValue": 475,
-      "rank": 3
-    },
-    {
-      "name": "OpenCut-app/OpenCut",
-      "link": "https://github.com/OpenCut-app/OpenCut",
-      "description": "The open-source CapCut alternative",
-      "language": "TypeScript",
-      "totalStars": "84261",
-      "totalForks": "8313",
-      "growth": "+450",
-      "growthValue": 450,
-      "rank": 4
-    },
-    {
-      "name": "basecamp/omarchy",
-      "link": "https://github.com/basecamp/omarchy",
-      "description": "Beautiful, Modern & Opinionated Linux",
-      "language": "Shell",
-      "totalStars": "25763",
-      "totalForks": "2615",
-      "growth": "+441",
-      "growthValue": 441,
-      "rank": 5
-    },
-    {
-      "name": "cactus-compute/needle",
-      "link": "https://github.com/cactus-compute/needle",
-      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-      "language": "Python",
-      "totalStars": "6925",
-      "totalForks": "444",
-      "growth": "+421",
-      "growthValue": 421,
-      "rank": 6
-    },
-    {
-      "name": "ToolJet/ToolJet",
-      "link": "https://github.com/ToolJet/ToolJet",
-      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
-      "language": "JavaScript",
-      "totalStars": "40331",
-      "totalForks": "5345",
-      "growth": "+371",
-      "growthValue": 371,
-      "rank": 7
+      "totalStars": "5532",
+      "totalForks": "294",
+      "growth": "+864",
+      "growthValue": 864,
+      "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-17 09:45"
+  "lastUpdated": "2026-08-17 21:28"
 }
