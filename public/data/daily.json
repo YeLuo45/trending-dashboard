@@ -1,91 +1,91 @@
 {
   "projects": [
     {
+      "name": "volcengine/OpenViking",
+      "link": "https://github.com/volcengine/OpenViking",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "language": "Python",
+      "totalStars": "29149",
+      "totalForks": "2291",
+      "growth": "+29149",
+      "growthValue": 29149,
+      "rank": 1
+    },
+    {
+      "name": "NawfalMotii79/PLFM_RADAR",
+      "link": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "language": "PLSQL",
+      "totalStars": "24206",
+      "totalForks": "5574",
+      "growth": "+24206",
+      "growthValue": 24206,
+      "rank": 2
+    },
+    {
+      "name": "genlayerlabs/genlayer-project-boilerplate",
+      "link": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+      "description": "",
+      "language": "TypeScript",
+      "totalStars": "15846",
+      "totalForks": "797",
+      "growth": "+15846",
+      "growthValue": 15846,
+      "rank": 3
+    },
+    {
       "name": "harry0703/MoneyPrinterTurbo",
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "language": "Python",
-      "totalStars": "107198",
-      "totalForks": "16253",
-      "growth": "+1360",
-      "growthValue": 1360,
-      "rank": 1
+      "totalStars": "107972",
+      "totalForks": "16381",
+      "growth": "+2134",
+      "growthValue": 2134,
+      "rank": 4
     },
     {
-      "name": "usestrix/strix",
-      "link": "https://github.com/usestrix/strix",
-      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "name": "chaitanyagiri/munder-difflin",
+      "link": "https://github.com/chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "totalStars": "1782",
+      "totalForks": "220",
+      "growth": "+1782",
+      "growthValue": 1782,
+      "rank": 5
+    },
+    {
+      "name": "public-apis/public-apis",
+      "link": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
       "language": "Python",
-      "totalStars": "54714",
-      "totalForks": "5842",
-      "growth": "+675",
-      "growthValue": 675,
-      "rank": 2
-    },
-    {
-      "name": "santifer/career-ops",
-      "link": "https://github.com/santifer/career-ops",
-      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-      "language": "JavaScript",
-      "totalStars": "65183",
-      "totalForks": "12676",
-      "growth": "+642",
-      "growthValue": 642,
-      "rank": 3
+      "totalStars": "464015",
+      "totalForks": "51279",
+      "growth": "+1423",
+      "growthValue": 1423,
+      "rank": 6
     },
     {
       "name": "akitaonrails/ai-memory",
       "link": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "totalStars": "2389",
-      "totalForks": "212",
-      "growth": "+417",
-      "growthValue": 417,
-      "rank": 4
-    },
-    {
-      "name": "cordiverse/cordis",
-      "link": "https://github.com/cordiverse/cordis",
-      "description": "Meta-Framework of Spatiotemporal Composability",
-      "language": "TypeScript",
-      "totalStars": "5924",
-      "totalForks": "319",
-      "growth": "+392",
-      "growthValue": 392,
-      "rank": 5
+      "totalStars": "2552",
+      "totalForks": "222",
+      "growth": "+580",
+      "growthValue": 580,
+      "rank": 7
     },
     {
       "name": "mukul975/Anthropic-Cybersecurity-Skills",
       "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
       "language": "Python",
-      "totalStars": "28725",
-      "totalForks": "3464",
-      "growth": "+382",
-      "growthValue": 382,
-      "rank": 6
-    },
-    {
-      "name": "immich-app/immich",
-      "link": "https://github.com/immich-app/immich",
-      "description": "High performance self-hosted photo and video management solution.",
-      "language": "TypeScript",
-      "totalStars": "111447",
-      "totalForks": "6590",
-      "growth": "+366",
-      "growthValue": 366,
-      "rank": 7
-    },
-    {
-      "name": "AlexsJones/llmfit",
-      "link": "https://github.com/AlexsJones/llmfit",
-      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
-      "language": "Rust",
-      "totalStars": "32561",
-      "totalForks": "2011",
-      "growth": "+361",
-      "growthValue": 361,
+      "totalStars": "28917",
+      "totalForks": "3475",
+      "growth": "+574",
+      "growthValue": 574,
       "rank": 8
     },
     {
@@ -93,23 +93,23 @@
       "link": "https://github.com/agalwood/Motrix",
       "description": "A full-featured download manager.",
       "language": "TypeScript",
-      "totalStars": "53350",
-      "totalForks": "4933",
-      "growth": "+343",
-      "growthValue": 343,
+      "totalStars": "53498",
+      "totalForks": "4944",
+      "growth": "+491",
+      "growthValue": 491,
       "rank": 9
     },
     {
-      "name": "nautechsystems/nautilus_trader",
-      "link": "https://github.com/nautechsystems/nautilus_trader",
-      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-      "language": "Rust",
-      "totalStars": "26163",
-      "totalForks": "3392",
-      "growth": "+309",
-      "growthValue": 309,
+      "name": "jundot/omlx",
+      "link": "https://github.com/jundot/omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "totalStars": "19276",
+      "totalForks": "1656",
+      "growth": "+328",
+      "growthValue": 328,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-18 09:37"
+  "lastUpdated": "2026-08-18 15:34"
 }
