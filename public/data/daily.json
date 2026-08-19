@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "274063",
-      "totalForks": "24539",
-      "growth": "+274063",
-      "growthValue": 274063,
-      "rank": 1
-    },
-    {
-      "name": "marceloprates/prettymaps",
-      "link": "https://github.com/marceloprates/prettymaps",
-      "description": "Draw pretty maps from OpenStreetMap data! Built with osmnx +matplotlib + shapely",
-      "language": "Python",
-      "totalStars": "12864",
-      "totalForks": "647",
-      "growth": "+12864",
-      "growthValue": 12864,
-      "rank": 2
-    },
-    {
-      "name": "amadeusprotocol/node",
-      "link": "https://github.com/amadeusprotocol/node",
-      "description": "",
-      "language": "Rust",
-      "totalStars": "4278",
-      "totalForks": "75",
-      "growth": "+4278",
-      "growthValue": 4278,
-      "rank": 3
-    },
-    {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "223130",
-      "totalForks": "19211",
-      "growth": "+1720",
-      "growthValue": 1720,
-      "rank": 4
+      "totalStars": "223625",
+      "totalForks": "19242",
+      "growth": "+2215",
+      "growthValue": 2215,
+      "rank": 1
     },
     {
       "name": "harry0703/MoneyPrinterTurbo",
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "language": "Python",
-      "totalStars": "110009",
-      "totalForks": "16701",
-      "growth": "+1603",
-      "growthValue": 1603,
-      "rank": 5
+      "totalStars": "110439",
+      "totalForks": "16760",
+      "growth": "+2033",
+      "growthValue": 2033,
+      "rank": 2
     },
     {
       "name": "volcengine/OpenViking",
       "link": "https://github.com/volcengine/OpenViking",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
-      "totalStars": "29932",
-      "totalForks": "2323",
-      "growth": "+633",
-      "growthValue": 633,
-      "rank": 6
-    },
-    {
-      "name": "chaitanyagiri/munder-difflin",
-      "link": "https://github.com/chaitanyagiri/munder-difflin",
-      "description": "local multi-agent harness",
-      "language": "TypeScript",
-      "totalStars": "2534",
-      "totalForks": "297",
-      "growth": "+566",
-      "growthValue": 566,
-      "rank": 7
+      "totalStars": "30094",
+      "totalForks": "2331",
+      "growth": "+795",
+      "growthValue": 795,
+      "rank": 3
     },
     {
       "name": "mukul975/Anthropic-Cybersecurity-Skills",
       "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
       "language": "Python",
-      "totalStars": "29629",
-      "totalForks": "3519",
-      "growth": "+522",
-      "growthValue": 522,
-      "rank": 8
+      "totalStars": "29771",
+      "totalForks": "3528",
+      "growth": "+664",
+      "growthValue": 664,
+      "rank": 4
     },
     {
-      "name": "akitaonrails/ai-memory",
-      "link": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "language": "Rust",
-      "totalStars": "3125",
-      "totalForks": "257",
-      "growth": "+463",
-      "growthValue": 463,
-      "rank": 9
+      "name": "chaitanyagiri/munder-difflin",
+      "link": "https://github.com/chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "totalStars": "2628",
+      "totalForks": "313",
+      "growth": "+660",
+      "growthValue": 660,
+      "rank": 5
+    },
+    {
+      "name": "santifer/career-ops",
+      "link": "https://github.com/santifer/career-ops",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "language": "JavaScript",
+      "totalStars": "65703",
+      "totalForks": "12733",
+      "growth": "+520",
+      "growthValue": 520,
+      "rank": 6
     },
     {
       "name": "jundot/omlx",
       "link": "https://github.com/jundot/omlx",
       "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
       "language": "Python",
-      "totalStars": "19722",
-      "totalForks": "1682",
-      "growth": "+361",
-      "growthValue": 361,
+      "totalStars": "19796",
+      "totalForks": "1689",
+      "growth": "+435",
+      "growthValue": 435,
+      "rank": 7
+    },
+    {
+      "name": "immich-app/immich",
+      "link": "https://github.com/immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "totalStars": "111795",
+      "totalForks": "6626",
+      "growth": "+348",
+      "growthValue": 348,
+      "rank": 8
+    },
+    {
+      "name": "genlayerlabs/genlayer-project-boilerplate",
+      "link": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+      "description": "",
+      "language": "TypeScript",
+      "totalStars": "16215",
+      "totalForks": "808",
+      "growth": "+327",
+      "growthValue": 327,
+      "rank": 9
+    },
+    {
+      "name": "nautechsystems/nautilus_trader",
+      "link": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "totalStars": "26409",
+      "totalForks": "3415",
+      "growth": "+246",
+      "growthValue": 246,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-19 15:34"
+  "lastUpdated": "2026-08-19 21:28"
 }
