@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "obra/superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "274063",
+      "totalForks": "24539",
+      "growth": "+274063",
+      "growthValue": 274063,
+      "rank": 1
+    },
+    {
+      "name": "marceloprates/prettymaps",
+      "link": "https://github.com/marceloprates/prettymaps",
+      "description": "Draw pretty maps from OpenStreetMap data! Built with osmnx +matplotlib + shapely",
+      "language": "Python",
+      "totalStars": "12864",
+      "totalForks": "647",
+      "growth": "+12864",
+      "growthValue": 12864,
+      "rank": 2
+    },
+    {
+      "name": "amadeusprotocol/node",
+      "link": "https://github.com/amadeusprotocol/node",
+      "description": "",
+      "language": "Rust",
+      "totalStars": "4278",
+      "totalForks": "75",
+      "growth": "+4278",
+      "growthValue": 4278,
+      "rank": 3
+    },
+    {
+      "name": "mattpocock/skills",
+      "link": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "totalStars": "223130",
+      "totalForks": "19211",
+      "growth": "+1720",
+      "growthValue": 1720,
+      "rank": 4
+    },
+    {
       "name": "harry0703/MoneyPrinterTurbo",
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "language": "Python",
-      "totalStars": "109447",
-      "totalForks": "16610",
-      "growth": "+1041",
-      "growthValue": 1041,
-      "rank": 1
-    },
-    {
-      "name": "public-apis/public-apis",
-      "link": "https://github.com/public-apis/public-apis",
-      "description": "A collective list of free APIs",
-      "language": "Python",
-      "totalStars": "465197",
-      "totalForks": "51366",
-      "growth": "+784",
-      "growthValue": 784,
-      "rank": 2
+      "totalStars": "110009",
+      "totalForks": "16701",
+      "growth": "+1603",
+      "growthValue": 1603,
+      "rank": 5
     },
     {
       "name": "volcengine/OpenViking",
       "link": "https://github.com/volcengine/OpenViking",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
-      "totalStars": "29751",
-      "totalForks": "2318",
-      "growth": "+452",
-      "growthValue": 452,
-      "rank": 3
+      "totalStars": "29932",
+      "totalForks": "2323",
+      "growth": "+633",
+      "growthValue": 633,
+      "rank": 6
     },
     {
       "name": "chaitanyagiri/munder-difflin",
       "link": "https://github.com/chaitanyagiri/munder-difflin",
       "description": "local multi-agent harness",
       "language": "TypeScript",
-      "totalStars": "2357",
-      "totalForks": "273",
-      "growth": "+389",
-      "growthValue": 389,
-      "rank": 4
+      "totalStars": "2534",
+      "totalForks": "297",
+      "growth": "+566",
+      "growthValue": 566,
+      "rank": 7
     },
     {
       "name": "mukul975/Anthropic-Cybersecurity-Skills",
       "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
       "language": "Python",
-      "totalStars": "29464",
-      "totalForks": "3509",
-      "growth": "+357",
-      "growthValue": 357,
-      "rank": 5
-    },
-    {
-      "name": "OpenCut-app/OpenCut",
-      "link": "https://github.com/OpenCut-app/OpenCut",
-      "description": "The open-source CapCut alternative",
-      "language": "TypeScript",
-      "totalStars": "85040",
-      "totalForks": "8372",
-      "growth": "+340",
-      "growthValue": 340,
-      "rank": 6
+      "totalStars": "29629",
+      "totalForks": "3519",
+      "growth": "+522",
+      "growthValue": 522,
+      "rank": 8
     },
     {
       "name": "akitaonrails/ai-memory",
       "link": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "totalStars": "2994",
-      "totalForks": "250",
-      "growth": "+332",
-      "growthValue": 332,
-      "rank": 7
-    },
-    {
-      "name": "agalwood/Motrix",
-      "link": "https://github.com/agalwood/Motrix",
-      "description": "A full-featured download manager.",
-      "language": "TypeScript",
-      "totalStars": "53923",
-      "totalForks": "4958",
-      "growth": "+314",
-      "growthValue": 314,
-      "rank": 8
+      "totalStars": "3125",
+      "totalForks": "257",
+      "growth": "+463",
+      "growthValue": 463,
+      "rank": 9
     },
     {
       "name": "jundot/omlx",
       "link": "https://github.com/jundot/omlx",
       "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
       "language": "Python",
-      "totalStars": "19600",
-      "totalForks": "1680",
-      "growth": "+239",
-      "growthValue": 239,
-      "rank": 9
-    },
-    {
-      "name": "basecamp/omarchy",
-      "link": "https://github.com/basecamp/omarchy",
-      "description": "Beautiful, Modern & Opinionated Linux",
-      "language": "Shell",
-      "totalStars": "26606",
-      "totalForks": "2703",
-      "growth": "+230",
-      "growthValue": 230,
+      "totalStars": "19722",
+      "totalForks": "1682",
+      "growth": "+361",
+      "growthValue": 361,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-19 09:37"
+  "lastUpdated": "2026-08-19 15:34"
 }
