@@ -1,190 +1,190 @@
 {
   "projects": [
     {
-      "name": "modular/modular",
-      "link": "https://github.com/modular/modular",
-      "description": "The Modular Platform (includes MAX & Mojo)",
-      "language": "Mojo",
-      "totalStars": "27653",
-      "totalForks": "2986",
-      "growth": "+27653",
-      "growthValue": 27653,
-      "rank": 1
-    },
-    {
-      "name": "AprilNEA/OpenLogi",
-      "link": "https://github.com/AprilNEA/OpenLogi",
-      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-      "language": "Rust",
-      "totalStars": "11378",
-      "totalForks": "314",
-      "growth": "+11378",
-      "growthValue": 11378,
-      "rank": 2
-    },
-    {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "totalStars": "24082",
-      "totalForks": "1465",
-      "growth": "+9932",
-      "growthValue": 9932,
-      "rank": 3
+      "totalStars": "24236",
+      "totalForks": "1469",
+      "growth": "+10086",
+      "growthValue": 10086,
+      "rank": 1
     },
     {
       "name": "public-apis/public-apis",
       "link": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "totalStars": "466898",
-      "totalForks": "51499",
-      "growth": "+6839",
-      "growthValue": 6839,
-      "rank": 4
+      "totalStars": "467115",
+      "totalForks": "51523",
+      "growth": "+7056",
+      "growthValue": 7056,
+      "rank": 2
     },
     {
       "name": "harry0703/MoneyPrinterTurbo",
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "language": "Python",
-      "totalStars": "112561",
-      "totalForks": "17050",
-      "growth": "+6723",
-      "growthValue": 6723,
-      "rank": 5
+      "totalStars": "112823",
+      "totalForks": "17099",
+      "growth": "+6985",
+      "growthValue": 6985,
+      "rank": 3
     },
     {
       "name": "semantica-agi/semantica",
       "link": "https://github.com/semantica-agi/semantica",
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "language": "Python",
-      "totalStars": "9754",
-      "totalForks": "1035",
-      "growth": "+3210",
-      "growthValue": 3210,
-      "rank": 6
+      "totalStars": "9804",
+      "totalForks": "1042",
+      "growth": "+3260",
+      "growthValue": 3260,
+      "rank": 4
     },
     {
       "name": "cactus-compute/needle",
       "link": "https://github.com/cactus-compute/needle",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "language": "Python",
-      "totalStars": "8048",
-      "totalForks": "518",
-      "growth": "+3138",
-      "growthValue": 3138,
-      "rank": 7
+      "totalStars": "8105",
+      "totalForks": "520",
+      "growth": "+3195",
+      "growthValue": 3195,
+      "rank": 5
     },
     {
       "name": "unslothai/unsloth",
       "link": "https://github.com/unslothai/unsloth",
       "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
       "language": "Python",
-      "totalStars": "74038",
-      "totalForks": "6693",
-      "growth": "+3026",
-      "growthValue": 3026,
-      "rank": 8
+      "totalStars": "74084",
+      "totalForks": "6695",
+      "growth": "+3072",
+      "growthValue": 3072,
+      "rank": 6
     },
     {
       "name": "akitaonrails/ai-memory",
       "link": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "totalStars": "3435",
-      "totalForks": "275",
-      "growth": "+1798",
-      "growthValue": 1798,
-      "rank": 9
-    },
-    {
-      "name": "lightningpixel/modly",
-      "link": "https://github.com/lightningpixel/modly",
-      "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
-      "language": "TypeScript",
-      "totalStars": "7004",
-      "totalForks": "671",
-      "growth": "+1653",
-      "growthValue": 1653,
-      "rank": 10
+      "totalStars": "3547",
+      "totalForks": "279",
+      "growth": "+1910",
+      "growthValue": 1910,
+      "rank": 7
     },
     {
       "name": "basecamp/omarchy",
       "link": "https://github.com/basecamp/omarchy",
       "description": "Beautiful, Modern & Opinionated Linux",
       "language": "Shell",
-      "totalStars": "26967",
-      "totalForks": "2755",
-      "growth": "+1645",
-      "growthValue": 1645,
-      "rank": 11
+      "totalStars": "27029",
+      "totalForks": "2766",
+      "growth": "+1707",
+      "growthValue": 1707,
+      "rank": 8
+    },
+    {
+      "name": "lightningpixel/modly",
+      "link": "https://github.com/lightningpixel/modly",
+      "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
+      "language": "TypeScript",
+      "totalStars": "7027",
+      "totalForks": "671",
+      "growth": "+1676",
+      "growthValue": 1676,
+      "rank": 9
     },
     {
       "name": "volcengine/OpenViking",
       "link": "https://github.com/volcengine/OpenViking",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
-      "totalStars": "30840",
-      "totalForks": "2378",
-      "growth": "+1541",
-      "growthValue": 1541,
-      "rank": 12
+      "totalStars": "30964",
+      "totalForks": "2389",
+      "growth": "+1665",
+      "growthValue": 1665,
+      "rank": 10
     },
     {
       "name": "megadose/holehe",
       "link": "https://github.com/megadose/holehe",
       "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
       "language": "Python",
-      "totalStars": "13800",
-      "totalForks": "1798",
-      "growth": "+1423",
-      "growthValue": 1423,
-      "rank": 13
+      "totalStars": "13822",
+      "totalForks": "1800",
+      "growth": "+1445",
+      "growthValue": 1445,
+      "rank": 11
     },
     {
       "name": "macro-inc/macro",
       "link": "https://github.com/macro-inc/macro",
       "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "language": "Rust",
-      "totalStars": "3843",
-      "totalForks": "368",
-      "growth": "+1283",
-      "growthValue": 1283,
-      "rank": 14
+      "totalStars": "3867",
+      "totalForks": "369",
+      "growth": "+1307",
+      "growthValue": 1307,
+      "rank": 12
     },
     {
       "name": "jundot/omlx",
       "link": "https://github.com/jundot/omlx",
       "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
       "language": "Python",
-      "totalStars": "20049",
-      "totalForks": "1705",
-      "growth": "+1101",
-      "growthValue": 1101,
-      "rank": 15
+      "totalStars": "20094",
+      "totalForks": "1709",
+      "growth": "+1146",
+      "growthValue": 1146,
+      "rank": 13
     },
     {
       "name": "AlexsJones/llmfit",
       "link": "https://github.com/AlexsJones/llmfit",
       "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
       "language": "Rust",
-      "totalStars": "33216",
-      "totalForks": "2056",
-      "growth": "+1016",
-      "growthValue": 1016,
-      "rank": 16
+      "totalStars": "33255",
+      "totalForks": "2061",
+      "growth": "+1055",
+      "growthValue": 1055,
+      "rank": 14
     },
     {
       "name": "NVIDIA-NeMo/Switchyard",
       "link": "https://github.com/NVIDIA-NeMo/Switchyard",
       "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
       "language": "Rust",
-      "totalStars": "1946",
+      "totalStars": "1968",
       "totalForks": "177",
-      "growth": "+767",
-      "growthValue": 767,
+      "growth": "+789",
+      "growthValue": 789,
+      "rank": 15
+    },
+    {
+      "name": "AprilNEA/OpenLogi",
+      "link": "https://github.com/AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "totalStars": "11720",
+      "totalForks": "320",
+      "growth": "+342",
+      "growthValue": 342,
+      "rank": 16
+    },
+    {
+      "name": "modular/modular",
+      "link": "https://github.com/modular/modular",
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "language": "Mojo",
+      "totalStars": "27856",
+      "totalForks": "2997",
+      "growth": "+203",
+      "growthValue": 203,
       "rank": 17
     },
     {
@@ -192,12 +192,12 @@
       "link": "https://github.com/CodebuffAI/freebuff",
       "description": "The free coding agent",
       "language": "TypeScript",
-      "totalStars": "10217",
-      "totalForks": "1125",
-      "growth": "+149",
-      "growthValue": 149,
+      "totalStars": "10264",
+      "totalForks": "1127",
+      "growth": "+196",
+      "growthValue": 196,
       "rank": 18
     }
   ],
-  "lastUpdated": "2026-08-20 15:36"
+  "lastUpdated": "2026-08-20 21:31"
 }
