@@ -1,170 +1,203 @@
 {
   "projects": [
     {
+      "name": "modular/modular",
+      "link": "https://github.com/modular/modular",
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "language": "Mojo",
+      "totalStars": "27653",
+      "totalForks": "2986",
+      "growth": "+27653",
+      "growthValue": 27653,
+      "rank": 1
+    },
+    {
+      "name": "AprilNEA/OpenLogi",
+      "link": "https://github.com/AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "totalStars": "11378",
+      "totalForks": "314",
+      "growth": "+11378",
+      "growthValue": 11378,
+      "rank": 2
+    },
+    {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "totalStars": "23837",
-      "totalForks": "1458",
-      "growth": "+9687",
-      "growthValue": 9687,
-      "rank": 1
+      "totalStars": "24082",
+      "totalForks": "1465",
+      "growth": "+9932",
+      "growthValue": 9932,
+      "rank": 3
     },
     {
       "name": "public-apis/public-apis",
       "link": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "totalStars": "466562",
-      "totalForks": "51468",
-      "growth": "+6503",
-      "growthValue": 6503,
-      "rank": 2
+      "totalStars": "466898",
+      "totalForks": "51499",
+      "growth": "+6839",
+      "growthValue": 6839,
+      "rank": 4
     },
     {
       "name": "harry0703/MoneyPrinterTurbo",
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "language": "Python",
-      "totalStars": "112136",
-      "totalForks": "16985",
-      "growth": "+6298",
-      "growthValue": 6298,
-      "rank": 3
+      "totalStars": "112561",
+      "totalForks": "17050",
+      "growth": "+6723",
+      "growthValue": 6723,
+      "rank": 5
     },
     {
       "name": "semantica-agi/semantica",
       "link": "https://github.com/semantica-agi/semantica",
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "language": "Python",
-      "totalStars": "9684",
-      "totalForks": "1024",
-      "growth": "+3140",
-      "growthValue": 3140,
-      "rank": 4
+      "totalStars": "9754",
+      "totalForks": "1035",
+      "growth": "+3210",
+      "growthValue": 3210,
+      "rank": 6
     },
     {
       "name": "cactus-compute/needle",
       "link": "https://github.com/cactus-compute/needle",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "language": "Python",
-      "totalStars": "7963",
-      "totalForks": "515",
-      "growth": "+3053",
-      "growthValue": 3053,
-      "rank": 5
+      "totalStars": "8048",
+      "totalForks": "518",
+      "growth": "+3138",
+      "growthValue": 3138,
+      "rank": 7
     },
     {
       "name": "unslothai/unsloth",
       "link": "https://github.com/unslothai/unsloth",
       "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
       "language": "Python",
-      "totalStars": "73978",
-      "totalForks": "6683",
-      "growth": "+2966",
-      "growthValue": 2966,
-      "rank": 6
+      "totalStars": "74038",
+      "totalForks": "6693",
+      "growth": "+3026",
+      "growthValue": 3026,
+      "rank": 8
+    },
+    {
+      "name": "akitaonrails/ai-memory",
+      "link": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "totalStars": "3435",
+      "totalForks": "275",
+      "growth": "+1798",
+      "growthValue": 1798,
+      "rank": 9
     },
     {
       "name": "lightningpixel/modly",
       "link": "https://github.com/lightningpixel/modly",
       "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
       "language": "TypeScript",
-      "totalStars": "6966",
-      "totalForks": "670",
-      "growth": "+1615",
-      "growthValue": 1615,
-      "rank": 7
+      "totalStars": "7004",
+      "totalForks": "671",
+      "growth": "+1653",
+      "growthValue": 1653,
+      "rank": 10
     },
     {
       "name": "basecamp/omarchy",
       "link": "https://github.com/basecamp/omarchy",
       "description": "Beautiful, Modern & Opinionated Linux",
       "language": "Shell",
-      "totalStars": "26894",
-      "totalForks": "2748",
-      "growth": "+1572",
-      "growthValue": 1572,
-      "rank": 8
-    },
-    {
-      "name": "megadose/holehe",
-      "link": "https://github.com/megadose/holehe",
-      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-      "language": "Python",
-      "totalStars": "13778",
-      "totalForks": "1798",
-      "growth": "+1401",
-      "growthValue": 1401,
-      "rank": 9
+      "totalStars": "26967",
+      "totalForks": "2755",
+      "growth": "+1645",
+      "growthValue": 1645,
+      "rank": 11
     },
     {
       "name": "volcengine/OpenViking",
       "link": "https://github.com/volcengine/OpenViking",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
-      "totalStars": "30676",
-      "totalForks": "2369",
-      "growth": "+1377",
-      "growthValue": 1377,
-      "rank": 10
+      "totalStars": "30840",
+      "totalForks": "2378",
+      "growth": "+1541",
+      "growthValue": 1541,
+      "rank": 12
+    },
+    {
+      "name": "megadose/holehe",
+      "link": "https://github.com/megadose/holehe",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "language": "Python",
+      "totalStars": "13800",
+      "totalForks": "1798",
+      "growth": "+1423",
+      "growthValue": 1423,
+      "rank": 13
     },
     {
       "name": "macro-inc/macro",
       "link": "https://github.com/macro-inc/macro",
       "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "language": "Rust",
-      "totalStars": "3817",
+      "totalStars": "3843",
       "totalForks": "368",
-      "growth": "+1257",
-      "growthValue": 1257,
-      "rank": 11
+      "growth": "+1283",
+      "growthValue": 1283,
+      "rank": 14
     },
     {
       "name": "jundot/omlx",
       "link": "https://github.com/jundot/omlx",
       "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
       "language": "Python",
-      "totalStars": "19971",
-      "totalForks": "1700",
-      "growth": "+1023",
-      "growthValue": 1023,
-      "rank": 12
+      "totalStars": "20049",
+      "totalForks": "1705",
+      "growth": "+1101",
+      "growthValue": 1101,
+      "rank": 15
     },
     {
       "name": "AlexsJones/llmfit",
       "link": "https://github.com/AlexsJones/llmfit",
       "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
       "language": "Rust",
-      "totalStars": "33159",
-      "totalForks": "2054",
-      "growth": "+959",
-      "growthValue": 959,
-      "rank": 13
+      "totalStars": "33216",
+      "totalForks": "2056",
+      "growth": "+1016",
+      "growthValue": 1016,
+      "rank": 16
     },
     {
-      "name": "superradcompany/microsandbox",
-      "link": "https://github.com/superradcompany/microsandbox",
-      "description": "🧱 easy fast local-first microVM runtime and library",
+      "name": "NVIDIA-NeMo/Switchyard",
+      "link": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
       "language": "Rust",
-      "totalStars": "7813",
-      "totalForks": "410",
-      "growth": "+163",
-      "growthValue": 163,
-      "rank": 14
+      "totalStars": "1946",
+      "totalForks": "177",
+      "growth": "+767",
+      "growthValue": 767,
+      "rank": 17
     },
     {
       "name": "CodebuffAI/freebuff",
       "link": "https://github.com/CodebuffAI/freebuff",
       "description": "The free coding agent",
       "language": "TypeScript",
-      "totalStars": "10170",
-      "totalForks": "1124",
-      "growth": "+102",
-      "growthValue": 102,
-      "rank": 15
+      "totalStars": "10217",
+      "totalForks": "1125",
+      "growth": "+149",
+      "growthValue": 149,
+      "rank": 18
     }
   ],
-  "lastUpdated": "2026-08-20 09:37"
+  "lastUpdated": "2026-08-20 15:36"
 }
