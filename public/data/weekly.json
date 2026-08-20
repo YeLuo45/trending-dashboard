@@ -3,12 +3,12 @@
     {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
-      "description": "27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "totalStars": "23220",
-      "totalForks": "1428",
-      "growth": "+13244",
-      "growthValue": 13244,
+      "totalStars": "23523",
+      "totalForks": "1444",
+      "growth": "+9373",
+      "growthValue": 9373,
       "rank": 1
     },
     {
@@ -16,10 +16,10 @@
       "link": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "totalStars": "465921",
-      "totalForks": "51420",
-      "growth": "+5862",
-      "growthValue": 5862,
+      "totalStars": "466208",
+      "totalForks": "51441",
+      "growth": "+6149",
+      "growthValue": 6149,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "language": "Python",
-      "totalStars": "110439",
-      "totalForks": "16760",
-      "growth": "+4601",
-      "growthValue": 4601,
+      "totalStars": "111215",
+      "totalForks": "16852",
+      "growth": "+5377",
+      "growthValue": 5377,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/semantica-agi/semantica",
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "language": "Python",
-      "totalStars": "9476",
-      "totalForks": "991",
-      "growth": "+3836",
-      "growthValue": 3836,
+      "totalStars": "9587",
+      "totalForks": "1008",
+      "growth": "+3043",
+      "growthValue": 3043,
       "rank": 4
     },
     {
@@ -49,10 +49,10 @@
       "link": "https://github.com/cactus-compute/needle",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "language": "Python",
-      "totalStars": "7782",
-      "totalForks": "506",
-      "growth": "+3625",
-      "growthValue": 3625,
+      "totalStars": "7861",
+      "totalForks": "510",
+      "growth": "+2951",
+      "growthValue": 2951,
       "rank": 5
     },
     {
@@ -60,87 +60,87 @@
       "link": "https://github.com/unslothai/unsloth",
       "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
       "language": "Python",
-      "totalStars": "73828",
-      "totalForks": "6670",
-      "growth": "+2816",
-      "growthValue": 2816,
+      "totalStars": "73908",
+      "totalForks": "6676",
+      "growth": "+2896",
+      "growthValue": 2896,
       "rank": 6
-    },
-    {
-      "name": "macro-inc/macro",
-      "link": "https://github.com/macro-inc/macro",
-      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-      "language": "Rust",
-      "totalStars": "3767",
-      "totalForks": "365",
-      "growth": "+2092",
-      "growthValue": 2092,
-      "rank": 7
     },
     {
       "name": "lightningpixel/modly",
       "link": "https://github.com/lightningpixel/modly",
       "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
       "language": "TypeScript",
-      "totalStars": "6886",
-      "totalForks": "664",
-      "growth": "+1535",
-      "growthValue": 1535,
-      "rank": 8
+      "totalStars": "6932",
+      "totalForks": "666",
+      "growth": "+1581",
+      "growthValue": 1581,
+      "rank": 7
     },
     {
       "name": "basecamp/omarchy",
       "link": "https://github.com/basecamp/omarchy",
       "description": "Beautiful, Modern & Opinionated Linux",
       "language": "Shell",
-      "totalStars": "26755",
-      "totalForks": "2727",
-      "growth": "+1433",
-      "growthValue": 1433,
-      "rank": 9
+      "totalStars": "26810",
+      "totalForks": "2734",
+      "growth": "+1488",
+      "growthValue": 1488,
+      "rank": 8
     },
     {
       "name": "megadose/holehe",
       "link": "https://github.com/megadose/holehe",
       "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
       "language": "Python",
-      "totalStars": "13718",
-      "totalForks": "1796",
-      "growth": "+1341",
-      "growthValue": 1341,
-      "rank": 10
+      "totalStars": "13754",
+      "totalForks": "1797",
+      "growth": "+1377",
+      "growthValue": 1377,
+      "rank": 9
     },
     {
-      "name": "jundot/omlx",
-      "link": "https://github.com/jundot/omlx",
-      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
-      "language": "Python",
-      "totalStars": "19796",
-      "totalForks": "1689",
-      "growth": "+848",
-      "growthValue": 848,
-      "rank": 11
-    },
-    {
-      "name": "AlexsJones/llmfit",
-      "link": "https://github.com/AlexsJones/llmfit",
-      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "name": "macro-inc/macro",
+      "link": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "language": "Rust",
-      "totalStars": "33008",
-      "totalForks": "2041",
-      "growth": "+808",
-      "growthValue": 808,
-      "rank": 12
+      "totalStars": "3791",
+      "totalForks": "368",
+      "growth": "+1231",
+      "growthValue": 1231,
+      "rank": 10
     },
     {
       "name": "volcengine/OpenViking",
       "link": "https://github.com/volcengine/OpenViking",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
-      "totalStars": "30094",
-      "totalForks": "2331",
-      "growth": "+795",
-      "growthValue": 795,
+      "totalStars": "30382",
+      "totalForks": "2350",
+      "growth": "+1083",
+      "growthValue": 1083,
+      "rank": 11
+    },
+    {
+      "name": "jundot/omlx",
+      "link": "https://github.com/jundot/omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "totalStars": "19876",
+      "totalForks": "1695",
+      "growth": "+928",
+      "growthValue": 928,
+      "rank": 12
+    },
+    {
+      "name": "AlexsJones/llmfit",
+      "link": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "totalStars": "33098",
+      "totalForks": "2050",
+      "growth": "+898",
+      "growthValue": 898,
       "rank": 13
     },
     {
@@ -148,10 +148,10 @@
       "link": "https://github.com/superradcompany/microsandbox",
       "description": "🧱 easy fast local-first microVM runtime and library",
       "language": "Rust",
-      "totalStars": "7773",
+      "totalStars": "7791",
       "totalForks": "410",
-      "growth": "+123",
-      "growthValue": 123,
+      "growth": "+141",
+      "growthValue": 141,
       "rank": 14
     },
     {
@@ -159,12 +159,12 @@
       "link": "https://github.com/CodebuffAI/freebuff",
       "description": "The free coding agent",
       "language": "TypeScript",
-      "totalStars": "10068",
-      "totalForks": "1120",
-      "growth": "+40",
-      "growthValue": 40,
+      "totalStars": "10125",
+      "totalForks": "1123",
+      "growth": "+57",
+      "growthValue": 57,
       "rank": 15
     }
   ],
-  "lastUpdated": "2026-08-19 21:28"
+  "lastUpdated": "2026-08-20 03:49"
 }
