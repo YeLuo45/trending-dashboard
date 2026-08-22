@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "multica-ai/andrej-karpathy-skills",
+      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "totalStars": "205101",
+      "totalForks": "21001",
+      "growth": "+205101",
+      "growthValue": 205101,
+      "rank": 1
+    },
+    {
+      "name": "n8n-io/n8n",
+      "link": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "totalStars": "201641",
+      "totalForks": "60292",
+      "growth": "+201641",
+      "growthValue": 201641,
+      "rank": 2
+    },
+    {
+      "name": "anthropics/claude-code",
+      "link": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Python",
+      "totalStars": "142397",
+      "totalForks": "22829",
+      "growth": "+142397",
+      "growthValue": 142397,
+      "rank": 3
+    },
+    {
+      "name": "ripienaar/free-for-dev",
+      "link": "https://github.com/ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "totalStars": "133700",
+      "totalForks": "14017",
+      "growth": "+133700",
+      "growthValue": 133700,
+      "rank": 4
+    },
+    {
+      "name": "openai/codex",
+      "link": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "totalStars": "112468",
+      "totalForks": "17289",
+      "growth": "+112468",
+      "growthValue": 112468,
+      "rank": 5
+    },
+    {
+      "name": "Wei-Shaw/sub2api",
+      "link": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "totalStars": "38716",
+      "totalForks": "8029",
+      "growth": "+38716",
+      "growthValue": 38716,
+      "rank": 6
+    },
+    {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "230430",
-      "totalForks": "19689",
-      "growth": "+1188",
-      "growthValue": 1188,
-      "rank": 1
+      "totalStars": "231195",
+      "totalForks": "19741",
+      "growth": "+1953",
+      "growthValue": 1953,
+      "rank": 7
     },
     {
       "name": "AprilNEA/OpenLogi",
       "link": "https://github.com/AprilNEA/OpenLogi",
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
-      "totalStars": "13280",
-      "totalForks": "358",
-      "growth": "+494",
-      "growthValue": 494,
-      "rank": 2
-    },
-    {
-      "name": "harry0703/MoneyPrinterTurbo",
-      "link": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "language": "Python",
-      "totalStars": "114272",
-      "totalForks": "17343",
-      "growth": "+467",
-      "growthValue": 467,
-      "rank": 3
-    },
-    {
-      "name": "santifer/career-ops",
-      "link": "https://github.com/santifer/career-ops",
-      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-      "language": "JavaScript",
-      "totalStars": "67648",
-      "totalForks": "12882",
-      "growth": "+265",
-      "growthValue": 265,
-      "rank": 4
+      "totalStars": "13538",
+      "totalForks": "364",
+      "growth": "+752",
+      "growthValue": 752,
+      "rank": 8
     },
     {
       "name": "obra/superpowers",
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "275823",
-      "totalForks": "24662",
-      "growth": "+223",
-      "growthValue": 223,
-      "rank": 5
+      "totalStars": "275985",
+      "totalForks": "24681",
+      "growth": "+385",
+      "growthValue": 385,
+      "rank": 9
     },
     {
       "name": "mahlernim/google-timeline-visualizer",
       "link": "https://github.com/mahlernim/google-timeline-visualizer",
       "description": "Visualize your year in travel using your Google Location History (Timeline) data",
       "language": "Kotlin",
-      "totalStars": "2373",
-      "totalForks": "278",
-      "growth": "+195",
-      "growthValue": 195,
-      "rank": 6
-    },
-    {
-      "name": "PostHog/posthog",
-      "link": "https://github.com/PostHog/posthog",
-      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-      "language": "Python",
-      "totalStars": "38391",
-      "totalForks": "3235",
-      "growth": "+137",
-      "growthValue": 137,
-      "rank": 7
-    },
-    {
-      "name": "cursor/plugins",
-      "link": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "totalStars": "4500",
-      "totalForks": "371",
-      "growth": "+134",
-      "growthValue": 134,
-      "rank": 8
-    },
-    {
-      "name": "modular/modular",
-      "link": "https://github.com/modular/modular",
-      "description": "The Modular Platform (includes MAX & Mojo)",
-      "language": "Mojo",
-      "totalStars": "28756",
-      "totalForks": "3057",
-      "growth": "+96",
-      "growthValue": 96,
-      "rank": 9
-    },
-    {
-      "name": "affaan-m/ECC",
-      "link": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "totalStars": "241921",
-      "totalForks": "36671",
-      "growth": "+88",
-      "growthValue": 88,
+      "totalStars": "2486",
+      "totalForks": "288",
+      "growth": "+308",
+      "growthValue": 308,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-22 09:30"
+  "lastUpdated": "2026-08-22 15:24"
 }
