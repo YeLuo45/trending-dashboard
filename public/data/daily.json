@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "NousResearch/hermes-agent",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "totalStars": "234731",
+      "totalForks": "47261",
+      "growth": "+234731",
+      "growthValue": 234731,
+      "rank": 1
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "link": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "language": "Python",
+      "totalStars": "129211",
+      "totalForks": "15245",
+      "growth": "+129211",
+      "growthValue": 129211,
+      "rank": 2
+    },
+    {
+      "name": "dani-garcia/vaultwarden",
+      "link": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "totalStars": "65900",
+      "totalForks": "3125",
+      "growth": "+65900",
+      "growthValue": 65900,
+      "rank": 3
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "link": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "totalStars": "47694",
+      "totalForks": "7850",
+      "growth": "+47694",
+      "growthValue": 47694,
+      "rank": 4
+    },
+    {
+      "name": "tinyhumansai/openhuman",
+      "link": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "language": "Rust",
+      "totalStars": "36580",
+      "totalForks": "3661",
+      "growth": "+36580",
+      "growthValue": 36580,
+      "rank": 5
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "link": "https://github.com/VoltAgent/awesome-agent-skills",
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "language": "",
+      "totalStars": "31093",
+      "totalForks": "3355",
+      "growth": "+31093",
+      "growthValue": 31093,
+      "rank": 6
+    },
+    {
+      "name": "freestylefly/awesome-gpt-image-2",
+      "link": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "language": "JavaScript",
+      "totalStars": "12537",
+      "totalForks": "1416",
+      "growth": "+12537",
+      "growthValue": 12537,
+      "rank": 7
+    },
+    {
       "name": "openai/codex",
       "link": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "totalStars": "114431",
-      "totalForks": "17468",
-      "growth": "+1307",
-      "growthValue": 1307,
-      "rank": 1
+      "totalStars": "114891",
+      "totalForks": "17530",
+      "growth": "+1767",
+      "growthValue": 1767,
+      "rank": 8
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "232895",
-      "totalForks": "19870",
-      "growth": "+1071",
-      "growthValue": 1071,
-      "rank": 2
-    },
-    {
-      "name": "AprilNEA/OpenLogi",
-      "link": "https://github.com/AprilNEA/OpenLogi",
-      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-      "language": "Rust",
-      "totalStars": "14283",
-      "totalForks": "380",
-      "growth": "+482",
-      "growthValue": 482,
-      "rank": 3
-    },
-    {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "276413",
-      "totalForks": "24725",
-      "growth": "+279",
-      "growthValue": 279,
-      "rank": 4
-    },
-    {
-      "name": "multica-ai/andrej-karpathy-skills",
-      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "language": "",
-      "totalStars": "205517",
-      "totalForks": "21024",
-      "growth": "+266",
-      "growthValue": 266,
-      "rank": 5
-    },
-    {
-      "name": "ripienaar/free-for-dev",
-      "link": "https://github.com/ripienaar/free-for-dev",
-      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-      "language": "HTML",
-      "totalStars": "134105",
-      "totalForks": "14037",
-      "growth": "+257",
-      "growthValue": 257,
-      "rank": 6
-    },
-    {
-      "name": "n8n-io/n8n",
-      "link": "https://github.com/n8n-io/n8n",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "language": "TypeScript",
-      "totalStars": "201987",
-      "totalForks": "60319",
-      "growth": "+222",
-      "growthValue": 222,
-      "rank": 7
-    },
-    {
-      "name": "makeplane/plane",
-      "link": "https://github.com/makeplane/plane",
-      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-      "language": "TypeScript",
-      "totalStars": "57382",
-      "totalForks": "5454",
-      "growth": "+199",
-      "growthValue": 199,
-      "rank": 8
-    },
-    {
-      "name": "anthropics/claude-code",
-      "link": "https://github.com/anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "Python",
-      "totalStars": "142683",
-      "totalForks": "22849",
-      "growth": "+187",
-      "growthValue": 187,
+      "totalStars": "233388",
+      "totalForks": "19911",
+      "growth": "+1564",
+      "growthValue": 1564,
       "rank": 9
     },
     {
-      "name": "affaan-m/ECC",
-      "link": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "totalStars": "242313",
-      "totalForks": "36708",
-      "growth": "+182",
-      "growthValue": 182,
+      "name": "anthropics/claude-plugins-community",
+      "link": "https://github.com/anthropics/claude-plugins-community",
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "language": "Python",
+      "totalStars": "783",
+      "totalForks": "122",
+      "growth": "+783",
+      "growthValue": 783,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-23 09:30"
+  "lastUpdated": "2026-08-23 15:26"
 }
