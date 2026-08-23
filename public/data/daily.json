@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "openai/codex",
+      "link": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "totalStars": "113717",
+      "totalForks": "17396",
+      "growth": "+593",
+      "growthValue": 593,
+      "rank": 1
+    },
+    {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "231824",
-      "totalForks": "19784",
-      "growth": "+2582",
-      "growthValue": 2582,
-      "rank": 1
+      "totalStars": "232329",
+      "totalForks": "19826",
+      "growth": "+505",
+      "growthValue": 505,
+      "rank": 2
     },
     {
       "name": "AprilNEA/OpenLogi",
       "link": "https://github.com/AprilNEA/OpenLogi",
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
-      "totalStars": "13801",
-      "totalForks": "369",
-      "growth": "+1015",
-      "growthValue": 1015,
-      "rank": 2
-    },
-    {
-      "name": "openai/codex",
-      "link": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "language": "Rust",
-      "totalStars": "113124",
-      "totalForks": "17347",
-      "growth": "+656",
-      "growthValue": 656,
+      "totalStars": "14062",
+      "totalForks": "376",
+      "growth": "+261",
+      "growthValue": 261,
       "rank": 3
-    },
-    {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "276134",
-      "totalForks": "24694",
-      "growth": "+534",
-      "growthValue": 534,
-      "rank": 4
-    },
-    {
-      "name": "mahlernim/google-timeline-visualizer",
-      "link": "https://github.com/mahlernim/google-timeline-visualizer",
-      "description": "Visualize your year in travel using your Google Location History (Timeline) data",
-      "language": "Kotlin",
-      "totalStars": "2546",
-      "totalForks": "298",
-      "growth": "+368",
-      "growthValue": 368,
-      "rank": 5
-    },
-    {
-      "name": "PostHog/posthog",
-      "link": "https://github.com/PostHog/posthog",
-      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-      "language": "Python",
-      "totalStars": "38570",
-      "totalForks": "3243",
-      "growth": "+316",
-      "growthValue": 316,
-      "rank": 6
-    },
-    {
-      "name": "cursor/plugins",
-      "link": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "totalStars": "4634",
-      "totalForks": "380",
-      "growth": "+268",
-      "growthValue": 268,
-      "rank": 7
-    },
-    {
-      "name": "makeplane/plane",
-      "link": "https://github.com/makeplane/plane",
-      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-      "language": "TypeScript",
-      "totalStars": "57183",
-      "totalForks": "5438",
-      "growth": "+220",
-      "growthValue": 220,
-      "rank": 8
-    },
-    {
-      "name": "modular/modular",
-      "link": "https://github.com/modular/modular",
-      "description": "The Modular Platform (includes MAX & Mojo)",
-      "language": "Mojo",
-      "totalStars": "28823",
-      "totalForks": "3066",
-      "growth": "+163",
-      "growthValue": 163,
-      "rank": 9
     },
     {
       "name": "multica-ai/andrej-karpathy-skills",
       "link": "https://github.com/multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "",
-      "totalStars": "205251",
-      "totalForks": "21005",
-      "growth": "+150",
-      "growthValue": 150,
+      "totalStars": "205376",
+      "totalForks": "21010",
+      "growth": "+125",
+      "growthValue": 125,
+      "rank": 4
+    },
+    {
+      "name": "ripienaar/free-for-dev",
+      "link": "https://github.com/ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "totalStars": "133971",
+      "totalForks": "14030",
+      "growth": "+123",
+      "growthValue": 123,
+      "rank": 5
+    },
+    {
+      "name": "n8n-io/n8n",
+      "link": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "totalStars": "201881",
+      "totalForks": "60308",
+      "growth": "+116",
+      "growthValue": 116,
+      "rank": 6
+    },
+    {
+      "name": "obra/superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "276246",
+      "totalForks": "24710",
+      "growth": "+112",
+      "growthValue": 112,
+      "rank": 7
+    },
+    {
+      "name": "affaan-m/ECC",
+      "link": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "totalStars": "242223",
+      "totalForks": "36702",
+      "growth": "+92",
+      "growthValue": 92,
+      "rank": 8
+    },
+    {
+      "name": "anthropics/claude-code",
+      "link": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Python",
+      "totalStars": "142586",
+      "totalForks": "22840",
+      "growth": "+90",
+      "growthValue": 90,
+      "rank": 9
+    },
+    {
+      "name": "PostHog/posthog",
+      "link": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "totalStars": "38655",
+      "totalForks": "3246",
+      "growth": "+85",
+      "growthValue": 85,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-22 21:25"
+  "lastUpdated": "2026-08-23 03:53"
 }
