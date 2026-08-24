@@ -1,126 +1,170 @@
 {
   "projects": [
     {
+      "name": "vorssaint/vorssaint-utils",
+      "link": "https://github.com/vorssaint/vorssaint-utils",
+      "description": "Free and open-source macOS menu bar toolkit.",
+      "language": "Swift",
+      "totalStars": "10305",
+      "totalForks": "339",
+      "growth": "+10305",
+      "growthValue": 10305,
+      "rank": 1
+    },
+    {
       "name": "harry0703/MoneyPrinterTurbo",
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "language": "Python",
-      "totalStars": "115626",
-      "totalForks": "17563",
-      "growth": "+9788",
-      "growthValue": 9788,
-      "rank": 1
+      "totalStars": "115805",
+      "totalForks": "17590",
+      "growth": "+9967",
+      "growthValue": 9967,
+      "rank": 2
     },
     {
       "name": "public-apis/public-apis",
       "link": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "totalStars": "469515",
-      "totalForks": "51779",
-      "growth": "+6923",
-      "growthValue": 6923,
-      "rank": 2
+      "totalStars": "469672",
+      "totalForks": "51795",
+      "growth": "+7080",
+      "growthValue": 7080,
+      "rank": 3
     },
     {
       "name": "AprilNEA/OpenLogi",
       "link": "https://github.com/AprilNEA/OpenLogi",
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
-      "totalStars": "15381",
-      "totalForks": "415",
-      "growth": "+3661",
-      "growthValue": 3661,
-      "rank": 3
+      "totalStars": "15612",
+      "totalForks": "422",
+      "growth": "+3892",
+      "growthValue": 3892,
+      "rank": 4
     },
     {
       "name": "basecamp/omarchy",
       "link": "https://github.com/basecamp/omarchy",
       "description": "Beautiful, Modern & Opinionated Linux",
       "language": "Shell",
-      "totalStars": "29572",
-      "totalForks": "2992",
-      "growth": "+3623",
-      "growthValue": 3623,
-      "rank": 4
+      "totalStars": "29825",
+      "totalForks": "3013",
+      "growth": "+3876",
+      "growthValue": 3876,
+      "rank": 5
     },
     {
       "name": "volcengine/OpenViking",
       "link": "https://github.com/volcengine/OpenViking",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
-      "totalStars": "32757",
-      "totalForks": "2500",
-      "growth": "+3458",
-      "growthValue": 3458,
-      "rank": 5
+      "totalStars": "32870",
+      "totalForks": "2506",
+      "growth": "+3571",
+      "growthValue": 3571,
+      "rank": 6
+    },
+    {
+      "name": "akitaonrails/ai-memory",
+      "link": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "totalStars": "4334",
+      "totalForks": "317",
+      "growth": "+2362",
+      "growthValue": 2362,
+      "rank": 7
     },
     {
       "name": "cordiverse/cordis",
       "link": "https://github.com/cordiverse/cordis",
       "description": "Meta-Framework of Spatiotemporal Composability",
       "language": "TypeScript",
-      "totalStars": "7334",
-      "totalForks": "428",
-      "growth": "+1802",
-      "growthValue": 1802,
-      "rank": 6
+      "totalStars": "7376",
+      "totalForks": "430",
+      "growth": "+1844",
+      "growthValue": 1844,
+      "rank": 8
     },
     {
       "name": "jundot/omlx",
       "link": "https://github.com/jundot/omlx",
       "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
       "language": "Python",
-      "totalStars": "20493",
+      "totalStars": "20515",
       "totalForks": "1736",
-      "growth": "+1545",
-      "growthValue": 1545,
-      "rank": 7
+      "growth": "+1567",
+      "growthValue": 1567,
+      "rank": 9
     },
     {
       "name": "modular/modular",
       "link": "https://github.com/modular/modular",
       "description": "The Modular Platform (includes MAX & Mojo)",
       "language": "Mojo",
-      "totalStars": "29022",
-      "totalForks": "3084",
-      "growth": "+1166",
-      "growthValue": 1166,
-      "rank": 8
+      "totalStars": "29044",
+      "totalForks": "3090",
+      "growth": "+1188",
+      "growthValue": 1188,
+      "rank": 10
     },
     {
       "name": "cursor/plugins",
       "link": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "totalStars": "4868",
-      "totalForks": "397",
-      "growth": "+834",
-      "growthValue": 834,
-      "rank": 9
+      "totalStars": "4905",
+      "totalForks": "399",
+      "growth": "+871",
+      "growthValue": 871,
+      "rank": 11
+    },
+    {
+      "name": "Tencent/AI-Infra-Guard",
+      "link": "https://github.com/Tencent/AI-Infra-Guard",
+      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "language": "Python",
+      "totalStars": "5729",
+      "totalForks": "537",
+      "growth": "+825",
+      "growthValue": 825,
+      "rank": 12
     },
     {
       "name": "apache/maka",
       "link": "https://github.com/apache/maka",
       "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
       "language": "TypeScript",
-      "totalStars": "2509",
-      "totalForks": "280",
-      "growth": "+395",
-      "growthValue": 395,
-      "rank": 10
+      "totalStars": "2729",
+      "totalForks": "296",
+      "growth": "+615",
+      "growthValue": 615,
+      "rank": 13
     },
     {
       "name": "anthropics/claude-plugins-community",
       "link": "https://github.com/anthropics/claude-plugins-community",
       "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
       "language": "Python",
-      "totalStars": "1147",
-      "totalForks": "140",
-      "growth": "+267",
-      "growthValue": 267,
-      "rank": 11
+      "totalStars": "1242",
+      "totalForks": "148",
+      "growth": "+362",
+      "growthValue": 362,
+      "rank": 14
+    },
+    {
+      "name": "eneskirca/nodeterm",
+      "link": "https://github.com/eneskirca/nodeterm",
+      "description": "Node-based terminal manager for AI coding agents — tmux-backed terminals and parallel agent sessions as draggable nodes on an infinite pan/zoom canvas. macOS, Linux, and a browser Server Edition.",
+      "language": "TypeScript",
+      "totalStars": "1155",
+      "totalForks": "121",
+      "growth": "+116",
+      "growthValue": 116,
+      "rank": 15
     }
   ],
-  "lastUpdated": "2026-08-24 09:51"
+  "lastUpdated": "2026-08-24 15:41"
 }
