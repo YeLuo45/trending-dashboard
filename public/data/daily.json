@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "openclaw/openclaw",
-      "link": "https://github.com/openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
-      "language": "TypeScript",
-      "totalStars": "387348",
-      "totalForks": "81330",
-      "growth": "+387348",
-      "growthValue": 387348,
-      "rank": 1
-    },
-    {
-      "name": "rohitg00/ai-engineering-from-scratch",
-      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "totalStars": "48131",
-      "totalForks": "8486",
-      "growth": "+48131",
-      "growthValue": 48131,
-      "rank": 2
-    },
-    {
-      "name": "MadsLorentzen/ai-job-search",
-      "link": "https://github.com/MadsLorentzen/ai-job-search",
-      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "language": "Python",
-      "totalStars": "33634",
-      "totalForks": "11780",
-      "growth": "+33634",
-      "growthValue": 33634,
-      "rank": 3
-    },
-    {
-      "name": "tashfeenahmed/freellmapi",
-      "link": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "totalStars": "19668",
-      "totalForks": "2863",
-      "growth": "+19668",
-      "growthValue": 19668,
-      "rank": 4
-    },
-    {
-      "name": "AgriciDaniel/claude-obsidian",
-      "link": "https://github.com/AgriciDaniel/claude-obsidian",
-      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
-      "language": "Python",
-      "totalStars": "11629",
-      "totalForks": "1318",
-      "growth": "+11629",
-      "growthValue": 11629,
-      "rank": 5
-    },
-    {
-      "name": "vorssaint/vorssaint-utils",
-      "link": "https://github.com/vorssaint/vorssaint-utils",
-      "description": "Free and open-source macOS menu bar toolkit.",
-      "language": "Swift",
-      "totalStars": "10305",
-      "totalForks": "339",
-      "growth": "+10305",
-      "growthValue": 10305,
-      "rank": 6
-    },
-    {
       "name": "freestylefly/awesome-gpt-image-2",
       "link": "https://github.com/freestylefly/awesome-gpt-image-2",
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "language": "JavaScript",
-      "totalStars": "15144",
-      "totalForks": "1611",
-      "growth": "+2500",
-      "growthValue": 2500,
-      "rank": 7
+      "totalStars": "15408",
+      "totalForks": "1632",
+      "growth": "+2764",
+      "growthValue": 2764,
+      "rank": 1
     },
     {
       "name": "openai/codex",
       "link": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "totalStars": "116816",
-      "totalForks": "17807",
-      "growth": "+1740",
-      "growthValue": 1740,
-      "rank": 8
+      "totalStars": "116968",
+      "totalForks": "17833",
+      "growth": "+1892",
+      "growthValue": 1892,
+      "rank": 2
     },
     {
       "name": "basecamp/omarchy",
       "link": "https://github.com/basecamp/omarchy",
       "description": "Beautiful, Modern & Opinionated Linux",
       "language": "Shell",
-      "totalStars": "29825",
-      "totalForks": "3013",
-      "growth": "+799",
-      "growthValue": 799,
-      "rank": 9
+      "totalStars": "30023",
+      "totalForks": "3050",
+      "growth": "+997",
+      "growthValue": 997,
+      "rank": 3
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "link": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "totalStars": "48854",
+      "totalForks": "7984",
+      "growth": "+974",
+      "growthValue": 974,
+      "rank": 4
     },
     {
       "name": "AprilNEA/OpenLogi",
       "link": "https://github.com/AprilNEA/OpenLogi",
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
-      "totalStars": "15612",
-      "totalForks": "422",
-      "growth": "+778",
-      "growthValue": 778,
+      "totalStars": "15789",
+      "totalForks": "428",
+      "growth": "+955",
+      "growthValue": 955,
+      "rank": 5
+    },
+    {
+      "name": "multica-ai/andrej-karpathy-skills",
+      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "totalStars": "206428",
+      "totalForks": "21080",
+      "growth": "+911",
+      "growthValue": 911,
+      "rank": 6
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "totalStars": "235728",
+      "totalForks": "47555",
+      "growth": "+823",
+      "growthValue": 823,
+      "rank": 7
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "link": "https://github.com/VoltAgent/awesome-agent-skills",
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "language": "",
+      "totalStars": "31815",
+      "totalForks": "3393",
+      "growth": "+587",
+      "growthValue": 587,
+      "rank": 8
+    },
+    {
+      "name": "apache/maka",
+      "link": "https://github.com/apache/maka",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "language": "TypeScript",
+      "totalStars": "2853",
+      "totalForks": "305",
+      "growth": "+545",
+      "growthValue": 545,
+      "rank": 9
+    },
+    {
+      "name": "tinyhumansai/openhuman",
+      "link": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "language": "Rust",
+      "totalStars": "37205",
+      "totalForks": "3696",
+      "growth": "+526",
+      "growthValue": 526,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-24 15:41"
+  "lastUpdated": "2026-08-24 21:32"
 }
