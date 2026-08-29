@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "abi/screenshot-to-code",
-      "link": "https://github.com/abi/screenshot-to-code",
-      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-      "language": "Python",
-      "totalStars": "75355",
-      "totalForks": "9205",
-      "growth": "+75355",
-      "growthValue": 75355,
-      "rank": 1
-    },
-    {
-      "name": "NationalSecurityAgency/ghidra",
-      "link": "https://github.com/NationalSecurityAgency/ghidra",
-      "description": "Ghidra is a software reverse engineering (SRE) framework",
-      "language": "Java",
-      "totalStars": "73186",
-      "totalForks": "8003",
-      "growth": "+73186",
-      "growthValue": 73186,
-      "rank": 2
-    },
-    {
-      "name": "ChromeDevTools/chrome-devtools-mcp",
-      "link": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools for coding agents",
-      "language": "TypeScript",
-      "totalStars": "49892",
-      "totalForks": "3501",
-      "growth": "+49892",
-      "growthValue": 49892,
-      "rank": 3
-    },
-    {
-      "name": "abhigyanpatwari/GitNexus",
-      "link": "https://github.com/abhigyanpatwari/GitNexus",
-      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
-      "language": "TypeScript",
-      "totalStars": "46065",
-      "totalForks": "5090",
-      "growth": "+46065",
-      "growthValue": 46065,
-      "rank": 4
-    },
-    {
-      "name": "livekit/agents",
-      "link": "https://github.com/livekit/agents",
-      "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
-      "language": "Python",
-      "totalStars": "13247",
-      "totalForks": "3625",
-      "growth": "+13247",
-      "growthValue": 13247,
-      "rank": 5
-    },
-    {
       "name": "tt-a1i/archify",
       "link": "https://github.com/tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "totalStars": "26057",
-      "totalForks": "1662",
-      "growth": "+4591",
-      "growthValue": 4591,
-      "rank": 6
-    },
-    {
-      "name": "tailscale/tailcat",
-      "link": "https://github.com/tailscale/tailcat",
-      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "language": "Go",
-      "totalStars": "2405",
-      "totalForks": "65",
-      "growth": "+2405",
-      "growthValue": 2405,
-      "rank": 7
+      "totalStars": "27802",
+      "totalForks": "1759",
+      "growth": "+1744",
+      "growthValue": 1744,
+      "rank": 1
     },
     {
       "name": "bilawalsidhu/gods-eye-view",
       "link": "https://github.com/bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "totalStars": "10324",
-      "totalForks": "2126",
-      "growth": "+2343",
-      "growthValue": 2343,
-      "rank": 8
+      "totalStars": "11195",
+      "totalForks": "2272",
+      "growth": "+871",
+      "growthValue": 871,
+      "rank": 2
+    },
+    {
+      "name": "swoole/typephp",
+      "link": "https://github.com/swoole/typephp",
+      "description": "Compile PHP to Native Binaries",
+      "language": "PHP",
+      "totalStars": "823",
+      "totalForks": "39",
+      "growth": "+823",
+      "growthValue": 823,
+      "rank": 3
+    },
+    {
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "totalStars": "36729",
+      "totalForks": "3493",
+      "growth": "+717",
+      "growthValue": 717,
+      "rank": 4
     },
     {
       "name": "DietrichGebert/ponytail",
       "link": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "totalStars": "114972",
-      "totalForks": "6281",
-      "growth": "+1426",
-      "growthValue": 1426,
-      "rank": 9
+      "totalStars": "115458",
+      "totalForks": "6316",
+      "growth": "+486",
+      "growthValue": 486,
+      "rank": 5
+    },
+    {
+      "name": "tailscale/tailcat",
+      "link": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "totalStars": "2792",
+      "totalForks": "75",
+      "growth": "+387",
+      "growthValue": 387,
+      "rank": 6
+    },
+    {
+      "name": "calesthio/OpenMontage",
+      "link": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "totalStars": "53381",
+      "totalForks": "6654",
+      "growth": "+358",
+      "growthValue": 358,
+      "rank": 7
     },
     {
       "name": "freestylefly/awesome-gpt-image-2",
       "link": "https://github.com/freestylefly/awesome-gpt-image-2",
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "language": "JavaScript",
-      "totalStars": "24054",
-      "totalForks": "2380",
-      "growth": "+1421",
-      "growthValue": 1421,
+      "totalStars": "24334",
+      "totalForks": "2403",
+      "growth": "+280",
+      "growthValue": 280,
+      "rank": 8
+    },
+    {
+      "name": "tashfeenahmed/freellmapi",
+      "link": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "totalStars": "21671",
+      "totalForks": "3067",
+      "growth": "+280",
+      "growthValue": 280,
+      "rank": 9
+    },
+    {
+      "name": "abi/screenshot-to-code",
+      "link": "https://github.com/abi/screenshot-to-code",
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "language": "Python",
+      "totalStars": "75615",
+      "totalForks": "9223",
+      "growth": "+260",
+      "growthValue": 260,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-28 15:08"
+  "lastUpdated": "2026-08-29 03:06"
 }
