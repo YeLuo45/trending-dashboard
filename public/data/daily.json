@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "punkpeye/awesome-mcp-servers",
+      "link": "https://github.com/punkpeye/awesome-mcp-servers",
+      "description": "A collection of MCP servers.",
+      "language": "",
+      "totalStars": "93227",
+      "totalForks": "15294",
+      "growth": "+93227",
+      "growthValue": 93227,
+      "rank": 1
+    },
+    {
+      "name": "unclecode/crawl4ai",
+      "link": "https://github.com/unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here:https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "totalStars": "80135",
+      "totalForks": "8300",
+      "growth": "+80135",
+      "growthValue": 80135,
+      "rank": 2
+    },
+    {
+      "name": "mvanhorn/last30days-skill",
+      "link": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "totalStars": "60424",
+      "totalForks": "5290",
+      "growth": "+60424",
+      "growthValue": 60424,
+      "rank": 3
+    },
+    {
+      "name": "colinhacks/zod",
+      "link": "https://github.com/colinhacks/zod",
+      "description": "TypeScript-first schema validation with static type inference",
+      "language": "TypeScript",
+      "totalStars": "43624",
+      "totalForks": "2154",
+      "growth": "+43624",
+      "growthValue": 43624,
+      "rank": 4
+    },
+    {
+      "name": "corsairdev/corsair",
+      "link": "https://github.com/corsairdev/corsair",
+      "description": "Connect your users to their apps",
+      "language": "TypeScript",
+      "totalStars": "10883",
+      "totalForks": "523",
+      "growth": "+10883",
+      "growthValue": 10883,
+      "rank": 5
+    },
+    {
+      "name": "majd/ipatool",
+      "link": "https://github.com/majd/ipatool",
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "language": "Go",
+      "totalStars": "10129",
+      "totalForks": "873",
+      "growth": "+10129",
+      "growthValue": 10129,
+      "rank": 6
+    },
+    {
+      "name": "Lakr233/vphone-cli",
+      "link": "https://github.com/Lakr233/vphone-cli",
+      "description": "",
+      "language": "Swift",
+      "totalStars": "9506",
+      "totalForks": "1281",
+      "growth": "+9506",
+      "growthValue": 9506,
+      "rank": 7
+    },
+    {
+      "name": "checkstyle/checkstyle",
+      "link": "https://github.com/checkstyle/checkstyle",
+      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+      "language": "Java",
+      "totalStars": "9159",
+      "totalForks": "4194",
+      "growth": "+9159",
+      "growthValue": 9159,
+      "rank": 8
+    },
+    {
+      "name": "handsomestWei/patent-disclosure-skill",
+      "link": "https://github.com/handsomestWei/patent-disclosure-skill",
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "language": "Python",
+      "totalStars": "5604",
+      "totalForks": "693",
+      "growth": "+5604",
+      "growthValue": 5604,
+      "rank": 9
+    },
+    {
       "name": "tt-a1i/archify",
       "link": "https://github.com/tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "totalStars": "32379",
-      "totalForks": "2031",
-      "growth": "+1447",
-      "growthValue": 1447,
-      "rank": 1
-    },
-    {
-      "name": "THU-MAIC/OpenMAIC",
-      "link": "https://github.com/THU-MAIC/OpenMAIC",
-      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-      "language": "TypeScript",
-      "totalStars": "22696",
-      "totalForks": "4370",
-      "growth": "+542",
-      "growthValue": 542,
-      "rank": 2
-    },
-    {
-      "name": "bilawalsidhu/gods-eye-view",
-      "link": "https://github.com/bilawalsidhu/gods-eye-view",
-      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "language": "JavaScript",
-      "totalStars": "13069",
-      "totalForks": "2582",
-      "growth": "+498",
-      "growthValue": 498,
-      "rank": 3
-    },
-    {
-      "name": "tailscale/tailcat",
-      "link": "https://github.com/tailscale/tailcat",
-      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "language": "Go",
-      "totalStars": "3849",
-      "totalForks": "120",
-      "growth": "+393",
-      "growthValue": 393,
-      "rank": 4
-    },
-    {
-      "name": "K-Dense-AI/scientific-agent-skills",
-      "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "totalStars": "38234",
-      "totalForks": "3595",
-      "growth": "+326",
-      "growthValue": 326,
-      "rank": 5
-    },
-    {
-      "name": "kaifcodec/user-scanner",
-      "link": "https://github.com/kaifcodec/user-scanner",
-      "description": "🕵️‍♂️ (2-in-1) Email & Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 465+ actively maintained scan vectors (175+ email / 290+ username) for security research, investigations, and digital footprinting.",
-      "language": "Python",
-      "totalStars": "3791",
-      "totalForks": "429",
-      "growth": "+280",
-      "growthValue": 280,
-      "rank": 6
-    },
-    {
-      "name": "calesthio/OpenMontage",
-      "link": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "totalStars": "54308",
-      "totalForks": "6731",
-      "growth": "+274",
-      "growthValue": 274,
-      "rank": 7
-    },
-    {
-      "name": "workweave/router",
-      "link": "https://github.com/workweave/router",
-      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
-      "language": "Go",
-      "totalStars": "2935",
-      "totalForks": "83",
-      "growth": "+249",
-      "growthValue": 249,
-      "rank": 8
-    },
-    {
-      "name": "Osmantic/ODS",
-      "link": "https://github.com/Osmantic/ODS",
-      "description": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
-      "language": "Python",
-      "totalStars": "5099",
-      "totalForks": "746",
-      "growth": "+211",
-      "growthValue": 211,
-      "rank": 9
-    },
-    {
-      "name": "p-e-w/heretic",
-      "link": "https://github.com/p-e-w/heretic",
-      "description": "Fully automatic censorship removal for language models",
-      "language": "Python",
-      "totalStars": "28845",
-      "totalForks": "3176",
-      "growth": "+176",
-      "growthValue": 176,
+      "totalStars": "33927",
+      "totalForks": "2161",
+      "growth": "+2995",
+      "growthValue": 2995,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-08-30 09:02"
+  "lastUpdated": "2026-08-30 18:30"
 }
