@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "DietrichGebert/ponytail",
-      "link": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "totalStars": "123157",
-      "totalForks": "6653",
-      "growth": "+1742",
-      "growthValue": 1742,
-      "rank": 1
-    },
-    {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "246912",
-      "totalForks": "20942",
-      "growth": "+1732",
-      "growthValue": 1732,
+      "totalStars": "247272",
+      "totalForks": "20965",
+      "growth": "+2092",
+      "growthValue": 2092,
+      "rank": 1
+    },
+    {
+      "name": "DietrichGebert/ponytail",
+      "link": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "totalStars": "123338",
+      "totalForks": "6664",
+      "growth": "+1923",
+      "growthValue": 1923,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "15979",
-      "totalForks": "2187",
-      "growth": "+1355",
-      "growthValue": 1355,
+      "totalStars": "16196",
+      "totalForks": "2199",
+      "growth": "+1572",
+      "growthValue": 1572,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/blader/humanizer",
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "language": "Python",
-      "totalStars": "41290",
-      "totalForks": "3539",
-      "growth": "+974",
-      "growthValue": 974,
+      "totalStars": "41426",
+      "totalForks": "3546",
+      "growth": "+1110",
+      "growthValue": 1110,
       "rank": 4
     },
     {
@@ -49,32 +49,32 @@
       "link": "https://github.com/google-research/timesfm",
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "language": "Python",
-      "totalStars": "30632",
-      "totalForks": "2921",
-      "growth": "+924",
-      "growthValue": 924,
+      "totalStars": "30686",
+      "totalForks": "2928",
+      "growth": "+978",
+      "growthValue": 978,
       "rank": 5
-    },
-    {
-      "name": "fmtlib/fmt",
-      "link": "https://github.com/fmtlib/fmt",
-      "description": "A modern formatting library",
-      "language": "C++",
-      "totalStars": "24939",
-      "totalForks": "3007",
-      "growth": "+724",
-      "growthValue": 724,
-      "rank": 6
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "246944",
-      "totalForks": "37217",
-      "growth": "+657",
-      "growthValue": 657,
+      "totalStars": "247119",
+      "totalForks": "37237",
+      "growth": "+832",
+      "growthValue": 832,
+      "rank": 6
+    },
+    {
+      "name": "fmtlib/fmt",
+      "link": "https://github.com/fmtlib/fmt",
+      "description": "A modern formatting library",
+      "language": "C++",
+      "totalStars": "25044",
+      "totalForks": "3013",
+      "growth": "+829",
+      "growthValue": 829,
       "rank": 7
     },
     {
@@ -82,34 +82,34 @@
       "link": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "totalStars": "240705",
-      "totalForks": "49294",
-      "growth": "+611",
-      "growthValue": 611,
+      "totalStars": "240813",
+      "totalForks": "49336",
+      "growth": "+719",
+      "growthValue": 719,
       "rank": 8
-    },
-    {
-      "name": "Imbad0202/academic-research-skills",
-      "link": "https://github.com/Imbad0202/academic-research-skills",
-      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-      "language": "Python",
-      "totalStars": "45943",
-      "totalForks": "3600",
-      "growth": "+407",
-      "growthValue": 407,
-      "rank": 9
     },
     {
       "name": "JuliusBrussee/caveman",
       "link": "https://github.com/JuliusBrussee/caveman",
       "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "language": "Go",
-      "totalStars": "103000",
-      "totalForks": "5988",
-      "growth": "+396",
-      "growthValue": 396,
+      "totalStars": "103068",
+      "totalForks": "5994",
+      "growth": "+464",
+      "growthValue": 464,
+      "rank": 9
+    },
+    {
+      "name": "Imbad0202/academic-research-skills",
+      "link": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "totalStars": "45978",
+      "totalForks": "3602",
+      "growth": "+442",
+      "growthValue": 442,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-03 18:24"
+  "lastUpdated": "2026-09-03 23:05"
 }
