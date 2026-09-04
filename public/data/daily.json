@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "anomalyco/opencode",
+      "link": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "totalStars": "203760",
+      "totalForks": "26587",
+      "growth": "+203760",
+      "growthValue": 203760,
+      "rank": 1
+    },
+    {
+      "name": "cathrynlavery/diagram-design",
+      "link": "https://github.com/cathrynlavery/diagram-design",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "totalStars": "30575",
+      "totalForks": "1965",
+      "growth": "+30575",
+      "growthValue": 30575,
+      "rank": 2
+    },
+    {
+      "name": "bikini/exploitarium",
+      "link": "https://github.com/bikini/exploitarium",
+      "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
+      "language": "Python",
+      "totalStars": "4396",
+      "totalForks": "1236",
+      "growth": "+4396",
+      "growthValue": 4396,
+      "rank": 3
+    },
+    {
+      "name": "clshortfuse/renodx",
+      "link": "https://github.com/clshortfuse/renodx",
+      "description": "Renovation Engine for DirectX Games",
+      "language": "HLSL",
+      "totalStars": "3420",
+      "totalForks": "137",
+      "growth": "+3420",
+      "growthValue": 3420,
+      "rank": 4
+    },
+    {
+      "name": "radixark/miles",
+      "link": "https://github.com/radixark/miles",
+      "description": "Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime.",
+      "language": "Python",
+      "totalStars": "2470",
+      "totalForks": "438",
+      "growth": "+2470",
+      "growthValue": 2470,
+      "rank": 5
+    },
+    {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "248244",
-      "totalForks": "21029",
-      "growth": "+972",
-      "growthValue": 972,
-      "rank": 1
+      "totalStars": "249020",
+      "totalForks": "21081",
+      "growth": "+1748",
+      "growthValue": 1748,
+      "rank": 6
     },
     {
       "name": "DietrichGebert/ponytail",
       "link": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "totalStars": "123990",
-      "totalForks": "6693",
-      "growth": "+652",
-      "growthValue": 652,
-      "rank": 2
+      "totalStars": "124518",
+      "totalForks": "6717",
+      "growth": "+1180",
+      "growthValue": 1180,
+      "rank": 7
     },
     {
       "name": "debpalash/VoiceStudio",
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "16742",
-      "totalForks": "2240",
-      "growth": "+546",
-      "growthValue": 546,
-      "rank": 3
+      "totalStars": "17041",
+      "totalForks": "2253",
+      "growth": "+845",
+      "growthValue": 845,
+      "rank": 8
     },
     {
       "name": "blader/humanizer",
       "link": "https://github.com/blader/humanizer",
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "language": "Python",
-      "totalStars": "41887",
-      "totalForks": "3572",
-      "growth": "+461",
-      "growthValue": 461,
-      "rank": 4
+      "totalStars": "42179",
+      "totalForks": "3584",
+      "growth": "+753",
+      "growthValue": 753,
+      "rank": 9
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "247531",
-      "totalForks": "37305",
-      "growth": "+412",
-      "growthValue": 412,
-      "rank": 5
-    },
-    {
-      "name": "bannedbook/fanqiang",
-      "link": "https://github.com/bannedbook/fanqiang",
-      "description": "翻墙-科学上网",
-      "language": "Kotlin",
-      "totalStars": "52475",
-      "totalForks": "8502",
-      "growth": "+356",
-      "growthValue": 356,
-      "rank": 6
-    },
-    {
-      "name": "NousResearch/hermes-agent",
-      "link": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "totalStars": "241076",
-      "totalForks": "49408",
-      "growth": "+263",
-      "growthValue": 263,
-      "rank": 7
-    },
-    {
-      "name": "averygan/reclip",
-      "link": "https://github.com/averygan/reclip",
-      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
-      "language": "HTML",
-      "totalStars": "8596",
-      "totalForks": "1376",
-      "growth": "+261",
-      "growthValue": 261,
-      "rank": 8
-    },
-    {
-      "name": "fmtlib/fmt",
-      "link": "https://github.com/fmtlib/fmt",
-      "description": "A modern formatting library",
-      "language": "C++",
-      "totalStars": "25295",
-      "totalForks": "3024",
-      "growth": "+251",
-      "growthValue": 251,
-      "rank": 9
-    },
-    {
-      "name": "ByteByteGoHq/system-design-101",
-      "link": "https://github.com/ByteByteGoHq/system-design-101",
-      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
-      "language": "",
-      "totalStars": "88538",
-      "totalForks": "9833",
-      "growth": "+238",
-      "growthValue": 238,
+      "totalStars": "247867",
+      "totalForks": "37347",
+      "growth": "+748",
+      "growthValue": 748,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-04 07:49"
+  "lastUpdated": "2026-09-04 13:17"
 }
