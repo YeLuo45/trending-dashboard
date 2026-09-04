@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "anomalyco/opencode",
-      "link": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "language": "TypeScript",
-      "totalStars": "203760",
-      "totalForks": "26587",
-      "growth": "+203760",
-      "growthValue": 203760,
-      "rank": 1
-    },
-    {
-      "name": "cathrynlavery/diagram-design",
-      "link": "https://github.com/cathrynlavery/diagram-design",
-      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "totalStars": "30575",
-      "totalForks": "1965",
-      "growth": "+30575",
-      "growthValue": 30575,
-      "rank": 2
-    },
-    {
-      "name": "bikini/exploitarium",
-      "link": "https://github.com/bikini/exploitarium",
-      "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
-      "language": "Python",
-      "totalStars": "4396",
-      "totalForks": "1236",
-      "growth": "+4396",
-      "growthValue": 4396,
-      "rank": 3
-    },
-    {
-      "name": "clshortfuse/renodx",
-      "link": "https://github.com/clshortfuse/renodx",
-      "description": "Renovation Engine for DirectX Games",
-      "language": "HLSL",
-      "totalStars": "3420",
-      "totalForks": "137",
-      "growth": "+3420",
-      "growthValue": 3420,
-      "rank": 4
-    },
-    {
-      "name": "radixark/miles",
-      "link": "https://github.com/radixark/miles",
-      "description": "Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime.",
-      "language": "Python",
-      "totalStars": "2470",
-      "totalForks": "438",
-      "growth": "+2470",
-      "growthValue": 2470,
-      "rank": 5
-    },
-    {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "249020",
-      "totalForks": "21081",
-      "growth": "+1748",
-      "growthValue": 1748,
-      "rank": 6
+      "totalStars": "249815",
+      "totalForks": "21116",
+      "growth": "+2543",
+      "growthValue": 2543,
+      "rank": 1
     },
     {
       "name": "DietrichGebert/ponytail",
       "link": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "totalStars": "124518",
-      "totalForks": "6717",
-      "growth": "+1180",
-      "growthValue": 1180,
-      "rank": 7
+      "totalStars": "125145",
+      "totalForks": "6744",
+      "growth": "+1807",
+      "growthValue": 1807,
+      "rank": 2
     },
     {
       "name": "debpalash/VoiceStudio",
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "17041",
-      "totalForks": "2253",
-      "growth": "+845",
-      "growthValue": 845,
-      "rank": 8
-    },
-    {
-      "name": "blader/humanizer",
-      "link": "https://github.com/blader/humanizer",
-      "description": "Agent skill that removes signs of AI-generated writing from text",
-      "language": "Python",
-      "totalStars": "42179",
-      "totalForks": "3584",
-      "growth": "+753",
-      "growthValue": 753,
-      "rank": 9
+      "totalStars": "17507",
+      "totalForks": "2307",
+      "growth": "+1311",
+      "growthValue": 1311,
+      "rank": 3
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "247867",
-      "totalForks": "37347",
-      "growth": "+748",
-      "growthValue": 748,
+      "totalStars": "248189",
+      "totalForks": "37405",
+      "growth": "+1070",
+      "growthValue": 1070,
+      "rank": 4
+    },
+    {
+      "name": "blader/humanizer",
+      "link": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "totalStars": "42490",
+      "totalForks": "3602",
+      "growth": "+1064",
+      "growthValue": 1064,
+      "rank": 5
+    },
+    {
+      "name": "bannedbook/fanqiang",
+      "link": "https://github.com/bannedbook/fanqiang",
+      "description": "翻墙-科学上网",
+      "language": "Kotlin",
+      "totalStars": "52721",
+      "totalForks": "8521",
+      "growth": "+602",
+      "growthValue": 602,
+      "rank": 6
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "totalStars": "241370",
+      "totalForks": "49504",
+      "growth": "+557",
+      "growthValue": 557,
+      "rank": 7
+    },
+    {
+      "name": "JuliusBrussee/caveman",
+      "link": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "Go",
+      "totalStars": "103480",
+      "totalForks": "6006",
+      "growth": "+412",
+      "growthValue": 412,
+      "rank": 8
+    },
+    {
+      "name": "anthropics/skills",
+      "link": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "totalStars": "174025",
+      "totalForks": "20632",
+      "growth": "+397",
+      "growthValue": 397,
+      "rank": 9
+    },
+    {
+      "name": "fmtlib/fmt",
+      "link": "https://github.com/fmtlib/fmt",
+      "description": "A modern formatting library",
+      "language": "C++",
+      "totalStars": "25435",
+      "totalForks": "3033",
+      "growth": "+391",
+      "growthValue": 391,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-04 13:17"
+  "lastUpdated": "2026-09-04 18:11"
 }
