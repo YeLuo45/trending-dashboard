@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "coreyhaines31/marketingskills",
+      "link": "https://github.com/coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "totalStars": "47372",
+      "totalForks": "7380",
+      "growth": "+47372",
+      "growthValue": 47372,
+      "rank": 1
+    },
+    {
+      "name": "llvm/llvm-project",
+      "link": "https://github.com/llvm/llvm-project",
+      "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+      "language": "LLVM",
+      "totalStars": "40168",
+      "totalForks": "18557",
+      "growth": "+40168",
+      "growthValue": 40168,
+      "rank": 2
+    },
+    {
+      "name": "openai/skills",
+      "link": "https://github.com/openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "totalStars": "25526",
+      "totalForks": "1726",
+      "growth": "+25526",
+      "growthValue": 25526,
+      "rank": 3
+    },
+    {
+      "name": "Stremio/stremio-web",
+      "link": "https://github.com/Stremio/stremio-web",
+      "description": "Stremio - Freedom to Stream",
+      "language": "JavaScript",
+      "totalStars": "13397",
+      "totalForks": "1541",
+      "growth": "+13397",
+      "growthValue": 13397,
+      "rank": 4
+    },
+    {
+      "name": "The-Swarm-Corporation/AutoHedge",
+      "link": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+      "language": "Python",
+      "totalStars": "4579",
+      "totalForks": "769",
+      "growth": "+4579",
+      "growthValue": 4579,
+      "rank": 5
+    },
+    {
+      "name": "aipoch/open-science",
+      "link": "https://github.com/aipoch/open-science",
+      "description": "Open Science by AIPOCH is an open-source, local-first, model-agnostic AI research workbench for macOS, Windows, and Linux, with scientific agents, Python/R notebooks, data connectors, and reproducible provenance.",
+      "language": "TypeScript",
+      "totalStars": "3758",
+      "totalForks": "236",
+      "growth": "+3758",
+      "growthValue": 3758,
+      "rank": 6
+    },
+    {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "253679",
-      "totalForks": "21406",
-      "growth": "+1181",
-      "growthValue": 1181,
-      "rank": 1
+      "totalStars": "254138",
+      "totalForks": "21445",
+      "growth": "+1640",
+      "growthValue": 1640,
+      "rank": 7
     },
     {
       "name": "DietrichGebert/ponytail",
       "link": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "totalStars": "128688",
-      "totalForks": "6894",
-      "growth": "+821",
-      "growthValue": 821,
-      "rank": 2
+      "totalStars": "128997",
+      "totalForks": "6905",
+      "growth": "+1130",
+      "growthValue": 1130,
+      "rank": 8
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "250510",
-      "totalForks": "37691",
-      "growth": "+699",
-      "growthValue": 699,
-      "rank": 3
+      "totalStars": "250872",
+      "totalForks": "37724",
+      "growth": "+1061",
+      "growthValue": 1061,
+      "rank": 9
     },
     {
       "name": "blader/humanizer",
       "link": "https://github.com/blader/humanizer",
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "language": "Python",
-      "totalStars": "43861",
-      "totalForks": "3667",
-      "growth": "+431",
-      "growthValue": 431,
-      "rank": 4
-    },
-    {
-      "name": "cathrynlavery/diagram-design",
-      "link": "https://github.com/cathrynlavery/diagram-design",
-      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "totalStars": "31984",
-      "totalForks": "2060",
-      "growth": "+333",
-      "growthValue": 333,
-      "rank": 5
-    },
-    {
-      "name": "anomalyco/opencode",
-      "link": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "language": "TypeScript",
-      "totalStars": "204949",
-      "totalForks": "26728",
-      "growth": "+297",
-      "growthValue": 297,
-      "rank": 6
-    },
-    {
-      "name": "NousResearch/hermes-agent",
-      "link": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "totalStars": "242257",
-      "totalForks": "49796",
-      "growth": "+284",
-      "growthValue": 284,
-      "rank": 7
-    },
-    {
-      "name": "magnitudedev/magnitude",
-      "link": "https://github.com/magnitudedev/magnitude",
-      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
-      "language": "TypeScript",
-      "totalStars": "3439",
-      "totalForks": "247",
-      "growth": "+270",
-      "growthValue": 270,
-      "rank": 8
-    },
-    {
-      "name": "humanlayer/skills",
-      "link": "https://github.com/humanlayer/skills",
-      "description": "",
-      "language": "TypeScript",
-      "totalStars": "2930",
-      "totalForks": "85",
-      "growth": "+262",
-      "growthValue": 262,
-      "rank": 9
-    },
-    {
-      "name": "BraveOPotato/FckSignups",
-      "link": "https://github.com/BraveOPotato/FckSignups",
-      "description": "A list of tools that are open-source, in-browser, and require no-signups!",
-      "language": "TypeScript",
-      "totalStars": "3095",
-      "totalForks": "205",
-      "growth": "+235",
-      "growthValue": 235,
+      "totalStars": "44032",
+      "totalForks": "3672",
+      "growth": "+602",
+      "growthValue": 602,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-06 12:42"
+  "lastUpdated": "2026-09-06 17:33"
 }
