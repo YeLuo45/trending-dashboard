@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "coreyhaines31/marketingskills",
-      "link": "https://github.com/coreyhaines31/marketingskills",
-      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "language": "JavaScript",
-      "totalStars": "47372",
-      "totalForks": "7380",
-      "growth": "+47372",
-      "growthValue": 47372,
-      "rank": 1
-    },
-    {
-      "name": "llvm/llvm-project",
-      "link": "https://github.com/llvm/llvm-project",
-      "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
-      "language": "LLVM",
-      "totalStars": "40168",
-      "totalForks": "18557",
-      "growth": "+40168",
-      "growthValue": 40168,
-      "rank": 2
-    },
-    {
-      "name": "openai/skills",
-      "link": "https://github.com/openai/skills",
-      "description": "Skills Catalog for Codex",
-      "language": "Python",
-      "totalStars": "25526",
-      "totalForks": "1726",
-      "growth": "+25526",
-      "growthValue": 25526,
-      "rank": 3
-    },
-    {
-      "name": "Stremio/stremio-web",
-      "link": "https://github.com/Stremio/stremio-web",
-      "description": "Stremio - Freedom to Stream",
-      "language": "JavaScript",
-      "totalStars": "13397",
-      "totalForks": "1541",
-      "growth": "+13397",
-      "growthValue": 13397,
-      "rank": 4
-    },
-    {
-      "name": "The-Swarm-Corporation/AutoHedge",
-      "link": "https://github.com/The-Swarm-Corporation/AutoHedge",
-      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
-      "language": "Python",
-      "totalStars": "4579",
-      "totalForks": "769",
-      "growth": "+4579",
-      "growthValue": 4579,
-      "rank": 5
-    },
-    {
-      "name": "aipoch/open-science",
-      "link": "https://github.com/aipoch/open-science",
-      "description": "Open Science by AIPOCH is an open-source, local-first, model-agnostic AI research workbench for macOS, Windows, and Linux, with scientific agents, Python/R notebooks, data connectors, and reproducible provenance.",
-      "language": "TypeScript",
-      "totalStars": "3758",
-      "totalForks": "236",
-      "growth": "+3758",
-      "growthValue": 3758,
-      "rank": 6
-    },
-    {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "254138",
-      "totalForks": "21445",
-      "growth": "+1640",
-      "growthValue": 1640,
-      "rank": 7
-    },
-    {
-      "name": "DietrichGebert/ponytail",
-      "link": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "totalStars": "128997",
-      "totalForks": "6905",
-      "growth": "+1130",
-      "growthValue": 1130,
-      "rank": 8
+      "totalStars": "254444",
+      "totalForks": "21460",
+      "growth": "+1946",
+      "growthValue": 1946,
+      "rank": 1
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "250872",
-      "totalForks": "37724",
-      "growth": "+1061",
-      "growthValue": 1061,
-      "rank": 9
+      "totalStars": "251226",
+      "totalForks": "37767",
+      "growth": "+1415",
+      "growthValue": 1415,
+      "rank": 2
+    },
+    {
+      "name": "DietrichGebert/ponytail",
+      "link": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "totalStars": "129264",
+      "totalForks": "6925",
+      "growth": "+1397",
+      "growthValue": 1397,
+      "rank": 3
     },
     {
       "name": "blader/humanizer",
       "link": "https://github.com/blader/humanizer",
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "language": "Python",
-      "totalStars": "44032",
-      "totalForks": "3672",
-      "growth": "+602",
-      "growthValue": 602,
+      "totalStars": "44179",
+      "totalForks": "3678",
+      "growth": "+749",
+      "growthValue": 749,
+      "rank": 4
+    },
+    {
+      "name": "cathrynlavery/diagram-design",
+      "link": "https://github.com/cathrynlavery/diagram-design",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "totalStars": "32291",
+      "totalForks": "2074",
+      "growth": "+640",
+      "growthValue": 640,
+      "rank": 5
+    },
+    {
+      "name": "anomalyco/opencode",
+      "link": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "totalStars": "205221",
+      "totalForks": "26770",
+      "growth": "+569",
+      "growthValue": 569,
+      "rank": 6
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "totalStars": "242514",
+      "totalForks": "49871",
+      "growth": "+541",
+      "growthValue": 541,
+      "rank": 7
+    },
+    {
+      "name": "magnitudedev/magnitude",
+      "link": "https://github.com/magnitudedev/magnitude",
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "language": "TypeScript",
+      "totalStars": "3646",
+      "totalForks": "258",
+      "growth": "+477",
+      "growthValue": 477,
+      "rank": 8
+    },
+    {
+      "name": "OpenWhispr/openwhispr",
+      "link": "https://github.com/OpenWhispr/openwhispr",
+      "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+      "language": "JavaScript",
+      "totalStars": "7306",
+      "totalForks": "929",
+      "growth": "+462",
+      "growthValue": 462,
+      "rank": 9
+    },
+    {
+      "name": "humanlayer/skills",
+      "link": "https://github.com/humanlayer/skills",
+      "description": "",
+      "language": "TypeScript",
+      "totalStars": "3109",
+      "totalForks": "90",
+      "growth": "+441",
+      "growthValue": 441,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-06 17:33"
+  "lastUpdated": "2026-09-06 22:48"
 }
