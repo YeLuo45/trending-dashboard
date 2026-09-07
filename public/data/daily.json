@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "mattpocock/skills",
-      "link": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "totalStars": "255325",
-      "totalForks": "21512",
-      "growth": "+881",
-      "growthValue": 881,
+      "name": "microsoft/markitdown",
+      "link": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "totalStars": "179562",
+      "totalForks": "13228",
+      "growth": "+179562",
+      "growthValue": 179562,
       "rank": 1
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "link": "https://github.com/bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "totalStars": "81719",
+      "totalForks": "11285",
+      "growth": "+81719",
+      "growthValue": 81719,
+      "rank": 2
+    },
+    {
+      "name": "heygen-com/hyperframes",
+      "link": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "totalStars": "45048",
+      "totalForks": "4281",
+      "growth": "+45048",
+      "growthValue": 45048,
+      "rank": 3
+    },
+    {
+      "name": "lightpanda-io/browser",
+      "link": "https://github.com/lightpanda-io/browser",
+      "description": "Lightpanda: the headless browser designed for AI and automation",
+      "language": "Zig",
+      "totalStars": "34685",
+      "totalForks": "1643",
+      "growth": "+34685",
+      "growthValue": 34685,
+      "rank": 4
+    },
+    {
+      "name": "pascalorg/editor",
+      "link": "https://github.com/pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "totalStars": "22128",
+      "totalForks": "2850",
+      "growth": "+22128",
+      "growthValue": 22128,
+      "rank": 5
+    },
+    {
+      "name": "mksglu/context-mode",
+      "link": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "totalStars": "20615",
+      "totalForks": "1513",
+      "growth": "+20615",
+      "growthValue": 20615,
+      "rank": 6
+    },
+    {
+      "name": "MoonTechLab/LunaTV",
+      "link": "https://github.com/MoonTechLab/LunaTV",
+      "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源",
+      "language": "TypeScript",
+      "totalStars": "9620",
+      "totalForks": "8980",
+      "growth": "+9620",
+      "growthValue": 9620,
+      "rank": 7
+    },
+    {
+      "name": "jo-inc/camofox-browser",
+      "link": "https://github.com/jo-inc/camofox-browser",
+      "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+      "language": "JavaScript",
+      "totalStars": "9409",
+      "totalForks": "1004",
+      "growth": "+9409",
+      "growthValue": 9409,
+      "rank": 8
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "251991",
-      "totalForks": "37844",
-      "growth": "+765",
-      "growthValue": 765,
-      "rank": 2
-    },
-    {
-      "name": "DietrichGebert/ponytail",
-      "link": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "totalStars": "130029",
-      "totalForks": "6962",
-      "growth": "+765",
-      "growthValue": 765,
-      "rank": 3
-    },
-    {
-      "name": "cathrynlavery/diagram-design",
-      "link": "https://github.com/cathrynlavery/diagram-design",
-      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "totalStars": "32845",
-      "totalForks": "2099",
-      "growth": "+554",
-      "growthValue": 554,
-      "rank": 4
-    },
-    {
-      "name": "blader/humanizer",
-      "link": "https://github.com/blader/humanizer",
-      "description": "Agent skill that removes signs of AI-generated writing from text",
-      "language": "Python",
-      "totalStars": "44622",
-      "totalForks": "3691",
-      "growth": "+443",
-      "growthValue": 443,
-      "rank": 5
-    },
-    {
-      "name": "OpenWhispr/openwhispr",
-      "link": "https://github.com/OpenWhispr/openwhispr",
-      "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
-      "language": "JavaScript",
-      "totalStars": "7625",
-      "totalForks": "941",
-      "growth": "+319",
-      "growthValue": 319,
-      "rank": 6
-    },
-    {
-      "name": "anomalyco/opencode",
-      "link": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "language": "TypeScript",
-      "totalStars": "205462",
-      "totalForks": "26788",
-      "growth": "+241",
-      "growthValue": 241,
-      "rank": 7
+      "totalStars": "252430",
+      "totalForks": "37876",
+      "growth": "+1204",
+      "growthValue": 1204,
+      "rank": 9
     },
     {
       "name": "coreyhaines31/marketingskills",
       "link": "https://github.com/coreyhaines31/marketingskills",
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
       "language": "JavaScript",
-      "totalStars": "47715",
-      "totalForks": "7404",
-      "growth": "+237",
-      "growthValue": 237,
-      "rank": 8
-    },
-    {
-      "name": "The-Swarm-Corporation/AutoHedge",
-      "link": "https://github.com/The-Swarm-Corporation/AutoHedge",
-      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
-      "language": "Python",
-      "totalStars": "4906",
-      "totalForks": "784",
-      "growth": "+228",
-      "growthValue": 228,
-      "rank": 9
-    },
-    {
-      "name": "NousResearch/hermes-agent",
-      "link": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "totalStars": "242740",
-      "totalForks": "49929",
-      "growth": "+226",
-      "growthValue": 226,
+      "totalStars": "47908",
+      "totalForks": "7416",
+      "growth": "+430",
+      "growthValue": 430,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-07 08:04"
+  "lastUpdated": "2026-09-07 14:54"
 }
