@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "283105",
-      "totalForks": "25370",
-      "growth": "+283105",
-      "growthValue": 283105,
-      "rank": 1
-    },
-    {
-      "name": "multica-ai/andrej-karpathy-skills",
-      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "language": "",
-      "totalStars": "211132",
-      "totalForks": "21446",
-      "growth": "+211132",
-      "growthValue": 211132,
-      "rank": 2
-    },
-    {
-      "name": "browser-use/browser-use",
-      "link": "https://github.com/browser-use/browser-use",
-      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-      "language": "Python",
-      "totalStars": "113116",
-      "totalForks": "12474",
-      "growth": "+113116",
-      "growthValue": 113116,
-      "rank": 3
-    },
-    {
-      "name": "ayghri/i-have-adhd",
-      "link": "https://github.com/ayghri/i-have-adhd",
-      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "language": "Python",
-      "totalStars": "28365",
-      "totalForks": "1771",
-      "growth": "+28365",
-      "growthValue": 28365,
-      "rank": 4
-    },
-    {
-      "name": "viarotel-org/escrcpy",
-      "link": "https://github.com/viarotel-org/escrcpy",
-      "description": "📱 Display and control your Android device graphically with scrcpy.",
-      "language": "JavaScript",
-      "totalStars": "11211",
-      "totalForks": "791",
-      "growth": "+11211",
-      "growthValue": 11211,
-      "rank": 5
-    },
-    {
-      "name": "openai/plugins",
-      "link": "https://github.com/openai/plugins",
-      "description": "OpenAI Plugins",
-      "language": "JavaScript",
-      "totalStars": "5586",
-      "totalForks": "795",
-      "growth": "+5586",
-      "growthValue": 5586,
-      "rank": 6
-    },
-    {
       "name": "heygen-com/hyperframes",
       "link": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "totalStars": "47381",
-      "totalForks": "4375",
-      "growth": "+1581",
-      "growthValue": 1581,
-      "rank": 7
+      "totalStars": "47571",
+      "totalForks": "4383",
+      "growth": "+1771",
+      "growthValue": 1771,
+      "rank": 1
     },
     {
       "name": "microsoft/markitdown",
       "link": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "totalStars": "181318",
-      "totalForks": "13314",
-      "growth": "+1182",
-      "growthValue": 1182,
-      "rank": 8
+      "totalStars": "181512",
+      "totalForks": "13334",
+      "growth": "+1376",
+      "growthValue": 1376,
+      "rank": 2
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "253728",
-      "totalForks": "38052",
-      "growth": "+938",
-      "growthValue": 938,
-      "rank": 9
+      "totalStars": "254038",
+      "totalForks": "38094",
+      "growth": "+1248",
+      "growthValue": 1248,
+      "rank": 3
     },
     {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "totalStars": "33864",
-      "totalForks": "2158",
-      "growth": "+592",
-      "growthValue": 592,
+      "totalStars": "34370",
+      "totalForks": "2186",
+      "growth": "+1098",
+      "growthValue": 1098,
+      "rank": 4
+    },
+    {
+      "name": "ayghri/i-have-adhd",
+      "link": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "totalStars": "29410",
+      "totalForks": "1818",
+      "growth": "+1045",
+      "growthValue": 1045,
+      "rank": 5
+    },
+    {
+      "name": "jo-inc/camofox-browser",
+      "link": "https://github.com/jo-inc/camofox-browser",
+      "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+      "language": "JavaScript",
+      "totalStars": "10353",
+      "totalForks": "1046",
+      "growth": "+702",
+      "growthValue": 702,
+      "rank": 6
+    },
+    {
+      "name": "coreyhaines31/marketingskills",
+      "link": "https://github.com/coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "totalStars": "48672",
+      "totalForks": "7485",
+      "growth": "+580",
+      "growthValue": 580,
+      "rank": 7
+    },
+    {
+      "name": "mksglu/context-mode",
+      "link": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "totalStars": "21305",
+      "totalForks": "1542",
+      "growth": "+508",
+      "growthValue": 508,
+      "rank": 8
+    },
+    {
+      "name": "MoonTechLab/LunaTV",
+      "link": "https://github.com/MoonTechLab/LunaTV",
+      "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源",
+      "language": "TypeScript",
+      "totalStars": "10133",
+      "totalForks": "9044",
+      "growth": "+438",
+      "growthValue": 438,
+      "rank": 9
+    },
+    {
+      "name": "openai/skills",
+      "link": "https://github.com/openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "totalStars": "26416",
+      "totalForks": "1773",
+      "growth": "+397",
+      "growthValue": 397,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-08 13:24"
+  "lastUpdated": "2026-09-08 18:24"
 }
