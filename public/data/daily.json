@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "ayghri/i-have-adhd",
-      "link": "https://github.com/ayghri/i-have-adhd",
-      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
       "language": "Python",
-      "totalStars": "42519",
-      "totalForks": "2411",
-      "growth": "+873",
-      "growthValue": 873,
+      "totalStars": "137361",
+      "totalForks": "20215",
+      "growth": "+137361",
+      "growthValue": 137361,
       "rank": 1
+    },
+    {
+      "name": "asgeirtj/system_prompts_leaks",
+      "link": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+      "language": "JavaScript",
+      "totalStars": "65027",
+      "totalForks": "10688",
+      "growth": "+65027",
+      "growthValue": 65027,
+      "rank": 2
+    },
+    {
+      "name": "Flowseal/zapret-discord-youtube",
+      "link": "https://github.com/Flowseal/zapret-discord-youtube",
+      "description": "",
+      "language": "Batchfile",
+      "totalStars": "33164",
+      "totalForks": "2537",
+      "growth": "+33164",
+      "growthValue": 33164,
+      "rank": 3
+    },
+    {
+      "name": "yuliskov/SmartTube",
+      "link": "https://github.com/yuliskov/SmartTube",
+      "description": "Browse media content with your own rules on Android TV",
+      "language": "Java",
+      "totalStars": "33084",
+      "totalForks": "2009",
+      "growth": "+33084",
+      "growthValue": 33084,
+      "rank": 4
+    },
+    {
+      "name": "vxcontrol/pentagi",
+      "link": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "totalStars": "23105",
+      "totalForks": "3039",
+      "growth": "+23105",
+      "growthValue": 23105,
+      "rank": 5
+    },
+    {
+      "name": "multimodal-art-projection/YuE",
+      "link": "https://github.com/multimodal-art-projection/YuE",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "language": "Python",
+      "totalStars": "7040",
+      "totalForks": "806",
+      "growth": "+7040",
+      "growthValue": 7040,
+      "rank": 6
+    },
+    {
+      "name": "max-sixty/worktrunk",
+      "link": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "totalStars": "7029",
+      "totalForks": "249",
+      "growth": "+7029",
+      "growthValue": 7029,
+      "rank": 7
+    },
+    {
+      "name": "SnailSploit/Claude-Red",
+      "link": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "totalStars": "3362",
+      "totalForks": "536",
+      "growth": "+3362",
+      "growthValue": 3362,
+      "rank": 8
     },
     {
       "name": "bilawalsidhu/gods-eye-view",
       "link": "https://github.com/bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "totalStars": "27626",
-      "totalForks": "5646",
-      "growth": "+643",
-      "growthValue": 643,
-      "rank": 2
-    },
-    {
-      "name": "jordan-gibbs/hyperresearch",
-      "link": "https://github.com/jordan-gibbs/hyperresearch",
-      "description": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.",
-      "language": "Python",
-      "totalStars": "2807",
-      "totalForks": "270",
-      "growth": "+242",
-      "growthValue": 242,
-      "rank": 3
-    },
-    {
-      "name": "alphaXiv/OpenResearch",
-      "link": "https://github.com/alphaXiv/OpenResearch",
-      "description": "Run parallel research agents with any model",
-      "language": "Rust",
-      "totalStars": "1446",
-      "totalForks": "101",
-      "growth": "+190",
-      "growthValue": 190,
-      "rank": 4
-    },
-    {
-      "name": "nashsu/llm_wiki",
-      "link": "https://github.com/nashsu/llm_wiki",
-      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
-      "language": "TypeScript",
-      "totalStars": "18897",
-      "totalForks": "2145",
-      "growth": "+189",
-      "growthValue": 189,
-      "rank": 5
-    },
-    {
-      "name": "pascalorg/editor",
-      "link": "https://github.com/pascalorg/editor",
-      "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
-      "language": "TypeScript",
-      "totalStars": "23748",
-      "totalForks": "2949",
-      "growth": "+175",
-      "growthValue": 175,
-      "rank": 6
+      "totalStars": "28216",
+      "totalForks": "5763",
+      "growth": "+1233",
+      "growthValue": 1233,
+      "rank": 9
     },
     {
       "name": "melgarafael/DeskcommCRM",
       "link": "https://github.com/melgarafael/DeskcommCRM",
       "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
       "language": "TypeScript",
-      "totalStars": "1479",
-      "totalForks": "511",
-      "growth": "+167",
-      "growthValue": 167,
-      "rank": 7
-    },
-    {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "285508",
-      "totalForks": "25536",
-      "growth": "+159",
-      "growthValue": 159,
-      "rank": 8
-    },
-    {
-      "name": "vastsa/PI-Desktop",
-      "link": "https://github.com/vastsa/PI-Desktop",
-      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
-      "language": "TypeScript",
-      "totalStars": "2899",
-      "totalForks": "226",
-      "growth": "+138",
-      "growthValue": 138,
-      "rank": 9
-    },
-    {
-      "name": "alsk1992/CloddsBot",
-      "link": "https://github.com/alsk1992/CloddsBot",
-      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
-      "language": "TypeScript",
-      "totalStars": "2256",
-      "totalForks": "291",
-      "growth": "+132",
-      "growthValue": 132,
+      "totalStars": "1579",
+      "totalForks": "519",
+      "growth": "+267",
+      "growthValue": 267,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-12 07:46"
+  "lastUpdated": "2026-09-12 12:44"
 }
