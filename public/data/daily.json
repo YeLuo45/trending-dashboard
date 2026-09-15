@@ -5,10 +5,10 @@
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "28053",
-      "totalForks": "2022",
-      "growth": "+2441",
-      "growthValue": 2441,
+      "totalStars": "28445",
+      "totalForks": "2041",
+      "growth": "+2833",
+      "growthValue": 2833,
       "rank": 1
     },
     {
@@ -16,10 +16,10 @@
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "30662",
-      "totalForks": "3678",
-      "growth": "+1554",
-      "growthValue": 1554,
+      "totalStars": "30889",
+      "totalForks": "3695",
+      "growth": "+1781",
+      "growthValue": 1781,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/JustVugg/colibri",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
-      "totalStars": "33498",
-      "totalForks": "3519",
-      "growth": "+1487",
-      "growthValue": 1487,
+      "totalStars": "33776",
+      "totalForks": "3539",
+      "growth": "+1765",
+      "growthValue": 1765,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/alphaXiv/OpenResearch",
       "description": "Turn your coding agents into research agents",
       "language": "Rust",
-      "totalStars": "3187",
-      "totalForks": "219",
-      "growth": "+885",
-      "growthValue": 885,
+      "totalStars": "3306",
+      "totalForks": "220",
+      "growth": "+1004",
+      "growthValue": 1004,
       "rank": 4
     },
     {
@@ -49,10 +49,10 @@
       "link": "https://github.com/tonhowtf/omniget",
       "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
       "language": "Rust",
-      "totalStars": "12727",
-      "totalForks": "1092",
-      "growth": "+638",
-      "growthValue": 638,
+      "totalStars": "12870",
+      "totalForks": "1097",
+      "growth": "+781",
+      "growthValue": 781,
       "rank": 5
     },
     {
@@ -60,10 +60,10 @@
       "link": "https://github.com/ever-co/ever-gauzy",
       "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) -https://gauzy.co",
       "language": "TypeScript",
-      "totalStars": "6487",
-      "totalForks": "1018",
-      "growth": "+538",
-      "growthValue": 538,
+      "totalStars": "6604",
+      "totalForks": "1025",
+      "growth": "+655",
+      "growthValue": 655,
       "rank": 6
     },
     {
@@ -71,10 +71,10 @@
       "link": "https://github.com/melgarafael/DeskcommCRM",
       "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
       "language": "TypeScript",
-      "totalStars": "2723",
-      "totalForks": "672",
-      "growth": "+347",
-      "growthValue": 347,
+      "totalStars": "2803",
+      "totalForks": "678",
+      "growth": "+427",
+      "growthValue": 427,
       "rank": 7
     },
     {
@@ -82,34 +82,34 @@
       "link": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "totalStars": "76558",
-      "totalForks": "8440",
-      "growth": "+184",
-      "growthValue": 184,
+      "totalStars": "76674",
+      "totalForks": "8448",
+      "growth": "+116",
+      "growthValue": 116,
       "rank": 8
-    },
-    {
-      "name": "Homebrew/BrewUI",
-      "link": "https://github.com/Homebrew/BrewUI",
-      "description": "📺 Homebrew's official macOS GUI",
-      "language": "Swift",
-      "totalStars": "1244",
-      "totalForks": "26",
-      "growth": "+131",
-      "growthValue": 131,
-      "rank": 9
     },
     {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "94655",
-      "totalForks": "10055",
-      "growth": "+102",
-      "growthValue": 102,
+      "totalStars": "94753",
+      "totalForks": "10059",
+      "growth": "+98",
+      "growthValue": 98,
+      "rank": 9
+    },
+    {
+      "name": "earendil-works/pi",
+      "link": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "totalStars": "105671",
+      "totalForks": "13283",
+      "growth": "+84",
+      "growthValue": 84,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-15 18:46"
+  "lastUpdated": "2026-09-15 23:27"
 }
