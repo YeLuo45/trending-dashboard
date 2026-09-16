@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "anthropics/claude-code",
+      "link": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "totalStars": "145290",
+      "totalForks": "23411",
+      "growth": "+145290",
+      "growthValue": 145290,
+      "rank": 1
+    },
+    {
+      "name": "supabase/supabase",
+      "link": "https://github.com/supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "totalStars": "109434",
+      "totalForks": "13982",
+      "growth": "+109434",
+      "growthValue": 109434,
+      "rank": 2
+    },
+    {
+      "name": "cline/cline",
+      "link": "https://github.com/cline/cline",
+      "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+      "language": "TypeScript",
+      "totalStars": "68192",
+      "totalForks": "7375",
+      "growth": "+68192",
+      "growthValue": 68192,
+      "rank": 3
+    },
+    {
+      "name": "jamiepine/voicebox",
+      "link": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "totalStars": "54131",
+      "totalForks": "6773",
+      "growth": "+54131",
+      "growthValue": 54131,
+      "rank": 4
+    },
+    {
+      "name": "roboflow/supervision",
+      "link": "https://github.com/roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "language": "Python",
+      "totalStars": "50455",
+      "totalForks": "4806",
+      "growth": "+50455",
+      "growthValue": 50455,
+      "rank": 5
+    },
+    {
+      "name": "ankitects/anki",
+      "link": "https://github.com/ankitects/anki",
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "language": "Rust",
+      "totalStars": "30660",
+      "totalForks": "3204",
+      "growth": "+30660",
+      "growthValue": 30660,
+      "rank": 6
+    },
+    {
+      "name": "anthropics/knowledge-work-plugins",
+      "link": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "totalStars": "24167",
+      "totalForks": "2915",
+      "growth": "+24167",
+      "growthValue": 24167,
+      "rank": 7
+    },
+    {
+      "name": "cloudflare/security-audit-skill",
+      "link": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "totalStars": "5849",
+      "totalForks": "351",
+      "growth": "+5849",
+      "growthValue": 5849,
+      "rank": 8
+    },
+    {
+      "name": "abue-ammar/tinycast",
+      "link": "https://github.com/abue-ammar/tinycast",
+      "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+      "language": "Swift",
+      "totalStars": "5280",
+      "totalForks": "247",
+      "growth": "+5280",
+      "growthValue": 5280,
+      "rank": 9
+    },
+    {
       "name": "alibaba/open-code-review",
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "29729",
-      "totalForks": "2121",
-      "growth": "+1284",
-      "growthValue": 1284,
-      "rank": 1
-    },
-    {
-      "name": "debpalash/VoiceStudio",
-      "link": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "language": "Python",
-      "totalStars": "31487",
-      "totalForks": "3737",
-      "growth": "+598",
-      "growthValue": 598,
-      "rank": 2
-    },
-    {
-      "name": "JustVugg/colibri",
-      "link": "https://github.com/JustVugg/colibri",
-      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-      "language": "C",
-      "totalStars": "34330",
-      "totalForks": "3591",
-      "growth": "+554",
-      "growthValue": 554,
-      "rank": 3
-    },
-    {
-      "name": "NationalSecurityAgency/ghidra",
-      "link": "https://github.com/NationalSecurityAgency/ghidra",
-      "description": "Ghidra is a software reverse engineering (SRE) framework",
-      "language": "Java",
-      "totalStars": "77108",
-      "totalForks": "8510",
-      "growth": "+434",
-      "growthValue": 434,
-      "rank": 4
-    },
-    {
-      "name": "alphaXiv/OpenResearch",
-      "link": "https://github.com/alphaXiv/OpenResearch",
-      "description": "Turn your coding agents into research agents",
-      "language": "Rust",
-      "totalStars": "3715",
-      "totalForks": "240",
-      "growth": "+409",
-      "growthValue": 409,
-      "rank": 5
-    },
-    {
-      "name": "tonhowtf/omniget",
-      "link": "https://github.com/tonhowtf/omniget",
-      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
-      "language": "Rust",
-      "totalStars": "13265",
-      "totalForks": "1123",
-      "growth": "+395",
-      "growthValue": 395,
-      "rank": 6
-    },
-    {
-      "name": "earendil-works/pi",
-      "link": "https://github.com/earendil-works/pi",
-      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "language": "TypeScript",
-      "totalStars": "106022",
-      "totalForks": "13331",
-      "growth": "+351",
-      "growthValue": 351,
-      "rank": 7
-    },
-    {
-      "name": "ever-co/ever-gauzy",
-      "link": "https://github.com/ever-co/ever-gauzy",
-      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) -https://gauzy.co",
-      "language": "TypeScript",
-      "totalStars": "6941",
-      "totalForks": "1061",
-      "growth": "+337",
-      "growthValue": 337,
-      "rank": 8
-    },
-    {
-      "name": "Homebrew/BrewUI",
-      "link": "https://github.com/Homebrew/BrewUI",
-      "description": "📺 Homebrew's official macOS GUI",
-      "language": "Swift",
-      "totalStars": "1634",
-      "totalForks": "38",
-      "growth": "+316",
-      "growthValue": 316,
-      "rank": 9
-    },
-    {
-      "name": "addyosmani/agent-skills",
-      "link": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "totalStars": "95028",
-      "totalForks": "10078",
-      "growth": "+275",
-      "growthValue": 275,
+      "totalStars": "30655",
+      "totalForks": "2184",
+      "growth": "+2210",
+      "growthValue": 2210,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-16 08:23"
+  "lastUpdated": "2026-09-16 14:06"
 }
