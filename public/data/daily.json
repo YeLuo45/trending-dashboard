@@ -5,10 +5,10 @@
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "31297",
-      "totalForks": "2239",
-      "growth": "+2852",
-      "growthValue": 2852,
+      "totalStars": "31718",
+      "totalForks": "2252",
+      "growth": "+3273",
+      "growthValue": 3273,
       "rank": 1
     },
     {
@@ -16,10 +16,10 @@
       "link": "https://github.com/JustVugg/colibri",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
-      "totalStars": "34844",
-      "totalForks": "3659",
-      "growth": "+1068",
-      "growthValue": 1068,
+      "totalStars": "35007",
+      "totalForks": "3673",
+      "growth": "+1231",
+      "growthValue": 1231,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "totalStars": "25111",
-      "totalForks": "3465",
-      "growth": "+1018",
-      "growthValue": 1018,
+      "totalStars": "25248",
+      "totalForks": "3471",
+      "growth": "+1155",
+      "growthValue": 1155,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "totalStars": "77602",
-      "totalForks": "8578",
-      "growth": "+928",
-      "growthValue": 928,
+      "totalStars": "77750",
+      "totalForks": "8599",
+      "growth": "+1076",
+      "growthValue": 1076,
       "rank": 4
     },
     {
@@ -49,10 +49,10 @@
       "link": "https://github.com/alphaXiv/OpenResearch",
       "description": "Turn your coding agents into research agents",
       "language": "Rust",
-      "totalStars": "4187",
-      "totalForks": "265",
-      "growth": "+881",
-      "growthValue": 881,
+      "totalStars": "4379",
+      "totalForks": "271",
+      "growth": "+1073",
+      "growthValue": 1073,
       "rank": 5
     },
     {
@@ -60,43 +60,43 @@
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "259997",
-      "totalForks": "38917",
-      "growth": "+709",
-      "growthValue": 709,
+      "totalStars": "260243",
+      "totalForks": "38950",
+      "growth": "+955",
+      "growthValue": 955,
       "rank": 6
-    },
-    {
-      "name": "cloudflare/security-audit-skill",
-      "link": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "totalStars": "6554",
-      "totalForks": "391",
-      "growth": "+705",
-      "growthValue": 705,
-      "rank": 7
     },
     {
       "name": "SnailSploit/Claude-Red",
       "link": "https://github.com/SnailSploit/Claude-Red",
       "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
       "language": "Python",
-      "totalStars": "5671",
-      "totalForks": "733",
-      "growth": "+627",
-      "growthValue": 627,
-      "rank": 8
+      "totalStars": "5755",
+      "totalForks": "740",
+      "growth": "+711",
+      "growthValue": 711,
+      "rank": 7
     },
     {
       "name": "ever-co/ever-gauzy",
       "link": "https://github.com/ever-co/ever-gauzy",
       "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) -https://gauzy.co",
       "language": "TypeScript",
-      "totalStars": "7181",
-      "totalForks": "1081",
-      "growth": "+577",
-      "growthValue": 577,
+      "totalStars": "7293",
+      "totalForks": "1086",
+      "growth": "+689",
+      "growthValue": 689,
+      "rank": 8
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "totalStars": "95420",
+      "totalForks": "10109",
+      "growth": "+667",
+      "growthValue": 667,
       "rank": 9
     },
     {
@@ -104,12 +104,12 @@
       "link": "https://github.com/multimodal-art-projection/YuE",
       "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
       "language": "Python",
-      "totalStars": "9279",
-      "totalForks": "1003",
-      "growth": "+574",
-      "growthValue": 574,
+      "totalStars": "9353",
+      "totalForks": "1007",
+      "growth": "+648",
+      "growthValue": 648,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-16 18:45"
+  "lastUpdated": "2026-09-16 23:34"
 }

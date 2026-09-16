@@ -5,10 +5,10 @@
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "31297",
-      "totalForks": "2239",
-      "growth": "+2852",
-      "growthValue": 2852,
+      "totalStars": "31718",
+      "totalForks": "2252",
+      "growth": "+3273",
+      "growthValue": 3273,
       "rank": 1
     },
     {
@@ -16,10 +16,10 @@
       "link": "https://github.com/JustVugg/colibri",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
-      "totalStars": "34844",
-      "totalForks": "3659",
-      "growth": "+1068",
-      "growthValue": 1068,
+      "totalStars": "35007",
+      "totalForks": "3673",
+      "growth": "+1231",
+      "growthValue": 1231,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "totalStars": "25111",
-      "totalForks": "3465",
-      "growth": "+1018",
-      "growthValue": 1018,
+      "totalStars": "25248",
+      "totalForks": "3471",
+      "growth": "+1155",
+      "growthValue": 1155,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "totalStars": "77602",
-      "totalForks": "8578",
-      "growth": "+928",
-      "growthValue": 928,
+      "totalStars": "77750",
+      "totalForks": "8599",
+      "growth": "+1076",
+      "growthValue": 1076,
       "rank": 4
     },
     {
@@ -49,10 +49,10 @@
       "link": "https://github.com/alphaXiv/OpenResearch",
       "description": "Turn your coding agents into research agents",
       "language": "Rust",
-      "totalStars": "4187",
-      "totalForks": "265",
-      "growth": "+881",
-      "growthValue": 881,
+      "totalStars": "4379",
+      "totalForks": "271",
+      "growth": "+1073",
+      "growthValue": 1073,
       "rank": 5
     },
     {
@@ -60,43 +60,43 @@
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "259997",
-      "totalForks": "38917",
-      "growth": "+709",
-      "growthValue": 709,
+      "totalStars": "260243",
+      "totalForks": "38950",
+      "growth": "+955",
+      "growthValue": 955,
       "rank": 6
-    },
-    {
-      "name": "cloudflare/security-audit-skill",
-      "link": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "totalStars": "6554",
-      "totalForks": "391",
-      "growth": "+705",
-      "growthValue": 705,
-      "rank": 7
     },
     {
       "name": "SnailSploit/Claude-Red",
       "link": "https://github.com/SnailSploit/Claude-Red",
       "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
       "language": "Python",
-      "totalStars": "5671",
-      "totalForks": "733",
-      "growth": "+627",
-      "growthValue": 627,
-      "rank": 8
+      "totalStars": "5755",
+      "totalForks": "740",
+      "growth": "+711",
+      "growthValue": 711,
+      "rank": 7
     },
     {
       "name": "ever-co/ever-gauzy",
       "link": "https://github.com/ever-co/ever-gauzy",
       "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) -https://gauzy.co",
       "language": "TypeScript",
-      "totalStars": "7181",
-      "totalForks": "1081",
-      "growth": "+577",
-      "growthValue": 577,
+      "totalStars": "7293",
+      "totalForks": "1086",
+      "growth": "+689",
+      "growthValue": 689,
+      "rank": 8
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "totalStars": "95420",
+      "totalForks": "10109",
+      "growth": "+667",
+      "growthValue": 667,
       "rank": 9
     },
     {
@@ -104,10 +104,10 @@
       "link": "https://github.com/multimodal-art-projection/YuE",
       "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
       "language": "Python",
-      "totalStars": "9279",
-      "totalForks": "1003",
-      "growth": "+574",
-      "growthValue": 574,
+      "totalStars": "9353",
+      "totalForks": "1007",
+      "growth": "+648",
+      "growthValue": 648,
       "rank": 10
     }
   ],
@@ -117,10 +117,10 @@
       "link": "https://github.com/bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "totalStars": "35604",
-      "totalForks": "7117",
-      "growth": "+15576",
-      "growthValue": 15576,
+      "totalStars": "35817",
+      "totalForks": "7163",
+      "growth": "+15789",
+      "growthValue": 15789,
       "rank": 1
     },
     {
@@ -128,10 +128,10 @@
       "link": "https://github.com/ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
-      "totalStars": "46806",
-      "totalForks": "2723",
-      "growth": "+12363",
-      "growthValue": 12363,
+      "totalStars": "46880",
+      "totalForks": "2728",
+      "growth": "+12437",
+      "growthValue": 12437,
       "rank": 2
     },
     {
@@ -139,10 +139,10 @@
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "31297",
-      "totalForks": "2239",
-      "growth": "+7862",
-      "growthValue": 7862,
+      "totalStars": "31718",
+      "totalForks": "2252",
+      "growth": "+8283",
+      "growthValue": 8283,
       "rank": 3
     },
     {
@@ -150,10 +150,10 @@
       "link": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "totalStars": "140196",
-      "totalForks": "7535",
-      "growth": "+6852",
-      "growthValue": 6852,
+      "totalStars": "140323",
+      "totalForks": "7539",
+      "growth": "+6979",
+      "growthValue": 6979,
       "rank": 4
     },
     {
@@ -161,10 +161,10 @@
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "259997",
-      "totalForks": "38917",
-      "growth": "+4869",
-      "growthValue": 4869,
+      "totalStars": "260243",
+      "totalForks": "38950",
+      "growth": "+5115",
+      "growthValue": 5115,
       "rank": 5
     },
     {
@@ -172,10 +172,10 @@
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "287568",
-      "totalForks": "25719",
-      "growth": "+3576",
-      "growthValue": 3576,
+      "totalStars": "287607",
+      "totalForks": "25721",
+      "growth": "+3615",
+      "growthValue": 3615,
       "rank": 6
     },
     {
@@ -183,10 +183,10 @@
       "link": "https://github.com/blader/humanizer",
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "language": "Python",
-      "totalStars": "49097",
-      "totalForks": "3984",
-      "growth": "+3140",
-      "growthValue": 3140,
+      "totalStars": "49163",
+      "totalForks": "3985",
+      "growth": "+3206",
+      "growthValue": 3206,
       "rank": 7
     },
     {
@@ -194,10 +194,10 @@
       "link": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "totalStars": "106965",
-      "totalForks": "20430",
-      "growth": "+3061",
-      "growthValue": 3061,
+      "totalStars": "107003",
+      "totalForks": "20431",
+      "growth": "+3099",
+      "growthValue": 3099,
       "rank": 8
     },
     {
@@ -205,32 +205,32 @@
       "link": "https://github.com/THU-MAIC/OpenMAIC",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "totalStars": "37364",
-      "totalForks": "5882",
-      "growth": "+3036",
-      "growthValue": 3036,
+      "totalStars": "37385",
+      "totalForks": "5886",
+      "growth": "+3057",
+      "growthValue": 3057,
       "rank": 9
-    },
-    {
-      "name": "microsoft/markitdown",
-      "link": "https://github.com/microsoft/markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
-      "language": "Python",
-      "totalStars": "184759",
-      "totalForks": "13610",
-      "growth": "+2791",
-      "growthValue": 2791,
-      "rank": 10
     },
     {
       "name": "Tencent/WeKnora",
       "link": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "totalStars": "25111",
-      "totalForks": "3465",
-      "growth": "+2782",
-      "growthValue": 2782,
+      "totalStars": "25248",
+      "totalForks": "3471",
+      "growth": "+2919",
+      "growthValue": 2919,
+      "rank": 10
+    },
+    {
+      "name": "microsoft/markitdown",
+      "link": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "totalStars": "184806",
+      "totalForks": "13617",
+      "growth": "+2838",
+      "growthValue": 2838,
       "rank": 11
     },
     {
@@ -238,10 +238,10 @@
       "link": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "totalStars": "50646",
-      "totalForks": "4616",
-      "growth": "+2264",
-      "growthValue": 2264,
+      "totalStars": "50709",
+      "totalForks": "4622",
+      "growth": "+2327",
+      "growthValue": 2327,
       "rank": 12
     },
     {
@@ -249,10 +249,10 @@
       "link": "https://github.com/petergyang/no-ai-slop",
       "description": "Removes 20+ patterns of AI slop from any piece of writing.",
       "language": "Python",
-      "totalStars": "10080",
+      "totalStars": "10118",
       "totalForks": "709",
-      "growth": "+2247",
-      "growthValue": 2247,
+      "growth": "+2285",
+      "growthValue": 2285,
       "rank": 13
     },
     {
@@ -260,10 +260,10 @@
       "link": "https://github.com/github/spec-kit",
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "language": "Python",
-      "totalStars": "137320",
-      "totalForks": "12294",
-      "growth": "+1569",
-      "growthValue": 1569,
+      "totalStars": "137372",
+      "totalForks": "12302",
+      "growth": "+1621",
+      "growthValue": 1621,
       "rank": 14
     },
     {
@@ -271,10 +271,10 @@
       "link": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "totalStars": "23207",
-      "totalForks": "1675",
-      "growth": "+1484",
-      "growthValue": 1484,
+      "totalStars": "23226",
+      "totalForks": "1677",
+      "growth": "+1503",
+      "growthValue": 1503,
       "rank": 15
     },
     {
@@ -282,10 +282,10 @@
       "link": "https://github.com/max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
-      "totalStars": "7904",
+      "totalStars": "7922",
       "totalForks": "272",
-      "growth": "+695",
-      "growthValue": 695,
+      "growth": "+713",
+      "growthValue": 713,
       "rank": 16
     },
     {
@@ -293,32 +293,32 @@
       "link": "https://github.com/openai/plugins",
       "description": "OpenAI Plugins",
       "language": "JavaScript",
-      "totalStars": "6847",
-      "totalForks": "894",
-      "growth": "+679",
-      "growthValue": 679,
+      "totalStars": "6856",
+      "totalForks": "895",
+      "growth": "+688",
+      "growthValue": 688,
       "rank": 17
-    },
-    {
-      "name": "openai/skills",
-      "link": "https://github.com/openai/skills",
-      "description": "Skills Catalog for Codex",
-      "language": "Python",
-      "totalStars": "27361",
-      "totalForks": "1831",
-      "growth": "+597",
-      "growthValue": 597,
-      "rank": 18
     },
     {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "95264",
-      "totalForks": "10098",
-      "growth": "+511",
-      "growthValue": 511,
+      "totalStars": "95420",
+      "totalForks": "10109",
+      "growth": "+667",
+      "growthValue": 667,
+      "rank": 18
+    },
+    {
+      "name": "openai/skills",
+      "link": "https://github.com/openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "totalStars": "27369",
+      "totalForks": "1831",
+      "growth": "+605",
+      "growthValue": 605,
       "rank": 19
     },
     {
@@ -326,10 +326,10 @@
       "link": "https://github.com/kunchenguid/firstmate",
       "description": "Talk to one agent. Ship with a crew.",
       "language": "Shell",
-      "totalStars": "6166",
-      "totalForks": "1906",
-      "growth": "+444",
-      "growthValue": 444,
+      "totalStars": "6192",
+      "totalForks": "1917",
+      "growth": "+470",
+      "growthValue": 470,
       "rank": 20
     }
   ],
@@ -339,10 +339,10 @@
       "link": "https://github.com/tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "totalStars": "64653",
-      "totalForks": "4291",
-      "growth": "+50948",
-      "growthValue": 50948,
+      "totalStars": "64801",
+      "totalForks": "4303",
+      "growth": "+51096",
+      "growthValue": 51096,
       "rank": 1
     },
     {
@@ -350,10 +350,10 @@
       "link": "https://github.com/ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
-      "totalStars": "46806",
-      "totalForks": "2723",
-      "growth": "+25405",
-      "growthValue": 25405,
+      "totalStars": "46880",
+      "totalForks": "2728",
+      "growth": "+25479",
+      "growthValue": 25479,
       "rank": 2
     },
     {
@@ -361,10 +361,10 @@
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "totalStars": "40465",
+      "totalStars": "40494",
       "totalForks": "2578",
-      "growth": "+19903",
-      "growthValue": 19903,
+      "growth": "+19932",
+      "growthValue": 19932,
       "rank": 3
     },
     {
@@ -372,10 +372,10 @@
       "link": "https://github.com/freestylefly/awesome-gpt-image-2",
       "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
       "language": "JavaScript",
-      "totalStars": "32248",
-      "totalForks": "3104",
-      "growth": "+19604",
-      "growthValue": 19604,
+      "totalStars": "32255",
+      "totalForks": "3105",
+      "growth": "+19611",
+      "growthValue": 19611,
       "rank": 4
     },
     {
@@ -383,10 +383,10 @@
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "31910",
-      "totalForks": "3782",
-      "growth": "+18367",
-      "growthValue": 18367,
+      "totalStars": "32004",
+      "totalForks": "3792",
+      "growth": "+18461",
+      "growthValue": 18461,
       "rank": 5
     },
     {
@@ -394,10 +394,10 @@
       "link": "https://github.com/THU-MAIC/OpenMAIC",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "totalStars": "37364",
-      "totalForks": "5882",
-      "growth": "+15210",
-      "growthValue": 15210,
+      "totalStars": "37385",
+      "totalForks": "5886",
+      "growth": "+15231",
+      "growthValue": 15231,
       "rank": 6
     },
     {
@@ -405,10 +405,10 @@
       "link": "https://github.com/AprilNEA/OpenLogi",
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
-      "totalStars": "21329",
+      "totalStars": "21344",
       "totalForks": "688",
-      "growth": "+9609",
-      "growthValue": 9609,
+      "growth": "+9624",
+      "growthValue": 9624,
       "rank": 7
     },
     {
@@ -416,10 +416,10 @@
       "link": "https://github.com/vorssaint/vorssaint-utils",
       "description": "Free and open-source macOS menu bar toolkit.",
       "language": "Swift",
-      "totalStars": "19433",
+      "totalStars": "19462",
       "totalForks": "701",
-      "growth": "+9128",
-      "growthValue": 9128,
+      "growth": "+9157",
+      "growthValue": 9157,
       "rank": 8
     },
     {
@@ -427,10 +427,10 @@
       "link": "https://github.com/volcengine/OpenViking",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
-      "totalStars": "37738",
-      "totalForks": "2915",
-      "growth": "+8439",
-      "growthValue": 8439,
+      "totalStars": "37770",
+      "totalForks": "2916",
+      "growth": "+8471",
+      "growthValue": 8471,
       "rank": 9
     },
     {
@@ -438,10 +438,10 @@
       "link": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
-      "totalStars": "26646",
-      "totalForks": "3635",
-      "growth": "+6917",
-      "growthValue": 6917,
+      "totalStars": "26681",
+      "totalForks": "3639",
+      "growth": "+6952",
+      "growthValue": 6952,
       "rank": 10
     },
     {
@@ -449,10 +449,10 @@
       "link": "https://github.com/omacom/omarchy",
       "description": "Beautiful, Modern & Opinionated Linux",
       "language": "Shell",
-      "totalStars": "41488",
-      "totalForks": "4700",
-      "growth": "+6728",
-      "growthValue": 6728,
+      "totalStars": "41524",
+      "totalForks": "4710",
+      "growth": "+6764",
+      "growthValue": 6764,
       "rank": 11
     },
     {
@@ -460,10 +460,10 @@
       "link": "https://github.com/chaitanyagiri/munder-difflin",
       "description": "A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents",
       "language": "TypeScript",
-      "totalStars": "7390",
-      "totalForks": "963",
-      "growth": "+5422",
-      "growthValue": 5422,
+      "totalStars": "7423",
+      "totalForks": "968",
+      "growth": "+5455",
+      "growthValue": 5455,
       "rank": 12
     },
     {
@@ -471,10 +471,10 @@
       "link": "https://github.com/jingyaogong/minimind",
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "language": "Python",
-      "totalStars": "61327",
-      "totalForks": "7972",
-      "growth": "+5317",
-      "growthValue": 5317,
+      "totalStars": "61343",
+      "totalForks": "7975",
+      "growth": "+5333",
+      "growthValue": 5333,
       "rank": 13
     },
     {
@@ -482,10 +482,10 @@
       "link": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "totalStars": "6999",
-      "totalForks": "469",
-      "growth": "+5027",
-      "growthValue": 5027,
+      "totalStars": "7013",
+      "totalForks": "470",
+      "growth": "+5041",
+      "growthValue": 5041,
       "rank": 14
     },
     {
@@ -493,10 +493,10 @@
       "link": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "totalStars": "8005",
-      "totalForks": "716",
-      "growth": "+3971",
-      "growthValue": 3971,
+      "totalStars": "8075",
+      "totalForks": "719",
+      "growth": "+4041",
+      "growthValue": 4041,
       "rank": 15
     },
     {
@@ -504,10 +504,10 @@
       "link": "https://github.com/Lakr233/vphone-cli",
       "description": "",
       "language": "Swift",
-      "totalStars": "13272",
-      "totalForks": "1584",
-      "growth": "+3689",
-      "growthValue": 3689,
+      "totalStars": "13326",
+      "totalForks": "1586",
+      "growth": "+3743",
+      "growthValue": 3743,
       "rank": 16
     },
     {
@@ -515,10 +515,10 @@
       "link": "https://github.com/apache/maka",
       "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
       "language": "TypeScript",
-      "totalStars": "5504",
-      "totalForks": "508",
-      "growth": "+3390",
-      "growthValue": 3390,
+      "totalStars": "5509",
+      "totalForks": "509",
+      "growth": "+3395",
+      "growthValue": 3395,
       "rank": 17
     },
     {
@@ -526,10 +526,10 @@
       "link": "https://github.com/anthropics/claude-plugins-community",
       "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
       "language": "Python",
-      "totalStars": "4141",
+      "totalStars": "4153",
       "totalForks": "302",
-      "growth": "+3261",
-      "growthValue": 3261,
+      "growth": "+3273",
+      "growthValue": 3273,
       "rank": 18
     },
     {
@@ -537,10 +537,10 @@
       "link": "https://github.com/google-research/timesfm",
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "language": "Python",
-      "totalStars": "32772",
-      "totalForks": "3150",
-      "growth": "+3064",
-      "growthValue": 3064,
+      "totalStars": "32853",
+      "totalForks": "3160",
+      "growth": "+3145",
+      "growthValue": 3145,
       "rank": 19
     },
     {
@@ -633,7 +633,7 @@
       "2026-09-13": 286169,
       "2026-09-14": 286678,
       "2026-09-15": 287151,
-      "2026-09-16": 287568
+      "2026-09-16": 287607
     },
     "yikart/AiToEarn": {
       "2026-05-13": 12446,
@@ -820,7 +820,7 @@
       "2026-09-13": 136381,
       "2026-09-14": 136790,
       "2026-09-15": 137045,
-      "2026-09-16": 137320
+      "2026-09-16": 137372
     },
     "anthropics/financial-services": {
       "2026-05-13": 21960,
@@ -900,7 +900,7 @@
       "2026-09-03": 92016,
       "2026-09-04": 92125,
       "2026-09-15": 94753,
-      "2026-09-16": 95264
+      "2026-09-16": 95420
     },
     "LearningCircuit/local-deep-research": {
       "2026-05-13": 7441,
@@ -1096,7 +1096,7 @@
       "2026-09-10": 104254,
       "2026-09-14": 106089,
       "2026-09-15": 106657,
-      "2026-09-16": 106965
+      "2026-09-16": 107003
     },
     "Anil-matcha/Open-Generative-AI": {
       "2026-05-13": 13094,
@@ -1194,7 +1194,7 @@
       "2026-07-07": 47033,
       "2026-08-05": 48889,
       "2026-08-06": 49014,
-      "2026-09-16": 50519
+      "2026-09-16": 50582
     },
     "Genymobile/scrcpy": {
       "2026-05-14": 141316,
@@ -1302,7 +1302,7 @@
       "2026-09-13": 49565,
       "2026-09-14": 50019,
       "2026-09-15": 50383,
-      "2026-09-16": 50646
+      "2026-09-16": 50709
     },
     "thunderbird/thunderbolt": {
       "2026-05-16": 4586,
@@ -1328,7 +1328,7 @@
       "2026-09-13": 5617,
       "2026-09-14": 6043,
       "2026-09-15": 6191,
-      "2026-09-16": 6354
+      "2026-09-16": 6373
     },
     "NirDiamant/agents-towards-production": {
       "2026-05-17": 19872,
@@ -3762,7 +3762,7 @@
       "2026-09-13": 6614,
       "2026-09-14": 6704,
       "2026-09-15": 6782,
-      "2026-09-16": 6847
+      "2026-09-16": 6856
     },
     "mattermost/mattermost": {
       "2026-06-15": 37897,
@@ -3797,7 +3797,7 @@
       "2026-09-13": 183569,
       "2026-09-14": 183991,
       "2026-09-15": 184381,
-      "2026-09-16": 184759
+      "2026-09-16": 184806
     },
     "asgeirtj/system_prompts_leaks": {
       "2026-06-15": 42437,
@@ -3974,7 +3974,7 @@
       "2026-06-21": 21637,
       "2026-06-22": 21741,
       "2026-06-23": 21781,
-      "2026-09-16": 24224
+      "2026-09-16": 24271
     },
     "ogulcancelik/herdr": {
       "2026-06-15": 5789,
@@ -4198,7 +4198,7 @@
       "2026-09-13": 7616,
       "2026-09-14": 7732,
       "2026-09-15": 7874,
-      "2026-09-16": 8005
+      "2026-09-16": 8075
     },
     "rmyndharis/OpenWA": {
       "2026-06-16": 9056,
@@ -4272,7 +4272,7 @@
       "2026-09-09": 32065,
       "2026-09-14": 32490,
       "2026-09-15": 32620,
-      "2026-09-16": 32772
+      "2026-09-16": 32853
     },
     "RocketChat/Rocket.Chat": {
       "2026-06-17": 45562,
@@ -4627,7 +4627,7 @@
       "2026-07-26": 46820,
       "2026-08-03": 48620,
       "2026-08-04": 48840,
-      "2026-09-16": 54235
+      "2026-09-16": 54355
     },
     "pppscn/SmsForwarder": {
       "2026-06-20": 26475,
@@ -4805,7 +4805,7 @@
       "2026-09-02": 23879,
       "2026-09-03": 24099,
       "2026-09-04": 24191,
-      "2026-09-16": 26646
+      "2026-09-16": 26681
     },
     "Stirling-Tools/Stirling-PDF": {
       "2026-06-22": 82838,
@@ -4992,7 +4992,7 @@
       "2026-09-13": 257727,
       "2026-09-14": 258384,
       "2026-09-15": 259288,
-      "2026-09-16": 259997
+      "2026-09-16": 260243
     },
     "stablyai/orca": {
       "2026-06-23": 6297,
@@ -6027,12 +6027,12 @@
       "2026-07-06": 136413,
       "2026-08-22": 142496,
       "2026-08-23": 142683,
-      "2026-09-16": 145378
+      "2026-09-16": 145479
     },
     "supabase/supabase": {
       "2026-07-03": 105424,
       "2026-07-04": 105574,
-      "2026-09-16": 109546
+      "2026-09-16": 109693
     },
     "Zackriya-Solutions/meetily": {
       "2026-07-04": 15132,
@@ -6603,13 +6603,13 @@
       "2026-09-13": 60686,
       "2026-09-14": 62194,
       "2026-09-15": 63510,
-      "2026-09-16": 64653
+      "2026-09-16": 64801
     },
     "home-assistant/core": {
       "2026-07-11": 88643,
       "2026-07-12": 89013,
       "2026-07-13": 89197,
-      "2026-09-16": 90557
+      "2026-09-16": 90573
     },
     "DayuanJiang/next-ai-draw-io": {
       "2026-07-11": 33264,
@@ -7332,7 +7332,7 @@
       "2026-09-13": 44264,
       "2026-09-14": 45406,
       "2026-09-15": 46228,
-      "2026-09-16": 46806
+      "2026-09-16": 46880
     },
     "earthtojake/text-to-cad": {
       "2026-07-21": 9047,
@@ -7573,7 +7573,7 @@
       "2026-09-13": 23435,
       "2026-09-14": 25612,
       "2026-09-15": 28445,
-      "2026-09-16": 31297
+      "2026-09-16": 31718
     },
     "Automattic/harper": {
       "2026-07-23": 12202,
@@ -8331,7 +8331,7 @@
       "2026-09-13": 39168,
       "2026-09-14": 39771,
       "2026-09-15": 40199,
-      "2026-09-16": 40465
+      "2026-09-16": 40494
     },
     "nvm-sh/nvm": {
       "2026-08-11": 94471,
@@ -8383,7 +8383,7 @@
       "2026-09-13": 5722,
       "2026-09-14": 5946,
       "2026-09-15": 6000,
-      "2026-09-16": 6166
+      "2026-09-16": 6192
     },
     "macro-inc/macro": {
       "2026-08-12": 1675,
@@ -8634,7 +8634,7 @@
       "2026-09-13": 6682,
       "2026-09-14": 6812,
       "2026-09-15": 6928,
-      "2026-09-16": 6999
+      "2026-09-16": 7013
     },
     "jundot/omlx": {
       "2026-08-17": 18948,
@@ -8662,7 +8662,7 @@
       "2026-08-27": 4971,
       "2026-08-28": 5163,
       "2026-08-29": 5447,
-      "2026-09-16": 7390
+      "2026-09-16": 7423
     },
     "volcengine/OpenViking": {
       "2026-08-18": 29299,
@@ -8694,7 +8694,7 @@
       "2026-09-13": 37017,
       "2026-09-14": 37237,
       "2026-09-15": 37547,
-      "2026-09-16": 37738
+      "2026-09-16": 37770
     },
     "NawfalMotii79/PLFM_RADAR": {
       "2026-08-18": 24270,
@@ -8783,7 +8783,7 @@
       "2026-09-13": 20931,
       "2026-09-14": 21084,
       "2026-09-15": 21212,
-      "2026-09-16": 21329
+      "2026-09-16": 21344
     },
     "agent-substrate/substrate": {
       "2026-08-20": 1364,
@@ -8830,7 +8830,7 @@
       "2026-09-13": 5341,
       "2026-09-14": 5402,
       "2026-09-15": 5466,
-      "2026-09-16": 5504
+      "2026-09-16": 5509
     },
     "elder-plinius/OBLITERATUS": {
       "2026-08-22": 7892
@@ -8878,7 +8878,7 @@
       "2026-09-13": 31645,
       "2026-09-14": 31871,
       "2026-09-15": 32095,
-      "2026-09-16": 32248
+      "2026-09-16": 32255
     },
     "VoltAgent/awesome-agent-skills": {
       "2026-08-23": 31228,
@@ -8922,7 +8922,7 @@
       "2026-09-13": 3932,
       "2026-09-14": 4018,
       "2026-09-15": 4089,
-      "2026-09-16": 4141
+      "2026-09-16": 4153
     },
     "openclaw/openclaw": {
       "2026-08-24": 387406,
@@ -8949,7 +8949,7 @@
       "2026-09-13": 18757,
       "2026-09-14": 19007,
       "2026-09-15": 19251,
-      "2026-09-16": 19433
+      "2026-09-16": 19462
     },
     "liustack/modlens": {
       "2026-08-25": 3644
@@ -8983,7 +8983,7 @@
       "2026-09-13": 137276,
       "2026-09-14": 138375,
       "2026-09-15": 139344,
-      "2026-09-16": 140196
+      "2026-09-16": 140323
     },
     "asciimoo/hister": {
       "2026-08-25": 2730,
@@ -9065,7 +9065,7 @@
       "2026-09-13": 31789,
       "2026-09-14": 33531,
       "2026-09-15": 34790,
-      "2026-09-16": 35604
+      "2026-09-16": 35817
     },
     "abhigyanpatwari/GitNexus": {
       "2026-08-28": 46065,
@@ -9100,7 +9100,7 @@
       "2026-08-30": 73877,
       "2026-08-31": 74089,
       "2026-09-15": 76674,
-      "2026-09-16": 77602
+      "2026-09-16": 77750
     },
     "swoole/typephp": {
       "2026-08-29": 931
@@ -9124,7 +9124,7 @@
       "2026-09-13": 40837,
       "2026-09-14": 41078,
       "2026-09-15": 41282,
-      "2026-09-16": 41488
+      "2026-09-16": 41524
     },
     "THU-MAIC/OpenMAIC": {
       "2026-08-29": 22154,
@@ -9145,7 +9145,7 @@
       "2026-09-13": 36458,
       "2026-09-14": 36813,
       "2026-09-15": 37097,
-      "2026-09-16": 37364
+      "2026-09-16": 37385
     },
     "p-e-w/heretic": {
       "2026-08-29": 28669,
@@ -9193,7 +9193,7 @@
       "2026-09-13": 11832,
       "2026-09-14": 12007,
       "2026-09-15": 12968,
-      "2026-09-16": 13272
+      "2026-09-16": 13326
     },
     "majd/ipatool": {
       "2026-08-30": 10188,
@@ -9268,7 +9268,7 @@
       "2026-09-06": 59129,
       "2026-09-07": 59476,
       "2026-09-08": 59685,
-      "2026-09-16": 61327
+      "2026-09-16": 61343
     },
     "Gitlawb/openclaude": {
       "2026-09-01": 31253,
@@ -9296,7 +9296,7 @@
       "2026-09-13": 26637,
       "2026-09-14": 29108,
       "2026-09-15": 30889,
-      "2026-09-16": 31910
+      "2026-09-16": 32004
     },
     "averygan/reclip": {
       "2026-09-01": 7618,
@@ -9368,7 +9368,7 @@
       "2026-09-13": 47647,
       "2026-09-14": 48129,
       "2026-09-15": 48543,
-      "2026-09-16": 49097
+      "2026-09-16": 49163
     },
     "magnitudedev/magnitude": {
       "2026-09-03": 1922,
@@ -9448,7 +9448,7 @@
       "2026-09-13": 27090,
       "2026-09-14": 27189,
       "2026-09-15": 27274,
-      "2026-09-16": 27361
+      "2026-09-16": 27369
     },
     "llvm/llvm-project": {
       "2026-09-06": 40202,
@@ -9481,7 +9481,7 @@
       "2026-09-13": 22608,
       "2026-09-14": 22841,
       "2026-09-15": 23071,
-      "2026-09-16": 23207
+      "2026-09-16": 23226
     },
     "jo-inc/camofox-browser": {
       "2026-09-07": 9651,
@@ -9544,7 +9544,7 @@
       "2026-09-13": 9163,
       "2026-09-14": 9529,
       "2026-09-15": 9863,
-      "2026-09-16": 10080
+      "2026-09-16": 10118
     },
     "titanwings/distilly": {
       "2026-09-09": 24523,
@@ -9568,7 +9568,7 @@
       "2026-09-13": 29715,
       "2026-09-14": 32011,
       "2026-09-15": 33776,
-      "2026-09-16": 34844
+      "2026-09-16": 35007
     },
     "nashsu/llm_wiki": {
       "2026-09-10": 18064,
@@ -9618,7 +9618,7 @@
       "2026-09-13": 2022,
       "2026-09-14": 2302,
       "2026-09-15": 3306,
-      "2026-09-16": 4187
+      "2026-09-16": 4379
     },
     "Tencent/WeKnora": {
       "2026-09-11": 22329,
@@ -9626,7 +9626,7 @@
       "2026-09-13": 22854,
       "2026-09-14": 23209,
       "2026-09-15": 24093,
-      "2026-09-16": 25111
+      "2026-09-16": 25248
     },
     "jakubkrehel/skills": {
       "2026-09-11": 6254,
@@ -9642,27 +9642,27 @@
       "2026-09-13": 4100,
       "2026-09-14": 4701,
       "2026-09-15": 5044,
-      "2026-09-16": 5671
+      "2026-09-16": 5755
     },
     "multimodal-art-projection/YuE": {
       "2026-09-12": 7260,
       "2026-09-13": 7709,
       "2026-09-14": 8308,
       "2026-09-15": 8705,
-      "2026-09-16": 9279
+      "2026-09-16": 9353
     },
     "max-sixty/worktrunk": {
       "2026-09-12": 7209,
       "2026-09-13": 7510,
       "2026-09-14": 7658,
       "2026-09-15": 7790,
-      "2026-09-16": 7904
+      "2026-09-16": 7922
     },
     "ever-co/ever-gauzy": {
       "2026-09-13": 5012,
       "2026-09-14": 5949,
       "2026-09-15": 6604,
-      "2026-09-16": 7181
+      "2026-09-16": 7293
     },
     "tonhowtf/omniget": {
       "2026-09-13": 11583,
@@ -9681,7 +9681,7 @@
     "rlaope/oh-my-hermes": {
       "2026-09-14": 2017,
       "2026-09-15": 2280,
-      "2026-09-16": 2482
+      "2026-09-16": 2537
     },
     "reconurge/flowsint": {
       "2026-09-14": 8330,
@@ -9701,7 +9701,7 @@
     },
     "danny-avila/LibreChat": {
       "2026-09-15": 43801,
-      "2026-09-16": 44117
+      "2026-09-16": 44192
     },
     "MG1937/ASC": {
       "2026-09-15": 1143,
@@ -9711,18 +9711,18 @@
       "2026-09-15": 2461
     },
     "cloudflare/security-audit-skill": {
-      "2026-09-16": 6554
+      "2026-09-16": 7102
     },
     "abue-ammar/tinycast": {
-      "2026-09-16": 5463
+      "2026-09-16": 5566
     },
     "ankitects/anki": {
-      "2026-09-16": 30728
+      "2026-09-16": 30840
     },
     "cline/cline": {
-      "2026-09-16": 68248
+      "2026-09-16": 68350
     }
   },
-  "lastUpdated": "2026-09-16 18:45",
-  "generatedAt": "2026-09-16T18:45:08.932183+00:00"
+  "lastUpdated": "2026-09-16 23:34",
+  "generatedAt": "2026-09-16T23:34:48.027907+00:00"
 }
