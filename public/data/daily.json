@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "alibaba/open-code-review",
-      "link": "https://github.com/alibaba/open-code-review",
-      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "language": "Go",
-      "totalStars": "33080",
-      "totalForks": "2352",
-      "growth": "+1362",
-      "growthValue": 1362,
+      "name": "n8n-io/n8n",
+      "link": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "totalStars": "204845",
+      "totalForks": "60733",
+      "growth": "+204845",
+      "growthValue": 204845,
       "rank": 1
+    },
+    {
+      "name": "cilium/cilium",
+      "link": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "totalStars": "25285",
+      "totalForks": "4067",
+      "growth": "+25285",
+      "growthValue": 25285,
+      "rank": 2
+    },
+    {
+      "name": "coder/coder",
+      "link": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "totalStars": "14750",
+      "totalForks": "1481",
+      "growth": "+14750",
+      "growthValue": 14750,
+      "rank": 3
+    },
+    {
+      "name": "Tencent/BrowserSkill",
+      "link": "https://github.com/Tencent/BrowserSkill",
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "language": "TypeScript",
+      "totalStars": "3734",
+      "totalForks": "258",
+      "growth": "+3734",
+      "growthValue": 3734,
+      "rank": 4
+    },
+    {
+      "name": "TencentCloud/Octop",
+      "link": "https://github.com/TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "totalStars": "3258",
+      "totalForks": "341",
+      "growth": "+3258",
+      "growthValue": 3258,
+      "rank": 5
     },
     {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "8366",
-      "totalForks": "463",
-      "growth": "+1264",
-      "growthValue": 1264,
-      "rank": 2
+      "totalStars": "9500",
+      "totalForks": "511",
+      "growth": "+2398",
+      "growthValue": 2398,
+      "rank": 6
+    },
+    {
+      "name": "alibaba/open-code-review",
+      "link": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "totalStars": "33862",
+      "totalForks": "2413",
+      "growth": "+2144",
+      "growthValue": 2144,
+      "rank": 7
     },
     {
       "name": "Tencent/WeKnora",
       "link": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "totalStars": "25781",
-      "totalForks": "3518",
-      "growth": "+533",
-      "growthValue": 533,
-      "rank": 3
+      "totalStars": "26049",
+      "totalForks": "3539",
+      "growth": "+801",
+      "growthValue": 801,
+      "rank": 8
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "260652",
-      "totalForks": "39012",
-      "growth": "+409",
-      "growthValue": 409,
-      "rank": 4
-    },
-    {
-      "name": "NationalSecurityAgency/ghidra",
-      "link": "https://github.com/NationalSecurityAgency/ghidra",
-      "description": "Ghidra is a software reverse engineering (SRE) framework",
-      "language": "Java",
-      "totalStars": "78092",
-      "totalForks": "8640",
-      "growth": "+342",
-      "growthValue": 342,
-      "rank": 5
+      "totalStars": "260928",
+      "totalForks": "39043",
+      "growth": "+685",
+      "growthValue": 685,
+      "rank": 9
     },
     {
       "name": "alphaXiv/OpenResearch",
       "link": "https://github.com/alphaXiv/OpenResearch",
       "description": "Turn your coding agents into research agents",
       "language": "Rust",
-      "totalStars": "4717",
-      "totalForks": "285",
-      "growth": "+338",
-      "growthValue": 338,
-      "rank": 6
-    },
-    {
-      "name": "JustVugg/colibri",
-      "link": "https://github.com/JustVugg/colibri",
-      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-      "language": "C",
-      "totalStars": "35298",
-      "totalForks": "3710",
-      "growth": "+291",
-      "growthValue": 291,
-      "rank": 7
-    },
-    {
-      "name": "abue-ammar/tinycast",
-      "link": "https://github.com/abue-ammar/tinycast",
-      "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
-      "language": "Swift",
-      "totalStars": "5836",
-      "totalForks": "274",
-      "growth": "+270",
-      "growthValue": 270,
-      "rank": 8
-    },
-    {
-      "name": "jamiepine/voicebox",
-      "link": "https://github.com/jamiepine/voicebox",
-      "description": "The open-source AI voice studio. Clone, dictate, create.",
-      "language": "TypeScript",
-      "totalStars": "54625",
-      "totalForks": "6800",
-      "growth": "+270",
-      "growthValue": 270,
-      "rank": 9
-    },
-    {
-      "name": "addyosmani/agent-skills",
-      "link": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "totalStars": "95681",
-      "totalForks": "10125",
-      "growth": "+261",
-      "growthValue": 261,
+      "totalStars": "4909",
+      "totalForks": "292",
+      "growth": "+530",
+      "growthValue": 530,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-17 08:29"
+  "lastUpdated": "2026-09-17 14:11"
 }
