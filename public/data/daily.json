@@ -1,80 +1,80 @@
 {
   "projects": [
     {
-      "name": "cloudflare/security-audit-skill",
-      "link": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "totalStars": "10524",
-      "totalForks": "561",
-      "growth": "+3422",
-      "growthValue": 3422,
-      "rank": 1
-    },
-    {
       "name": "alibaba/open-code-review",
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "34641",
-      "totalForks": "2463",
-      "growth": "+2923",
-      "growthValue": 2923,
+      "totalStars": "35760",
+      "totalForks": "2542",
+      "growth": "+1119",
+      "growthValue": 1119,
+      "rank": 1
+    },
+    {
+      "name": "cloudflare/security-audit-skill",
+      "link": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "totalStars": "11364",
+      "totalForks": "612",
+      "growth": "+840",
+      "growthValue": 840,
       "rank": 2
+    },
+    {
+      "name": "Tencent/BrowserSkill",
+      "link": "https://github.com/Tencent/BrowserSkill",
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "language": "TypeScript",
+      "totalStars": "4689",
+      "totalForks": "331",
+      "growth": "+608",
+      "growthValue": 608,
+      "rank": 3
     },
     {
       "name": "Tencent/WeKnora",
       "link": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "totalStars": "26161",
-      "totalForks": "3548",
-      "growth": "+913",
-      "growthValue": 913,
-      "rank": 3
+      "totalStars": "26633",
+      "totalForks": "3592",
+      "growth": "+472",
+      "growthValue": 472,
+      "rank": 4
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "261134",
-      "totalForks": "39089",
-      "growth": "+891",
-      "growthValue": 891,
-      "rank": 4
+      "totalStars": "261415",
+      "totalForks": "39131",
+      "growth": "+281",
+      "growthValue": 281,
+      "rank": 5
     },
     {
-      "name": "JustVugg/colibri",
-      "link": "https://github.com/JustVugg/colibri",
-      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-      "language": "C",
-      "totalStars": "35729",
-      "totalForks": "3749",
-      "growth": "+722",
-      "growthValue": 722,
-      "rank": 5
+      "name": "TencentCloud/Octop",
+      "link": "https://github.com/TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "totalStars": "3686",
+      "totalForks": "384",
+      "growth": "+270",
+      "growthValue": 270,
+      "rank": 6
     },
     {
       "name": "NationalSecurityAgency/ghidra",
       "link": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "totalStars": "78452",
-      "totalForks": "8680",
-      "growth": "+702",
-      "growthValue": 702,
-      "rank": 6
-    },
-    {
-      "name": "abue-ammar/tinycast",
-      "link": "https://github.com/abue-ammar/tinycast",
-      "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
-      "language": "Swift",
-      "totalStars": "6130",
-      "totalForks": "286",
-      "growth": "+564",
-      "growthValue": 564,
+      "totalStars": "78713",
+      "totalForks": "8703",
+      "growth": "+261",
+      "growthValue": 261,
       "rank": 7
     },
     {
@@ -82,34 +82,34 @@
       "link": "https://github.com/alphaXiv/OpenResearch",
       "description": "Turn your coding agents into research agents",
       "language": "Rust",
-      "totalStars": "4925",
-      "totalForks": "304",
-      "growth": "+546",
-      "growthValue": 546,
+      "totalStars": "5153",
+      "totalForks": "313",
+      "growth": "+228",
+      "growthValue": 228,
       "rank": 8
-    },
-    {
-      "name": "jamiepine/voicebox",
-      "link": "https://github.com/jamiepine/voicebox",
-      "description": "The open-source AI voice studio. Clone, dictate, create.",
-      "language": "TypeScript",
-      "totalStars": "54826",
-      "totalForks": "6823",
-      "growth": "+471",
-      "growthValue": 471,
-      "rank": 9
     },
     {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "95827",
-      "totalForks": "10144",
-      "growth": "+407",
-      "growthValue": 407,
+      "totalStars": "96053",
+      "totalForks": "10163",
+      "growth": "+226",
+      "growthValue": 226,
+      "rank": 9
+    },
+    {
+      "name": "n8n-io/n8n",
+      "link": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "totalStars": "205159",
+      "totalForks": "60759",
+      "growth": "+205",
+      "growthValue": 205,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-17 23:26"
+  "lastUpdated": "2026-09-18 08:04"
 }

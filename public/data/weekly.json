@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "bilawalsidhu/gods-eye-view",
-      "link": "https://github.com/bilawalsidhu/gods-eye-view",
-      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "language": "JavaScript",
-      "totalStars": "37053",
-      "totalForks": "7450",
-      "growth": "+12954",
-      "growthValue": 12954,
-      "rank": 1
-    },
-    {
       "name": "alibaba/open-code-review",
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "34641",
-      "totalForks": "2463",
-      "growth": "+11206",
-      "growthValue": 11206,
+      "totalStars": "35760",
+      "totalForks": "2542",
+      "growth": "+12325",
+      "growthValue": 12325,
+      "rank": 1
+    },
+    {
+      "name": "bilawalsidhu/gods-eye-view",
+      "link": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "totalStars": "37317",
+      "totalForks": "7502",
+      "growth": "+10334",
+      "growthValue": 10334,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
-      "totalStars": "47444",
-      "totalForks": "2763",
-      "growth": "+9309",
-      "growthValue": 9309,
+      "totalStars": "47656",
+      "totalForks": "2775",
+      "growth": "+6010",
+      "growthValue": 6010,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "261134",
-      "totalForks": "39089",
-      "growth": "+5268",
-      "growthValue": 5268,
+      "totalStars": "261415",
+      "totalForks": "39131",
+      "growth": "+4917",
+      "growthValue": 4917,
       "rank": 4
     },
     {
@@ -49,10 +49,10 @@
       "link": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "totalStars": "26161",
-      "totalForks": "3548",
-      "growth": "+3832",
-      "growthValue": 3832,
+      "totalStars": "26633",
+      "totalForks": "3592",
+      "growth": "+4304",
+      "growthValue": 4304,
       "rank": 5
     },
     {
@@ -60,10 +60,10 @@
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "288115",
-      "totalForks": "25770",
-      "growth": "+3441",
-      "growthValue": 3441,
+      "totalStars": "288259",
+      "totalForks": "25783",
+      "growth": "+2910",
+      "growthValue": 2910,
       "rank": 6
     },
     {
@@ -71,10 +71,10 @@
       "link": "https://github.com/blader/humanizer",
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "language": "Python",
-      "totalStars": "49568",
-      "totalForks": "4015",
-      "growth": "+3123",
-      "growthValue": 3123,
+      "totalStars": "49716",
+      "totalForks": "4021",
+      "growth": "+2802",
+      "growthValue": 2802,
       "rank": 7
     },
     {
@@ -82,10 +82,10 @@
       "link": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "totalStars": "185116",
-      "totalForks": "13629",
-      "growth": "+2696",
-      "growthValue": 2696,
+      "totalStars": "185242",
+      "totalForks": "13635",
+      "growth": "+2569",
+      "growthValue": 2569,
       "rank": 8
     },
     {
@@ -93,10 +93,10 @@
       "link": "https://github.com/petergyang/no-ai-slop",
       "description": "Removes 20+ patterns of AI slop from any piece of writing.",
       "language": "Python",
-      "totalStars": "10363",
-      "totalForks": "725",
-      "growth": "+2425",
-      "growthValue": 2425,
+      "totalStars": "10441",
+      "totalForks": "727",
+      "growth": "+1793",
+      "growthValue": 1793,
       "rank": 9
     },
     {
@@ -104,32 +104,32 @@
       "link": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "totalStars": "82799",
-      "totalForks": "7241",
-      "growth": "+1587",
-      "growthValue": 1587,
+      "totalStars": "82930",
+      "totalForks": "7252",
+      "growth": "+1718",
+      "growthValue": 1718,
       "rank": 10
-    },
-    {
-      "name": "mksglu/context-mode",
-      "link": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "totalStars": "23388",
-      "totalForks": "1683",
-      "growth": "+1387",
-      "growthValue": 1387,
-      "rank": 11
     },
     {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "95827",
-      "totalForks": "10144",
-      "growth": "+1074",
-      "growthValue": 1074,
+      "totalStars": "96053",
+      "totalForks": "10163",
+      "growth": "+1300",
+      "growthValue": 1300,
+      "rank": 11
+    },
+    {
+      "name": "mksglu/context-mode",
+      "link": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "totalStars": "23443",
+      "totalForks": "1687",
+      "growth": "+1250",
+      "growthValue": 1250,
       "rank": 12
     },
     {
@@ -137,10 +137,10 @@
       "link": "https://github.com/max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
-      "totalStars": "7932",
-      "totalForks": "272",
-      "growth": "+723",
-      "growthValue": 723,
+      "totalStars": "7967",
+      "totalForks": "273",
+      "growth": "+758",
+      "growthValue": 758,
       "rank": 13
     },
     {
@@ -148,43 +148,43 @@
       "link": "https://github.com/kunchenguid/firstmate",
       "description": "Talk to one agent. Ship with a crew.",
       "language": "Shell",
-      "totalStars": "6395",
-      "totalForks": "1962",
-      "growth": "+673",
-      "growthValue": 673,
+      "totalStars": "6455",
+      "totalForks": "1974",
+      "growth": "+733",
+      "growthValue": 733,
       "rank": 14
-    },
-    {
-      "name": "openai/plugins",
-      "link": "https://github.com/openai/plugins",
-      "description": "OpenAI Plugins",
-      "language": "JavaScript",
-      "totalStars": "6910",
-      "totalForks": "900",
-      "growth": "+529",
-      "growthValue": 529,
-      "rank": 15
-    },
-    {
-      "name": "danny-avila/LibreChat",
-      "link": "https://github.com/danny-avila/LibreChat",
-      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-      "language": "TypeScript",
-      "totalStars": "44233",
-      "totalForks": "9090",
-      "growth": "+432",
-      "growthValue": 432,
-      "rank": 16
     },
     {
       "name": "anthropics/claude-code",
       "link": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
-      "totalStars": "145854",
-      "totalForks": "23625",
-      "growth": "+375",
-      "growthValue": 375,
+      "totalStars": "145990",
+      "totalForks": "23662",
+      "growth": "+511",
+      "growthValue": 511,
+      "rank": 15
+    },
+    {
+      "name": "openai/plugins",
+      "link": "https://github.com/openai/plugins",
+      "description": "OpenAI Plugins",
+      "language": "JavaScript",
+      "totalStars": "6937",
+      "totalForks": "901",
+      "growth": "+495",
+      "growthValue": 495,
+      "rank": 16
+    },
+    {
+      "name": "danny-avila/LibreChat",
+      "link": "https://github.com/danny-avila/LibreChat",
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "language": "TypeScript",
+      "totalStars": "44267",
+      "totalForks": "9099",
+      "growth": "+466",
+      "growthValue": 466,
       "rank": 17
     },
     {
@@ -192,10 +192,10 @@
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "24546",
-      "totalForks": "2940",
-      "growth": "+275",
-      "growthValue": 275,
+      "totalStars": "24671",
+      "totalForks": "2958",
+      "growth": "+400",
+      "growthValue": 400,
       "rank": 18
     },
     {
@@ -203,10 +203,10 @@
       "link": "https://github.com/decolua/9router",
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "language": "JavaScript",
-      "totalStars": "29165",
-      "totalForks": "5375",
-      "growth": "+265",
-      "growthValue": 265,
+      "totalStars": "29219",
+      "totalForks": "5389",
+      "growth": "+319",
+      "growthValue": 319,
       "rank": 19
     },
     {
@@ -214,12 +214,12 @@
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "totalStars": "71104",
-      "totalForks": "4650",
-      "growth": "+118",
-      "growthValue": 118,
+      "totalStars": "71393",
+      "totalForks": "4673",
+      "growth": "+289",
+      "growthValue": 289,
       "rank": 20
     }
   ],
-  "lastUpdated": "2026-09-17 23:26"
+  "lastUpdated": "2026-09-18 08:04"
 }
