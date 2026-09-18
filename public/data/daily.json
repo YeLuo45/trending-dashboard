@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "Fission-AI/OpenSpec",
-      "link": "https://github.com/Fission-AI/OpenSpec",
-      "description": "Spec-driven development (SDD) for AI coding assistants.",
-      "language": "TypeScript",
-      "totalStars": "69107",
-      "totalForks": "4740",
-      "growth": "+69107",
-      "growthValue": 69107,
-      "rank": 1
-    },
-    {
-      "name": "rustfs/rustfs",
-      "link": "https://github.com/rustfs/rustfs",
-      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-      "language": "Rust",
-      "totalStars": "32968",
-      "totalForks": "1475",
-      "growth": "+32968",
-      "growthValue": 32968,
-      "rank": 2
-    },
-    {
-      "name": "supermemoryai/supermemory",
-      "link": "https://github.com/supermemoryai/supermemory",
-      "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-      "language": "TypeScript",
-      "totalStars": "30053",
-      "totalForks": "2632",
-      "growth": "+30053",
-      "growthValue": 30053,
-      "rank": 3
-    },
-    {
-      "name": "ahmedkhaleel2004/gitdiagram",
-      "link": "https://github.com/ahmedkhaleel2004/gitdiagram",
-      "description": "Free, simple, fast interactive diagrams for any GitHub repository",
-      "language": "TypeScript",
-      "totalStars": "16269",
-      "totalForks": "1250",
-      "growth": "+16269",
-      "growthValue": 16269,
-      "rank": 4
-    },
-    {
-      "name": "tradesdontlie/tradingview-mcp",
-      "link": "https://github.com/tradesdontlie/tradingview-mcp",
-      "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
-      "language": "JavaScript",
-      "totalStars": "6357",
-      "totalForks": "2709",
-      "growth": "+6357",
-      "growthValue": 6357,
-      "rank": 5
-    },
-    {
-      "name": "asciimoo/hister",
-      "link": "https://github.com/asciimoo/hister",
-      "description": "Your own search engine",
-      "language": "Go",
-      "totalStars": "4719",
-      "totalForks": "199",
-      "growth": "+4719",
-      "growthValue": 4719,
-      "rank": 6
-    },
-    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "12135",
-      "totalForks": "656",
-      "growth": "+1611",
-      "growthValue": 1611,
-      "rank": 7
+      "totalStars": "12954",
+      "totalForks": "693",
+      "growth": "+2430",
+      "growthValue": 2430,
+      "rank": 1
     },
     {
       "name": "alibaba/open-code-review",
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "36214",
-      "totalForks": "2574",
-      "growth": "+1573",
-      "growthValue": 1573,
-      "rank": 8
+      "totalStars": "36464",
+      "totalForks": "2601",
+      "growth": "+1823",
+      "growthValue": 1823,
+      "rank": 2
     },
     {
       "name": "Tencent/BrowserSkill",
       "link": "https://github.com/Tencent/BrowserSkill",
       "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
       "language": "TypeScript",
-      "totalStars": "4924",
-      "totalForks": "345",
-      "growth": "+843",
-      "growthValue": 843,
-      "rank": 9
+      "totalStars": "5141",
+      "totalForks": "358",
+      "growth": "+1060",
+      "growthValue": 1060,
+      "rank": 3
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "261607",
-      "totalForks": "39155",
-      "growth": "+473",
-      "growthValue": 473,
+      "totalStars": "261793",
+      "totalForks": "39173",
+      "growth": "+659",
+      "growthValue": 659,
+      "rank": 4
+    },
+    {
+      "name": "TencentCloud/Octop",
+      "link": "https://github.com/TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "totalStars": "3885",
+      "totalForks": "401",
+      "growth": "+469",
+      "growthValue": 469,
+      "rank": 5
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "totalStars": "96270",
+      "totalForks": "10180",
+      "growth": "+443",
+      "growthValue": 443,
+      "rank": 6
+    },
+    {
+      "name": "coder/coder",
+      "link": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "totalStars": "15175",
+      "totalForks": "1498",
+      "growth": "+361",
+      "growthValue": 361,
+      "rank": 7
+    },
+    {
+      "name": "anthropics/claude-code",
+      "link": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "totalStars": "146183",
+      "totalForks": "23731",
+      "growth": "+329",
+      "growthValue": 329,
+      "rank": 8
+    },
+    {
+      "name": "anthropics/knowledge-work-plugins",
+      "link": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "totalStars": "24804",
+      "totalForks": "2963",
+      "growth": "+258",
+      "growthValue": 258,
+      "rank": 9
+    },
+    {
+      "name": "asciimoo/hister",
+      "link": "https://github.com/asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "totalStars": "4855",
+      "totalForks": "201",
+      "growth": "+136",
+      "growthValue": 136,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-18 13:29"
+  "lastUpdated": "2026-09-18 18:10"
 }
