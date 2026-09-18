@@ -5,10 +5,10 @@
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "12954",
-      "totalForks": "693",
-      "growth": "+2430",
-      "growthValue": 2430,
+      "totalStars": "13542",
+      "totalForks": "725",
+      "growth": "+3018",
+      "growthValue": 3018,
       "rank": 1
     },
     {
@@ -16,10 +16,10 @@
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "36464",
-      "totalForks": "2601",
-      "growth": "+1823",
-      "growthValue": 1823,
+      "totalStars": "36614",
+      "totalForks": "2607",
+      "growth": "+1973",
+      "growthValue": 1973,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/Tencent/BrowserSkill",
       "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
       "language": "TypeScript",
-      "totalStars": "5141",
-      "totalForks": "358",
-      "growth": "+1060",
-      "growthValue": 1060,
+      "totalStars": "5256",
+      "totalForks": "364",
+      "growth": "+1175",
+      "growthValue": 1175,
       "rank": 3
     },
     {
@@ -38,32 +38,32 @@
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "261793",
-      "totalForks": "39173",
-      "growth": "+659",
-      "growthValue": 659,
+      "totalStars": "262020",
+      "totalForks": "39205",
+      "growth": "+886",
+      "growthValue": 886,
       "rank": 4
-    },
-    {
-      "name": "TencentCloud/Octop",
-      "link": "https://github.com/TencentCloud/Octop",
-      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-      "language": "Python",
-      "totalStars": "3885",
-      "totalForks": "401",
-      "growth": "+469",
-      "growthValue": 469,
-      "rank": 5
     },
     {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "96270",
-      "totalForks": "10180",
-      "growth": "+443",
-      "growthValue": 443,
+      "totalStars": "96376",
+      "totalForks": "10189",
+      "growth": "+549",
+      "growthValue": 549,
+      "rank": 5
+    },
+    {
+      "name": "TencentCloud/Octop",
+      "link": "https://github.com/TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "totalStars": "3939",
+      "totalForks": "405",
+      "growth": "+523",
+      "growthValue": 523,
       "rank": 6
     },
     {
@@ -71,10 +71,10 @@
       "link": "https://github.com/coder/coder",
       "description": "Secure environments for developers and their agents",
       "language": "Go",
-      "totalStars": "15175",
-      "totalForks": "1498",
-      "growth": "+361",
-      "growthValue": 361,
+      "totalStars": "15266",
+      "totalForks": "1503",
+      "growth": "+452",
+      "growthValue": 452,
       "rank": 7
     },
     {
@@ -82,10 +82,10 @@
       "link": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
-      "totalStars": "146183",
-      "totalForks": "23731",
-      "growth": "+329",
-      "growthValue": 329,
+      "totalStars": "146268",
+      "totalForks": "23781",
+      "growth": "+414",
+      "growthValue": 414,
       "rank": 8
     },
     {
@@ -93,23 +93,23 @@
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "24804",
-      "totalForks": "2963",
-      "growth": "+258",
-      "growthValue": 258,
+      "totalStars": "24864",
+      "totalForks": "2969",
+      "growth": "+318",
+      "growthValue": 318,
       "rank": 9
     },
     {
-      "name": "asciimoo/hister",
-      "link": "https://github.com/asciimoo/hister",
-      "description": "Your own search engine",
-      "language": "Go",
-      "totalStars": "4855",
-      "totalForks": "201",
-      "growth": "+136",
-      "growthValue": 136,
+      "name": "supabase/supabase",
+      "link": "https://github.com/supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "totalStars": "110134",
+      "totalForks": "14292",
+      "growth": "+202",
+      "growthValue": 202,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-18 18:10"
+  "lastUpdated": "2026-09-18 23:07"
 }
