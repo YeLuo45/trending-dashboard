@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "ruanyf/weekly",
+      "link": "https://github.com/ruanyf/weekly",
+      "description": "科技爱好者周刊，每周五发布",
+      "language": "",
+      "totalStars": "102977",
+      "totalForks": "4420",
+      "growth": "+102977",
+      "growthValue": 102977,
+      "rank": 1
+    },
+    {
+      "name": "docling-project/docling",
+      "link": "https://github.com/docling-project/docling",
+      "description": "Get your documents ready for gen AI",
+      "language": "Python",
+      "totalStars": "66755",
+      "totalForks": "4817",
+      "growth": "+66755",
+      "growthValue": 66755,
+      "rank": 2
+    },
+    {
+      "name": "ZuodaoTech/everyone-can-use-english",
+      "link": "https://github.com/ZuodaoTech/everyone-can-use-english",
+      "description": "人人都能用英语",
+      "language": "TypeScript",
+      "totalStars": "37677",
+      "totalForks": "5199",
+      "growth": "+37677",
+      "growthValue": 37677,
+      "rank": 3
+    },
+    {
+      "name": "trycua/cua",
+      "link": "https://github.com/trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "language": "HTML",
+      "totalStars": "23907",
+      "totalForks": "1653",
+      "growth": "+23907",
+      "growthValue": 23907,
+      "rank": 4
+    },
+    {
+      "name": "Open-Dev-Society/OpenStock",
+      "link": "https://github.com/Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "language": "TypeScript",
+      "totalStars": "15729",
+      "totalForks": "2058",
+      "growth": "+15729",
+      "growthValue": 15729,
+      "rank": 5
+    },
+    {
+      "name": "cloudflare/quiche",
+      "link": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "language": "Rust",
+      "totalStars": "11873",
+      "totalForks": "1099",
+      "growth": "+11873",
+      "growthValue": 11873,
+      "rank": 6
+    },
+    {
+      "name": "cactus-compute/needle",
+      "link": "https://github.com/cactus-compute/needle",
+      "description": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.",
+      "language": "Python",
+      "totalStars": "11427",
+      "totalForks": "727",
+      "growth": "+11427",
+      "growthValue": 11427,
+      "rank": 7
+    },
+    {
+      "name": "higgsfield-ai/higgsfield",
+      "link": "https://github.com/higgsfield-ai/higgsfield",
+      "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+      "language": "Jupyter Notebook",
+      "totalStars": "4701",
+      "totalForks": "874",
+      "growth": "+4701",
+      "growthValue": 4701,
+      "rank": 8
+    },
+    {
+      "name": "yynxxxxx/Codex-X",
+      "link": "https://github.com/yynxxxxx/Codex-X",
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "language": "Rust",
+      "totalStars": "3319",
+      "totalForks": "440",
+      "growth": "+3319",
+      "growthValue": 3319,
+      "rank": 9
+    },
+    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "14453",
-      "totalForks": "781",
-      "growth": "+911",
-      "growthValue": 911,
-      "rank": 1
-    },
-    {
-      "name": "alibaba/open-code-review",
-      "link": "https://github.com/alibaba/open-code-review",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "language": "Go",
-      "totalStars": "36989",
-      "totalForks": "2639",
-      "growth": "+375",
-      "growthValue": 375,
-      "rank": 2
-    },
-    {
-      "name": "affaan-m/ECC",
-      "link": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "totalStars": "262315",
-      "totalForks": "39236",
-      "growth": "+295",
-      "growthValue": 295,
-      "rank": 3
-    },
-    {
-      "name": "Tencent/BrowserSkill",
-      "link": "https://github.com/Tencent/BrowserSkill",
-      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
-      "language": "TypeScript",
-      "totalStars": "5500",
-      "totalForks": "380",
-      "growth": "+244",
-      "growthValue": 244,
-      "rank": 4
-    },
-    {
-      "name": "addyosmani/agent-skills",
-      "link": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "totalStars": "96566",
-      "totalForks": "10204",
-      "growth": "+190",
-      "growthValue": 190,
-      "rank": 5
-    },
-    {
-      "name": "supermemoryai/supermemory",
-      "link": "https://github.com/supermemoryai/supermemory",
-      "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-      "language": "TypeScript",
-      "totalStars": "30424",
-      "totalForks": "2648",
-      "growth": "+177",
-      "growthValue": 177,
-      "rank": 6
-    },
-    {
-      "name": "anthropics/claude-code",
-      "link": "https://github.com/anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "TypeScript",
-      "totalStars": "146440",
-      "totalForks": "23823",
-      "growth": "+172",
-      "growthValue": 172,
-      "rank": 7
-    },
-    {
-      "name": "Fission-AI/OpenSpec",
-      "link": "https://github.com/Fission-AI/OpenSpec",
-      "description": "Spec-driven development (SDD) for AI coding assistants.",
-      "language": "TypeScript",
-      "totalStars": "69476",
-      "totalForks": "4760",
-      "growth": "+157",
-      "growthValue": 157,
-      "rank": 8
-    },
-    {
-      "name": "coder/coder",
-      "link": "https://github.com/coder/coder",
-      "description": "Secure environments for developers and their agents",
-      "language": "Go",
-      "totalStars": "15386",
-      "totalForks": "1509",
-      "growth": "+120",
-      "growthValue": 120,
-      "rank": 9
-    },
-    {
-      "name": "rustfs/rustfs",
-      "link": "https://github.com/rustfs/rustfs",
-      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-      "language": "Rust",
-      "totalStars": "33255",
-      "totalForks": "1487",
-      "growth": "+117",
-      "growthValue": 117,
+      "totalStars": "15135",
+      "totalForks": "826",
+      "growth": "+1593",
+      "growthValue": 1593,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-19 07:54"
+  "lastUpdated": "2026-09-19 12:58"
 }
