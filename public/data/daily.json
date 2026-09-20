@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "paperless-ngx/paperless-ngx",
-      "link": "https://github.com/paperless-ngx/paperless-ngx",
-      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
-      "language": "Python",
-      "totalStars": "45382",
-      "totalForks": "3136",
-      "growth": "+45382",
-      "growthValue": 45382,
-      "rank": 1
-    },
-    {
-      "name": "anthropics/financial-services",
-      "link": "https://github.com/anthropics/financial-services",
-      "description": "",
-      "language": "Python",
-      "totalStars": "35220",
-      "totalForks": "5236",
-      "growth": "+35220",
-      "growthValue": 35220,
-      "rank": 2
-    },
-    {
-      "name": "vercel-labs/json-render",
-      "link": "https://github.com/vercel-labs/json-render",
-      "description": "The Generative UI framework",
-      "language": "TypeScript",
-      "totalStars": "17022",
-      "totalForks": "906",
-      "growth": "+17022",
-      "growthValue": 17022,
-      "rank": 3
-    },
-    {
-      "name": "BuilderIO/agent-native",
-      "link": "https://github.com/BuilderIO/agent-native",
-      "description": "A framework for building agentic apps",
-      "language": "TypeScript",
-      "totalStars": "5004",
-      "totalForks": "470",
-      "growth": "+5004",
-      "growthValue": 5004,
-      "rank": 4
-    },
-    {
-      "name": "mihail911/modern-software-dev-assignments",
-      "link": "https://github.com/mihail911/modern-software-dev-assignments",
-      "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
-      "language": "Python",
-      "totalStars": "4432",
-      "totalForks": "1006",
-      "growth": "+4432",
-      "growthValue": 4432,
-      "rank": 5
-    },
-    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "17494",
-      "totalForks": "967",
-      "growth": "+1296",
-      "growthValue": 1296,
-      "rank": 6
+      "totalStars": "17763",
+      "totalForks": "990",
+      "growth": "+1565",
+      "growthValue": 1565,
+      "rank": 1
     },
     {
       "name": "trycua/cua",
       "link": "https://github.com/trycua/cua",
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
       "language": "HTML",
-      "totalStars": "24902",
-      "totalForks": "1711",
-      "growth": "+556",
-      "growthValue": 556,
-      "rank": 7
+      "totalStars": "25029",
+      "totalForks": "1721",
+      "growth": "+683",
+      "growthValue": 683,
+      "rank": 2
     },
     {
       "name": "Open-Dev-Society/OpenStock",
       "link": "https://github.com/Open-Dev-Society/OpenStock",
       "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
       "language": "TypeScript",
-      "totalStars": "16483",
-      "totalForks": "2117",
-      "growth": "+490",
-      "growthValue": 490,
-      "rank": 8
-    },
-    {
-      "name": "addyosmani/agent-skills",
-      "link": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "totalStars": "97430",
-      "totalForks": "10275",
-      "growth": "+446",
-      "growthValue": 446,
-      "rank": 9
+      "totalStars": "16638",
+      "totalForks": "2130",
+      "growth": "+645",
+      "growthValue": 645,
+      "rank": 3
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "263319",
-      "totalForks": "39402",
-      "growth": "+405",
-      "growthValue": 405,
+      "totalStars": "263516",
+      "totalForks": "39437",
+      "growth": "+602",
+      "growthValue": 602,
+      "rank": 4
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "totalStars": "97563",
+      "totalForks": "10289",
+      "growth": "+579",
+      "growthValue": 579,
+      "rank": 5
+    },
+    {
+      "name": "coder/coder",
+      "link": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "totalStars": "15948",
+      "totalForks": "1539",
+      "growth": "+350",
+      "growthValue": 350,
+      "rank": 6
+    },
+    {
+      "name": "higgsfield-ai/higgsfield",
+      "link": "https://github.com/higgsfield-ai/higgsfield",
+      "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+      "language": "Jupyter Notebook",
+      "totalStars": "5264",
+      "totalForks": "945",
+      "growth": "+340",
+      "growthValue": 340,
+      "rank": 7
+    },
+    {
+      "name": "anthropics/claude-code",
+      "link": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "totalStars": "147017",
+      "totalForks": "24024",
+      "growth": "+333",
+      "growthValue": 333,
+      "rank": 8
+    },
+    {
+      "name": "vercel-labs/json-render",
+      "link": "https://github.com/vercel-labs/json-render",
+      "description": "The Generative UI framework",
+      "language": "TypeScript",
+      "totalStars": "17156",
+      "totalForks": "913",
+      "growth": "+134",
+      "growthValue": 134,
+      "rank": 9
+    },
+    {
+      "name": "BuilderIO/agent-native",
+      "link": "https://github.com/BuilderIO/agent-native",
+      "description": "A framework for building agentic apps",
+      "language": "TypeScript",
+      "totalStars": "5095",
+      "totalForks": "480",
+      "growth": "+91",
+      "growthValue": 91,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-20 13:30"
+  "lastUpdated": "2026-09-20 18:07"
 }
