@@ -1,91 +1,91 @@
 {
   "projects": [
     {
-      "name": "pytorch/pytorch",
-      "link": "https://github.com/pytorch/pytorch",
-      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "language": "Python",
-      "totalStars": "103196",
-      "totalForks": "30048",
-      "growth": "+103196",
-      "growthValue": 103196,
-      "rank": 1
-    },
-    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "20624",
-      "totalForks": "1171",
-      "growth": "+13522",
-      "growthValue": 13522,
-      "rank": 2
+      "totalStars": "20776",
+      "totalForks": "1183",
+      "growth": "+13674",
+      "growthValue": 13674,
+      "rank": 1
     },
     {
       "name": "alibaba/open-code-review",
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "40069",
-      "totalForks": "2880",
-      "growth": "+8351",
-      "growthValue": 8351,
-      "rank": 3
+      "totalStars": "40137",
+      "totalForks": "2884",
+      "growth": "+8419",
+      "growthValue": 8419,
+      "rank": 2
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "265900",
-      "totalForks": "39731",
-      "growth": "+5657",
-      "growthValue": 5657,
-      "rank": 4
+      "totalStars": "266062",
+      "totalForks": "39764",
+      "growth": "+5819",
+      "growthValue": 5819,
+      "rank": 3
     },
     {
       "name": "stablyai/orca",
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "totalStars": "76269",
-      "totalForks": "4998",
-      "growth": "+5165",
-      "growthValue": 5165,
-      "rank": 5
+      "totalStars": "76454",
+      "totalForks": "5012",
+      "growth": "+5350",
+      "growthValue": 5350,
+      "rank": 4
     },
     {
       "name": "Tencent/WeKnora",
       "link": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "totalStars": "29251",
-      "totalForks": "3939",
-      "growth": "+4003",
-      "growthValue": 4003,
-      "rank": 6
+      "totalStars": "29303",
+      "totalForks": "3944",
+      "growth": "+4055",
+      "growthValue": 4055,
+      "rank": 5
     },
     {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "98626",
+      "totalStars": "98674",
       "totalForks": "10364",
-      "growth": "+3206",
-      "growthValue": 3206,
-      "rank": 7
+      "growth": "+3254",
+      "growthValue": 3254,
+      "rank": 6
     },
     {
       "name": "Open-Dev-Society/OpenStock",
       "link": "https://github.com/Open-Dev-Society/OpenStock",
       "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
       "language": "TypeScript",
-      "totalStars": "18601",
-      "totalForks": "2271",
-      "growth": "+2608",
-      "growthValue": 2608,
+      "totalStars": "18716",
+      "totalForks": "2281",
+      "growth": "+2723",
+      "growthValue": 2723,
+      "rank": 7
+    },
+    {
+      "name": "JustVugg/colibri",
+      "link": "https://github.com/JustVugg/colibri",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "language": "C",
+      "totalStars": "37319",
+      "totalForks": "4031",
+      "growth": "+2312",
+      "growthValue": 2312,
       "rank": 8
     },
     {
@@ -93,133 +93,133 @@
       "link": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
-      "totalStars": "147759",
-      "totalForks": "24168",
-      "growth": "+2280",
-      "growthValue": 2280,
+      "totalStars": "147783",
+      "totalForks": "24199",
+      "growth": "+2304",
+      "growthValue": 2304,
       "rank": 9
-    },
-    {
-      "name": "JustVugg/colibri",
-      "link": "https://github.com/JustVugg/colibri",
-      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-      "language": "C",
-      "totalStars": "37273",
-      "totalForks": "4024",
-      "growth": "+2266",
-      "growthValue": 2266,
-      "rank": 10
     },
     {
       "name": "anthropics/financial-services",
       "link": "https://github.com/anthropics/financial-services",
       "description": "",
       "language": "Python",
-      "totalStars": "36745",
-      "totalForks": "5362",
-      "growth": "+1402",
-      "growthValue": 1402,
-      "rank": 11
+      "totalStars": "36856",
+      "totalForks": "5371",
+      "growth": "+1513",
+      "growthValue": 1513,
+      "rank": 10
     },
     {
       "name": "TencentCloud/Octop",
       "link": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "totalStars": "4717",
-      "totalForks": "552",
-      "growth": "+1301",
-      "growthValue": 1301,
-      "rank": 12
+      "totalStars": "4738",
+      "totalForks": "558",
+      "growth": "+1322",
+      "growthValue": 1322,
+      "rank": 11
     },
     {
       "name": "anthropics/knowledge-work-plugins",
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "25474",
-      "totalForks": "3021",
-      "growth": "+1203",
-      "growthValue": 1203,
-      "rank": 13
+      "totalStars": "25484",
+      "totalForks": "3023",
+      "growth": "+1213",
+      "growthValue": 1213,
+      "rank": 12
     },
     {
       "name": "cline/cline",
       "link": "https://github.com/cline/cline",
       "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
       "language": "TypeScript",
-      "totalStars": "69140",
-      "totalForks": "7497",
-      "growth": "+790",
-      "growthValue": 790,
-      "rank": 14
+      "totalStars": "69162",
+      "totalForks": "7498",
+      "growth": "+812",
+      "growthValue": 812,
+      "rank": 13
     },
     {
       "name": "Fission-AI/OpenSpec",
       "link": "https://github.com/Fission-AI/OpenSpec",
       "description": "Spec-driven development (SDD) for AI coding assistants.",
       "language": "TypeScript",
-      "totalStars": "69968",
-      "totalForks": "4787",
-      "growth": "+649",
-      "growthValue": 649,
-      "rank": 15
+      "totalStars": "70004",
+      "totalForks": "4788",
+      "growth": "+685",
+      "growthValue": 685,
+      "rank": 14
     },
     {
       "name": "danny-avila/LibreChat",
       "link": "https://github.com/danny-avila/LibreChat",
       "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
       "language": "TypeScript",
-      "totalStars": "44760",
+      "totalStars": "44777",
       "totalForks": "9184",
-      "growth": "+568",
-      "growthValue": 568,
-      "rank": 16
+      "growth": "+585",
+      "growthValue": 585,
+      "rank": 15
     },
     {
       "name": "cloudflare/quiche",
       "link": "https://github.com/cloudflare/quiche",
       "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
       "language": "Rust",
-      "totalStars": "12519",
-      "totalForks": "1144",
-      "growth": "+516",
-      "growthValue": 516,
-      "rank": 17
+      "totalStars": "12526",
+      "totalForks": "1145",
+      "growth": "+523",
+      "growthValue": 523,
+      "rank": 16
     },
     {
       "name": "superdesigndev/treg",
       "link": "https://github.com/superdesigndev/treg",
       "description": "OpenRouter for agent tools. Join community here:https://discord.gg/6mQYYfFMAn",
       "language": "Python",
-      "totalStars": "2523",
-      "totalForks": "233",
-      "growth": "+325",
-      "growthValue": 325,
-      "rank": 18
+      "totalStars": "2609",
+      "totalForks": "237",
+      "growth": "+411",
+      "growthValue": 411,
+      "rank": 17
     },
     {
       "name": "davila7/claude-code-templates",
       "link": "https://github.com/davila7/claude-code-templates",
       "description": "CLI tool for configuring and monitoring Claude Code",
       "language": "Python",
-      "totalStars": "31347",
-      "totalForks": "3558",
-      "growth": "+247",
-      "growthValue": 247,
-      "rank": 19
+      "totalStars": "31421",
+      "totalForks": "3571",
+      "growth": "+321",
+      "growthValue": 321,
+      "rank": 18
     },
     {
       "name": "cilium/cilium",
       "link": "https://github.com/cilium/cilium",
       "description": "eBPF-based Networking, Security, and Observability",
       "language": "Go",
-      "totalStars": "25478",
-      "totalForks": "4095",
-      "growth": "+223",
-      "growthValue": 223,
+      "totalStars": "25486",
+      "totalForks": "4096",
+      "growth": "+231",
+      "growthValue": 231,
+      "rank": 19
+    },
+    {
+      "name": "pytorch/pytorch",
+      "link": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "totalStars": "103200",
+      "totalForks": "30080",
+      "growth": "+4",
+      "growthValue": 4,
       "rank": 20
     }
   ],
-  "lastUpdated": "2026-09-23 14:08"
+  "lastUpdated": "2026-09-23 18:55"
 }
