@@ -1,93 +1,115 @@
 {
   "projects": [
     {
+      "name": "obra/superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "290481",
+      "totalForks": "25992",
+      "growth": "+290481",
+      "growthValue": 290481,
+      "rank": 1
+    },
+    {
+      "name": "pbakaus/impeccable",
+      "link": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "totalStars": "70134",
+      "totalForks": "4261",
+      "growth": "+70134",
+      "growthValue": 70134,
+      "rank": 2
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "link": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+      "language": "Python",
+      "totalStars": "49769",
+      "totalForks": "4593",
+      "growth": "+49769",
+      "growthValue": 49769,
+      "rank": 3
+    },
+    {
+      "name": "DeusData/codebase-memory-mcp",
+      "link": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "totalStars": "44356",
+      "totalForks": "3626",
+      "growth": "+44356",
+      "growthValue": 44356,
+      "rank": 4
+    },
+    {
+      "name": "strands-agents/harness-sdk",
+      "link": "https://github.com/strands-agents/harness-sdk",
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "language": "Python",
+      "totalStars": "7653",
+      "totalForks": "1191",
+      "growth": "+7653",
+      "growthValue": 7653,
+      "rank": 5
+    },
+    {
+      "name": "TNT-Likely/PanWatch",
+      "link": "https://github.com/TNT-Likely/PanWatch",
+      "description": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
+      "language": "Python",
+      "totalStars": "1410",
+      "totalForks": "291",
+      "growth": "+1410",
+      "growthValue": 1410,
+      "rank": 6
+    },
+    {
       "name": "google/ax",
       "link": "https://github.com/google/ax",
       "description": "Google's open agentic orchestration runtime",
       "language": "Go",
-      "totalStars": "8114",
-      "totalForks": "375",
-      "growth": "+576",
-      "growthValue": 576,
-      "rank": 1
+      "totalStars": "8482",
+      "totalForks": "390",
+      "growth": "+944",
+      "growthValue": 944,
+      "rank": 7
     },
     {
       "name": "dream-num/univer",
       "link": "https://github.com/dream-num/univer",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "language": "TypeScript",
-      "totalStars": "15894",
-      "totalForks": "1408",
-      "growth": "+531",
-      "growthValue": 531,
-      "rank": 2
+      "totalStars": "16107",
+      "totalForks": "1422",
+      "growth": "+744",
+      "growthValue": 744,
+      "rank": 8
+    },
+    {
+      "name": "harry7557558/spirula-studio",
+      "link": "https://github.com/harry7557558/spirula-studio",
+      "description": "Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA.",
+      "language": "C++",
+      "totalStars": "653",
+      "totalForks": "52",
+      "growth": "+653",
+      "growthValue": 653,
+      "rank": 9
     },
     {
       "name": "browser-use/video-use",
       "link": "https://github.com/browser-use/video-use",
       "description": "Edit videos with coding agents",
       "language": "Python",
-      "totalStars": "26137",
-      "totalForks": "3138",
-      "growth": "+320",
-      "growthValue": 320,
-      "rank": 3
-    },
-    {
-      "name": "anthropics/financial-services",
-      "link": "https://github.com/anthropics/financial-services",
-      "description": "",
-      "language": "Python",
-      "totalStars": "36608",
-      "totalForks": "5346",
-      "growth": "+301",
-      "growthValue": 301,
-      "rank": 4
-    },
-    {
-      "name": "agent-substrate/substrate",
-      "link": "https://github.com/agent-substrate/substrate",
-      "description": "Agent Substrate: the core system",
-      "language": "Go",
-      "totalStars": "3156",
-      "totalForks": "394",
-      "growth": "+205",
-      "growthValue": 205,
-      "rank": 5
-    },
-    {
-      "name": "mvt-project/mvt",
-      "link": "https://github.com/mvt-project/mvt",
-      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
-      "language": "Python",
-      "totalStars": "14270",
-      "totalForks": "1367",
-      "growth": "+195",
-      "growthValue": 195,
-      "rank": 6
-    },
-    {
-      "name": "superdesigndev/treg",
-      "link": "https://github.com/superdesigndev/treg",
-      "description": "OpenRouter for agent tools. Join community here:https://discord.gg/6mQYYfFMAn",
-      "language": "Python",
-      "totalStars": "2386",
-      "totalForks": "228",
-      "growth": "+188",
-      "growthValue": 188,
-      "rank": 7
-    },
-    {
-      "name": "davila7/claude-code-templates",
-      "link": "https://github.com/davila7/claude-code-templates",
-      "description": "CLI tool for configuring and monitoring Claude Code",
-      "language": "Python",
-      "totalStars": "31253",
-      "totalForks": "3552",
-      "growth": "+153",
-      "growthValue": 153,
-      "rank": 8
+      "totalStars": "26297",
+      "totalForks": "3151",
+      "growth": "+480",
+      "growthValue": 480,
+      "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-23 08:23"
+  "lastUpdated": "2026-09-23 14:08"
 }
