@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "google/ax",
-      "link": "https://github.com/google/ax",
-      "description": "Google's open agentic orchestration runtime",
-      "language": "Go",
-      "totalStars": "9511",
-      "totalForks": "469",
-      "growth": "+506",
-      "growthValue": 506,
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "totalStars": "56032",
+      "totalForks": "9883",
+      "growth": "+56032",
+      "growthValue": 56032,
       "rank": 1
+    },
+    {
+      "name": "vectorize-io/hindsight",
+      "link": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "totalStars": "27060",
+      "totalForks": "2551",
+      "growth": "+27060",
+      "growthValue": 27060,
+      "rank": 2
+    },
+    {
+      "name": "leejet/stable-diffusion.cpp",
+      "link": "https://github.com/leejet/stable-diffusion.cpp",
+      "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
+      "language": "C++",
+      "totalStars": "7169",
+      "totalForks": "810",
+      "growth": "+7169",
+      "growthValue": 7169,
+      "rank": 3
+    },
+    {
+      "name": "FxEmbed/FxEmbed",
+      "link": "https://github.com/FxEmbed/FxEmbed",
+      "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+      "language": "TypeScript",
+      "totalStars": "5286",
+      "totalForks": "243",
+      "growth": "+5286",
+      "growthValue": 5286,
+      "rank": 4
+    },
+    {
+      "name": "NVIDIA/Model-Optimizer",
+      "link": "https://github.com/NVIDIA/Model-Optimizer",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "language": "Python",
+      "totalStars": "3915",
+      "totalForks": "622",
+      "growth": "+3915",
+      "growthValue": 3915,
+      "rank": 5
+    },
+    {
+      "name": "julyx10/lap",
+      "link": "https://github.com/julyx10/lap",
+      "description": "An offline-first photo manager for large local libraries",
+      "language": "Vue",
+      "totalStars": "2716",
+      "totalForks": "165",
+      "growth": "+2716",
+      "growthValue": 2716,
+      "rank": 6
     },
     {
       "name": "dream-num/univer",
       "link": "https://github.com/dream-num/univer",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "language": "TypeScript",
-      "totalStars": "16564",
-      "totalForks": "1474",
-      "growth": "+257",
-      "growthValue": 257,
-      "rank": 2
+      "totalStars": "17165",
+      "totalForks": "1499",
+      "growth": "+858",
+      "growthValue": 858,
+      "rank": 7
+    },
+    {
+      "name": "google/ax",
+      "link": "https://github.com/google/ax",
+      "description": "Google's open agentic orchestration runtime",
+      "language": "Go",
+      "totalStars": "9812",
+      "totalForks": "484",
+      "growth": "+807",
+      "growthValue": 807,
+      "rank": 8
     },
     {
       "name": "obra/superpowers",
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "290896",
-      "totalForks": "26030",
-      "growth": "+228",
-      "growthValue": 228,
-      "rank": 3
-    },
-    {
-      "name": "Open-Dev-Society/OpenStock",
-      "link": "https://github.com/Open-Dev-Society/OpenStock",
-      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-      "language": "TypeScript",
-      "totalStars": "19016",
-      "totalForks": "2312",
-      "growth": "+220",
-      "growthValue": 220,
-      "rank": 4
-    },
-    {
-      "name": "pbakaus/impeccable",
-      "link": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "language": "JavaScript",
-      "totalStars": "70533",
-      "totalForks": "4278",
-      "growth": "+218",
-      "growthValue": 218,
-      "rank": 5
-    },
-    {
-      "name": "TNT-Likely/PanWatch",
-      "link": "https://github.com/TNT-Likely/PanWatch",
-      "description": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
-      "language": "Python",
-      "totalStars": "1690",
-      "totalForks": "313",
-      "growth": "+213",
-      "growthValue": 213,
-      "rank": 6
+      "totalStars": "291020",
+      "totalForks": "26038",
+      "growth": "+352",
+      "growthValue": 352,
+      "rank": 9
     },
     {
       "name": "anthropics/financial-services",
       "link": "https://github.com/anthropics/financial-services",
       "description": "",
       "language": "Python",
-      "totalStars": "37120",
-      "totalForks": "5400",
-      "growth": "+202",
-      "growthValue": 202,
-      "rank": 7
-    },
-    {
-      "name": "browser-use/video-use",
-      "link": "https://github.com/browser-use/video-use",
-      "description": "Edit videos with coding agents",
-      "language": "Python",
-      "totalStars": "26669",
-      "totalForks": "3177",
-      "growth": "+191",
-      "growthValue": 191,
-      "rank": 8
-    },
-    {
-      "name": "superdesigndev/treg",
-      "link": "https://github.com/superdesigndev/treg",
-      "description": "OpenRouter for agent tools. Join community here:https://discord.gg/6mQYYfFMAn",
-      "language": "Python",
-      "totalStars": "2873",
-      "totalForks": "248",
-      "growth": "+185",
-      "growthValue": 185,
-      "rank": 9
-    },
-    {
-      "name": "HKUDS/CLI-Anything",
-      "link": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "language": "Python",
-      "totalStars": "50086",
-      "totalForks": "4605",
-      "growth": "+184",
-      "growthValue": 184,
+      "totalStars": "37226",
+      "totalForks": "5408",
+      "growth": "+308",
+      "growthValue": 308,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-24 08:15"
+  "lastUpdated": "2026-09-24 14:06"
 }
