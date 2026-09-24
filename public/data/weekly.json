@@ -1,135 +1,135 @@
 {
   "projects": [
     {
-      "name": "vectorize-io/hindsight",
-      "link": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "language": "Python",
-      "totalStars": "27060",
-      "totalForks": "2551",
-      "growth": "+27060",
-      "growthValue": 27060,
-      "rank": 1
-    },
-    {
       "name": "stablyai/orca",
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "totalStars": "77177",
-      "totalForks": "5057",
-      "growth": "+6073",
-      "growthValue": 6073,
-      "rank": 2
+      "totalStars": "77399",
+      "totalForks": "5069",
+      "growth": "+6295",
+      "growthValue": 6295,
+      "rank": 1
     },
     {
       "name": "alibaba/open-code-review",
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "40540",
-      "totalForks": "2915",
-      "growth": "+5899",
-      "growthValue": 5899,
-      "rank": 3
+      "totalStars": "40680",
+      "totalForks": "2926",
+      "growth": "+6039",
+      "growthValue": 6039,
+      "rank": 2
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "266539",
-      "totalForks": "39834",
-      "growth": "+5405",
-      "growthValue": 5405,
-      "rank": 4
+      "totalStars": "266702",
+      "totalForks": "39856",
+      "growth": "+5568",
+      "growthValue": 5568,
+      "rank": 3
     },
     {
       "name": "Tencent/WeKnora",
       "link": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "totalStars": "29622",
-      "totalForks": "3984",
-      "growth": "+3461",
-      "growthValue": 3461,
-      "rank": 5
+      "totalStars": "29675",
+      "totalForks": "3993",
+      "growth": "+3514",
+      "growthValue": 3514,
+      "rank": 4
     },
     {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "98818",
-      "totalForks": "10383",
-      "growth": "+2991",
-      "growthValue": 2991,
-      "rank": 6
+      "totalStars": "98847",
+      "totalForks": "10387",
+      "growth": "+3020",
+      "growthValue": 3020,
+      "rank": 5
     },
     {
       "name": "anthropics/claude-code",
       "link": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
-      "totalStars": "147910",
-      "totalForks": "24322",
-      "growth": "+2056",
-      "growthValue": 2056,
-      "rank": 7
+      "totalStars": "147937",
+      "totalForks": "24340",
+      "growth": "+2083",
+      "growthValue": 2083,
+      "rank": 6
     },
     {
       "name": "anthropics/financial-services",
       "link": "https://github.com/anthropics/financial-services",
       "description": "",
       "language": "Python",
-      "totalStars": "37226",
-      "totalForks": "5408",
-      "growth": "+1883",
-      "growthValue": 1883,
-      "rank": 8
+      "totalStars": "37294",
+      "totalForks": "5416",
+      "growth": "+1951",
+      "growthValue": 1951,
+      "rank": 7
     },
     {
       "name": "JustVugg/colibri",
       "link": "https://github.com/JustVugg/colibri",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
-      "totalStars": "37468",
-      "totalForks": "4055",
-      "growth": "+1739",
-      "growthValue": 1739,
-      "rank": 9
+      "totalStars": "37503",
+      "totalForks": "4057",
+      "growth": "+1774",
+      "growthValue": 1774,
+      "rank": 8
     },
     {
       "name": "TencentCloud/Octop",
       "link": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "totalStars": "4837",
+      "totalStars": "4848",
       "totalForks": "574",
-      "growth": "+1421",
-      "growthValue": 1421,
-      "rank": 10
+      "growth": "+1432",
+      "growthValue": 1432,
+      "rank": 9
     },
     {
       "name": "akitaonrails/ai-memory",
       "link": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "totalStars": "8277",
-      "totalForks": "564",
-      "growth": "+1237",
-      "growthValue": 1237,
-      "rank": 11
+      "totalStars": "8314",
+      "totalForks": "565",
+      "growth": "+1274",
+      "growthValue": 1274,
+      "rank": 10
     },
     {
       "name": "anthropics/knowledge-work-plugins",
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "25533",
-      "totalForks": "3025",
-      "growth": "+987",
-      "growthValue": 987,
+      "totalStars": "25546",
+      "totalForks": "3024",
+      "growth": "+1000",
+      "growthValue": 1000,
+      "rank": 11
+    },
+    {
+      "name": "superdesigndev/treg",
+      "link": "https://github.com/superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here:https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "totalStars": "3082",
+      "totalForks": "257",
+      "growth": "+884",
+      "growthValue": 884,
       "rank": 12
     },
     {
@@ -137,54 +137,54 @@
       "link": "https://github.com/Fission-AI/OpenSpec",
       "description": "Spec-driven development (SDD) for AI coding assistants.",
       "language": "TypeScript",
-      "totalStars": "70158",
-      "totalForks": "4798",
-      "growth": "+839",
-      "growthValue": 839,
+      "totalStars": "70193",
+      "totalForks": "4802",
+      "growth": "+874",
+      "growthValue": 874,
       "rank": 13
-    },
-    {
-      "name": "superdesigndev/treg",
-      "link": "https://github.com/superdesigndev/treg",
-      "description": "OpenRouter for agent tools. Join community here:https://discord.gg/6mQYYfFMAn",
-      "language": "Python",
-      "totalStars": "2982",
-      "totalForks": "253",
-      "growth": "+784",
-      "growthValue": 784,
-      "rank": 14
     },
     {
       "name": "cline/cline",
       "link": "https://github.com/cline/cline",
       "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
       "language": "TypeScript",
-      "totalStars": "69215",
-      "totalForks": "7507",
-      "growth": "+668",
-      "growthValue": 668,
-      "rank": 15
+      "totalStars": "69228",
+      "totalForks": "7509",
+      "growth": "+681",
+      "growthValue": 681,
+      "rank": 14
     },
     {
       "name": "davila7/claude-code-templates",
       "link": "https://github.com/davila7/claude-code-templates",
       "description": "CLI tool for configuring and monitoring Claude Code",
       "language": "Python",
-      "totalStars": "31690",
-      "totalForks": "3598",
-      "growth": "+590",
-      "growthValue": 590,
-      "rank": 16
+      "totalStars": "31711",
+      "totalForks": "3602",
+      "growth": "+611",
+      "growthValue": 611,
+      "rank": 15
     },
     {
       "name": "cloudflare/quiche",
       "link": "https://github.com/cloudflare/quiche",
       "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
       "language": "Rust",
-      "totalStars": "12561",
+      "totalStars": "12572",
       "totalForks": "1148",
-      "growth": "+558",
-      "growthValue": 558,
+      "growth": "+569",
+      "growthValue": 569,
+      "rank": 16
+    },
+    {
+      "name": "vectorize-io/hindsight",
+      "link": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "totalStars": "27603",
+      "totalForks": "2669",
+      "growth": "+543",
+      "growthValue": 543,
       "rank": 17
     },
     {
@@ -192,10 +192,10 @@
       "link": "https://github.com/cilium/cilium",
       "description": "eBPF-based Networking, Security, and Observability",
       "language": "Go",
-      "totalStars": "25521",
-      "totalForks": "4100",
-      "growth": "+266",
-      "growthValue": 266,
+      "totalStars": "25528",
+      "totalForks": "4102",
+      "growth": "+273",
+      "growthValue": 273,
       "rank": 18
     },
     {
@@ -203,10 +203,10 @@
       "link": "https://github.com/pytorch/pytorch",
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "language": "Python",
-      "totalStars": "103244",
-      "totalForks": "30187",
-      "growth": "+30",
-      "growthValue": 30,
+      "totalStars": "103250",
+      "totalForks": "30198",
+      "growth": "+36",
+      "growthValue": 36,
       "rank": 19
     },
     {
@@ -214,12 +214,12 @@
       "link": "https://github.com/LibreChat-AI/LibreChat",
       "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
       "language": "TypeScript",
-      "totalStars": "44851",
-      "totalForks": "9193",
+      "totalStars": "44876",
+      "totalForks": "9197",
       "growth": "+25",
       "growthValue": 25,
       "rank": 20
     }
   ],
-  "lastUpdated": "2026-09-24 14:06"
+  "lastUpdated": "2026-09-24 18:53"
 }

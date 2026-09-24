@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "rohitg00/ai-engineering-from-scratch",
-      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "totalStars": "56032",
-      "totalForks": "9883",
-      "growth": "+56032",
-      "growthValue": 56032,
+      "name": "google/ax",
+      "link": "https://github.com/google/ax",
+      "description": "Google's open agentic orchestration runtime",
+      "language": "Go",
+      "totalStars": "10099",
+      "totalForks": "492",
+      "growth": "+1094",
+      "growthValue": 1094,
       "rank": 1
-    },
-    {
-      "name": "vectorize-io/hindsight",
-      "link": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "language": "Python",
-      "totalStars": "27060",
-      "totalForks": "2551",
-      "growth": "+27060",
-      "growthValue": 27060,
-      "rank": 2
-    },
-    {
-      "name": "leejet/stable-diffusion.cpp",
-      "link": "https://github.com/leejet/stable-diffusion.cpp",
-      "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
-      "language": "C++",
-      "totalStars": "7169",
-      "totalForks": "810",
-      "growth": "+7169",
-      "growthValue": 7169,
-      "rank": 3
-    },
-    {
-      "name": "FxEmbed/FxEmbed",
-      "link": "https://github.com/FxEmbed/FxEmbed",
-      "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
-      "language": "TypeScript",
-      "totalStars": "5286",
-      "totalForks": "243",
-      "growth": "+5286",
-      "growthValue": 5286,
-      "rank": 4
-    },
-    {
-      "name": "NVIDIA/Model-Optimizer",
-      "link": "https://github.com/NVIDIA/Model-Optimizer",
-      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
-      "language": "Python",
-      "totalStars": "3915",
-      "totalForks": "622",
-      "growth": "+3915",
-      "growthValue": 3915,
-      "rank": 5
-    },
-    {
-      "name": "julyx10/lap",
-      "link": "https://github.com/julyx10/lap",
-      "description": "An offline-first photo manager for large local libraries",
-      "language": "Vue",
-      "totalStars": "2716",
-      "totalForks": "165",
-      "growth": "+2716",
-      "growthValue": 2716,
-      "rank": 6
     },
     {
       "name": "dream-num/univer",
       "link": "https://github.com/dream-num/univer",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "language": "TypeScript",
-      "totalStars": "17165",
-      "totalForks": "1499",
-      "growth": "+858",
-      "growthValue": 858,
-      "rank": 7
+      "totalStars": "17391",
+      "totalForks": "1508",
+      "growth": "+1084",
+      "growthValue": 1084,
+      "rank": 2
     },
     {
-      "name": "google/ax",
-      "link": "https://github.com/google/ax",
-      "description": "Google's open agentic orchestration runtime",
-      "language": "Go",
-      "totalStars": "9812",
-      "totalForks": "484",
-      "growth": "+807",
-      "growthValue": 807,
-      "rank": 8
+      "name": "vectorize-io/hindsight",
+      "link": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "totalStars": "27603",
+      "totalForks": "2669",
+      "growth": "+543",
+      "growthValue": 543,
+      "rank": 3
     },
     {
       "name": "obra/superpowers",
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "291020",
-      "totalForks": "26038",
-      "growth": "+352",
-      "growthValue": 352,
-      "rank": 9
+      "totalStars": "291136",
+      "totalForks": "26048",
+      "growth": "+468",
+      "growthValue": 468,
+      "rank": 4
+    },
+    {
+      "name": "superdesigndev/treg",
+      "link": "https://github.com/superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here:https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "totalStars": "3082",
+      "totalForks": "257",
+      "growth": "+394",
+      "growthValue": 394,
+      "rank": 5
     },
     {
       "name": "anthropics/financial-services",
       "link": "https://github.com/anthropics/financial-services",
       "description": "",
       "language": "Python",
-      "totalStars": "37226",
-      "totalForks": "5408",
-      "growth": "+308",
-      "growthValue": 308,
+      "totalStars": "37294",
+      "totalForks": "5416",
+      "growth": "+376",
+      "growthValue": 376,
+      "rank": 6
+    },
+    {
+      "name": "strands-agents/harness-sdk",
+      "link": "https://github.com/strands-agents/harness-sdk",
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "language": "Python",
+      "totalStars": "8184",
+      "totalForks": "1225",
+      "growth": "+357",
+      "growthValue": 357,
+      "rank": 7
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "link": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+      "language": "Python",
+      "totalStars": "50245",
+      "totalForks": "4614",
+      "growth": "+343",
+      "growthValue": 343,
+      "rank": 8
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "totalStars": "56319",
+      "totalForks": "9913",
+      "growth": "+287",
+      "growthValue": 287,
+      "rank": 9
+    },
+    {
+      "name": "mvt-project/mvt",
+      "link": "https://github.com/mvt-project/mvt",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "language": "Python",
+      "totalStars": "14669",
+      "totalForks": "1392",
+      "growth": "+198",
+      "growthValue": 198,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-24 14:06"
+  "lastUpdated": "2026-09-24 18:53"
 }
