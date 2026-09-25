@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "vectorize-io/hindsight",
+      "link": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "totalStars": "28351",
+      "totalForks": "2814",
+      "growth": "+599",
+      "growthValue": 599,
+      "rank": 1
+    },
+    {
       "name": "google/ax",
       "link": "https://github.com/google/ax",
       "description": "Google's open agentic orchestration runtime",
       "language": "Go",
-      "totalStars": "10383",
-      "totalForks": "501",
-      "growth": "+1378",
-      "growthValue": 1378,
-      "rank": 1
+      "totalStars": "10898",
+      "totalForks": "528",
+      "growth": "+515",
+      "growthValue": 515,
+      "rank": 2
     },
     {
       "name": "dream-num/univer",
       "link": "https://github.com/dream-num/univer",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "language": "TypeScript",
-      "totalStars": "17565",
-      "totalForks": "1516",
-      "growth": "+1258",
-      "growthValue": 1258,
-      "rank": 2
-    },
-    {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "291223",
-      "totalForks": "26052",
-      "growth": "+555",
-      "growthValue": 555,
+      "totalStars": "18018",
+      "totalForks": "1547",
+      "growth": "+453",
+      "growthValue": 453,
       "rank": 3
-    },
-    {
-      "name": "superdesigndev/treg",
-      "link": "https://github.com/superdesigndev/treg",
-      "description": "OpenRouter for agent tools. Join community here:https://discord.gg/6mQYYfFMAn",
-      "language": "Python",
-      "totalStars": "3147",
-      "totalForks": "262",
-      "growth": "+459",
-      "growthValue": 459,
-      "rank": 4
-    },
-    {
-      "name": "anthropics/financial-services",
-      "link": "https://github.com/anthropics/financial-services",
-      "description": "",
-      "language": "Python",
-      "totalStars": "37345",
-      "totalForks": "5418",
-      "growth": "+427",
-      "growthValue": 427,
-      "rank": 5
-    },
-    {
-      "name": "HKUDS/CLI-Anything",
-      "link": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "language": "Python",
-      "totalStars": "50323",
-      "totalForks": "4615",
-      "growth": "+421",
-      "growthValue": 421,
-      "rank": 6
-    },
-    {
-      "name": "strands-agents/harness-sdk",
-      "link": "https://github.com/strands-agents/harness-sdk",
-      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
-      "language": "Python",
-      "totalStars": "8244",
-      "totalForks": "1235",
-      "growth": "+417",
-      "growthValue": 417,
-      "rank": 7
-    },
-    {
-      "name": "mvt-project/mvt",
-      "link": "https://github.com/mvt-project/mvt",
-      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
-      "language": "Python",
-      "totalStars": "14722",
-      "totalForks": "1392",
-      "growth": "+251",
-      "growthValue": 251,
-      "rank": 8
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "totalStars": "56525",
-      "totalForks": "9926",
-      "growth": "+206",
-      "growthValue": 206,
+      "totalStars": "56939",
+      "totalForks": "9966",
+      "growth": "+414",
+      "growthValue": 414,
+      "rank": 4
+    },
+    {
+      "name": "NVIDIA/Model-Optimizer",
+      "link": "https://github.com/NVIDIA/Model-Optimizer",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "language": "Python",
+      "totalStars": "4198",
+      "totalForks": "636",
+      "growth": "+134",
+      "growthValue": 134,
+      "rank": 5
+    },
+    {
+      "name": "obra/superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "291347",
+      "totalForks": "26070",
+      "growth": "+124",
+      "growthValue": 124,
+      "rank": 6
+    },
+    {
+      "name": "julyx10/lap",
+      "link": "https://github.com/julyx10/lap",
+      "description": "An offline-first photo manager for large local libraries",
+      "language": "Vue",
+      "totalStars": "2980",
+      "totalForks": "173",
+      "growth": "+121",
+      "growthValue": 121,
+      "rank": 7
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "link": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+      "language": "Python",
+      "totalStars": "50440",
+      "totalForks": "4621",
+      "growth": "+117",
+      "growthValue": 117,
+      "rank": 8
+    },
+    {
+      "name": "superdesigndev/treg",
+      "link": "https://github.com/superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here:https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "totalStars": "3262",
+      "totalForks": "273",
+      "growth": "+115",
+      "growthValue": 115,
       "rank": 9
     },
     {
-      "name": "vectorize-io/hindsight",
-      "link": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
+      "name": "strands-agents/harness-sdk",
+      "link": "https://github.com/strands-agents/harness-sdk",
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
       "language": "Python",
-      "totalStars": "27752",
-      "totalForks": "2680",
-      "growth": "+149",
-      "growthValue": 149,
+      "totalStars": "8351",
+      "totalForks": "1245",
+      "growth": "+107",
+      "growthValue": 107,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-24 23:48"
+  "lastUpdated": "2026-09-25 08:38"
 }
