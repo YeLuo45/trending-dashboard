@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "tensorflow/tensorflow",
+      "link": "https://github.com/tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "language": "C++",
+      "totalStars": "200361",
+      "totalForks": "77553",
+      "growth": "+200361",
+      "growthValue": 200361,
+      "rank": 1
+    },
+    {
+      "name": "microsoft/vscode",
+      "link": "https://github.com/microsoft/vscode",
+      "description": "Visual Studio Code",
+      "language": "TypeScript",
+      "totalStars": "192980",
+      "totalForks": "43470",
+      "growth": "+192980",
+      "growthValue": 192980,
+      "rank": 2
+    },
+    {
+      "name": "vercel/next.js",
+      "link": "https://github.com/vercel/next.js",
+      "description": "The React Framework",
+      "language": "JavaScript",
+      "totalStars": "142477",
+      "totalForks": "33079",
+      "growth": "+142477",
+      "growthValue": 142477,
+      "rank": 3
+    },
+    {
+      "name": "llvm/llvm-project",
+      "link": "https://github.com/llvm/llvm-project",
+      "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+      "language": "LLVM",
+      "totalStars": "40696",
+      "totalForks": "18813",
+      "growth": "+40696",
+      "growthValue": 40696,
+      "rank": 4
+    },
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "link": "https://github.com/zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "language": "PowerShell",
+      "totalStars": "37761",
+      "totalForks": "5250",
+      "growth": "+37761",
+      "growthValue": 37761,
+      "rank": 5
+    },
+    {
+      "name": "block/buzz",
+      "link": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "totalStars": "34721",
+      "totalForks": "4592",
+      "growth": "+34721",
+      "growthValue": 34721,
+      "rank": 6
+    },
+    {
+      "name": "actions/runner-images",
+      "link": "https://github.com/actions/runner-images",
+      "description": "GitHub Actions runner images",
+      "language": "PowerShell",
+      "totalStars": "13224",
+      "totalForks": "3859",
+      "growth": "+13224",
+      "growthValue": 13224,
+      "rank": 7
+    },
+    {
+      "name": "anthropics/claude-code-action",
+      "link": "https://github.com/anthropics/claude-code-action",
+      "description": "",
+      "language": "TypeScript",
+      "totalStars": "8986",
+      "totalForks": "2157",
+      "growth": "+8986",
+      "growthValue": 8986,
+      "rank": 8
+    },
+    {
+      "name": "mobile-next/mobile-mcp",
+      "link": "https://github.com/mobile-next/mobile-mcp",
+      "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
+      "language": "TypeScript",
+      "totalStars": "7100",
+      "totalForks": "628",
+      "growth": "+7100",
+      "growthValue": 7100,
+      "rank": 9
+    },
+    {
       "name": "paperclipai/paperclip",
       "link": "https://github.com/paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
-      "totalStars": "85603",
-      "totalForks": "15284",
-      "growth": "+733",
-      "growthValue": 733,
-      "rank": 1
-    },
-    {
-      "name": "vectorize-io/hindsight",
-      "link": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "language": "Python",
-      "totalStars": "30328",
-      "totalForks": "3252",
-      "growth": "+560",
-      "growthValue": 560,
-      "rank": 2
-    },
-    {
-      "name": "dream-num/univer",
-      "link": "https://github.com/dream-num/univer",
-      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-      "language": "TypeScript",
-      "totalStars": "18852",
-      "totalForks": "1611",
-      "growth": "+441",
-      "growthValue": 441,
-      "rank": 3
-    },
-    {
-      "name": "rohitg00/ai-engineering-from-scratch",
-      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "totalStars": "57779",
-      "totalForks": "10053",
-      "growth": "+315",
-      "growthValue": 315,
-      "rank": 4
-    },
-    {
-      "name": "google/ax",
-      "link": "https://github.com/google/ax",
-      "description": "Google's open agentic orchestration runtime",
-      "language": "Go",
-      "totalStars": "11684",
-      "totalForks": "560",
-      "growth": "+208",
-      "growthValue": 208,
-      "rank": 5
-    },
-    {
-      "name": "mattpocock/skills",
-      "link": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "totalStars": "269900",
-      "totalForks": "22740",
-      "growth": "+190",
-      "growthValue": 190,
-      "rank": 6
-    },
-    {
-      "name": "pbakaus/impeccable",
-      "link": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "language": "JavaScript",
-      "totalStars": "71338",
-      "totalForks": "4313",
-      "growth": "+157",
-      "growthValue": 157,
-      "rank": 7
-    },
-    {
-      "name": "anthropics/skills",
-      "link": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "language": "Python",
-      "totalStars": "178446",
-      "totalForks": "21120",
-      "growth": "+144",
-      "growthValue": 144,
-      "rank": 8
-    },
-    {
-      "name": "derv82/wifit3",
-      "link": "https://github.com/derv82/wifit3",
-      "description": "Wifite but USB-only & cross-platform.",
-      "language": "Python",
-      "totalStars": "1049",
-      "totalForks": "92",
-      "growth": "+144",
-      "growthValue": 144,
-      "rank": 9
-    },
-    {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "291783",
-      "totalForks": "26114",
-      "growth": "+130",
-      "growthValue": 130,
+      "totalStars": "86126",
+      "totalForks": "15327",
+      "growth": "+1256",
+      "growthValue": 1256,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-26 08:25"
+  "lastUpdated": "2026-09-26 13:40"
 }
