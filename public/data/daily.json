@@ -1,93 +1,115 @@
 {
   "projects": [
     {
+      "name": "VectifyAI/PageIndex",
+      "link": "https://github.com/VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "totalStars": "37177",
+      "totalForks": "3252",
+      "growth": "+37177",
+      "growthValue": 37177,
+      "rank": 1
+    },
+    {
+      "name": "t8y2/dbx",
+      "link": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "language": "Rust",
+      "totalStars": "21866",
+      "totalForks": "2082",
+      "growth": "+21866",
+      "growthValue": 21866,
+      "rank": 2
+    },
+    {
+      "name": "rakyll/hey",
+      "link": "https://github.com/rakyll/hey",
+      "description": "HTTP load generator, ApacheBench (ab) replacement",
+      "language": "Go",
+      "totalStars": "20443",
+      "totalForks": "1310",
+      "growth": "+20443",
+      "growthValue": 20443,
+      "rank": 3
+    },
+    {
+      "name": "oblien/openship",
+      "link": "https://github.com/oblien/openship",
+      "description": "Self-hosted deployment platform",
+      "language": "TypeScript",
+      "totalStars": "13746",
+      "totalForks": "1229",
+      "growth": "+13746",
+      "growthValue": 13746,
+      "rank": 4
+    },
+    {
+      "name": "NVIDIA/OpenShell",
+      "link": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "totalStars": "10408",
+      "totalForks": "1408",
+      "growth": "+10408",
+      "growthValue": 10408,
+      "rank": 5
+    },
+    {
+      "name": "averygan/reclip",
+      "link": "https://github.com/averygan/reclip",
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "language": "HTML",
+      "totalStars": "9987",
+      "totalForks": "1524",
+      "growth": "+9987",
+      "growthValue": 9987,
+      "rank": 6
+    },
+    {
       "name": "debpalash/VoiceStudio",
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "45889",
-      "totalForks": "5220",
-      "growth": "+2262",
-      "growthValue": 2262,
-      "rank": 1
-    },
-    {
-      "name": "paperclipai/paperclip",
-      "link": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "language": "TypeScript",
-      "totalStars": "93736",
-      "totalForks": "15964",
-      "growth": "+1187",
-      "growthValue": 1187,
-      "rank": 2
+      "totalStars": "47600",
+      "totalForks": "5357",
+      "growth": "+3973",
+      "growthValue": 3973,
+      "rank": 7
     },
     {
       "name": "vectorize-io/hindsight",
       "link": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "totalStars": "41792",
-      "totalForks": "5610",
-      "growth": "+980",
-      "growthValue": 980,
-      "rank": 3
-    },
-    {
-      "name": "byoungd/up",
-      "link": "https://github.com/byoungd/up",
-      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
-      "language": "JavaScript",
-      "totalStars": "65298",
-      "totalForks": "6554",
-      "growth": "+700",
-      "growthValue": 700,
-      "rank": 4
-    },
-    {
-      "name": "mvschwarz/openrig",
-      "link": "https://github.com/mvschwarz/openrig",
-      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
-      "language": "TypeScript",
-      "totalStars": "2003",
-      "totalForks": "149",
-      "growth": "+377",
-      "growthValue": 377,
-      "rank": 5
-    },
-    {
-      "name": "dream-num/univer",
-      "link": "https://github.com/dream-num/univer",
-      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-      "language": "TypeScript",
-      "totalStars": "21540",
-      "totalForks": "1820",
-      "growth": "+371",
-      "growthValue": 371,
-      "rank": 6
-    },
-    {
-      "name": "cs341-illinois/coursebook",
-      "link": "https://github.com/cs341-illinois/coursebook",
-      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
-      "language": "TeX",
-      "totalStars": "2722",
-      "totalForks": "249",
-      "growth": "+270",
-      "growthValue": 270,
-      "rank": 7
-    },
-    {
-      "name": "NawfalMotii79/PLFM_RADAR",
-      "link": "https://github.com/NawfalMotii79/PLFM_RADAR",
-      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
-      "language": "PLSQL",
-      "totalStars": "25977",
-      "totalForks": "5906",
-      "growth": "+264",
-      "growthValue": 264,
+      "totalStars": "42672",
+      "totalForks": "5758",
+      "growth": "+1860",
+      "growthValue": 1860,
       "rank": 8
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "link": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "totalStars": "94284",
+      "totalForks": "16029",
+      "growth": "+1735",
+      "growthValue": 1735,
+      "rank": 9
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "totalStars": "61191",
+      "totalForks": "10520",
+      "growth": "+885",
+      "growthValue": 885,
+      "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-29 09:35"
+  "lastUpdated": "2026-09-29 19:52"
 }
