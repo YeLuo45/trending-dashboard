@@ -1,15 +1,12 @@
 {
-  "projects": [
+  "daily": [
     {
       "name": "debpalash/VoiceStudio",
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "totalStars": "44583",
-      "totalForks": "5132",
-      "growth": "+956",
-      "growthValue": 956,
-      "rank": 1
+      "totalForks": "5132"
     },
     {
       "name": "paperclipai/paperclip",
@@ -17,10 +14,7 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
       "totalStars": "93103",
-      "totalForks": "15916",
-      "growth": "+554",
-      "growthValue": 554,
-      "rank": 2
+      "totalForks": "15916"
     },
     {
       "name": "vectorize-io/hindsight",
@@ -28,54 +22,7 @@
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
       "totalStars": "41230",
-      "totalForks": "5562",
-      "growth": "+418",
-      "growthValue": 418,
-      "rank": 3
-    },
-    {
-      "name": "byoungd/up",
-      "link": "https://github.com/byoungd/up",
-      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
-      "language": "JavaScript",
-      "totalStars": "64858",
-      "totalForks": "6527",
-      "growth": "+260",
-      "growthValue": 260,
-      "rank": 4
-    },
-    {
-      "name": "mvschwarz/openrig",
-      "link": "https://github.com/mvschwarz/openrig",
-      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
-      "language": "TypeScript",
-      "totalStars": "1816",
-      "totalForks": "144",
-      "growth": "+190",
-      "growthValue": 190,
-      "rank": 5
-    },
-    {
-      "name": "dream-num/univer",
-      "link": "https://github.com/dream-num/univer",
-      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-      "language": "TypeScript",
-      "totalStars": "21356",
-      "totalForks": "1808",
-      "growth": "+187",
-      "growthValue": 187,
-      "rank": 6
-    },
-    {
-      "name": "cs341-illinois/coursebook",
-      "link": "https://github.com/cs341-illinois/coursebook",
-      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
-      "language": "TeX",
-      "totalStars": "2583",
-      "totalForks": "242",
-      "growth": "+131",
-      "growthValue": 131,
-      "rank": 7
+      "totalForks": "5562"
     },
     {
       "name": "NawfalMotii79/PLFM_RADAR",
@@ -83,11 +30,40 @@
       "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
       "language": "PLSQL",
       "totalStars": "25811",
-      "totalForks": "5888",
-      "growth": "+98",
-      "growthValue": 98,
-      "rank": 8
+      "totalForks": "5888"
+    },
+    {
+      "name": "cs341-illinois/coursebook",
+      "link": "https://github.com/cs341-illinois/coursebook",
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+      "language": "TeX",
+      "totalStars": "2583",
+      "totalForks": "242"
+    },
+    {
+      "name": "byoungd/up",
+      "link": "https://github.com/byoungd/up",
+      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+      "language": "JavaScript",
+      "totalStars": "64858",
+      "totalForks": "6527"
+    },
+    {
+      "name": "mvschwarz/openrig",
+      "link": "https://github.com/mvschwarz/openrig",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "language": "TypeScript",
+      "totalStars": "1816",
+      "totalForks": "144"
+    },
+    {
+      "name": "dream-num/univer",
+      "link": "https://github.com/dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "totalStars": "21356",
+      "totalForks": "1808"
     }
   ],
-  "lastUpdated": "2026-09-29 11:30"
+  "generatedAt": "2026-09-29T03:30:55.543859+00:00"
 }
