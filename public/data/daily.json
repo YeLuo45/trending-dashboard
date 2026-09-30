@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "VectifyAI/PageIndex",
-      "link": "https://github.com/VectifyAI/PageIndex",
-      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "name": "debpalash/VoiceStudio",
+      "link": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "37177",
-      "totalForks": "3252",
-      "growth": "+37177",
-      "growthValue": 37177,
+      "totalStars": "48057",
+      "totalForks": "5389",
+      "growth": "+457",
+      "growthValue": 457,
       "rank": 1
-    },
-    {
-      "name": "t8y2/dbx",
-      "link": "https://github.com/t8y2/dbx",
-      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
-      "language": "Rust",
-      "totalStars": "21866",
-      "totalForks": "2082",
-      "growth": "+21866",
-      "growthValue": 21866,
-      "rank": 2
-    },
-    {
-      "name": "rakyll/hey",
-      "link": "https://github.com/rakyll/hey",
-      "description": "HTTP load generator, ApacheBench (ab) replacement",
-      "language": "Go",
-      "totalStars": "20443",
-      "totalForks": "1310",
-      "growth": "+20443",
-      "growthValue": 20443,
-      "rank": 3
-    },
-    {
-      "name": "oblien/openship",
-      "link": "https://github.com/oblien/openship",
-      "description": "Self-hosted deployment platform",
-      "language": "TypeScript",
-      "totalStars": "13746",
-      "totalForks": "1229",
-      "growth": "+13746",
-      "growthValue": 13746,
-      "rank": 4
     },
     {
       "name": "NVIDIA/OpenShell",
       "link": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "totalStars": "10408",
-      "totalForks": "1408",
-      "growth": "+10408",
-      "growthValue": 10408,
-      "rank": 5
+      "totalStars": "10569",
+      "totalForks": "1420",
+      "growth": "+161",
+      "growthValue": 161,
+      "rank": 2
     },
     {
-      "name": "averygan/reclip",
-      "link": "https://github.com/averygan/reclip",
-      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
-      "language": "HTML",
-      "totalStars": "9987",
-      "totalForks": "1524",
-      "growth": "+9987",
-      "growthValue": 9987,
-      "rank": 6
-    },
-    {
-      "name": "debpalash/VoiceStudio",
-      "link": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "name": "VectifyAI/PageIndex",
+      "link": "https://github.com/VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "language": "Python",
-      "totalStars": "47600",
-      "totalForks": "5357",
-      "growth": "+3973",
-      "growthValue": 3973,
-      "rank": 7
-    },
-    {
-      "name": "vectorize-io/hindsight",
-      "link": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "language": "Python",
-      "totalStars": "42672",
-      "totalForks": "5758",
-      "growth": "+1860",
-      "growthValue": 1860,
-      "rank": 8
+      "totalStars": "37333",
+      "totalForks": "3262",
+      "growth": "+156",
+      "growthValue": 156,
+      "rank": 3
     },
     {
       "name": "paperclipai/paperclip",
       "link": "https://github.com/paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
-      "totalStars": "94284",
-      "totalForks": "16029",
-      "growth": "+1735",
-      "growthValue": 1735,
-      "rank": 9
+      "totalStars": "94435",
+      "totalForks": "16049",
+      "growth": "+151",
+      "growthValue": 151,
+      "rank": 4
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "totalStars": "61191",
-      "totalForks": "10520",
-      "growth": "+885",
-      "growthValue": 885,
+      "totalStars": "61334",
+      "totalForks": "10528",
+      "growth": "+143",
+      "growthValue": 143,
+      "rank": 5
+    },
+    {
+      "name": "vectorize-io/hindsight",
+      "link": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "totalStars": "42813",
+      "totalForks": "5767",
+      "growth": "+141",
+      "growthValue": 141,
+      "rank": 6
+    },
+    {
+      "name": "mvschwarz/openrig",
+      "link": "https://github.com/mvschwarz/openrig",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "language": "TypeScript",
+      "totalStars": "2423",
+      "totalForks": "176",
+      "growth": "+116",
+      "growthValue": 116,
+      "rank": 7
+    },
+    {
+      "name": "t8y2/dbx",
+      "link": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "language": "Rust",
+      "totalStars": "21970",
+      "totalForks": "2086",
+      "growth": "+104",
+      "growthValue": 104,
+      "rank": 8
+    },
+    {
+      "name": "averygan/reclip",
+      "link": "https://github.com/averygan/reclip",
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "language": "HTML",
+      "totalStars": "10080",
+      "totalForks": "1536",
+      "growth": "+93",
+      "growthValue": 93,
+      "rank": 9
+    },
+    {
+      "name": "cs341-illinois/coursebook",
+      "link": "https://github.com/cs341-illinois/coursebook",
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+      "language": "TeX",
+      "totalStars": "3092",
+      "totalForks": "275",
+      "growth": "+77",
+      "growthValue": 77,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-29 19:52"
+  "lastUpdated": "2026-09-30 00:09"
 }
