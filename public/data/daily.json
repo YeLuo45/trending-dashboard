@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "obra/superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "293885",
+      "totalForks": "26286",
+      "growth": "+293885",
+      "growthValue": 293885,
+      "rank": 1
+    },
+    {
+      "name": "earendil-works/pi",
+      "link": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "totalStars": "111100",
+      "totalForks": "14123",
+      "growth": "+111100",
+      "growthValue": 111100,
+      "rank": 2
+    },
+    {
+      "name": "HunxByts/GhostTrack",
+      "link": "https://github.com/HunxByts/GhostTrack",
+      "description": "Useful tool to track location or mobile number",
+      "language": "Python",
+      "totalStars": "16325",
+      "totalForks": "2250",
+      "growth": "+16325",
+      "growthValue": 16325,
+      "rank": 3
+    },
+    {
+      "name": "tile-ai/tilelang",
+      "link": "https://github.com/tile-ai/tilelang",
+      "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "language": "Python",
+      "totalStars": "8058",
+      "totalForks": "812",
+      "growth": "+8058",
+      "growthValue": 8058,
+      "rank": 4
+    },
+    {
+      "name": "pablostanley/yoinks",
+      "link": "https://github.com/pablostanley/yoinks",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "language": "TypeScript",
+      "totalStars": "2836",
+      "totalForks": "270",
+      "growth": "+2836",
+      "growthValue": 2836,
+      "rank": 5
+    },
+    {
       "name": "NVIDIA/OpenShell",
       "link": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "totalStars": "13504",
-      "totalForks": "1589",
-      "growth": "+1235",
-      "growthValue": 1235,
-      "rank": 1
-    },
-    {
-      "name": "debpalash/VoiceStudio",
-      "link": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "language": "Python",
-      "totalStars": "50932",
-      "totalForks": "5643",
-      "growth": "+732",
-      "growthValue": 732,
-      "rank": 2
+      "totalStars": "13924",
+      "totalForks": "1620",
+      "growth": "+1655",
+      "growthValue": 1655,
+      "rank": 6
     },
     {
       "name": "DietrichGebert/ponytail",
       "link": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "totalStars": "149636",
-      "totalForks": "8040",
-      "growth": "+629",
-      "growthValue": 629,
-      "rank": 3
+      "totalStars": "150288",
+      "totalForks": "8073",
+      "growth": "+1281",
+      "growthValue": 1281,
+      "rank": 7
     },
     {
-      "name": "t8y2/dbx",
-      "link": "https://github.com/t8y2/dbx",
-      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
-      "language": "Rust",
-      "totalStars": "23550",
-      "totalForks": "2169",
-      "growth": "+487",
-      "growthValue": 487,
-      "rank": 4
+      "name": "Friedrich-M/UniMate",
+      "link": "https://github.com/Friedrich-M/UniMate",
+      "description": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
+      "language": "Python",
+      "totalStars": "1028",
+      "totalForks": "97",
+      "growth": "+1028",
+      "growthValue": 1028,
+      "rank": 8
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "273329",
-      "totalForks": "22973",
-      "growth": "+455",
-      "growthValue": 455,
-      "rank": 5
+      "totalStars": "273746",
+      "totalForks": "22992",
+      "growth": "+872",
+      "growthValue": 872,
+      "rank": 9
     },
     {
       "name": "mvschwarz/openrig",
       "link": "https://github.com/mvschwarz/openrig",
-      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
       "language": "TypeScript",
-      "totalStars": "3266",
-      "totalForks": "225",
-      "growth": "+355",
-      "growthValue": 355,
-      "rank": 6
-    },
-    {
-      "name": "heygen-com/hyperframes",
-      "link": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "totalStars": "54967",
-      "totalForks": "4998",
-      "growth": "+339",
-      "growthValue": 339,
-      "rank": 7
-    },
-    {
-      "name": "harry0703/MoneyPrinterTurbo",
-      "link": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "language": "Python",
-      "totalStars": "127776",
-      "totalForks": "19984",
-      "growth": "+321",
-      "growthValue": 321,
-      "rank": 8
-    },
-    {
-      "name": "VectifyAI/PageIndex",
-      "link": "https://github.com/VectifyAI/PageIndex",
-      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-      "language": "Python",
-      "totalStars": "38297",
-      "totalForks": "3320",
-      "growth": "+244",
-      "growthValue": 244,
-      "rank": 9
-    },
-    {
-      "name": "byoungd/up",
-      "link": "https://github.com/byoungd/up",
-      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
-      "language": "JavaScript",
-      "totalStars": "66540",
-      "totalForks": "6647",
-      "growth": "+206",
-      "growthValue": 206,
+      "totalStars": "3603",
+      "totalForks": "241",
+      "growth": "+692",
+      "growthValue": 692,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-01 09:54"
+  "lastUpdated": "2026-10-01 20:12"
 }

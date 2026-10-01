@@ -1,91 +1,91 @@
 {
   "projects": [
     {
+      "name": "flutter/flutter",
+      "link": "https://github.com/flutter/flutter",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "language": "Dart",
+      "totalStars": "179191",
+      "totalForks": "32736",
+      "growth": "+179191",
+      "growthValue": 179191,
+      "rank": 1
+    },
+    {
       "name": "vectorize-io/hindsight",
       "link": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "totalStars": "44082",
-      "totalForks": "5856",
-      "growth": "+16330",
-      "growthValue": 16330,
-      "rank": 1
+      "totalStars": "44250",
+      "totalForks": "5855",
+      "growth": "+16498",
+      "growthValue": 16498,
+      "rank": 2
     },
     {
       "name": "debpalash/VoiceStudio",
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "50932",
-      "totalForks": "5643",
-      "growth": "+15686",
-      "growthValue": 15686,
-      "rank": 2
+      "totalStars": "51275",
+      "totalForks": "5696",
+      "growth": "+16029",
+      "growthValue": 16029,
+      "rank": 3
     },
     {
       "name": "paperclipai/paperclip",
       "link": "https://github.com/paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
-      "totalStars": "95509",
-      "totalForks": "16203",
-      "growth": "+10639",
-      "growthValue": 10639,
-      "rank": 3
+      "totalStars": "95760",
+      "totalForks": "16243",
+      "growth": "+10890",
+      "growthValue": 10890,
+      "rank": 4
+    },
+    {
+      "name": "tile-ai/tilelang",
+      "link": "https://github.com/tile-ai/tilelang",
+      "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "language": "Python",
+      "totalStars": "8058",
+      "totalForks": "812",
+      "growth": "+8058",
+      "growthValue": 8058,
+      "rank": 5
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "totalStars": "62237",
-      "totalForks": "10649",
-      "growth": "+5712",
-      "growthValue": 5712,
-      "rank": 4
-    },
-    {
-      "name": "stablyai/orca",
-      "link": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "language": "TypeScript",
-      "totalStars": "82693",
-      "totalForks": "5365",
-      "growth": "+5176",
-      "growthValue": 5176,
-      "rank": 5
+      "totalStars": "62373",
+      "totalForks": "10673",
+      "growth": "+5848",
+      "growthValue": 5848,
+      "rank": 6
     },
     {
       "name": "dream-num/univer",
       "link": "https://github.com/dream-num/univer",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "language": "TypeScript",
-      "totalStars": "22200",
-      "totalForks": "1869",
-      "growth": "+4635",
-      "growthValue": 4635,
-      "rank": 6
+      "totalStars": "22230",
+      "totalForks": "1868",
+      "growth": "+4665",
+      "growthValue": 4665,
+      "rank": 7
     },
     {
       "name": "pbakaus/impeccable",
       "link": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "JavaScript",
-      "totalStars": "73220",
-      "totalForks": "4422",
-      "growth": "+2687",
-      "growthValue": 2687,
-      "rank": 7
-    },
-    {
-      "name": "Tencent/WeKnora",
-      "link": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "totalStars": "31578",
-      "totalForks": "4211",
-      "growth": "+1872",
-      "growthValue": 1872,
+      "totalStars": "73559",
+      "totalForks": "4435",
+      "growth": "+3026",
+      "growthValue": 3026,
       "rank": 8
     },
     {
@@ -93,10 +93,10 @@
       "link": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "totalStars": "6156",
-      "totalForks": "778",
-      "growth": "+1292",
-      "growthValue": 1292,
+      "totalStars": "6222",
+      "totalForks": "785",
+      "growth": "+1358",
+      "growthValue": 1358,
       "rank": 9
     },
     {
@@ -104,10 +104,10 @@
       "link": "https://github.com/anthropics/financial-services",
       "description": "",
       "language": "Python",
-      "totalStars": "38413",
-      "totalForks": "5528",
-      "growth": "+1068",
-      "growthValue": 1068,
+      "totalStars": "38461",
+      "totalForks": "5533",
+      "growth": "+1116",
+      "growthValue": 1116,
       "rank": 10
     },
     {
@@ -115,10 +115,10 @@
       "link": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "totalStars": "51153",
-      "totalForks": "4665",
-      "growth": "+830",
-      "growthValue": 830,
+      "totalStars": "51206",
+      "totalForks": "4667",
+      "growth": "+883",
+      "growthValue": 883,
       "rank": 11
     },
     {
@@ -126,65 +126,65 @@
       "link": "https://github.com/davila7/claude-code-templates",
       "description": "CLI tool for configuring and monitoring Claude Code",
       "language": "Python",
-      "totalStars": "32255",
-      "totalForks": "3663",
-      "growth": "+527",
-      "growthValue": 527,
+      "totalStars": "32267",
+      "totalForks": "3665",
+      "growth": "+539",
+      "growthValue": 539,
       "rank": 12
+    },
+    {
+      "name": "agent-substrate/substrate",
+      "link": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "totalStars": "4087",
+      "totalForks": "489",
+      "growth": "+458",
+      "growthValue": 458,
+      "rank": 13
+    },
+    {
+      "name": "androoAGI/starnet",
+      "link": "https://github.com/androoAGI/starnet",
+      "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
+      "language": "JavaScript",
+      "totalStars": "844",
+      "totalForks": "142",
+      "growth": "+379",
+      "growthValue": 379,
+      "rank": 14
     },
     {
       "name": "vercel/next.js",
       "link": "https://github.com/vercel/next.js",
       "description": "The React Framework",
       "language": "JavaScript",
-      "totalStars": "142959",
-      "totalForks": "33550",
-      "growth": "+340",
-      "growthValue": 340,
-      "rank": 13
-    },
-    {
-      "name": "pytorch/pytorch",
-      "link": "https://github.com/pytorch/pytorch",
-      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "language": "Python",
-      "totalStars": "103584",
-      "totalForks": "31025",
-      "growth": "+322",
-      "growthValue": 322,
-      "rank": 14
+      "totalStars": "142978",
+      "totalForks": "33560",
+      "growth": "+359",
+      "growthValue": 359,
+      "rank": 15
     },
     {
       "name": "FxEmbed/FxEmbed",
       "link": "https://github.com/FxEmbed/FxEmbed",
       "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
       "language": "TypeScript",
-      "totalStars": "5619",
+      "totalStars": "5628",
       "totalForks": "269",
-      "growth": "+259",
-      "growthValue": 259,
-      "rank": 15
+      "growth": "+268",
+      "growthValue": 268,
+      "rank": 16
     },
     {
       "name": "anthropics/claude-code-action",
       "link": "https://github.com/anthropics/claude-code-action",
       "description": "",
       "language": "TypeScript",
-      "totalStars": "9301",
-      "totalForks": "2181",
-      "growth": "+220",
-      "growthValue": 220,
-      "rank": 16
-    },
-    {
-      "name": "elastic/elasticsearch",
-      "link": "https://github.com/elastic/elasticsearch",
-      "description": "Free and Open Source, Distributed, RESTful Search Engine",
-      "language": "Java",
-      "totalStars": "78174",
-      "totalForks": "26100",
-      "growth": "+131",
-      "growthValue": 131,
+      "totalStars": "9315",
+      "totalForks": "2182",
+      "growth": "+234",
+      "growthValue": 234,
       "rank": 17
     },
     {
@@ -192,12 +192,12 @@
       "link": "https://github.com/alirezarezvani/claude-skills",
       "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
       "language": "Python",
-      "totalStars": "27091",
-      "totalForks": "3831",
-      "growth": "+60",
-      "growthValue": 60,
+      "totalStars": "27159",
+      "totalForks": "3838",
+      "growth": "+128",
+      "growthValue": 128,
       "rank": 18
     }
   ],
-  "lastUpdated": "2026-10-01 09:54"
+  "lastUpdated": "2026-10-01 20:12"
 }
