@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "openclaw/openclaw",
-      "link": "https://github.com/openclaw/openclaw",
-      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
-      "language": "TypeScript",
-      "totalStars": "390941",
-      "totalForks": "82214",
-      "growth": "+390941",
-      "growthValue": 390941,
+      "name": "NVIDIA/OpenShell",
+      "link": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "totalStars": "12641",
+      "totalForks": "1545",
+      "growth": "+372",
+      "growthValue": 372,
       "rank": 1
-    },
-    {
-      "name": "mattpocock/skills",
-      "link": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "totalStars": "272874",
-      "totalForks": "22953",
-      "growth": "+272874",
-      "growthValue": 272874,
-      "rank": 2
-    },
-    {
-      "name": "harry0703/MoneyPrinterTurbo",
-      "link": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "language": "Python",
-      "totalStars": "127455",
-      "totalForks": "19939",
-      "growth": "+127455",
-      "growthValue": 127455,
-      "rank": 3
-    },
-    {
-      "name": "modelcontextprotocol/servers",
-      "link": "https://github.com/modelcontextprotocol/servers",
-      "description": "Model Context Protocol Servers",
-      "language": "TypeScript",
-      "totalStars": "90775",
-      "totalForks": "11721",
-      "growth": "+90775",
-      "growthValue": 90775,
-      "rank": 4
-    },
-    {
-      "name": "ComposioHQ/awesome-claude-skills",
-      "link": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "language": "Python",
-      "totalStars": "76077",
-      "totalForks": "8876",
-      "growth": "+76077",
-      "growthValue": 76077,
-      "rank": 5
-    },
-    {
-      "name": "colbymchenry/codegraph",
-      "link": "https://github.com/colbymchenry/codegraph",
-      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-      "language": "C",
-      "totalStars": "72544",
-      "totalForks": "4659",
-      "growth": "+72544",
-      "growthValue": 72544,
-      "rank": 6
-    },
-    {
-      "name": "firebase/firebase-ios-sdk",
-      "link": "https://github.com/firebase/firebase-ios-sdk",
-      "description": "Firebase SDK for Apple App Development",
-      "language": "C++",
-      "totalStars": "6741",
-      "totalForks": "1798",
-      "growth": "+6741",
-      "growthValue": 6741,
-      "rank": 7
     },
     {
       "name": "debpalash/VoiceStudio",
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "50200",
-      "totalForks": "5579",
-      "growth": "+2600",
-      "growthValue": 2600,
-      "rank": 8
+      "totalStars": "50420",
+      "totalForks": "5595",
+      "growth": "+220",
+      "growthValue": 220,
+      "rank": 2
     },
     {
-      "name": "NVIDIA/OpenShell",
-      "link": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "totalStars": "12269",
-      "totalForks": "1527",
-      "growth": "+1861",
-      "growthValue": 1861,
-      "rank": 9
+      "name": "DietrichGebert/ponytail",
+      "link": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "totalStars": "149170",
+      "totalForks": "8018",
+      "growth": "+163",
+      "growthValue": 163,
+      "rank": 3
+    },
+    {
+      "name": "mattpocock/skills",
+      "link": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "totalStars": "272994",
+      "totalForks": "22960",
+      "growth": "+120",
+      "growthValue": 120,
+      "rank": 4
     },
     {
       "name": "t8y2/dbx",
       "link": "https://github.com/t8y2/dbx",
       "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "language": "Rust",
-      "totalStars": "23063",
-      "totalForks": "2139",
-      "growth": "+1197",
-      "growthValue": 1197,
+      "totalStars": "23174",
+      "totalForks": "2152",
+      "growth": "+111",
+      "growthValue": 111,
+      "rank": 5
+    },
+    {
+      "name": "mvschwarz/openrig",
+      "link": "https://github.com/mvschwarz/openrig",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "language": "TypeScript",
+      "totalStars": "3016",
+      "totalForks": "210",
+      "growth": "+105",
+      "growthValue": 105,
+      "rank": 6
+    },
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "link": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "totalStars": "127550",
+      "totalForks": "19953",
+      "growth": "+95",
+      "growthValue": 95,
+      "rank": 7
+    },
+    {
+      "name": "heygen-com/hyperframes",
+      "link": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "totalStars": "54721",
+      "totalForks": "4973",
+      "growth": "+93",
+      "growthValue": 93,
+      "rank": 8
+    },
+    {
+      "name": "mksglu/context-mode",
+      "link": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "totalStars": "24483",
+      "totalForks": "1769",
+      "growth": "+63",
+      "growthValue": 63,
+      "rank": 9
+    },
+    {
+      "name": "VectifyAI/PageIndex",
+      "link": "https://github.com/VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "totalStars": "38116",
+      "totalForks": "3306",
+      "growth": "+63",
+      "growthValue": 63,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-09-30 19:53"
+  "lastUpdated": "2026-10-01 00:25"
 }
