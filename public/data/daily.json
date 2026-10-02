@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "JuliusBrussee/caveman",
+      "link": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "totalStars": "109007",
+      "totalForks": "6314",
+      "growth": "+109007",
+      "growthValue": 109007,
+      "rank": 1
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "link": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "totalStars": "88399",
+      "totalForks": "7785",
+      "growth": "+88399",
+      "growthValue": 88399,
+      "rank": 2
+    },
+    {
+      "name": "coreyhaines31/marketingskills",
+      "link": "https://github.com/coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "totalStars": "52345",
+      "totalForks": "7875",
+      "growth": "+52345",
+      "growthValue": 52345,
+      "rank": 3
+    },
+    {
+      "name": "getsentry/sentry",
+      "link": "https://github.com/getsentry/sentry",
+      "description": "Developer-first error tracking and performance monitoring",
+      "language": "Python",
+      "totalStars": "44997",
+      "totalForks": "4887",
+      "growth": "+44997",
+      "growthValue": 44997,
+      "rank": 4
+    },
+    {
+      "name": "google/skills",
+      "link": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "totalStars": "20696",
+      "totalForks": "1719",
+      "growth": "+20696",
+      "growthValue": 20696,
+      "rank": 5
+    },
+    {
+      "name": "Effect-TS/effect",
+      "link": "https://github.com/Effect-TS/effect",
+      "description": "Build production-ready applications in TypeScript",
+      "language": "TypeScript",
+      "totalStars": "16496",
+      "totalForks": "798",
+      "growth": "+16496",
+      "growthValue": 16496,
+      "rank": 6
+    },
+    {
       "name": "DietrichGebert/ponytail",
       "link": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "totalStars": "151010",
-      "totalForks": "8105",
-      "growth": "+722",
-      "growthValue": 722,
-      "rank": 1
+      "totalStars": "151552",
+      "totalForks": "8127",
+      "growth": "+1264",
+      "growthValue": 1264,
+      "rank": 7
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "274225",
-      "totalForks": "23034",
-      "growth": "+479",
-      "growthValue": 479,
-      "rank": 2
-    },
-    {
-      "name": "earendil-works/pi",
-      "link": "https://github.com/earendil-works/pi",
-      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "language": "TypeScript",
-      "totalStars": "111502",
-      "totalForks": "14149",
-      "growth": "+402",
-      "growthValue": 402,
-      "rank": 3
+      "totalStars": "274598",
+      "totalForks": "23053",
+      "growth": "+852",
+      "growthValue": 852,
+      "rank": 8
     },
     {
       "name": "pbakaus/impeccable",
       "link": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "JavaScript",
-      "totalStars": "73918",
-      "totalForks": "4453",
-      "growth": "+359",
-      "growthValue": 359,
-      "rank": 4
+      "totalStars": "74195",
+      "totalForks": "4471",
+      "growth": "+636",
+      "growthValue": 636,
+      "rank": 9
     },
     {
       "name": "mvschwarz/openrig",
       "link": "https://github.com/mvschwarz/openrig",
       "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
       "language": "TypeScript",
-      "totalStars": "3936",
-      "totalForks": "261",
-      "growth": "+333",
-      "growthValue": 333,
-      "rank": 5
-    },
-    {
-      "name": "pablostanley/yoinks",
-      "link": "https://github.com/pablostanley/yoinks",
-      "description": "yoink any video from your terminal. no shady ads.",
-      "language": "TypeScript",
-      "totalStars": "3142",
-      "totalForks": "294",
-      "growth": "+306",
-      "growthValue": 306,
-      "rank": 6
-    },
-    {
-      "name": "heygen-com/hyperframes",
-      "link": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "totalStars": "55541",
-      "totalForks": "5028",
-      "growth": "+294",
-      "growthValue": 294,
-      "rank": 7
-    },
-    {
-      "name": "NVIDIA/OpenShell",
-      "link": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "totalStars": "14189",
-      "totalForks": "1639",
-      "growth": "+265",
-      "growthValue": 265,
-      "rank": 8
-    },
-    {
-      "name": "HunxByts/GhostTrack",
-      "link": "https://github.com/HunxByts/GhostTrack",
-      "description": "Useful tool to track location or mobile number",
-      "language": "Python",
-      "totalStars": "16587",
-      "totalForks": "2270",
-      "growth": "+262",
-      "growthValue": 262,
-      "rank": 9
-    },
-    {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "294143",
-      "totalForks": "26305",
-      "growth": "+258",
-      "growthValue": 258,
+      "totalStars": "4190",
+      "totalForks": "285",
+      "growth": "+587",
+      "growthValue": 587,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-02 09:30"
+  "lastUpdated": "2026-10-02 19:48"
 }
