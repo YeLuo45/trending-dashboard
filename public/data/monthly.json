@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "tt-a1i/archify",
-      "link": "https://github.com/tt-a1i/archify",
-      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "language": "JavaScript",
-      "totalStars": "76747",
-      "totalForks": "5175",
-      "growth": "+31045",
-      "growthValue": 31045,
-      "rank": 1
-    },
-    {
       "name": "bilawalsidhu/gods-eye-view",
       "link": "https://github.com/bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "totalStars": "47028",
-      "totalForks": "9603",
-      "growth": "+30103",
-      "growthValue": 30103,
+      "totalStars": "47219",
+      "totalForks": "9628",
+      "growth": "+29740",
+      "growthValue": 29740,
+      "rank": 1
+    },
+    {
+      "name": "tt-a1i/archify",
+      "link": "https://github.com/tt-a1i/archify",
+      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "language": "JavaScript",
+      "totalStars": "76896",
+      "totalForks": "5194",
+      "growth": "+28897",
+      "growthValue": 28897,
       "rank": 2
     },
     {
@@ -27,32 +27,32 @@
       "link": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "totalStars": "153367",
-      "totalForks": "8222",
-      "growth": "+30029",
-      "growthValue": 30029,
+      "totalStars": "153985",
+      "totalForks": "8277",
+      "growth": "+28148",
+      "growthValue": 28148,
       "rank": 3
-    },
-    {
-      "name": "ayghri/i-have-adhd",
-      "link": "https://github.com/ayghri/i-have-adhd",
-      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "language": "Python",
-      "totalStars": "53169",
-      "totalForks": "3063",
-      "growth": "+26366",
-      "growthValue": 26366,
-      "rank": 4
     },
     {
       "name": "affaan-m/ECC",
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "272217",
-      "totalForks": "40647",
-      "growth": "+25098",
-      "growthValue": 25098,
+      "totalStars": "272511",
+      "totalForks": "40689",
+      "growth": "+24059",
+      "growthValue": 24059,
+      "rank": 4
+    },
+    {
+      "name": "ayghri/i-have-adhd",
+      "link": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "totalStars": "53283",
+      "totalForks": "3068",
+      "growth": "+23036",
+      "growthValue": 23036,
       "rank": 5
     },
     {
@@ -60,10 +60,10 @@
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "43513",
-      "totalForks": "3140",
-      "growth": "+20078",
-      "growthValue": 20078,
+      "totalStars": "43602",
+      "totalForks": "3147",
+      "growth": "+20167",
+      "growthValue": 20167,
       "rank": 6
     },
     {
@@ -71,10 +71,10 @@
       "link": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "totalStars": "45093",
-      "totalForks": "5895",
-      "growth": "+17341",
-      "growthValue": 17341,
+      "totalStars": "45244",
+      "totalForks": "5902",
+      "growth": "+17492",
+      "growthValue": 17492,
       "rank": 7
     },
     {
@@ -82,10 +82,10 @@
       "link": "https://github.com/paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
-      "totalStars": "96742",
-      "totalForks": "16384",
-      "growth": "+11872",
-      "growthValue": 11872,
+      "totalStars": "96879",
+      "totalForks": "16401",
+      "growth": "+12009",
+      "growthValue": 12009,
       "rank": 8
     },
     {
@@ -93,10 +93,10 @@
       "link": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "totalStars": "56303",
-      "totalForks": "5061",
-      "growth": "+10503",
-      "growthValue": 10503,
+      "totalStars": "56425",
+      "totalForks": "5070",
+      "growth": "+10625",
+      "growthValue": 10625,
       "rank": 9
     },
     {
@@ -104,10 +104,10 @@
       "link": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "totalStars": "31897",
-      "totalForks": "4255",
-      "growth": "+9568",
-      "growthValue": 9568,
+      "totalStars": "31947",
+      "totalForks": "4260",
+      "growth": "+9618",
+      "growthValue": 9618,
       "rank": 10
     },
     {
@@ -115,10 +115,10 @@
       "link": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
-      "totalStars": "30390",
-      "totalForks": "4259",
-      "growth": "+6291",
-      "growthValue": 6291,
+      "totalStars": "30469",
+      "totalForks": "4271",
+      "growth": "+6278",
+      "growthValue": 6278,
       "rank": 11
     },
     {
@@ -126,10 +126,10 @@
       "link": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "totalStars": "25244",
-      "totalForks": "1807",
-      "growth": "+4447",
-      "growthValue": 4447,
+      "totalStars": "25329",
+      "totalForks": "1812",
+      "growth": "+4532",
+      "growthValue": 4532,
       "rank": 12
     },
     {
@@ -137,10 +137,10 @@
       "link": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "totalStars": "14665",
-      "totalForks": "1678",
-      "growth": "+4257",
-      "growthValue": 4257,
+      "totalStars": "14728",
+      "totalForks": "1685",
+      "growth": "+4320",
+      "growthValue": 4320,
       "rank": 13
     },
     {
@@ -148,10 +148,10 @@
       "link": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
-      "totalStars": "149215",
-      "totalForks": "25356",
-      "growth": "+3736",
-      "growthValue": 3736,
+      "totalStars": "149333",
+      "totalForks": "25434",
+      "growth": "+3854",
+      "growthValue": 3854,
       "rank": 14
     },
     {
@@ -159,10 +159,10 @@
       "link": "https://github.com/trycua/cua",
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
       "language": "Rust",
-      "totalStars": "27934",
-      "totalForks": "1975",
-      "growth": "+3588",
-      "growthValue": 3588,
+      "totalStars": "27985",
+      "totalForks": "1983",
+      "growth": "+3639",
+      "growthValue": 3639,
       "rank": 15
     },
     {
@@ -170,10 +170,10 @@
       "link": "https://github.com/anthropics/financial-services",
       "description": "",
       "language": "Python",
-      "totalStars": "38642",
-      "totalForks": "5547",
-      "growth": "+3299",
-      "growthValue": 3299,
+      "totalStars": "38675",
+      "totalForks": "5548",
+      "growth": "+3332",
+      "growthValue": 3332,
       "rank": 16
     },
     {
@@ -181,10 +181,10 @@
       "link": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "totalStars": "6586",
-      "totalForks": "811",
-      "growth": "+3170",
-      "growthValue": 3170,
+      "totalStars": "6645",
+      "totalForks": "818",
+      "growth": "+3229",
+      "growthValue": 3229,
       "rank": 17
     },
     {
@@ -192,10 +192,10 @@
       "link": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "totalStars": "9650",
-      "totalForks": "914",
-      "growth": "+2879",
-      "growthValue": 2879,
+      "totalStars": "9698",
+      "totalForks": "919",
+      "growth": "+2885",
+      "growthValue": 2885,
       "rank": 18
     },
     {
@@ -203,10 +203,10 @@
       "link": "https://github.com/humanlayer/skills",
       "description": "",
       "language": "TypeScript",
-      "totalStars": "4880",
+      "totalStars": "4905",
       "totalForks": "157",
-      "growth": "+2212",
-      "growthValue": 2212,
+      "growth": "+2237",
+      "growthValue": 2237,
       "rank": 19
     },
     {
@@ -214,12 +214,12 @@
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "26036",
-      "totalForks": "3054",
-      "growth": "+1765",
-      "growthValue": 1765,
+      "totalStars": "26057",
+      "totalForks": "3053",
+      "growth": "+1786",
+      "growthValue": 1786,
       "rank": 20
     }
   ],
-  "lastUpdated": "2026-10-03 23:36"
+  "lastUpdated": "2026-10-04 09:29"
 }
