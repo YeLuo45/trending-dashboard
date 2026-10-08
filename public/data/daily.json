@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "addyosmani/agent-skills",
-      "link": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "totalStars": "102689",
-      "totalForks": "10759",
-      "growth": "+102689",
-      "growthValue": 102689,
-      "rank": 1
-    },
-    {
-      "name": "manaflow-ai/cmux",
-      "link": "https://github.com/manaflow-ai/cmux",
-      "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
-      "language": "Swift",
-      "totalStars": "27801",
-      "totalForks": "2460",
-      "growth": "+27801",
-      "growthValue": 27801,
-      "rank": 2
-    },
-    {
-      "name": "cloudflare/security-audit-skill",
-      "link": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "totalStars": "25929",
-      "totalForks": "1559",
-      "growth": "+25929",
-      "growthValue": 25929,
-      "rank": 3
-    },
-    {
-      "name": "EpicGames/raddebugger",
-      "link": "https://github.com/EpicGames/raddebugger",
-      "description": "A native, user-mode, multi-process, graphical debugger.",
-      "language": "C",
-      "totalStars": "7822",
-      "totalForks": "381",
-      "growth": "+7822",
-      "growthValue": 7822,
-      "rank": 4
-    },
-    {
       "name": "morluto/rea",
       "link": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "totalStars": "14189",
-      "totalForks": "1493",
-      "growth": "+5741",
-      "growthValue": 5741,
-      "rank": 5
+      "totalStars": "15117",
+      "totalForks": "1571",
+      "growth": "+928",
+      "growthValue": 928,
+      "rank": 1
     },
     {
       "name": "boykopovar/AnyPS5",
       "link": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "totalStars": "9915",
-      "totalForks": "745",
-      "growth": "+3771",
-      "growthValue": 3771,
-      "rank": 6
+      "totalStars": "10601",
+      "totalForks": "799",
+      "growth": "+686",
+      "growthValue": 686,
+      "rank": 2
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "279394",
-      "totalForks": "23407",
-      "growth": "+1433",
-      "growthValue": 1433,
-      "rank": 7
+      "totalStars": "279596",
+      "totalForks": "23426",
+      "growth": "+202",
+      "growthValue": 202,
+      "rank": 3
     },
     {
       "name": "DuarteSantos8/openGym",
       "link": "https://github.com/DuarteSantos8/openGym",
       "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
       "language": "JavaScript",
-      "totalStars": "6735",
-      "totalForks": "894",
-      "growth": "+1255",
-      "growthValue": 1255,
-      "rank": 8
+      "totalStars": "6900",
+      "totalForks": "907",
+      "growth": "+165",
+      "growthValue": 165,
+      "rank": 4
     },
     {
       "name": "tester-army/e2e",
       "link": "https://github.com/tester-army/e2e",
       "description": "Next generation e2e testing framework for web and mobile apps.",
       "language": "TypeScript",
-      "totalStars": "7289",
-      "totalForks": "326",
-      "growth": "+1206",
-      "growthValue": 1206,
-      "rank": 9
+      "totalStars": "7444",
+      "totalForks": "339",
+      "growth": "+155",
+      "growthValue": 155,
+      "rank": 5
     },
     {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "totalStars": "44843",
-      "totalForks": "2881",
-      "growth": "+926",
-      "growthValue": 926,
+      "totalStars": "44970",
+      "totalForks": "2887",
+      "growth": "+127",
+      "growthValue": 127,
+      "rank": 6
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "totalStars": "102815",
+      "totalForks": "10771",
+      "growth": "+126",
+      "growthValue": 126,
+      "rank": 7
+    },
+    {
+      "name": "cloudflare/security-audit-skill",
+      "link": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "totalStars": "26051",
+      "totalForks": "1564",
+      "growth": "+122",
+      "growthValue": 122,
+      "rank": 8
+    },
+    {
+      "name": "ayghri/i-have-adhd",
+      "link": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "totalStars": "55118",
+      "totalForks": "3159",
+      "growth": "+113",
+      "growthValue": 113,
+      "rank": 9
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "link": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "totalStars": "97724",
+      "totalForks": "8604",
+      "growth": "+100",
+      "growthValue": 100,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-07 20:30"
+  "lastUpdated": "2026-10-08 00:49"
 }
