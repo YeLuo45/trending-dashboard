@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "liquidslr/system-design-notes",
-      "link": "https://github.com/liquidslr/system-design-notes",
-      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
-      "language": "",
-      "totalStars": "24509",
-      "totalForks": "4590",
-      "growth": "+24509",
-      "growthValue": 24509,
-      "rank": 1
-    },
-    {
       "name": "morluto/rea",
       "link": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "totalStars": "23678",
-      "totalForks": "2617",
-      "growth": "+9489",
-      "growthValue": 9489,
+      "totalStars": "26583",
+      "totalForks": "3009",
+      "growth": "+2905",
+      "growthValue": 2905,
+      "rank": 1
+    },
+    {
+      "name": "boykopovar/AnyPS5",
+      "link": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "totalStars": "15784",
+      "totalForks": "1247",
+      "growth": "+884",
+      "growthValue": 884,
       "rank": 2
     },
     {
@@ -27,21 +27,21 @@
       "link": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
-      "totalStars": "7384",
-      "totalForks": "1002",
-      "growth": "+7384",
-      "growthValue": 7384,
+      "totalStars": "7974",
+      "totalForks": "1121",
+      "growth": "+590",
+      "growthValue": 590,
       "rank": 3
     },
     {
-      "name": "boykopovar/AnyPS5",
-      "link": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "language": "C++",
-      "totalStars": "14900",
-      "totalForks": "1182",
-      "growth": "+4985",
-      "growthValue": 4985,
+      "name": "cathrynlavery/diagram-design",
+      "link": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "totalStars": "46366",
+      "totalForks": "2950",
+      "growth": "+235",
+      "growthValue": 235,
       "rank": 4
     },
     {
@@ -49,43 +49,43 @@
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "280911",
-      "totalForks": "23551",
-      "growth": "+1517",
-      "growthValue": 1517,
+      "totalStars": "281094",
+      "totalForks": "23561",
+      "growth": "+183",
+      "growthValue": 183,
       "rank": 5
-    },
-    {
-      "name": "cathrynlavery/diagram-design",
-      "link": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "totalStars": "46131",
-      "totalForks": "2941",
-      "growth": "+1288",
-      "growthValue": 1288,
-      "rank": 6
     },
     {
       "name": "thedotmack/claude-mem",
       "link": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "totalStars": "98337",
-      "totalForks": "8628",
-      "growth": "+713",
-      "growthValue": 713,
-      "rank": 7
+      "totalStars": "98477",
+      "totalForks": "8637",
+      "growth": "+140",
+      "growthValue": 140,
+      "rank": 6
     },
     {
       "name": "anthropics/knowledge-work-plugins",
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "27443",
-      "totalForks": "3190",
-      "growth": "+340",
-      "growthValue": 340,
+      "totalStars": "27569",
+      "totalForks": "3202",
+      "growth": "+126",
+      "growthValue": 126,
+      "rank": 7
+    },
+    {
+      "name": "liquidslr/system-design-notes",
+      "link": "https://github.com/liquidslr/system-design-notes",
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "language": "",
+      "totalStars": "24622",
+      "totalForks": "4600",
+      "growth": "+113",
+      "growthValue": 113,
       "rank": 8
     },
     {
@@ -93,12 +93,12 @@
       "link": "https://github.com/EpicGames/raddebugger",
       "description": "A native, user-mode, multi-process, graphical debugger.",
       "language": "C",
-      "totalStars": "8078",
+      "totalStars": "8111",
       "totalForks": "391",
-      "growth": "+256",
-      "growthValue": 256,
+      "growth": "+33",
+      "growthValue": 33,
       "rank": 9
     }
   ],
-  "lastUpdated": "2026-10-08 20:34"
+  "lastUpdated": "2026-10-09 01:03"
 }
