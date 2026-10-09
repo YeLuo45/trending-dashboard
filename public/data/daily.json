@@ -1,104 +1,115 @@
 {
   "projects": [
     {
+      "name": "BerriAI/litellm",
+      "link": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "language": "Python",
+      "totalStars": "60583",
+      "totalForks": "12178",
+      "growth": "+60583",
+      "growthValue": 60583,
+      "rank": 1
+    },
+    {
       "name": "morluto/rea",
       "link": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "totalStars": "33321",
-      "totalForks": "4054",
-      "growth": "+9643",
-      "growthValue": 9643,
-      "rank": 1
+      "totalStars": "42065",
+      "totalForks": "6566",
+      "growth": "+18387",
+      "growthValue": 18387,
+      "rank": 2
+    },
+    {
+      "name": "Robbyant/lingbot-map",
+      "link": "https://github.com/Robbyant/lingbot-map",
+      "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+      "language": "Python",
+      "totalStars": "17638",
+      "totalForks": "1946",
+      "growth": "+17638",
+      "growthValue": 17638,
+      "rank": 3
     },
     {
       "name": "boykopovar/AnyPS5",
       "link": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "totalStars": "18156",
-      "totalForks": "1441",
-      "growth": "+3256",
-      "growthValue": 3256,
-      "rank": 2
+      "totalStars": "21285",
+      "totalForks": "1717",
+      "growth": "+6385",
+      "growthValue": 6385,
+      "rank": 4
+    },
+    {
+      "name": "twostraws/SwiftUI-Agent-Skill",
+      "link": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+      "language": "",
+      "totalStars": "5363",
+      "totalForks": "190",
+      "growth": "+5363",
+      "growthValue": 5363,
+      "rank": 5
     },
     {
       "name": "storytold/artcraft",
       "link": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
-      "totalStars": "9482",
-      "totalForks": "1394",
-      "growth": "+2098",
-      "growthValue": 2098,
-      "rank": 3
+      "totalStars": "10960",
+      "totalForks": "1645",
+      "growth": "+3576",
+      "growthValue": 3576,
+      "rank": 6
     },
     {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "totalStars": "47203",
-      "totalForks": "2996",
-      "growth": "+1072",
-      "growthValue": 1072,
-      "rank": 4
+      "totalStars": "47703",
+      "totalForks": "3024",
+      "growth": "+1572",
+      "growthValue": 1572,
+      "rank": 7
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "281838",
-      "totalForks": "23616",
-      "growth": "+927",
-      "growthValue": 927,
-      "rank": 5
-    },
-    {
-      "name": "liquidslr/system-design-notes",
-      "link": "https://github.com/liquidslr/system-design-notes",
-      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
-      "language": "",
-      "totalStars": "25145",
-      "totalForks": "4657",
-      "growth": "+636",
-      "growthValue": 636,
-      "rank": 6
+      "totalStars": "282433",
+      "totalForks": "23659",
+      "growth": "+1522",
+      "growthValue": 1522,
+      "rank": 8
     },
     {
       "name": "anthropics/knowledge-work-plugins",
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "27930",
-      "totalForks": "3225",
-      "growth": "+487",
-      "growthValue": 487,
-      "rank": 7
-    },
-    {
-      "name": "thedotmack/claude-mem",
-      "link": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "language": "TypeScript",
-      "totalStars": "98819",
-      "totalForks": "8659",
-      "growth": "+482",
-      "growthValue": 482,
-      "rank": 8
-    },
-    {
-      "name": "EpicGames/raddebugger",
-      "link": "https://github.com/EpicGames/raddebugger",
-      "description": "A native, user-mode, multi-process, graphical debugger.",
-      "language": "C",
-      "totalStars": "8206",
-      "totalForks": "393",
-      "growth": "+128",
-      "growthValue": 128,
+      "totalStars": "28152",
+      "totalForks": "3238",
+      "growth": "+709",
+      "growthValue": 709,
       "rank": 9
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "totalStars": "103864",
+      "totalForks": "10859",
+      "growth": "+530",
+      "growthValue": 530,
+      "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-09 10:14"
+  "lastUpdated": "2026-10-09 20:01"
 }
