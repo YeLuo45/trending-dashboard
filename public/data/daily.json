@@ -5,10 +5,10 @@
       "link": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "totalStars": "45921",
-      "totalForks": "7314",
-      "growth": "+3856",
-      "growthValue": 3856,
+      "totalStars": "57756",
+      "totalForks": "11326",
+      "growth": "+15691",
+      "growthValue": 15691,
       "rank": 1
     },
     {
@@ -16,10 +16,10 @@
       "link": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "totalStars": "22324",
-      "totalForks": "1818",
-      "growth": "+1038",
-      "growthValue": 1038,
+      "totalStars": "23900",
+      "totalForks": "1986",
+      "growth": "+2614",
+      "growthValue": 2614,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
-      "totalStars": "11471",
-      "totalForks": "1735",
-      "growth": "+511",
-      "growthValue": 511,
+      "totalStars": "12589",
+      "totalForks": "1930",
+      "growth": "+1629",
+      "growthValue": 1629,
       "rank": 3
     },
     {
@@ -38,21 +38,21 @@
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "282676",
-      "totalForks": "23683",
-      "growth": "+243",
-      "growthValue": 243,
+      "totalStars": "283438",
+      "totalForks": "23742",
+      "growth": "+1005",
+      "growthValue": 1005,
       "rank": 4
     },
     {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "totalStars": "47854",
-      "totalForks": "3033",
-      "growth": "+151",
-      "growthValue": 151,
+      "totalStars": "48367",
+      "totalForks": "3057",
+      "growth": "+664",
+      "growthValue": 664,
       "rank": 5
     },
     {
@@ -60,10 +60,10 @@
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "45203",
-      "totalForks": "3261",
-      "growth": "+133",
-      "growthValue": 133,
+      "totalStars": "45664",
+      "totalForks": "3295",
+      "growth": "+594",
+      "growthValue": 594,
       "rank": 6
     },
     {
@@ -71,10 +71,10 @@
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "103986",
-      "totalForks": "10868",
-      "growth": "+122",
-      "growthValue": 122,
+      "totalStars": "104261",
+      "totalForks": "10881",
+      "growth": "+397",
+      "growthValue": 397,
       "rank": 7
     },
     {
@@ -82,34 +82,34 @@
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "28248",
-      "totalForks": "3243",
-      "growth": "+96",
-      "growthValue": 96,
+      "totalStars": "28520",
+      "totalForks": "3259",
+      "growth": "+368",
+      "growthValue": 368,
       "rank": 8
-    },
-    {
-      "name": "BerriAI/litellm",
-      "link": "https://github.com/BerriAI/litellm",
-      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
-      "language": "Python",
-      "totalStars": "60659",
-      "totalForks": "12186",
-      "growth": "+76",
-      "growthValue": 76,
-      "rank": 9
     },
     {
       "name": "twostraws/SwiftUI-Agent-Skill",
       "link": "https://github.com/twostraws/SwiftUI-Agent-Skill",
       "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
       "language": "",
-      "totalStars": "5421",
-      "totalForks": "196",
-      "growth": "+58",
-      "growthValue": 58,
+      "totalStars": "5627",
+      "totalForks": "198",
+      "growth": "+264",
+      "growthValue": 264,
+      "rank": 9
+    },
+    {
+      "name": "BerriAI/litellm",
+      "link": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "language": "Python",
+      "totalStars": "60842",
+      "totalForks": "12205",
+      "growth": "+259",
+      "growthValue": 259,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-10 00:35"
+  "lastUpdated": "2026-10-10 09:35"
 }
