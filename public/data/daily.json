@@ -1,115 +1,93 @@
 {
   "projects": [
     {
+      "name": "chrislgarry/Apollo-11",
+      "link": "https://github.com/chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "totalStars": "74110",
+      "totalForks": "8094",
+      "growth": "+74110",
+      "growthValue": 74110,
+      "rank": 1
+    },
+    {
+      "name": "lyogavin/airllm",
+      "link": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "totalStars": "36323",
+      "totalForks": "3809",
+      "growth": "+36323",
+      "growthValue": 36323,
+      "rank": 2
+    },
+    {
       "name": "morluto/rea",
       "link": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "totalStars": "83261",
-      "totalForks": "18048",
-      "growth": "+15223",
-      "growthValue": 15223,
-      "rank": 1
+      "totalStars": "97552",
+      "totalForks": "21693",
+      "growth": "+29514",
+      "growthValue": 29514,
+      "rank": 3
     },
     {
       "name": "boykopovar/AnyPS5",
       "link": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "totalStars": "27969",
-      "totalForks": "2370",
-      "growth": "+2022",
-      "growthValue": 2022,
-      "rank": 2
+      "totalStars": "29402",
+      "totalForks": "2528",
+      "growth": "+3455",
+      "growthValue": 3455,
+      "rank": 4
     },
     {
       "name": "storytold/artcraft",
       "link": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
-      "totalStars": "15524",
-      "totalForks": "2499",
-      "growth": "+1699",
-      "growthValue": 1699,
-      "rank": 3
-    },
-    {
-      "name": "mattpocock/skills",
-      "link": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "totalStars": "285150",
-      "totalForks": "23864",
-      "growth": "+1000",
-      "growthValue": 1000,
-      "rank": 4
+      "totalStars": "17168",
+      "totalForks": "2808",
+      "growth": "+3343",
+      "growthValue": 3343,
+      "rank": 5
     },
     {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "totalStars": "49413",
-      "totalForks": "3134",
-      "growth": "+685",
-      "growthValue": 685,
-      "rank": 5
-    },
-    {
-      "name": "hugohe3/ppt-master",
-      "link": "https://github.com/hugohe3/ppt-master",
-      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-      "language": "Python",
-      "totalStars": "59934",
-      "totalForks": "4722",
-      "growth": "+674",
-      "growthValue": 674,
+      "totalStars": "50063",
+      "totalForks": "3179",
+      "growth": "+1335",
+      "growthValue": 1335,
       "rank": 6
     },
     {
-      "name": "multica-ai/andrej-karpathy-skills",
-      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "language": "",
-      "totalStars": "218580",
-      "totalForks": "22005",
-      "growth": "+488",
-      "growthValue": 488,
+      "name": "bilawalsidhu/gods-eye-view",
+      "link": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "totalStars": "51307",
+      "totalForks": "10314",
+      "growth": "+1232",
+      "growthValue": 1232,
       "rank": 7
     },
     {
-      "name": "huggingface/transformers",
-      "link": "https://github.com/huggingface/transformers",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "name": "pytorch/pytorch",
+      "link": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "language": "Python",
-      "totalStars": "167467",
-      "totalForks": "34816",
-      "growth": "+325",
-      "growthValue": 325,
+      "totalStars": "104407",
+      "totalForks": "32078",
+      "growth": "+311",
+      "growthValue": 311,
       "rank": 8
-    },
-    {
-      "name": "mksglu/context-mode",
-      "link": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "totalStars": "26514",
-      "totalForks": "1905",
-      "growth": "+310",
-      "growthValue": 310,
-      "rank": 9
-    },
-    {
-      "name": "flutter/flutter",
-      "link": "https://github.com/flutter/flutter",
-      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-      "language": "Dart",
-      "totalStars": "179701",
-      "totalForks": "33664",
-      "growth": "+288",
-      "growthValue": 288,
-      "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-11 09:48"
+  "lastUpdated": "2026-10-11 19:24"
 }
