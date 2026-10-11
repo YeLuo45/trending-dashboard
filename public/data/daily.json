@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "multica-ai/andrej-karpathy-skills",
-      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "language": "",
-      "totalStars": "218092",
-      "totalForks": "21974",
-      "growth": "+218092",
-      "growthValue": 218092,
-      "rank": 1
-    },
-    {
-      "name": "tensorflow/tensorflow",
-      "link": "https://github.com/tensorflow/tensorflow",
-      "description": "An Open Source Machine Learning Framework for Everyone",
-      "language": "C++",
-      "totalStars": "200672",
-      "totalForks": "78923",
-      "growth": "+200672",
-      "growthValue": 200672,
-      "rank": 2
-    },
-    {
-      "name": "flutter/flutter",
-      "link": "https://github.com/flutter/flutter",
-      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-      "language": "Dart",
-      "totalStars": "179413",
-      "totalForks": "33559",
-      "growth": "+179413",
-      "growthValue": 179413,
-      "rank": 3
-    },
-    {
-      "name": "huggingface/transformers",
-      "link": "https://github.com/huggingface/transformers",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-      "language": "Python",
-      "totalStars": "167142",
-      "totalForks": "34796",
-      "growth": "+167142",
-      "growthValue": 167142,
-      "rank": 4
-    },
-    {
-      "name": "pytorch/pytorch",
-      "link": "https://github.com/pytorch/pytorch",
-      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "language": "Python",
-      "totalStars": "104096",
-      "totalForks": "31922",
-      "growth": "+104096",
-      "growthValue": 104096,
-      "rank": 5
-    },
-    {
-      "name": "hugohe3/ppt-master",
-      "link": "https://github.com/hugohe3/ppt-master",
-      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-      "language": "Python",
-      "totalStars": "59260",
-      "totalForks": "4670",
-      "growth": "+59260",
-      "growthValue": 59260,
-      "rank": 6
-    },
-    {
       "name": "morluto/rea",
       "link": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "totalStars": "68038",
-      "totalForks": "14330",
-      "growth": "+25973",
-      "growthValue": 25973,
-      "rank": 7
+      "totalStars": "72045",
+      "totalForks": "15138",
+      "growth": "+4007",
+      "growthValue": 4007,
+      "rank": 1
     },
     {
       "name": "boykopovar/AnyPS5",
       "link": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "totalStars": "25947",
-      "totalForks": "2170",
-      "growth": "+4661",
-      "growthValue": 4661,
-      "rank": 8
+      "totalStars": "26783",
+      "totalForks": "2245",
+      "growth": "+836",
+      "growthValue": 836,
+      "rank": 2
     },
     {
       "name": "storytold/artcraft",
       "link": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
-      "totalStars": "13825",
-      "totalForks": "2163",
-      "growth": "+2865",
-      "growthValue": 2865,
-      "rank": 9
+      "totalStars": "14446",
+      "totalForks": "2279",
+      "growth": "+621",
+      "growthValue": 621,
+      "rank": 3
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "284150",
-      "totalForks": "23792",
-      "growth": "+1717",
-      "growthValue": 1717,
+      "totalStars": "284466",
+      "totalForks": "23809",
+      "growth": "+316",
+      "growthValue": 316,
+      "rank": 4
+    },
+    {
+      "name": "cathrynlavery/diagram-design",
+      "link": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "totalStars": "48930",
+      "totalForks": "3091",
+      "growth": "+202",
+      "growthValue": 202,
+      "rank": 5
+    },
+    {
+      "name": "multica-ai/andrej-karpathy-skills",
+      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "totalStars": "218259",
+      "totalForks": "21981",
+      "growth": "+167",
+      "growthValue": 167,
+      "rank": 6
+    },
+    {
+      "name": "hugohe3/ppt-master",
+      "link": "https://github.com/hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "language": "Python",
+      "totalStars": "59424",
+      "totalForks": "4680",
+      "growth": "+164",
+      "growthValue": 164,
+      "rank": 7
+    },
+    {
+      "name": "anthropics/knowledge-work-plugins",
+      "link": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "totalStars": "28814",
+      "totalForks": "3277",
+      "growth": "+105",
+      "growthValue": 105,
+      "rank": 8
+    },
+    {
+      "name": "huggingface/transformers",
+      "link": "https://github.com/huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "totalStars": "167246",
+      "totalForks": "34797",
+      "growth": "+104",
+      "growthValue": 104,
+      "rank": 9
+    },
+    {
+      "name": "mksglu/context-mode",
+      "link": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "totalStars": "26307",
+      "totalForks": "1891",
+      "growth": "+103",
+      "growthValue": 103,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-10 19:10"
+  "lastUpdated": "2026-10-11 00:09"
 }
