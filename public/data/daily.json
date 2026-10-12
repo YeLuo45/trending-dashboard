@@ -1,93 +1,104 @@
 {
   "projects": [
     {
+      "name": "open-webui/open-webui",
+      "link": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python",
+      "totalStars": "154903",
+      "totalForks": "22635",
+      "growth": "+154903",
+      "growthValue": 154903,
+      "rank": 1
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "link": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "totalStars": "59015",
+      "totalForks": "9304",
+      "growth": "+59015",
+      "growthValue": 59015,
+      "rank": 2
+    },
+    {
       "name": "morluto/rea",
       "link": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "totalStars": "128785",
-      "totalForks": "28829",
-      "growth": "+31233",
-      "growthValue": 31233,
-      "rank": 1
+      "totalStars": "153384",
+      "totalForks": "35308",
+      "growth": "+55832",
+      "growthValue": 55832,
+      "rank": 3
+    },
+    {
+      "name": "microsoft/BitNet",
+      "link": "https://github.com/microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "language": "C++",
+      "totalStars": "40883",
+      "totalForks": "3806",
+      "growth": "+40883",
+      "growthValue": 40883,
+      "rank": 4
     },
     {
       "name": "storytold/artcraft",
       "link": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
-      "totalStars": "19659",
-      "totalForks": "3192",
-      "growth": "+2491",
-      "growthValue": 2491,
-      "rank": 2
-    },
-    {
-      "name": "boykopovar/AnyPS5",
-      "link": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "language": "C++",
-      "totalStars": "31441",
-      "totalForks": "2695",
-      "growth": "+2039",
-      "growthValue": 2039,
-      "rank": 3
+      "totalStars": "21696",
+      "totalForks": "3523",
+      "growth": "+4528",
+      "growthValue": 4528,
+      "rank": 5
     },
     {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "totalStars": "51485",
-      "totalForks": "3251",
-      "growth": "+1422",
-      "growthValue": 1422,
-      "rank": 4
+      "totalStars": "52471",
+      "totalForks": "3315",
+      "growth": "+2408",
+      "growthValue": 2408,
+      "rank": 6
     },
     {
       "name": "bilawalsidhu/gods-eye-view",
       "link": "https://github.com/bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "totalStars": "52513",
-      "totalForks": "10474",
-      "growth": "+1206",
-      "growthValue": 1206,
-      "rank": 5
+      "totalStars": "53531",
+      "totalForks": "10592",
+      "growth": "+2224",
+      "growthValue": 2224,
+      "rank": 7
     },
     {
       "name": "lyogavin/airllm",
       "link": "https://github.com/lyogavin/airllm",
-      "description": "AirLLM 70B inference with single 4GB GPU",
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
       "language": "Jupyter Notebook",
-      "totalStars": "36933",
-      "totalForks": "3840",
-      "growth": "+610",
-      "growthValue": 610,
-      "rank": 6
-    },
-    {
-      "name": "chrislgarry/Apollo-11",
-      "link": "https://github.com/chrislgarry/Apollo-11",
-      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
-      "language": "Assembly",
-      "totalStars": "74502",
-      "totalForks": "8118",
-      "growth": "+392",
-      "growthValue": 392,
-      "rank": 7
-    },
-    {
-      "name": "pytorch/pytorch",
-      "link": "https://github.com/pytorch/pytorch",
-      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "language": "Python",
-      "totalStars": "104701",
-      "totalForks": "32186",
-      "growth": "+294",
-      "growthValue": 294,
+      "totalStars": "37467",
+      "totalForks": "3869",
+      "growth": "+1144",
+      "growthValue": 1144,
       "rank": 8
+    },
+    {
+      "name": "mksglu/context-mode",
+      "link": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "totalStars": "27225",
+      "totalForks": "1940",
+      "growth": "+592",
+      "growthValue": 592,
+      "rank": 9
     }
   ],
-  "lastUpdated": "2026-10-12 10:27"
+  "lastUpdated": "2026-10-12 22:25"
 }
