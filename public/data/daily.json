@@ -1,80 +1,80 @@
 {
   "projects": [
     {
-      "name": "chrislgarry/Apollo-11",
-      "link": "https://github.com/chrislgarry/Apollo-11",
-      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
-      "language": "Assembly",
-      "totalStars": "74110",
-      "totalForks": "8094",
-      "growth": "+74110",
-      "growthValue": 74110,
-      "rank": 1
-    },
-    {
-      "name": "lyogavin/airllm",
-      "link": "https://github.com/lyogavin/airllm",
-      "description": "AirLLM 70B inference with single 4GB GPU",
-      "language": "Jupyter Notebook",
-      "totalStars": "36323",
-      "totalForks": "3809",
-      "growth": "+36323",
-      "growthValue": 36323,
-      "rank": 2
-    },
-    {
       "name": "morluto/rea",
       "link": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "totalStars": "97552",
-      "totalForks": "21693",
-      "growth": "+29514",
-      "growthValue": 29514,
-      "rank": 3
-    },
-    {
-      "name": "boykopovar/AnyPS5",
-      "link": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "language": "C++",
-      "totalStars": "29402",
-      "totalForks": "2528",
-      "growth": "+3455",
-      "growthValue": 3455,
-      "rank": 4
+      "totalStars": "103786",
+      "totalForks": "22760",
+      "growth": "+6234",
+      "growthValue": 6234,
+      "rank": 1
     },
     {
       "name": "storytold/artcraft",
       "link": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
-      "totalStars": "17168",
-      "totalForks": "2808",
-      "growth": "+3343",
-      "growthValue": 3343,
-      "rank": 5
+      "totalStars": "17852",
+      "totalForks": "2922",
+      "growth": "+684",
+      "growthValue": 684,
+      "rank": 2
     },
     {
-      "name": "cathrynlavery/diagram-design",
-      "link": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "totalStars": "50063",
-      "totalForks": "3179",
-      "growth": "+1335",
-      "growthValue": 1335,
-      "rank": 6
+      "name": "boykopovar/AnyPS5",
+      "link": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "totalStars": "30082",
+      "totalForks": "2583",
+      "growth": "+680",
+      "growthValue": 680,
+      "rank": 3
     },
     {
       "name": "bilawalsidhu/gods-eye-view",
       "link": "https://github.com/bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "totalStars": "51307",
-      "totalForks": "10314",
-      "growth": "+1232",
-      "growthValue": 1232,
+      "totalStars": "51659",
+      "totalForks": "10374",
+      "growth": "+352",
+      "growthValue": 352,
+      "rank": 4
+    },
+    {
+      "name": "cathrynlavery/diagram-design",
+      "link": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "totalStars": "50318",
+      "totalForks": "3196",
+      "growth": "+255",
+      "growthValue": 255,
+      "rank": 5
+    },
+    {
+      "name": "lyogavin/airllm",
+      "link": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "totalStars": "36469",
+      "totalForks": "3818",
+      "growth": "+146",
+      "growthValue": 146,
+      "rank": 6
+    },
+    {
+      "name": "chrislgarry/Apollo-11",
+      "link": "https://github.com/chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "totalStars": "74240",
+      "totalForks": "8100",
+      "growth": "+130",
+      "growthValue": 130,
       "rank": 7
     },
     {
@@ -82,12 +82,12 @@
       "link": "https://github.com/pytorch/pytorch",
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "language": "Python",
-      "totalStars": "104407",
-      "totalForks": "32078",
-      "growth": "+311",
-      "growthValue": 311,
+      "totalStars": "104479",
+      "totalForks": "32116",
+      "growth": "+72",
+      "growthValue": 72,
       "rank": 8
     }
   ],
-  "lastUpdated": "2026-10-11 19:24"
+  "lastUpdated": "2026-10-12 00:19"
 }
