@@ -1,80 +1,80 @@
 {
   "projects": [
     {
-      "name": "open-webui/open-webui",
-      "link": "https://github.com/open-webui/open-webui",
-      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "language": "Python",
-      "totalStars": "154903",
-      "totalForks": "22635",
-      "growth": "+154903",
-      "growthValue": 154903,
-      "rank": 1
-    },
-    {
-      "name": "Alishahryar1/free-claude-code",
-      "link": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-      "language": "Python",
-      "totalStars": "59015",
-      "totalForks": "9304",
-      "growth": "+59015",
-      "growthValue": 59015,
-      "rank": 2
-    },
-    {
       "name": "morluto/rea",
       "link": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "totalStars": "153384",
-      "totalForks": "35308",
-      "growth": "+55832",
-      "growthValue": 55832,
-      "rank": 3
-    },
-    {
-      "name": "microsoft/BitNet",
-      "link": "https://github.com/microsoft/BitNet",
-      "description": "Official inference framework for 1-bit LLMs",
-      "language": "C++",
-      "totalStars": "40883",
-      "totalForks": "3806",
-      "growth": "+40883",
-      "growthValue": 40883,
-      "rank": 4
+      "totalStars": "182591",
+      "totalForks": "44150",
+      "growth": "+29206",
+      "growthValue": 29206,
+      "rank": 1
     },
     {
       "name": "storytold/artcraft",
       "link": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
-      "totalStars": "21696",
-      "totalForks": "3523",
-      "growth": "+4528",
-      "growthValue": 4528,
-      "rank": 5
-    },
-    {
-      "name": "cathrynlavery/diagram-design",
-      "link": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "totalStars": "52471",
-      "totalForks": "3315",
-      "growth": "+2408",
-      "growthValue": 2408,
-      "rank": 6
+      "totalStars": "23698",
+      "totalForks": "3765",
+      "growth": "+2002",
+      "growthValue": 2002,
+      "rank": 2
     },
     {
       "name": "bilawalsidhu/gods-eye-view",
       "link": "https://github.com/bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "totalStars": "53531",
-      "totalForks": "10592",
-      "growth": "+2224",
-      "growthValue": 2224,
+      "totalStars": "54439",
+      "totalForks": "10712",
+      "growth": "+908",
+      "growthValue": 908,
+      "rank": 3
+    },
+    {
+      "name": "cathrynlavery/diagram-design",
+      "link": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "totalStars": "53288",
+      "totalForks": "3372",
+      "growth": "+817",
+      "growthValue": 817,
+      "rank": 4
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "link": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "totalStars": "59754",
+      "totalForks": "9381",
+      "growth": "+739",
+      "growthValue": 739,
+      "rank": 5
+    },
+    {
+      "name": "open-webui/open-webui",
+      "link": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python",
+      "totalStars": "155478",
+      "totalForks": "22667",
+      "growth": "+575",
+      "growthValue": 575,
+      "rank": 6
+    },
+    {
+      "name": "mksglu/context-mode",
+      "link": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "totalStars": "27700",
+      "totalForks": "1965",
+      "growth": "+475",
+      "growthValue": 475,
       "rank": 7
     },
     {
@@ -82,23 +82,23 @@
       "link": "https://github.com/lyogavin/airllm",
       "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
       "language": "Jupyter Notebook",
-      "totalStars": "37467",
-      "totalForks": "3869",
-      "growth": "+1144",
-      "growthValue": 1144,
+      "totalStars": "37913",
+      "totalForks": "3892",
+      "growth": "+446",
+      "growthValue": 446,
       "rank": 8
     },
     {
-      "name": "mksglu/context-mode",
-      "link": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "totalStars": "27225",
-      "totalForks": "1940",
-      "growth": "+592",
-      "growthValue": 592,
+      "name": "microsoft/BitNet",
+      "link": "https://github.com/microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "language": "C++",
+      "totalStars": "41072",
+      "totalForks": "3821",
+      "growth": "+189",
+      "growthValue": 189,
       "rank": 9
     }
   ],
-  "lastUpdated": "2026-10-12 22:25"
+  "lastUpdated": "2026-10-13 10:18"
 }
