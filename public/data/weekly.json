@@ -1,137 +1,115 @@
 {
   "projects": [
     {
-      "name": "morluto/rea",
-      "link": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "language": "TypeScript",
-      "totalStars": "182592",
-      "totalForks": "44150",
-      "growth": "+174144",
-      "growthValue": 174144,
-      "rank": 1
-    },
-    {
       "name": "boykopovar/AnyPS5",
       "link": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "totalStars": "33768",
-      "totalForks": "2918",
-      "growth": "+27624",
-      "growthValue": 27624,
-      "rank": 2
+      "totalStars": "34932",
+      "totalForks": "3025",
+      "growth": "+28788",
+      "growthValue": 28788,
+      "rank": 1
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "288700",
-      "totalForks": "24234",
-      "growth": "+10739",
-      "growthValue": 10739,
-      "rank": 3
+      "totalStars": "289434",
+      "totalForks": "24301",
+      "growth": "+11473",
+      "growthValue": 11473,
+      "rank": 2
     },
     {
-      "name": "DuarteSantos8/openGym",
-      "link": "https://github.com/DuarteSantos8/openGym",
-      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
-      "language": "JavaScript",
-      "totalStars": "10804",
-      "totalForks": "1312",
-      "growth": "+5324",
-      "growthValue": 5324,
-      "rank": 4
+      "name": "cathrynlavery/diagram-design",
+      "link": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "totalStars": "53920",
+      "totalForks": "3423",
+      "growth": "+10003",
+      "growthValue": 10003,
+      "rank": 3
     },
     {
       "name": "heygen-com/hyperframes",
       "link": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "totalStars": "62153",
-      "totalForks": "5565",
-      "growth": "+4308",
-      "growthValue": 4308,
-      "rank": 5
+      "totalStars": "62627",
+      "totalForks": "5612",
+      "growth": "+4782",
+      "growthValue": 4782,
+      "rank": 4
     },
     {
       "name": "tester-army/e2e",
       "link": "https://github.com/tester-army/e2e",
       "description": "Next generation e2e testing framework for web and mobile apps.",
       "language": "TypeScript",
-      "totalStars": "9828",
-      "totalForks": "474",
-      "growth": "+3745",
-      "growthValue": 3745,
-      "rank": 6
+      "totalStars": "10043",
+      "totalForks": "486",
+      "growth": "+3960",
+      "growthValue": 3960,
+      "rank": 5
     },
     {
       "name": "thedotmack/claude-mem",
       "link": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "totalStars": "100236",
-      "totalForks": "8786",
-      "growth": "+3171",
-      "growthValue": 3171,
-      "rank": 7
+      "totalStars": "100396",
+      "totalForks": "8799",
+      "growth": "+3331",
+      "growthValue": 3331,
+      "rank": 6
     },
     {
       "name": "earthtojake/text-to-cad",
       "link": "https://github.com/earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "language": "Python",
-      "totalStars": "19800",
-      "totalForks": "1944",
-      "growth": "+1922",
-      "growthValue": 1922,
-      "rank": 8
-    },
-    {
-      "name": "michael-denyer/pstack-claude",
-      "link": "https://github.com/michael-denyer/pstack-claude",
-      "description": "Claude Code, Codex, Copilot, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
-      "language": "JavaScript",
-      "totalStars": "1898",
-      "totalForks": "204",
-      "growth": "+1898",
-      "growthValue": 1898,
-      "rank": 9
-    },
-    {
-      "name": "mvschwarz/openrig",
-      "link": "https://github.com/mvschwarz/openrig",
-      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-      "language": "TypeScript",
-      "totalStars": "7348",
-      "totalForks": "556",
-      "growth": "+1888",
-      "growthValue": 1888,
-      "rank": 10
+      "totalStars": "19938",
+      "totalForks": "1958",
+      "growth": "+2060",
+      "growthValue": 2060,
+      "rank": 7
     },
     {
       "name": "cursor/plugins",
       "link": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "totalStars": "11136",
-      "totalForks": "1084",
-      "growth": "+1051",
-      "growthValue": 1051,
-      "rank": 11
+      "totalStars": "11202",
+      "totalForks": "1087",
+      "growth": "+1117",
+      "growthValue": 1117,
+      "rank": 8
     },
     {
       "name": "flutter/flutter",
       "link": "https://github.com/flutter/flutter",
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
       "language": "Dart",
-      "totalStars": "180016",
-      "totalForks": "33877",
-      "growth": "+603",
-      "growthValue": 603,
-      "rank": 12
+      "totalStars": "180087",
+      "totalForks": "33975",
+      "growth": "+674",
+      "growthValue": 674,
+      "rank": 9
+    },
+    {
+      "name": "EpicGames/raddebugger",
+      "link": "https://github.com/EpicGames/raddebugger",
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "language": "C",
+      "totalStars": "8477",
+      "totalForks": "412",
+      "growth": "+655",
+      "growthValue": 655,
+      "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-13 10:18"
+  "lastUpdated": "2026-10-13 20:33"
 }
