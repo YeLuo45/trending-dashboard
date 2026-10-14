@@ -1,115 +1,137 @@
 {
   "projects": [
     {
+      "name": "morluto/rea",
+      "link": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "totalStars": "230267",
+      "totalForks": "57343",
+      "growth": "+216078",
+      "growthValue": 216078,
+      "rank": 1
+    },
+    {
       "name": "boykopovar/AnyPS5",
       "link": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "totalStars": "35905",
-      "totalForks": "3124",
-      "growth": "+25990",
-      "growthValue": 25990,
-      "rank": 1
+      "totalStars": "36439",
+      "totalForks": "3186",
+      "growth": "+26524",
+      "growthValue": 26524,
+      "rank": 2
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "290251",
-      "totalForks": "24362",
-      "growth": "+10857",
-      "growthValue": 10857,
-      "rank": 2
+      "totalStars": "290686",
+      "totalForks": "24406",
+      "growth": "+11292",
+      "growthValue": 11292,
+      "rank": 3
     },
     {
       "name": "cathrynlavery/diagram-design",
       "link": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "totalStars": "54746",
-      "totalForks": "3457",
-      "growth": "+9903",
-      "growthValue": 9903,
-      "rank": 3
+      "totalStars": "55090",
+      "totalForks": "3478",
+      "growth": "+10247",
+      "growthValue": 10247,
+      "rank": 4
+    },
+    {
+      "name": "NationalSecurityAgency/ghidra",
+      "link": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "totalStars": "86942",
+      "totalForks": "9713",
+      "growth": "+5570",
+      "growthValue": 5570,
+      "rank": 5
     },
     {
       "name": "heygen-com/hyperframes",
       "link": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "totalStars": "63118",
-      "totalForks": "5662",
-      "growth": "+4667",
-      "growthValue": 4667,
-      "rank": 4
+      "totalStars": "63361",
+      "totalForks": "5683",
+      "growth": "+4910",
+      "growthValue": 4910,
+      "rank": 6
     },
     {
       "name": "tester-army/e2e",
       "link": "https://github.com/tester-army/e2e",
       "description": "Next generation e2e testing framework for web and mobile apps.",
       "language": "TypeScript",
-      "totalStars": "10274",
-      "totalForks": "497",
-      "growth": "+2985",
-      "growthValue": 2985,
-      "rank": 5
+      "totalStars": "10380",
+      "totalForks": "505",
+      "growth": "+3091",
+      "growthValue": 3091,
+      "rank": 7
     },
     {
       "name": "thedotmack/claude-mem",
       "link": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "totalStars": "100553",
-      "totalForks": "8811",
-      "growth": "+2929",
-      "growthValue": 2929,
-      "rank": 6
+      "totalStars": "100651",
+      "totalForks": "8820",
+      "growth": "+3027",
+      "growthValue": 3027,
+      "rank": 8
     },
     {
       "name": "earthtojake/text-to-cad",
       "link": "https://github.com/earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "language": "Python",
-      "totalStars": "20123",
-      "totalForks": "1981",
-      "growth": "+1927",
-      "growthValue": 1927,
-      "rank": 7
-    },
-    {
-      "name": "cursor/plugins",
-      "link": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "totalStars": "11278",
-      "totalForks": "1097",
-      "growth": "+1041",
-      "growthValue": 1041,
-      "rank": 8
+      "totalStars": "20216",
+      "totalForks": "1991",
+      "growth": "+2020",
+      "growthValue": 2020,
+      "rank": 9
     },
     {
       "name": "flutter/flutter",
       "link": "https://github.com/flutter/flutter",
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
       "language": "Dart",
-      "totalStars": "180149",
-      "totalForks": "34055",
-      "growth": "+736",
-      "growthValue": 736,
-      "rank": 9
+      "totalStars": "180183",
+      "totalForks": "34091",
+      "growth": "+770",
+      "growthValue": 770,
+      "rank": 10
     },
     {
       "name": "EpicGames/raddebugger",
       "link": "https://github.com/EpicGames/raddebugger",
       "description": "A native, user-mode, multi-process, graphical debugger.",
       "language": "C",
-      "totalStars": "8498",
+      "totalStars": "8512",
       "totalForks": "414",
-      "growth": "+676",
-      "growthValue": 676,
-      "rank": 10
+      "growth": "+690",
+      "growthValue": 690,
+      "rank": 11
+    },
+    {
+      "name": "twostraws/SwiftUI-Agent-Skill",
+      "link": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+      "language": "",
+      "totalStars": "5911",
+      "totalForks": "218",
+      "growth": "+548",
+      "growthValue": 548,
+      "rank": 12
     }
   ],
-  "lastUpdated": "2026-10-14 08:30"
+  "lastUpdated": "2026-10-14 14:24"
 }
