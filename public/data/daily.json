@@ -1,69 +1,69 @@
 {
   "projects": [
     {
+      "name": "anomalyco/opencode",
+      "link": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "totalStars": "214611",
+      "totalForks": "28809",
+      "growth": "+214611",
+      "growthValue": 214611,
+      "rank": 1
+    },
+    {
+      "name": "stablyai/orca",
+      "link": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "totalStars": "94864",
+      "totalForks": "6070",
+      "growth": "+94864",
+      "growthValue": 94864,
+      "rank": 2
+    },
+    {
+      "name": "akitaonrails/ai-memory",
+      "link": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "totalStars": "9689",
+      "totalForks": "693",
+      "growth": "+9689",
+      "growthValue": 9689,
+      "rank": 3
+    },
+    {
       "name": "debpalash/VoiceStudio",
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "71773",
-      "totalForks": "7841",
-      "growth": "+699",
-      "growthValue": 699,
-      "rank": 1
+      "totalStars": "72238",
+      "totalForks": "7897",
+      "growth": "+1164",
+      "growthValue": 1164,
+      "rank": 4
     },
     {
       "name": "MadsLorentzen/ai-job-search",
       "link": "https://github.com/MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python",
-      "totalStars": "48900",
-      "totalForks": "16701",
-      "growth": "+447",
-      "growthValue": 447,
-      "rank": 2
+      "totalStars": "49287",
+      "totalForks": "16757",
+      "growth": "+834",
+      "growthValue": 834,
+      "rank": 5
     },
     {
       "name": "anthropics/claude-plugins-official",
       "link": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "totalStars": "40923",
-      "totalForks": "4421",
-      "growth": "+429",
-      "growthValue": 429,
-      "rank": 3
-    },
-    {
-      "name": "hmjz100/LinkSwift",
-      "link": "https://github.com/hmjz100/LinkSwift",
-      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
-      "language": "JavaScript",
-      "totalStars": "24054",
-      "totalForks": "1462",
-      "growth": "+410",
-      "growthValue": 410,
-      "rank": 4
-    },
-    {
-      "name": "K-Dense-AI/scientific-agent-skills",
-      "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "totalStars": "51759",
-      "totalForks": "4582",
-      "growth": "+294",
-      "growthValue": 294,
-      "rank": 5
-    },
-    {
-      "name": "xerj-org/xerj",
-      "link": "https://github.com/xerj-org/xerj",
-      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
-      "language": "Rust",
-      "totalStars": "7185",
-      "totalForks": "368",
-      "growth": "+290",
-      "growthValue": 290,
+      "totalStars": "41171",
+      "totalForks": "4432",
+      "growth": "+677",
+      "growthValue": 677,
       "rank": 6
     },
     {
@@ -71,45 +71,45 @@
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "281745",
-      "totalForks": "41897",
-      "growth": "+287",
-      "growthValue": 287,
+      "totalStars": "281965",
+      "totalForks": "41936",
+      "growth": "+507",
+      "growthValue": 507,
       "rank": 7
     },
     {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "300844",
-      "totalForks": "26856",
-      "growth": "+185",
-      "growthValue": 185,
+      "name": "xerj-org/xerj",
+      "link": "https://github.com/xerj-org/xerj",
+      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+      "language": "Rust",
+      "totalStars": "7377",
+      "totalForks": "382",
+      "growth": "+482",
+      "growthValue": 482,
       "rank": 8
+    },
+    {
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "totalStars": "51941",
+      "totalForks": "4598",
+      "growth": "+476",
+      "growthValue": 476,
+      "rank": 9
     },
     {
       "name": "HKUDS/CLI-Anything",
       "link": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "totalStars": "53649",
-      "totalForks": "4869",
-      "growth": "+183",
-      "growthValue": 183,
-      "rank": 9
-    },
-    {
-      "name": "cursor/plugins",
-      "link": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "totalStars": "12086",
-      "totalForks": "1174",
-      "growth": "+163",
-      "growthValue": 163,
+      "totalStars": "53784",
+      "totalForks": "4883",
+      "growth": "+318",
+      "growthValue": 318,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-17 07:37"
+  "lastUpdated": "2026-10-17 12:47"
 }
