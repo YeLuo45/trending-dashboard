@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "Comfy-Org/ComfyUI",
+      "link": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "language": "Python",
+      "totalStars": "138206",
+      "totalForks": "16466",
+      "growth": "+138206",
+      "growthValue": 138206,
+      "rank": 1
+    },
+    {
+      "name": "mlabonne/llm-course",
+      "link": "https://github.com/mlabonne/llm-course",
+      "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+      "language": "",
+      "totalStars": "83791",
+      "totalForks": "9772",
+      "growth": "+83791",
+      "growthValue": 83791,
+      "rank": 2
+    },
+    {
+      "name": "Kruk2/jasna",
+      "link": "https://github.com/Kruk2/jasna",
+      "description": "Video restoration tool",
+      "language": "Python",
+      "totalStars": "2227",
+      "totalForks": "175",
+      "growth": "+2227",
+      "growthValue": 2227,
+      "rank": 3
+    },
+    {
       "name": "MadsLorentzen/ai-job-search",
       "link": "https://github.com/MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python",
-      "totalStars": "51022",
-      "totalForks": "17005",
-      "growth": "+738",
-      "growthValue": 738,
-      "rank": 1
+      "totalStars": "51558",
+      "totalForks": "17094",
+      "growth": "+1274",
+      "growthValue": 1274,
+      "rank": 4
     },
     {
       "name": "debpalash/VoiceStudio",
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "73888",
-      "totalForks": "8091",
-      "growth": "+674",
-      "growthValue": 674,
-      "rank": 2
+      "totalStars": "74300",
+      "totalForks": "8129",
+      "growth": "+1086",
+      "growthValue": 1086,
+      "rank": 5
     },
     {
       "name": "anomalyco/opencode",
       "link": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
       "language": "TypeScript",
-      "totalStars": "215731",
-      "totalForks": "28901",
-      "growth": "+507",
-      "growthValue": 507,
-      "rank": 3
-    },
-    {
-      "name": "anthropics/claude-code",
-      "link": "https://github.com/anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "TypeScript",
-      "totalStars": "152139",
-      "totalForks": "26940",
-      "growth": "+455",
-      "growthValue": 455,
-      "rank": 4
-    },
-    {
-      "name": "anthropics/claude-plugins-official",
-      "link": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "language": "Python",
-      "totalStars": "42091",
-      "totalForks": "4490",
-      "growth": "+413",
-      "growthValue": 413,
-      "rank": 5
+      "totalStars": "215990",
+      "totalForks": "28926",
+      "growth": "+766",
+      "growthValue": 766,
+      "rank": 6
     },
     {
       "name": "stablyai/orca",
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "totalStars": "95744",
-      "totalForks": "6127",
-      "growth": "+398",
-      "growthValue": 398,
-      "rank": 6
-    },
-    {
-      "name": "affaan-m/ECC",
-      "link": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "totalStars": "282774",
-      "totalForks": "42010",
-      "growth": "+334",
-      "growthValue": 334,
+      "totalStars": "95996",
+      "totalForks": "6143",
+      "growth": "+650",
+      "growthValue": 650,
       "rank": 7
     },
     {
-      "name": "xerj-org/xerj",
-      "link": "https://github.com/xerj-org/xerj",
-      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
-      "language": "Rust",
-      "totalStars": "8035",
-      "totalForks": "426",
-      "growth": "+281",
-      "growthValue": 281,
-      "rank": 8
-    },
-    {
-      "name": "K-Dense-AI/scientific-agent-skills",
-      "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "name": "anthropics/claude-plugins-official",
+      "link": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "totalStars": "52442",
-      "totalForks": "4640",
-      "growth": "+233",
-      "growthValue": 233,
-      "rank": 9
+      "totalStars": "42305",
+      "totalForks": "4507",
+      "growth": "+627",
+      "growthValue": 627,
+      "rank": 8
     },
     {
       "name": "akitaonrails/ai-memory",
       "link": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "totalStars": "10093",
-      "totalForks": "727",
-      "growth": "+202",
-      "growthValue": 202,
+      "totalStars": "10217",
+      "totalForks": "737",
+      "growth": "+326",
+      "growthValue": 326,
+      "rank": 9
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "link": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+      "language": "Python",
+      "totalStars": "54353",
+      "totalForks": "4928",
+      "growth": "+324",
+      "growthValue": 324,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-18 07:52"
+  "lastUpdated": "2026-10-18 13:05"
 }
