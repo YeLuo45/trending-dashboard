@@ -1,36 +1,36 @@
 {
   "projects": [
     {
+      "name": "YuJunZhiXue/dsh-purge",
+      "link": "https://github.com/YuJunZhiXue/dsh-purge",
+      "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
+      "language": "JavaScript",
+      "totalStars": "7337",
+      "totalForks": "1107",
+      "growth": "+7337",
+      "growthValue": 7337,
+      "rank": 1
+    },
+    {
       "name": "MadsLorentzen/ai-job-search",
       "link": "https://github.com/MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python",
-      "totalStars": "52953",
-      "totalForks": "17331",
-      "growth": "+2669",
-      "growthValue": 2669,
-      "rank": 1
+      "totalStars": "54638",
+      "totalForks": "17644",
+      "growth": "+1685",
+      "growthValue": 1685,
+      "rank": 2
     },
     {
       "name": "debpalash/VoiceStudio",
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "75212",
-      "totalForks": "8233",
-      "growth": "+1998",
-      "growthValue": 1998,
-      "rank": 2
-    },
-    {
-      "name": "anomalyco/opencode",
-      "link": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "language": "TypeScript",
-      "totalStars": "216507",
-      "totalForks": "28987",
-      "growth": "+1283",
-      "growthValue": 1283,
+      "totalStars": "76313",
+      "totalForks": "8347",
+      "growth": "+1101",
+      "growthValue": 1101,
       "rank": 3
     },
     {
@@ -38,78 +38,78 @@
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "totalStars": "96554",
-      "totalForks": "6173",
-      "growth": "+1208",
-      "growthValue": 1208,
+      "totalStars": "97271",
+      "totalForks": "6201",
+      "growth": "+717",
+      "growthValue": 717,
       "rank": 4
+    },
+    {
+      "name": "anomalyco/opencode",
+      "link": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "totalStars": "217016",
+      "totalForks": "29035",
+      "growth": "+509",
+      "growthValue": 509,
+      "rank": 5
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "link": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "language": "Python",
+      "totalStars": "139003",
+      "totalForks": "16518",
+      "growth": "+432",
+      "growthValue": 432,
+      "rank": 6
     },
     {
       "name": "anthropics/claude-plugins-official",
       "link": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "totalStars": "42635",
-      "totalForks": "4526",
-      "growth": "+957",
-      "growthValue": 957,
-      "rank": 5
+      "totalStars": "42962",
+      "totalForks": "4549",
+      "growth": "+327",
+      "growthValue": 327,
+      "rank": 7
     },
     {
       "name": "akitaonrails/ai-memory",
       "link": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "totalStars": "10445",
-      "totalForks": "748",
-      "growth": "+554",
-      "growthValue": 554,
-      "rank": 6
+      "totalStars": "10763",
+      "totalForks": "763",
+      "growth": "+318",
+      "growthValue": 318,
+      "rank": 8
     },
     {
       "name": "HKUDS/CLI-Anything",
       "link": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "totalStars": "54556",
-      "totalForks": "4945",
-      "growth": "+527",
-      "growthValue": 527,
-      "rank": 7
+      "totalStars": "54853",
+      "totalForks": "4960",
+      "growth": "+297",
+      "growthValue": 297,
+      "rank": 9
     },
     {
       "name": "ruvnet/ruflo",
       "link": "https://github.com/ruvnet/ruflo",
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
-      "totalStars": "76475",
-      "totalForks": "9041",
-      "growth": "+446",
-      "growthValue": 446,
-      "rank": 8
-    },
-    {
-      "name": "cursor/plugins",
-      "link": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "totalStars": "12714",
-      "totalForks": "1253",
-      "growth": "+437",
-      "growthValue": 437,
-      "rank": 9
-    },
-    {
-      "name": "android/skills",
-      "link": "https://github.com/android/skills",
-      "description": "",
-      "language": "Kotlin",
-      "totalStars": "8743",
-      "totalForks": "567",
-      "growth": "+344",
-      "growthValue": 344,
+      "totalStars": "76763",
+      "totalForks": "9069",
+      "growth": "+288",
+      "growthValue": 288,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-18 22:53"
+  "lastUpdated": "2026-10-19 08:37"
 }
