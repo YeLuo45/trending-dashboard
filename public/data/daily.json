@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "DietrichGebert/ponytail",
+      "link": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "totalStars": "168893",
+      "totalForks": "9182",
+      "growth": "+168893",
+      "growthValue": 168893,
+      "rank": 1
+    },
+    {
+      "name": "msitarzewski/agency-agents",
+      "link": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "totalStars": "162040",
+      "totalForks": "26226",
+      "growth": "+162040",
+      "growthValue": 162040,
+      "rank": 2
+    },
+    {
+      "name": "Graphify-Labs/graphify",
+      "link": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "totalStars": "129686",
+      "totalForks": "12490",
+      "growth": "+129686",
+      "growthValue": 129686,
+      "rank": 3
+    },
+    {
+      "name": "vllm-project/vllm",
+      "link": "https://github.com/vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "language": "Python",
+      "totalStars": "94282",
+      "totalForks": "23648",
+      "growth": "+94282",
+      "growthValue": 94282,
+      "rank": 4
+    },
+    {
+      "name": "sickn33/agentic-awesome-skills",
+      "link": "https://github.com/sickn33/agentic-awesome-skills",
+      "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+      "language": "Python",
+      "totalStars": "48039",
+      "totalForks": "7010",
+      "growth": "+48039",
+      "growthValue": 48039,
+      "rank": 5
+    },
+    {
       "name": "MadsLorentzen/ai-job-search",
       "link": "https://github.com/MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python",
-      "totalStars": "58480",
-      "totalForks": "18438",
-      "growth": "+2357",
-      "growthValue": 2357,
-      "rank": 1
+      "totalStars": "59421",
+      "totalForks": "18621",
+      "growth": "+3298",
+      "growthValue": 3298,
+      "rank": 6
+    },
+    {
+      "name": "YuJunZhiXue/dsh-purge",
+      "link": "https://github.com/YuJunZhiXue/dsh-purge",
+      "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
+      "language": "JavaScript",
+      "totalStars": "10693",
+      "totalForks": "2323",
+      "growth": "+2471",
+      "growthValue": 2471,
+      "rank": 7
+    },
+    {
+      "name": "cloudflare/security-audit-skill",
+      "link": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "totalStars": "33288",
+      "totalForks": "2081",
+      "growth": "+1417",
+      "growthValue": 1417,
+      "rank": 8
     },
     {
       "name": "stablyai/orca",
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "totalStars": "98776",
-      "totalForks": "6296",
-      "growth": "+913",
-      "growthValue": 913,
-      "rank": 2
-    },
-    {
-      "name": "anomalyco/opencode",
-      "link": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "language": "TypeScript",
-      "totalStars": "218201",
-      "totalForks": "29149",
-      "growth": "+752",
-      "growthValue": 752,
-      "rank": 3
+      "totalStars": "99194",
+      "totalForks": "6323",
+      "growth": "+1331",
+      "growthValue": 1331,
+      "rank": 9
     },
     {
       "name": "Comfy-Org/ComfyUI",
       "link": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
-      "totalStars": "140143",
-      "totalForks": "16610",
-      "growth": "+748",
-      "growthValue": 748,
-      "rank": 4
-    },
-    {
-      "name": "akitaonrails/ai-memory",
-      "link": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "language": "Rust",
-      "totalStars": "11614",
-      "totalForks": "822",
-      "growth": "+562",
-      "growthValue": 562,
-      "rank": 5
-    },
-    {
-      "name": "shiyu-coder/Kronos",
-      "link": "https://github.com/shiyu-coder/Kronos",
-      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-      "language": "Python",
-      "totalStars": "41922",
-      "totalForks": "6949",
-      "growth": "+514",
-      "growthValue": 514,
-      "rank": 6
-    },
-    {
-      "name": "ruvnet/ruflo",
-      "link": "https://github.com/ruvnet/ruflo",
-      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "language": "TypeScript",
-      "totalStars": "77413",
-      "totalForks": "9117",
-      "growth": "+433",
-      "growthValue": 433,
-      "rank": 7
-    },
-    {
-      "name": "HKUDS/CLI-Anything",
-      "link": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "language": "Python",
-      "totalStars": "55461",
-      "totalForks": "5000",
-      "growth": "+421",
-      "growthValue": 421,
-      "rank": 8
-    },
-    {
-      "name": "withmarbleapp/os-taxonomy",
-      "link": "https://github.com/withmarbleapp/os-taxonomy",
-      "description": "",
-      "language": "JavaScript",
-      "totalStars": "6360",
-      "totalForks": "1028",
-      "growth": "+392",
-      "growthValue": 392,
-      "rank": 9
-    },
-    {
-      "name": "anthropics/claude-code",
-      "link": "https://github.com/anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "TypeScript",
-      "totalStars": "152821",
-      "totalForks": "27152",
-      "growth": "+351",
-      "growthValue": 351,
+      "totalStars": "140431",
+      "totalForks": "16629",
+      "growth": "+1036",
+      "growthValue": 1036,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-20 08:18"
+  "lastUpdated": "2026-10-20 14:11"
 }
