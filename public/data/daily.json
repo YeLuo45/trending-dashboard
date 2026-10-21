@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "supabase/supabase",
-      "link": "https://github.com/supabase/supabase",
-      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "language": "TypeScript",
-      "totalStars": "112687",
-      "totalForks": "16842",
-      "growth": "+112687",
-      "growthValue": 112687,
-      "rank": 1
-    },
-    {
-      "name": "twentyhq/twenty",
-      "link": "https://github.com/twentyhq/twenty",
-      "description": "The open alternative to Salesforce, designed for AI.",
-      "language": "TypeScript",
-      "totalStars": "58861",
-      "totalForks": "9644",
-      "growth": "+58861",
-      "growthValue": 58861,
-      "rank": 2
-    },
-    {
-      "name": "strelov1/freehire",
-      "link": "https://github.com/strelov1/freehire",
-      "description": "freehire — the open-source search engine for job seekers",
-      "language": "Go",
-      "totalStars": "2074",
-      "totalForks": "230",
-      "growth": "+2074",
-      "growthValue": 2074,
-      "rank": 3
-    },
-    {
-      "name": "MadsLorentzen/ai-job-search",
-      "link": "https://github.com/MadsLorentzen/ai-job-search",
-      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "language": "Python",
-      "totalStars": "62414",
-      "totalForks": "19282",
-      "growth": "+1938",
-      "growthValue": 1938,
-      "rank": 4
-    },
-    {
       "name": "DietrichGebert/ponytail",
       "link": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "totalStars": "170865",
-      "totalForks": "9295",
-      "growth": "+1275",
-      "growthValue": 1275,
-      "rank": 5
+      "totalStars": "171261",
+      "totalForks": "9319",
+      "growth": "+1671",
+      "growthValue": 1671,
+      "rank": 1
     },
     {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "35253",
-      "totalForks": "2215",
-      "growth": "+1145",
-      "growthValue": 1145,
-      "rank": 6
+      "totalStars": "35601",
+      "totalForks": "2237",
+      "growth": "+1493",
+      "growthValue": 1493,
+      "rank": 2
     },
     {
       "name": "stablyai/orca",
       "link": "https://github.com/stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "totalStars": "100677",
-      "totalForks": "6362",
-      "growth": "+988",
-      "growthValue": 988,
-      "rank": 7
+      "totalStars": "100994",
+      "totalForks": "6386",
+      "growth": "+1305",
+      "growthValue": 1305,
+      "rank": 3
     },
     {
       "name": "Graphify-Labs/graphify",
       "link": "https://github.com/Graphify-Labs/graphify",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
-      "totalStars": "131065",
-      "totalForks": "12594",
-      "growth": "+870",
-      "growthValue": 870,
-      "rank": 8
+      "totalStars": "131373",
+      "totalForks": "12613",
+      "growth": "+1178",
+      "growthValue": 1178,
+      "rank": 4
     },
     {
       "name": "Comfy-Org/ComfyUI",
       "link": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
-      "totalStars": "141266",
-      "totalForks": "16705",
-      "growth": "+538",
-      "growthValue": 538,
-      "rank": 9
+      "totalStars": "141383",
+      "totalForks": "16717",
+      "growth": "+655",
+      "growthValue": 655,
+      "rank": 5
     },
     {
       "name": "akitaonrails/ai-memory",
       "link": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "totalStars": "12073",
-      "totalForks": "855",
-      "growth": "+459",
-      "growthValue": 459,
+      "totalStars": "12207",
+      "totalForks": "865",
+      "growth": "+593",
+      "growthValue": 593,
+      "rank": 6
+    },
+    {
+      "name": "headroomlabs-ai/headroom",
+      "link": "https://github.com/headroomlabs-ai/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "totalStars": "77154",
+      "totalForks": "5985",
+      "growth": "+414",
+      "growthValue": 414,
+      "rank": 7
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "link": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "totalStars": "42733",
+      "totalForks": "7058",
+      "growth": "+394",
+      "growthValue": 394,
+      "rank": 8
+    },
+    {
+      "name": "vllm-project/vllm",
+      "link": "https://github.com/vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "language": "Python",
+      "totalStars": "94788",
+      "totalForks": "23731",
+      "growth": "+363",
+      "growthValue": 363,
+      "rank": 9
+    },
+    {
+      "name": "strelov1/freehire",
+      "link": "https://github.com/strelov1/freehire",
+      "description": "freehire — the open-source search engine for job seekers",
+      "language": "Go",
+      "totalStars": "2253",
+      "totalForks": "239",
+      "growth": "+179",
+      "growthValue": 179,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-21 14:23"
+  "lastUpdated": "2026-10-21 19:10"
 }
