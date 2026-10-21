@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "wshobson/agents",
+      "link": "https://github.com/wshobson/agents",
+      "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
+      "language": "Python",
+      "totalStars": "41371",
+      "totalForks": "4400",
+      "growth": "+41371",
+      "growthValue": 41371,
+      "rank": 1
+    },
+    {
       "name": "MadsLorentzen/ai-job-search",
       "link": "https://github.com/MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python",
-      "totalStars": "60476",
-      "totalForks": "18872",
-      "growth": "+4353",
-      "growthValue": 4353,
-      "rank": 1
-    },
-    {
-      "name": "cloudflare/security-audit-skill",
-      "link": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "totalStars": "34108",
-      "totalForks": "2131",
-      "growth": "+2237",
-      "growthValue": 2237,
+      "totalStars": "61640",
+      "totalForks": "19105",
+      "growth": "+1164",
+      "growthValue": 1164,
       "rank": 2
-    },
-    {
-      "name": "stablyai/orca",
-      "link": "https://github.com/stablyai/orca",
-      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "language": "TypeScript",
-      "totalStars": "99689",
-      "totalForks": "6317",
-      "growth": "+1826",
-      "growthValue": 1826,
-      "rank": 3
-    },
-    {
-      "name": "anomalyco/opencode",
-      "link": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "language": "TypeScript",
-      "totalStars": "218883",
-      "totalForks": "29207",
-      "growth": "+1434",
-      "growthValue": 1434,
-      "rank": 4
-    },
-    {
-      "name": "Comfy-Org/ComfyUI",
-      "link": "https://github.com/Comfy-Org/ComfyUI",
-      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "language": "Python",
-      "totalStars": "140728",
-      "totalForks": "16658",
-      "growth": "+1333",
-      "growthValue": 1333,
-      "rank": 5
-    },
-    {
-      "name": "shiyu-coder/Kronos",
-      "link": "https://github.com/shiyu-coder/Kronos",
-      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-      "language": "Python",
-      "totalStars": "42339",
-      "totalForks": "7010",
-      "growth": "+931",
-      "growthValue": 931,
-      "rank": 6
-    },
-    {
-      "name": "ruvnet/ruflo",
-      "link": "https://github.com/ruvnet/ruflo",
-      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "language": "TypeScript",
-      "totalStars": "77822",
-      "totalForks": "9153",
-      "growth": "+842",
-      "growthValue": 842,
-      "rank": 7
-    },
-    {
-      "name": "headroomlabs-ai/headroom",
-      "link": "https://github.com/headroomlabs-ai/headroom",
-      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-      "language": "Python",
-      "totalStars": "76740",
-      "totalForks": "5957",
-      "growth": "+647",
-      "growthValue": 647,
-      "rank": 8
-    },
-    {
-      "name": "anthropics/knowledge-work-plugins",
-      "link": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "language": "Python",
-      "totalStars": "30780",
-      "totalForks": "3463",
-      "growth": "+358",
-      "growthValue": 358,
-      "rank": 9
     },
     {
       "name": "DietrichGebert/ponytail",
       "link": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "totalStars": "169590",
-      "totalForks": "9223",
-      "growth": "+282",
-      "growthValue": 282,
+      "totalStars": "170394",
+      "totalForks": "9272",
+      "growth": "+804",
+      "growthValue": 804,
+      "rank": 3
+    },
+    {
+      "name": "cloudflare/security-audit-skill",
+      "link": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "totalStars": "34829",
+      "totalForks": "2192",
+      "growth": "+721",
+      "growthValue": 721,
+      "rank": 4
+    },
+    {
+      "name": "stablyai/orca",
+      "link": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "totalStars": "100266",
+      "totalForks": "6353",
+      "growth": "+577",
+      "growthValue": 577,
+      "rank": 5
+    },
+    {
+      "name": "Graphify-Labs/graphify",
+      "link": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "totalStars": "130703",
+      "totalForks": "12567",
+      "growth": "+508",
+      "growthValue": 508,
+      "rank": 6
+    },
+    {
+      "name": "anomalyco/opencode",
+      "link": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "totalStars": "219300",
+      "totalForks": "29278",
+      "growth": "+417",
+      "growthValue": 417,
+      "rank": 7
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "link": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "language": "Python",
+      "totalStars": "141074",
+      "totalForks": "16688",
+      "growth": "+346",
+      "growthValue": 346,
+      "rank": 8
+    },
+    {
+      "name": "msitarzewski/agency-agents",
+      "link": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "totalStars": "162636",
+      "totalForks": "26247",
+      "growth": "+320",
+      "growthValue": 320,
+      "rank": 9
+    },
+    {
+      "name": "ruvnet/ruflo",
+      "link": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "totalStars": "78011",
+      "totalForks": "9174",
+      "growth": "+189",
+      "growthValue": 189,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-20 23:40"
+  "lastUpdated": "2026-10-21 08:22"
 }
