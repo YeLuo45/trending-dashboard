@@ -1,115 +1,104 @@
 {
   "projects": [
     {
+      "name": "fastapi/fastapi",
+      "link": "https://github.com/fastapi/fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "language": "Python",
+      "totalStars": "103501",
+      "totalForks": "10076",
+      "growth": "+103501",
+      "growthValue": 103501,
+      "rank": 1
+    },
+    {
+      "name": "luongnv89/claude-howto",
+      "link": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "totalStars": "42740",
+      "totalForks": "5359",
+      "growth": "+42740",
+      "growthValue": 42740,
+      "rank": 2
+    },
+    {
+      "name": "php/php-src",
+      "link": "https://github.com/php/php-src",
+      "description": "The PHP Interpreter",
+      "language": "C",
+      "totalStars": "40885",
+      "totalForks": "8280",
+      "growth": "+40885",
+      "growthValue": 40885,
+      "rank": 3
+    },
+    {
+      "name": "Meloong-Git/PCL",
+      "link": "https://github.com/Meloong-Git/PCL",
+      "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
+      "language": "Visual Basic .NET",
+      "totalStars": "8591",
+      "totalForks": "1186",
+      "growth": "+8591",
+      "growthValue": 8591,
+      "rank": 4
+    },
+    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "37609",
-      "totalForks": "2349",
-      "growth": "+1213",
-      "growthValue": 1213,
-      "rank": 1
+      "totalStars": "38405",
+      "totalForks": "2392",
+      "growth": "+2009",
+      "growthValue": 2009,
+      "rank": 5
     },
     {
       "name": "DietrichGebert/ponytail",
       "link": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "totalStars": "172293",
-      "totalForks": "9375",
-      "growth": "+714",
-      "growthValue": 714,
-      "rank": 2
-    },
-    {
-      "name": "stablyai/orca",
-      "link": "https://github.com/stablyai/orca",
-      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "language": "TypeScript",
-      "totalStars": "101877",
-      "totalForks": "6442",
-      "growth": "+670",
-      "growthValue": 670,
-      "rank": 3
+      "totalStars": "172796",
+      "totalForks": "9405",
+      "growth": "+1217",
+      "growthValue": 1217,
+      "rank": 6
     },
     {
       "name": "Graphify-Labs/graphify",
       "link": "https://github.com/Graphify-Labs/graphify",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
-      "totalStars": "132073",
-      "totalForks": "12666",
-      "growth": "+475",
-      "growthValue": 475,
-      "rank": 4
-    },
-    {
-      "name": "strelov1/freehire",
-      "link": "https://github.com/strelov1/freehire",
-      "description": "freehire — the open-source search engine for job seekers",
-      "language": "Go",
-      "totalStars": "2604",
-      "totalForks": "258",
-      "growth": "+351",
-      "growthValue": 351,
-      "rank": 5
-    },
-    {
-      "name": "twentyhq/twenty",
-      "link": "https://github.com/twentyhq/twenty",
-      "description": "The open alternative to Salesforce, designed for AI.",
-      "language": "TypeScript",
-      "totalStars": "59424",
-      "totalForks": "9680",
-      "growth": "+280",
-      "growthValue": 280,
-      "rank": 6
-    },
-    {
-      "name": "Comfy-Org/ComfyUI",
-      "link": "https://github.com/Comfy-Org/ComfyUI",
-      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "language": "Python",
-      "totalStars": "141775",
-      "totalForks": "16751",
-      "growth": "+279",
-      "growthValue": 279,
+      "totalStars": "132445",
+      "totalForks": "12694",
+      "growth": "+847",
+      "growthValue": 847,
       "rank": 7
-    },
-    {
-      "name": "akitaonrails/ai-memory",
-      "link": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "language": "Rust",
-      "totalStars": "12556",
-      "totalForks": "888",
-      "growth": "+243",
-      "growthValue": 243,
-      "rank": 8
     },
     {
       "name": "supabase/supabase",
       "link": "https://github.com/supabase/supabase",
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "language": "TypeScript",
-      "totalStars": "113203",
-      "totalForks": "16987",
-      "growth": "+220",
-      "growthValue": 220,
-      "rank": 9
+      "totalStars": "113317",
+      "totalForks": "16991",
+      "growth": "+334",
+      "growthValue": 334,
+      "rank": 8
     },
     {
-      "name": "shiyu-coder/Kronos",
-      "link": "https://github.com/shiyu-coder/Kronos",
-      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "name": "anthropics/knowledge-work-plugins",
+      "link": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "43015",
-      "totalForks": "7092",
-      "growth": "+203",
-      "growthValue": 203,
-      "rank": 10
+      "totalStars": "31357",
+      "totalForks": "3517",
+      "growth": "+191",
+      "growthValue": 191,
+      "rank": 9
     }
   ],
-  "lastUpdated": "2026-10-22 08:25"
+  "lastUpdated": "2026-10-22 14:25"
 }
