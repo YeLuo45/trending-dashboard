@@ -1,93 +1,93 @@
 {
   "projects": [
     {
-      "name": "nodejs/node",
-      "link": "https://github.com/nodejs/node",
-      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-      "language": "JavaScript",
-      "totalStars": "122641",
-      "totalForks": "39936",
-      "growth": "+122641",
-      "growthValue": 122641,
-      "rank": 1
-    },
-    {
-      "name": "OpenBMB/VoxCPM",
-      "link": "https://github.com/OpenBMB/VoxCPM",
-      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
-      "language": "Python",
-      "totalStars": "40056",
-      "totalForks": "4555",
-      "growth": "+40056",
-      "growthValue": 40056,
-      "rank": 2
-    },
-    {
-      "name": "SnailSploit/Claude-Red",
-      "link": "https://github.com/SnailSploit/Claude-Red",
-      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-      "language": "Python",
-      "totalStars": "8114",
-      "totalForks": "1074",
-      "growth": "+8114",
-      "growthValue": 8114,
-      "rank": 3
-    },
-    {
-      "name": "Renhuai123/ziwei-doushu",
-      "link": "https://github.com/Renhuai123/ziwei-doushu",
-      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-      "language": "TypeScript",
-      "totalStars": "6652",
-      "totalForks": "1364",
-      "growth": "+6652",
-      "growthValue": 6652,
-      "rank": 4
-    },
-    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "41073",
-      "totalForks": "2562",
-      "growth": "+1570",
-      "growthValue": 1570,
-      "rank": 5
+      "totalStars": "41221",
+      "totalForks": "2574",
+      "growth": "+1718",
+      "growthValue": 1718,
+      "rank": 1
     },
     {
       "name": "NVIDIA/OpenShell",
       "link": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "totalStars": "18380",
-      "totalForks": "1856",
-      "growth": "+642",
-      "growthValue": 642,
-      "rank": 6
+      "totalStars": "18437",
+      "totalForks": "1861",
+      "growth": "+699",
+      "growthValue": 699,
+      "rank": 2
     },
     {
       "name": "anthropics/knowledge-work-plugins",
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "31986",
-      "totalForks": "3556",
-      "growth": "+417",
-      "growthValue": 417,
-      "rank": 7
+      "totalStars": "32018",
+      "totalForks": "3559",
+      "growth": "+449",
+      "growthValue": 449,
+      "rank": 3
     },
     {
       "name": "php/php-src",
       "link": "https://github.com/php/php-src",
       "description": "The PHP Interpreter",
       "language": "C",
-      "totalStars": "41478",
-      "totalForks": "8345",
-      "growth": "+340",
-      "growthValue": 340,
+      "totalStars": "41484",
+      "totalForks": "8347",
+      "growth": "+346",
+      "growthValue": 346,
+      "rank": 4
+    },
+    {
+      "name": "Renhuai123/ziwei-doushu",
+      "link": "https://github.com/Renhuai123/ziwei-doushu",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "language": "TypeScript",
+      "totalStars": "6705",
+      "totalForks": "1373",
+      "growth": "+53",
+      "growthValue": 53,
+      "rank": 5
+    },
+    {
+      "name": "SnailSploit/Claude-Red",
+      "link": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "totalStars": "8158",
+      "totalForks": "1078",
+      "growth": "+44",
+      "growthValue": 44,
+      "rank": 6
+    },
+    {
+      "name": "OpenBMB/VoxCPM",
+      "link": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "totalStars": "40088",
+      "totalForks": "4558",
+      "growth": "+32",
+      "growthValue": 32,
+      "rank": 7
+    },
+    {
+      "name": "nodejs/node",
+      "link": "https://github.com/nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "language": "JavaScript",
+      "totalStars": "122666",
+      "totalForks": "39940",
+      "growth": "+25",
+      "growthValue": 25,
       "rank": 8
     }
   ],
-  "lastUpdated": "2026-10-23 14:07"
+  "lastUpdated": "2026-10-23 15:19"
 }
