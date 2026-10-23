@@ -1,104 +1,93 @@
 {
   "projects": [
     {
+      "name": "nodejs/node",
+      "link": "https://github.com/nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "language": "JavaScript",
+      "totalStars": "122641",
+      "totalForks": "39936",
+      "growth": "+122641",
+      "growthValue": 122641,
+      "rank": 1
+    },
+    {
+      "name": "OpenBMB/VoxCPM",
+      "link": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "totalStars": "40056",
+      "totalForks": "4555",
+      "growth": "+40056",
+      "growthValue": 40056,
+      "rank": 2
+    },
+    {
+      "name": "SnailSploit/Claude-Red",
+      "link": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "totalStars": "8114",
+      "totalForks": "1074",
+      "growth": "+8114",
+      "growthValue": 8114,
+      "rank": 3
+    },
+    {
+      "name": "Renhuai123/ziwei-doushu",
+      "link": "https://github.com/Renhuai123/ziwei-doushu",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "language": "TypeScript",
+      "totalStars": "6652",
+      "totalForks": "1364",
+      "growth": "+6652",
+      "growthValue": 6652,
+      "rank": 4
+    },
+    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "40321",
-      "totalForks": "2515",
-      "growth": "+818",
-      "growthValue": 818,
-      "rank": 1
+      "totalStars": "41073",
+      "totalForks": "2562",
+      "growth": "+1570",
+      "growthValue": 1570,
+      "rank": 5
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "link": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "totalStars": "174099",
-      "totalForks": "9480",
-      "growth": "+674",
-      "growthValue": 674,
-      "rank": 2
-    },
-    {
-      "name": "Graphify-Labs/graphify",
-      "link": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "language": "Python",
-      "totalStars": "133399",
-      "totalForks": "12744",
-      "growth": "+482",
-      "growthValue": 482,
-      "rank": 3
-    },
-    {
-      "name": "luongnv89/claude-howto",
-      "link": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "totalStars": "43608",
-      "totalForks": "5416",
-      "growth": "+437",
-      "growthValue": 437,
-      "rank": 4
+      "name": "NVIDIA/OpenShell",
+      "link": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "totalStars": "18380",
+      "totalForks": "1856",
+      "growth": "+642",
+      "growthValue": 642,
+      "rank": 6
     },
     {
       "name": "anthropics/knowledge-work-plugins",
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "31830",
-      "totalForks": "3546",
-      "growth": "+261",
-      "growthValue": 261,
-      "rank": 5
-    },
-    {
-      "name": "fastapi/fastapi",
-      "link": "https://github.com/fastapi/fastapi",
-      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
-      "language": "Python",
-      "totalStars": "103974",
-      "totalForks": "10102",
-      "growth": "+250",
-      "growthValue": 250,
-      "rank": 6
+      "totalStars": "31986",
+      "totalForks": "3556",
+      "growth": "+417",
+      "growthValue": 417,
+      "rank": 7
     },
     {
       "name": "php/php-src",
       "link": "https://github.com/php/php-src",
       "description": "The PHP Interpreter",
       "language": "C",
-      "totalStars": "41374",
-      "totalForks": "8332",
-      "growth": "+236",
-      "growthValue": 236,
-      "rank": 7
-    },
-    {
-      "name": "supabase/supabase",
-      "link": "https://github.com/supabase/supabase",
-      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "language": "TypeScript",
-      "totalStars": "113631",
-      "totalForks": "17020",
-      "growth": "+160",
-      "growthValue": 160,
+      "totalStars": "41478",
+      "totalForks": "8345",
+      "growth": "+340",
+      "growthValue": 340,
       "rank": 8
-    },
-    {
-      "name": "Meloong-Git/PCL",
-      "link": "https://github.com/Meloong-Git/PCL",
-      "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
-      "language": "Visual Basic .NET",
-      "totalStars": "8829",
-      "totalForks": "1229",
-      "growth": "+147",
-      "growthValue": 147,
-      "rank": 9
     }
   ],
-  "lastUpdated": "2026-10-23 08:21"
+  "lastUpdated": "2026-10-23 14:07"
 }
