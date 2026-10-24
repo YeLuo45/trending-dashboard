@@ -1,93 +1,115 @@
 {
   "projects": [
     {
+      "name": "google-gemini/gemini-cli",
+      "link": "https://github.com/google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "language": "TypeScript",
+      "totalStars": "107627",
+      "totalForks": "14779",
+      "growth": "+107627",
+      "growthValue": 107627,
+      "rank": 1
+    },
+    {
+      "name": "Nutlope/hallmark",
+      "link": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "totalStars": "31556",
+      "totalForks": "1627",
+      "growth": "+31556",
+      "growthValue": 31556,
+      "rank": 2
+    },
+    {
+      "name": "jbiaojerry/ebook-treasure-chest",
+      "link": "https://github.com/jbiaojerry/ebook-treasure-chest",
+      "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+      "language": "Python",
+      "totalStars": "22326",
+      "totalForks": "3172",
+      "growth": "+22326",
+      "growthValue": 22326,
+      "rank": 3
+    },
+    {
+      "name": "pollen-robotics/microduck",
+      "link": "https://github.com/pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "language": "Rust",
+      "totalStars": "10659",
+      "totalForks": "1382",
+      "growth": "+10659",
+      "growthValue": 10659,
+      "rank": 4
+    },
+    {
+      "name": "makecindy/cindy",
+      "link": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "totalStars": "3784",
+      "totalForks": "565",
+      "growth": "+3784",
+      "growthValue": 3784,
+      "rank": 5
+    },
+    {
+      "name": "aws/agent-toolkit-for-aws",
+      "link": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "language": "Python",
+      "totalStars": "2982",
+      "totalForks": "392",
+      "growth": "+2982",
+      "growthValue": 2982,
+      "rank": 6
+    },
+    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "42665",
-      "totalForks": "2663",
-      "growth": "+581",
-      "growthValue": 581,
-      "rank": 1
+      "totalStars": "43131",
+      "totalForks": "2693",
+      "growth": "+1047",
+      "growthValue": 1047,
+      "rank": 7
     },
     {
-      "name": "Renhuai123/ziwei-doushu",
-      "link": "https://github.com/Renhuai123/ziwei-doushu",
-      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-      "language": "TypeScript",
-      "totalStars": "7081",
-      "totalForks": "1440",
-      "growth": "+238",
-      "growthValue": 238,
-      "rank": 2
+      "name": "luongnv89/claude-howto",
+      "link": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "totalStars": "44192",
+      "totalForks": "5468",
+      "growth": "+584",
+      "growthValue": 584,
+      "rank": 8
     },
     {
       "name": "NVIDIA/OpenShell",
       "link": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "totalStars": "18986",
-      "totalForks": "1897",
-      "growth": "+224",
-      "growthValue": 224,
-      "rank": 3
+      "totalStars": "19154",
+      "totalForks": "1909",
+      "growth": "+392",
+      "growthValue": 392,
+      "rank": 9
     },
     {
-      "name": "SnailSploit/Claude-Red",
-      "link": "https://github.com/SnailSploit/Claude-Red",
-      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-      "language": "Python",
-      "totalStars": "8676",
-      "totalForks": "1114",
-      "growth": "+221",
-      "growthValue": 221,
-      "rank": 4
-    },
-    {
-      "name": "anthropics/knowledge-work-plugins",
-      "link": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "language": "Python",
-      "totalStars": "32405",
-      "totalForks": "3582",
-      "growth": "+211",
-      "growthValue": 211,
-      "rank": 5
-    },
-    {
-      "name": "OpenBMB/VoxCPM",
-      "link": "https://github.com/OpenBMB/VoxCPM",
-      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
-      "language": "Python",
-      "totalStars": "40399",
-      "totalForks": "4591",
-      "growth": "+157",
-      "growthValue": 157,
-      "rank": 6
-    },
-    {
-      "name": "nodejs/node",
-      "link": "https://github.com/nodejs/node",
-      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-      "language": "JavaScript",
-      "totalStars": "122984",
-      "totalForks": "39842",
-      "growth": "+132",
-      "growthValue": 132,
-      "rank": 7
-    },
-    {
-      "name": "php/php-src",
-      "link": "https://github.com/php/php-src",
-      "description": "The PHP Interpreter",
-      "language": "C",
-      "totalStars": "41612",
-      "totalForks": "8366",
-      "growth": "+55",
-      "growthValue": 55,
-      "rank": 8
+      "name": "pbakaus/impeccable",
+      "link": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "totalStars": "85904",
+      "totalForks": "5138",
+      "growth": "+387",
+      "growthValue": 387,
+      "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-24 07:57"
+  "lastUpdated": "2026-10-24 13:11"
 }
