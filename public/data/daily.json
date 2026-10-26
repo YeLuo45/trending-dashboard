@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "Panniantong/Agent-Reach",
+      "link": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "totalStars": "103144",
+      "totalForks": "9146",
+      "growth": "+103144",
+      "growthValue": 103144,
+      "rank": 1
+    },
+    {
+      "name": "gitroomhq/postiz-app",
+      "link": "https://github.com/gitroomhq/postiz-app",
+      "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "language": "TypeScript",
+      "totalStars": "38154",
+      "totalForks": "7422",
+      "growth": "+38154",
+      "growthValue": 38154,
+      "rank": 2
+    },
+    {
+      "name": "alchaincyf/huashu-design",
+      "link": "https://github.com/alchaincyf/huashu-design",
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "language": "HTML",
+      "totalStars": "26598",
+      "totalForks": "2954",
+      "growth": "+26598",
+      "growthValue": 26598,
+      "rank": 3
+    },
+    {
+      "name": "NVIDIA/SkillSpector",
+      "link": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "totalStars": "21874",
+      "totalForks": "1918",
+      "growth": "+21874",
+      "growthValue": 21874,
+      "rank": 4
+    },
+    {
       "name": "Nutlope/hallmark",
       "link": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "totalStars": "34710",
-      "totalForks": "1806",
-      "growth": "+1051",
-      "growthValue": 1051,
-      "rank": 1
+      "totalStars": "35540",
+      "totalForks": "1854",
+      "growth": "+1881",
+      "growthValue": 1881,
+      "rank": 5
     },
     {
       "name": "debpalash/VoiceStudio",
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "87595",
-      "totalForks": "9673",
-      "growth": "+896",
-      "growthValue": 896,
-      "rank": 2
+      "totalStars": "88376",
+      "totalForks": "9745",
+      "growth": "+1677",
+      "growthValue": 1677,
+      "rank": 6
     },
     {
-      "name": "cloudflare/security-audit-skill",
-      "link": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "totalStars": "47544",
-      "totalForks": "2949",
-      "growth": "+757",
-      "growthValue": 757,
-      "rank": 3
-    },
-    {
-      "name": "AgriciDaniel/claude-seo",
-      "link": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "language": "Python",
-      "totalStars": "21479",
-      "totalForks": "2977",
-      "growth": "+681",
-      "growthValue": 681,
-      "rank": 4
+      "name": "nightly-labs/openbot",
+      "link": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "totalStars": "1234",
+      "totalForks": "167",
+      "growth": "+1234",
+      "growthValue": 1234,
+      "rank": 7
     },
     {
       "name": "makecindy/cindy",
       "link": "https://github.com/makecindy/cindy",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "language": "TypeScript",
-      "totalStars": "5445",
-      "totalForks": "709",
-      "growth": "+640",
-      "growthValue": 640,
-      "rank": 5
+      "totalStars": "6010",
+      "totalForks": "754",
+      "growth": "+1205",
+      "growthValue": 1205,
+      "rank": 8
     },
     {
       "name": "pbakaus/impeccable",
       "link": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
-      "totalStars": "88224",
-      "totalForks": "5267",
-      "growth": "+603",
-      "growthValue": 603,
-      "rank": 6
-    },
-    {
-      "name": "Renhuai123/ziwei-doushu",
-      "link": "https://github.com/Renhuai123/ziwei-doushu",
-      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-      "language": "TypeScript",
-      "totalStars": "8064",
-      "totalForks": "1618",
-      "growth": "+545",
-      "growthValue": 545,
-      "rank": 7
-    },
-    {
-      "name": "JetBrains/thinkrail",
-      "link": "https://github.com/JetBrains/thinkrail",
-      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-      "language": "TypeScript",
-      "totalStars": "2162",
-      "totalForks": "122",
-      "growth": "+536",
-      "growthValue": 536,
-      "rank": 8
+      "totalStars": "88720",
+      "totalForks": "5293",
+      "growth": "+1099",
+      "growthValue": 1099,
+      "rank": 9
     },
     {
       "name": "TauricResearch/TradingAgents",
       "link": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "totalStars": "115072",
-      "totalForks": "22172",
-      "growth": "+528",
-      "growthValue": 528,
-      "rank": 9
-    },
-    {
-      "name": "coollabsio/coolify",
-      "link": "https://github.com/coollabsio/coolify",
-      "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
-      "language": "PHP",
-      "totalStars": "64748",
-      "totalForks": "5814",
-      "growth": "+425",
-      "growthValue": 425,
+      "totalStars": "115578",
+      "totalForks": "22216",
+      "growth": "+1034",
+      "growthValue": 1034,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-26 08:39"
+  "lastUpdated": "2026-10-26 15:58"
 }
