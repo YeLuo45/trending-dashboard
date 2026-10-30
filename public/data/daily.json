@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "mattpocock/skills",
-      "link": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "totalStars": "307063",
-      "totalForks": "25830",
-      "growth": "+307063",
-      "growthValue": 307063,
+      "name": "togg53192-cmd/jailbreaks",
+      "link": "https://github.com/togg53192-cmd/jailbreaks",
+      "description": "LIST OF ALL MY JAILBREAKS",
+      "language": "",
+      "totalStars": "10697",
+      "totalForks": "1562",
+      "growth": "+2003",
+      "growthValue": 2003,
       "rank": 1
-    },
-    {
-      "name": "anthropics/skills",
-      "link": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "language": "Python",
-      "totalStars": "184997",
-      "totalForks": "21875",
-      "growth": "+184997",
-      "growthValue": 184997,
-      "rank": 2
-    },
-    {
-      "name": "lightpanda-io/browser",
-      "link": "https://github.com/lightpanda-io/browser",
-      "description": "Lightpanda: the headless browser designed for AI and automation",
-      "language": "Zig",
-      "totalStars": "37930",
-      "totalForks": "1849",
-      "growth": "+37930",
-      "growthValue": 37930,
-      "rank": 3
-    },
-    {
-      "name": "Renhuai123/ziwei-doushu",
-      "link": "https://github.com/Renhuai123/ziwei-doushu",
-      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-      "language": "TypeScript",
-      "totalStars": "10821",
-      "totalForks": "2165",
-      "growth": "+10821",
-      "growthValue": 10821,
-      "rank": 4
     },
     {
       "name": "HKUDS/DeepTutor",
       "link": "https://github.com/HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.",
       "language": "Python",
-      "totalStars": "51345",
-      "totalForks": "6293",
-      "growth": "+1613",
-      "growthValue": 1613,
-      "rank": 5
+      "totalStars": "51638",
+      "totalForks": "6322",
+      "growth": "+1906",
+      "growthValue": 1906,
+      "rank": 2
     },
     {
       "name": "pbakaus/impeccable",
       "link": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "totalStars": "96446",
-      "totalForks": "5677",
-      "growth": "+1397",
-      "growthValue": 1397,
-      "rank": 6
-    },
-    {
-      "name": "togg53192-cmd/jailbreaks",
-      "link": "https://github.com/togg53192-cmd/jailbreaks",
-      "description": "LIST OF ALL MY JAILBREAKS",
-      "language": "",
-      "totalStars": "10074",
-      "totalForks": "1433",
-      "growth": "+1380",
-      "growthValue": 1380,
-      "rank": 7
+      "totalStars": "96848",
+      "totalForks": "5704",
+      "growth": "+1799",
+      "growthValue": 1799,
+      "rank": 3
     },
     {
       "name": "thedotmack/claude-mem",
       "link": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "totalStars": "105456",
-      "totalForks": "9293",
-      "growth": "+863",
-      "growthValue": 863,
-      "rank": 8
+      "totalStars": "105974",
+      "totalForks": "9338",
+      "growth": "+1381",
+      "growthValue": 1381,
+      "rank": 4
     },
     {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "309126",
-      "totalForks": "27488",
-      "growth": "+751",
-      "growthValue": 751,
-      "rank": 9
+      "name": "milind-soni/OpenMausBot",
+      "link": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "totalStars": "8411",
+      "totalForks": "1187",
+      "growth": "+1063",
+      "growthValue": 1063,
+      "rank": 5
     },
     {
       "name": "pingdotgg/t3code",
       "link": "https://github.com/pingdotgg/t3code",
       "description": "",
       "language": "TypeScript",
-      "totalStars": "32346",
-      "totalForks": "8574",
-      "growth": "+727",
-      "growthValue": 727,
+      "totalStars": "32594",
+      "totalForks": "8628",
+      "growth": "+975",
+      "growthValue": 975,
+      "rank": 6
+    },
+    {
+      "name": "obra/superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "309321",
+      "totalForks": "27517",
+      "growth": "+946",
+      "growthValue": 946,
+      "rank": 7
+    },
+    {
+      "name": "CopilotKit/OpenBot",
+      "link": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "totalStars": "8665",
+      "totalForks": "1098",
+      "growth": "+647",
+      "growthValue": 647,
+      "rank": 8
+    },
+    {
+      "name": "JetBrains/thinkrail",
+      "link": "https://github.com/JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "totalStars": "6492",
+      "totalForks": "355",
+      "growth": "+577",
+      "growthValue": 577,
+      "rank": 9
+    },
+    {
+      "name": "Renhuai123/ziwei-doushu",
+      "link": "https://github.com/Renhuai123/ziwei-doushu",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "language": "TypeScript",
+      "totalStars": "11132",
+      "totalForks": "2225",
+      "growth": "+311",
+      "growthValue": 311,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-10-30 13:22"
+  "lastUpdated": "2026-10-30 19:52"
 }
