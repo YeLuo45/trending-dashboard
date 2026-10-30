@@ -1,113 +1,113 @@
 {
   "projects": [
     {
+      "name": "hugohe3/ppt-master",
+      "link": "https://github.com/hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "language": "Python",
+      "totalStars": "70825",
+      "totalForks": "5527",
+      "growth": "+70825",
+      "growthValue": 70825,
+      "rank": 1
+    },
+    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "52698",
-      "totalForks": "3379",
-      "growth": "+13195",
-      "growthValue": 13195,
-      "rank": 1
+      "totalStars": "52855",
+      "totalForks": "3385",
+      "growth": "+10771",
+      "growthValue": 10771,
+      "rank": 2
     },
     {
       "name": "pbakaus/impeccable",
       "link": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "totalStars": "95049",
-      "totalForks": "5602",
-      "growth": "+10077",
-      "growthValue": 10077,
-      "rank": 2
+      "totalStars": "95313",
+      "totalForks": "5619",
+      "growth": "+9796",
+      "growthValue": 9796,
+      "rank": 3
     },
     {
       "name": "TauricResearch/TradingAgents",
       "link": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "totalStars": "118269",
-      "totalForks": "22619",
-      "growth": "+3725",
-      "growthValue": 3725,
-      "rank": 3
+      "totalStars": "118328",
+      "totalForks": "22631",
+      "growth": "+3784",
+      "growthValue": 3784,
+      "rank": 4
     },
     {
       "name": "AgriciDaniel/claude-seo",
       "link": "https://github.com/AgriciDaniel/claude-seo",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
-      "totalStars": "23917",
-      "totalForks": "3214",
-      "growth": "+3119",
-      "growthValue": 3119,
-      "rank": 4
+      "totalStars": "23999",
+      "totalForks": "3223",
+      "growth": "+3201",
+      "growthValue": 3201,
+      "rank": 5
     },
     {
       "name": "multica-ai/andrej-karpathy-skills",
       "link": "https://github.com/multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "",
-      "totalStars": "226365",
-      "totalForks": "22608",
-      "growth": "+2551",
-      "growthValue": 2551,
-      "rank": 5
+      "totalStars": "226435",
+      "totalForks": "22611",
+      "growth": "+2621",
+      "growthValue": 2621,
+      "rank": 6
     },
     {
       "name": "obra/superpowers",
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "308375",
-      "totalForks": "27427",
-      "growth": "+2307",
-      "growthValue": 2307,
-      "rank": 6
+      "totalStars": "308539",
+      "totalForks": "27442",
+      "growth": "+2471",
+      "growthValue": 2471,
+      "rank": 7
     },
     {
       "name": "anthropics/knowledge-work-plugins",
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "33820",
-      "totalForks": "3718",
-      "growth": "+2251",
-      "growthValue": 2251,
-      "rank": 7
+      "totalStars": "33850",
+      "totalForks": "3723",
+      "growth": "+1656",
+      "growthValue": 1656,
+      "rank": 8
     },
     {
       "name": "ruvnet/ruflo",
       "link": "https://github.com/ruvnet/ruflo",
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
-      "totalStars": "80113",
-      "totalForks": "9399",
-      "growth": "+1630",
-      "growthValue": 1630,
-      "rank": 8
+      "totalStars": "80149",
+      "totalForks": "9400",
+      "growth": "+1374",
+      "growthValue": 1374,
+      "rank": 9
     },
     {
       "name": "Leonxlnx/taste-skill",
       "link": "https://github.com/Leonxlnx/taste-skill",
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "language": "JavaScript",
-      "totalStars": "105398",
-      "totalForks": "7120",
-      "growth": "+1106",
-      "growthValue": 1106,
-      "rank": 9
-    },
-    {
-      "name": "php/php-src",
-      "link": "https://github.com/php/php-src",
-      "description": "The PHP Interpreter",
-      "language": "C",
-      "totalStars": "41717",
-      "totalForks": "8486",
-      "growth": "+579",
-      "growthValue": 579,
+      "totalStars": "105546",
+      "totalForks": "7127",
+      "growth": "+1254",
+      "growthValue": 1254,
       "rank": 10
     },
     {
@@ -115,12 +115,23 @@
       "link": "https://github.com/jakubkrehel/skills",
       "description": "A collection of agent skills that help you build great interfaces.",
       "language": "Markdown",
-      "totalStars": "9149",
-      "totalForks": "347",
-      "growth": "+212",
-      "growthValue": 212,
+      "totalStars": "9174",
+      "totalForks": "348",
+      "growth": "+237",
+      "growthValue": 237,
       "rank": 11
+    },
+    {
+      "name": "php/php-src",
+      "link": "https://github.com/php/php-src",
+      "description": "The PHP Interpreter",
+      "language": "C",
+      "totalStars": "41720",
+      "totalForks": "8490",
+      "growth": "+163",
+      "growthValue": 163,
+      "rank": 12
     }
   ],
-  "lastUpdated": "2026-10-29 20:06"
+  "lastUpdated": "2026-10-30 00:40"
 }
