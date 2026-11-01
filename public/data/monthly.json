@@ -5,10 +5,10 @@
       "link": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "totalStars": "96832",
-      "totalForks": "10737",
-      "growth": "+45557",
-      "growthValue": 45557,
+      "totalStars": "97234",
+      "totalForks": "10788",
+      "growth": "+45437",
+      "growthValue": 45437,
       "rank": 1
     },
     {
@@ -16,10 +16,10 @@
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "55300",
-      "totalForks": "3603",
-      "growth": "+29371",
-      "growthValue": 29371,
+      "totalStars": "55752",
+      "totalForks": "3641",
+      "growth": "+29823",
+      "growthValue": 29823,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "totalStars": "98249",
-      "totalForks": "5793",
-      "growth": "+24690",
-      "growthValue": 24690,
+      "totalStars": "98726",
+      "totalForks": "5822",
+      "growth": "+24531",
+      "growthValue": 24531,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "294055",
-      "totalForks": "43527",
-      "growth": "+23442",
-      "growthValue": 23442,
+      "totalStars": "294328",
+      "totalForks": "43581",
+      "growth": "+23217",
+      "growthValue": 23217,
       "rank": 4
     },
     {
@@ -49,10 +49,10 @@
       "link": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "totalStars": "76566",
-      "totalForks": "6999",
-      "growth": "+21319",
-      "growthValue": 21319,
+      "totalStars": "76758",
+      "totalForks": "7029",
+      "growth": "+20956",
+      "growthValue": 20956,
       "rank": 5
     },
     {
@@ -60,10 +60,10 @@
       "link": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "totalStars": "96488",
-      "totalForks": "10890",
-      "growth": "+15894",
-      "growthValue": 15894,
+      "totalStars": "96599",
+      "totalForks": "10906",
+      "growth": "+16005",
+      "growthValue": 16005,
       "rank": 6
     },
     {
@@ -71,10 +71,10 @@
       "link": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "totalStars": "107831",
-      "totalForks": "9462",
-      "growth": "+12269",
-      "growthValue": 12269,
+      "totalStars": "108365",
+      "totalForks": "9505",
+      "growth": "+12803",
+      "growthValue": 12803,
       "rank": 7
     },
     {
@@ -82,10 +82,10 @@
       "link": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "totalStars": "43905",
-      "totalForks": "2310",
-      "growth": "+11824",
-      "growthValue": 11824,
+      "totalStars": "44274",
+      "totalForks": "2339",
+      "growth": "+12193",
+      "growthValue": 12193,
       "rank": 8
     },
     {
@@ -93,32 +93,32 @@
       "link": "https://github.com/pingdotgg/t3code",
       "description": "",
       "language": "TypeScript",
-      "totalStars": "35496",
-      "totalForks": "8778",
-      "growth": "+10825",
-      "growthValue": 10825,
+      "totalStars": "36339",
+      "totalForks": "8835",
+      "growth": "+11668",
+      "growthValue": 11668,
       "rank": 9
-    },
-    {
-      "name": "mksglu/context-mode",
-      "link": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "totalStars": "33041",
-      "totalForks": "2278",
-      "growth": "+8305",
-      "growthValue": 8305,
-      "rank": 10
     },
     {
       "name": "anthropics/knowledge-work-plugins",
       "link": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "totalStars": "34193",
-      "totalForks": "3768",
-      "growth": "+8244",
-      "growthValue": 8244,
+      "totalStars": "34275",
+      "totalForks": "3785",
+      "growth": "+8302",
+      "growthValue": 8302,
+      "rank": 10
+    },
+    {
+      "name": "mksglu/context-mode",
+      "link": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "totalStars": "33073",
+      "totalForks": "2281",
+      "growth": "+8089",
+      "growthValue": 8089,
       "rank": 11
     },
     {
@@ -126,10 +126,10 @@
       "link": "https://github.com/earthtojake/text-to-cad",
       "description": "Design physical products with AI",
       "language": "Python",
-      "totalStars": "24523",
-      "totalForks": "2349",
-      "growth": "+7675",
-      "growthValue": 7675,
+      "totalStars": "24586",
+      "totalForks": "2355",
+      "growth": "+7738",
+      "growthValue": 7738,
       "rank": 12
     },
     {
@@ -137,10 +137,10 @@
       "link": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "totalStars": "45573",
-      "totalForks": "4747",
-      "growth": "+6536",
-      "growthValue": 6536,
+      "totalStars": "45625",
+      "totalForks": "4749",
+      "growth": "+6588",
+      "growthValue": 6588,
       "rank": 13
     },
     {
@@ -148,32 +148,32 @@
       "link": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "totalStars": "14871",
-      "totalForks": "1531",
-      "growth": "+5573",
-      "growthValue": 5573,
+      "totalStars": "14930",
+      "totalForks": "1539",
+      "growth": "+5465",
+      "growthValue": 5465,
       "rank": 14
-    },
-    {
-      "name": "mvschwarz/openrig",
-      "link": "https://github.com/mvschwarz/openrig",
-      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-      "language": "TypeScript",
-      "totalStars": "8482",
-      "totalForks": "697",
-      "growth": "+4879",
-      "growthValue": 4879,
-      "rank": 15
     },
     {
       "name": "AgriciDaniel/claude-seo",
       "link": "https://github.com/AgriciDaniel/claude-seo",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
-      "totalStars": "25028",
-      "totalForks": "3313",
-      "growth": "+4230",
-      "growthValue": 4230,
+      "totalStars": "25220",
+      "totalForks": "3334",
+      "growth": "+4422",
+      "growthValue": 4422,
+      "rank": 15
+    },
+    {
+      "name": "mvschwarz/openrig",
+      "link": "https://github.com/mvschwarz/openrig",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "language": "TypeScript",
+      "totalStars": "8529",
+      "totalForks": "703",
+      "growth": "+4339",
+      "growthValue": 4339,
       "rank": 16
     },
     {
@@ -181,10 +181,10 @@
       "link": "https://github.com/Leonxlnx/taste-skill",
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "language": "JavaScript",
-      "totalStars": "107023",
-      "totalForks": "7242",
-      "growth": "+2731",
-      "growthValue": 2731,
+      "totalStars": "107341",
+      "totalForks": "7255",
+      "growth": "+3049",
+      "growthValue": 3049,
       "rank": 17
     },
     {
@@ -192,10 +192,10 @@
       "link": "https://github.com/android/skills",
       "description": "",
       "language": "Kotlin",
-      "totalStars": "10165",
-      "totalForks": "662",
-      "growth": "+2118",
-      "growthValue": 2118,
+      "totalStars": "10189",
+      "totalForks": "665",
+      "growth": "+2142",
+      "growthValue": 2142,
       "rank": 18
     },
     {
@@ -203,12 +203,12 @@
       "link": "https://github.com/flutter/flutter",
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
       "language": "Dart",
-      "totalStars": "180839",
-      "totalForks": "33416",
-      "growth": "+1648",
-      "growthValue": 1648,
+      "totalStars": "180881",
+      "totalForks": "32836",
+      "growth": "+1634",
+      "growthValue": 1634,
       "rank": 19
     }
   ],
-  "lastUpdated": "2026-10-31 23:58"
+  "lastUpdated": "2026-11-01 10:14"
 }
