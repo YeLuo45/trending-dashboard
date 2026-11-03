@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "floci-io/floci",
+      "link": "https://github.com/floci-io/floci",
+      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "language": "Java",
+      "totalStars": "28618",
+      "totalForks": "3190",
+      "growth": "+28618",
+      "growthValue": 28618,
+      "rank": 1
+    },
+    {
+      "name": "Usagi-org/ai-goofish-monitor",
+      "link": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "language": "Python",
+      "totalStars": "16316",
+      "totalForks": "2840",
+      "growth": "+16316",
+      "growthValue": 16316,
+      "rank": 2
+    },
+    {
+      "name": "spotify/portal-ai-plugins",
+      "link": "https://github.com/spotify/portal-ai-plugins",
+      "description": "",
+      "language": "TypeScript",
+      "totalStars": "3007",
+      "totalForks": "234",
+      "growth": "+3007",
+      "growthValue": 3007,
+      "rank": 3
+    },
+    {
       "name": "vercel-labs/agent-desktop",
       "link": "https://github.com/vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
-      "totalStars": "11407",
-      "totalForks": "778",
-      "growth": "+1946",
-      "growthValue": 1946,
-      "rank": 1
-    },
-    {
-      "name": "pingdotgg/t3code",
-      "link": "https://github.com/pingdotgg/t3code",
-      "description": "",
-      "language": "TypeScript",
-      "totalStars": "42959",
-      "totalForks": "9159",
-      "growth": "+1217",
-      "growthValue": 1217,
-      "rank": 2
+      "totalStars": "12424",
+      "totalForks": "853",
+      "growth": "+2963",
+      "growthValue": 2963,
+      "rank": 4
     },
     {
       "name": "D4Vinci/Scrapling",
       "link": "https://github.com/D4Vinci/Scrapling",
       "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here:https://discord.gg/EMgGbDceNQand follow here for daily tips and tricks:https://x.com/Scrapling_dev",
       "language": "Python",
-      "totalStars": "93663",
-      "totalForks": "9838",
-      "growth": "+900",
-      "growthValue": 900,
-      "rank": 3
-    },
-    {
-      "name": "Donchitos/Claude-Code-Game-Studios",
-      "link": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-      "language": "Shell",
-      "totalStars": "34089",
-      "totalForks": "4563",
-      "growth": "+602",
-      "growthValue": 602,
-      "rank": 4
+      "totalStars": "94521",
+      "totalForks": "9910",
+      "growth": "+1758",
+      "growthValue": 1758,
+      "rank": 5
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "310736",
-      "totalForks": "26132",
-      "growth": "+559",
-      "growthValue": 559,
-      "rank": 5
+      "totalStars": "311285",
+      "totalForks": "26166",
+      "growth": "+1108",
+      "growthValue": 1108,
+      "rank": 6
     },
     {
       "name": "thedotmack/claude-mem",
       "link": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "totalStars": "111232",
-      "totalForks": "9693",
-      "growth": "+544",
-      "growthValue": 544,
-      "rank": 6
+      "totalStars": "111739",
+      "totalForks": "9725",
+      "growth": "+1051",
+      "growthValue": 1051,
+      "rank": 7
+    },
+    {
+      "name": "Donchitos/Claude-Code-Game-Studios",
+      "link": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "language": "Shell",
+      "totalStars": "34532",
+      "totalForks": "4584",
+      "growth": "+1045",
+      "growthValue": 1045,
+      "rank": 8
+    },
+    {
+      "name": "anomalyco/hex",
+      "link": "https://github.com/anomalyco/hex",
+      "description": "Local voice dictation for mac, windows and linux",
+      "language": "Rust",
+      "totalStars": "4476",
+      "totalForks": "254",
+      "growth": "+698",
+      "growthValue": 698,
+      "rank": 9
     },
     {
       "name": "JustVugg/colibri",
       "link": "https://github.com/JustVugg/colibri",
       "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "language": "C",
-      "totalStars": "46881",
-      "totalForks": "5412",
-      "growth": "+379",
-      "growthValue": 379,
-      "rank": 7
-    },
-    {
-      "name": "FlashML-org/FreeToken",
-      "link": "https://github.com/FlashML-org/FreeToken",
-      "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
-      "language": "Python",
-      "totalStars": "16386",
-      "totalForks": "1605",
-      "growth": "+374",
-      "growthValue": 374,
-      "rank": 8
-    },
-    {
-      "name": "p-e-w/heretic",
-      "link": "https://github.com/p-e-w/heretic",
-      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
-      "language": "Python",
-      "totalStars": "38408",
-      "totalForks": "4345",
-      "growth": "+358",
-      "growthValue": 358,
-      "rank": 9
-    },
-    {
-      "name": "paperclipai/paperclip",
-      "link": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "language": "TypeScript",
-      "totalStars": "110683",
-      "totalForks": "18314",
-      "growth": "+330",
-      "growthValue": 330,
+      "totalStars": "47177",
+      "totalForks": "5456",
+      "growth": "+675",
+      "growthValue": 675,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-11-03 10:35"
+  "lastUpdated": "2026-11-03 20:49"
 }
