@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "pbakaus/impeccable",
-      "link": "https://github.com/pbakaus/impeccable",
-      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "language": "Rust",
-      "totalStars": "100413",
-      "totalForks": "5933",
-      "growth": "+11693",
-      "growthValue": 11693,
-      "rank": 1
-    },
-    {
       "name": "pingdotgg/t3code",
       "link": "https://github.com/pingdotgg/t3code",
       "description": "",
       "language": "TypeScript",
-      "totalStars": "41742",
-      "totalForks": "9084",
-      "growth": "+11343",
-      "growthValue": 11343,
+      "totalStars": "42959",
+      "totalForks": "9159",
+      "growth": "+12245",
+      "growthValue": 12245,
+      "rank": 1
+    },
+    {
+      "name": "pbakaus/impeccable",
+      "link": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "totalStars": "100987",
+      "totalForks": "5972",
+      "growth": "+10916",
+      "growthValue": 10916,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "totalStars": "45948",
-      "totalForks": "2440",
-      "growth": "+10408",
-      "growthValue": 10408,
+      "totalStars": "46435",
+      "totalForks": "2460",
+      "growth": "+8167",
+      "growthValue": 8167,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "57347",
-      "totalForks": "3729",
-      "growth": "+9250",
-      "growthValue": 9250,
+      "totalStars": "57747",
+      "totalForks": "3765",
+      "growth": "+8155",
+      "growthValue": 8155,
       "rank": 4
     },
     {
@@ -49,10 +49,10 @@
       "link": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "totalStars": "110688",
-      "totalForks": "9650",
-      "growth": "+7367",
-      "growthValue": 7367,
+      "totalStars": "111232",
+      "totalForks": "9693",
+      "growth": "+7620",
+      "growthValue": 7620,
       "rank": 5
     },
     {
@@ -60,10 +60,10 @@
       "link": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "totalStars": "295617",
-      "totalForks": "43739",
-      "growth": "+6165",
-      "growthValue": 6165,
+      "totalStars": "296039",
+      "totalForks": "43796",
+      "growth": "+5550",
+      "growthValue": 5550,
       "rank": 6
     },
     {
@@ -71,54 +71,54 @@
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "311205",
-      "totalForks": "27687",
-      "growth": "+5137",
-      "growthValue": 5137,
+      "totalStars": "311500",
+      "totalForks": "27717",
+      "growth": "+5432",
+      "growthValue": 5432,
       "rank": 7
-    },
-    {
-      "name": "heygen-com/hyperframes",
-      "link": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "totalStars": "77705",
-      "totalForks": "7139",
-      "growth": "+4923",
-      "growthValue": 4923,
-      "rank": 8
-    },
-    {
-      "name": "JetBrains/thinkrail",
-      "link": "https://github.com/JetBrains/thinkrail",
-      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-      "language": "TypeScript",
-      "totalStars": "7168",
-      "totalForks": "417",
-      "growth": "+4681",
-      "growthValue": 4681,
-      "rank": 9
     },
     {
       "name": "Leonxlnx/taste-skill",
       "link": "https://github.com/Leonxlnx/taste-skill",
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "language": "JavaScript",
-      "totalStars": "108677",
-      "totalForks": "7318",
-      "growth": "+4385",
-      "growthValue": 4385,
+      "totalStars": "109151",
+      "totalForks": "7353",
+      "growth": "+4859",
+      "growthValue": 4859,
+      "rank": 8
+    },
+    {
+      "name": "heygen-com/hyperframes",
+      "link": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "totalStars": "78019",
+      "totalForks": "7183",
+      "growth": "+4361",
+      "growthValue": 4361,
+      "rank": 9
+    },
+    {
+      "name": "JetBrains/thinkrail",
+      "link": "https://github.com/JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "totalStars": "7307",
+      "totalForks": "435",
+      "growth": "+3638",
+      "growthValue": 3638,
       "rank": 10
     },
     {
-      "name": "TauricResearch/TradingAgents",
-      "link": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "name": "AgriciDaniel/claude-seo",
+      "link": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
-      "totalStars": "119947",
-      "totalForks": "22943",
-      "growth": "+4369",
-      "growthValue": 4369,
+      "totalStars": "26141",
+      "totalForks": "3413",
+      "growth": "+3598",
+      "growthValue": 3598,
       "rank": 11
     },
     {
@@ -126,21 +126,21 @@
       "link": "https://github.com/multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "",
-      "totalStars": "228519",
-      "totalForks": "22784",
-      "growth": "+4212",
-      "growthValue": 4212,
+      "totalStars": "228806",
+      "totalForks": "22817",
+      "growth": "+3536",
+      "growthValue": 3536,
       "rank": 12
     },
     {
-      "name": "AgriciDaniel/claude-seo",
-      "link": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "name": "TauricResearch/TradingAgents",
+      "link": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "totalStars": "25974",
-      "totalForks": "3395",
-      "growth": "+4112",
-      "growthValue": 4112,
+      "totalStars": "120124",
+      "totalForks": "22980",
+      "growth": "+3062",
+      "growthValue": 3062,
       "rank": 13
     },
     {
@@ -148,10 +148,10 @@
       "link": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "totalStars": "186758",
-      "totalForks": "22055",
-      "growth": "+1577",
-      "growthValue": 1577,
+      "totalStars": "186940",
+      "totalForks": "22075",
+      "growth": "+1759",
+      "growthValue": 1759,
       "rank": 14
     },
     {
@@ -159,10 +159,10 @@
       "link": "https://github.com/jakubkrehel/skills",
       "description": "A collection of agent skills that help you build great interfaces.",
       "language": "Markdown",
-      "totalStars": "10353",
-      "totalForks": "401",
-      "growth": "+1416",
-      "growthValue": 1416,
+      "totalStars": "10477",
+      "totalForks": "403",
+      "growth": "+1540",
+      "growthValue": 1540,
       "rank": 15
     },
     {
@@ -170,12 +170,12 @@
       "link": "https://github.com/ghostty-org/ghostty",
       "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
       "language": "Zig",
-      "totalStars": "63306",
-      "totalForks": "3829",
-      "growth": "+147",
-      "growthValue": 147,
+      "totalStars": "63364",
+      "totalForks": "3816",
+      "growth": "+205",
+      "growthValue": 205,
       "rank": 16
     }
   ],
-  "lastUpdated": "2026-11-02 23:01"
+  "lastUpdated": "2026-11-03 10:35"
 }
