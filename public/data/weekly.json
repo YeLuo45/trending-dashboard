@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "calesthio/OpenMontage",
-      "link": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "totalStars": "76450",
-      "totalForks": "10138",
-      "growth": "+76450",
-      "growthValue": 76450,
-      "rank": 1
-    },
-    {
       "name": "pingdotgg/t3code",
       "link": "https://github.com/pingdotgg/t3code",
       "description": "",
       "language": "TypeScript",
-      "totalStars": "46355",
-      "totalForks": "9439",
-      "growth": "+15236",
-      "growthValue": 15236,
+      "totalStars": "47256",
+      "totalForks": "9515",
+      "growth": "+15637",
+      "growthValue": 15637,
+      "rank": 1
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "link": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "totalStars": "113232",
+      "totalForks": "9822",
+      "growth": "+8639",
+      "growthValue": 8639,
       "rank": 2
     },
     {
@@ -27,144 +27,133 @@
       "link": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "totalStars": "102671",
-      "totalForks": "6067",
-      "growth": "+10322",
-      "growthValue": 10322,
+      "totalStars": "103310",
+      "totalForks": "6116",
+      "growth": "+8261",
+      "growthValue": 8261,
       "rank": 3
-    },
-    {
-      "name": "thedotmack/claude-mem",
-      "link": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "language": "TypeScript",
-      "totalStars": "112717",
-      "totalForks": "9795",
-      "growth": "+8727",
-      "growthValue": 8727,
-      "rank": 4
     },
     {
       "name": "Nutlope/hallmark",
       "link": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "totalStars": "47821",
-      "totalForks": "2526",
-      "growth": "+7307",
-      "growthValue": 7307,
-      "rank": 5
-    },
-    {
-      "name": "Leonxlnx/taste-skill",
-      "link": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "language": "JavaScript",
-      "totalStars": "109987",
-      "totalForks": "7396",
-      "growth": "+5695",
-      "growthValue": 5695,
-      "rank": 6
+      "totalStars": "48327",
+      "totalForks": "2563",
+      "growth": "+6390",
+      "growthValue": 6390,
+      "rank": 4
     },
     {
       "name": "obra/superpowers",
       "link": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "totalStars": "312379",
-      "totalForks": "27787",
-      "growth": "+5067",
-      "growthValue": 5067,
-      "rank": 7
+      "totalStars": "312677",
+      "totalForks": "27817",
+      "growth": "+4302",
+      "growthValue": 4302,
+      "rank": 5
     },
     {
       "name": "multica-ai/andrej-karpathy-skills",
       "link": "https://github.com/multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "",
-      "totalStars": "229453",
-      "totalForks": "22846",
-      "growth": "+3550",
-      "growthValue": 3550,
-      "rank": 8
+      "totalStars": "229667",
+      "totalForks": "22865",
+      "growth": "+3302",
+      "growthValue": 3302,
+      "rank": 6
     },
     {
       "name": "AgriciDaniel/claude-seo",
       "link": "https://github.com/AgriciDaniel/claude-seo",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
-      "totalStars": "26622",
-      "totalForks": "3464",
-      "growth": "+3350",
-      "growthValue": 3350,
-      "rank": 9
-    },
-    {
-      "name": "JetBrains/thinkrail",
-      "link": "https://github.com/JetBrains/thinkrail",
-      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-      "language": "TypeScript",
-      "totalStars": "7585",
-      "totalForks": "462",
-      "growth": "+2671",
-      "growthValue": 2671,
-      "rank": 10
+      "totalStars": "26821",
+      "totalForks": "3484",
+      "growth": "+2904",
+      "growthValue": 2904,
+      "rank": 7
     },
     {
       "name": "anthropics/skills",
       "link": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "totalStars": "187384",
-      "totalForks": "22113",
-      "growth": "+2203",
-      "growthValue": 2203,
-      "rank": 11
+      "totalStars": "187569",
+      "totalForks": "22127",
+      "growth": "+2388",
+      "growthValue": 2388,
+      "rank": 8
+    },
+    {
+      "name": "JetBrains/thinkrail",
+      "link": "https://github.com/JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "totalStars": "7702",
+      "totalForks": "468",
+      "growth": "+1787",
+      "growthValue": 1787,
+      "rank": 9
     },
     {
       "name": "jakubkrehel/skills",
       "link": "https://github.com/jakubkrehel/skills",
       "description": "A collection of agent skills that help you build great interfaces.",
       "language": "Markdown",
-      "totalStars": "10779",
-      "totalForks": "415",
-      "growth": "+1842",
-      "growthValue": 1842,
-      "rank": 12
-    },
-    {
-      "name": "hyprwm/Hyprland",
-      "link": "https://github.com/hyprwm/Hyprland",
-      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
-      "language": "C++",
-      "totalStars": "40294",
-      "totalForks": "2165",
-      "growth": "+1006",
-      "growthValue": 1006,
-      "rank": 13
+      "totalStars": "10895",
+      "totalForks": "421",
+      "growth": "+1746",
+      "growthValue": 1746,
+      "rank": 10
     },
     {
       "name": "max-sixty/worktrunk",
       "link": "https://github.com/max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
-      "totalStars": "10966",
-      "totalForks": "409",
-      "growth": "+963",
-      "growthValue": 963,
-      "rank": 14
+      "totalStars": "11280",
+      "totalForks": "424",
+      "growth": "+1277",
+      "growthValue": 1277,
+      "rank": 11
+    },
+    {
+      "name": "hyprwm/Hyprland",
+      "link": "https://github.com/hyprwm/Hyprland",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "language": "C++",
+      "totalStars": "40328",
+      "totalForks": "2168",
+      "growth": "+1040",
+      "growthValue": 1040,
+      "rank": 12
     },
     {
       "name": "ghostty-org/ghostty",
       "link": "https://github.com/ghostty-org/ghostty",
       "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
       "language": "Zig",
-      "totalStars": "63534",
-      "totalForks": "3818",
-      "growth": "+375",
-      "growthValue": 375,
-      "rank": 15
+      "totalStars": "63594",
+      "totalForks": "3825",
+      "growth": "+435",
+      "growthValue": 435,
+      "rank": 13
+    },
+    {
+      "name": "calesthio/OpenMontage",
+      "link": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "totalStars": "76833",
+      "totalForks": "10188",
+      "growth": "+383",
+      "growthValue": 383,
+      "rank": 14
     }
   ],
-  "lastUpdated": "2026-11-04 21:06"
+  "lastUpdated": "2026-11-05 10:31"
 }
