@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "sherlock-project/sherlock",
+      "link": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "totalStars": "100151",
+      "totalForks": "11845",
+      "growth": "+100151",
+      "growthValue": 100151,
+      "rank": 1
+    },
+    {
+      "name": "tailwindlabs/tailwindcss",
+      "link": "https://github.com/tailwindlabs/tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "language": "TypeScript",
+      "totalStars": "98368",
+      "totalForks": "7101",
+      "growth": "+98368",
+      "growthValue": 98368,
+      "rank": 2
+    },
+    {
+      "name": "meta/astryx",
+      "link": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "totalStars": "14337",
+      "totalForks": "1178",
+      "growth": "+14337",
+      "growthValue": 14337,
+      "rank": 3
+    },
+    {
+      "name": "ranxianglei/billion-context",
+      "link": "https://github.com/ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "language": "TypeScript",
+      "totalStars": "4542",
+      "totalForks": "364",
+      "growth": "+4542",
+      "growthValue": 4542,
+      "rank": 4
+    },
+    {
+      "name": "milind-soni/OpenMausBot",
+      "link": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "totalStars": "16771",
+      "totalForks": "2379",
+      "growth": "+1727",
+      "growthValue": 1727,
+      "rank": 5
+    },
+    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "64615",
-      "totalForks": "4195",
-      "growth": "+925",
-      "growthValue": 925,
-      "rank": 1
+      "totalStars": "65386",
+      "totalForks": "4247",
+      "growth": "+1696",
+      "growthValue": 1696,
+      "rank": 6
     },
     {
-      "name": "NVIDIA/auto-ontology",
-      "link": "https://github.com/NVIDIA/auto-ontology",
-      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "name": "mbillow/localthings",
+      "link": "https://github.com/mbillow/localthings",
+      "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
       "language": "Python",
-      "totalStars": "9507",
-      "totalForks": "760",
-      "growth": "+677",
-      "growthValue": 677,
-      "rank": 2
+      "totalStars": "1012",
+      "totalForks": "109",
+      "growth": "+1012",
+      "growthValue": 1012,
+      "rank": 7
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "317073",
-      "totalForks": "26537",
-      "growth": "+513",
-      "growthValue": 513,
-      "rank": 3
+      "totalStars": "317515",
+      "totalForks": "26569",
+      "growth": "+955",
+      "growthValue": 955,
+      "rank": 8
     },
     {
       "name": "zed-industries/zed",
       "link": "https://github.com/zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
-      "totalStars": "93972",
-      "totalForks": "11531",
-      "growth": "+509",
-      "growthValue": 509,
-      "rank": 4
-    },
-    {
-      "name": "google/skills",
-      "link": "https://github.com/google/skills",
-      "description": "Agent Skills for Google products and technologies",
-      "language": "Python",
-      "totalStars": "23015",
-      "totalForks": "1935",
-      "growth": "+232",
-      "growthValue": 232,
-      "rank": 5
-    },
-    {
-      "name": "rust-lang/rust",
-      "link": "https://github.com/rust-lang/rust",
-      "description": "Empowering everyone to build reliable and efficient software.",
-      "language": "Rust",
-      "totalStars": "121565",
-      "totalForks": "17368",
-      "growth": "+211",
-      "growthValue": 211,
-      "rank": 6
-    },
-    {
-      "name": "angular/angular",
-      "link": "https://github.com/angular/angular",
-      "description": "Deliver web apps with confidence 🚀",
-      "language": "TypeScript",
-      "totalStars": "101455",
-      "totalForks": "28917",
-      "growth": "+180",
-      "growthValue": 180,
-      "rank": 7
-    },
-    {
-      "name": "astral-sh/ruff",
-      "link": "https://github.com/astral-sh/ruff",
-      "description": "An extremely fast Python linter and code formatter, written in Rust.",
-      "language": "Rust",
-      "totalStars": "50781",
-      "totalForks": "2618",
-      "growth": "+174",
-      "growthValue": 174,
-      "rank": 8
-    },
-    {
-      "name": "microsoft/vscode",
-      "link": "https://github.com/microsoft/vscode",
-      "description": "Visual Studio Code",
-      "language": "TypeScript",
-      "totalStars": "195108",
-      "totalForks": "44438",
-      "growth": "+160",
-      "growthValue": 160,
+      "totalStars": "94201",
+      "totalForks": "11547",
+      "growth": "+738",
+      "growthValue": 738,
       "rank": 9
     },
     {
-      "name": "prometheus/prometheus",
-      "link": "https://github.com/prometheus/prometheus",
-      "description": "The Prometheus monitoring system and time series database.",
+      "name": "dsx-ai-factory/nvke",
+      "link": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
       "language": "Go",
-      "totalStars": "67264",
-      "totalForks": "10993",
-      "growth": "+155",
-      "growthValue": 155,
+      "totalStars": "485",
+      "totalForks": "85",
+      "growth": "+485",
+      "growthValue": 485,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-11-07 09:46"
+  "lastUpdated": "2026-11-07 19:17"
 }
