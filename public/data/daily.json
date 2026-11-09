@@ -1,47 +1,47 @@
 {
   "projects": [
     {
-      "name": "meta/astryx",
-      "link": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "language": "TypeScript",
-      "totalStars": "16744",
-      "totalForks": "1321",
-      "growth": "+560",
-      "growthValue": 560,
-      "rank": 1
-    },
-    {
       "name": "sherlock-project/sherlock",
       "link": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "totalStars": "103476",
-      "totalForks": "12129",
-      "growth": "+518",
-      "growthValue": 518,
-      "rank": 2
+      "totalStars": "105765",
+      "totalForks": "12282",
+      "growth": "+2807",
+      "growthValue": 2807,
+      "rank": 1
     },
     {
-      "name": "anthropics/skills",
-      "link": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "language": "Python",
-      "totalStars": "189636",
-      "totalForks": "22347",
-      "growth": "+197",
-      "growthValue": 197,
-      "rank": 3
+      "name": "meta/astryx",
+      "link": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "totalStars": "18189",
+      "totalForks": "1420",
+      "growth": "+2005",
+      "growthValue": 2005,
+      "rank": 2
     },
     {
       "name": "milind-soni/OpenMausBot",
       "link": "https://github.com/milind-soni/OpenMausBot",
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
-      "totalStars": "18243",
-      "totalForks": "2533",
-      "growth": "+194",
-      "growthValue": 194,
+      "totalStars": "19114",
+      "totalForks": "2638",
+      "growth": "+1065",
+      "growthValue": 1065,
+      "rank": 3
+    },
+    {
+      "name": "anthropics/skills",
+      "link": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "totalStars": "190080",
+      "totalForks": "22387",
+      "growth": "+641",
+      "growthValue": 641,
       "rank": 4
     },
     {
@@ -49,32 +49,32 @@
       "link": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "totalStars": "47591",
-      "totalForks": "3258",
-      "growth": "+137",
-      "growthValue": 137,
+      "totalStars": "48083",
+      "totalForks": "3286",
+      "growth": "+629",
+      "growthValue": 629,
       "rank": 5
-    },
-    {
-      "name": "google-deepmind/mujoco",
-      "link": "https://github.com/google-deepmind/mujoco",
-      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-      "language": "C++",
-      "totalStars": "16410",
-      "totalForks": "1953",
-      "growth": "+104",
-      "growthValue": 104,
-      "rank": 6
     },
     {
       "name": "ranxianglei/billion-context",
       "link": "https://github.com/ranxianglei/billion-context",
       "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "language": "TypeScript",
-      "totalStars": "5142",
-      "totalForks": "405",
-      "growth": "+100",
-      "growthValue": 100,
+      "totalStars": "5567",
+      "totalForks": "423",
+      "growth": "+525",
+      "growthValue": 525,
+      "rank": 6
+    },
+    {
+      "name": "google-deepmind/mujoco",
+      "link": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "totalStars": "16697",
+      "totalForks": "1969",
+      "growth": "+391",
+      "growthValue": 391,
       "rank": 7
     },
     {
@@ -82,10 +82,10 @@
       "link": "https://github.com/anthropics/claude-quickstarts",
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "language": "Python",
-      "totalStars": "19411",
-      "totalForks": "3280",
-      "growth": "+87",
-      "growthValue": 87,
+      "totalStars": "19703",
+      "totalForks": "3293",
+      "growth": "+379",
+      "growthValue": 379,
       "rank": 8
     },
     {
@@ -93,12 +93,12 @@
       "link": "https://github.com/dsx-ai-factory/nvke",
       "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
       "language": "Go",
-      "totalStars": "846",
-      "totalForks": "111",
-      "growth": "+66",
-      "growthValue": 66,
+      "totalStars": "995",
+      "totalForks": "116",
+      "growth": "+215",
+      "growthValue": 215,
       "rank": 9
     }
   ],
-  "lastUpdated": "2026-11-09 00:38"
+  "lastUpdated": "2026-11-09 11:06"
 }
