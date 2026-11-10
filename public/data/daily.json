@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "addyosmani/agent-skills",
-      "link": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "totalStars": "114752",
-      "totalForks": "11993",
-      "growth": "+114752",
-      "growthValue": 114752,
-      "rank": 1
-    },
-    {
-      "name": "we-promise/sure",
-      "link": "https://github.com/we-promise/sure",
-      "description": "The personal finance app for everyone (by everyone)",
-      "language": "Ruby",
-      "totalStars": "11371",
-      "totalForks": "795",
-      "growth": "+11371",
-      "growthValue": 11371,
-      "rank": 2
-    },
-    {
-      "name": "tokio-rs/topcoat",
-      "link": "https://github.com/tokio-rs/topcoat",
-      "description": "A batteries-included framework for building web apps",
-      "language": "Rust",
-      "totalStars": "6571",
-      "totalForks": "235",
-      "growth": "+6571",
-      "growthValue": 6571,
-      "rank": 3
-    },
-    {
       "name": "meta/astryx",
       "link": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "totalStars": "21258",
-      "totalForks": "1654",
-      "growth": "+1333",
-      "growthValue": 1333,
-      "rank": 4
+      "totalStars": "22513",
+      "totalForks": "1798",
+      "growth": "+2588",
+      "growthValue": 2588,
+      "rank": 1
     },
     {
       "name": "sherlock-project/sherlock",
       "link": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "totalStars": "108099",
-      "totalForks": "12527",
-      "growth": "+1147",
-      "growthValue": 1147,
-      "rank": 5
+      "totalStars": "108810",
+      "totalForks": "12649",
+      "growth": "+1858",
+      "growthValue": 1858,
+      "rank": 2
     },
     {
       "name": "anthropics/skills",
       "link": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "totalStars": "191697",
-      "totalForks": "22530",
-      "growth": "+786",
-      "growthValue": 786,
-      "rank": 6
+      "totalStars": "192190",
+      "totalForks": "22629",
+      "growth": "+1279",
+      "growthValue": 1279,
+      "rank": 3
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "320247",
-      "totalForks": "26819",
-      "growth": "+545",
-      "growthValue": 545,
-      "rank": 7
+      "totalStars": "320794",
+      "totalForks": "26901",
+      "growth": "+1092",
+      "growthValue": 1092,
+      "rank": 4
     },
     {
       "name": "vercel-labs/agent-browser",
       "link": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "totalStars": "48851",
-      "totalForks": "3386",
-      "growth": "+417",
-      "growthValue": 417,
-      "rank": 8
-    },
-    {
-      "name": "homeassistant-ai/ha-mcp",
-      "link": "https://github.com/homeassistant-ai/ha-mcp",
-      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "language": "Python",
-      "totalStars": "6303",
-      "totalForks": "347",
-      "growth": "+368",
-      "growthValue": 368,
-      "rank": 9
+      "totalStars": "49126",
+      "totalForks": "3445",
+      "growth": "+692",
+      "growthValue": 692,
+      "rank": 5
     },
     {
       "name": "ranxianglei/billion-context",
       "link": "https://github.com/ranxianglei/billion-context",
       "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "language": "TypeScript",
-      "totalStars": "5925",
-      "totalForks": "449",
-      "growth": "+358",
-      "growthValue": 358,
+      "totalStars": "6235",
+      "totalForks": "525",
+      "growth": "+668",
+      "growthValue": 668,
+      "rank": 6
+    },
+    {
+      "name": "homeassistant-ai/ha-mcp",
+      "link": "https://github.com/homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "language": "Python",
+      "totalStars": "6564",
+      "totalForks": "428",
+      "growth": "+629",
+      "growthValue": 629,
+      "rank": 7
+    },
+    {
+      "name": "we-promise/sure",
+      "link": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "totalStars": "11818",
+      "totalForks": "882",
+      "growth": "+447",
+      "growthValue": 447,
+      "rank": 8
+    },
+    {
+      "name": "anthropics/claude-quickstarts",
+      "link": "https://github.com/anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python",
+      "totalStars": "20433",
+      "totalForks": "3468",
+      "growth": "+441",
+      "growthValue": 441,
+      "rank": 9
+    },
+    {
+      "name": "google-deepmind/mujoco",
+      "link": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "totalStars": "17299",
+      "totalForks": "2143",
+      "growth": "+409",
+      "growthValue": 409,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-11-10 10:52"
+  "lastUpdated": "2026-11-10 21:14"
 }
