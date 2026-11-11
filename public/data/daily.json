@@ -1,91 +1,91 @@
 {
   "projects": [
     {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "totalStars": "70116",
+      "totalForks": "56819",
+      "growth": "+70116",
+      "growthValue": 70116,
+      "rank": 1
+    },
+    {
+      "name": "TheAlgorithms/Java",
+      "link": "https://github.com/TheAlgorithms/Java",
+      "description": "All Algorithms implemented in Java",
+      "language": "Java",
+      "totalStars": "66977",
+      "totalForks": "21500",
+      "growth": "+66977",
+      "growthValue": 66977,
+      "rank": 2
+    },
+    {
+      "name": "openai/codex-security",
+      "link": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "totalStars": "11648",
+      "totalForks": "925",
+      "growth": "+11648",
+      "growthValue": 11648,
+      "rank": 3
+    },
+    {
+      "name": "shadcn/improve",
+      "link": "https://github.com/shadcn/improve",
+      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "language": "",
+      "totalStars": "10775",
+      "totalForks": "439",
+      "growth": "+10775",
+      "growthValue": 10775,
+      "rank": 4
+    },
+    {
       "name": "meta/astryx",
       "link": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "totalStars": "24029",
-      "totalForks": "1877",
-      "growth": "+1516",
-      "growthValue": 1516,
-      "rank": 1
+      "totalStars": "24790",
+      "totalForks": "1938",
+      "growth": "+2277",
+      "growthValue": 2277,
+      "rank": 5
     },
     {
-      "name": "sherlock-project/sherlock",
-      "link": "https://github.com/sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "language": "Python",
-      "totalStars": "109694",
-      "totalForks": "12711",
-      "growth": "+884",
-      "growthValue": 884,
-      "rank": 2
-    },
-    {
-      "name": "mattpocock/skills",
-      "link": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "totalStars": "321429",
-      "totalForks": "26943",
-      "growth": "+635",
-      "growthValue": 635,
-      "rank": 3
+      "name": "GoogleChrome/modern-web-guidance-src",
+      "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "",
+      "language": "TypeScript",
+      "totalStars": "1671",
+      "totalForks": "137",
+      "growth": "+1671",
+      "growthValue": 1671,
+      "rank": 6
     },
     {
       "name": "we-promise/sure",
       "link": "https://github.com/we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
-      "totalStars": "12422",
-      "totalForks": "917",
-      "growth": "+604",
-      "growthValue": 604,
-      "rank": 4
-    },
-    {
-      "name": "anthropics/skills",
-      "link": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "language": "Python",
-      "totalStars": "192766",
-      "totalForks": "22681",
-      "growth": "+576",
-      "growthValue": 576,
-      "rank": 5
+      "totalStars": "12852",
+      "totalForks": "950",
+      "growth": "+1034",
+      "growthValue": 1034,
+      "rank": 7
     },
     {
       "name": "addyosmani/agent-skills",
       "link": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "totalStars": "115499",
-      "totalForks": "12118",
-      "growth": "+432",
-      "growthValue": 432,
-      "rank": 6
-    },
-    {
-      "name": "ranxianglei/billion-context",
-      "link": "https://github.com/ranxianglei/billion-context",
-      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
-      "language": "TypeScript",
-      "totalStars": "6662",
-      "totalForks": "543",
-      "growth": "+427",
-      "growthValue": 427,
-      "rank": 7
-    },
-    {
-      "name": "vercel-labs/agent-browser",
-      "link": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "totalStars": "49545",
-      "totalForks": "3469",
-      "growth": "+419",
-      "growthValue": 419,
+      "totalStars": "115862",
+      "totalForks": "12152",
+      "growth": "+795",
+      "growthValue": 795,
       "rank": 8
     },
     {
@@ -93,23 +93,23 @@
       "link": "https://github.com/homeassistant-ai/ha-mcp",
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "language": "Python",
-      "totalStars": "6924",
-      "totalForks": "442",
-      "growth": "+360",
-      "growthValue": 360,
+      "totalStars": "7277",
+      "totalForks": "451",
+      "growth": "+713",
+      "growthValue": 713,
       "rank": 9
     },
     {
-      "name": "tokio-rs/topcoat",
-      "link": "https://github.com/tokio-rs/topcoat",
-      "description": "A batteries-included framework for building web apps",
+      "name": "vercel-labs/agent-browser",
+      "link": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "totalStars": "7034",
-      "totalForks": "312",
-      "growth": "+292",
-      "growthValue": 292,
+      "totalStars": "49804",
+      "totalForks": "3484",
+      "growth": "+678",
+      "growthValue": 678,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-11-11 10:31"
+  "lastUpdated": "2026-11-11 21:47"
 }
