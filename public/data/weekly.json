@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "herdrdev/herdr",
-      "link": "https://github.com/herdrdev/herdr",
-      "description": "the runtime your coding agents live on",
-      "language": "Rust",
-      "totalStars": "50295",
-      "totalForks": "4063",
-      "growth": "+50295",
-      "growthValue": 50295,
-      "rank": 1
-    },
-    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "70272",
-      "totalForks": "4659",
-      "growth": "+11202",
-      "growthValue": 11202,
+      "totalStars": "70708",
+      "totalForks": "4696",
+      "growth": "+9463",
+      "growthValue": 9463,
+      "rank": 1
+    },
+    {
+      "name": "milind-soni/OpenMausBot",
+      "link": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "totalStars": "21491",
+      "totalForks": "2995",
+      "growth": "+8320",
+      "growthValue": 8320,
       "rank": 2
     },
     {
@@ -27,32 +27,32 @@
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "321934",
-      "totalForks": "26994",
-      "growth": "+8831",
-      "growthValue": 8831,
+      "totalStars": "322461",
+      "totalForks": "27046",
+      "growth": "+7426",
+      "growthValue": 7426,
       "rank": 3
-    },
-    {
-      "name": "milind-soni/OpenMausBot",
-      "link": "https://github.com/milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "language": "TypeScript",
-      "totalStars": "21201",
-      "totalForks": "2957",
-      "growth": "+8030",
-      "growthValue": 8030,
-      "rank": 4
     },
     {
       "name": "vercel-labs/agent-desktop",
       "link": "https://github.com/vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
-      "totalStars": "22003",
-      "totalForks": "1638",
-      "growth": "+7196",
-      "growthValue": 7196,
+      "totalStars": "22417",
+      "totalForks": "1665",
+      "growth": "+5716",
+      "growthValue": 5716,
+      "rank": 4
+    },
+    {
+      "name": "anthropics/skills",
+      "link": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "totalStars": "193420",
+      "totalForks": "22760",
+      "growth": "+5701",
+      "growthValue": 5701,
       "rank": 5
     },
     {
@@ -60,21 +60,21 @@
       "link": "https://github.com/NVIDIA/auto-ontology",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
-      "totalStars": "11804",
-      "totalForks": "968",
-      "growth": "+7145",
-      "growthValue": 7145,
+      "totalStars": "12064",
+      "totalForks": "992",
+      "growth": "+4928",
+      "growthValue": 4928,
       "rank": 6
     },
     {
-      "name": "anthropics/skills",
-      "link": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "language": "Python",
-      "totalStars": "193076",
-      "totalForks": "22724",
-      "growth": "+5692",
-      "growthValue": 5692,
+      "name": "vercel-labs/agent-browser",
+      "link": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "totalStars": "50139",
+      "totalForks": "3496",
+      "growth": "+4328",
+      "growthValue": 4328,
       "rank": 7
     },
     {
@@ -82,67 +82,45 @@
       "link": "https://github.com/D4Vinci/Scrapling",
       "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here:https://discord.gg/EMgGbDceNQand follow here for daily tips and tricks:https://x.com/Scrapling_dev",
       "language": "Python",
-      "totalStars": "101610",
-      "totalForks": "10588",
-      "growth": "+5258",
-      "growthValue": 5258,
+      "totalStars": "101879",
+      "totalForks": "10607",
+      "growth": "+4036",
+      "growthValue": 4036,
       "rank": 8
-    },
-    {
-      "name": "vercel-labs/agent-browser",
-      "link": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "totalStars": "49804",
-      "totalForks": "3484",
-      "growth": "+3993",
-      "growthValue": 3993,
-      "rank": 9
-    },
-    {
-      "name": "Donchitos/Claude-Code-Game-Studios",
-      "link": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-      "language": "Shell",
-      "totalStars": "38432",
-      "totalForks": "5002",
-      "growth": "+3323",
-      "growthValue": 3323,
-      "rank": 10
     },
     {
       "name": "google/skills",
       "link": "https://github.com/google/skills",
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
-      "totalStars": "23926",
-      "totalForks": "1995",
-      "growth": "+1619",
-      "growthValue": 1619,
-      "rank": 11
+      "totalStars": "23996",
+      "totalForks": "1999",
+      "growth": "+1689",
+      "growthValue": 1689,
+      "rank": 9
     },
     {
       "name": "google-deepmind/mujoco",
       "link": "https://github.com/google-deepmind/mujoco",
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "language": "C++",
-      "totalStars": "17627",
-      "totalForks": "2168",
-      "growth": "+1321",
-      "growthValue": 1321,
-      "rank": 12
+      "totalStars": "17711",
+      "totalForks": "2177",
+      "growth": "+1405",
+      "growthValue": 1405,
+      "rank": 10
     },
     {
       "name": "zed-industries/zed",
       "link": "https://github.com/zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
-      "totalStars": "94697",
-      "totalForks": "11627",
-      "growth": "+1234",
-      "growthValue": 1234,
-      "rank": 13
+      "totalStars": "94773",
+      "totalForks": "11642",
+      "growth": "+1310",
+      "growthValue": 1310,
+      "rank": 11
     }
   ],
-  "lastUpdated": "2026-11-11 21:47"
+  "lastUpdated": "2026-11-12 10:46"
 }
