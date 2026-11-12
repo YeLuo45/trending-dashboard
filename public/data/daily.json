@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "ggml-org/llama.cpp",
-      "link": "https://github.com/ggml-org/llama.cpp",
-      "description": "LLM inference in C/C++",
-      "language": "C++",
-      "totalStars": "134212",
-      "totalForks": "25464",
-      "growth": "+134212",
-      "growthValue": 134212,
-      "rank": 1
-    },
-    {
-      "name": "nodejs/node",
-      "link": "https://github.com/nodejs/node",
-      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-      "language": "JavaScript",
-      "totalStars": "123486",
-      "totalForks": "38049",
-      "growth": "+123486",
-      "growthValue": 123486,
-      "rank": 2
-    },
-    {
-      "name": "nvm-sh/nvm",
-      "link": "https://github.com/nvm-sh/nvm",
-      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-      "language": "Shell",
-      "totalStars": "95912",
-      "totalForks": "10753",
-      "growth": "+95912",
-      "growthValue": 95912,
-      "rank": 3
-    },
-    {
-      "name": "Alishahryar1/free-claude-code",
-      "link": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-      "language": "Python",
-      "totalStars": "68813",
-      "totalForks": "10717",
-      "growth": "+68813",
-      "growthValue": 68813,
-      "rank": 4
-    },
-    {
-      "name": "QwenLM/qwen-code",
-      "link": "https://github.com/QwenLM/qwen-code",
-      "description": "An open-source AI coding agent that lives in your terminal.",
-      "language": "TypeScript",
-      "totalStars": "29511",
-      "totalForks": "3374",
-      "growth": "+29511",
-      "growthValue": 29511,
-      "rank": 5
-    },
-    {
-      "name": "CopilotKit/OpenBot",
-      "link": "https://github.com/CopilotKit/OpenBot",
-      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-      "language": "TypeScript",
-      "totalStars": "11176",
-      "totalForks": "1387",
-      "growth": "+11176",
-      "growthValue": 11176,
-      "rank": 6
-    },
-    {
-      "name": "ashhart/TensorFold",
-      "link": "https://github.com/ashhart/TensorFold",
-      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "language": "Zig",
-      "totalStars": "1807",
-      "totalForks": "385",
-      "growth": "+1807",
-      "growthValue": 1807,
-      "rank": 7
-    },
-    {
-      "name": "pookjw/HermesEnabler",
-      "link": "https://github.com/pookjw/HermesEnabler",
-      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
-      "language": "Objective-C",
-      "totalStars": "1310",
-      "totalForks": "123",
-      "growth": "+1310",
-      "growthValue": 1310,
-      "rank": 8
-    },
-    {
       "name": "meta/astryx",
       "link": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "totalStars": "25839",
-      "totalForks": "2008",
-      "growth": "+1049",
-      "growthValue": 1049,
-      "rank": 9
+      "totalStars": "26401",
+      "totalForks": "2046",
+      "growth": "+1611",
+      "growthValue": 1611,
+      "rank": 1
+    },
+    {
+      "name": "GoogleChrome/modern-web-guidance-src",
+      "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "totalStars": "2762",
+      "totalForks": "188",
+      "growth": "+1091",
+      "growthValue": 1091,
+      "rank": 2
     },
     {
       "name": "we-promise/sure",
       "link": "https://github.com/we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
-      "totalStars": "13397",
-      "totalForks": "987",
-      "growth": "+545",
-      "growthValue": 545,
+      "totalStars": "13824",
+      "totalForks": "1025",
+      "growth": "+972",
+      "growthValue": 972,
+      "rank": 3
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "totalStars": "116612",
+      "totalForks": "12205",
+      "growth": "+750",
+      "growthValue": 750,
+      "rank": 4
+    },
+    {
+      "name": "openai/codex-security",
+      "link": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "totalStars": "12339",
+      "totalForks": "973",
+      "growth": "+691",
+      "growthValue": 691,
+      "rank": 5
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "link": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "totalStars": "69199",
+      "totalForks": "10750",
+      "growth": "+386",
+      "growthValue": 386,
+      "rank": 6
+    },
+    {
+      "name": "CopilotKit/OpenBot",
+      "link": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "totalStars": "11515",
+      "totalForks": "1428",
+      "growth": "+339",
+      "growthValue": 339,
+      "rank": 7
+    },
+    {
+      "name": "ggml-org/llama.cpp",
+      "link": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "totalStars": "134492",
+      "totalForks": "25503",
+      "growth": "+280",
+      "growthValue": 280,
+      "rank": 8
+    },
+    {
+      "name": "QwenLM/qwen-code",
+      "link": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript",
+      "totalStars": "29750",
+      "totalForks": "3391",
+      "growth": "+239",
+      "growthValue": 239,
+      "rank": 9
+    },
+    {
+      "name": "pookjw/HermesEnabler",
+      "link": "https://github.com/pookjw/HermesEnabler",
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "language": "Objective-C",
+      "totalStars": "1500",
+      "totalForks": "138",
+      "growth": "+190",
+      "growthValue": 190,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-11-12 10:46"
+  "lastUpdated": "2026-11-12 21:46"
 }
