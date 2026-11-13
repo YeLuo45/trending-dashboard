@@ -1,126 +1,170 @@
 {
   "projects": [
     {
+      "name": "lobehub/lobehub",
+      "link": "https://github.com/lobehub/lobehub",
+      "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+      "language": "TypeScript",
+      "totalStars": "85362",
+      "totalForks": "16289",
+      "growth": "+85362",
+      "growthValue": 85362,
+      "rank": 1
+    },
+    {
+      "name": "google/elephant-goldfish-model",
+      "link": "https://github.com/google/elephant-goldfish-model",
+      "description": "Open-source plugin for designing and reviewing software with agents",
+      "language": "Python",
+      "totalStars": "18565",
+      "totalForks": "1383",
+      "growth": "+18565",
+      "growthValue": 18565,
+      "rank": 2
+    },
+    {
+      "name": "sherlock-project/sherlock",
+      "link": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "totalStars": "111060",
+      "totalForks": "12854",
+      "growth": "+10909",
+      "growthValue": 10909,
+      "rank": 3
+    },
+    {
       "name": "cloudflare/security-audit-skill",
       "link": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "totalStars": "71484",
-      "totalForks": "4762",
-      "growth": "+7794",
-      "growthValue": 7794,
-      "rank": 1
-    },
-    {
-      "name": "milind-soni/OpenMausBot",
-      "link": "https://github.com/milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "language": "TypeScript",
-      "totalStars": "21949",
-      "totalForks": "3044",
-      "growth": "+6905",
-      "growthValue": 6905,
-      "rank": 2
+      "totalStars": "71829",
+      "totalForks": "4785",
+      "growth": "+8139",
+      "growthValue": 8139,
+      "rank": 4
     },
     {
       "name": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "totalStars": "323364",
-      "totalForks": "27138",
-      "growth": "+6804",
-      "growthValue": 6804,
-      "rank": 3
+      "totalStars": "323748",
+      "totalForks": "27168",
+      "growth": "+7188",
+      "growthValue": 7188,
+      "rank": 5
+    },
+    {
+      "name": "milind-soni/OpenMausBot",
+      "link": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "totalStars": "22138",
+      "totalForks": "3070",
+      "growth": "+7094",
+      "growthValue": 7094,
+      "rank": 6
     },
     {
       "name": "anthropics/skills",
       "link": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "totalStars": "193914",
-      "totalForks": "22809",
-      "growth": "+5789",
-      "growthValue": 5789,
-      "rank": 4
+      "totalStars": "194105",
+      "totalForks": "22826",
+      "growth": "+5980",
+      "growthValue": 5980,
+      "rank": 7
     },
     {
       "name": "vercel-labs/agent-desktop",
       "link": "https://github.com/vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
-      "totalStars": "23001",
-      "totalForks": "1704",
-      "growth": "+5401",
-      "growthValue": 5401,
-      "rank": 5
+      "totalStars": "23245",
+      "totalForks": "1721",
+      "growth": "+5645",
+      "growthValue": 5645,
+      "rank": 8
     },
     {
       "name": "vercel-labs/agent-browser",
       "link": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "totalStars": "50485",
-      "totalForks": "3512",
-      "growth": "+4288",
-      "growthValue": 4288,
-      "rank": 6
-    },
-    {
-      "name": "D4Vinci/Scrapling",
-      "link": "https://github.com/D4Vinci/Scrapling",
-      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here:https://discord.gg/EMgGbDceNQand follow here for daily tips and tricks:https://x.com/Scrapling_dev",
-      "language": "Python",
-      "totalStars": "102356",
-      "totalForks": "10652",
-      "growth": "+3582",
-      "growthValue": 3582,
-      "rank": 7
+      "totalStars": "50672",
+      "totalForks": "3523",
+      "growth": "+4475",
+      "growthValue": 4475,
+      "rank": 9
     },
     {
       "name": "NVIDIA/auto-ontology",
       "link": "https://github.com/NVIDIA/auto-ontology",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
-      "totalStars": "12402",
-      "totalForks": "1017",
-      "growth": "+3572",
-      "growthValue": 3572,
-      "rank": 8
+      "totalStars": "12522",
+      "totalForks": "1026",
+      "growth": "+3692",
+      "growthValue": 3692,
+      "rank": 10
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "totalStars": "71512",
+      "totalForks": "57268",
+      "growth": "+2709",
+      "growthValue": 2709,
+      "rank": 11
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "totalStars": "117110",
+      "totalForks": "12244",
+      "growth": "+2043",
+      "growthValue": 2043,
+      "rank": 12
     },
     {
       "name": "google-deepmind/mujoco",
       "link": "https://github.com/google-deepmind/mujoco",
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "language": "C++",
-      "totalStars": "17812",
-      "totalForks": "2185",
-      "growth": "+1506",
-      "growthValue": 1506,
-      "rank": 9
+      "totalStars": "17858",
+      "totalForks": "2187",
+      "growth": "+1552",
+      "growthValue": 1552,
+      "rank": 13
+    },
+    {
+      "name": "anthropics/claude-quickstarts",
+      "link": "https://github.com/anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python",
+      "totalStars": "20856",
+      "totalForks": "3491",
+      "growth": "+1532",
+      "growthValue": 1532,
+      "rank": 14
     },
     {
       "name": "zed-industries/zed",
       "link": "https://github.com/zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
-      "totalStars": "94896",
-      "totalForks": "11679",
-      "growth": "+1433",
-      "growthValue": 1433,
-      "rank": 10
-    },
-    {
-      "name": "google/skills",
-      "link": "https://github.com/google/skills",
-      "description": "Agent Skills for Google products and technologies",
-      "language": "Python",
-      "totalStars": "24117",
-      "totalForks": "2006",
-      "growth": "+1334",
-      "growthValue": 1334,
-      "rank": 11
+      "totalStars": "94950",
+      "totalForks": "11691",
+      "growth": "+1487",
+      "growthValue": 1487,
+      "rank": 15
     }
   ],
-  "lastUpdated": "2026-11-13 10:42"
+  "lastUpdated": "2026-11-13 21:16"
 }

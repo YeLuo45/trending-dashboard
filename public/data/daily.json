@@ -1,115 +1,115 @@
 {
   "projects": [
     {
+      "name": "louislam/uptime-kuma",
+      "link": "https://github.com/louislam/uptime-kuma",
+      "description": "A fancy self-hosted monitoring tool",
+      "language": "JavaScript",
+      "totalStars": "93804",
+      "totalForks": "8718",
+      "growth": "+93804",
+      "growthValue": 93804,
+      "rank": 1
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "totalStars": "71512",
+      "totalForks": "57268",
+      "growth": "+71512",
+      "growthValue": 71512,
+      "rank": 2
+    },
+    {
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "link": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "totalStars": "55399",
+      "totalForks": "4602",
+      "growth": "+55399",
+      "growthValue": 55399,
+      "rank": 3
+    },
+    {
+      "name": "alibaba/open-code-review",
+      "link": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "totalStars": "50520",
+      "totalForks": "3749",
+      "growth": "+50520",
+      "growthValue": 50520,
+      "rank": 4
+    },
+    {
+      "name": "block/buzz",
+      "link": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "totalStars": "37272",
+      "totalForks": "4940",
+      "growth": "+37272",
+      "growthValue": 37272,
+      "rank": 5
+    },
+    {
+      "name": "backnotprop/plannotator",
+      "link": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "totalStars": "10395",
+      "totalForks": "782",
+      "growth": "+10395",
+      "growthValue": 10395,
+      "rank": 6
+    },
+    {
+      "name": "tailscale/tailcat",
+      "link": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "totalStars": "9391",
+      "totalForks": "429",
+      "growth": "+9391",
+      "growthValue": 9391,
+      "rank": 7
+    },
+    {
+      "name": "tradermonty/claude-trading-skills",
+      "link": "https://github.com/tradermonty/claude-trading-skills",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "language": "Python",
+      "totalStars": "4100",
+      "totalForks": "859",
+      "growth": "+4100",
+      "growthValue": 4100,
+      "rank": 8
+    },
+    {
       "name": "GoogleChrome/modern-web-guidance-src",
       "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "totalStars": "4034",
-      "totalForks": "237",
-      "growth": "+1272",
-      "growthValue": 1272,
-      "rank": 1
-    },
-    {
-      "name": "meta/astryx",
-      "link": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "language": "TypeScript",
-      "totalStars": "27069",
-      "totalForks": "2093",
-      "growth": "+668",
-      "growthValue": 668,
-      "rank": 2
-    },
-    {
-      "name": "we-promise/sure",
-      "link": "https://github.com/we-promise/sure",
-      "description": "The personal finance app for everyone (by everyone)",
-      "language": "Ruby",
-      "totalStars": "14320",
-      "totalForks": "1078",
-      "growth": "+496",
-      "growthValue": 496,
-      "rank": 3
-    },
-    {
-      "name": "Alishahryar1/free-claude-code",
-      "link": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-      "language": "Python",
-      "totalStars": "69680",
-      "totalForks": "10802",
-      "growth": "+481",
-      "growthValue": 481,
-      "rank": 4
-    },
-    {
-      "name": "CopilotKit/OpenBot",
-      "link": "https://github.com/CopilotKit/OpenBot",
-      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-      "language": "TypeScript",
-      "totalStars": "11968",
-      "totalForks": "1464",
-      "growth": "+453",
-      "growthValue": 453,
-      "rank": 5
-    },
-    {
-      "name": "openai/codex-security",
-      "link": "https://github.com/openai/codex-security",
-      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
-      "language": "TypeScript",
-      "totalStars": "12773",
-      "totalForks": "1001",
-      "growth": "+434",
-      "growthValue": 434,
-      "rank": 6
-    },
-    {
-      "name": "addyosmani/agent-skills",
-      "link": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "totalStars": "116958",
-      "totalForks": "12224",
-      "growth": "+346",
-      "growthValue": 346,
-      "rank": 7
-    },
-    {
-      "name": "QwenLM/qwen-code",
-      "link": "https://github.com/QwenLM/qwen-code",
-      "description": "An open-source AI coding agent that lives in your terminal.",
-      "language": "TypeScript",
-      "totalStars": "30074",
-      "totalForks": "3416",
-      "growth": "+324",
-      "growthValue": 324,
-      "rank": 8
-    },
-    {
-      "name": "ggml-org/llama.cpp",
-      "link": "https://github.com/ggml-org/llama.cpp",
-      "description": "LLM inference in C/C++",
-      "language": "C++",
-      "totalStars": "134807",
-      "totalForks": "25539",
-      "growth": "+315",
-      "growthValue": 315,
+      "totalStars": "4683",
+      "totalForks": "263",
+      "growth": "+1921",
+      "growthValue": 1921,
       "rank": 9
     },
     {
-      "name": "pookjw/HermesEnabler",
-      "link": "https://github.com/pookjw/HermesEnabler",
-      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
-      "language": "Objective-C",
-      "totalStars": "1688",
-      "totalForks": "147",
-      "growth": "+188",
-      "growthValue": 188,
+      "name": "Likely7/Veyra-NRVideo",
+      "link": "https://github.com/Likely7/Veyra-NRVideo",
+      "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+      "language": "C++",
+      "totalStars": "1578",
+      "totalForks": "71",
+      "growth": "+1578",
+      "growthValue": 1578,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-11-13 10:42"
+  "lastUpdated": "2026-11-13 21:16"
 }
