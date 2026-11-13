@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "name": "meta/astryx",
-      "link": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "language": "TypeScript",
-      "totalStars": "26401",
-      "totalForks": "2046",
-      "growth": "+1611",
-      "growthValue": 1611,
-      "rank": 1
-    },
-    {
       "name": "GoogleChrome/modern-web-guidance-src",
       "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "totalStars": "2762",
-      "totalForks": "188",
-      "growth": "+1091",
-      "growthValue": 1091,
+      "totalStars": "4034",
+      "totalForks": "237",
+      "growth": "+1272",
+      "growthValue": 1272,
+      "rank": 1
+    },
+    {
+      "name": "meta/astryx",
+      "link": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "totalStars": "27069",
+      "totalForks": "2093",
+      "growth": "+668",
+      "growthValue": 668,
       "rank": 2
     },
     {
@@ -27,76 +27,76 @@
       "link": "https://github.com/we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
-      "totalStars": "13824",
-      "totalForks": "1025",
-      "growth": "+972",
-      "growthValue": 972,
+      "totalStars": "14320",
+      "totalForks": "1078",
+      "growth": "+496",
+      "growthValue": 496,
       "rank": 3
-    },
-    {
-      "name": "addyosmani/agent-skills",
-      "link": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "totalStars": "116612",
-      "totalForks": "12205",
-      "growth": "+750",
-      "growthValue": 750,
-      "rank": 4
-    },
-    {
-      "name": "openai/codex-security",
-      "link": "https://github.com/openai/codex-security",
-      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
-      "language": "TypeScript",
-      "totalStars": "12339",
-      "totalForks": "973",
-      "growth": "+691",
-      "growthValue": 691,
-      "rank": 5
     },
     {
       "name": "Alishahryar1/free-claude-code",
       "link": "https://github.com/Alishahryar1/free-claude-code",
       "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "language": "Python",
-      "totalStars": "69199",
-      "totalForks": "10750",
-      "growth": "+386",
-      "growthValue": 386,
-      "rank": 6
+      "totalStars": "69680",
+      "totalForks": "10802",
+      "growth": "+481",
+      "growthValue": 481,
+      "rank": 4
     },
     {
       "name": "CopilotKit/OpenBot",
       "link": "https://github.com/CopilotKit/OpenBot",
       "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
       "language": "TypeScript",
-      "totalStars": "11515",
-      "totalForks": "1428",
-      "growth": "+339",
-      "growthValue": 339,
-      "rank": 7
+      "totalStars": "11968",
+      "totalForks": "1464",
+      "growth": "+453",
+      "growthValue": 453,
+      "rank": 5
     },
     {
-      "name": "ggml-org/llama.cpp",
-      "link": "https://github.com/ggml-org/llama.cpp",
-      "description": "LLM inference in C/C++",
-      "language": "C++",
-      "totalStars": "134492",
-      "totalForks": "25503",
-      "growth": "+280",
-      "growthValue": 280,
-      "rank": 8
+      "name": "openai/codex-security",
+      "link": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "totalStars": "12773",
+      "totalForks": "1001",
+      "growth": "+434",
+      "growthValue": 434,
+      "rank": 6
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "totalStars": "116958",
+      "totalForks": "12224",
+      "growth": "+346",
+      "growthValue": 346,
+      "rank": 7
     },
     {
       "name": "QwenLM/qwen-code",
       "link": "https://github.com/QwenLM/qwen-code",
       "description": "An open-source AI coding agent that lives in your terminal.",
       "language": "TypeScript",
-      "totalStars": "29750",
-      "totalForks": "3391",
-      "growth": "+239",
-      "growthValue": 239,
+      "totalStars": "30074",
+      "totalForks": "3416",
+      "growth": "+324",
+      "growthValue": 324,
+      "rank": 8
+    },
+    {
+      "name": "ggml-org/llama.cpp",
+      "link": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "totalStars": "134807",
+      "totalForks": "25539",
+      "growth": "+315",
+      "growthValue": 315,
       "rank": 9
     },
     {
@@ -104,12 +104,12 @@
       "link": "https://github.com/pookjw/HermesEnabler",
       "description": "Enable Hermès Watch Faces on any Apple Watch devices",
       "language": "Objective-C",
-      "totalStars": "1500",
-      "totalForks": "138",
-      "growth": "+190",
-      "growthValue": 190,
+      "totalStars": "1688",
+      "totalForks": "147",
+      "growth": "+188",
+      "growthValue": 188,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-11-12 21:46"
+  "lastUpdated": "2026-11-13 10:42"
 }
