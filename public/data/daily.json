@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "dream-num/univer",
-      "link": "https://github.com/dream-num/univer",
-      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "language": "TypeScript",
-      "totalStars": "25160",
-      "totalForks": "2306",
-      "growth": "+766",
-      "growthValue": 766,
+      "name": "ggml-org/ggml",
+      "link": "https://github.com/ggml-org/ggml",
+      "description": "Tensor library for machine learning",
+      "language": "C++",
+      "totalStars": "15868",
+      "totalForks": "2017",
+      "growth": "+15868",
+      "growthValue": 15868,
       "rank": 1
+    },
+    {
+      "name": "google-labs-code/stitch-skills",
+      "link": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "totalStars": "9212",
+      "totalForks": "1125",
+      "growth": "+9212",
+      "growthValue": 9212,
+      "rank": 2
+    },
+    {
+      "name": "elementalsouls/Claude-BugHunter",
+      "link": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "language": "Python",
+      "totalStars": "6248",
+      "totalForks": "960",
+      "growth": "+6248",
+      "growthValue": 6248,
+      "rank": 3
+    },
+    {
+      "name": "NVIDIA/SkillEvaluator",
+      "link": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "language": "Python",
+      "totalStars": "1544",
+      "totalForks": "225",
+      "growth": "+1544",
+      "growthValue": 1544,
+      "rank": 4
     },
     {
       "name": "GoogleChrome/modern-web-guidance-src",
       "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "totalStars": "6462",
-      "totalForks": "511",
-      "growth": "+670",
-      "growthValue": 670,
-      "rank": 2
+      "totalStars": "6991",
+      "totalForks": "592",
+      "growth": "+1199",
+      "growthValue": 1199,
+      "rank": 5
+    },
+    {
+      "name": "dream-num/univer",
+      "link": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "language": "TypeScript",
+      "totalStars": "25496",
+      "totalForks": "2330",
+      "growth": "+1102",
+      "growthValue": 1102,
+      "rank": 6
     },
     {
       "name": "backnotprop/plannotator",
       "link": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "totalStars": "11484",
-      "totalForks": "1010",
-      "growth": "+510",
-      "growthValue": 510,
-      "rank": 3
-    },
-    {
-      "name": "Likely7/Veyra-NRVideo",
-      "link": "https://github.com/Likely7/Veyra-NRVideo",
-      "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
-      "language": "C++",
-      "totalStars": "2513",
-      "totalForks": "207",
-      "growth": "+427",
-      "growthValue": 427,
-      "rank": 4
+      "totalStars": "11743",
+      "totalForks": "1077",
+      "growth": "+769",
+      "growthValue": 769,
+      "rank": 7
     },
     {
       "name": "tradermonty/claude-trading-skills",
       "link": "https://github.com/tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
-      "totalStars": "5092",
-      "totalForks": "1085",
-      "growth": "+413",
-      "growthValue": 413,
-      "rank": 5
-    },
-    {
-      "name": "martin-olivier/airgorah",
-      "link": "https://github.com/martin-olivier/airgorah",
-      "description": "A WiFi security auditing software",
-      "language": "Rust",
-      "totalStars": "6103",
-      "totalForks": "1049",
-      "growth": "+378",
-      "growthValue": 378,
-      "rank": 6
+      "totalStars": "5407",
+      "totalForks": "1166",
+      "growth": "+728",
+      "growthValue": 728,
+      "rank": 8
     },
     {
       "name": "ChromeDevTools/chrome-devtools-mcp",
       "link": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "totalStars": "56543",
-      "totalForks": "4786",
-      "growth": "+344",
-      "growthValue": 344,
-      "rank": 7
+      "totalStars": "56825",
+      "totalForks": "4803",
+      "growth": "+626",
+      "growthValue": 626,
+      "rank": 9
     },
     {
       "name": "alibaba/open-code-review",
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "51656",
-      "totalForks": "4015",
-      "growth": "+344",
-      "growthValue": 344,
-      "rank": 8
-    },
-    {
-      "name": "JuliusBrussee/caveman",
-      "link": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "language": "Go",
-      "totalStars": "120265",
-      "totalForks": "7011",
-      "growth": "+293",
-      "growthValue": 293,
-      "rank": 9
-    },
-    {
-      "name": "we-promise/sure",
-      "link": "https://github.com/we-promise/sure",
-      "description": "The personal finance app for everyone (by everyone)",
-      "language": "Ruby",
-      "totalStars": "15490",
-      "totalForks": "1355",
-      "growth": "+286",
-      "growthValue": 286,
+      "totalStars": "51929",
+      "totalForks": "4096",
+      "growth": "+617",
+      "growthValue": 617,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-11-15 10:32"
+  "lastUpdated": "2026-11-15 20:13"
 }
