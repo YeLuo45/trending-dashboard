@@ -1,115 +1,115 @@
 {
   "projects": [
     {
-      "name": "elementalsouls/Claude-BugHunter",
-      "link": "https://github.com/elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "language": "Python",
-      "totalStars": "11268",
-      "totalForks": "1503",
-      "growth": "+2125",
-      "growthValue": 2125,
-      "rank": 1
-    },
-    {
-      "name": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "totalStars": "321284",
-      "totalForks": "28549",
-      "growth": "+2003",
-      "growthValue": 2003,
-      "rank": 2
-    },
-    {
       "name": "google-research/paper-orchestra",
       "link": "https://github.com/google-research/paper-orchestra",
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "language": "Python",
-      "totalStars": "4214",
-      "totalForks": "528",
-      "growth": "+1317",
-      "growthValue": 1317,
-      "rank": 3
-    },
-    {
-      "name": "affaan-m/ECC",
-      "link": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "totalStars": "306442",
-      "totalForks": "45114",
-      "growth": "+999",
-      "growthValue": 999,
-      "rank": 4
+      "totalStars": "4776",
+      "totalForks": "584",
+      "growth": "+562",
+      "growthValue": 562,
+      "rank": 1
     },
     {
       "name": "mvanhorn/last30days-skill",
       "link": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "totalStars": "69934",
-      "totalForks": "6240",
-      "growth": "+951",
-      "growthValue": 951,
-      "rank": 5
-    },
-    {
-      "name": "getarcaneapp/arcane",
-      "link": "https://github.com/getarcaneapp/arcane",
-      "description": "Modern Docker Management, Designed for Everyone",
-      "language": "Go",
-      "totalStars": "9773",
-      "totalForks": "560",
-      "growth": "+488",
-      "growthValue": 488,
-      "rank": 6
+      "totalStars": "70476",
+      "totalForks": "6275",
+      "growth": "+542",
+      "growthValue": 542,
+      "rank": 2
     },
     {
       "name": "HKUDS/CLI-Anything",
       "link": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "totalStars": "59674",
-      "totalForks": "5422",
-      "growth": "+366",
-      "growthValue": 366,
+      "totalStars": "60182",
+      "totalForks": "5461",
+      "growth": "+508",
+      "growthValue": 508,
+      "rank": 3
+    },
+    {
+      "name": "DeanChensj/jiangshan-map",
+      "link": "https://github.com/DeanChensj/jiangshan-map",
+      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+      "language": "JavaScript",
+      "totalStars": "8377",
+      "totalForks": "1026",
+      "growth": "+466",
+      "growthValue": 466,
+      "rank": 4
+    },
+    {
+      "name": "affaan-m/ECC",
+      "link": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "totalStars": "306899",
+      "totalForks": "45177",
+      "growth": "+457",
+      "growthValue": 457,
+      "rank": 5
+    },
+    {
+      "name": "obra/superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "321621",
+      "totalForks": "28590",
+      "growth": "+337",
+      "growthValue": 337,
+      "rank": 6
+    },
+    {
+      "name": "n8n-io/n8n",
+      "link": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "totalStars": "211358",
+      "totalForks": "61587",
+      "growth": "+327",
+      "growthValue": 327,
       "rank": 7
     },
     {
-      "name": "google-labs-code/stitch-skills",
-      "link": "https://github.com/google-labs-code/stitch-skills",
-      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "language": "TypeScript",
-      "totalStars": "10379",
-      "totalForks": "1365",
-      "growth": "+306",
-      "growthValue": 306,
+      "name": "NVIDIA/SkillEvaluator",
+      "link": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.",
+      "language": "Python",
+      "totalStars": "3994",
+      "totalForks": "534",
+      "growth": "+312",
+      "growthValue": 312,
       "rank": 8
+    },
+    {
+      "name": "getarcaneapp/arcane",
+      "link": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "totalStars": "10048",
+      "totalForks": "571",
+      "growth": "+275",
+      "growthValue": 275,
+      "rank": 9
     },
     {
       "name": "cursor/plugins",
       "link": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "totalStars": "17171",
-      "totalForks": "1893",
-      "growth": "+298",
-      "growthValue": 298,
-      "rank": 9
-    },
-    {
-      "name": "NVIDIA/SkillEvaluator",
-      "link": "https://github.com/NVIDIA/SkillEvaluator",
-      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "language": "Python",
-      "totalStars": "3682",
-      "totalForks": "513",
-      "growth": "+242",
-      "growthValue": 242,
+      "totalStars": "17408",
+      "totalForks": "1920",
+      "growth": "+237",
+      "growthValue": 237,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-11-18 22:30"
+  "lastUpdated": "2026-11-19 11:18"
 }
