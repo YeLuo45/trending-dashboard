@@ -5,10 +5,10 @@
       "link": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
-      "totalStars": "16724",
-      "totalForks": "1889",
-      "growth": "+922",
-      "growthValue": 922,
+      "totalStars": "17532",
+      "totalForks": "1951",
+      "growth": "+1730",
+      "growthValue": 1730,
       "rank": 1
     },
     {
@@ -16,10 +16,10 @@
       "link": "https://github.com/firecrawl/firecrawl",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
-      "totalStars": "206531",
-      "totalForks": "10796",
-      "growth": "+472",
-      "growthValue": 472,
+      "totalStars": "206908",
+      "totalForks": "10813",
+      "growth": "+849",
+      "growthValue": 849,
       "rank": 2
     },
     {
@@ -27,10 +27,10 @@
       "link": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "totalStars": "72304",
-      "totalForks": "6400",
-      "growth": "+397",
-      "growthValue": 397,
+      "totalStars": "72619",
+      "totalForks": "6419",
+      "growth": "+712",
+      "growthValue": 712,
       "rank": 3
     },
     {
@@ -38,10 +38,10 @@
       "link": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "totalStars": "62363",
-      "totalForks": "5664",
-      "growth": "+379",
-      "growthValue": 379,
+      "totalStars": "62687",
+      "totalForks": "5687",
+      "growth": "+703",
+      "growthValue": 703,
       "rank": 4
     },
     {
@@ -49,32 +49,32 @@
       "link": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
       "description": "The only downloader you need. 下载器的集大成者。",
       "language": "Python",
-      "totalStars": "14746",
-      "totalForks": "888",
-      "growth": "+378",
-      "growthValue": 378,
+      "totalStars": "15038",
+      "totalForks": "902",
+      "growth": "+670",
+      "growthValue": 670,
       "rank": 5
-    },
-    {
-      "name": "mjmirza/app-store-compliance",
-      "link": "https://github.com/mjmirza/app-store-compliance",
-      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
-      "language": "Shell",
-      "totalStars": "3646",
-      "totalForks": "220",
-      "growth": "+341",
-      "growthValue": 341,
-      "rank": 6
     },
     {
       "name": "zhouxiaoka/autoclip",
       "link": "https://github.com/zhouxiaoka/autoclip",
       "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "language": "Python",
-      "totalStars": "13117",
-      "totalForks": "2097",
-      "growth": "+341",
-      "growthValue": 341,
+      "totalStars": "13371",
+      "totalForks": "2116",
+      "growth": "+595",
+      "growthValue": 595,
+      "rank": 6
+    },
+    {
+      "name": "mjmirza/app-store-compliance",
+      "link": "https://github.com/mjmirza/app-store-compliance",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "language": "Shell",
+      "totalStars": "3896",
+      "totalForks": "235",
+      "growth": "+591",
+      "growthValue": 591,
       "rank": 7
     },
     {
@@ -82,10 +82,10 @@
       "link": "https://github.com/toeverything/AFFiNE",
       "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "language": "TypeScript",
-      "totalStars": "76512",
-      "totalForks": "5606",
-      "growth": "+301",
-      "growthValue": 301,
+      "totalStars": "76750",
+      "totalForks": "5616",
+      "growth": "+539",
+      "growthValue": 539,
       "rank": 8
     },
     {
@@ -93,23 +93,23 @@
       "link": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "totalStars": "11663",
-      "totalForks": "1461",
-      "growth": "+298",
-      "growthValue": 298,
+      "totalStars": "11860",
+      "totalForks": "1472",
+      "growth": "+495",
+      "growthValue": 495,
       "rank": 9
     },
     {
-      "name": "cathrynlavery/diagram-design",
-      "link": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "totalStars": "70019",
-      "totalForks": "4698",
-      "growth": "+272",
-      "growthValue": 272,
+      "name": "jingyaogong/minimind",
+      "link": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "language": "Python",
+      "totalStars": "68590",
+      "totalForks": "8972",
+      "growth": "+494",
+      "growthValue": 494,
       "rank": 10
     }
   ],
-  "lastUpdated": "2026-11-22 10:54"
+  "lastUpdated": "2026-11-22 20:57"
 }
