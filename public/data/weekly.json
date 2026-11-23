@@ -1,80 +1,80 @@
 {
   "projects": [
     {
-      "name": "dream-num/univer",
-      "link": "https://github.com/dream-num/univer",
-      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "language": "TypeScript",
-      "totalStars": "31238",
-      "totalForks": "2842",
-      "growth": "+5742",
-      "growthValue": 5742,
-      "rank": 1
-    },
-    {
       "name": "mvanhorn/last30days-skill",
       "link": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "totalStars": "72619",
-      "totalForks": "6419",
-      "growth": "+4520",
-      "growthValue": 4520,
+      "totalStars": "72740",
+      "totalForks": "6425",
+      "growth": "+4641",
+      "growthValue": 4641,
+      "rank": 1
+    },
+    {
+      "name": "dream-num/univer",
+      "link": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "language": "TypeScript",
+      "totalStars": "31273",
+      "totalForks": "2844",
+      "growth": "+3519",
+      "growthValue": 3519,
       "rank": 2
-    },
-    {
-      "name": "alibaba/open-code-review",
-      "link": "https://github.com/alibaba/open-code-review",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "language": "Go",
-      "totalStars": "55369",
-      "totalForks": "4599",
-      "growth": "+3440",
-      "growthValue": 3440,
-      "rank": 3
-    },
-    {
-      "name": "ag-ui-protocol/ag-ui",
-      "link": "https://github.com/ag-ui-protocol/ag-ui",
-      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "language": "TypeScript",
-      "totalStars": "21172",
-      "totalForks": "2156",
-      "growth": "+3423",
-      "growthValue": 3423,
-      "rank": 4
-    },
-    {
-      "name": "meta/astryx",
-      "link": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "language": "TypeScript",
-      "totalStars": "32167",
-      "totalForks": "2526",
-      "growth": "+3419",
-      "growthValue": 3419,
-      "rank": 5
-    },
-    {
-      "name": "GoogleChrome/modern-web-guidance-src",
-      "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "description": "Keep your coding agent up to date with the latest web best practices",
-      "language": "TypeScript",
-      "totalStars": "10172",
-      "totalForks": "810",
-      "growth": "+3181",
-      "growthValue": 3181,
-      "rank": 6
     },
     {
       "name": "kajisho5/ffmpeg-skill",
       "link": "https://github.com/kajisho5/ffmpeg-skill",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "Python",
-      "totalStars": "9654",
-      "totalForks": "860",
-      "growth": "+2995",
-      "growthValue": 2995,
+      "totalStars": "9738",
+      "totalForks": "865",
+      "growth": "+3079",
+      "growthValue": 3079,
+      "rank": 3
+    },
+    {
+      "name": "meta/astryx",
+      "link": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "totalStars": "32243",
+      "totalForks": "2529",
+      "growth": "+2689",
+      "growthValue": 2689,
+      "rank": 4
+    },
+    {
+      "name": "alibaba/open-code-review",
+      "link": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "totalStars": "55425",
+      "totalForks": "4604",
+      "growth": "+2513",
+      "growthValue": 2513,
+      "rank": 5
+    },
+    {
+      "name": "ag-ui-protocol/ag-ui",
+      "link": "https://github.com/ag-ui-protocol/ag-ui",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "language": "TypeScript",
+      "totalStars": "21201",
+      "totalForks": "2157",
+      "growth": "+2272",
+      "growthValue": 2272,
+      "rank": 6
+    },
+    {
+      "name": "GoogleChrome/modern-web-guidance-src",
+      "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "totalStars": "10216",
+      "totalForks": "810",
+      "growth": "+2249",
+      "growthValue": 2249,
       "rank": 7
     },
     {
@@ -82,10 +82,10 @@
       "link": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "totalStars": "11860",
-      "totalForks": "1472",
-      "growth": "+2648",
-      "growthValue": 2648,
+      "totalStars": "11931",
+      "totalForks": "1475",
+      "growth": "+2205",
+      "growthValue": 2205,
       "rank": 8
     },
     {
@@ -93,10 +93,10 @@
       "link": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "totalStars": "14383",
-      "totalForks": "1428",
-      "growth": "+2640",
-      "growthValue": 2640,
+      "totalStars": "14441",
+      "totalForks": "1430",
+      "growth": "+1913",
+      "growthValue": 1913,
       "rank": 9
     },
     {
@@ -104,32 +104,32 @@
       "link": "https://github.com/tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
-      "totalStars": "7766",
-      "totalForks": "1494",
-      "growth": "+2359",
-      "growthValue": 2359,
+      "totalStars": "7796",
+      "totalForks": "1496",
+      "growth": "+1506",
+      "growthValue": 1506,
       "rank": 10
-    },
-    {
-      "name": "ChromeDevTools/chrome-devtools-mcp",
-      "link": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools for coding agents",
-      "language": "TypeScript",
-      "totalStars": "58823",
-      "totalForks": "4915",
-      "growth": "+1998",
-      "growthValue": 1998,
-      "rank": 11
     },
     {
       "name": "we-promise/sure",
       "link": "https://github.com/we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
-      "totalStars": "17316",
-      "totalForks": "1518",
-      "growth": "+1670",
-      "growthValue": 1670,
+      "totalStars": "17344",
+      "totalForks": "1526",
+      "growth": "+1346",
+      "growthValue": 1346,
+      "rank": 11
+    },
+    {
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "link": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "totalStars": "58847",
+      "totalForks": "4916",
+      "growth": "+1186",
+      "growthValue": 1186,
       "rank": 12
     },
     {
@@ -137,12 +137,12 @@
       "link": "https://github.com/pookjw/HermesEnabler",
       "description": "Enable Hermès Watch Faces on any Apple Watch devices",
       "language": "Objective-C",
-      "totalStars": "2397",
+      "totalStars": "2405",
       "totalForks": "200",
-      "growth": "+151",
-      "growthValue": 151,
+      "growth": "+159",
+      "growthValue": 159,
       "rank": 13
     }
   ],
-  "lastUpdated": "2026-11-22 20:57"
+  "lastUpdated": "2026-11-23 01:31"
 }
