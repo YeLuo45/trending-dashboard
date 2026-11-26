@@ -1,146 +1,146 @@
 {
   "projects": [
     {
+      "name": "obsidianmd/obsidian-skills",
+      "link": "https://github.com/obsidianmd/obsidian-skills",
+      "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
+      "language": "Shell",
+      "totalStars": "53990",
+      "totalForks": "3841",
+      "growth": "+53990",
+      "growthValue": 53990,
+      "rank": 1
+    },
+    {
       "name": "mvanhorn/last30days-skill",
       "link": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "totalStars": "75440",
-      "totalForks": "6653",
-      "growth": "+4689",
-      "growthValue": 4689,
-      "rank": 1
+      "totalStars": "75721",
+      "totalForks": "6677",
+      "growth": "+4970",
+      "growthValue": 4970,
+      "rank": 2
     },
     {
       "name": "kajisho5/ffmpeg-skill",
       "link": "https://github.com/kajisho5/ffmpeg-skill",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "Python",
-      "totalStars": "11332",
-      "totalForks": "952",
-      "growth": "+3012",
-      "growthValue": 3012,
-      "rank": 2
+      "totalStars": "11506",
+      "totalForks": "961",
+      "growth": "+3186",
+      "growthValue": 3186,
+      "rank": 3
     },
     {
       "name": "google-labs-code/stitch-skills",
       "link": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "totalStars": "13137",
-      "totalForks": "1549",
-      "growth": "+2444",
-      "growthValue": 2444,
-      "rank": 3
+      "totalStars": "13275",
+      "totalForks": "1562",
+      "growth": "+2582",
+      "growthValue": 2582,
+      "rank": 4
     },
     {
       "name": "meta/astryx",
       "link": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "totalStars": "33246",
-      "totalForks": "2597",
-      "growth": "+2316",
-      "growthValue": 2316,
-      "rank": 4
+      "totalStars": "33334",
+      "totalForks": "2601",
+      "growth": "+2404",
+      "growthValue": 2404,
+      "rank": 5
     },
     {
       "name": "alibaba/open-code-review",
       "link": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "totalStars": "56499",
-      "totalForks": "4671",
-      "growth": "+2129",
-      "growthValue": 2129,
-      "rank": 5
+      "totalStars": "56631",
+      "totalForks": "4684",
+      "growth": "+2261",
+      "growthValue": 2261,
+      "rank": 6
     },
     {
       "name": "GoogleChrome/modern-web-guidance-src",
       "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "totalStars": "11161",
-      "totalForks": "838",
-      "growth": "+2062",
-      "growthValue": 2062,
-      "rank": 6
+      "totalStars": "11249",
+      "totalForks": "842",
+      "growth": "+2150",
+      "growthValue": 2150,
+      "rank": 7
     },
     {
       "name": "backnotprop/plannotator",
       "link": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "totalStars": "15170",
-      "totalForks": "1455",
-      "growth": "+1523",
-      "growthValue": 1523,
-      "rank": 7
+      "totalStars": "15254",
+      "totalForks": "1458",
+      "growth": "+1607",
+      "growthValue": 1607,
+      "rank": 8
     },
     {
       "name": "dream-num/univer",
       "link": "https://github.com/dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
-      "totalStars": "31916",
+      "totalStars": "31967",
       "totalForks": "2872",
-      "growth": "+1488",
-      "growthValue": 1488,
-      "rank": 8
+      "growth": "+1539",
+      "growthValue": 1539,
+      "rank": 9
     },
     {
       "name": "we-promise/sure",
       "link": "https://github.com/we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
-      "totalStars": "18007",
-      "totalForks": "1565",
-      "growth": "+1309",
-      "growthValue": 1309,
-      "rank": 9
+      "totalStars": "18087",
+      "totalForks": "1570",
+      "growth": "+1389",
+      "growthValue": 1389,
+      "rank": 10
     },
     {
       "name": "tradermonty/claude-trading-skills",
       "link": "https://github.com/tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
-      "totalStars": "8523",
-      "totalForks": "1559",
-      "growth": "+1289",
-      "growthValue": 1289,
-      "rank": 10
+      "totalStars": "8596",
+      "totalForks": "1562",
+      "growth": "+1362",
+      "growthValue": 1362,
+      "rank": 11
     },
     {
       "name": "ag-ui-protocol/ag-ui",
       "link": "https://github.com/ag-ui-protocol/ag-ui",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
-      "totalStars": "21793",
-      "totalForks": "2189",
-      "growth": "+1173",
-      "growthValue": 1173,
-      "rank": 11
+      "totalStars": "21837",
+      "totalForks": "2190",
+      "growth": "+1217",
+      "growthValue": 1217,
+      "rank": 12
     },
     {
       "name": "ChromeDevTools/chrome-devtools-mcp",
       "link": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "totalStars": "59434",
-      "totalForks": "4892",
-      "growth": "+1085",
-      "growthValue": 1085,
-      "rank": 12
-    },
-    {
-      "name": "pookjw/HermesEnabler",
-      "link": "https://github.com/pookjw/HermesEnabler",
-      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
-      "language": "Objective-C",
-      "totalStars": "2533",
-      "totalForks": "206",
-      "growth": "+287",
-      "growthValue": 287,
+      "totalStars": "59501",
+      "totalForks": "4894",
+      "growth": "+1152",
+      "growthValue": 1152,
       "rank": 13
     },
     {
@@ -148,12 +148,23 @@
       "link": "https://github.com/n8n-io/nod",
       "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
       "language": "TypeScript",
-      "totalStars": "3736",
-      "totalForks": "593",
-      "growth": "+178",
-      "growthValue": 178,
+      "totalStars": "3997",
+      "totalForks": "616",
+      "growth": "+439",
+      "growthValue": 439,
       "rank": 14
+    },
+    {
+      "name": "pookjw/HermesEnabler",
+      "link": "https://github.com/pookjw/HermesEnabler",
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "language": "Objective-C",
+      "totalStars": "2544",
+      "totalForks": "206",
+      "growth": "+298",
+      "growthValue": 298,
+      "rank": 15
     }
   ],
-  "lastUpdated": "2026-11-26 12:03"
+  "lastUpdated": "2026-11-26 23:34"
 }
